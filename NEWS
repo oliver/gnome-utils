@@ -1,4 +1,44 @@
 ====================================================================
+GNOME Utilities 2.31.1 (5th August 2010) - "Just one of those things"
+
+    * First unstable release of the 2.31 cycle
+
+All
+
+    * Fix GSeal-related issues (Andre Klapper, Thomas Andersen)
+    * Stop using deprecated symbols (Thomas Andersen)
+
+Baobab
+
+    * Port to GtkSpinner (Thomas Andersen)
+    * Move gconf notifications functions all in the same place (Paolo Borelli)
+    * Connect to the notification of the monitor home pref (Paolo Borelli)
+    * Sync gconf when closing the prefs dialog (Paolo Borelli)
+    * Code cleanups (Paolo Borelli)
+
+Dictionary
+
+    * Avoid conflict with the "link" symbol defined in unistd.h (Paolo Borelli)
+
+Screenshot
+
+    * Correctly heck for shape.h if the xext is available instead of if not
+      (Neil Roberts)
+
+Search Tool
+
+    * Port to GtkSpinner (Thomas Andersen)
+
+Translations Updated by:
+
+    Runa Bhattacharjee (bn_IN), Alan (br), Joan Duran (ca), Joan Duran
+    (ca@valencia), Reşat SABIQ (crh), Thomas Thurman (en@shaw), Kristjan
+    SCHMIDT (eo), Boamaod (et), Fran Diéguez (gl), Andika Triwidada (id),
+    Vladimer Sichinava (ka), Rūdolfs Mazurs (lv), Manoj Kumar Giri (or), Adi
+    Roiban (ro), Danishka Navin (si), Krishna Babu K (te)
+
+
+====================================================================
 GNOME Utilities 2.30.0 (30th March 2010) - "God's Dice"
 
     * First stable release for GNOME 2.30.
