@@ -5,7 +5,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
 "POT-Creation-Date: 2010-05-27 23:14+0000\n"
-"PO-Revision-Date: 2010-06-11 16:43+0700\n"
+"PO-Revision-Date: 2010-08-06 18:24+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgstr "Apakah bilah status pada bagian bawah jendela utama harus nampak."
 
 #: ../baobab/data/baobab.schemas.in.h:9
 msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr ""
+msgstr "Apakah tooltip subfolder dari folder yang dipilih digambar."
 
 #: ../baobab/data/baobab.schemas.in.h:10
 msgid "Whether the toolbar should be visible in main window."
@@ -233,17 +233,16 @@ msgid "Zoom out"
 msgstr "Perkecil"
 
 #: ../baobab/src/baobab.c:905
-#, fuzzy
 msgid "Save screenshot"
-msgstr "Simpan Gambar Layar"
+msgstr "Simpan cuplikan layar"
 
 #: ../baobab/src/baobab.c:991
 msgid "View as Rings Chart"
-msgstr ""
+msgstr "Tilik Sebagai Diagram Cincin"
 
 #: ../baobab/src/baobab.c:993
 msgid "View as Treemap Chart"
-msgstr ""
+msgstr "Tilik Sebagai Diagram Peta Pohon"
 
 #: ../baobab/src/baobab.c:1092
 msgid "Show version"
@@ -255,40 +254,39 @@ msgstr "[DIREKTORI]"
 
 #: ../baobab/src/baobab.c:1123
 msgid "Too many arguments. Only one directory can be specified."
-msgstr ""
+msgstr "Terlalu banyak argumen. Hanya bisa menyatakan satu direktori."
 
 #: ../baobab/src/baobab.c:1141
-#, fuzzy
 msgid "Could not detect any mount point."
-msgstr "Nama dokumen belum dipilih."
+msgstr "Tak dapat mendeteksi titik kait manapun."
 
 #: ../baobab/src/baobab.c:1144
 msgid "Without mount points disk usage cannot be analyzed."
-msgstr ""
+msgstr "Tanpa titik kait penggunaan disk tak dapat dianalisis."
 
 #: ../baobab/src/baobab-chart.c:206
 msgid "Maximum depth"
-msgstr ""
+msgstr "Kedalaman maksimum"
 
 #: ../baobab/src/baobab-chart.c:207
 msgid "The maximum depth drawn in the chart from the root"
-msgstr ""
+msgstr "Kedalaman maksimum penggambaran diagram dari akar"
 
 #: ../baobab/src/baobab-chart.c:216
 msgid "Chart model"
-msgstr ""
+msgstr "Model diagram"
 
 #: ../baobab/src/baobab-chart.c:217
 msgid "Set the model of the chart"
-msgstr ""
+msgstr "Tata model diagram"
 
 #: ../baobab/src/baobab-chart.c:224
 msgid "Chart root node"
-msgstr ""
+msgstr "Titik akar diagram"
 
 #: ../baobab/src/baobab-chart.c:225
 msgid "Set the root node from the model"
-msgstr ""
+msgstr "Tata titik akar dari model"
 
 #: ../baobab/src/baobab-chart.c:1695
 msgid "Cannot create pixbuf image!"
@@ -415,24 +413,20 @@ msgid "_Scan"
 msgstr "_Pindai"
 
 #: ../baobab/src/baobab-treeview.c:86
-#, fuzzy
 msgid "Rescan your home folder?"
-msgstr "Periksa folder jauh"
+msgstr "Pindai ulang folder rumah Anda?"
 
 #: ../baobab/src/baobab-treeview.c:87
-#, fuzzy
 msgid ""
 "The content of your home folder has changed. Select rescan to update the "
 "disk usage details."
 msgstr ""
-"Isi dari direktori home anda telah berubah.\n"
-"Apakah anda ingin memeriksa pohon terakhir untuk memperbarui rincian cabang "
-"folder?"
+"Isi dari folder rumah Anda telah berubah. Pilih pindai ulang untuk "
+"memperbarui rincian pemakaian disk."
 
 #: ../baobab/src/baobab-treeview.c:88
-#, fuzzy
 msgid "_Rescan"
-msgstr "Pindai ulang"
+msgstr "_Pindai ulang"
 
 #: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
 msgid "Folder"
@@ -461,7 +455,7 @@ msgstr "Tampilkan folder ter_sembunyi"
 
 #: ../baobab/src/baobab-utils.c:301
 msgid "Cannot check an excluded folder!"
-msgstr ""
+msgstr "Tak bisa mencontreng folder yang tak disertakan"
 
 #: ../baobab/src/baobab-utils.c:325
 #, c-format
@@ -499,9 +493,8 @@ msgid "Could not open folder \"%s\""
 msgstr "Folder \"%s\" tidak dapat dibuka."
 
 #: ../baobab/src/baobab-utils.c:450
-#, fuzzy
 msgid "There is no installed viewer capable of displaying the folder."
-msgstr "Tidak ada pembaca berkas yang dapat membaca dokumen ini."
+msgstr "Tidak ada penilik yang dapat mampu menampilkan folder ini."
 
 #: ../baobab/src/baobab-utils.c:519
 #, c-format
@@ -981,9 +974,9 @@ msgstr ""
 "%s"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1860
-#, fuzzy, c-format
+#, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "Sambungan timeout ke server kamus pada '%s:%d'"
+msgstr "Sambungan habis waktu ke server kamus pada '%s:%d'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1894
 #, c-format
@@ -1160,9 +1153,8 @@ msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "Sumber kamus '%s' memiliki transport '%s' yang salah"
 
 #: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
-#, fuzzy
 msgid "Reload the list of available sources"
-msgstr "Baca ulang daftar basis data yang tersedia"
+msgstr "Muat ulang daftar sumber yang tersedia"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
 msgid "Paths"
@@ -1197,18 +1189,16 @@ msgid "The strategy used to query the GdictContext"
 msgstr "Strategi digunakan untuk membaca GdictContext"
 
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
-#, fuzzy
 msgid "Reload the list of available strategies"
-msgstr "Baca ulang daftar basis data yang tersedia"
+msgstr "Muat ulang daftar strategi yang tersedia"
 
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
-#, fuzzy
 msgid "Clear the list of available strategies"
-msgstr "Bersihkan daftar dari basis data tersedia"
+msgstr "Bersihkan daftar strategi tersedia"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:97
 msgid "GDict debugging flags to set"
-msgstr ""
+msgstr "Flag debug GDict yang akan ditata"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:97
 #: ../gnome-dictionary/libgdict/gdict-utils.c:99
@@ -1217,7 +1207,7 @@ msgstr "FLAGS"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:99
 msgid "GDict debugging flags to unset"
-msgstr ""
+msgstr "Flag debug GDict yang akan dibebaskan"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:157
 msgid "GDict Options"
@@ -1666,13 +1656,11 @@ msgstr "Klik ganda pada kata untuk menemukan"
 
 #. strat-chooser
 #: ../gnome-dictionary/src/gdict-window.c:1459
-#, fuzzy
 msgid "Double-click on the matching strategy to use"
 msgstr "Klik ganda pada strategi yang cocok untuk dipakai"
 
 #. source-chooser
 #: ../gnome-dictionary/src/gdict-window.c:1464
-#, fuzzy
 msgid "Double-click on the source to use"
 msgstr "Klik ganda pada sumber yang akan dipakai"
 
@@ -1711,7 +1699,7 @@ msgstr "Tak Ada"
 
 #: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "Drop shadow"
-msgstr ""
+msgstr "Bayangan jatuh"
 
 #: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Border"
@@ -1737,7 +1725,7 @@ msgstr "Ambil seluruh _desktop"
 
 #: ../gnome-screenshot/gnome-screenshot.c:449
 msgid "Grab the current _window"
-msgstr ""
+msgstr "Ambil _jendela kini"
 
 #: ../gnome-screenshot/gnome-screenshot.c:461
 msgid "Select _area to grab"
@@ -1748,7 +1736,7 @@ msgstr "Pilih wil_ayah untuk diambil"
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:478
 msgid "Grab _after a delay of"
-msgstr ""
+msgstr "Ambil setel_ah tundaan"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
@@ -1769,14 +1757,12 @@ msgid "Effects"
 msgstr "Efek"
 
 #: ../gnome-screenshot/gnome-screenshot.c:531
-#, fuzzy
 msgid "Take _Screenshot"
-msgstr "Ambil gambar layar"
+msgstr "Ambil _Cuplikan Layar"
 
 #: ../gnome-screenshot/gnome-screenshot.c:657
-#, fuzzy
 msgid "Error while saving screenshot"
-msgstr "Error saat mencocokkan"
+msgstr "Galat saat menyimpan cuplikan layar"
 
 #: ../gnome-screenshot/gnome-screenshot.c:661
 #, c-format
@@ -1785,16 +1771,17 @@ msgid ""
 " Error was %s.\n"
 " Please choose another location and retry."
 msgstr ""
+"Tak mungkin menyimpan cuplikan layar ke %s.\n"
+" Galatnya %s.\n"
+" Silakan pilih lokasi lain dan coba lagi."
 
 #: ../gnome-screenshot/gnome-screenshot.c:793
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "Gambar layar telah diambil"
+msgstr "Cuplikan layar telah diambil"
 
 #: ../gnome-screenshot/gnome-screenshot.c:847
-#, fuzzy
 msgid "Unable to take a screenshot of the current window"
-msgstr "Gambar layar desktop tidak dapat diambil."
+msgstr "Tak bisa mengambil cuplikan layar dari jendela kini"
 
 #: ../gnome-screenshot/gnome-screenshot.c:897
 #, c-format
@@ -1830,27 +1817,24 @@ msgid "Grab a window instead of the entire screen"
 msgstr "Ambil gambar pada jendela saja (jangan keseluruhan layar)"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1288
-#, fuzzy
 msgid "Grab an area of the screen instead of the entire screen"
-msgstr "Ambil gambar pada jendela saja (jangan keseluruhan layar)"
+msgstr "Tentukan wilayah layar, bukan seluruh layar"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Include the window border with the screenshot"
 msgstr "Ambil juga gambar bingkai jendelanya"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1290
-#, fuzzy
 msgid "Remove the window border from the screenshot"
-msgstr "Ambil juga gambar bingkai jendelanya"
+msgstr "Buang bingkai dari cuplikan layar"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1291
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Mulai ambil gambar setelah jeda waktu (dalam detik)"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1292
-#, fuzzy
 msgid "Effect to add to the border (shadow, border or none)"
-msgstr "Efek yang ditambahkan pada pinggir"
+msgstr "Efek yang ditambahkan pada batas (bayangan, batas, atau tak ada)"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1292
 msgid "effect"
@@ -1858,7 +1842,7 @@ msgstr "Efek"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1293
 msgid "Interactively set options"
-msgstr ""
+msgstr "Menata opsi secara interaktif"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1304
 msgid "Take a picture of the screen"
@@ -1869,7 +1853,7 @@ msgstr "Ambil gambar layar"
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
 "time.\n"
-msgstr ""
+msgstr "Opsi bertentangan: --window dan --area tak boleh dipakai bersama.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
@@ -1881,7 +1865,7 @@ msgstr "*"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:2
 msgid "C_opy to Clipboard"
-msgstr ""
+msgstr "Salin ke Clipb_oard"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:3
 msgid "Save Screenshot"
@@ -1905,12 +1889,15 @@ msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
 msgstr ""
+"Efek yang ditambahkan diluar batas tepi. Nilai yang mungkin adalah \"shadow"
+"\", \"none\", dan \"border\"."
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
 msgstr ""
+"Ambil hanya jendela kini, bukan seluruh desktop. Kunci ini tak dipakai lagi."
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
 msgid "Include Border"
@@ -1921,18 +1908,16 @@ msgid "Include Pointer"
 msgstr "Sertakan Penunjuk"
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
-#, fuzzy
 msgid "Include the pointer in the screenshot"
-msgstr "Ambil juga gambar bingkai jendelanya"
+msgstr "Sertakan penunjuk pada cuplikan layar"
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
 msgid "Include the window manager border along with the screenshot"
 msgstr "Tampilkan bingkai jendela pada gambar layar"
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
-#, fuzzy
 msgid "Screenshot delay"
-msgstr "Direktori cuplikan layar"
+msgstr "Tundaan cuplikan layar"
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
 msgid "Screenshot directory"
@@ -1944,20 +1929,19 @@ msgstr "Direktori dimana cuplikan layar terakhir disimpan."
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
 msgid "The number of seconds to wait before taking the screenshot."
-msgstr ""
+msgstr "Berapa detik mesti menunggu sebelum mengambil cuplikan layar."
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
 msgid "Window-specific screenshot (deprecated)"
-msgstr ""
+msgstr "Cuplikan layar spesifik jendela (tak dipakai lagi)"
 
 #: ../gnome-screenshot/screenshot-dialog.c:239
-#, fuzzy
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
 msgstr ""
-"Berkas glade untuk program cuplikan ini hilang.\n"
-"Coba periksa pemasangan gnome-utils anda"
+"Berkas definisi UI untuk program cuplikan ini hilang.\n"
+"Coba periksa instalasi gnome-utils Anda"
 
 #: ../gnome-screenshot/screenshot-dialog.c:260
 msgid "Select a folder"
@@ -1992,7 +1976,7 @@ msgid "File already exists"
 msgstr "Berkas sudah ada."
 
 #: ../gnome-screenshot/screenshot-xfer.c:77
-#, fuzzy, c-format
+#, c-format
 msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "Berkas \"%s\" sudah ada. Timpa saja?"
 
@@ -2076,9 +2060,8 @@ msgstr "Pilih pilihan \"Tanggal modifikasi lebih tua dari\""
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:21
-#, fuzzy
 msgid "Select the search option \"Exclude other filesystems\""
-msgstr "Pilih pilihan \"Cari di sistem berkas lain\""
+msgstr "Pilih opsi pencarian \"Tanpa sistem berkas lain\""
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2146,7 +2129,7 @@ msgstr "Tampilkan Pilihan Lainnya"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
+msgstr "Kunci ini menentukan nilai bawaan bagi widget \"Cari di Folder\"."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
 msgid ""
@@ -2225,13 +2208,12 @@ msgstr ""
 "program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
-#, fuzzy
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Kunci ini menentukan apakah pilihan \"Termasuk sistem berkas lainnya\" "
-"dipilih saat program pencari mulai dijalankan."
+"Kunci ini menentukan apakah pilihan \"Tanpa sistem berkas lain\" dipilih "
+"saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:63
 msgid ""
@@ -2526,12 +2508,12 @@ msgstr "taut ke %s"
 #. localizers: tag used to detect the first copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1490
 msgid " (copy)"
-msgstr " (salinan)"
+msgstr " (copy)"
 
 #. localizers: tag used to detect the second copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1492
 msgid " (another copy)"
-msgstr " (salinan lain)"
+msgstr " (another copy)"
 
 #. localizers: tag used to detect the x11th copy of a file
 #. localizers: tag used to detect the x12th copy of a file
@@ -2542,34 +2524,34 @@ msgstr " (salinan lain)"
 #: ../gsearchtool/gsearchtool-support.c:1499
 #: ../gsearchtool/gsearchtool-support.c:1509
 msgid "th copy)"
-msgstr ""
+msgstr "th copy)"
 
 #. localizers: tag used to detect the x1st copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1502
 msgid "st copy)"
-msgstr ""
+msgstr "st copy)"
 
 #. localizers: tag used to detect the x2nd copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1504
 msgid "nd copy)"
-msgstr ""
+msgstr "nd copy)"
 
 #. localizers: tag used to detect the x3rd copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1506
 msgid "rd copy)"
-msgstr ""
+msgstr "rd copy)"
 
 #. localizers: appended to first file copy
 #: ../gsearchtool/gsearchtool-support.c:1523
 #, c-format
 msgid "%s (copy)%s"
-msgstr ""
+msgstr "%s (copy)%s"
 
 #. localizers: appended to second file copy
 #: ../gsearchtool/gsearchtool-support.c:1525
 #, c-format
 msgid "%s (another copy)%s"
-msgstr ""
+msgstr "%s (another copy)%s"
 
 #. localizers: appended to x11th file copy
 #. localizers: appended to x12th file copy
@@ -2581,25 +2563,25 @@ msgstr ""
 #: ../gsearchtool/gsearchtool-support.c:1541
 #, c-format
 msgid "%s (%dth copy)%s"
-msgstr "%s (salinan ke-%d)%s"
+msgstr "%s (%dth copy)%s"
 
 #. localizers: appended to x1st file copy
 #: ../gsearchtool/gsearchtool-support.c:1535
 #, c-format
 msgid "%s (%dst copy)%s"
-msgstr "%s (salinan ke-%d)%s"
+msgstr "%s (%dst copy)%s"
 
 #. localizers: appended to x2nd file copy
 #: ../gsearchtool/gsearchtool-support.c:1537
 #, c-format
 msgid "%s (%dnd copy)%s"
-msgstr "%s (salinan ke-%d)%s"
+msgstr "%s (%dnd copy)%s"
 
 #. localizers: appended to x3rd file copy
 #: ../gsearchtool/gsearchtool-support.c:1539
 #, c-format
 msgid "%s (%drd copy)%s"
-msgstr "%s (salinan ke-%d)%s"
+msgstr "%s (%drd copy)%s"
 
 #: ../gsearchtool/gsearchtool-support.c:1586
 msgid " (invalid Unicode)"
@@ -2964,12 +2946,12 @@ msgstr "Klik untuk menghentikan pencarian"
 
 #: ../gsearchtool/gsearchtool.c:2973
 msgid "- the GNOME Search Tool"
-msgstr ""
+msgstr "- Alat Pencarian GNOME"
 
 #: ../gsearchtool/gsearchtool.c:2982
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to parse command line arguments: %s\n"
-msgstr "Pilihan yang salah diberikan pada argumen perintah sortby"
+msgstr "Gagal mengurai argumen baris perintah: %s\n"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
@@ -3011,7 +2993,6 @@ msgid "Disable connection to session manager"
 msgstr "Matikan sambungan ke manajer sesi"
 
 #: ../libeggsmclient/eggsmclient.c:228
-#, fuzzy
 msgid "Specify file containing saved configuration"
 msgstr "Nyatakan berkas yang memuat konfigurasi tersimpan"
 
@@ -3105,7 +3086,7 @@ msgstr "Efek:"
 
 #: ../logview/data/logview-filter.ui.h:3
 msgid "Foreground:"
-msgstr ""
+msgstr "Latar depan:"
 
 #: ../logview/data/logview-filter.ui.h:4
 msgid "Hide"
@@ -3122,7 +3103,7 @@ msgstr "Ekspresi _Reguler:"
 #: ../logview/logview-app.c:375
 #, c-format
 msgid "Impossible to open the file %s"
-msgstr ""
+msgstr "Tak mungkin membuka berkas %s"
 
 #: ../logview/logview-filter-manager.c:90
 msgid "Filter name is empty!"
@@ -3130,7 +3111,7 @@ msgstr "Nama tapis kosong!"
 
 #: ../logview/logview-filter-manager.c:103
 msgid "Filter name may not contain the ':' character"
-msgstr ""
+msgstr "Nama penyaring tak boleh memuat karakter ':'"
 
 #: ../logview/logview-filter-manager.c:126
 msgid "Regular expression is empty!"
@@ -3143,7 +3124,7 @@ msgstr "Ekspresi reguler tak valid: %s"
 
 #: ../logview/logview-filter-manager.c:238
 msgid "Please specify either foreground or background color!"
-msgstr ""
+msgstr "Silakan nyatakan warna latar depan atau latar belakang!"
 
 #: ../logview/logview-filter-manager.c:293
 msgid "Edit filter"
@@ -3179,24 +3160,23 @@ msgstr "Temukan kemunculan string pencarian selanjutnya"
 
 #: ../logview/logview-findbar.c:202
 msgid "Clear the search string"
-msgstr ""
+msgstr "Bersihkan string pencarian"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr ""
+msgstr "Galat ketika mengembangkan log ter-GZip. Berkas mungkin rusak."
 
 #: ../logview/logview-log.c:642
-#, fuzzy
 msgid "You don't have enough permissions to read the file."
-msgstr "Kemungkinan Anda tidak memiliki hak untuk menulis ke berkas ini."
+msgstr "Anda tidak memiliki cukup hak untuk membaca berkas ini."
 
 #: ../logview/logview-log.c:657
 msgid "The file is not a regular file or is not a text file."
-msgstr ""
+msgstr "Berkas bukan berkas biasa atau bukan berkas teks."
 
 #: ../logview/logview-log.c:739
 msgid "This version of System Log does not support GZipped logs."
-msgstr ""
+msgstr "Versi Log Sistem tak mendukung log ter-GZip."
 
 #: ../logview/logview-loglist.c:311
 msgid "Loading..."
@@ -3208,7 +3188,7 @@ msgstr "Tampilkan versi aplikasinya"
 
 #: ../logview/logview-main.c:64
 msgid "[LOGFILE...]"
-msgstr ""
+msgstr "[LOGFILE...]"
 
 #: ../logview/logview-main.c:68
 msgid " - Browse and monitor logs"
@@ -3243,7 +3223,7 @@ msgstr "Ada galat saat menampilkan bantuan: %s"
 
 #: ../logview/logview-window.c:498
 msgid "Wrapped"
-msgstr ""
+msgstr "Dilipat"
 
 #: ../logview/logview-window.c:793
 msgid "A system log viewer for GNOME."
@@ -3343,16 +3323,16 @@ msgstr "Tampilkan Panel Samping"
 
 #: ../logview/logview-window.c:877
 msgid "Show matches only"
-msgstr ""
+msgstr "Hanya tampilkan yang cocok"
 
 #: ../logview/logview-window.c:877
 msgid "Only show lines that match one of the given filters"
-msgstr ""
+msgstr "Hanya tampilkan baris-baris yang cocok dengan penyaring yang diberikan"
 
 #: ../logview/logview-window.c:1014
 #, c-format
 msgid "Can't read from \"%s\""
-msgstr ""
+msgstr "Tak bisa membaca dari \"%s\""
 
 #: ../logview/logview-window.c:1436
 msgid "Version: "
