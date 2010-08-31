@@ -34,7 +34,9 @@ SUBDIRS = \
 EXTRA_DIST = \
 	omf.make \
 	xmldocs.make \
-	gnome-doc-utils.make
+	gnome-doc-utils.make \
+	COPYING.lib \
+	COPYING.docs
 
 DISTCLEANFILES =                \
 	gtk-doc.make		\
