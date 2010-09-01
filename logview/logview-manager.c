@@ -27,6 +27,7 @@
 
 #include "logview-prefs.h"
 #include "logview-marshal.h"
+#include "logview-app.h"
 
 enum {
   LOG_ADDED,
@@ -278,7 +279,6 @@ void
 logview_manager_set_active_log (LogviewManager *manager,
                                 LogviewLog *log)
 {
-  gboolean first_read = TRUE;
   LogviewLog *old_log = NULL;
 
   g_assert (LOGVIEW_IS_MANAGER (manager));

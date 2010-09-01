@@ -95,7 +95,6 @@ typedef struct {
 static GSList*
 parse_syslog ()
 {
-  char *logfile = NULL;
   char cbuf[BUFSIZ];
   char *cline, *p;
   FILE *cf;

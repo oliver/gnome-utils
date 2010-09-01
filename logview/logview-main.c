@@ -55,7 +55,6 @@ static GOptionContext *
 create_option_context (void)
 {
   GOptionContext *context;
-  GOptionGroup *group;
 
   const GOptionEntry entries[] = {
     { "version", 'V', G_OPTION_FLAG_NO_ARG, G_OPTION_ARG_CALLBACK,

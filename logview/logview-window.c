@@ -274,32 +274,6 @@ logview_set_window_title (LogviewWindow *logview, const char * log_name)
   g_free (window_title);
 }
 
-static void
-logview_menu_item_set_state (LogviewWindow *logview, char *path, gboolean state)
-{
-  GtkAction *action;
-
-  g_assert (path);
-
-  action = gtk_ui_manager_get_action (logview->priv->ui_manager, path);
-  gtk_action_set_sensitive (action, state);
-}
-
-static void
-logview_window_menus_set_state (LogviewWindow *logview)
-{
-  LogviewLog *log;
-
-  log = logview_manager_get_active_log (logview->priv->manager);
-
-  logview_menu_item_set_state (logview, "/LogviewMenu/FileMenu/CloseLog", (log != NULL));
-  logview_menu_item_set_state (logview, "/LogviewMenu/ViewMenu/Search", (log != NULL));
-  logview_menu_item_set_state (logview, "/LogviewMenu/EditMenu/Copy", (log != NULL));
-  logview_menu_item_set_state (logview, "/LogviewMenu/EditMenu/SelectAll", (log != NULL));
-
-  g_object_unref (log);
-}
-
 /* actions callbacks */
 
 static void
@@ -437,8 +411,6 @@ static void
 findbar_close_cb (LogviewFindbar *findbar,
                   gpointer user_data)
 {
-  LogviewWindow *logview = user_data;
-
   gtk_widget_hide (GTK_WIDGET (findbar));
   logview_findbar_set_message (findbar, NULL);
 }
@@ -596,7 +568,7 @@ filter_buffer (LogviewWindow *logview, gint start_line)
   GtkTextIter start, *end;
   gchar* text;
   GList* cur_filter;
-  gboolean matched, invisible_set;
+  gboolean matched;
   int lines, i;
 
   buffer = gtk_text_view_get_buffer (GTK_TEXT_VIEW (logview->priv->text_view));
@@ -681,7 +653,6 @@ update_filter_menu (LogviewWindow *window)
   LogviewWindowPrivate *priv;
   GtkUIManager* ui;
   GList *actions, *l;
-  gint n, i;
   guint id;
   GList *filters;
   GtkTextBuffer *buffer;
@@ -944,29 +915,6 @@ loglist_day_cleared_cb (LogviewLoglist *loglist,
   /* clear all previous invisible tags */
   gtk_text_buffer_remove_tag_by_name (buffer, "invisible",
                                       &start, &end);
-}
-
-static void
-logview_window_select_date (LogviewWindow *logview, GDate *date)
-{
-  LogviewLog *log;
-  GSList *days, *l;
-  Day *day;
-  gboolean found = FALSE;
-
-  log = logview_manager_get_active_log (logview->priv->manager);
-
-  for (l = days; l; l = l->next) {
-    day = l->data;
-    if (g_date_compare (date, day->date) == 0) {
-      found = TRUE;
-      break;
-    }
-  }
-
-  if (found) {
-    real_select_day (logview, day->date, day->first_line, day->last_line);
-  }   
 }
 
 static void
@@ -1276,8 +1224,6 @@ static void
 message_area_response_cb (GtkInfoBar *message_area,
                           int response_id, gpointer user_data)
 {
-  LogviewWindow *window = user_data;
-
   gtk_widget_hide (GTK_WIDGET (message_area));
 
   g_signal_handlers_disconnect_by_func (message_area,
@@ -1297,11 +1243,10 @@ logview_window_finalize (GObject *object)
 static void
 logview_window_init (LogviewWindow *logview)
 {
-  gint i;
   GtkActionGroup *action_group;
   GtkAccelGroup *accel_group;
   GError *error = NULL;
-  GtkWidget *hpaned, *main_view, *scrolled, *vbox, *w;
+  GtkWidget *hpaned, *main_view, *vbox, *w;
   PangoContext *context;
   PangoFontDescription *fontdesc;
   gchar *monospace_font_name;

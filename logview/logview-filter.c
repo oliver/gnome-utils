@@ -122,7 +122,6 @@ static void
 logview_filter_class_init (LogviewFilterClass *klass)
 {
   GObjectClass* object_class = G_OBJECT_CLASS (klass);
-  GObjectClass* parent_class = G_OBJECT_CLASS (klass);
 
   object_class->finalize = logview_filter_finalize;
   object_class->set_property = logview_filter_set_property;

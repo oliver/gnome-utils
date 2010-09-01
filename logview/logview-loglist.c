@@ -339,7 +339,6 @@ loglist_sort_func (GtkTreeModel *model,
                    GtkTreeIter *b,
                    gpointer user_data)
 {
-  LogviewLoglist *list = user_data;
   char *name_a, *name_b;
   Day *day_a, *day_b;
   int retval = 0;

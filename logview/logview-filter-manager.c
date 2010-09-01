@@ -266,7 +266,6 @@ on_dialog_add_edit_reponse (GtkWidget *dialog, int response_id,
 static void
 run_add_edit_dialog (LogviewFilterManager *manager, LogviewFilter *filter)
 {
-  int response;
   GError *error;
   gchar *name, *regex;
   const gchar *title;

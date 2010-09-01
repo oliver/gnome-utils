@@ -340,7 +340,6 @@ get_filters_foreach (gpointer key, gpointer value, gpointer user_data)
 static void
 logview_prefs_init (LogviewPrefs *self)
 {
-  gboolean stored_logs;
   LogviewPrefsPrivate *priv;
 
   priv = self->priv = GET_PRIVATE (self);
@@ -440,7 +439,6 @@ GSList *
 logview_prefs_get_stored_logfiles (LogviewPrefs *prefs)
 {
   GSList *retval;
-  GError *err = NULL;
 
   g_assert (LOGVIEW_IS_PREFS (prefs));
 

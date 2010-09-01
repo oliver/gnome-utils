@@ -146,7 +146,7 @@ unbold_timeout_cb (gpointer user_data)
 static void 
 logview_findbar_init (LogviewFindbar *findbar)
 {
-  GtkWidget *label, *button, *w, *box;
+  GtkWidget *label, *w, *box;
   GtkToolbar *gtoolbar;
   GtkToolItem *item;
   LogviewFindbarPrivate *priv;
