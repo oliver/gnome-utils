@@ -816,7 +816,7 @@ msgstr "প্রিন্ট করুন"
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:2
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:3
 msgid "Source"
-msgstr "উত্স‌"
+msgstr "উৎস"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:3
 msgid "_Print font:"
