@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-09-01 12:57+0000\n"
+"POT-Creation-Date: 2010-09-23 12:21+0000\n"
 "PO-Revision-Date: 2010-08-12 15:03+0900\n"
 "Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -2087,7 +2087,7 @@ msgstr "検索オプション \"ファイルが空である\" の選択可否"
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:27
 msgid "Select the search option \"Follow symbolic links\""
-msgstr "検索オプション \"シンボリック・リンクを追跡する\" の選択可否"
+msgstr "検索オプション \"シンボリックリンクをたどる\" の選択可否"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2240,8 +2240,8 @@ msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"検索オプション \"シンボリック・リンクを追跡する\" を有効にして、検索ツールを"
-"起動するかどうかを選択します。"
+"検索オプション \"シンボリックリンクをたどる\" を有効にして、検索ツールを起動"
+"するかどうかを選択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
 msgid ""
@@ -2666,7 +2666,7 @@ msgstr "隠しファイル/フォルダを表示する"
 
 #: ../gsearchtool/gsearchtool.c:97
 msgid "Follow symbolic links"
-msgstr "シンボリック・リンクを追跡する"
+msgstr "シンボリックリンクをたどる"
 
 #: ../gsearchtool/gsearchtool.c:98
 msgid "Exclude other filesystems"
