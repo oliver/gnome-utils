@@ -252,7 +252,7 @@ msgstr "Afișează ca grafic inelar"
 
 #: ../baobab/src/baobab.c:1086
 msgid "View as Treemap Chart"
-msgstr "Vizualizare ca grafic arboreșcent"
+msgstr "Vizualizare ca grafic arborescent"
 
 #: ../baobab/src/baobab.c:1184
 msgid "Show version"
