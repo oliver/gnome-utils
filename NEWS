@@ -1,4 +1,40 @@
 ====================================================================
+GNOME Utilities 2.32.0 (27th September 2010) - "My Bad"
+
+    • First stable release of the 2.32 cycle
+
+All
+
+    • Fix sealing-related issues (Benjamin Otte)
+    • Fix compiler warnings (Benjamin Otte)
+    • Add the correct license files (Emmanuele Bassi)
+
+Baobab
+
+    • Code cleanups (Paolo Borelli)
+
+Dictionary
+Screenshot
+Search Tool
+System Log Viewer
+
+    • Nothing
+
+Translations
+
+    Adrian Guniš: Updated Czech translation
+    Andika Triwidada: Updated Indonesian translation
+    Gheyret Kenji: Add Uighur (ug) translation
+    Hideki Yamane: Updated Japanese translation
+    Ivar Smolin: Updated Estonian translation
+    Khaled Hosny: Updated Arabic translation
+    Lucian Adrian Grijincu: Updated Romanian translation
+    Matej Urbančič: Updated Slovenian translation
+    Pavol Klačanský: Updated Slovak translation
+    Runa Bhattacharjee: Bengali India Translation
+    Takayuki KUSANO: Updated Japanese translation
+
+====================================================================
 GNOME Utilities 2.31.1 (5th August 2010) - "Just one of those things"
 
     * First unstable release of the 2.31 cycle
