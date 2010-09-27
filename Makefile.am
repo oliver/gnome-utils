@@ -35,7 +35,7 @@ EXTRA_DIST = \
 	omf.make \
 	xmldocs.make \
 	gnome-doc-utils.make \
-	COPYING.lib \
+	COPYING.libs \
 	COPYING.docs
 
 DISTCLEANFILES =                \
