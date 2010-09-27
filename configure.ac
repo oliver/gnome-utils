@@ -4,14 +4,19 @@ m4_define([gnome_utils_micro], [0])
 
 m4_define([gnome_utils_version], [gnome_utils_major.gnome_utils_minor.gnome_utils_micro])
 
+AC_PREREQ([2.63])
+
 AC_INIT([gnome-utils],
         [gnome_utils_version],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils])
+        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils],
+        [gnome-utils],
+        [http://live.gnome.org/GnomeUtils])
 
 AC_CONFIG_MACRO_DIR([m4])
 
 AM_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([1.11 -Wno-portability dist-bzip2])
+AM_SILENT_RULES([yes])
 
 GNOME_COMMON_INIT
 
@@ -25,8 +30,6 @@ AC_STDC_HEADERS
 AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
-AC_LIBTOOL_WIN32_DLL
-AM_PROG_LIBTOOL
 AC_PATH_PROG(GLIB_GENMARSHAL, [glib-genmarshal])
 AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
 
@@ -46,7 +49,6 @@ AC_TYPE_SIGNAL
 AC_FUNC_STRFTIME
 AC_CHECK_FUNCS([getpgid])
 
-
 # Before making a release, the LT_VERSION string should be modified.
 # The string is of the form C:R:A.
 # - If interfaces have been changed or added, but binary compatibility has
@@ -55,6 +57,9 @@ AC_CHECK_FUNCS([getpgid])
 #   change to C+1:0:0
 # - If the interface is the same as the previous version, change to C:R+1:A
 
+LT_PREREQ([2.2.6])
+LT_INIT([disable-static])
+AC_LIBTOOL_WIN32_DLL
 LIBGDICT_LT_VERSION=6:7:0
 AC_SUBST(LIBGDICT_LT_VERSION)
 
@@ -353,14 +358,10 @@ GTK_DOC_CHECK([1.10])
 dnl gnome-doc-utils stuff
 GNOME_DOC_INIT
 
-SHAVE_INIT([m4], [enable])
-
 AC_CONFIG_FILES([
         Makefile
 
         m4/Makefile
-        m4/shave-libtool
-        m4/shave
 
         po/Makefile.in
 

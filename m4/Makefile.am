@@ -1,8 +1,3 @@
-EXTRA_DIST = \
-	shave-libtool.in 	\
-	shave.in		\
-	shave.m4
+EXTRA_DIST =
 
-DISTCLEANFILES = \
-	shave-libtool		\
-	shave
+DISTCLEANFILES =
