@@ -16,10 +16,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2009-12-09 06:48+0000\n"
-"PO-Revision-Date: 2009-12-11 15:11+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-06 00:46+0200\n"
+"PO-Revision-Date: 2010-10-06 01:34+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,24 +30,24 @@ msgstr ""
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
-msgstr "בודק גדלי ספריות ומקום פנוי בדיסק"
+msgstr "גדלי התיקיות והמקום פנוי בכונן נבדקים"
 
 #: ../baobab/data/baobab.desktop.in.in.h:2
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
-msgstr "מנתח השימוש בדיסק"
+msgstr "מנתח השימוש בכונן"
 
 #: ../baobab/data/baobab-dialog-scan-props.ui.h:1
 msgid "Disk Usage Analyzer Preferences"
-msgstr "העדפות מנתח השימוש בדיסק"
+msgstr "העדפות מנתח השימוש בכונן"
 
 #: ../baobab/data/baobab-dialog-scan-props.ui.h:2
 msgid "Select _devices to include in filesystem scan:"
-msgstr "בחר ה_תקנים שיכללו בסריקת מערכות הקבצים:"
+msgstr "נא לבחור ה_תקנים שיכללו בסריקת מערכות הקבצים:"
 
 #: ../baobab/data/baobab-dialog-scan-props.ui.h:3
 msgid "_Monitor changes to your home folder"
-msgstr "_נטר שינויים בתיקיית הבית"
+msgstr "מ_עקב אחר שינויים בתיקיית הבית"
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -56,99 +55,99 @@ msgstr "מקום _מוקצה"
 
 #: ../baobab/data/baobab-main-window.ui.h:3
 msgid "Refresh"
-msgstr "רענן"
+msgstr "רענון"
 
 #: ../baobab/data/baobab-main-window.ui.h:4
 msgid "S_can Remote Folder..."
-msgstr "ס_רוק תיקייה מרוחקת..."
+msgstr "ס_ריקת תיקייה מרוחקת..."
 
 #: ../baobab/data/baobab-main-window.ui.h:5
 msgid "Scan F_older..."
-msgstr "סרוק תי_קייה..."
+msgstr "סריקת תי_קייה..."
 
 #: ../baobab/data/baobab-main-window.ui.h:6
 msgid "Scan Filesystem"
-msgstr "סרוק את מערכת הקבצים"
+msgstr "סריקת מערכת הקבצים"
 
 #: ../baobab/data/baobab-main-window.ui.h:7
 msgid "Scan Folder"
-msgstr "סרוק תיקייה"
+msgstr "סריקת תיקייה"
 
 #: ../baobab/data/baobab-main-window.ui.h:8
 msgid "Scan Home"
-msgstr "סרוק את תיקיית הבית"
+msgstr "סריקת תיקיית הבית"
 
 #: ../baobab/data/baobab-main-window.ui.h:9
 msgid "Scan Remote Folder"
-msgstr "סרוק תיקייה מרוחקת"
+msgstr "סריקת תיקייה מרוחקת"
 
 #: ../baobab/data/baobab-main-window.ui.h:10
 msgid "Scan _Filesystem"
-msgstr "סרוק את מערכת _הקבצים"
+msgstr "סריקת מערכת ה_קבצים"
 
 #: ../baobab/data/baobab-main-window.ui.h:11
 msgid "Scan _Home Folder"
-msgstr "סרוק את תיקיית _הבית"
+msgstr "סריקת תיקיית ה_בית"
 
 #: ../baobab/data/baobab-main-window.ui.h:12
 msgid "Scan a folder"
-msgstr "סרוק תיקייה"
+msgstr "סריקת תיקייה"
 
 #: ../baobab/data/baobab-main-window.ui.h:13
 msgid "Scan a remote folder"
-msgstr "סרוק תיקייה מרוחקת"
+msgstr "סריקת תיקייה מרוחקת"
 
 #: ../baobab/data/baobab-main-window.ui.h:14
 msgid "Scan filesystem"
-msgstr "סרוק מערכת הקבצים"
+msgstr "סריקת מערכת הקבצים"
 
 #: ../baobab/data/baobab-main-window.ui.h:15
 msgid "Scan home folder"
-msgstr "סרוק את תיקיית הבית"
+msgstr "סריקת תיקיית הבית"
 
 #: ../baobab/data/baobab-main-window.ui.h:16
 msgid "St_atusbar"
-msgstr "שורת _מצב"
+msgstr "שורת מ_צב"
 
 #: ../baobab/data/baobab-main-window.ui.h:17
 msgid "Stop scanning"
-msgstr "עצור סריקה"
+msgstr "עצירת הסריקה"
 
 #: ../baobab/data/baobab-main-window.ui.h:18
 msgid "_Analyzer"
-msgstr "_ניתוח"
+msgstr "מ_נתח"
 
 #: ../baobab/data/baobab-main-window.ui.h:19
 msgid "_Collapse All"
-msgstr "_קפל הכל"
+msgstr "_צמצום הכול"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1234 ../logview/logview-window.c:866
+#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "_תוכן"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1181 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
 msgid "_Edit"
-msgstr "_עריכה"
+msgstr "ע_ריכה"
 
 #: ../baobab/data/baobab-main-window.ui.h:22
 msgid "_Expand All"
-msgstr "_הרחב הכל"
+msgstr "הר_חבת הכול"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1184 ../logview/logview-window.c:840
+#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
 msgid "_Help"
-msgstr "_עזרה"
+msgstr "ע_זרה"
 
 #: ../baobab/data/baobab-main-window.ui.h:24
 msgid "_Toolbar"
 msgstr "_סרגל כלים"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1182 ../logview/logview-window.c:838
+#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
 msgid "_View"
 msgstr "תצוגה"
 
@@ -192,99 +191,111 @@ msgstr "Whether the subfolders tooltips of the selected folder are drawn."
 msgid "Whether the toolbar should be visible in main window."
 msgstr "Whether the toolbar should be visible in main window."
 
-#: ../baobab/src/baobab.c:139 ../baobab/src/baobab.c:320
+#: ../baobab/src/baobab.c:134 ../baobab/src/baobab.c:353
 msgid "Scanning..."
-msgstr "סורק..."
+msgstr "בסריקה..."
+
+#: ../baobab/src/baobab.c:180
+msgid "Total filesystem capacity:"
+msgstr "קיבולת מערכת הקבצים:"
+
+#: ../baobab/src/baobab.c:181
+msgid "used:"
+msgstr "בשימוש:"
+
+#: ../baobab/src/baobab.c:182
+msgid "available:"
+msgstr "פנוי:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:204 ../baobab/src/baobab.c:262
-#: ../baobab/src/callbacks.c:264
+#: ../baobab/src/baobab.c:238 ../baobab/src/baobab.c:295
+#: ../baobab/src/callbacks.c:267
 msgid "Calculating percentage bars..."
-msgstr "מחשב אחוזים..."
+msgstr "האחוזים בחישוב..."
 
-#: ../baobab/src/baobab.c:214 ../baobab/src/baobab.c:1163
-#: ../baobab/src/callbacks.c:268
+#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1289
+#: ../baobab/src/callbacks.c:271
 msgid "Ready"
-msgstr "מוכן"
+msgstr "לאחר הכנות"
 
-#: ../baobab/src/baobab.c:356
+#: ../baobab/src/baobab.c:386
 msgid "Total filesystem capacity"
 msgstr "קיבולת מערכת הקבצים"
 
-#: ../baobab/src/baobab.c:378
+#: ../baobab/src/baobab.c:408
 msgid "Total filesystem usage"
 msgstr "שימוש במערכת הקבצים"
 
-#: ../baobab/src/baobab.c:419
+#: ../baobab/src/baobab.c:449
 msgid "contains hardlinks for:"
 msgstr "מכיל קישורים קשיחים עבור:"
 
-#: ../baobab/src/baobab.c:428
+#: ../baobab/src/baobab.c:458
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "פריט אחד"
 msgstr[1] "%5d פריטים"
 
-#: ../baobab/src/baobab.c:779
+#: ../baobab/src/baobab.c:585
 msgid "Could not initialize monitoring"
-msgstr "לא ניתן לאתחל ניטור"
+msgstr "לא ניתן להפעיל את המעקב"
 
-#: ../baobab/src/baobab.c:780
+#: ../baobab/src/baobab.c:586
 msgid "Changes to your home folder will not be monitored."
-msgstr "שינויים בתיקיית הבית לא ינוטרו."
+msgstr "לא יתבצע מעקב אחר שינויים בתיקיית הבית."
 
-#: ../baobab/src/baobab.c:887
+#: ../baobab/src/baobab.c:965
 msgid "Move to parent folder"
-msgstr "העבר לתיקיית הורה"
+msgstr "העברה לתיקיית ההורה"
 
-#: ../baobab/src/baobab.c:891
+#: ../baobab/src/baobab.c:969
 msgid "Zoom in"
-msgstr "התקרב"
+msgstr "התקרבות"
 
-#: ../baobab/src/baobab.c:895
+#: ../baobab/src/baobab.c:973
 msgid "Zoom out"
-msgstr "התרחק"
+msgstr "התרחקות"
 
-#: ../baobab/src/baobab.c:899
+#: ../baobab/src/baobab.c:977
 msgid "Save screenshot"
-msgstr "שמור תצלום מסך"
+msgstr "שמירת צילום המסך"
 
-#: ../baobab/src/baobab.c:985
+#: ../baobab/src/baobab.c:1114
 msgid "View as Rings Chart"
-msgstr "הצג כתרשים טבעות"
+msgstr "הצגה כתרשים טבעות"
 
-#: ../baobab/src/baobab.c:987
+#: ../baobab/src/baobab.c:1116
 msgid "View as Treemap Chart"
-msgstr "הצג כתרשים Treemap"
+msgstr "הצגה כתרשים מפת עץ"
 
-#: ../baobab/src/baobab.c:1086
+#: ../baobab/src/baobab.c:1214
 msgid "Show version"
-msgstr "הצג גרסה"
+msgstr "הצגת גרסה"
 
-#: ../baobab/src/baobab.c:1087
+#: ../baobab/src/baobab.c:1215
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORY]"
 
-#: ../baobab/src/baobab.c:1117
+#: ../baobab/src/baobab.c:1245
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "יותר מדי ארגומנטים. ניתן לציין תיקייה אחת בלבד."
 
-#: ../baobab/src/baobab.c:1135
+#: ../baobab/src/baobab.c:1262
 msgid "Could not detect any mount point."
 msgstr "לא זוהו נקודות עיגון."
 
-#: ../baobab/src/baobab.c:1138
+#: ../baobab/src/baobab.c:1264
 msgid "Without mount points disk usage cannot be analyzed."
-msgstr "ללא נקודות עיגון לא ניתן לנתח את השימוש בדיסק."
+msgstr "ללא נקודות עיגון לא ניתן לנתח את השימוש בכונן."
 
 #: ../baobab/src/baobab-chart.c:206
 msgid "Maximum depth"
-msgstr "עומק מקסימאלי"
+msgstr "עומק מרבי"
 
 #: ../baobab/src/baobab-chart.c:207
 msgid "The maximum depth drawn in the chart from the root"
-msgstr "העומק המקסימלי שיוצג בתרשים החל מתיקיית הבסיס"
+msgstr "העומק במרבי שיוצג בתרשים החל מתיקיית הבסיס"
 
 #: ../baobab/src/baobab-chart.c:216
 msgid "Chart model"
@@ -292,7 +303,7 @@ msgstr "דגם טבלה"
 
 #: ../baobab/src/baobab-chart.c:217
 msgid "Set the model of the chart"
-msgstr "קבע את דגם הטבלה"
+msgstr "הגדרת דגם הטבלה"
 
 #: ../baobab/src/baobab-chart.c:224
 msgid "Chart root node"
@@ -302,40 +313,40 @@ msgstr "המיקום הראשי לתרשים"
 msgid "Set the root node from the model"
 msgstr "בחירת המיקום הראשי מהדגם"
 
-#: ../baobab/src/baobab-chart.c:1695
+#: ../baobab/src/baobab-chart.c:1704
 msgid "Cannot create pixbuf image!"
 msgstr "לא ניתן ליצור תמונת pixbuf!"
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1705
+#: ../baobab/src/baobab-chart.c:1714
 msgid "Save Snapshot"
-msgstr "שמור צילום מפה"
+msgstr "שמירת צילום מפה"
 
-#: ../baobab/src/baobab-chart.c:1734
+#: ../baobab/src/baobab-chart.c:1743
 msgid "_Image type:"
-msgstr "_סוג תמונה:"
+msgstr "_סוג התמונה:"
 
-#: ../baobab/src/baobab-prefs.c:181
+#: ../baobab/src/baobab-prefs.c:184
 msgid "Scan"
 msgstr "סריקה"
 
-#: ../baobab/src/baobab-prefs.c:188
+#: ../baobab/src/baobab-prefs.c:191
 msgid "Device"
 msgstr "התקן"
 
-#: ../baobab/src/baobab-prefs.c:196
+#: ../baobab/src/baobab-prefs.c:199
 msgid "Mount Point"
 msgstr "נקודת עיגון"
 
-#: ../baobab/src/baobab-prefs.c:204
+#: ../baobab/src/baobab-prefs.c:207
 msgid "Filesystem Type"
 msgstr "סוג מערכת הקבצים"
 
-#: ../baobab/src/baobab-prefs.c:212
+#: ../baobab/src/baobab-prefs.c:215
 msgid "Total Size"
 msgstr "גודל כללי"
 
-#: ../baobab/src/baobab-prefs.c:221
+#: ../baobab/src/baobab-prefs.c:224
 msgid "Available"
 msgstr "זמין"
 
@@ -374,72 +385,72 @@ msgstr "‏WebDAV מאובטח (HTTPS)"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:249
 msgid "Cannot Connect to Server. You must enter a name for the server."
-msgstr "לא ניתן להתחבר לשרת. חובה להכניס שן עבור השרת."
+msgstr "לא ניתן להתחבר לשרת. עליך להזין שם עבור השרת."
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:252
 msgid "Please enter a name and try again."
-msgstr "אנא הכנס שם ונסה שוב."
+msgstr "נא להכניס שם ולנסות שוב."
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:443
+#: ../baobab/src/baobab-remote-connect-dialog.c:441
 msgid "_Location (URI):"
-msgstr "_מיקום:"
+msgstr "מי_קום:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:465
+#: ../baobab/src/baobab-remote-connect-dialog.c:463
 msgid "_Server:"
 msgstr "_שרת:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:484
+#: ../baobab/src/baobab-remote-connect-dialog.c:482
 msgid "Optional information:"
 msgstr "מידע לא הכרחי"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:496
+#: ../baobab/src/baobab-remote-connect-dialog.c:494
 msgid "_Share:"
 msgstr "_שיתוף:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:517
+#: ../baobab/src/baobab-remote-connect-dialog.c:515
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
-msgstr "_שער:"
+msgstr "_פתחה:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:537
+#: ../baobab/src/baobab-remote-connect-dialog.c:535
 msgid "_Folder:"
 msgstr "_תיקייה:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:557
+#: ../baobab/src/baobab-remote-connect-dialog.c:555
 msgid "_User Name:"
 msgstr "שם _משתמש:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:578
+#: ../baobab/src/baobab-remote-connect-dialog.c:576
 msgid "_Domain Name:"
-msgstr "שם _מתחם:"
+msgstr "שם מת_חם:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:645
+#: ../baobab/src/baobab-remote-connect-dialog.c:643
 msgid "Connect to Server"
-msgstr "התחבר לשרת"
+msgstr "התחברות לשרת"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:662
+#: ../baobab/src/baobab-remote-connect-dialog.c:660
 msgid "Service _type:"
-msgstr "_סוג שירות:"
+msgstr "_סוג השירות:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:781
+#: ../baobab/src/baobab-remote-connect-dialog.c:779
 msgid "_Scan"
-msgstr "_סרוק"
+msgstr "_סריקה"
 
-#: ../baobab/src/baobab-treeview.c:86
+#: ../baobab/src/baobab-treeview.c:82
 msgid "Rescan your home folder?"
-msgstr "לסרוק מחדש את תיקיית הבית?"
+msgstr "האם לסרוק מחדש את תיקיית הבית?"
 
-#: ../baobab/src/baobab-treeview.c:87
+#: ../baobab/src/baobab-treeview.c:83
 msgid ""
 "The content of your home folder has changed. Select rescan to update the "
 "disk usage details."
 msgstr ""
-"תוכן תיקיית הבית השתנה. בחר ב-\"סרוק מחדש\" על מנת לעדכן את פרטי השימוש "
-"בדיסק."
+"תוכן תיקיית הבית השתנה. נא לבחור ב\"סריקה מחדש\" כדי לעדכן את פרטי ניצול "
+"הכונן."
 
-#: ../baobab/src/baobab-treeview.c:88
+#: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
-msgstr "_סרוק מחדש"
+msgstr "_סריקה מחדש"
 
 #: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
 msgid "Folder"
@@ -447,7 +458,7 @@ msgstr "תיקייה"
 
 #: ../baobab/src/baobab-treeview.c:244
 msgid "Usage"
-msgstr "בשימוש"
+msgstr "ניצולת"
 
 #: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2419
 msgid "Size"
@@ -457,75 +468,63 @@ msgstr "גודל"
 msgid "Contents"
 msgstr "תכנים"
 
-#: ../baobab/src/baobab-utils.c:110
+#: ../baobab/src/baobab-utils.c:106
 msgid "Select Folder"
-msgstr "בחר תיקייה"
+msgstr "בחירת תיקייה"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:122
+#: ../baobab/src/baobab-utils.c:118
 msgid "_Show hidden folders"
-msgstr "הצג תיקיות _מוסתרות"
+msgstr "הצגת תיקיות _מוסתרות"
 
-#: ../baobab/src/baobab-utils.c:301
+#: ../baobab/src/baobab-utils.c:297
 msgid "Cannot check an excluded folder!"
 msgstr "לא ניתן לבדוק תיקייה שנופתה!"
 
-#: ../baobab/src/baobab-utils.c:325
+#: ../baobab/src/baobab-utils.c:321
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "\"%s\" אינה תיקייה תקינה"
 
-#: ../baobab/src/baobab-utils.c:328
+#: ../baobab/src/baobab-utils.c:324
 msgid "Could not analyze disk usage."
-msgstr "לא ניתן לנתח את השימוש בדיסק."
+msgstr "לא ניתן לנתח את השימוש בכונן."
 
-#: ../baobab/src/baobab-utils.c:369
+#: ../baobab/src/baobab-utils.c:364
 msgid "_Open Folder"
-msgstr "_פתח תיקייה"
+msgstr "_פתיחת תיקייה"
 
-#: ../baobab/src/baobab-utils.c:375
-#: ../gsearchtool/gsearchtool-callbacks.c:1203
+#: ../baobab/src/baobab-utils.c:370
+#: ../gsearchtool/gsearchtool-callbacks.c:1205
 msgid "Mo_ve to Trash"
-msgstr "ה_עבר לאשפה"
+msgstr "ה_עברה לאשפה"
 
-#: ../baobab/src/baobab-utils.c:401
-msgid "Total filesystem capacity:"
-msgstr "קיבולת מערכת הקבצים:"
-
-#: ../baobab/src/baobab-utils.c:402
-msgid "used:"
-msgstr "בשימוש:"
-
-#: ../baobab/src/baobab-utils.c:403
-msgid "available:"
-msgstr "פנוי:"
-
-#: ../baobab/src/baobab-utils.c:447
+#: ../baobab/src/baobab-utils.c:404
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "לא ניתן לפתוח את התיקייה \"%s\""
 
-#: ../baobab/src/baobab-utils.c:450
+#: ../baobab/src/baobab-utils.c:407
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "אין מציג מותקן המסוגל להציג את התיקייה."
 
-#: ../baobab/src/baobab-utils.c:519
+#: ../baobab/src/baobab-utils.c:476
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "לא ניתן להעביר את  \"%s\" לאשפה"
 
-#: ../baobab/src/baobab-utils.c:527
+#: ../baobab/src/baobab-utils.c:484
 msgid "Could not move file to the Trash"
 msgstr "לא ניתן להעביר קובץ לאשפה"
 
-#: ../baobab/src/baobab-utils.c:529
+#: ../baobab/src/baobab-utils.c:486
 #, c-format
 msgid "Details: %s"
 msgstr "פרטים: %s"
 
-#: ../baobab/src/baobab-utils.c:576
+#: ../baobab/src/baobab-utils.c:533
 msgid "There was an error displaying help."
-msgstr "ארעה שגיאה בהצגת העזרה."
+msgstr "אירעה שגיאה בהצגת העזרה."
 
 #: ../baobab/src/callbacks.c:78 ../logview/logview-about.h:49
 msgid ""
@@ -561,16 +560,16 @@ msgstr ""
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 
-#: ../baobab/src/callbacks.c:101
+#: ../baobab/src/callbacks.c:103
 msgid "Baobab"
 msgstr "‏Baobab"
 
-#: ../baobab/src/callbacks.c:102
+#: ../baobab/src/callbacks.c:104
 msgid "A graphical tool to analyze disk usage."
-msgstr "כלי גרפי לניתוח השימוש בדיסק."
+msgstr "כלי גרפי לניתוח השימוש בכונן."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:112 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -578,22 +577,23 @@ msgstr ""
 "יובל טנאי\n"
 "מארק קרפיבנר <mark125@gmail.com>\n"
 "יאיר הרשקוביץ <yairhr@gmail.com>\n"
+"ירון שהרבני <sh.yaron@gmail.com>\n"
 "\n"
-"פרוייקט תרגום GNOME לעברית:\n"
+"פרויקט תרגום GNOME לעברית:\n"
 "‏http://gnome-il.berlios.de"
 
-#: ../baobab/src/callbacks.c:207 ../gsearchtool/gsearchtool-callbacks.c:504
+#: ../baobab/src/callbacks.c:210 ../gsearchtool/gsearchtool-callbacks.c:504
 #: ../gsearchtool/gsearchtool-callbacks.c:843
 msgid "The document does not exist."
 msgstr "המסמך לא קיים"
 
-#: ../baobab/src/callbacks.c:318
+#: ../baobab/src/callbacks.c:321
 msgid "The folder does not exist."
 msgstr "התיקייה לא קיימת."
 
 #: ../gnome-dictionary/data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "שרת מילון ברירת המחדל"
+msgstr "שרת מילון בררת המחדל"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
 msgid "Dictionary Look up"
@@ -601,43 +601,43 @@ msgstr "חיפוש במילון"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
 msgid "Look up words in a dictionary"
-msgstr "חפש מילים במילון"
+msgstr "חיפוש מילים במילון"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
 msgid "Cl_ear"
 msgstr "ני_קוי"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1236 ../logview/logview-window.c:868
+#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
 msgid "_About"
-msgstr "_אודות"
+msgstr "על _אודות"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
 msgid "_Look Up Selected Text"
-msgstr "_חפש את הטקסט הנבחר"
+msgstr "_חיפוש הטקסט הנבחר"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1205
 msgid "_Preferences"
-msgstr "_העדפות"
+msgstr "ה_עדפות"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
 msgid "_Print"
-msgstr "_הדפס"
+msgstr "ה_דפסה"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
 msgid "_Save"
-msgstr "_שמור"
+msgstr "_שמירה"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
-msgstr "חפש הגדרת ואיות מילים במילון מקוון"
+msgstr "חיפוש הגדרה ואיות של מילים במילון מקוון"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
 #: ../gnome-dictionary/src/gdict-about.c:78
 #: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:608
-#: ../gnome-dictionary/src/gdict-window.c:1953
+#: ../gnome-dictionary/src/gdict-window.c:605
+#: ../gnome-dictionary/src/gdict-window.c:1947
 msgid "Dictionary"
 msgstr "מילון"
 
@@ -823,7 +823,7 @@ msgstr "Whether the statusbar should be visible"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
-msgstr "הדפס"
+msgstr "הדפסה"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:2
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:3
@@ -832,11 +832,11 @@ msgstr "מקור"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:3
 msgid "_Print font:"
-msgstr "גופן _הדפסה:"
+msgstr "_גופן הדפסה:"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:4
 msgid "_Select a dictionary source for looking up words:"
-msgstr "_בחר מקור מילון לחיפוש מילים:"
+msgstr "_בחירת מקור מילון לחיפוש מילים:"
 
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:1
 msgid "Dictionaries"
@@ -856,11 +856,11 @@ msgstr "אסטרטגיות"
 
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:6
 msgid "_Description:"
-msgstr "_תיאור:"
+msgstr "תי_אור:"
 
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
-msgstr "_תעבורה"
+msgstr "_תעבורה:"
 
 #: ../gnome-dictionary/data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
@@ -872,11 +872,11 @@ msgstr "מילוני Longdo תאילנדית-אנגלית"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:283
 msgid "Client Name"
-msgstr "שם לקוח"
+msgstr "שם הלקוח"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:284
 msgid "The name of the client of the context object"
-msgstr "The name of the client of the context object"
+msgstr "שם הלקוח של פריט ההקשר"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:297
 msgid "Hostname"
@@ -888,11 +888,11 @@ msgstr "שם המארח של שרת המילון שאליו יש להתחבר"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:311
 msgid "Port"
-msgstr "שער"
+msgstr "פתחה"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:312
 msgid "The port of the dictionary server to connect to"
-msgstr "השער בשרת המילון אליו יש להתחבר"
+msgstr "הפתחה בשרת המילון אליה יש להתחבר"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:327
 msgid "Status"
@@ -905,7 +905,7 @@ msgstr "קוד המצב כפי שהוחזר על ידי שרת המילון"
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:777
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "אין חיבור לשרת המילון ב-'%s:%d'"
+msgstr "אין חיבור לשרת המילון בכתובת '%s:%d'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1060
 #, c-format
@@ -928,7 +928,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"לא ניתן להתחבר לשרת המילון ב-'‎%s:%d'. השרת החזיר את הקוד %d (השרת למטה)"
+"לא ניתן להתחבר לשרת המילון בכתובת '‎%s:%d'. השרת החזיר את הקוד %d (השרת אינו "
+"פעיל)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -936,18 +937,18 @@ msgid ""
 "Unable to parse the dictionary server reply\n"
 ": '%s'"
 msgstr ""
-"לא ניתן לפרק את תגובת שרת המילון\n"
+"לא ניתן לפענח את תגובת שרת המילון\n"
 "‏: '%s'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1225
 #, c-format
 msgid "No definitions found for '%s'"
-msgstr "לא נימצאו הגדרות עבור '%s'"
+msgstr "לא נמצאו הגדרות עבור '%s'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1240
 #, c-format
 msgid "Invalid database '%s'"
-msgstr "בסיס נתונים לא תקין '%s'"
+msgstr "מסד הנתונים אינו תקין '%s'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1255
 #, c-format
@@ -967,17 +968,17 @@ msgstr "פרמטרים שגויים עבור הפקודה '%s'"
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1300
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "לא נמצאו בסיסי נתונים בשרת המילון ב-'%s'"
+msgstr "לא נמצאו בסיסי נתונים בשרת המילון בכתובת '%s'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1315
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr "לא נמצאו אסטרטגיות בשרת המילון ב-'%s'"
+msgstr "לא נמצאו אסטרטגיות בשרת המילון בכתובת '%s'"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1748
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "החיבור נכשל לשרת המילון ב-%s:%d"
+msgstr "החיבור נכשל לשרת המילון בכתובת %s:%d"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1787
 #, c-format
@@ -1002,17 +1003,17 @@ msgstr "לא נקבע שם מארח עבור שרת המילון"
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1945
 #, c-format
 msgid "Unable to create socket"
-msgstr "Unable to create socket"
+msgstr "לא ניתן ליצור שקע התחברות"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1971
 #, c-format
 msgid "Unable to set the channel as non-blocking: %s"
-msgstr "Unable to set the channel as non-blocking: %s"
+msgstr "לא ניתן להגדיר את הערוץ כפתוח מחסימה: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1986
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "לא ניתן להתחבר לשרת המילון ב-'%s:%d'"
+msgstr "לא ניתן להתחבר לשרת המילון בכתובת '%s:%d'"
 
 #: ../gnome-dictionary/libgdict/gdict-context.c:218
 msgid "Local Only"
@@ -1020,40 +1021,40 @@ msgstr "מקומי בלבד"
 
 #: ../gnome-dictionary/libgdict/gdict-context.c:219
 msgid "Whether the context uses only local dictionaries or not"
-msgstr "Whether the context uses only local dictionaries or not"
+msgstr "האם ההקשר משתמש במילונים מקומיים בלבד או שלא."
 
 #: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
 msgid "Reload the list of available databases"
-msgstr "טען מחדש את רשימת בסיסי הנתונים הזמינים"
+msgstr "רענון רשימת מסדי הנתונים הזמינים"
 
 #: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
 msgid "Clear the list of available databases"
-msgstr "נקה את רשימת בסיסי הנתונים הזמינים"
+msgstr "ניקוי רשימת מסדי הנתונים הזמינים"
 
 #: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
 #: ../gnome-dictionary/libgdict/gdict-speller.c:779
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
 msgid "Error while matching"
-msgstr "שגיאה בזמן התאמה."
+msgstr "שגיאה בזמן ההתאמה."
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
-#: ../logview/logview-window.c:513
+#: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "לא נמצא"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
 msgid "F_ind:"
-msgstr "_חפש::"
+msgstr "_חיפוש:"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
 msgid "_Previous"
-msgstr "_קודם"
+msgstr "ה_קודם"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
 msgid "_Next"
-msgstr "_הבא"
+msgstr "ה_בא"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
 msgid "Error while looking up definition"
@@ -1105,7 +1106,7 @@ msgstr "מסד נתונים"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
 msgid "The default database of this dictonary source"
-msgstr "מסד נתונים ברירת המחדל של מקור מילון זה"
+msgstr "מסד נתונים כבררת המחדל של מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
 #: ../gnome-dictionary/libgdict/gdict-speller.c:391
@@ -1114,7 +1115,7 @@ msgstr "אסטרטגיה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
 msgid "The default strategy of this dictonary source"
-msgstr "אסטרטגית ברירת המחדל עבור מקור מילון זה"
+msgstr "אסטרטגית בררת המחדל עבור מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
@@ -1122,7 +1123,7 @@ msgstr "תעבורה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:303
 msgid "The transport mechanism used by this dictionary source"
-msgstr "מנגנון התעבורה אשר בשימוש על ידי מקור מילון זה"
+msgstr "מנגנון התעבורה שנמצא בשימוש על ידי מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
 #: ../gnome-dictionary/libgdict/gdict-speller.c:377
@@ -1136,7 +1137,7 @@ msgstr "The GdictContext bound to this source"
 #: ../gnome-dictionary/libgdict/gdict-source.c:413
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "סוג תעבורה שגוי '%d'"
+msgstr "סוג התעבורה '%d' שגוי"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:441
 #, c-format
@@ -1149,13 +1150,13 @@ msgstr "לא נמצאה קבוצה '%s' בהגדרות מקור המילון"
 #: ../gnome-dictionary/libgdict/gdict-source.c:530
 #, c-format
 msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
-msgstr "נכשל בקבלת המפתח '%s' בהגדרות מקור המילון: %s"
+msgstr "אירע כשל בקבלת המפתח '%s' בהגדרות מקור המילון: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:555
 #, c-format
 msgid ""
 "Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr "נכשל בקבלת המפתח '%s' בקובץ הגדרות מקור המילון: %s"
+msgstr "אירע כשל בקבלת המפתח '%s' בקובץ הגדרות מקור המילון: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:741
 #, c-format
@@ -1165,11 +1166,11 @@ msgstr "למקור המילון איו שם"
 #: ../gnome-dictionary/libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "למקור המילון '%s' סוג תעבורה '%s' שגוי"
+msgstr "למקור המילון '%s' סוג התעבורה '%s' שגוי"
 
 #: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
 msgid "Reload the list of available sources"
-msgstr "טען מחדש את רשימת המקורות הזמינים"
+msgstr "רענון רשימת המקורות הזמינים"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
 msgid "Paths"
@@ -1177,7 +1178,7 @@ msgstr "נתיבים"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:172
 msgid "Search paths used by this object"
-msgstr "Search paths used by this object"
+msgstr "חיפוש נתיבים שנעשה בהם שימוש לפי פריט זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:184
 msgid "Sources"
@@ -1185,11 +1186,11 @@ msgstr "מקורות"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:185
 msgid "Dictionary sources found"
-msgstr "מקור מילון נמצא"
+msgstr "נמצאו מקורות מילון"
 
 #: ../gnome-dictionary/libgdict/gdict-speller.c:354
 msgid "Clear the list of similar words"
-msgstr "נקה את רשימת המילים הדומות"
+msgstr "ניקוי רשימת המילים הדומות"
 
 #: ../gnome-dictionary/libgdict/gdict-speller.c:378
 msgid "The GdictContext object used to get the word definition"
@@ -1205,11 +1206,11 @@ msgstr "The strategy used to query the GdictContext"
 
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
 msgid "Reload the list of available strategies"
-msgstr "טען מחדש את רשימת האסטרטגיות הזמינות"
+msgstr "רענון רשימת האסטרטגיות הזמינות"
 
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
 msgid "Clear the list of available strategies"
-msgstr "נקה את רשימת האסטרטגיות הזמינות"
+msgstr "ניקוי רשימת האסטרטגיות הזמינות"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:97
 msgid "GDict debugging flags to set"
@@ -1235,7 +1236,7 @@ msgstr "Show GDict Options"
 #: ../gnome-dictionary/src/gdict-about.c:57
 #: ../gnome-dictionary/src/gdict-applet.c:591
 msgid "Look up words in dictionaries"
-msgstr "חפש מילים במילונים"
+msgstr "חיפוש מילים במילונים"
 
 #. Translators: the first is the word found, the second is the
 #. * database name and the last is the definition's text; please
@@ -1328,172 +1329,172 @@ msgstr "strat"
 msgid " - Look up words in dictionaries"
 msgstr " - Look up words in dictionaries"
 
-#: ../gnome-dictionary/src/gdict-applet.c:205
-#: ../gnome-dictionary/src/gdict-window.c:837
+#: ../gnome-dictionary/src/gdict-applet.c:206
+#: ../gnome-dictionary/src/gdict-window.c:834
 msgid "Save a Copy"
-msgstr "שמור עותק"
+msgstr "שמירת עותק"
 
-#: ../gnome-dictionary/src/gdict-applet.c:215
-#: ../gnome-dictionary/src/gdict-window.c:847
+#: ../gnome-dictionary/src/gdict-applet.c:216
+#: ../gnome-dictionary/src/gdict-window.c:844
 msgid "Untitled document"
 msgstr "מסמך ללא שם"
 
-#: ../gnome-dictionary/src/gdict-applet.c:236
-#: ../gnome-dictionary/src/gdict-window.c:868
+#: ../gnome-dictionary/src/gdict-applet.c:237
+#: ../gnome-dictionary/src/gdict-window.c:865
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "שגיאה בזמן הכתיבה אל '%s'"
 
-#: ../gnome-dictionary/src/gdict-applet.c:361
+#: ../gnome-dictionary/src/gdict-applet.c:362
 msgid "Clear the definitions found"
-msgstr "נקה את ההגדרות שנימצאו"
-
-#: ../gnome-dictionary/src/gdict-applet.c:363
-msgid "Clear definition"
-msgstr "נקה הגדרה"
+msgstr "ניקוי ההגדרות שנמצאו"
 
 #: ../gnome-dictionary/src/gdict-applet.c:364
+msgid "Clear definition"
+msgstr "ניקוי הגדרה"
+
+#: ../gnome-dictionary/src/gdict-applet.c:365
 msgid "Clear the text of the definition"
-msgstr "נקה את ההגדרה"
+msgstr "ניקוי טקסט ההגדרה"
 
-#: ../gnome-dictionary/src/gdict-applet.c:371
+#: ../gnome-dictionary/src/gdict-applet.c:372
 msgid "Print the definitions found"
-msgstr "הדפס את ההגדרות שנמצאו"
-
-#: ../gnome-dictionary/src/gdict-applet.c:373
-msgid "Print definition"
-msgstr "הדפס הגדרה"
+msgstr "הדפסת ההגדרות שנמצאו"
 
 #: ../gnome-dictionary/src/gdict-applet.c:374
+msgid "Print definition"
+msgstr "הדפסת הגדרה"
+
+#: ../gnome-dictionary/src/gdict-applet.c:375
 msgid "Print the text of the definition"
-msgstr "הדפס את ההגדרה"
+msgstr "הדפסת טקסט ההגדרה"
 
-#: ../gnome-dictionary/src/gdict-applet.c:381
+#: ../gnome-dictionary/src/gdict-applet.c:382
 msgid "Save the definitions found"
-msgstr "שמור את ההגדרות שנימצאו"
-
-#: ../gnome-dictionary/src/gdict-applet.c:383
-msgid "Save definition"
-msgstr "שמור את ההגדרה"
+msgstr "שמירת ההגדרות שנמצאו"
 
 #: ../gnome-dictionary/src/gdict-applet.c:384
+msgid "Save definition"
+msgstr "שמירת ההגדרה"
+
+#: ../gnome-dictionary/src/gdict-applet.c:385
 msgid "Save the text of the definition to a file"
-msgstr "שמור את תוכן ההגדרה לקובץ"
+msgstr "שמירת תוכן ההגדרה לקובץ"
 
 #: ../gnome-dictionary/src/gdict-applet.c:533
 msgid "Click to view the dictionary window"
-msgstr "לחץ כדי לצפות בחלון המילון"
+msgstr "יש ללחוץ כדי לצפות בחלון המילון"
 
 #: ../gnome-dictionary/src/gdict-applet.c:535
 msgid "Toggle dictionary window"
-msgstr "הצג/הסתר את חלון המילון"
+msgstr "הצגה/הסתרה של חלון המילון"
 
 #: ../gnome-dictionary/src/gdict-applet.c:536
 msgid "Show or hide the definition window"
-msgstr "הצג או הסתר את חלון ההגדרות"
+msgstr "הצגה או הסתרה של חלון ההגדרות"
 
 #: ../gnome-dictionary/src/gdict-applet.c:588
 msgid "Type the word you want to look up"
-msgstr "הכנס את המילה לחיפוש"
+msgstr "הזנת מילה לחיפוש"
 
 #: ../gnome-dictionary/src/gdict-applet.c:590
 msgid "Dictionary entry"
 msgstr "רשומת מילון"
 
-#: ../gnome-dictionary/src/gdict-applet.c:724
-#: ../gnome-dictionary/src/gdict-window.c:1001
+#: ../gnome-dictionary/src/gdict-applet.c:716
+#: ../gnome-dictionary/src/gdict-window.c:998
 msgid "Dictionary Preferences"
 msgstr "העדפות המילון"
 
-#: ../gnome-dictionary/src/gdict-applet.c:750
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:504
-#: ../gnome-dictionary/src/gdict-source-dialog.c:494
-#: ../gnome-dictionary/src/gdict-window.c:1145
+#: ../gnome-dictionary/src/gdict-applet.c:742
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1140
 #, c-format
 msgid "There was an error while displaying help"
-msgstr "ארעה שגיאה בהצגת העזרה"
+msgstr "אירעה שגיאה בהצגת העזרה"
 
-#: ../gnome-dictionary/src/gdict-applet.c:902
-#: ../gnome-dictionary/src/gdict-window.c:517
+#: ../gnome-dictionary/src/gdict-applet.c:896
+#: ../gnome-dictionary/src/gdict-window.c:514
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "איו מקור מילון זמין בשם '%s'"
 
-#: ../gnome-dictionary/src/gdict-applet.c:906
-#: ../gnome-dictionary/src/gdict-window.c:521
+#: ../gnome-dictionary/src/gdict-applet.c:900
+#: ../gnome-dictionary/src/gdict-window.c:518
 msgid "Unable to find dictionary source"
 msgstr "לא ניתן למצוא את מקור המילון"
 
-#: ../gnome-dictionary/src/gdict-applet.c:922
-#: ../gnome-dictionary/src/gdict-window.c:537
+#: ../gnome-dictionary/src/gdict-applet.c:916
+#: ../gnome-dictionary/src/gdict-window.c:534
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "לא קיים הקשר עבור המקור '%s'"
 
-#: ../gnome-dictionary/src/gdict-applet.c:926
-#: ../gnome-dictionary/src/gdict-window.c:541
+#: ../gnome-dictionary/src/gdict-applet.c:920
+#: ../gnome-dictionary/src/gdict-window.c:538
 msgid "Unable to create a context"
 msgstr "לא ניתן ליצור הקשר"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1191
-#: ../gnome-dictionary/src/gdict-window.c:2084
+#: ../gnome-dictionary/src/gdict-applet.c:1172
+#: ../gnome-dictionary/src/gdict-window.c:2078
 msgid "Unable to connect to GConf"
-msgstr "לא ניתן להתחבר ל-GConf"
+msgstr "לא ניתן להתחבר ל־GConf"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1204
-#: ../gnome-dictionary/src/gdict-window.c:2097
+#: ../gnome-dictionary/src/gdict-applet.c:1185
+#: ../gnome-dictionary/src/gdict-window.c:2091
 msgid "Unable to get notification for preferences"
-msgstr "לא ניתן לקבל התראות עבור העדפות"
+msgstr "לא ניתן לקבל התרעות עבור העדפות"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1218
-#: ../gnome-dictionary/src/gdict-window.c:2110
+#: ../gnome-dictionary/src/gdict-applet.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:2104
 msgid "Unable to get notification for the document font"
 msgstr "לא ניתן לקבל התרעות עבור גופן המסמך"
 
-#: ../gnome-dictionary/src/gdict-common.c:79
+#: ../gnome-dictionary/src/gdict-common.c:80
 #, c-format
 msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "לא ניתן לשנות את שם '%s' ל-'%s': ‏%s"
+msgstr "לא ניתן לשנות את השם '%s' ל־'%s': ‏%s"
 
-#: ../gnome-dictionary/src/gdict-common.c:103
-#: ../gnome-dictionary/src/gdict-common.c:126
+#: ../gnome-dictionary/src/gdict-common.c:104
+#: ../gnome-dictionary/src/gdict-common.c:127
 #, c-format
 msgid "Unable to create the data directory '%s': %s"
-msgstr "לא ניתן ליצור את ספריית המידע '%s': ‏%s"
+msgstr "לא ניתן ליצור את תיקיית הנתונים '%s': ‏%s"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:244
 msgid "Edit Dictionary Source"
-msgstr "ערוך מקור מילון"
+msgstr "עריכת מקור המילון"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:308
 msgid "Add Dictionary Source"
-msgstr "הוסף מקור מילון"
+msgstr "הוספת מקור מילון"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:354
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "להסיר את \"%s\"?"
+msgstr "האם להסיר את \"%s\"?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "מקור המילון יוסר מהרשימה לצמיתות."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:386
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "לא ניתן להסיר את המקור '%s'"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:666
 msgid "Add a new dictionary source"
-msgstr "הוסף מקור מילון חדש"
+msgstr "הוספת מקור מילון חדש"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:672
 msgid "Remove the currently selected dictionary source"
-msgstr "הסר את מקור המילון הנבחר"
+msgstr "הסרת מקור המילון הנבחר"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:685
 msgid "Set the font used for printing the definitions"
-msgstr "קבע את הגופן אשר ישמש להדפסת הגדרות"
+msgstr "הגדרת הגופן שישמש להדפסת ההגדרות"
 
 #: ../gnome-dictionary/src/gdict-print.c:249
 #: ../gnome-dictionary/src/gdict-print.c:313
@@ -1501,207 +1502,207 @@ msgstr "קבע את הגופן אשר ישמש להדפסת הגדרות"
 msgid "Unable to display the preview: %s"
 msgstr "לא ניתן להציג את התצוגה המקדימה: %s"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:356
-#: ../gnome-dictionary/src/gdict-source-dialog.c:449
+#: ../gnome-dictionary/src/gdict-source-dialog.c:341
+#: ../gnome-dictionary/src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
-msgstr "לא ניתן ליצור קובץ מקור."
+msgstr "לא ניתן ליצור קובץ מקור"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:374
-#: ../gnome-dictionary/src/gdict-source-dialog.c:467
+#: ../gnome-dictionary/src/gdict-source-dialog.c:359
+#: ../gnome-dictionary/src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "לא ניתן לשמור את קובץ המקור"
 
-#: ../gnome-dictionary/src/gdict-window.c:316
+#: ../gnome-dictionary/src/gdict-window.c:315
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "מחפש '%s'..."
+msgstr "בחיפוש אחר '%s'..."
 
-#: ../gnome-dictionary/src/gdict-window.c:348
-#: ../gnome-dictionary/src/gdict-window.c:407
+#: ../gnome-dictionary/src/gdict-window.c:347
+#: ../gnome-dictionary/src/gdict-window.c:404
 msgid "No definitions found"
 msgstr "לא נמצאו הגדרות"
 
-#: ../gnome-dictionary/src/gdict-window.c:350
+#: ../gnome-dictionary/src/gdict-window.c:349
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
-msgstr[0] "נימצאה הגדרה אחת"
-msgstr[1] "נימצאו %d הגדרות"
+msgstr[0] "נמצאה הגדרה אחת"
+msgstr[1] "נמצאו %d הגדרות"
 
-#: ../gnome-dictionary/src/gdict-window.c:606
+#: ../gnome-dictionary/src/gdict-window.c:603
 #, c-format
 msgid "%s - Dictionary"
 msgstr "מילון - %s"
 
-#: ../gnome-dictionary/src/gdict-window.c:1180 ../logview/logview-window.c:836
+#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
 msgid "_File"
 msgstr "_קובץ"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1178
 msgid "_Go"
-msgstr "_לך"
+msgstr "מע_בר"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1182
 msgid "_New"
 msgstr "_חדש"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1183
 msgid "New look up"
 msgstr "חיפוש חדש"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1184
 msgid "_Save a Copy..."
-msgstr "_שמור עותק..."
+msgstr "_שמירת עותק..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:1186
 msgid "P_review..."
 msgstr "_תצוגה מקדימה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1192
+#: ../gnome-dictionary/src/gdict-window.c:1187
 msgid "Preview this document"
 msgstr "תצוגה מקדימה של מסמך זה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1193
+#: ../gnome-dictionary/src/gdict-window.c:1188
 msgid "_Print..."
-msgstr "_הדפס..."
+msgstr "ה_דפסה..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1194
+#: ../gnome-dictionary/src/gdict-window.c:1189
 msgid "Print this document"
-msgstr "הדפס את מסמך זה"
+msgstr "הדפסת מסמך זה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201 ../logview/logview-window.c:851
+#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
 msgid "Select _All"
-msgstr "ב_חר הכל"
+msgstr "ב_חירת הכול"
 
-#: ../gnome-dictionary/src/gdict-window.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:1199
 msgid "Find a word or phrase in the document"
-msgstr "חפש מילה או ביטוי במסמך"
+msgstr "חיפוש מילה או ביטוי במסמך"
 
-#: ../gnome-dictionary/src/gdict-window.c:1206
+#: ../gnome-dictionary/src/gdict-window.c:1201
 msgid "Find Ne_xt"
-msgstr "חפש את ה_בא"
+msgstr "חיפוש ה_בא"
 
-#: ../gnome-dictionary/src/gdict-window.c:1208
+#: ../gnome-dictionary/src/gdict-window.c:1203
 msgid "Find Pre_vious"
-msgstr "_חפש את הקודם"
+msgstr "חיפוש ה_קודם"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1209
 msgid "_Previous Definition"
-msgstr "הגדרה ה_קודמת"
+msgstr "הגדרה קו_דמת"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1210
 msgid "Go to the previous definition"
-msgstr "לך אל ההגדרה הקודמת"
+msgstr "מעבר אל ההגדרה הקודמת"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1211
 msgid "_Next Definition"
-msgstr "הגדרה _הבאה"
+msgstr "ההגדרה הב_אה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1217
+#: ../gnome-dictionary/src/gdict-window.c:1212
 msgid "Go to the next definition"
-msgstr "לך אל ההגדרה הבאה"
+msgstr "מעבר אל ההגדרה הבאה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:1213
 msgid "_First Definition"
 msgstr "הגדרה _ראשונה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1214
 msgid "Go to the first definition"
-msgstr "לך להגדרה הראשונה"
+msgstr "מעבר להגדרה הראשונה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1220
+#: ../gnome-dictionary/src/gdict-window.c:1215
 msgid "_Last Definition"
-msgstr "הגדרה _אחרונה"
+msgstr "הגדרה אחרו_נה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1216
 msgid "Go to the last definition"
-msgstr "לך להגדרה האחרונה"
+msgstr "מעבר להגדרה האחרונה"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1224
+#: ../gnome-dictionary/src/gdict-window.c:1219
 msgid "Similar _Words"
 msgstr "_מילים דומות"
 
-#: ../gnome-dictionary/src/gdict-window.c:1226
+#: ../gnome-dictionary/src/gdict-window.c:1221
 msgid "Dictionary Sources"
 msgstr "מקורות מילון"
 
-#: ../gnome-dictionary/src/gdict-window.c:1228
+#: ../gnome-dictionary/src/gdict-window.c:1223
 msgid "Available _Databases"
-msgstr "בסיסי נתונים _זמינים"
+msgstr "מסדי נתונים _זמינים"
 
-#: ../gnome-dictionary/src/gdict-window.c:1230
+#: ../gnome-dictionary/src/gdict-window.c:1225
 msgid "Available St_rategies"
 msgstr "א_סטרטגיות זמינות"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1247
+#: ../gnome-dictionary/src/gdict-window.c:1242
 msgid "_Sidebar"
-msgstr "_סרגל צד"
+msgstr "סרגל _צד"
 
-#: ../gnome-dictionary/src/gdict-window.c:1249
+#: ../gnome-dictionary/src/gdict-window.c:1244
 msgid "S_tatusbar"
 msgstr "_שורת מצב"
 
-#: ../gnome-dictionary/src/gdict-window.c:1370
+#: ../gnome-dictionary/src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "מקור המילון '%s' נבחר"
 
-#: ../gnome-dictionary/src/gdict-window.c:1391
+#: ../gnome-dictionary/src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "האסטרטגיה '%s' נבחרה"
 
-#: ../gnome-dictionary/src/gdict-window.c:1411
+#: ../gnome-dictionary/src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
-msgstr "המסד '%s' נבחר"
+msgstr "מסד הנתונים '%s' נבחר"
 
-#: ../gnome-dictionary/src/gdict-window.c:1431
+#: ../gnome-dictionary/src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
-msgstr "המילה `%s' סומנה"
+msgstr "המילה `%s' בנחרה"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1453
+#: ../gnome-dictionary/src/gdict-window.c:1448
 msgid "Double-click on the word to look up"
-msgstr "לחץ לחיצה כפולה על המילה לביצוע חיפוש"
+msgstr "יש ללחוץ לחיצה כפולה על המילה לחיפוש"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1454
 msgid "Double-click on the matching strategy to use"
-msgstr "לחץ לחיצה כפולה על אסטרטגיית ההתאמות לשימוש"
+msgstr "יש ללחוץ לחיצה כפולה על אסטרטגיית ההתאמות לשימוש"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1464
+#: ../gnome-dictionary/src/gdict-window.c:1459
 msgid "Double-click on the source to use"
-msgstr "לחץ לחיצה כפולה על המקור לשימוש"
+msgstr "יש ללחוץ לחיצה כפולה על המקור לשימוש"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1473
+#: ../gnome-dictionary/src/gdict-window.c:1468
 msgid "Double-click on the database to use"
-msgstr "לחץ לחיצה כפולה על מסד הנתונים לשימוש"
+msgstr "יש ללחוץ לחיצה כפולה על מסד הנתונים לשימוש"
 
-#: ../gnome-dictionary/src/gdict-window.c:1761
+#: ../gnome-dictionary/src/gdict-window.c:1755
 msgid "Look _up:"
-msgstr "_חפש מילה:"
+msgstr "_חיפוש מילה:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1835
+#: ../gnome-dictionary/src/gdict-window.c:1829
 msgid "Similar words"
 msgstr "מילים דומות"
 
-#: ../gnome-dictionary/src/gdict-window.c:1848
+#: ../gnome-dictionary/src/gdict-window.c:1842
 msgid "Available dictionaries"
 msgstr "מילונים זמינים"
 
-#: ../gnome-dictionary/src/gdict-window.c:1861
+#: ../gnome-dictionary/src/gdict-window.c:1855
 msgid "Available strategies"
 msgstr "אסטרטגיות זמינות"
 
-#: ../gnome-dictionary/src/gdict-window.c:1872
+#: ../gnome-dictionary/src/gdict-window.c:1866
 msgid "Dictionary sources"
 msgstr "מקורות מילון"
 
@@ -1724,45 +1725,45 @@ msgstr "גבול"
 #. * Include pointer *
 #: ../gnome-screenshot/gnome-screenshot.c:351
 msgid "Include _pointer"
-msgstr "כלול את _סמן העכבר"
+msgstr "הכללת _סמן העכבר"
 
 #. * Include window border *
 #: ../gnome-screenshot/gnome-screenshot.c:360
 msgid "Include the window _border"
-msgstr "צרף לתצלום גם את גבולות החלון"
+msgstr "צירוף גבולות החלון לצילום"
 
 #: ../gnome-screenshot/gnome-screenshot.c:375
 msgid "Apply _effect:"
-msgstr "החל _אפקט:"
+msgstr "החלת _אפקט:"
 
 #: ../gnome-screenshot/gnome-screenshot.c:437
 msgid "Grab the whole _desktop"
-msgstr "צלם את כל שולחן ה_עבודה"
+msgstr "צילום כל שולחן ה_עבודה"
 
 #: ../gnome-screenshot/gnome-screenshot.c:449
 msgid "Grab the current _window"
-msgstr "צלם את _החלון הנוכחי"
+msgstr "צילום החלון ה_נוכחי"
 
 #: ../gnome-screenshot/gnome-screenshot.c:461
 msgid "Select _area to grab"
-msgstr "בחר _אזור ללכידה"
+msgstr "בחירת _אזור ללכידה"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:478
 msgid "Grab _after a delay of"
-msgstr "צלם אחרי ה_שהייה של"
+msgstr "צילום לאחר ה_שהייה של"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "seconds"
 msgstr "שניות"
 
-#: ../gnome-screenshot/gnome-screenshot.c:514
+#: ../gnome-screenshot/gnome-screenshot.c:516
 #: ../gnome-screenshot/gnome-screenshot.c:524
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
@@ -1778,93 +1779,93 @@ msgstr "צילום _מסך"
 
 #: ../gnome-screenshot/gnome-screenshot.c:657
 msgid "Error while saving screenshot"
-msgstr "שגיאה בשמירת תצלום מסך"
+msgstr "שגיאה בשמירת צילום מסך"
 
-#: ../gnome-screenshot/gnome-screenshot.c:661
+#: ../gnome-screenshot/gnome-screenshot.c:660
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
 " Error was %s.\n"
 " Please choose another location and retry."
 msgstr ""
-"בלתי אפשרי לשמור את תצלום המסך ל-%s.‏\n"
+"לא ניתן לשמור את צילום המסך ל־%s.‏\n"
 " השגיאה הייתה %s.‏\n"
 "‏ נא לבחור מיקום שונה ולנסות שוב."
 
-#: ../gnome-screenshot/gnome-screenshot.c:793
+#: ../gnome-screenshot/gnome-screenshot.c:792
 msgid "Screenshot taken"
-msgstr "צילום המסך התבצע"
+msgstr "המסך צולם"
 
-#: ../gnome-screenshot/gnome-screenshot.c:847
+#: ../gnome-screenshot/gnome-screenshot.c:846
 msgid "Unable to take a screenshot of the current window"
 msgstr "לא ניתן לצלם את החלון הנוכחי."
 
-#: ../gnome-screenshot/gnome-screenshot.c:897
+#: ../gnome-screenshot/gnome-screenshot.c:896
 #, c-format
 msgid "Screenshot-%s.png"
-msgstr "תצלום מסך-%s.png"
+msgstr "צילום מסך-%s.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:904
+#: ../gnome-screenshot/gnome-screenshot.c:903
 #, c-format
 msgid "Screenshot-%s-%d.png"
-msgstr "תצלום מסך -%s-%d.png"
+msgstr "צילום מסך -%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:914
-#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/gnome-screenshot.c:913
+#: ../gnome-screenshot/screenshot-dialog.c:353
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
-msgstr "תצלום מסך.png"
+msgstr "צילום מסך.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:921
+#: ../gnome-screenshot/gnome-screenshot.c:920
 #, c-format
 msgid "Screenshot-%d.png"
-msgstr "תצלום מסך-%d.png"
+msgstr "צילום מסך-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1285
 msgid "Grab a window instead of the entire screen"
 msgstr "Grab a window instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1286
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Grab an area of the screen instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1287
 msgid "Include the window border with the screenshot"
 msgstr "Include the window border with the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "Remove the window border from the screenshot"
 msgstr "Remove the window border from the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Take screenshot after specified delay [in seconds]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effect to add to the border (shadow, border or none)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "effect"
 msgstr "effect"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1293
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 msgid "Interactively set options"
 msgstr "Interactively set options"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1304
+#: ../gnome-screenshot/gnome-screenshot.c:1302
 msgid "Take a picture of the screen"
 msgstr "Take a picture of the screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1322
+#: ../gnome-screenshot/gnome-screenshot.c:1320
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1875,7 +1876,7 @@ msgstr ""
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
-msgstr "שמור תמונות של שולחן העבודה או החלונות שלך"
+msgstr "שמירת תמונות של שולחן העבודה או של החלונות שלך"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1883,15 +1884,15 @@ msgstr "*"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:2
 msgid "C_opy to Clipboard"
-msgstr "ה_עתק ללוח הגזירים"
+msgstr "ה_עתקה ללוח הגזירים"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:3
 msgid "Save Screenshot"
-msgstr "שמור תצלום מסך"
+msgstr "שמירת צילום המסך"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:4
 msgid "Save in _folder:"
-msgstr "שמור בתיקייה:"
+msgstr "שמירה בתיקייה:"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:5
 #: ../logview/data/logview-filter.ui.h:6
@@ -1954,7 +1955,7 @@ msgstr "The number of seconds to wait before taking the screenshot."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Window-specific screenshot (deprecated)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:239
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1962,9 +1963,9 @@ msgstr ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
 
-#: ../gnome-screenshot/screenshot-dialog.c:260
+#: ../gnome-screenshot/screenshot-dialog.c:257
 msgid "Select a folder"
-msgstr "בחר תיקייה"
+msgstr "בחירת תיקייה"
 
 #: ../gnome-screenshot/screenshot-save.c:57
 #, c-format
@@ -1979,46 +1980,46 @@ msgstr ""
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
-msgstr "תהליך השמירה הסתיים באופן בלתי צפוי. תצלום המסך לא נכתב לדיסק."
+msgstr "תהליך השמירה הסתיים באופן בלתי צפוי. צילום המסך לא נכתב לכונן."
 
 #: ../gnome-screenshot/screenshot-save.c:223
 msgid "Unknown error saving screenshot to disk"
-msgstr "שגיאה לא ידועה בשמירת תמונת המצב לדיסק"
+msgstr "שגיאה לא ידועה בשמירת צילום המסך לכונן"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:828
+#: ../gnome-screenshot/screenshot-utils.c:888
 msgid "Untitled Window"
 msgstr "חלון ללא כותרת"
 
-#: ../gnome-screenshot/screenshot-xfer.c:74
+#: ../gnome-screenshot/screenshot-xfer.c:72
 msgid "File already exists"
 msgstr "הקובץ כבר קיים"
 
-#: ../gnome-screenshot/screenshot-xfer.c:77
+#: ../gnome-screenshot/screenshot-xfer.c:75
 #, c-format
 msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "הקובץ \"%s\" כבר קיים. להחליפו?"
 
-#: ../gnome-screenshot/screenshot-xfer.c:84
-#: ../gsearchtool/gsearchtool-callbacks.c:1722
+#: ../gnome-screenshot/screenshot-xfer.c:82
+#: ../gsearchtool/gsearchtool-callbacks.c:1724
 msgid "_Replace"
-msgstr "ה_חלף"
+msgstr "ה_חלפה"
 
-#: ../gnome-screenshot/screenshot-xfer.c:122
+#: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
-msgstr "שומר קובץ..."
+msgstr "הקובץ נשמר..."
 
-#: ../gnome-screenshot/screenshot-xfer.c:294
+#: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
 msgstr "לא ניתן לגשת לקובץ המקור"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
-msgstr "אתר מסמכים ותיקיות במחשב זה לפי שם או תוכן"
+msgstr "איתור מסמכים ותיקיות במחשב זה לפי שם או תוכן"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
-msgstr "חפש קבצים..."
+msgstr "חיפוש קבצים..."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:1
 msgid "Default Window Height"
@@ -2360,8 +2361,8 @@ msgstr[1] "האם ברצונך לפתוח %d מסמכים?"
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
-msgstr[0] "חלון נפרד יפתח."
-msgstr[1] "‏%d חלונות נפרדים יפתחו"
+msgstr[0] "ייפתח בחלון נפרד."
+msgstr[1] "ייפתחו ב־‏%d חלונות נפרדים."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:390
 #, c-format
@@ -2375,38 +2376,38 @@ msgstr "לא ניתן לפתוח את התיקייה \"%s\""
 
 #: ../gsearchtool/gsearchtool-callbacks.c:427
 msgid "The nautilus file manager is not running."
-msgstr "מנהל הקבצים נאוטילוס אינו מופעל."
+msgstr "מנהל הקבצים Nautilus אינו מופעל."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:519
 msgid "There is no installed viewer capable of displaying the document."
-msgstr "אין מציג מותקן שיכול להציג את המסמך"
+msgstr "אין תכנית הצגה מותקנת שיכולה להציג את המסמך."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:542
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
-msgstr[0] "האם אתה בטוח שברצונך לפתוח תיקייה אחת?"
-msgstr[1] "האם אתה בטוח שברצונך לפתוח %d תיקיות?"
+msgstr[0] "האם אכן ברצונך לפתוח תיקייה אחת?"
+msgstr[1] "האם אכן ברצונך לפתוח %d תיקיות?"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:695
 #, c-format
 msgid "Could not move \"%s\" to trash."
-msgstr "לא ניתןלהעביר את המסמך \"%s\" לאשפה"
+msgstr "לא ניתן להעביר את המסמך \"%s\" לאשפה"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:726
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
-msgstr "למחוק את \"%s\" לצמיתות?"
+msgstr "האם למחוק את \"%s\" לצמיתות?"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:729
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr "האפשה אינה זמינה. לא ניתן להעביר את \"%s\" לאשפה."
+msgstr "האשפה אינה זמינה. לא ניתן להעביר את \"%s\" לאשפה."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:768
 #, c-format
 msgid "Could not delete \"%s\"."
-msgstr "לא ניתן למחוק את  \"%s\""
+msgstr "לא ניתן למחוק את \"%s\""
 
 #: ../gsearchtool/gsearchtool-callbacks.c:879
 #, c-format
@@ -2422,7 +2423,7 @@ msgstr "העברת \"%s\" נכשלה: %s."
 #: ../gsearchtool/gsearchtool-callbacks.c:1019
 #: ../gsearchtool/gsearchtool-callbacks.c:1049
 msgid "_Open"
-msgstr "_פתח"
+msgstr "_פתיחה"
 
 #. Popup menu item: Open with (default)
 #: ../gsearchtool/gsearchtool-callbacks.c:1074
@@ -2430,58 +2431,58 @@ msgstr "_פתח"
 msgid "_Open with %s"
 msgstr "_פתיחה באמצעות %s"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1108
+#: ../gsearchtool/gsearchtool-callbacks.c:1109
 #, c-format
 msgid "Open with %s"
 msgstr "פתיחה באמצעות %s"
 
 #. Popup menu item: Open With
-#: ../gsearchtool/gsearchtool-callbacks.c:1140
+#: ../gsearchtool/gsearchtool-callbacks.c:1142
 msgid "Open Wit_h"
 msgstr "פתיחה באמצעו_ת"
 
-#. Popup menu item: Open Folder
-#: ../gsearchtool/gsearchtool-callbacks.c:1185
-msgid "Open _Folder"
-msgstr "פתח _תיקייה"
+#. Popup menu item: Open Containing Folder
+#: ../gsearchtool/gsearchtool-callbacks.c:1187
+msgid "Open Containing _Folder"
+msgstr "פתיחת התיקייה המ_כילה"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1225
+#: ../gsearchtool/gsearchtool-callbacks.c:1227
 msgid "_Save Results As..."
-msgstr "_שמור תוצאות בשם..."
+msgstr "_שמירת תוצאות בשם..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1607
+#: ../gsearchtool/gsearchtool-callbacks.c:1609
 msgid "Save Search Results As..."
-msgstr "שמור תוצאות חיפוש בשם..."
+msgstr "שמירת תוצאות חיפוש בשם..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1638
+#: ../gsearchtool/gsearchtool-callbacks.c:1640
 msgid "Could not save document."
 msgstr "לא ניתן לשמור את המסמך"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1639
+#: ../gsearchtool/gsearchtool-callbacks.c:1641
 msgid "You did not select a document name."
-msgstr "לא בחרת שם מסמך."
+msgstr "לא בחרת שם למסמך."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1669
+#: ../gsearchtool/gsearchtool-callbacks.c:1671
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
-msgstr "לא ניתן לשמור את המסמך \"%s\" ל\"%s\"."
+msgstr "לא ניתן לשמור את המסמך \"%s\" ל־\"%s\"."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1703
+#: ../gsearchtool/gsearchtool-callbacks.c:1705
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
-msgstr "המסמך \"%s\" כבר קיים. להחליפו?"
+msgstr "המסמך \"%s\" כבר קיים. האם להחליפו?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1707
+#: ../gsearchtool/gsearchtool-callbacks.c:1709
 msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "החלפת קובץ קיים תגרום לאובדן תוכנו."
+msgstr "החלפת קובץ קיים תגרום לאבדן תוכנו."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1772
+#: ../gsearchtool/gsearchtool-callbacks.c:1774
 msgid "The document name you selected is a folder."
-msgstr "שם המסמך שבחרת הוא ספרייה."
+msgstr "שם המסמך שבחרת הוא תיקייה."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1810
+#: ../gsearchtool/gsearchtool-callbacks.c:1812
 msgid "You may not have write permissions to the document."
-msgstr "ייתכן ואין לך הרשאות כתיבה למסמך."
+msgstr "ייתכן שאין לך הרשאות כתיבה למסמך."
 
 #: ../gsearchtool/gsearchtool-support.c:63
 #, c-format
@@ -2489,7 +2490,7 @@ msgid ""
 "GConf error:\n"
 "  %s"
 msgstr ""
-"שגיאת GConf:\n"
+"שגיאת GConf:‏\n"
 "  %s"
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
@@ -2499,16 +2500,16 @@ msgstr ""
 #. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
 #: ../gsearchtool/gsearchtool-support.c:696
 msgid "today at %-I:%M %p"
-msgstr "היום ב-%-H:%M"
+msgstr "היום ב־%-H:%M"
 
 #: ../gsearchtool/gsearchtool-support.c:698
 msgid "yesterday at %-I:%M %p"
-msgstr "אתמול ב-%-H:%M"
+msgstr "אתמול ב־%-H:%M"
 
 #: ../gsearchtool/gsearchtool-support.c:700
 #: ../gsearchtool/gsearchtool-support.c:702
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "‏%A, %B %-d %Y ב-%-H:%M:%S"
+msgstr "%A, ה־%-d ב%B %Y בשעה %-H:%M:%S"
 
 #: ../gsearchtool/gsearchtool-support.c:889
 msgid "link (broken)"
@@ -2517,7 +2518,7 @@ msgstr "קישור (שבור)"
 #: ../gsearchtool/gsearchtool-support.c:893
 #, c-format
 msgid "link to %s"
-msgstr "קישור ל %s"
+msgstr "קישור אל %s"
 
 #. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
 #. Localizers:
@@ -2617,285 +2618,285 @@ msgstr " ("
 msgid " (%d"
 msgstr " (עותק מספר %d"
 
-#: ../gsearchtool/gsearchtool.c:81
+#: ../gsearchtool/gsearchtool.c:80
 msgid "Contains the _text"
 msgstr "המכילים את ה_טקסט"
 
-#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:82
 msgid "_Date modified less than"
-msgstr "_תאריך השינוי קטן מ"
+msgstr "_תאריך השינוי הוא פחות מ־"
 
-#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:82 ../gsearchtool/gsearchtool.c:83
 msgid "days"
 msgstr "ימים"
 
-#: ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:83
 msgid "Date modified more than"
-msgstr "תאריך השינוי גדול מ"
+msgstr "תאריך השינוי עולה על"
 
-#: ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:85
 msgid "S_ize at least"
-msgstr "ה_גודל לפחות"
+msgstr "ה_גודל הוא לפחות"
 
-#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:85 ../gsearchtool/gsearchtool.c:86
 msgid "kilobytes"
 msgstr "קילובתים"
 
-#: ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:86
 msgid "Si_ze at most"
-msgstr "הגו_דל לכל היותר"
+msgstr "הגו_דל הוא לכל היותר"
 
-#: ../gsearchtool/gsearchtool.c:88
+#: ../gsearchtool/gsearchtool.c:87
 msgid "File is empty"
 msgstr "הקובץ ריק"
 
-#: ../gsearchtool/gsearchtool.c:90
+#: ../gsearchtool/gsearchtool.c:89
 msgid "Owned by _user"
 msgstr "שייך ל_משתמש"
 
-#: ../gsearchtool/gsearchtool.c:91
+#: ../gsearchtool/gsearchtool.c:90
 msgid "Owned by _group"
 msgstr "שייך ל_קבוצה"
 
-#: ../gsearchtool/gsearchtool.c:92
+#: ../gsearchtool/gsearchtool.c:91
 msgid "Owner is unrecognized"
-msgstr "הבעלים לא מזוהים"
+msgstr "הבעלים אינם מזוהים"
 
-#: ../gsearchtool/gsearchtool.c:94
+#: ../gsearchtool/gsearchtool.c:93
 msgid "Na_me does not contain"
 msgstr "ה_שם אינו מכיל"
 
-#: ../gsearchtool/gsearchtool.c:95
+#: ../gsearchtool/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
-msgstr "השם מתאים לביטוי ה_רגולארי"
+msgstr "השם מתאים לביטוי ה_רגולרי"
+
+#: ../gsearchtool/gsearchtool.c:96
+msgid "Show hidden and backup files"
+msgstr "הצגת קבצים מוסתרים וגיבויים"
 
 #: ../gsearchtool/gsearchtool.c:97
-msgid "Show hidden and backup files"
-msgstr "הצג קבצים מוסתרים וגיבויים"
+msgid "Follow symbolic links"
+msgstr "מעקב אחר קישורים"
 
 #: ../gsearchtool/gsearchtool.c:98
-msgid "Follow symbolic links"
-msgstr "עקוב אחר קישורים"
-
-#: ../gsearchtool/gsearchtool.c:99
 msgid "Exclude other filesystems"
-msgstr "אל תכלול מערכות קבצים אחרות"
+msgstr "אין לכלול מערכות קבצים אחרות"
 
-#: ../gsearchtool/gsearchtool.c:157
+#: ../gsearchtool/gsearchtool.c:156
 msgid "Show version of the application"
 msgstr "Show version of the application"
 
-#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
-#: ../gsearchtool/gsearchtool.c:172
+#: ../gsearchtool/gsearchtool.c:157 ../gsearchtool/gsearchtool.c:162
+#: ../gsearchtool/gsearchtool.c:171
 msgid "STRING"
 msgstr "STRING"
 
-#: ../gsearchtool/gsearchtool.c:159
+#: ../gsearchtool/gsearchtool.c:158
 msgid "PATH"
 msgstr "PATH"
 
-#: ../gsearchtool/gsearchtool.c:160
+#: ../gsearchtool/gsearchtool.c:159
 msgid "VALUE"
 msgstr "VALUE"
 
-#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+#: ../gsearchtool/gsearchtool.c:163 ../gsearchtool/gsearchtool.c:164
 msgid "DAYS"
 msgstr "DAYS"
 
-#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+#: ../gsearchtool/gsearchtool.c:165 ../gsearchtool/gsearchtool.c:166
 msgid "KILOBYTES"
 msgstr "KILOBYTES"
 
-#: ../gsearchtool/gsearchtool.c:169
+#: ../gsearchtool/gsearchtool.c:168
 msgid "USER"
 msgstr "USER"
 
-#: ../gsearchtool/gsearchtool.c:170
+#: ../gsearchtool/gsearchtool.c:169
 msgid "GROUP"
 msgstr "GROUP"
 
-#: ../gsearchtool/gsearchtool.c:173
+#: ../gsearchtool/gsearchtool.c:172
 msgid "PATTERN"
 msgstr "PATTERN"
 
-#: ../gsearchtool/gsearchtool.c:384
+#: ../gsearchtool/gsearchtool.c:383
 msgid "A locate database has probably not been created."
 msgstr "נראה שלא קיים מסד נתונים של locate."
 
-#: ../gsearchtool/gsearchtool.c:486
+#: ../gsearchtool/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "המרת קידוד תווים נכשלה עבור \"%s\""
 
-#: ../gsearchtool/gsearchtool.c:510
+#: ../gsearchtool/gsearchtool.c:509
 msgid "Searching..."
-msgstr "מחפש..."
+msgstr "בהליכי חיפוש..."
 
-#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:509 ../gsearchtool/gsearchtool.c:1015
 #: ../gsearchtool/gsearchtool.c:2988
 msgid "Search for Files"
-msgstr "חפש קבצים"
+msgstr "חיפוש קבצים"
 
-#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:961 ../gsearchtool/gsearchtool.c:990
 msgid "No files found"
 msgstr "לא נמצאו קבצים"
 
-#: ../gsearchtool/gsearchtool.c:984
+#: ../gsearchtool/gsearchtool.c:983
 msgid "(stopped)"
 msgstr "(נעצר)"
 
-#: ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:989
 msgid "No Files Found"
 msgstr "לא נמצאו קבצים"
 
-#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:994
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
-msgstr[0] "%'d קבצים נמצאו"
+msgstr[0] "נמצא קובץ אחד"
 msgstr[1] "%'d קבצים נמצאו"
 
-#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
+#: ../gsearchtool/gsearchtool.c:998 ../gsearchtool/gsearchtool.c:1036
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
-msgstr[0] "%'d קבצים נמצאו"
+msgstr[0] "נמצא קובץ אחד"
 msgstr[1] "%'d קבצים נמצאו"
 
-#: ../gsearchtool/gsearchtool.c:1128
+#: ../gsearchtool/gsearchtool.c:1127
 msgid "Entry changed called for a non entry option!"
-msgstr "שינוי ערך נקרא לאפשרות שאיננה ערך!"
+msgstr "שינוי רשומה נקרא לאפשרות שאיננה רשומה!"
+
+#: ../gsearchtool/gsearchtool.c:1287
+msgid "Set the text of \"Name contains\" search option"
+msgstr "הגדרת הטקסט של 'השם מכיל'"
 
 #: ../gsearchtool/gsearchtool.c:1288
-msgid "Set the text of \"Name contains\" search option"
-msgstr "קבע את הטקסט של 'השם מכיל'"
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "הגדרת הטקסט של 'חיפוש בתיקייה'"
 
 #: ../gsearchtool/gsearchtool.c:1289
-msgid "Set the text of \"Look in folder\" search option"
-msgstr "קבע את הטקסט של 'הבט בתיקייה'"
-
-#: ../gsearchtool/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr "Sort files by one of the following: name, folder, size, type, or date"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1290
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Set sort order to descending, the default is ascending"
 
-#: ../gsearchtool/gsearchtool.c:1292
+#: ../gsearchtool/gsearchtool.c:1291
 msgid "Automatically start a search"
 msgstr "Automatically start a search "
 
-#: ../gsearchtool/gsearchtool.c:1298
+#: ../gsearchtool/gsearchtool.c:1297
 #, c-format
 msgid "Select the \"%s\" search option"
-msgstr "בחר את אפשרות החיפוש \"%s\""
+msgstr "בחירת אפשרות החיפוש \"%s\""
 
-#: ../gsearchtool/gsearchtool.c:1301
+#: ../gsearchtool/gsearchtool.c:1300
 #, c-format
 msgid "Select and set the \"%s\" search option"
-msgstr "בחר וקבע את אפשרות החיפוש \"%s\""
+msgstr "בחירה והגדרה של אפשרות החיפוש \"%s\""
 
-#: ../gsearchtool/gsearchtool.c:1408
+#: ../gsearchtool/gsearchtool.c:1407
 msgid "Invalid option passed to sortby command line argument."
-msgstr "אפשרות לא תקנית הועברה ל sortby כארגומנט בשורת הפקודה."
+msgstr "אפשרות לא תקנית הועברה ל־sortby כארגומנט בשורת הפקודה."
 
-#: ../gsearchtool/gsearchtool.c:1702
+#: ../gsearchtool/gsearchtool.c:1701
 msgid ""
 "\n"
 "... Too many errors to display ..."
 msgstr ""
 "\n"
-"... יותר מידי שגיאות כדי להציג ..."
+"... יותר מידי שגיאות מכדי להציגן ..."
 
-#: ../gsearchtool/gsearchtool.c:1716
+#: ../gsearchtool/gsearchtool.c:1715
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr "תוצאות החיפוש עלולות להיות שגויות. חלו שגיאות במהלך ביצוע החיפוש."
 
-#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
+#: ../gsearchtool/gsearchtool.c:1727 ../gsearchtool/gsearchtool.c:1771
 msgid "Show more _details"
-msgstr "הצג _פרטים נוספים"
+msgstr "הצגת _פרטים נוספים"
 
-#: ../gsearchtool/gsearchtool.c:1758
+#: ../gsearchtool/gsearchtool.c:1757
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
 msgstr ""
 "תוצאות החיפוש מיושנות או שאינן תקינות. האם ברצונך לבטל את החיפוש המהיר?"
 
-#: ../gsearchtool/gsearchtool.c:1783
+#: ../gsearchtool/gsearchtool.c:1782
 msgid "Disable _Quick Search"
-msgstr "בטל חיפוש _מהיר"
+msgstr "ביטול החיפוש ה_מהיר"
 
-#: ../gsearchtool/gsearchtool.c:1810
+#: ../gsearchtool/gsearchtool.c:1809
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr "Failed to set process group id of child %d: %s.\n"
+msgstr "אירע כשל בהגדרת מזהה קבוצה לתהליך של הצאצא %d:‏ %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1835
+#: ../gsearchtool/gsearchtool.c:1834
 msgid "Error parsing the search command."
-msgstr "שגיאה בזמן פירוק פקודת החיפוש."
+msgstr "שגיאה בעת פענוח פקודת החיפוש."
 
-#: ../gsearchtool/gsearchtool.c:1868
+#: ../gsearchtool/gsearchtool.c:1867
 msgid "Error running the search command."
-msgstr "שגיאה בזמן הפעלת פקודת החיפוש"
+msgstr "שגיאה בעת הפעלת פקודת החיפוש."
 
-#: ../gsearchtool/gsearchtool.c:1988
+#: ../gsearchtool/gsearchtool.c:1987
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
-msgstr "הכנס ערך טקסט עבור אפשרות החיפוש \"%s\"."
+msgstr "יש להזין ערך טקסט עבור אפשרות החיפוש \"%s\"."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1993
+#: ../gsearchtool/gsearchtool.c:1992
 #, c-format
 msgid "\"%s\" in %s"
-msgstr "‏\"%s\" לפי %s"
+msgstr "‏\"%s\" תחת %s"
 
-#: ../gsearchtool/gsearchtool.c:1995
+#: ../gsearchtool/gsearchtool.c:1994
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
-msgstr "הכנס ערך ב-%s עבור אפשרות החיפוש \"%s\"."
+msgstr "יש להזין ערך תחת %s עבור אפשרות החיפוש \"%s\"."
+
+#: ../gsearchtool/gsearchtool.c:2052
+#, c-format
+msgid "Remove \"%s\""
+msgstr "הסרת \"%s\""
 
 #: ../gsearchtool/gsearchtool.c:2053
 #, c-format
-msgid "Remove \"%s\""
-msgstr "הסר את \"%s\""
-
-#: ../gsearchtool/gsearchtool.c:2054
-#, c-format
 msgid "Click to remove the \"%s\" search option."
-msgstr "לחץ בכדי להסיר את אפשרות החיפוש \"%s\"."
+msgstr "יש ללחוץ כדי להסיר את אפשרות החיפוש \"%s\"."
 
-#: ../gsearchtool/gsearchtool.c:2147
+#: ../gsearchtool/gsearchtool.c:2146
 msgid "A_vailable options:"
 msgstr "אפשרויות _זמינות:"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2175
 msgid "Available options"
 msgstr "אפשרויות זמינות"
 
-#: ../gsearchtool/gsearchtool.c:2177
+#: ../gsearchtool/gsearchtool.c:2176
 msgid "Select a search option from the drop-down list."
-msgstr "בחר אפשרות חיפוש מהרשימה."
+msgstr "נא לבחור האפשרות חיפוש מהרשימה."
+
+#: ../gsearchtool/gsearchtool.c:2188
+msgid "Add search option"
+msgstr "הוספת אפשרות חיפוש"
 
 #: ../gsearchtool/gsearchtool.c:2189
-msgid "Add search option"
-msgstr "הוסף אפשרות חיפוש"
-
-#: ../gsearchtool/gsearchtool.c:2190
 msgid "Click to add the selected available search option."
-msgstr "לחץ להוספת אפשרויות החיפוש שנבחרו."
+msgstr "יש ללחוץ להוספת אפשרויות החיפוש שנבחרו."
 
-#: ../gsearchtool/gsearchtool.c:2279
+#: ../gsearchtool/gsearchtool.c:2278
 msgid "S_earch results:"
 msgstr "תוצאות החי_פוש:"
 
 #: ../gsearchtool/gsearchtool.c:2322
 msgid "List View"
-msgstr "הוצג לאחרונה"
+msgstr "תצוגת רשימה"
 
 #: ../gsearchtool/gsearchtool.c:2431
 msgid "Type"
@@ -2911,7 +2912,7 @@ msgstr "ה_שם מכיל:"
 
 #: ../gsearchtool/gsearchtool.c:2773 ../gsearchtool/gsearchtool.c:2774
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr "הכנס את שם הקובץ חלקי או שלם עם או בלי כוכבית."
+msgstr "נא להזין את שם הקובץ או חלק ממנו עם או בלי תווי כל."
 
 #: ../gsearchtool/gsearchtool.c:2774
 msgid "Name contains"
@@ -2919,47 +2920,47 @@ msgstr "השם מכיל"
 
 #: ../gsearchtool/gsearchtool.c:2780
 msgid "_Look in folder:"
-msgstr "_חפש בתיקייה:"
+msgstr "_חיפוש בתיקייה:"
 
 #: ../gsearchtool/gsearchtool.c:2786
 msgid "Browse"
-msgstr "עיין"
+msgstr "עיון"
 
 #: ../gsearchtool/gsearchtool.c:2795
 msgid "Look in folder"
-msgstr "חפש בתיקייה"
+msgstr "חיפוש בתיקייה"
 
 #: ../gsearchtool/gsearchtool.c:2795
 msgid "Select the folder or device from which you want to begin the search."
-msgstr "בחר בתקייה או בהתקן ממנו אתה מעוניין להתחיל לחפש."
+msgstr "נא לבחור בתיקייה או בהתקן ממנו ברצונך להתחיל בחיפוש."
 
 #: ../gsearchtool/gsearchtool.c:2813
 msgid "Select more _options"
-msgstr "בחר עוד _אפשרויות"
+msgstr "בחירת _אפשרויות נוספות"
 
 #: ../gsearchtool/gsearchtool.c:2822
 msgid "Select more options"
-msgstr "בחר עוד אפשרויות"
+msgstr "בחירת אפשרויות נוספות"
 
 #: ../gsearchtool/gsearchtool.c:2822
 msgid "Click to expand or collapse the list of available options."
-msgstr "לחץ להרחבת או לכיווץ רשימת האפשרויות הזמינות."
+msgstr "יש ללחוץ להרחבת או לכיווץ רשימת האפשרויות הזמינות."
 
 #: ../gsearchtool/gsearchtool.c:2846
 msgid "Click to display the help manual."
-msgstr "לחץ להצגת העזרה"
+msgstr "נא ללחוץ להצגת העזרה"
 
 #: ../gsearchtool/gsearchtool.c:2854
 msgid "Click to close \"Search for Files\"."
-msgstr "לחץ כדי לסגור את \"חפש קבצים\"."
+msgstr "יש ללחוץ כדי לסגור את \"חיפוש קבצים\"."
 
 #: ../gsearchtool/gsearchtool.c:2880
 msgid "Click to perform a search."
-msgstr "לחץ כדי לבצע חיפוש"
+msgstr "יש ללחוץ כדי לבצע חיפוש."
 
 #: ../gsearchtool/gsearchtool.c:2881
 msgid "Click to stop a search."
-msgstr "לחץ כדי לעצור חיפוש"
+msgstr "יש ללחוץ כדי לעצור את החיפוש."
 
 #: ../gsearchtool/gsearchtool.c:2973
 msgid "- the GNOME Search Tool"
@@ -3035,11 +3036,11 @@ msgstr "Show session management options"
 
 #: ../logview/data/gnome-system-log.desktop.in.in.h:1
 msgid "Log File Viewer"
-msgstr "מציג קבצי יומן"
+msgstr "מציג קובצי יומן"
 
 #: ../logview/data/gnome-system-log.desktop.in.in.h:2
 msgid "View or monitor system log files"
-msgstr "הצג או נטר את קבצי דו\"ח מערכת"
+msgstr "הצגה של או מעקב אחר קובצי יומני המערכת"
 
 #: ../logview/data/gnome-system-log.schemas.in.h:1
 msgid "Height of the main window in pixels"
@@ -3047,7 +3048,7 @@ msgstr "Height of the main window in pixels"
 
 #: ../logview/data/gnome-system-log.schemas.in.h:2
 msgid "Log file to open up on startup"
-msgstr "קובץ דו\"ח לפתיחה בהפעלה"
+msgstr "Log file to open up on startup"
 
 #: ../logview/data/gnome-system-log.schemas.in.h:3
 msgid "Log files to open up on startup"
@@ -3107,20 +3108,20 @@ msgstr "קדמה:"
 
 #: ../logview/data/logview-filter.ui.h:4
 msgid "Hide"
-msgstr "הסתר"
+msgstr "הסתרה"
 
 #: ../logview/data/logview-filter.ui.h:5
 msgid "Highlight"
-msgstr "הדגש"
+msgstr "הדגשה"
 
 #: ../logview/data/logview-filter.ui.h:7
 msgid "_Regular Expression:"
-msgstr "ביטוי _רגולאריים:"
+msgstr "ביטוי _רגולרי:"
 
-#: ../logview/logview-app.c:375
+#: ../logview/logview-app.c:374
 #, c-format
 msgid "Impossible to open the file %s"
-msgstr "בלתי אפשרי לפתוח את הקובץ %s"
+msgstr "לא ניתן לפתוח את הקובץ %s"
 
 #: ../logview/logview-filter-manager.c:90
 msgid "Filter name is empty!"
@@ -3132,60 +3133,60 @@ msgstr "שם המסנן לא יכול להכיל את התו ':'"
 
 #: ../logview/logview-filter-manager.c:126
 msgid "Regular expression is empty!"
-msgstr "ביטוי רגולארי ריק!"
+msgstr "הביטוי הרגולרי ריק!"
 
 #: ../logview/logview-filter-manager.c:142
 #, c-format
 msgid "Regular expression is invalid: %s"
-msgstr "ביטוי רגולארי לא תקין: %s"
+msgstr "הביטוי הרגולרי לא תקין: %s"
 
 #: ../logview/logview-filter-manager.c:238
 msgid "Please specify either foreground or background color!"
-msgstr "נא לציין או רקע קדמי או צבע רקע אחורי!"
+msgstr "נא לציין או את צבע הרקע הקדמי או את צבע הרקע האחורי!"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Edit filter"
-msgstr "ערוך מסנן"
+msgstr "עריכת מסנן"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Add new filter"
-msgstr "הוסף מסנן חדש"
+msgstr "הוספת מסנן חדש"
 
-#: ../logview/logview-filter-manager.c:503
+#: ../logview/logview-filter-manager.c:502
 msgid "Filters"
 msgstr "מסננים"
 
 #: ../logview/logview-findbar.c:169
 msgid "_Find:"
-msgstr "_חפש:"
+msgstr "_חיפוש:"
 
 #: ../logview/logview-findbar.c:184
 msgid "Find Previous"
-msgstr "חפש את הקודם"
+msgstr "חיפוש הקודם"
 
 #: ../logview/logview-findbar.c:187
 msgid "Find previous occurrence of the search string"
-msgstr "מצא את המופע הקודם של מחרוזת החיפוש"
+msgstr "חיפוש המופע הקודם של מחרוזת החיפוש"
 
 #: ../logview/logview-findbar.c:192
 msgid "Find Next"
-msgstr "חפש את הבא"
+msgstr "חיפוש הבא"
 
 #: ../logview/logview-findbar.c:195
 msgid "Find next occurrence of the search string"
-msgstr "מצא את המופע הבא של מחרוזת החיפוש"
+msgstr "חיפוש המופע הבא של מחרוזת החיפוש"
 
 #: ../logview/logview-findbar.c:202
 msgid "Clear the search string"
-msgstr "נקה את מחרוזת החיפוש"
+msgstr "ניקוי מחרוזת החיפוש"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr "ארעה שגיאה בעת חילוץ היומן הדחוס ב־Gzip. יתכן שהקובץ פגום."
+msgstr "אירעה שגיאה בעת חילוץ היומן הדחוס ב־Gzip. יתכן שהקובץ פגום."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
-msgstr "אין לך הרשאות מספיקות כדי לקרוא את הקובץ."
+msgstr "אין לך די הרשאות כדי לקרוא את הקובץ."
 
 #: ../logview/logview-log.c:657
 msgid "The file is not a regular file or is not a text file."
@@ -3197,27 +3198,27 @@ msgstr "גרסה זו של יומן המערכת אינה תומכת ביומנ�
 
 #: ../logview/logview-loglist.c:311
 msgid "Loading..."
-msgstr "טוען..."
+msgstr "בטעינה..."
 
-#: ../logview/logview-main.c:62
+#: ../logview/logview-main.c:61
 msgid "Show the application's version"
 msgstr "Show the application's version"
 
-#: ../logview/logview-main.c:64
+#: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
 msgstr "[LOGFILE...]"
 
-#: ../logview/logview-main.c:68
+#: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
 msgstr " - Browse and monitor logs"
 
-#: ../logview/logview-main.c:103
+#: ../logview/logview-main.c:102
 msgid "Log Viewer"
-msgstr "מציג דו\"חות מערכת"
+msgstr "מציג היומנים"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:788
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
 msgid "System Log Viewer"
-msgstr "מציג דו\"חות מערכת"
+msgstr "מציג יומני המערכת"
 
 #: ../logview/logview-window.c:210
 #, c-format
@@ -3229,133 +3230,133 @@ msgstr "עדכון אחרון: %s"
 msgid "%d lines (%s) - %s"
 msgstr "‏%d שורות (%s) - ‏%s"
 
-#: ../logview/logview-window.c:343
+#: ../logview/logview-window.c:317
 msgid "Open Log"
-msgstr "פתח יומן"
+msgstr "פתיחת יומן"
 
-#: ../logview/logview-window.c:382
+#: ../logview/logview-window.c:356
 #, c-format
 msgid "There was an error displaying help: %s"
-msgstr "ארעה שגיאה בהצגת העזרה: %s"
+msgstr "אירעה שגיאה בהצגת העזרה: %s"
 
-#: ../logview/logview-window.c:498
+#: ../logview/logview-window.c:470
 msgid "Wrapped"
 msgstr "גולש"
 
-#: ../logview/logview-window.c:793
+#: ../logview/logview-window.c:764
 msgid "A system log viewer for GNOME."
-msgstr "מציג דו\"חות מערכת ל GNOME."
+msgstr "מציג יומני מערכת ל־GNOME."
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:810
 msgid "_Filters"
 msgstr "_מסננים"
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "_Open..."
 msgstr "_פתיחה..."
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "Open a log from file"
-msgstr "פתח דו\"ח מקובץ"
+msgstr "פתיחת יומן מקובץ"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "_Close"
-msgstr "_סגור"
+msgstr "_סגירה"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "Close this log"
-msgstr "סגור את הדו\"ח"
+msgstr "סגירת היומן"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "_Quit"
-msgstr "_יציאה"
+msgstr "י_ציאה"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "Quit the log viewer"
-msgstr "צא ממציג הדו\"חות"
+msgstr "יציאה ממציג היומנים"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "_Copy"
-msgstr "ה_עתק"
+msgstr "ה_עתקה"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "Copy the selection"
-msgstr "העתק את הבחירה"
+msgstr "העתקת הבחירה"
 
-#: ../logview/logview-window.c:851
+#: ../logview/logview-window.c:822
 msgid "Select the entire log"
-msgstr "בחר בכל הדו\"ח"
+msgstr "בחירה ביומן כולו"
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "_Find..."
-msgstr "_חפש..."
+msgstr "_חיפוש..."
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "Find a word or phrase in the log"
-msgstr "חפש מילה או ביטוי ביומן"
+msgstr "חיפוש מילה או ביטוי ביומן"
 
-#: ../logview/logview-window.c:856
+#: ../logview/logview-window.c:827
 msgid "Bigger text size"
 msgstr "טקסט גדול יותר"
 
-#: ../logview/logview-window.c:858
+#: ../logview/logview-window.c:829
 msgid "Smaller text size"
 msgstr "טקסט קטן יותר"
 
-#: ../logview/logview-window.c:860
+#: ../logview/logview-window.c:831
 msgid "Normal text size"
 msgstr "גודל טקסט רגיל"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage Filters"
 msgstr "ניהול מסננים"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage filters"
 msgstr "ניהול מסננים"
 
-#: ../logview/logview-window.c:866
+#: ../logview/logview-window.c:837
 msgid "Open the help contents for the log viewer"
-msgstr "פתח את העזרה של מציג הדו\"חות"
+msgstr "פתיחת העזרה של מציג היומנים"
 
-#: ../logview/logview-window.c:868
+#: ../logview/logview-window.c:839
 msgid "Show the about dialog for the log viewer"
-msgstr "הצג את תיבת האודות של מציג הדו\"חות"
+msgstr "הצגת תיבה על אודות מציג היומנים"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "_Statusbar"
 msgstr "_שורת מצב"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "Show Status Bar"
-msgstr "הצג שורת מצב"
+msgstr "הצגת שורת המצב"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Side _Pane"
 msgstr "סרגל _צד"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Show Side Pane"
-msgstr "הצג סרגל צד"
+msgstr "הצגת סרגל צד"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Show matches only"
-msgstr "הצג התאמות בלבד"
+msgstr "הצגת התאמות בלבד"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Only show lines that match one of the given filters"
-msgstr "הצג שורות התואמות רק לאחד מהמסננים הנתונים"
+msgstr "הצגת שורות התואמות לאחד מהמסננים הנתונים בלבד"
 
-#: ../logview/logview-window.c:1014
+#: ../logview/logview-window.c:962
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "לא ניתן לקרוא מ־\"%s\""
 
-#: ../logview/logview-window.c:1436
+#: ../logview/logview-window.c:1381
 msgid "Version: "
 msgstr "גרסה:"
 
-#: ../logview/logview-window.c:1543
+#: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "לא ניתן לפתוח את הקבצים הבאים:"
 
