@@ -4,7 +4,7 @@ m4_define([gnome_utils_micro], [0])
 
 m4_define([gnome_utils_version], [gnome_utils_major.gnome_utils_minor.gnome_utils_micro])
 
-AC_PREREQ([2.63])
+AC_PREREQ([2.64])
 
 AC_INIT([gnome-utils],
         [gnome_utils_version],
@@ -12,28 +12,26 @@ AC_INIT([gnome-utils],
         [gnome-utils],
         [http://live.gnome.org/GnomeUtils])
 
+AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_CONFIG_HEADER([config.h])
 AM_INIT_AUTOMAKE([1.11 -Wno-portability dist-bzip2])
 AM_SILENT_RULES([yes])
 
-GNOME_COMMON_INIT
-
 IT_PROG_INTLTOOL([0.40.0])
 
-AC_ISC_POSIX
 AC_PROG_CXX
 AC_PROG_CC
 AC_PROG_CPP
-AC_STDC_HEADERS
+AC_HEADER_STDC
 AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
+
 AC_PATH_PROG(GLIB_GENMARSHAL, [glib-genmarshal])
 AC_PATH_PROG(GLIB_MKENUMS, [glib-mkenums])
 
-GNOME_COMPILE_WARNINGS([yes])
+GNOME_COMPILE_WARNINGS([maximum])
 
 AC_PATH_XTRA
 
@@ -42,10 +40,8 @@ AC_C_INLINE
 AC_TYPE_OFF_T
 AC_TYPE_PID_T
 AC_TYPE_SIZE_T
-AC_STRUCT_ST_RDEV
 AC_HEADER_TIME
 AC_STRUCT_TM
-AC_TYPE_SIGNAL
 AC_FUNC_STRFTIME
 AC_CHECK_FUNCS([getpgid])
 
@@ -58,8 +54,8 @@ AC_CHECK_FUNCS([getpgid])
 # - If the interface is the same as the previous version, change to C:R+1:A
 
 LT_PREREQ([2.2.6])
-LT_INIT([disable-static])
-AC_LIBTOOL_WIN32_DLL
+LT_INIT([disable-static win32-dll])
+
 LIBGDICT_LT_VERSION=6:7:0
 AC_SUBST(LIBGDICT_LT_VERSION)
 
@@ -146,7 +142,7 @@ AS_IF([test "x$GCONFTOOL" = "xno"],
 AM_GCONF_SOURCE_2
 
 AC_ARG_ENABLE([gdict-applet],
-               [AC_HELP_STRING([--enable-gdict-applet=@<:@yes/no@:>@],
+               [AS_HELP_STRING([--enable-gdict-applet=@<:@yes/no@:>@],
                                [Whether to build the Dictionary gnome-panel applet])],
                [],
                [enable_gdict_applet=yes])
@@ -183,7 +179,7 @@ dnl ***************************************************************
 dnl Enable debug messages
 m4_define([debug_default], [m4_if(m4_eval(gdict_minor_version % 2), [1], [yes], [minimum])])
 AC_ARG_ENABLE([debug],
-              [AC_HELP_STRING([--enable-debug=@<:@no/minimum/yes@:>@],
+              [AS_HELP_STRING([--enable-debug=@<:@no/minimum/yes@:>@],
                               [Enable debug messages @<:@default=debug_default@:>@])],
               [],
               [enable_debug=debug_default])
@@ -210,22 +206,20 @@ AC_SUBST(GDICT_DEBUG_CFLAGS)
 dnl IPv6 support
 AC_MSG_CHECKING([whether to enable IPv6])
 AC_ARG_ENABLE([ipv6],
-              [AC_HELP_STRING([--enable-ipv6=@<:@yes/no@:>@],
+              [AS_HELP_STRING([--enable-ipv6=@<:@yes/no@:>@],
                               [Enables compilation of IPv6 code])],
               [],
               [enable_ipv6=yes])
 
 AS_IF([test "x$enable_ipv6" = "xyes"],
       [
-        AC_TRY_COMPILE(
-          [
+        AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[
             #include <sys/socket.h>
             #include <sys/types.h>
-          ],
-          [
+          ]], [[
             struct sockaddr_storage ss;
             socket(AF_INET6, SOCK_STREAM, 0)
-          ],
+          ]])],
           [have_ipv6=yes],
           [have_ipv6=no]
         )
@@ -255,7 +249,8 @@ AS_IF([test "x$have_ipv6" = "xyes"],
 
 
 dnl strftime extension checks
-AC_TRY_RUN([
+AC_RUN_IFELSE(
+  [AC_LANG_SOURCE([[
   #include <time.h>
   int main (void) {
     char buf[100];
@@ -265,17 +260,16 @@ AC_TRY_RUN([
       return 0;
     return 1;
   }
-  ],
-  [
+  ]])],[
     AC_DEFINE([HAVE_STRFTIME_EXTENSION], [1],
               [Define if strftime supports %E and %O modifiers.])
-  ]
-)
+  ],
+  [],[])
 
 dnl gnome-search-tool checks
 withval=""
 AC_ARG_WITH([grep],
-            AC_HELP_STRING([--with-grep=@<:@grep command@:>@]
+            AS_HELP_STRING([--with-grep=@<:@grep command@:>@],
                            [Specify where to find the grep binary]),
             [
               AS_IF([test x$withval != x],
@@ -296,7 +290,7 @@ AC_SUBST(GREP_COMMAND)
 
 dnl logview checks
 AC_ARG_ENABLE([zlib],
-              [AC_HELP_STRING([--disable-zlib], [disable zlib support])])
+              [AS_HELP_STRING([--disable-zlib],[disable zlib support])])
 msg_zlib=no
 Z_LIBS=
 
@@ -329,7 +323,7 @@ dnl = Enable strict compiler flags =========================================
 # use strict compiler flags only on development releases
 m4_define([maintainer_flags_default], [m4_if(m4_eval(gnome_utils_minor % 2), [1], [yes], [no])])
 AC_ARG_ENABLE([maintainer-flags],
-              [AC_HELP_STRING([--enable-maintainer-flags=@<:@no/yes@:>@],
+              [AS_HELP_STRING([--enable-maintainer-flags=@<:@no/yes@:>@],
                               [Use strict compiler flags @<:@default=maintainer_flags_default@:>@])],
               [],
               [enable_maintainer_flags=maintainer_flags_default])

@@ -4,7 +4,6 @@
 srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
-REQUIRED_AUTOMAKE_VERSION=1.11
 PKG_NAME="GNOME Utilities"
 
 (test -f $srcdir/configure.ac \
@@ -15,9 +14,8 @@ PKG_NAME="GNOME Utilities"
     exit 1
 }
 
-
 which gnome-autogen.sh || {
-    echo "You need to install gnome-common from the GNOME CVS"
+    echo "You need to install gnome-common package"
     exit 1
 }
 
