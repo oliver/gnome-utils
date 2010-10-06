@@ -10,10 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2009-11-11 16:34+0000\n"
-"PO-Revision-Date: 2010-08-14 20:25+0100\n"
+"POT-Creation-Date: 2010-10-06 02:39+0000\n"
+"PO-Revision-Date: 2010-10-06 15:02+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,14 +118,14 @@ msgstr "_Zloži vse"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1234
-#: ../logview/logview-window.c:866
+#: ../gnome-dictionary/src/gdict-window.c:1229
+#: ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "_Vsebina"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1181
-#: ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1176
+#: ../logview/logview-window.c:808
 msgid "_Edit"
 msgstr "_Uredi"
 
@@ -134,8 +135,8 @@ msgstr "_Razširi vse"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1184
-#: ../logview/logview-window.c:840
+#: ../gnome-dictionary/src/gdict-window.c:1179
+#: ../logview/logview-window.c:811
 msgid "_Help"
 msgstr "Pomo_č"
 
@@ -144,8 +145,8 @@ msgid "_Toolbar"
 msgstr "_Orodna vrstica"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1182
-#: ../logview/logview-window.c:838
+#: ../gnome-dictionary/src/gdict-window.c:1177
+#: ../logview/logview-window.c:809
 msgid "_View"
 msgstr "Po_gled"
 
@@ -189,37 +190,49 @@ msgstr "Ali naj bodo izrisani namigi podmap izbrane mape."
 msgid "Whether the toolbar should be visible in main window."
 msgstr "Ali naj bo orodna vrstica v glavnem oknu vidna."
 
-#: ../baobab/src/baobab.c:139
-#: ../baobab/src/baobab.c:320
+#: ../baobab/src/baobab.c:134
+#: ../baobab/src/baobab.c:353
 msgid "Scanning..."
 msgstr "Preiskovanje ..."
 
+#: ../baobab/src/baobab.c:180
+msgid "Total filesystem capacity:"
+msgstr "Celotna zmogljivost datotečnega sistema:"
+
+#: ../baobab/src/baobab.c:181
+msgid "used:"
+msgstr "porabljeno:"
+
+#: ../baobab/src/baobab.c:182
+msgid "available:"
+msgstr "na voljo:"
+
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:204
-#: ../baobab/src/baobab.c:262
-#: ../baobab/src/callbacks.c:264
+#: ../baobab/src/baobab.c:238
+#: ../baobab/src/baobab.c:295
+#: ../baobab/src/callbacks.c:267
 msgid "Calculating percentage bars..."
 msgstr "Računanje stolpcev odstotkov ..."
 
-#: ../baobab/src/baobab.c:214
-#: ../baobab/src/baobab.c:1163
-#: ../baobab/src/callbacks.c:268
+#: ../baobab/src/baobab.c:249
+#: ../baobab/src/baobab.c:1289
+#: ../baobab/src/callbacks.c:271
 msgid "Ready"
 msgstr "Pripravljeno"
 
-#: ../baobab/src/baobab.c:356
+#: ../baobab/src/baobab.c:386
 msgid "Total filesystem capacity"
 msgstr "Celotna zmogljivost datotečnega sistema"
 
-#: ../baobab/src/baobab.c:378
+#: ../baobab/src/baobab.c:408
 msgid "Total filesystem usage"
 msgstr "Celotna poraba datotečnega sistema"
 
-#: ../baobab/src/baobab.c:419
+#: ../baobab/src/baobab.c:449
 msgid "contains hardlinks for:"
 msgstr "vsebuje trde povezave za:"
 
-#: ../baobab/src/baobab.c:428
+#: ../baobab/src/baobab.c:458
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
@@ -228,55 +241,55 @@ msgstr[1] "%5d predmet"
 msgstr[2] "%5d predmeta"
 msgstr[3] "%5d predmeti"
 
-#: ../baobab/src/baobab.c:779
+#: ../baobab/src/baobab.c:585
 msgid "Could not initialize monitoring"
 msgstr "Ni mogoče zagnati merjenja"
 
-#: ../baobab/src/baobab.c:780
+#: ../baobab/src/baobab.c:586
 msgid "Changes to your home folder will not be monitored."
 msgstr "Ali naj bodo spremembe v domačem imeniku nadzorovane."
 
-#: ../baobab/src/baobab.c:887
+#: ../baobab/src/baobab.c:965
 msgid "Move to parent folder"
 msgstr "Premakniti v nadrejeno mapo"
 
-#: ../baobab/src/baobab.c:891
+#: ../baobab/src/baobab.c:969
 msgid "Zoom in"
 msgstr "Približaj"
 
-#: ../baobab/src/baobab.c:895
+#: ../baobab/src/baobab.c:973
 msgid "Zoom out"
 msgstr "Oddalji"
 
-#: ../baobab/src/baobab.c:899
+#: ../baobab/src/baobab.c:977
 msgid "Save screenshot"
 msgstr "Shrani zajeto sliko"
 
-#: ../baobab/src/baobab.c:985
+#: ../baobab/src/baobab.c:1114
 msgid "View as Rings Chart"
 msgstr "Določitev krožnega grafikona"
 
-#: ../baobab/src/baobab.c:987
+#: ../baobab/src/baobab.c:1116
 msgid "View as Treemap Chart"
 msgstr "Seznamski drevesni pregled grafikona"
 
-#: ../baobab/src/baobab.c:1086
+#: ../baobab/src/baobab.c:1214
 msgid "Show version"
 msgstr "Počasna različica"
 
-#: ../baobab/src/baobab.c:1087
+#: ../baobab/src/baobab.c:1215
 msgid "[DIRECTORY]"
 msgstr "[IMENIK]"
 
-#: ../baobab/src/baobab.c:1117
+#: ../baobab/src/baobab.c:1245
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Preveč je argumentov. Določena je lahko le ena mapa."
 
-#: ../baobab/src/baobab.c:1135
+#: ../baobab/src/baobab.c:1262
 msgid "Could not detect any mount point."
 msgstr "Ni mogoče zaznati priklopne točke."
 
-#: ../baobab/src/baobab.c:1138
+#: ../baobab/src/baobab.c:1264
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "Brez določene priklopne točne, zasedenosti diska ni mogoče določiti."
 
@@ -304,40 +317,40 @@ msgstr "Korensko vozlišče grafikona"
 msgid "Set the root node from the model"
 msgstr "Določitev korenskega vozlišča modela"
 
-#: ../baobab/src/baobab-chart.c:1695
+#: ../baobab/src/baobab-chart.c:1704
 msgid "Cannot create pixbuf image!"
 msgstr "Ni mogoče ustvariti slike pixbuf!"
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1705
+#: ../baobab/src/baobab-chart.c:1714
 msgid "Save Snapshot"
 msgstr "Shrani zaslonsko sliko"
 
-#: ../baobab/src/baobab-chart.c:1734
+#: ../baobab/src/baobab-chart.c:1743
 msgid "_Image type:"
 msgstr "_Vrsta slike:"
 
-#: ../baobab/src/baobab-prefs.c:181
+#: ../baobab/src/baobab-prefs.c:184
 msgid "Scan"
 msgstr "Preišči"
 
-#: ../baobab/src/baobab-prefs.c:188
+#: ../baobab/src/baobab-prefs.c:191
 msgid "Device"
 msgstr "Naprava"
 
-#: ../baobab/src/baobab-prefs.c:196
+#: ../baobab/src/baobab-prefs.c:199
 msgid "Mount Point"
 msgstr "Priklopna točka"
 
-#: ../baobab/src/baobab-prefs.c:204
+#: ../baobab/src/baobab-prefs.c:207
 msgid "Filesystem Type"
 msgstr "Vrsta datotečnega sistema"
 
-#: ../baobab/src/baobab-prefs.c:212
+#: ../baobab/src/baobab-prefs.c:215
 msgid "Total Size"
 msgstr "Skupna velikost"
 
-#: ../baobab/src/baobab-prefs.c:221
+#: ../baobab/src/baobab-prefs.c:224
 msgid "Available"
 msgstr "Na voljo"
 
@@ -382,65 +395,65 @@ msgstr "Ni se mogoče povezati s strežnikom. Vnesti morate ime strežnika."
 msgid "Please enter a name and try again."
 msgstr "Vpišite ime in poskusite znova."
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:443
+#: ../baobab/src/baobab-remote-connect-dialog.c:441
 msgid "_Location (URI):"
 msgstr "_Mesto (URI):"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:465
+#: ../baobab/src/baobab-remote-connect-dialog.c:463
 msgid "_Server:"
 msgstr "_Strežnik:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:484
+#: ../baobab/src/baobab-remote-connect-dialog.c:482
 msgid "Optional information:"
 msgstr "Dodatne podrobnosti:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:496
+#: ../baobab/src/baobab-remote-connect-dialog.c:494
 msgid "_Share:"
 msgstr "_Souporaba:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:517
+#: ../baobab/src/baobab-remote-connect-dialog.c:515
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "_Vrata:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:537
+#: ../baobab/src/baobab-remote-connect-dialog.c:535
 msgid "_Folder:"
 msgstr "_Mapa:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:557
+#: ../baobab/src/baobab-remote-connect-dialog.c:555
 msgid "_User Name:"
 msgstr "_Uporabniško ime:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:578
+#: ../baobab/src/baobab-remote-connect-dialog.c:576
 msgid "_Domain Name:"
 msgstr "_Ime domene:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:645
+#: ../baobab/src/baobab-remote-connect-dialog.c:643
 msgid "Connect to Server"
 msgstr "Povezava s strežnikom"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:662
+#: ../baobab/src/baobab-remote-connect-dialog.c:660
 msgid "Service _type:"
 msgstr "Vrsta _storitve:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:781
+#: ../baobab/src/baobab-remote-connect-dialog.c:779
 msgid "_Scan"
 msgstr "_Preišči"
 
-#: ../baobab/src/baobab-treeview.c:86
+#: ../baobab/src/baobab-treeview.c:82
 msgid "Rescan your home folder?"
 msgstr "Ali naj bo domača mapa ponovno preiskana?"
 
-#: ../baobab/src/baobab-treeview.c:87
+#: ../baobab/src/baobab-treeview.c:83
 msgid "The content of your home folder has changed. Select rescan to update the disk usage details."
 msgstr "Vsebina vašega domačega imenika se je spremenila. S ponovno preiskavo se posodobijo podatki o zasedenosti map."
 
-#: ../baobab/src/baobab-treeview.c:88
+#: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
 msgstr "Znova _preišči"
 
 #: ../baobab/src/baobab-treeview.c:222
-#: ../gsearchtool/gsearchtool.c:2406
+#: ../gsearchtool/gsearchtool.c:2407
 msgid "Folder"
 msgstr "Mapa"
 
@@ -449,7 +462,7 @@ msgid "Usage"
 msgstr "Uporaba"
 
 #: ../baobab/src/baobab-treeview.c:258
-#: ../gsearchtool/gsearchtool.c:2419
+#: ../gsearchtool/gsearchtool.c:2420
 msgid "Size"
 msgstr "Velikost"
 
@@ -457,73 +470,61 @@ msgstr "Velikost"
 msgid "Contents"
 msgstr "Vsebina"
 
-#: ../baobab/src/baobab-utils.c:110
+#: ../baobab/src/baobab-utils.c:106
 msgid "Select Folder"
 msgstr "Izbor mape"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:122
+#: ../baobab/src/baobab-utils.c:118
 msgid "_Show hidden folders"
 msgstr "_Pokaži skrite mape"
 
-#: ../baobab/src/baobab-utils.c:301
+#: ../baobab/src/baobab-utils.c:297
 msgid "Cannot check an excluded folder!"
 msgstr "Ni mogoče pregledati izločene mape"
 
-#: ../baobab/src/baobab-utils.c:325
+#: ../baobab/src/baobab-utils.c:321
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "\"%s\" ni veljavna mapa"
 
-#: ../baobab/src/baobab-utils.c:328
+#: ../baobab/src/baobab-utils.c:324
 msgid "Could not analyze disk usage."
 msgstr "Ni mogoče analizirati porabe diska."
 
-#: ../baobab/src/baobab-utils.c:369
+#: ../baobab/src/baobab-utils.c:364
 msgid "_Open Folder"
 msgstr "Odpri _mapo"
 
-#: ../baobab/src/baobab-utils.c:375
-#: ../gsearchtool/gsearchtool-callbacks.c:1203
+#: ../baobab/src/baobab-utils.c:370
+#: ../gsearchtool/gsearchtool-callbacks.c:1205
 msgid "Mo_ve to Trash"
 msgstr "Pr_emakni v smeti"
 
-#: ../baobab/src/baobab-utils.c:401
-msgid "Total filesystem capacity:"
-msgstr "Celotna zmogljivost datotečnega sistema:"
-
-#: ../baobab/src/baobab-utils.c:402
-msgid "used:"
-msgstr "porabljeno:"
-
-#: ../baobab/src/baobab-utils.c:403
-msgid "available:"
-msgstr "na voljo:"
-
-#: ../baobab/src/baobab-utils.c:447
+#: ../baobab/src/baobab-utils.c:404
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "Ni mogoče odprti mape \"%s\""
 
-#: ../baobab/src/baobab-utils.c:450
+#: ../baobab/src/baobab-utils.c:407
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "Za prikaz mape ni nameščen ustrezen pregledovalnik."
 
-#: ../baobab/src/baobab-utils.c:519
+#: ../baobab/src/baobab-utils.c:476
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "Ni mogoče premakniti \"%s\" v smeti"
 
-#: ../baobab/src/baobab-utils.c:527
+#: ../baobab/src/baobab-utils.c:484
 msgid "Could not move file to the Trash"
 msgstr "Ni mogoče premakniti datoteke v smeti"
 
-#: ../baobab/src/baobab-utils.c:529
+#: ../baobab/src/baobab-utils.c:486
 #, c-format
 msgid "Details: %s"
 msgstr "Podrobnosti: %s"
 
-#: ../baobab/src/baobab-utils.c:576
+#: ../baobab/src/baobab-utils.c:533
 msgid "There was an error displaying help."
 msgstr "Prišlo je do napake med prikazovanjem pomoči."
 
@@ -542,16 +543,16 @@ msgstr "Ta program je na voljo v upanju, da bo uporaben, vendar je BREZ VSAKRŠN
 msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 msgstr "Skupaj s tem programom bi morali prejeti izvod Splošnega dovoljenja GNU (GNU General Public License); v primeru, da ga niste, pišite na Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
-#: ../baobab/src/callbacks.c:101
+#: ../baobab/src/callbacks.c:103
 msgid "Baobab"
 msgstr "Baobab"
 
-#: ../baobab/src/callbacks.c:102
+#: ../baobab/src/callbacks.c:104
 msgid "A graphical tool to analyze disk usage."
 msgstr "Grafično orodje za analiziranje porabe diska."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:110
+#: ../baobab/src/callbacks.c:112
 #: ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
@@ -560,13 +561,13 @@ msgstr ""
 "Andraž Tori <andraz.tori1@guest.arnes.si>\n"
 "Matej Urbančič <mateju@svn.gnome.org>"
 
-#: ../baobab/src/callbacks.c:207
+#: ../baobab/src/callbacks.c:210
 #: ../gsearchtool/gsearchtool-callbacks.c:504
 #: ../gsearchtool/gsearchtool-callbacks.c:843
 msgid "The document does not exist."
 msgstr "Dokument ne obstaja."
 
-#: ../baobab/src/callbacks.c:318
+#: ../baobab/src/callbacks.c:321
 msgid "The folder does not exist."
 msgstr "Mapa ne obstaja"
 
@@ -587,8 +588,8 @@ msgid "Cl_ear"
 msgstr "P_očisti"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1236
-#: ../logview/logview-window.c:868
+#: ../gnome-dictionary/src/gdict-window.c:1231
+#: ../logview/logview-window.c:839
 msgid "_About"
 msgstr "_O programu"
 
@@ -597,7 +598,7 @@ msgid "_Look Up Selected Text"
 msgstr "_Poišči izbrano besedilo"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1205
 msgid "_Preferences"
 msgstr "_Možnosti"
 
@@ -616,8 +617,8 @@ msgstr "Preverite razlago in črkovanje besede v mrežnem slovarju."
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
 #: ../gnome-dictionary/src/gdict-about.c:78
 #: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:608
-#: ../gnome-dictionary/src/gdict-window.c:1953
+#: ../gnome-dictionary/src/gdict-window.c:605
+#: ../gnome-dictionary/src/gdict-window.c:1947
 msgid "Dictionary"
 msgstr "Slovar"
 
@@ -948,7 +949,7 @@ msgstr "Napaka med iskanjem"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
-#: ../logview/logview-window.c:513
+#: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "Ni zadetkov"
 
@@ -991,7 +992,7 @@ msgid "The filename used by this dictionary source"
 msgstr "Ime datoteke, ki ga uporablja ta slovarski vir"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2382
+#: ../gsearchtool/gsearchtool.c:2383
 msgid "Name"
 msgstr "Ime"
 
@@ -1236,55 +1237,55 @@ msgstr "strat"
 msgid " - Look up words in dictionaries"
 msgstr " - Poišči besede v slovarjih"
 
-#: ../gnome-dictionary/src/gdict-applet.c:205
-#: ../gnome-dictionary/src/gdict-window.c:837
+#: ../gnome-dictionary/src/gdict-applet.c:206
+#: ../gnome-dictionary/src/gdict-window.c:834
 msgid "Save a Copy"
 msgstr "Shrani kopijo"
 
-#: ../gnome-dictionary/src/gdict-applet.c:215
-#: ../gnome-dictionary/src/gdict-window.c:847
+#: ../gnome-dictionary/src/gdict-applet.c:216
+#: ../gnome-dictionary/src/gdict-window.c:844
 msgid "Untitled document"
 msgstr "Neimenovan dokument"
 
-#: ../gnome-dictionary/src/gdict-applet.c:236
-#: ../gnome-dictionary/src/gdict-window.c:868
+#: ../gnome-dictionary/src/gdict-applet.c:237
+#: ../gnome-dictionary/src/gdict-window.c:865
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Napaka med pisanjem v '%s'"
 
-#: ../gnome-dictionary/src/gdict-applet.c:361
+#: ../gnome-dictionary/src/gdict-applet.c:362
 msgid "Clear the definitions found"
 msgstr "Počisti najdene razlage"
 
-#: ../gnome-dictionary/src/gdict-applet.c:363
+#: ../gnome-dictionary/src/gdict-applet.c:364
 msgid "Clear definition"
 msgstr "Počisti razlago"
 
-#: ../gnome-dictionary/src/gdict-applet.c:364
+#: ../gnome-dictionary/src/gdict-applet.c:365
 msgid "Clear the text of the definition"
 msgstr "Počisti besedilo razlage"
 
-#: ../gnome-dictionary/src/gdict-applet.c:371
+#: ../gnome-dictionary/src/gdict-applet.c:372
 msgid "Print the definitions found"
 msgstr "Natisni najdene razlage"
 
-#: ../gnome-dictionary/src/gdict-applet.c:373
+#: ../gnome-dictionary/src/gdict-applet.c:374
 msgid "Print definition"
 msgstr "Natisni razlago"
 
-#: ../gnome-dictionary/src/gdict-applet.c:374
+#: ../gnome-dictionary/src/gdict-applet.c:375
 msgid "Print the text of the definition"
 msgstr "Natisne besedilo razlage"
 
-#: ../gnome-dictionary/src/gdict-applet.c:381
+#: ../gnome-dictionary/src/gdict-applet.c:382
 msgid "Save the definitions found"
 msgstr "Shrani najdene razlage"
 
-#: ../gnome-dictionary/src/gdict-applet.c:383
+#: ../gnome-dictionary/src/gdict-applet.c:384
 msgid "Save definition"
 msgstr "Shrani razlago"
 
-#: ../gnome-dictionary/src/gdict-applet.c:384
+#: ../gnome-dictionary/src/gdict-applet.c:385
 msgid "Save the text of the definition to a file"
 msgstr "Shrani besedilo razlage v datoteko"
 
@@ -1308,63 +1309,63 @@ msgstr "Vpišite besedo, ki jo želite poiskati"
 msgid "Dictionary entry"
 msgstr "Slovarski vnos"
 
-#: ../gnome-dictionary/src/gdict-applet.c:724
-#: ../gnome-dictionary/src/gdict-window.c:1001
+#: ../gnome-dictionary/src/gdict-applet.c:716
+#: ../gnome-dictionary/src/gdict-window.c:998
 msgid "Dictionary Preferences"
 msgstr "Lastnosti slovarja"
 
-#: ../gnome-dictionary/src/gdict-applet.c:750
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:504
-#: ../gnome-dictionary/src/gdict-source-dialog.c:494
-#: ../gnome-dictionary/src/gdict-window.c:1145
+#: ../gnome-dictionary/src/gdict-applet.c:742
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1140
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Med prikazovanjem pomoči je prišlo do napake"
 
-#: ../gnome-dictionary/src/gdict-applet.c:902
-#: ../gnome-dictionary/src/gdict-window.c:517
+#: ../gnome-dictionary/src/gdict-applet.c:896
+#: ../gnome-dictionary/src/gdict-window.c:514
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Na voljo ni nobenega vira slovarja z imenom '%s'"
 
-#: ../gnome-dictionary/src/gdict-applet.c:906
-#: ../gnome-dictionary/src/gdict-window.c:521
+#: ../gnome-dictionary/src/gdict-applet.c:900
+#: ../gnome-dictionary/src/gdict-window.c:518
 msgid "Unable to find dictionary source"
 msgstr "Ni mogoče najti vira slovarja"
 
-#: ../gnome-dictionary/src/gdict-applet.c:922
-#: ../gnome-dictionary/src/gdict-window.c:537
+#: ../gnome-dictionary/src/gdict-applet.c:916
+#: ../gnome-dictionary/src/gdict-window.c:534
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Za vir '%s' ni razpoložljive vsebine"
 
-#: ../gnome-dictionary/src/gdict-applet.c:926
-#: ../gnome-dictionary/src/gdict-window.c:541
+#: ../gnome-dictionary/src/gdict-applet.c:920
+#: ../gnome-dictionary/src/gdict-window.c:538
 msgid "Unable to create a context"
 msgstr "Ni mogoče ustvariti vsebine"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1191
-#: ../gnome-dictionary/src/gdict-window.c:2084
+#: ../gnome-dictionary/src/gdict-applet.c:1172
+#: ../gnome-dictionary/src/gdict-window.c:2078
 msgid "Unable to connect to GConf"
 msgstr "Povezava z GConf ni mogoča"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1204
-#: ../gnome-dictionary/src/gdict-window.c:2097
+#: ../gnome-dictionary/src/gdict-applet.c:1185
+#: ../gnome-dictionary/src/gdict-window.c:2091
 msgid "Unable to get notification for preferences"
 msgstr "Ni mogoče dobiti obvestila za možnosti"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1218
-#: ../gnome-dictionary/src/gdict-window.c:2110
+#: ../gnome-dictionary/src/gdict-applet.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:2104
 msgid "Unable to get notification for the document font"
 msgstr "Ni mogoče dobiti obvestila za pisavo dokumenta"
 
-#: ../gnome-dictionary/src/gdict-common.c:79
+#: ../gnome-dictionary/src/gdict-common.c:80
 #, c-format
 msgid "Unable to rename file '%s' to '%s': %s"
 msgstr "Ni mogoče preimenovati datoteke '%s' v '%s': %s"
 
-#: ../gnome-dictionary/src/gdict-common.c:103
-#: ../gnome-dictionary/src/gdict-common.c:126
+#: ../gnome-dictionary/src/gdict-common.c:104
+#: ../gnome-dictionary/src/gdict-common.c:127
 #, c-format
 msgid "Unable to create the data directory '%s': %s"
 msgstr "Ni mogoče ustvariti podatkovnega imenika '%s': %s"
@@ -1377,29 +1378,29 @@ msgstr "Uredi slovarski vir"
 msgid "Add Dictionary Source"
 msgstr "Dodaj slovarski vir"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:354
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Ali želite odstraniti \"%s\"?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "To bo trajno odstranilo slovarski vir iz seznama."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:386
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Ni mogoče odstraniti vira '%s'"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:666
 msgid "Add a new dictionary source"
 msgstr "Dodaj nov slovarski vir"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:672
 msgid "Remove the currently selected dictionary source"
 msgstr "Odstrani trenutno izbran slovarski vir"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:685
 msgid "Set the font used for printing the definitions"
 msgstr "Nastavite pisavo, ki naj bo uporabljena za tiskanje razlag"
 
@@ -1409,27 +1410,27 @@ msgstr "Nastavite pisavo, ki naj bo uporabljena za tiskanje razlag"
 msgid "Unable to display the preview: %s"
 msgstr "Ni mogoče prikazati predogleda: %s"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:356
-#: ../gnome-dictionary/src/gdict-source-dialog.c:449
+#: ../gnome-dictionary/src/gdict-source-dialog.c:341
+#: ../gnome-dictionary/src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Ni mogoče ustvariti datoteke vira"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:374
-#: ../gnome-dictionary/src/gdict-source-dialog.c:467
+#: ../gnome-dictionary/src/gdict-source-dialog.c:359
+#: ../gnome-dictionary/src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "Ni mogoče shraniti datoteke vira"
 
-#: ../gnome-dictionary/src/gdict-window.c:316
+#: ../gnome-dictionary/src/gdict-window.c:315
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Iskanje '%s' ..."
 
-#: ../gnome-dictionary/src/gdict-window.c:348
-#: ../gnome-dictionary/src/gdict-window.c:407
+#: ../gnome-dictionary/src/gdict-window.c:347
+#: ../gnome-dictionary/src/gdict-window.c:404
 msgid "No definitions found"
 msgstr "Ni najdenih razlag"
 
-#: ../gnome-dictionary/src/gdict-window.c:350
+#: ../gnome-dictionary/src/gdict-window.c:349
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
@@ -1438,182 +1439,182 @@ msgstr[1] "%d najdena razlaga"
 msgstr[2] "%d najdeni razlagi"
 msgstr[3] "%d najdene razlage"
 
-#: ../gnome-dictionary/src/gdict-window.c:606
+#: ../gnome-dictionary/src/gdict-window.c:603
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Slovar"
 
-#: ../gnome-dictionary/src/gdict-window.c:1180
-#: ../logview/logview-window.c:836
+#: ../gnome-dictionary/src/gdict-window.c:1175
+#: ../logview/logview-window.c:807
 msgid "_File"
 msgstr "_Datoteka"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1178
 msgid "_Go"
 msgstr "P_ojdi"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1182
 msgid "_New"
 msgstr "_Nov"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1183
 msgid "New look up"
 msgstr "Novo iskanje"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1184
 msgid "_Save a Copy..."
 msgstr "Shrani _kopijo ..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:1186
 msgid "P_review..."
 msgstr "P_redogled ..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1192
+#: ../gnome-dictionary/src/gdict-window.c:1187
 msgid "Preview this document"
 msgstr "Predogled dokumenta"
 
-#: ../gnome-dictionary/src/gdict-window.c:1193
+#: ../gnome-dictionary/src/gdict-window.c:1188
 msgid "_Print..."
 msgstr "_Natisni ..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1194
+#: ../gnome-dictionary/src/gdict-window.c:1189
 msgid "Print this document"
 msgstr "Natisni dokument"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
-#: ../logview/logview-window.c:851
+#: ../gnome-dictionary/src/gdict-window.c:1196
+#: ../logview/logview-window.c:822
 msgid "Select _All"
 msgstr "Izberi _vse"
 
-#: ../gnome-dictionary/src/gdict-window.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:1199
 msgid "Find a word or phrase in the document"
 msgstr "Najdi besedo ali reklo v dokumentu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1206
+#: ../gnome-dictionary/src/gdict-window.c:1201
 msgid "Find Ne_xt"
 msgstr "Najdi na_slednje"
 
-#: ../gnome-dictionary/src/gdict-window.c:1208
+#: ../gnome-dictionary/src/gdict-window.c:1203
 msgid "Find Pre_vious"
 msgstr "Najdi _predhodne"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1209
 msgid "_Previous Definition"
 msgstr "_Prejšnja razlaga"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1210
 msgid "Go to the previous definition"
 msgstr "Pojdi na prejšnjo razlago"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1211
 msgid "_Next Definition"
 msgstr "_Naslednja razlaga"
 
-#: ../gnome-dictionary/src/gdict-window.c:1217
+#: ../gnome-dictionary/src/gdict-window.c:1212
 msgid "Go to the next definition"
 msgstr "Pojdi na naslednjo razlago"
 
-#: ../gnome-dictionary/src/gdict-window.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:1213
 msgid "_First Definition"
 msgstr "P_rva razlaga"
 
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1214
 msgid "Go to the first definition"
 msgstr "Pojdi na prvo razlago"
 
-#: ../gnome-dictionary/src/gdict-window.c:1220
+#: ../gnome-dictionary/src/gdict-window.c:1215
 msgid "_Last Definition"
 msgstr "_Zadnja razlaga"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1216
 msgid "Go to the last definition"
 msgstr "Pojdi na zadnjo razlago"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1224
+#: ../gnome-dictionary/src/gdict-window.c:1219
 msgid "Similar _Words"
 msgstr "Podobne _besede"
 
-#: ../gnome-dictionary/src/gdict-window.c:1226
+#: ../gnome-dictionary/src/gdict-window.c:1221
 msgid "Dictionary Sources"
 msgstr "Viri slovarja"
 
-#: ../gnome-dictionary/src/gdict-window.c:1228
+#: ../gnome-dictionary/src/gdict-window.c:1223
 msgid "Available _Databases"
 msgstr "Razpoložljive _zbirke podatkov"
 
-#: ../gnome-dictionary/src/gdict-window.c:1230
+#: ../gnome-dictionary/src/gdict-window.c:1225
 msgid "Available St_rategies"
 msgstr "Razpoložljive _strategije"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1247
+#: ../gnome-dictionary/src/gdict-window.c:1242
 msgid "_Sidebar"
 msgstr "_Stranska vrstica"
 
-#: ../gnome-dictionary/src/gdict-window.c:1249
+#: ../gnome-dictionary/src/gdict-window.c:1244
 msgid "S_tatusbar"
 msgstr "_Vrstica stanja"
 
-#: ../gnome-dictionary/src/gdict-window.c:1370
+#: ../gnome-dictionary/src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Izbran slovarski vir `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1391
+#: ../gnome-dictionary/src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Izbrana strategija '%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1411
+#: ../gnome-dictionary/src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Izbrana podatkovna zbirka `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1431
+#: ../gnome-dictionary/src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Izbrana beseda '%s'"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1453
+#: ../gnome-dictionary/src/gdict-window.c:1448
 msgid "Double-click on the word to look up"
 msgstr "Z dvojnim klikom na besedo se prikažejo druge možnosti"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1454
 msgid "Double-click on the matching strategy to use"
 msgstr "Z dvojnim klikom na strategijo, ki jo želite uporabiti"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1464
+#: ../gnome-dictionary/src/gdict-window.c:1459
 msgid "Double-click on the source to use"
 msgstr "Z dvojnim klikom se izbere vir"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1473
+#: ../gnome-dictionary/src/gdict-window.c:1468
 msgid "Double-click on the database to use"
 msgstr "Z dvojnim klikom se izbere podatkovna zbirka"
 
-#: ../gnome-dictionary/src/gdict-window.c:1761
+#: ../gnome-dictionary/src/gdict-window.c:1755
 msgid "Look _up:"
 msgstr "_Poišči:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1835
+#: ../gnome-dictionary/src/gdict-window.c:1829
 msgid "Similar words"
 msgstr "Podobne besede"
 
-#: ../gnome-dictionary/src/gdict-window.c:1848
+#: ../gnome-dictionary/src/gdict-window.c:1842
 msgid "Available dictionaries"
 msgstr "Slovarji na voljo"
 
-#: ../gnome-dictionary/src/gdict-window.c:1861
+#: ../gnome-dictionary/src/gdict-window.c:1855
 msgid "Available strategies"
 msgstr "Razpoložljive strategije"
 
-#: ../gnome-dictionary/src/gdict-window.c:1872
+#: ../gnome-dictionary/src/gdict-window.c:1866
 msgid "Dictionary sources"
 msgstr "Viri slovarja"
 
@@ -1670,11 +1671,11 @@ msgstr "Zajemi _po zamiku"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "seconds"
 msgstr "sekund"
 
-#: ../gnome-screenshot/gnome-screenshot.c:514
+#: ../gnome-screenshot/gnome-screenshot.c:516
 #: ../gnome-screenshot/gnome-screenshot.c:524
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
@@ -1692,7 +1693,7 @@ msgstr "Zajemi zaslonsko sliko"
 msgid "Error while saving screenshot"
 msgstr "Napaka med shranjevanjem zajete slike"
 
-#: ../gnome-screenshot/gnome-screenshot.c:661
+#: ../gnome-screenshot/gnome-screenshot.c:660
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1703,15 +1704,15 @@ msgstr ""
 "Napaka je %s\n"
 "Izberite novo mesto in poskusite znova."
 
-#: ../gnome-screenshot/gnome-screenshot.c:793
+#: ../gnome-screenshot/gnome-screenshot.c:792
 msgid "Screenshot taken"
 msgstr "Zaslonska slika je zajeta"
 
-#: ../gnome-screenshot/gnome-screenshot.c:847
+#: ../gnome-screenshot/gnome-screenshot.c:846
 msgid "Unable to take a screenshot of the current window"
 msgstr "Ni mogoče zajeti zaslonske slike trenutnega namizja."
 
-#: ../gnome-screenshot/gnome-screenshot.c:897
+#: ../gnome-screenshot/gnome-screenshot.c:896
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "slika-%s.png"
@@ -1719,15 +1720,15 @@ msgstr "slika-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:904
+#: ../gnome-screenshot/gnome-screenshot.c:903
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "slika-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:914
-#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/gnome-screenshot.c:913
+#: ../gnome-screenshot/screenshot-dialog.c:353
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "zaslonska_slika.png"
@@ -1735,48 +1736,48 @@ msgstr "zaslonska_slika.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:921
+#: ../gnome-screenshot/gnome-screenshot.c:920
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "slika-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1285
 msgid "Grab a window instead of the entire screen"
 msgstr "Zajemi okno namesto celotnega zaslona"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1286
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Zajemi območje zaslona namesto celotnega zaslona"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1287
 msgid "Include the window border with the screenshot"
 msgstr "V zaslonsko sliko vključi tudi robove okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "Remove the window border from the screenshot"
 msgstr "Iz zaslonske slike odstrani robove okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Zajemi zaslonsko sliko po navedenem zamiku [v sekundah]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Učinki za dodajanje robovom (senca, rob in brez)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "effect"
 msgstr "učinek"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1293
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 msgid "Interactively set options"
 msgstr "Interaktivna določanje možnosti"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1304
+#: ../gnome-screenshot/gnome-screenshot.c:1302
 msgid "Take a picture of the screen"
 msgstr "Zajem zaslonske slike"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1322
+#: ../gnome-screenshot/gnome-screenshot.c:1320
 #, c-format
 msgid "Conflicting options: --window and --area should not be used at the same time.\n"
 msgstr "Možnosti v sporu: zastavic --window in --area ni mogoče uporabljati sočasno.\n"
@@ -1854,7 +1855,7 @@ msgstr "Čas v sekundah, po katerem se šele zajame zaslonska slika."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Okenski zajem (opuščeno)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:239
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1862,7 +1863,7 @@ msgstr ""
 "Datoteka uporabniškega vmesnika za program zajemanja zaslonske slike manjka.\n"
 "Preverite namestitev gnome-utils"
 
-#: ../gnome-screenshot/screenshot-dialog.c:260
+#: ../gnome-screenshot/screenshot-dialog.c:257
 msgid "Select a folder"
 msgstr "Izbira mape"
 
@@ -1884,29 +1885,29 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Neznana napaka med shranjevanjem zaslonske slike na disk"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:828
+#: ../gnome-screenshot/screenshot-utils.c:888
 msgid "Untitled Window"
 msgstr "Neimenovano okno"
 
-#: ../gnome-screenshot/screenshot-xfer.c:74
+#: ../gnome-screenshot/screenshot-xfer.c:72
 msgid "File already exists"
 msgstr "Datoteka že obstaja"
 
-#: ../gnome-screenshot/screenshot-xfer.c:77
+#: ../gnome-screenshot/screenshot-xfer.c:75
 #, c-format
 msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "Datoteka \"%s\" že obstaja. Ali jo želite zamenjati?"
 
-#: ../gnome-screenshot/screenshot-xfer.c:84
-#: ../gsearchtool/gsearchtool-callbacks.c:1722
+#: ../gnome-screenshot/screenshot-xfer.c:82
+#: ../gsearchtool/gsearchtool-callbacks.c:1724
 msgid "_Replace"
 msgstr "_Zamenjaj"
 
-#: ../gnome-screenshot/screenshot-xfer.c:122
+#: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
 msgstr "Shranjevanje datoteke ..."
 
-#: ../gnome-screenshot/screenshot-xfer.c:294
+#: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
 msgstr "Ni mogoč dostop do izvorne datoteke"
 
@@ -2232,56 +2233,56 @@ msgstr "_Odpri"
 msgid "_Open with %s"
 msgstr "_Odpri z %s"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1108
+#: ../gsearchtool/gsearchtool-callbacks.c:1109
 #, c-format
 msgid "Open with %s"
 msgstr "Odpri z %s"
 
 #. Popup menu item: Open With
-#: ../gsearchtool/gsearchtool-callbacks.c:1140
+#: ../gsearchtool/gsearchtool-callbacks.c:1142
 msgid "Open Wit_h"
 msgstr "Odpri _z"
 
-#. Popup menu item: Open Folder
-#: ../gsearchtool/gsearchtool-callbacks.c:1185
-msgid "Open _Folder"
-msgstr "Odpri _mapo"
+#. Popup menu item: Open Containing Folder
+#: ../gsearchtool/gsearchtool-callbacks.c:1187
+msgid "Open Containing _Folder"
+msgstr "Odpri _mapo z datoteko"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1225
+#: ../gsearchtool/gsearchtool-callbacks.c:1227
 msgid "_Save Results As..."
 msgstr "_Shrani rezultate kot ..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1607
+#: ../gsearchtool/gsearchtool-callbacks.c:1609
 msgid "Save Search Results As..."
 msgstr "Shrani rezultate iskanja kot ..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1638
+#: ../gsearchtool/gsearchtool-callbacks.c:1640
 msgid "Could not save document."
 msgstr "Ni mogoče shraniti dokumenta."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1639
+#: ../gsearchtool/gsearchtool-callbacks.c:1641
 msgid "You did not select a document name."
 msgstr "Niste izbrali imena dokumenta."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1669
+#: ../gsearchtool/gsearchtool-callbacks.c:1671
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Ni mogoče shraniti dokumenta \"%s\" v \"%s\"."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1703
+#: ../gsearchtool/gsearchtool-callbacks.c:1705
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Dokument \"%s\" že obstaja. Ali ga želite zamenjati?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1707
+#: ../gsearchtool/gsearchtool-callbacks.c:1709
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Če zamenjate obstoječo datoteko, bo njena vsebina prepisana."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1772
+#: ../gsearchtool/gsearchtool-callbacks.c:1774
 msgid "The document name you selected is a folder."
 msgstr "Izbrano ime dokumenta je mapa."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1810
+#: ../gsearchtool/gsearchtool-callbacks.c:1812
 msgid "You may not have write permissions to the document."
 msgstr "Morda nimate dovoljenj za pisanje v dokument."
 
@@ -2540,7 +2541,7 @@ msgstr "Iskanje ..."
 
 #: ../gsearchtool/gsearchtool.c:510
 #: ../gsearchtool/gsearchtool.c:1016
-#: ../gsearchtool/gsearchtool.c:2988
+#: ../gsearchtool/gsearchtool.c:2990
 msgid "Search for Files"
 msgstr "Iskanje datotek"
 
@@ -2703,80 +2704,80 @@ msgstr "Kliknite. če želite dodati izbrano možnost iskanja."
 msgid "S_earch results:"
 msgstr "R_ezultati iskanja:"
 
-#: ../gsearchtool/gsearchtool.c:2322
+#: ../gsearchtool/gsearchtool.c:2323
 msgid "List View"
 msgstr "Seznamski pogled"
 
-#: ../gsearchtool/gsearchtool.c:2431
+#: ../gsearchtool/gsearchtool.c:2432
 msgid "Type"
 msgstr "Vrsta"
 
-#: ../gsearchtool/gsearchtool.c:2443
+#: ../gsearchtool/gsearchtool.c:2444
 msgid "Date Modified"
 msgstr "Datum spremembe:"
 
-#: ../gsearchtool/gsearchtool.c:2759
+#: ../gsearchtool/gsearchtool.c:2760
 msgid "_Name contains:"
 msgstr "_Ime vsebuje:"
 
-#: ../gsearchtool/gsearchtool.c:2773
 #: ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2775
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "Vpišite ime datoteke ali delno ime datoteke z ali brez nadomestnih znakov."
 
-#: ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2775
 msgid "Name contains"
 msgstr "Ime vsebuje"
 
-#: ../gsearchtool/gsearchtool.c:2780
+#: ../gsearchtool/gsearchtool.c:2781
 msgid "_Look in folder:"
 msgstr "_Glej v mapi:"
 
-#: ../gsearchtool/gsearchtool.c:2786
+#: ../gsearchtool/gsearchtool.c:2787
 msgid "Browse"
 msgstr "Prebrskaj"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Look in folder"
 msgstr "Poglej v mapo"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Izberite mapo ali napravo, iz katere želite začeti iskanje."
 
-#: ../gsearchtool/gsearchtool.c:2813
+#: ../gsearchtool/gsearchtool.c:2814
 msgid "Select more _options"
 msgstr "Izberi _več možnosti"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2823
 msgid "Select more options"
 msgstr "Izberi več možnosti"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2823
 msgid "Click to expand or collapse the list of available options."
 msgstr "Kliknite, če želite razširiti ali zložiti seznam možnosti, ki so na voljo."
 
-#: ../gsearchtool/gsearchtool.c:2846
+#: ../gsearchtool/gsearchtool.c:2847
 msgid "Click to display the help manual."
 msgstr "Kliknite za prikaz pomoči."
 
-#: ../gsearchtool/gsearchtool.c:2854
+#: ../gsearchtool/gsearchtool.c:2855
 msgid "Click to close \"Search for Files\"."
 msgstr "Kliknite, da zaprete \"Iskanje datotek\"."
 
-#: ../gsearchtool/gsearchtool.c:2880
+#: ../gsearchtool/gsearchtool.c:2881
 msgid "Click to perform a search."
 msgstr "Kliknite za izvedbo iskanja."
 
-#: ../gsearchtool/gsearchtool.c:2881
+#: ../gsearchtool/gsearchtool.c:2882
 msgid "Click to stop a search."
 msgstr "Kliknite za zaustavitev iskanja."
 
-#: ../gsearchtool/gsearchtool.c:2973
+#: ../gsearchtool/gsearchtool.c:2975
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME orodje za iskanje"
 
-#: ../gsearchtool/gsearchtool.c:2982
+#: ../gsearchtool/gsearchtool.c:2984
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Napaka med razčlenjevanjem argumenta ukazne vrstice: %s\n"
@@ -2916,7 +2917,7 @@ msgstr "Poudari"
 msgid "_Regular Expression:"
 msgstr "_Logični izraz:"
 
-#: ../logview/logview-app.c:375
+#: ../logview/logview-app.c:374
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Ni mogoče odpreti datoteke: '%s"
@@ -2942,15 +2943,15 @@ msgstr "Logični izraz je neveljaven: %s"
 msgid "Please specify either foreground or background color!"
 msgstr "Določiti je treba barvo pisave ali pa barvo ozadja!"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Edit filter"
 msgstr "Uredi filter"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Add new filter"
 msgstr "Dodaj nov filter"
 
-#: ../logview/logview-filter-manager.c:503
+#: ../logview/logview-filter-manager.c:502
 msgid "Filters"
 msgstr "Filtri"
 
@@ -2998,24 +2999,24 @@ msgstr "Različica programa ne podpira GZip skrčenih dnevnikov."
 msgid "Loading..."
 msgstr "Nalaganje ..."
 
-#: ../logview/logview-main.c:62
+#: ../logview/logview-main.c:61
 msgid "Show the application's version"
 msgstr "Pokaži različico programa"
 
-#: ../logview/logview-main.c:64
+#: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
 msgstr "[DNEVNIK ...]"
 
-#: ../logview/logview-main.c:68
+#: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
 msgstr " - Brskanje in nadzorovanje dnevnikov"
 
-#: ../logview/logview-main.c:103
+#: ../logview/logview-main.c:102
 msgid "Log Viewer"
 msgstr "Pregledovalnik dnevnikov"
 
 #: ../logview/logview-window.c:38
-#: ../logview/logview-window.c:788
+#: ../logview/logview-window.c:759
 msgid "System Log Viewer"
 msgstr "Pregledovalnik sistemskega dnevnika"
 
@@ -3029,133 +3030,133 @@ msgstr "zadnja posodobitev: %s"
 msgid "%d lines (%s) - %s"
 msgstr "%d vrstic (%s) - %s"
 
-#: ../logview/logview-window.c:343
+#: ../logview/logview-window.c:317
 msgid "Open Log"
 msgstr "Odpri dnevnik"
 
-#: ../logview/logview-window.c:382
+#: ../logview/logview-window.c:356
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Pri prikazovanju pomoči je prišlo do napake: %s"
 
-#: ../logview/logview-window.c:498
+#: ../logview/logview-window.c:470
 msgid "Wrapped"
 msgstr "Prelomljeno"
 
-#: ../logview/logview-window.c:793
+#: ../logview/logview-window.c:764
 msgid "A system log viewer for GNOME."
 msgstr "Pregledovalnik sistemskega dnevnika za GNOME."
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:810
 msgid "_Filters"
 msgstr "_Filtri"
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "_Open..."
 msgstr "_Odpri ..."
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "Open a log from file"
 msgstr "Odpri dnevnik iz datoteke"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "_Close"
 msgstr "_Zapri"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "Close this log"
 msgstr "Zapri ta dnevnik"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "_Quit"
 msgstr "_Končaj"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "Quit the log viewer"
 msgstr "Končaj pregledovalnik dnevnika"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "_Copy"
 msgstr "_Kopiraj"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "Copy the selection"
 msgstr "Kopiraj izbrano"
 
-#: ../logview/logview-window.c:851
+#: ../logview/logview-window.c:822
 msgid "Select the entire log"
 msgstr "Izberi celoten dnevnik"
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "_Find..."
 msgstr "_Najdi ..."
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "Find a word or phrase in the log"
 msgstr "V beležnici poišči besedo ali reklo"
 
-#: ../logview/logview-window.c:856
+#: ../logview/logview-window.c:827
 msgid "Bigger text size"
 msgstr "Večja velikost besedila"
 
-#: ../logview/logview-window.c:858
+#: ../logview/logview-window.c:829
 msgid "Smaller text size"
 msgstr "Manjša velikost besedila"
 
-#: ../logview/logview-window.c:860
+#: ../logview/logview-window.c:831
 msgid "Normal text size"
 msgstr "Normalna velikost besedila"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage Filters"
 msgstr "Upravljanje s filtri"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage filters"
 msgstr "Upravljanje s filtri"
 
-#: ../logview/logview-window.c:866
+#: ../logview/logview-window.c:837
 msgid "Open the help contents for the log viewer"
 msgstr "Odpre vsebino pomoči za pregledovalnik dnevnikov"
 
-#: ../logview/logview-window.c:868
+#: ../logview/logview-window.c:839
 msgid "Show the about dialog for the log viewer"
 msgstr "Pokaži pogovorno okno o programu za pregledovalnik dnevnikov"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "_Statusbar"
 msgstr "_Vrstica stanja"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "Show Status Bar"
 msgstr "Pokaži vrstico stanja"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Side _Pane"
 msgstr "_Stranski pladenj"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Show Side Pane"
 msgstr "Pokaži stranski pladenj"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Show matches only"
 msgstr "Pokaži le zadetke"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Only show lines that match one of the given filters"
 msgstr "Pokaži le vrstice, ki sovpadajo z določili filtrov"
 
-#: ../logview/logview-window.c:1014
+#: ../logview/logview-window.c:962
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Ni mogoče brati iz \"%s\""
 
-#: ../logview/logview-window.c:1436
+#: ../logview/logview-window.c:1381
 msgid "Version: "
 msgstr "Različica:"
 
-#: ../logview/logview-window.c:1543
+#: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "Ni mogoče odpreti naslednjih datotek:"
 
