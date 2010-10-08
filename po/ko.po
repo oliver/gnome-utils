@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
 "POT-Creation-Date: 2010-03-04 01:30+0900\n"
-"PO-Revision-Date: 2010-03-14 01:26+0900\n"
+"PO-Revision-Date: 2010-10-09 06:36+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "할당한 크기(_O)"
 
 #: ../baobab/data/baobab-main-window.ui.h:3
 msgid "Refresh"
-msgstr "다시 그리기"
+msgstr "새로 고침"
 
 #: ../baobab/data/baobab-main-window.ui.h:4
 msgid "S_can Remote Folder..."
@@ -171,19 +171,19 @@ msgstr "도구 모음 표시"
 
 #: ../baobab/data/baobab.schemas.in.h:7
 msgid "Whether any change to the home directory should be monitored."
-msgstr "홈디렉터리의 바뀐 사항을 감시하는 지 여부."
+msgstr "홈디렉터리의 바뀐 사항을 감시하는지 여부."
 
 #: ../baobab/data/baobab.schemas.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "메인 창의 아래에 있는 상태 표시줄을 표시할 지 여부."
+msgstr "메인 창의 아래에 있는 상태 표시줄을 표시할지 여부."
 
 #: ../baobab/data/baobab.schemas.in.h:9
 msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr "선택한 폴더의 하위 폴더 도구 설명이 나타날 지 여부."
+msgstr "선택한 폴더의 하위 폴더 도구 설명이 나타날지 여부."
 
 #: ../baobab/data/baobab.schemas.in.h:10
 msgid "Whether the toolbar should be visible in main window."
-msgstr "메인 창의 도구 모음을 표시할 지 여부."
+msgstr "메인 창의 도구 모음을 표시할지 여부."
 
 #: ../baobab/src/baobab.c:139 ../baobab/src/baobab.c:326
 msgid "Scanning..."
@@ -456,7 +456,7 @@ msgstr "폴더 선택"
 #. add extra widget
 #: ../baobab/src/baobab-utils.c:122
 msgid "_Show hidden folders"
-msgstr "숨긴 폴더 보기(_S)"
+msgstr "숨긴 폴더 보이기(_S)"
 
 #: ../baobab/src/baobab-utils.c:301
 msgid "Cannot check an excluded folder!"
@@ -640,10 +640,7 @@ msgid ""
 "Specify whether to use smart lookup. This key is dependant on whether the "
 "dictionary server supports this option. The default is TRUE. This key is "
 "deprecated and no longer in use."
-msgstr ""
-"똑똑한 찾기를 사용할 지 여부를 지정합니다. 이 키는 사전 서버가 똑똑한 찾기 옵"
-"션을 지원할 경우에만 의미가 있습니다. 기본값은 참입니다. 이 키는 없어질 예정"
-"이며 더 이상 사용하지 않습니다."
+msgstr "똑똑한 찾기를 사용할지 여부를 지정합니다. 이 키는 사전 서버가 똑똑한 찾기 옵션을 지원할 경우에만 의미가 있습니다. 기본값은 참입니다. 이 키는 없어질 예정이며 더 이상 사용하지 않습니다."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
 msgid "The default database to use"
@@ -749,27 +746,21 @@ msgid ""
 "This key defines whether the sidebar should be visible and it's used to "
 "remember the state of the sidebar across sessions. Setting it to TRUE will "
 "make the sidebar always be displayed."
-msgstr ""
-"이 키는 창을 가장자리 창을 표시할 지 여부를 지정하고 세션마다 가장자리 창의 "
-"상태를 기억합니다. 참으로 설정하면 가장자리 창을 항상 표시합니다."
+msgstr "이 키는 창을 가장자리 창을 표시할지 여부를 지정하고 세션마다 가장자리 창의 상태를 기억합니다. 참으로 설정하면 가장자리 창을 항상 표시합니다."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
 msgid ""
 "This key defines whether the statusbar should be visible and it's used to "
 "remember the state of the statusbar across sessions. Setting it to TRUE will "
 "make the statusbar always be displayed."
-msgstr ""
-"이 키는 창을 상태 표시줄을 표시할 지 여부를 지정하고 세션마다 상태 표시줄의 "
-"상태를 기억합니다. 참으로 설정하면 상태 표시줄을 항상 표시합니다."
+msgstr "이 키는 창을 상태 표시줄을 표시할지 여부를 지정하고 세션마다 상태 표시줄의 상태를 기억합니다. 참으로 설정하면 상태 표시줄을 항상 표시합니다."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
 msgid ""
 "This key defines whether the window should be maximized and it's used to "
 "remember the state of the dictionary window across sessions. Setting it to "
 "TRUE will make the window always appear as maximized."
-msgstr ""
-"이 키는 창을 최대화할 지 여부를 지정하고 세션마다 사전 창의 상태를 기억합니"
-"다. 참으로 설정하면 창은 항상 최대화된 상태로 나타납니다."
+msgstr "이 키는 창을 최대화할지 여부를 지정하고 세션마다 사전 창의 상태를 기억합니다. 참으로 설정하면 창은 항상 최대화된 상태로 나타납니다."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
 msgid ""
@@ -786,15 +777,15 @@ msgstr "똑똑한 찾기 (낡음)"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
 msgid "Whether the application window should be maximized"
-msgstr "프로그램 창을 최대화할 지 여부"
+msgstr "프로그램 창을 최대화할지 여부"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
 msgid "Whether the sidebar should be visible"
-msgstr "가장자리 창을 표시할 지 여부"
+msgstr "가장자리 창을 표시할지 여부"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
 msgid "Whether the statusbar should be visible"
-msgstr "상태 표시줄을 표시할 지 여부"
+msgstr "상태 표시줄을 표시할지 여부"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -996,7 +987,7 @@ msgstr "로컬만 사용"
 
 #: ../gnome-dictionary/libgdict/gdict-context.c:219
 msgid "Whether the context uses only local dictionaries or not"
-msgstr "컨텍스트가 로컬 사전만 사용할 지 여부"
+msgstr "컨텍스트가 로컬 사전만 사용할지 여부"
 
 #: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
 msgid "Reload the list of available databases"
@@ -1206,7 +1197,7 @@ msgstr "그놈 사전 옵션"
 
 #: ../gnome-dictionary/libgdict/gdict-utils.c:158
 msgid "Show GDict Options"
-msgstr "그놈 사전 옵션 보기"
+msgstr "그놈 사전 옵션 보이기"
 
 #: ../gnome-dictionary/src/gdict-about.c:57
 #: ../gnome-dictionary/src/gdict-applet.c:591
@@ -2174,25 +2165,19 @@ msgstr ""
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"텍스트 포함\" 검색 옵션을 선택할 지 결정합니"
-"다."
+msgstr "이 키는 검색 도구를 시작할 때 \"텍스트 포함\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"최근에 바뀐 기간\" 검색 옵션을 선택할 지 결정"
-"합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"최근에 바뀐 기간\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"이후에 바뀐 기간\" 검색 옵션을 선택할 지 결정"
-"합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"이후에 바뀐 기간\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
 msgid ""
@@ -2206,25 +2191,19 @@ msgstr ""
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"비어 있는 파일\" 검색 옵션을 선택할 지 결정합"
-"니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"비어 있는 파일\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"심볼릭 링크 따라가기\" 검색 옵션을 선택할 지 "
-"결정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"심볼릭 링크 따라가기\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"이름에 포함하지 않음\" 검색 옵션을 선택할 지 "
-"결정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"이름에 포함하지 않음\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:66
 msgid ""
@@ -2238,25 +2217,19 @@ msgstr ""
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"소유한 그룹\" 검색 옵션을 선택할 지 결정합니"
-"다."
+msgstr "이 키는 검색 도구를 시작할 때 \"소유한 그룹\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"소유한 사람\" 검색 옵션을 선택할 지 결정합니"
-"다."
+msgstr "이 키는 검색 도구를 시작할 때 \"소유한 사람\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"소유자 알 수 없음\" 검색 옵션을 선택할 지 결"
-"정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"소유자 알 수 없음\" 검색 옵션을 선택할지 결정합니다."
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
@@ -2264,52 +2237,42 @@ msgstr ""
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"다른 옵션 보기\" 부분을 늘려 놓을 지 결정합니"
-"다."
+msgstr "이 키는 검색 도구를 시작할 때 \"다른 옵션 보기\" 부분을 늘려 놓을지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"숨겨진 파일 혹은 폴더 보기\" 검색 옵션을 선택"
-"할 지 결정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"숨겨진 파일 혹은 폴더 보기\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"최소 크기\" 검색 옵션을 선택할 지 결정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"최소 크기\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"이 키는 검색 도구를 시작할 때 \"최대 크기\" 검색 옵션을 선택할 지 결정합니다."
+msgstr "이 키는 검색 도구를 시작할 때 \"최대 크기\" 검색 옵션을 선택할지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
-msgstr ""
-"이 키는 검색 도구가 빠른 검색을 한 후에 find 명령을 사용하지 않을 지 결정합니"
-"다."
+msgstr "이 키는 검색 도구가 빠른 검색을 한 후에 find 명령을 사용하지 않을지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
-msgstr ""
-"이 키는 검색 도구가 간단한 파일 이름 검색을 할 때 locate 명령을 사용하지 않"
-"을 지 결정합니다."
+msgstr "이 키는 검색 도구가 간단한 파일 이름 검색을 할 때 locate 명령을 사용하지 않을지 결정합니다."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
-msgstr "이 키는 검색 도구 창이 최대크기로 시작할 지 결정합니다."
+msgstr "이 키는 검색 도구 창이 최대크기로 시작할지 결정합니다."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -2767,26 +2730,23 @@ msgstr "명령행 인자 sortby에 전달된 옵션이 잘못되었습니다."
 msgid ""
 "\n"
 "... Too many errors to display ..."
-msgstr ""
-"\n"
-"... 너무 오류가 많아서 보여 줄 수 없습니다  ..."
+msgstr "\n... 오류가 너무 많아서 표시할 수 없습니다  ..."
 
 #: ../gsearchtool/gsearchtool.c:1716
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
-msgstr ""
-"찾은 결과가 잘못되었을 것입니다.  검색을 실행하는 중에 오류가 발생했습니다."
+msgstr "검색 결과가 올바르지 않을 수도 있습니다.  검색을 실행하는 중에 오류가 발생했습니다."
 
 #: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
 msgid "Show more _details"
-msgstr "자세히 보기(_D)"
+msgstr "자세히 표시(_D)"
 
 #: ../gsearchtool/gsearchtool.c:1758
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
-msgstr "찾은 결과가 잘못되었을 것입니다.  빠른 검색 기능을 끄시겠습니까?"
+msgstr "검색 결과가 오래 되었거나 올바르지 않을 수도 있습니다.  빠른 검색 기능을 끄시겠습니까?"
 
 #: ../gsearchtool/gsearchtool.c:1783
 msgid "Disable _Quick Search"
@@ -3301,7 +3261,7 @@ msgstr "가장자리 창(_P)"
 
 #: ../logview/logview-window.c:875
 msgid "Show Side Pane"
-msgstr "가장자리 창을 봅니다"
+msgstr "가장자리 창을 표시합니다"
 
 #: ../logview/logview-window.c:877
 msgid "Show matches only"
@@ -3323,566 +3283,3 @@ msgstr "버전: "
 #: ../logview/logview-window.c:1543
 msgid "Could not open the following files:"
 msgstr "다음 파일을 열 수 없습니다:"
-
-#~ msgid "Save snapshot"
-#~ msgstr "스냅샷 저장"
-
-#~ msgid "Floppy Formatter"
-#~ msgstr "플로피 포맷"
-
-#~ msgid "Format floppy disks"
-#~ msgstr "플로피 디스크 포맷"
-
-#~ msgid ""
-#~ "0 for the quick format, 1 for a standard one (adds a low-level format) "
-#~ "and finally 2 for a thorough format (adds a bad blocks scan)."
-#~ msgstr ""
-#~ "빠른 포맷은 0, 표준 포맷은 1 (로우레벨 포맷까지) 그리고 완전 포맷 (배드 블"
-#~ "록 스캔까지)."
-
-#~ msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
-#~ msgstr "고급 사용자 전용 - FAT 포맷의 기본 백엔드"
-
-#~ msgid "Default filesystem type"
-#~ msgstr "기본 파일 시스템 형식"
-
-#~ msgid "Default formatting mode"
-#~ msgstr "기본 포맷 모드"
-
-#~ msgid ""
-#~ "TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to "
-#~ "set mtools as the preferred FAT formatting backend."
-#~ msgstr ""
-#~ "참이면 FAT 포맷 백엔드를 mkdosfs로 사용하고, 거짓이면 mtools를 포맷 백엔드"
-#~ "로 사용합니다."
-
-#~ msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
-#~ msgstr "리눅스 고유 파일 시스템은 ext2, DOS 파일시스템은 fat."
-
-#~ msgid "Internal Error: Unable to seek to the correct location."
-#~ msgstr "내부 오류: 올바른 위치로 이동할 수 없습니다."
-
-#~ msgid "Internal Error: Weird value (%ld) in do_test\n"
-#~ msgstr "내부 오류: do_test에서 이상한 값 (%ld)\n"
-
-#~ msgid "Checking for bad blocks..."
-#~ msgstr "배드 블록 검사중입니다..."
-
-#~ msgid "Failed to open device %s for badblock checking\n"
-#~ msgstr "배드 블록 검사에서 %s 장치를 여는 데 실패\n"
-
-#~ msgid "Checking for bad blocks... Done"
-#~ msgstr "배드 블록 검사... 완료"
-
-#~ msgid "Formatting the disk..."
-#~ msgstr "디스크 포맷중입니다..."
-
-#~ msgid "I don't know what this is, but it's very wrong."
-#~ msgstr "무엇인지 모르겠지만, 아주 잘못되었습니다."
-
-#~ msgid "Error formatting track #%d"
-#~ msgstr "%d번 트랙을 포맷하는 데 오류"
-
-#~ msgid "Error during completion of formatting"
-#~ msgstr "포맷을 끝마치는 중에 오류"
-
-#~ msgid "Formatting the disk... Done"
-#~ msgstr "디스크 포맷중입니다... 완료"
-
-#~ msgid "Verifying the format..."
-#~ msgstr "포맷 확인 중입니다..."
-
-#~ msgid ""
-#~ "Unable to write to the floppy.\n"
-#~ "\n"
-#~ "Please confirm that it is not write-protected."
-#~ msgstr ""
-#~ "플로피에 쓸 수 없습니다.\n"
-#~ "\n"
-#~ "쓰기 방지가 되어 있지 않은 지 확인하십시오."
-
-#~ msgid "Insufficient permissions to open floppy device %s."
-#~ msgstr "플로피 %s 장치를 열 권한이 없습니다."
-
-#~ msgid ""
-#~ "Unable to access the floppy disk.\n"
-#~ "\n"
-#~ "Please confirm that it is in the drive\n"
-#~ "with the drive door shut."
-#~ msgstr ""
-#~ "플로피 장치에 접근할 수 없습니다.\n"
-#~ "\n"
-#~ "드라이브 문이 닫혀 있는 지 \n"
-#~ "확인하십시오."
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s:%d"
-#~ msgstr ""
-#~ "플로피 %s 장치를 접근하는 데 일반 오류.\n"
-#~ "\n"
-#~ "오류 코드 %s:%d"
-
-#~ msgid ""
-#~ "Read Error:\n"
-#~ "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr ""
-#~ "읽기 오류:\n"
-#~ "%d 실린더를 읽는 데 문제 발생, %d이(가) 읽혀야 하는 데, %d이(가) 읽힘"
-
-#~ msgid "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr ""
-#~ "%d 실린더를 읽는 데 문제 발생, %d이(가) 읽혀야 하는 데, %d이(가) 읽힘"
-
-#~ msgid "Bad data in cyl %d.  Continuing... "
-#~ msgstr "%d 실린더에 틀린 데이터.  계속... "
-
-#~ msgid "Error closing device %s"
-#~ msgstr "%s 장치를 닫는 데 오류"
-
-#~ msgid "Verifying the format... Done"
-#~ msgstr "포맷 확인 중입니다... 완료"
-
-#~ msgid "Unable to write to device %s"
-#~ msgstr "장치 %s에 쓸 수 없습니다"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s"
-#~ msgstr ""
-#~ "플로피 %s 장치를 접근하는 데 일반 오류.\n"
-#~ "\n"
-#~ "오류 코드 %s"
-
-#~ msgid "Could not determine current floppy geometry."
-#~ msgstr "현재 플로피의 크기를 알아낼 수 없습니다."
-
-#~ msgid "Error while creating a unique filename for the bad blocks list file."
-#~ msgstr "배드 블록 목록에 쓸 파일의 유일한 이름을 만들어 내는 데 오류."
-
-#~ msgid "Error while filling the bad blocks list file."
-#~ msgstr "배드블록 리스트 파일을 채우는 데 오류."
-
-#~ msgid "Error while spawning the (%s) command: %s."
-#~ msgstr "(%s) 명령어를 실행하는 데 오류: %s."
-
-#~ msgid "Unknown mke2fs starting signature, cancelling."
-#~ msgstr "mke2fs 시작 시그너처가 잘못되었습니다. 취소."
-
-#~ msgid ""
-#~ "The filesystem creation utility (%s) reported the following errors:\n"
-#~ "\n"
-#~ "%s (%d)"
-#~ msgstr ""
-#~ "파일 시스템 만들기 프로그램(%s)에서 다음 오류를 보고했습니다:\n"
-#~ "\n"
-#~ "%s (%d)"
-
-#~ msgid "Abnormal child process termination."
-#~ msgstr "비정상적으로 자식 프로세스가 멈추었습니다."
-
-#~ msgid "Error while spawning the mbadblocks command: %s."
-#~ msgstr "nbadblocks 명령어를 실행하는 데 오류: %s."
-
-#~ msgid ""
-#~ "The bad blocks checking utility (mbadblocks) reported the following "
-#~ "errors:\n"
-#~ "%s."
-#~ msgstr ""
-#~ "배드 블록 검사 프로그램(nbadblocks)에서 다음 오류를 보고했습니다:\n"
-#~ "%s."
-
-#~ msgid "Abnormal mbadblocks child process termination."
-#~ msgstr "비정상적으로 mbadblocks 자식 프로세스가 멈추었습니다."
-
-#~ msgid "Making filesystem on disk..."
-#~ msgstr "디스크에 파일 시스템을 만듭니다..."
-
-#~ msgid "Unable to create filesystem correctly."
-#~ msgstr "파일 시스템을 올바르게 만들 수 없습니다."
-
-#~ msgid "Making filesystem on disk... Done"
-#~ msgstr "디스크에 파일 시스템을 만드는 중입니다... 완료"
-
-#~ msgid "Checking for bad blocks... (this might take a while)"
-#~ msgstr "배드 블록 검사 중입니다... (좀 시간이 걸릴 수 있습니다)"
-
-#~ msgid "Error while checking the bad blocks."
-#~ msgstr "배드 블록 검사중 오류."
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid ""
-#~ "<small><i><b>Note</b>: The mbadblocks utility isn't installed on this "
-#~ "system.  It must be installed in order to perform a thorough DOS (fat) "
-#~ "formatting.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>주의</b>: mbadblocks 프로그램이 이 시스템에 설치되어 있지 않"
-#~ "습니다. DOS (FAT) 완전 포맷을 하려면 이 프로그램을 설치해야 합니다.</i></"
-#~ "small>"
-
-#~ msgid "DOS (FAT)"
-#~ msgstr "DOS (FAT)"
-
-#~ msgid "Double Density 3.5\" (720KB)"
-#~ msgstr "배밀도 3.5\" (720 KB)"
-
-#~ msgid "Double Density 5.25\" (360KB)"
-#~ msgstr "배밀도 5.25\" (360 KB)"
-
-#~ msgid "File system _type:"
-#~ msgstr "파일 시스템 형식(_T):"
-
-#~ msgid "Filesystem Settings"
-#~ msgstr "파일 시스템 설정"
-
-#~ msgid "Floppy _density:"
-#~ msgstr "플로피 밀도(_D):"
-
-#~ msgid "Floppy de_vice:"
-#~ msgstr "플로피 장치(_V):"
-
-#~ msgid "Formatting Mode"
-#~ msgstr "포맷 모드"
-
-#~ msgid "High Density 3.5\" (1.44MB)"
-#~ msgstr "고밀도 3.5\" (1.44 MB)"
-
-#~ msgid "High Density 5.25\" (1.2MB)"
-#~ msgstr "고밀도 5.25\" (1.2 MB)"
-
-#~ msgid "Linux Native (ext2)"
-#~ msgstr "리눅스 기본 (ext2)"
-
-#~ msgid "Physical Settings"
-#~ msgstr "물리적 설정"
-
-#~ msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
-#~ msgstr "완전 포맷 (표준 포맷에 배드 블록 검사까지)(_G)"
-
-#~ msgid "Volume _name:"
-#~ msgstr "볼륨 이름(_N):"
-
-#~ msgid "_Format"
-#~ msgstr "포맷(_F)"
-
-#~ msgid "_Quick (only creates the filesystem)"
-#~ msgstr "빠른 포맷 (파일 시스템만 만듭니다)(_Q)"
-
-#~ msgid "_Standard (adds a low-level format to the quick mode)"
-#~ msgstr "표준 포맷 (빠른 포맷에 로우레벨 포맷까지)(_S)"
-
-#~ msgid "Cannot Format"
-#~ msgstr "포맷할 수 없습니다"
-
-#~ msgid ""
-#~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
-#~ "You can't format a floppy without one of them."
-#~ msgstr ""
-#~ "mke2fs와 mkdos/mformat중 어느 프로그램도 설치하지 않았습니다. 이 프로그램 "
-#~ "없이는 플로피를 포맷하지 못합니다."
-
-#~ msgid "Unable to open the device %s, formatting cannot continue."
-#~ msgstr "%s 장치를 열 수 없습니다. 포맷을 계속할 수 없습니다."
-
-#~ msgid ""
-#~ "The device %s is disconnected.\n"
-#~ "Please attach device to continue."
-#~ msgstr ""
-#~ "%s 장치의 연결이 끊어졌습니다.\n"
-#~ "계속하려면 장치를 연결하십시오."
-
-#~ msgid ""
-#~ "You do not have the proper permissions to write to %s, formatting will "
-#~ "not be possible.\n"
-#~ "Contact your system administrator about getting write permissions."
-#~ msgstr ""
-#~ "%s에 쓸 수 있는 허가권이 없으므로, 포맷이 불가능합니다.\n"
-#~ "시스템 관리자에게 연락해서 쓰기 허가권을 달라고 하십시오."
-
-#~ msgid "Cannot initialize device"
-#~ msgstr "장치를 초기화할 수 없습니다"
-
-#~ msgid "Unable to open any device, formatting cannot continue."
-#~ msgstr "어떤 장치도 열 수 없습니다. 포맷을 계속할 수 없습니다."
-
-#~ msgid "/dev/floppy/0 or /dev/fd0"
-#~ msgstr "/dev/floppy/0 아니면 /dev/fd0"
-
-#~ msgid "Could not display help for the floppy formatter."
-#~ msgstr "플로피 포맷 프로그램에 대한 도움말을 표시할 수 없습니다."
-
-#~ msgid "Incorrect volume name"
-#~ msgstr "볼륨 이름이 틀렸습니다"
-
-#~ msgid "The volume name can't contain any blank space."
-#~ msgstr "볼륨 이름에는 공백이 들어갈 수 없습니다."
-
-#~ msgid "The device to format"
-#~ msgstr "포맷할 장치"
-
-#~ msgid "DEVICE"
-#~ msgstr "장치"
-
-#~ msgid "- Floppy Formatter"
-#~ msgstr "- 플로피 포맷 프로그램"
-
-#~ msgid ""
-#~ "The floppy has been formatted, but <b>%d bad block</b> (out of %d) has "
-#~ "been found and marked."
-#~ msgid_plural ""
-#~ "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
-#~ "been found and marked."
-#~ msgstr[0] ""
-#~ "플로피가 포맷되었지만, <b>%d개의 배드 블록</b>이 (%d개 중에서) 발견되어 배"
-#~ "드 블록으로 표시되었습니다."
-
-#~ msgid "Floppy formatted successfully."
-#~ msgstr "플로피가 성공적으로 포맷되었습니다."
-
-#~ msgid "Floppy formatting cancelled."
-#~ msgstr "플로피디스크의 포맷이 취소되었습니다."
-
-#~ msgid "Format Progress"
-#~ msgstr "포맷 진행"
-
-#~ msgid "Dictionary Server"
-#~ msgstr "사전 서버"
-
-#~ msgid "Grab a selected _area"
-#~ msgstr "선택한 영역 찍기(_A)"
-
-#~ msgid "O_pen Folder"
-#~ msgstr "폴더 열기(_P)"
-
-#~ msgid "Close"
-#~ msgstr "닫기"
-
-#~ msgid "Enter Password"
-#~ msgstr "암호 입력"
-
-#~ msgid "Dictionary and spelling tool"
-#~ msgstr "사전 및 맞춤법 도구"
-
-#~ msgid "System Log"
-#~ msgstr "시스템 로그"
-
-#~ msgid "Current"
-#~ msgstr "현재"
-
-#~ msgid "One file or more could not be opened"
-#~ msgstr "하나 이상을 파일을 열 수 없습니다"
-
-#~ msgid ""
-#~ "%s is not user readable. Either run the program as root or ask the "
-#~ "sysadmin to change the permissions on the file.\n"
-#~ msgstr ""
-#~ "%s은(는) 사용자가 읽을 수 없습니다. 이 프로그램을 root로 실행하거나 시스"
-#~ "템 관리자에게 이 파일의 권한을 바꾸라고 요청하십시오.\n"
-
-#~ msgid "%s is too big."
-#~ msgstr "%s이(가) 너무 큽니다."
-
-#~ msgid "%s could not be opened."
-#~ msgstr "%s을(를) 열 수 없습니다."
-
-#~ msgid "%s is not a log file."
-#~ msgstr "%s은(는) 로그 파일이 아닙니다."
-
-#~ msgid "Not enough memory."
-#~ msgstr "메모리가 부족합니다."
-
-#~ msgid "%s cannot be opened."
-#~ msgstr "%s을(를) 열 수 없습니다."
-
-#~ msgid "_Clear"
-#~ msgstr "비우기(_C)"
-
-#~ msgid "_Filter..."
-#~ msgstr "필터(_F)..."
-
-#~ msgid "Filter log"
-#~ msgstr "로그를 걸러냅니다"
-
-#~ msgid "Collapse _All"
-#~ msgstr "모두 감추기(_A)"
-
-#~ msgid "Collapse all the rows"
-#~ msgstr "모든 행을 감춥니다"
-
-#~ msgid "_Monitor"
-#~ msgstr "감시(_M)"
-
-#~ msgid "Monitor Current Log"
-#~ msgstr "현재 로그 감시"
-
-#~ msgid "Ca_lendar"
-#~ msgstr "달력(_L)"
-
-#~ msgid "Show Calendar Log"
-#~ msgstr "달력로그을 봅니다"
-
-#~ msgid "%s (monitored) - %s"
-#~ msgstr "%s (감시중) - %s"
-
-#~ msgid "Days"
-#~ msgstr "일"
-
-#~ msgid "Pointer towards a GSList of days for the current log."
-#~ msgstr "현재 로그에 대한 날짜가 들어 있는 GSList에 대한 포인터."
-
-#~ msgid "Show System Log Viewer options"
-#~ msgstr "시스템 로그 보기 옵션"
-
-#~ msgid "Unable to create user interface."
-#~ msgstr "사용자 인터페이스를 만들 수 없습니다."
-
-#~ msgid "January"
-#~ msgstr "1월"
-
-#~ msgid "February"
-#~ msgstr "2월"
-
-#~ msgid "March"
-#~ msgstr "3월"
-
-#~ msgid "April"
-#~ msgstr "4월"
-
-#~ msgid "May"
-#~ msgstr "5월"
-
-#~ msgid "June"
-#~ msgstr "6월"
-
-#~ msgid "July"
-#~ msgstr "7월"
-
-#~ msgid "August"
-#~ msgstr "8월"
-
-#~ msgid "September"
-#~ msgstr "9월"
-
-#~ msgid "October"
-#~ msgstr "10월"
-
-#~ msgid "November"
-#~ msgstr "11월"
-
-#~ msgid "December"
-#~ msgstr "12월"
-
-#~ msgid "Invalid date"
-#~ msgstr " 잘못된 날짜"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "This file cannot be monitored."
-#~ msgstr "이 파일을 감시할 수 없습니다."
-
-#~ msgid "File monitoring is not supported on this file system.\n"
-#~ msgstr "이 파일시스템에서 파일 감시는 지원되지 않습니다.\n"
-
-#~ msgid "Gnome-VFS Error.\n"
-#~ msgstr "그놈 VFS 오류.\n"
-
-#~ msgid "Refresh graph"
-#~ msgstr "그래프 다시 그리기"
-
-#~ msgid "Take a snapshot"
-#~ msgstr "스크린샷 찍기"
-
-#~ msgid "Zoom 100%"
-#~ msgstr "100% 크기"
-
-#~ msgid "_Depth level:"
-#~ msgstr "깊이 단계(_D):"
-
-#~ msgid "_Graphical Usage Map"
-#~ msgstr "그래픽 사용량 맵(_G)"
-
-#~ msgid "_Total folders:"
-#~ msgstr "전체 폴더(_T):"
-
-#~ msgid "Invalid UTF-8 characters"
-#~ msgstr "잘못된 UTF-8 문자"
-
-#~ msgid "Unlimited"
-#~ msgstr "무제한"
-
-#~ msgid "Cannot allocate memory for graphical window!"
-#~ msgstr "그래픽 창에 필요한 메모리를 할당할 수 없습니다!"
-
-#~ msgid "Graphical Usage Map"
-#~ msgstr "그래픽 사용량 맵"
-
-#~ msgid "\"%s\" is not a valid location"
-#~ msgstr "%s은(는) 올바른 위치가 아닙니다"
-
-#~ msgid "Please check the spelling and try again."
-#~ msgstr "단어가 맞는지 확인하시고 다시 시도하십시오."
-
-#~ msgid "%s on %s"
-#~ msgstr "%s (위치: %s)"
-
-#~ msgid "_Remove from Trash"
-#~ msgstr "휴지통에서 제거(_R)"
-
-#~ msgid "The folder \"%s\" was not moved to the trash."
-#~ msgstr "\"%s\" 폴더를 휴지통에 옮기지 않았습니다."
-
-#~ msgid "Could not find a Trash folder on this system"
-#~ msgstr "이 시스템에 휴지통 폴더를 찾을 수 없습니다"
-
-#~ msgid "Delete the folder \"%s\" permanently?"
-#~ msgstr "\"%s\" 폴더를 완전히 삭제하시겠습니까?"
-
-#~ msgid "Could not move the folder to the trash."
-#~ msgstr "폴더를 휴지통에 옮길 수 없습니다."
-
-#~ msgid "_Delete Folder"
-#~ msgstr "폴더 삭제(_D)"
-
-#~ msgid "Could not delete the folder \"%s\""
-#~ msgstr "\"%s\" 폴더를 삭제할 수 없습니다"
-
-#~ msgid "(%d:%02d:%d Remaining)"
-#~ msgstr "(%d:%02d:%d 남음)"
-
-#~ msgid "(%d:%02d Remaining)"
-#~ msgstr "(%d:%02d 남음)"
-
-#~ msgid "%ld of %ld"
-#~ msgstr "%2$ld 중 %1$ld"
-
-#~ msgid "Options for Screenshot"
-#~ msgstr "스크린샷 옵션"
-
-#~ msgid "Preparing to copy"
-#~ msgstr "복사할 준비를 하고 있습니다"
-
-#~ msgid "Unknown GnomeVFSXferProgressStatus %d"
-#~ msgstr "알 수 없는 GnomeVFSXferProgressStatus %d"
-
-#~ msgid "The GdictContext object bound to this entry"
-#~ msgstr "이 입력창에 연결된 GdictContext 오브젝트"
-
-#~ msgid "The database to be used to generate the completion list"
-#~ msgstr "완성 목록을 만들 때 사용할 데이터베이스"
-
-#~ msgid "The matching strategy to be used to generate the completion list"
-#~ msgstr "완성 목록을 만들 때 사용할 찾기 방식"
-
-#~ msgid "%s (page %d)"
-#~ msgstr "%s (%d페이지)"
-
-#~ msgid "Print Preview"
-#~ msgstr "미리 보기 인쇄"
-
-#~ msgid "Analyze disk usage"
-#~ msgstr "디스크 사용량을 분석합니다"
