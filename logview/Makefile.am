@@ -1,8 +1,6 @@
 SUBDIRS = data help tests
 
 INCLUDES = \
-	$(GNOME_UTILS_CFLAGS)					\
-	$(GTHREAD_CFLAGS)					\
 	-DG_LOG_DOMAIN=\"gnome-system-log\"			\
 	-DGNOMELOCALEDIR=\""$(prefix)/$(DATADIRNAME)/locale"\"	\
 	-DDATADIR=\""$(datadir)"\"				\
@@ -42,9 +40,20 @@ gnome_system_log_SOURCES = 	\
 	logview-filter-manager.c  \
 	$(BUILT_SOURCES)
 
+gnome_system_log_CFLAGS =	\
+	$(GLIB_CFLAGS)		\
+	$(GTHREAD_CFLAGS)	\
+	$(GIO_CFLAGS)		\
+	$(GTK2_CFLAGS)		\
+	$(GCONF_CFLAGS)		\
+	$(NULL)
+
 gnome_system_log_LDADD =	\
-	$(GNOME_UTILS_LIBS)	\
+	$(GLIB_LIBS)		\
+	$(GIO_LIBS)		\
 	$(GTHREAD_LIBS)		\
+	$(GTK2_LIBS)		\
+	$(GCONF_LIBS)		\
 	$(Z_LIBS)		\
 	-lm
 
