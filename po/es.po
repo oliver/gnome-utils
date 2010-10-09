@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-10-05 23:36+0000\n"
-"PO-Revision-Date: 2010-10-07 14:26+0200\n"
+"POT-Creation-Date: 2010-10-09 13:26+0000\n"
+"PO-Revision-Date: 2010-10-09 15:30+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -156,46 +156,55 @@ msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Una lista de URI para las particiones que excluir de la inspección."
 
 #: ../baobab/data/baobab.schemas.in.h:2
+msgid "Chart currently active"
+msgstr "Gráfico actualmente activo"
+
+#: ../baobab/data/baobab.schemas.in.h:3
 msgid "Enable monitoring of home directory"
 msgstr "Activar monitorización del directorio personal"
 
-#: ../baobab/data/baobab.schemas.in.h:3
+#: ../baobab/data/baobab.schemas.in.h:4
 msgid "Excluded partitions URIs"
 msgstr "URI de las particiones excluidas"
 
-#: ../baobab/data/baobab.schemas.in.h:4
+#: ../baobab/data/baobab.schemas.in.h:5
 msgid "Status Bar is Visible"
 msgstr "La barra de estado es visible"
 
-#: ../baobab/data/baobab.schemas.in.h:5
+#: ../baobab/data/baobab.schemas.in.h:6
 msgid "Subfolders tooltips visible"
 msgstr "Comentarios de las subcarpetas visibles"
 
-#: ../baobab/data/baobab.schemas.in.h:6
+#: ../baobab/data/baobab.schemas.in.h:7
 msgid "Toolbar is Visible"
 msgstr "La barra de herramientas es visible"
 
-#: ../baobab/data/baobab.schemas.in.h:7
+#: ../baobab/data/baobab.schemas.in.h:8
 msgid "Whether any change to the home directory should be monitored."
 msgstr ""
 "Indica si cualquier cambio en el directorio personal debe ser monitorizado."
 
-#: ../baobab/data/baobab.schemas.in.h:8
+#: ../baobab/data/baobab.schemas.in.h:9
 msgid "Whether the status bar at the bottom of main window should be visible."
 msgstr ""
 "Indica si la barra de estado en la parte inferior de la ventana principal "
 "debe ser visible."
 
-#: ../baobab/data/baobab.schemas.in.h:9
+#: ../baobab/data/baobab.schemas.in.h:10
 msgid "Whether the subfolder tooltips of the selected folder are drawn."
 msgstr ""
 "Indica si se deben mostrar los comentarios de las subcarpetas de la carpeta "
 "seleccionada."
 
-#: ../baobab/data/baobab.schemas.in.h:10
+#: ../baobab/data/baobab.schemas.in.h:11
 msgid "Whether the toolbar should be visible in main window."
 msgstr ""
 "Indica si la barra de herramientas debe ser visible en la ventana principal."
+
+#: ../baobab/data/baobab.schemas.in.h:12
+#| msgid "Whether the sidebar should be visible"
+msgid "Which type of chart should be displayed."
+msgstr "Qué tipo de gráfico se debe mostrar."
 
 #: ../baobab/src/baobab.c:134 ../baobab/src/baobab.c:353
 msgid "Scanning..."
@@ -219,7 +228,7 @@ msgstr "Disponible:"
 msgid "Calculating percentage bars..."
 msgstr "Calculando barras de porcentajes…"
 
-#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1289
+#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1343
 #: ../baobab/src/callbacks.c:271
 msgid "Ready"
 msgstr "Preparado"
@@ -267,31 +276,31 @@ msgstr "Reducir"
 msgid "Save screenshot"
 msgstr "Guardar la captura de pantalla"
 
-#: ../baobab/src/baobab.c:1114
+#: ../baobab/src/baobab.c:1164
 msgid "View as Rings Chart"
 msgstr "Ver como gráfico de anillo"
 
-#: ../baobab/src/baobab.c:1116
+#: ../baobab/src/baobab.c:1166
 msgid "View as Treemap Chart"
 msgstr "Ver como gráfico de árbol"
 
-#: ../baobab/src/baobab.c:1214
+#: ../baobab/src/baobab.c:1268
 msgid "Show version"
 msgstr "Mostrar versión"
 
-#: ../baobab/src/baobab.c:1215
+#: ../baobab/src/baobab.c:1269
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORIO]"
 
-#: ../baobab/src/baobab.c:1245
+#: ../baobab/src/baobab.c:1299
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Demasiados parámetros. Sólo se puede especificar un directorio."
 
-#: ../baobab/src/baobab.c:1262
+#: ../baobab/src/baobab.c:1316
 msgid "Could not detect any mount point."
 msgstr "No se pudo detectar ningún punto de montaje."
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1318
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "El uso del disco no se puede analizar sin puntos de montaje."
 
@@ -460,7 +469,7 @@ msgstr ""
 msgid "_Rescan"
 msgstr "_Volver a inspeccionar"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2407
 msgid "Folder"
 msgstr "Carpeta"
 
@@ -468,7 +477,7 @@ msgstr "Carpeta"
 msgid "Usage"
 msgstr "Uso"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2419
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2420
 msgid "Size"
 msgstr "Tamaño"
 
@@ -1099,7 +1108,7 @@ msgid "The filename used by this dictionary source"
 msgstr "El nombre de archivo usado por esta fuente de diccionario"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2382
+#: ../gsearchtool/gsearchtool.c:2383
 msgid "Name"
 msgstr "Nombre"
 
@@ -2472,7 +2481,6 @@ msgstr "Abrir _con"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1187
-#| msgid "Open _Folder"
 msgid "Open Containing _Folder"
 msgstr "Abrir la _carpeta contenedora"
 
@@ -2648,192 +2656,192 @@ msgstr " ("
 msgid " (%d"
 msgstr " (%d"
 
-#: ../gsearchtool/gsearchtool.c:80
+#: ../gsearchtool/gsearchtool.c:81
 msgid "Contains the _text"
 msgstr "Contiene el _texto"
 
-#: ../gsearchtool/gsearchtool.c:82
+#: ../gsearchtool/gsearchtool.c:83
 msgid "_Date modified less than"
 msgstr "Fecha de mo_dificación anterior a"
 
-#: ../gsearchtool/gsearchtool.c:82 ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
 msgid "days"
 msgstr "días"
 
-#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:84
 msgid "Date modified more than"
 msgstr "Fecha de modificación posterior a"
 
-#: ../gsearchtool/gsearchtool.c:85
+#: ../gsearchtool/gsearchtool.c:86
 msgid "S_ize at least"
 msgstr "_Tamaño de al menos"
 
-#: ../gsearchtool/gsearchtool.c:85 ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "kilobytes"
 
-#: ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:87
 msgid "Si_ze at most"
 msgstr "Ta_maño de como mucho"
 
-#: ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:88
 msgid "File is empty"
 msgstr "El archivo está vacío"
 
-#: ../gsearchtool/gsearchtool.c:89
+#: ../gsearchtool/gsearchtool.c:90
 msgid "Owned by _user"
 msgstr "Pertenece al _usuario"
 
-#: ../gsearchtool/gsearchtool.c:90
+#: ../gsearchtool/gsearchtool.c:91
 msgid "Owned by _group"
 msgstr "Pertenece al _grupo"
 
-#: ../gsearchtool/gsearchtool.c:91
+#: ../gsearchtool/gsearchtool.c:92
 msgid "Owner is unrecognized"
 msgstr "El propietario es desconocido"
 
-#: ../gsearchtool/gsearchtool.c:93
+#: ../gsearchtool/gsearchtool.c:94
 msgid "Na_me does not contain"
 msgstr "El no_mbre no contiene"
 
-#: ../gsearchtool/gsearchtool.c:94
+#: ../gsearchtool/gsearchtool.c:95
 msgid "Name matches regular e_xpression"
 msgstr "El nombre coincide con la e_xpresión regular"
 
-#: ../gsearchtool/gsearchtool.c:96
+#: ../gsearchtool/gsearchtool.c:97
 msgid "Show hidden and backup files"
 msgstr "Mostrar los archivos ocultos y las copias de respaldo"
 
-#: ../gsearchtool/gsearchtool.c:97
+#: ../gsearchtool/gsearchtool.c:98
 msgid "Follow symbolic links"
 msgstr "Seguir los enlaces simbólicos"
 
-#: ../gsearchtool/gsearchtool.c:98
+#: ../gsearchtool/gsearchtool.c:99
 msgid "Exclude other filesystems"
 msgstr "Exlcuir otros sistemas de archivos"
 
-#: ../gsearchtool/gsearchtool.c:156
+#: ../gsearchtool/gsearchtool.c:157
 msgid "Show version of the application"
 msgstr "Mostrar la versión de la aplicación"
 
-#: ../gsearchtool/gsearchtool.c:157 ../gsearchtool/gsearchtool.c:162
-#: ../gsearchtool/gsearchtool.c:171
+#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
 msgstr "CADENA"
 
-#: ../gsearchtool/gsearchtool.c:158
+#: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
 msgstr "RUTA"
 
-#: ../gsearchtool/gsearchtool.c:159
+#: ../gsearchtool/gsearchtool.c:160
 msgid "VALUE"
 msgstr "VALOR"
 
-#: ../gsearchtool/gsearchtool.c:163 ../gsearchtool/gsearchtool.c:164
+#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DÍAS"
 
-#: ../gsearchtool/gsearchtool.c:165 ../gsearchtool/gsearchtool.c:166
+#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBYTES"
 
-#: ../gsearchtool/gsearchtool.c:168
+#: ../gsearchtool/gsearchtool.c:169
 msgid "USER"
 msgstr "USUARIO"
 
-#: ../gsearchtool/gsearchtool.c:169
+#: ../gsearchtool/gsearchtool.c:170
 msgid "GROUP"
 msgstr "GRUPO"
 
-#: ../gsearchtool/gsearchtool.c:172
+#: ../gsearchtool/gsearchtool.c:173
 msgid "PATTERN"
 msgstr "PATRÓN"
 
-#: ../gsearchtool/gsearchtool.c:383
+#: ../gsearchtool/gsearchtool.c:384
 msgid "A locate database has probably not been created."
 msgstr "Probablemente no se ha creado una base de datos de búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:485
+#: ../gsearchtool/gsearchtool.c:486
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "La conversión del conjunto de caracteres falló para «%s»"
 
-#: ../gsearchtool/gsearchtool.c:509
+#: ../gsearchtool/gsearchtool.c:510
 msgid "Searching..."
 msgstr "Buscando…"
 
-#: ../gsearchtool/gsearchtool.c:509 ../gsearchtool/gsearchtool.c:1015
-#: ../gsearchtool/gsearchtool.c:2988
+#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:2990
 msgid "Search for Files"
 msgstr "Buscar archivos"
 
-#: ../gsearchtool/gsearchtool.c:961 ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
 msgid "No files found"
 msgstr "No se encontraron archivos"
 
-#: ../gsearchtool/gsearchtool.c:983
+#: ../gsearchtool/gsearchtool.c:984
 msgid "(stopped)"
 msgstr "(detenido)"
 
-#: ../gsearchtool/gsearchtool.c:989
+#: ../gsearchtool/gsearchtool.c:990
 msgid "No Files Found"
 msgstr "No se encontraron archivos"
 
-#: ../gsearchtool/gsearchtool.c:994
+#: ../gsearchtool/gsearchtool.c:995
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "%'d archivo encontrado"
 msgstr[1] "%'d archivos encontrados"
 
-#: ../gsearchtool/gsearchtool.c:998 ../gsearchtool/gsearchtool.c:1036
+#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "%'d archivo encontrado"
 msgstr[1] "%'d archivos encontrados"
 
-#: ../gsearchtool/gsearchtool.c:1127
+#: ../gsearchtool/gsearchtool.c:1128
 msgid "Entry changed called for a non entry option!"
 msgstr "Ha pedido un cambio de entrada para una opción que no tiene entrada"
 
-#: ../gsearchtool/gsearchtool.c:1287
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Establece el texto de la opción de búsqueda «El nombre contiene»"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1289
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Establece el texto de la opción de búsqueda «Buscar en la carpeta»"
 
-#: ../gsearchtool/gsearchtool.c:1289
+#: ../gsearchtool/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr "Ordenar los archivos por: nombre, carpeta, tamaño, tipo o fecha"
 
-#: ../gsearchtool/gsearchtool.c:1290
+#: ../gsearchtool/gsearchtool.c:1291
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Establecer el orden como descendente, el predeterminado es ascendente"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1292
 msgid "Automatically start a search"
 msgstr "Iniciar una búsqueda automáticamente"
 
-#: ../gsearchtool/gsearchtool.c:1297
+#: ../gsearchtool/gsearchtool.c:1298
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Selecciona la opción de búsqueda «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1300
+#: ../gsearchtool/gsearchtool.c:1301
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Selecciona y establece la opción de búsqueda «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1407
+#: ../gsearchtool/gsearchtool.c:1408
 msgid "Invalid option passed to sortby command line argument."
 msgstr ""
 "Se ha pasado una opción inválida para el argumento «ordenar por» de la línea "
 "de comandos."
 
-#: ../gsearchtool/gsearchtool.c:1701
+#: ../gsearchtool/gsearchtool.c:1702
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2841,7 +2849,7 @@ msgstr ""
 "\n"
 "… Demasiados errores para ser mostrados …"
 
-#: ../gsearchtool/gsearchtool.c:1715
+#: ../gsearchtool/gsearchtool.c:1716
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
@@ -2849,11 +2857,11 @@ msgstr ""
 "El resultado de la búsqueda puede ser inválido. Hubo errores al realizar la "
 "búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:1727 ../gsearchtool/gsearchtool.c:1771
+#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
 msgid "Show more _details"
 msgstr "Mostrar más _detalles"
 
-#: ../gsearchtool/gsearchtool.c:1757
+#: ../gsearchtool/gsearchtool.c:1758
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -2861,149 +2869,149 @@ msgstr ""
 "Los resultados de la búsqueda pueden ser inválidos o no estar al día. "
 "¿Quiere desactivar la búsqueda rápida?"
 
-#: ../gsearchtool/gsearchtool.c:1782
+#: ../gsearchtool/gsearchtool.c:1783
 msgid "Disable _Quick Search"
 msgstr "Desactivar la búsqueda _rápida"
 
-#: ../gsearchtool/gsearchtool.c:1809
+#: ../gsearchtool/gsearchtool.c:1810
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Falló al establecer el id del grupo de proceso del hijo %d: %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1834
+#: ../gsearchtool/gsearchtool.c:1835
 msgid "Error parsing the search command."
 msgstr "Ocurrió un error al interpretar el comando de búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:1867
+#: ../gsearchtool/gsearchtool.c:1868
 msgid "Error running the search command."
 msgstr "Ocurrió un error al ejecutar el comando de búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:1987
+#: ../gsearchtool/gsearchtool.c:1988
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Introduzca un valor de texto para la opción de búsqueda «%s»."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1992
+#: ../gsearchtool/gsearchtool.c:1993
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "«%s» en %s"
 
-#: ../gsearchtool/gsearchtool.c:1994
+#: ../gsearchtool/gsearchtool.c:1995
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Introduzca un valor en %s para la opción de búsqueda «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2052
+#: ../gsearchtool/gsearchtool.c:2053
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Quitar «%s»"
 
-#: ../gsearchtool/gsearchtool.c:2053
+#: ../gsearchtool/gsearchtool.c:2054
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Pulse para quitar la opción de búsqueda «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2146
+#: ../gsearchtool/gsearchtool.c:2147
 msgid "A_vailable options:"
 msgstr "Opciones _disponibles:"
 
-#: ../gsearchtool/gsearchtool.c:2175
+#: ../gsearchtool/gsearchtool.c:2176
 msgid "Available options"
 msgstr "Opciones disponibles"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2177
 msgid "Select a search option from the drop-down list."
 msgstr "Seleccione una opción de búsqueda de la lista desplegable."
 
-#: ../gsearchtool/gsearchtool.c:2188
+#: ../gsearchtool/gsearchtool.c:2189
 msgid "Add search option"
 msgstr "Añadir una opción de búsqueda"
 
-#: ../gsearchtool/gsearchtool.c:2189
+#: ../gsearchtool/gsearchtool.c:2190
 msgid "Click to add the selected available search option."
 msgstr "Pulse para añadir la opción de búsqueda seleccionada."
 
-#: ../gsearchtool/gsearchtool.c:2278
+#: ../gsearchtool/gsearchtool.c:2279
 msgid "S_earch results:"
 msgstr "_Resultados de la búsqueda:"
 
-#: ../gsearchtool/gsearchtool.c:2322
+#: ../gsearchtool/gsearchtool.c:2323
 msgid "List View"
 msgstr "Vista como lista"
 
-#: ../gsearchtool/gsearchtool.c:2431
+#: ../gsearchtool/gsearchtool.c:2432
 msgid "Type"
 msgstr "Tipo"
 
-#: ../gsearchtool/gsearchtool.c:2443
+#: ../gsearchtool/gsearchtool.c:2444
 msgid "Date Modified"
 msgstr "Fecha de modificación"
 
-#: ../gsearchtool/gsearchtool.c:2759
+#: ../gsearchtool/gsearchtool.c:2760
 msgid "_Name contains:"
 msgstr "El _nombre contiene:"
 
-#: ../gsearchtool/gsearchtool.c:2773 ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2774 ../gsearchtool/gsearchtool.c:2775
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "Introduzca un nombre de archivo o un nombre parcial con o sin comodines."
 
-#: ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2775
 msgid "Name contains"
 msgstr "El nombre contiene"
 
-#: ../gsearchtool/gsearchtool.c:2780
+#: ../gsearchtool/gsearchtool.c:2781
 msgid "_Look in folder:"
 msgstr "_Buscar en la carpeta:"
 
-#: ../gsearchtool/gsearchtool.c:2786
+#: ../gsearchtool/gsearchtool.c:2787
 msgid "Browse"
 msgstr "Examinar"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Look in folder"
 msgstr "Buscar en la carpeta"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Select the folder or device from which you want to begin the search."
 msgstr ""
 "Seleccione la carpeta o dispositivo desde donde quiere iniciar la búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:2813
+#: ../gsearchtool/gsearchtool.c:2814
 msgid "Select more _options"
 msgstr "Seleccionar más _opciones"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2823
 msgid "Select more options"
 msgstr "Selecciona más opciones"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2823
 msgid "Click to expand or collapse the list of available options."
 msgstr "Pulse para expandir o contraer la lista de opciones disponibles."
 
-#: ../gsearchtool/gsearchtool.c:2846
+#: ../gsearchtool/gsearchtool.c:2847
 msgid "Click to display the help manual."
 msgstr "Pulse para mostrar el manual de ayuda."
 
-#: ../gsearchtool/gsearchtool.c:2854
+#: ../gsearchtool/gsearchtool.c:2855
 msgid "Click to close \"Search for Files\"."
 msgstr "Pulse para cerrar «Buscar archivos»."
 
-#: ../gsearchtool/gsearchtool.c:2880
+#: ../gsearchtool/gsearchtool.c:2881
 msgid "Click to perform a search."
 msgstr "Pulse para realizar una búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:2881
+#: ../gsearchtool/gsearchtool.c:2882
 msgid "Click to stop a search."
 msgstr "Pulse para detener una búsqueda."
 
-#: ../gsearchtool/gsearchtool.c:2973
+#: ../gsearchtool/gsearchtool.c:2975
 msgid "- the GNOME Search Tool"
 msgstr " - la herramienta de búsqueda de GNOME"
 
-#: ../gsearchtool/gsearchtool.c:2982
+#: ../gsearchtool/gsearchtool.c:2984
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Falló al analizar los argumentos de la línea de comandos: %s\n"
