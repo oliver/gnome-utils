@@ -110,6 +110,10 @@ PKG_CHECK_MODULES(GCONF, gconf-2.0)
 AC_SUBST(GCONF_CFLAGS)
 AC_SUBST(GCONF_LIBS)
 
+PKG_CHECK_MODULES(DESKTOP_GSETTINGS, gsettings-desktop-schemas)
+AC_SUBST(DESKTOP_GSETTINGS)
+AC_SUBST(DESKTOP_GSETTINGS)
+
 # For each cycle:
 # 	first release: increment major += 1, minor = micro = 0;
 # 	each release before API freeze: minor += 1;
@@ -143,6 +147,8 @@ AC_PATH_PROG(GCONFTOOL, [gconftool-2], [no])
 AS_IF([test "x$GCONFTOOL" = "xno"],
       [AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])]
 )
+
+GLIB_GSETTINGS
 
 AM_GCONF_SOURCE_2
 
