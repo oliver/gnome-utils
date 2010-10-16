@@ -1,9 +1,10 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 baobab/data/baobab.desktop.in.in
-[type: gettext/glade]baobab/data/baobab-dialog-scan-props.ui
+baobab/data/baobab-preferences-dialog.ui
+baobab/data/baobab.schemas.in
+baobab/data/org.gnome.baobab.gschema.xml.in
 [type: gettext/glade]baobab/data/baobab-main-window.ui
-baobab/data/org.gnome.baobab.gschema.in
 baobab/src/baobab.c
 baobab/src/baobab-chart.c
 baobab/src/baobab-prefs.c
