@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2010-10-09 15:44+0000\n"
-"PO-Revision-Date: 2010-10-09 20:32+0100\n"
+"POT-Creation-Date: 2010-10-16 18:39+0000\n"
+"PO-Revision-Date: 2010-10-16 21:37+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: \n"
@@ -32,17 +32,64 @@ msgstr "Preveri velikosti map in prostor na disku"
 msgid "Disk Usage Analyzer"
 msgstr "Orodje za analizo porabe diska"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
-msgstr "Možnosti orodja za analizo porabe diska"
+#: ../baobab/data/baobab.schemas.in.h:1
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr "Seznam naslovov URI razdelkov diska izločenih iz preiskovanja."
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:2
-msgid "Select _devices to include in filesystem scan:"
-msgstr "Izberite _naprave zajete v sistemsko preiskovanje:"
+#: ../baobab/data/baobab.schemas.in.h:2
+msgid "Chart currently active"
+msgstr "Izriši trenutno dejavno"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:3
-msgid "_Monitor changes to your home folder"
-msgstr "_Nadziraj spremembe domače mape"
+#: ../baobab/data/baobab.schemas.in.h:3
+msgid "Enable monitoring of home directory"
+msgstr "Vključi nadzorovanje domačega imenika"
+
+#: ../baobab/data/baobab.schemas.in.h:4
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "Izločeni naslovni URI razdelkov"
+
+#: ../baobab/data/baobab.schemas.in.h:5
+msgid "Status Bar is Visible"
+msgstr "Vrstica stanja je vidna"
+
+#: ../baobab/data/baobab.schemas.in.h:6
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "Orodna vrstica je vidna"
+
+#: ../baobab/data/baobab.schemas.in.h:7
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Ali naj bodo spremembe v domačem imeniku nadzorovane."
+
+#: ../baobab/data/baobab.schemas.in.h:8
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "Ali naj bo vrstica stanja na dnu glavnega okna vidna."
+
+#: ../baobab/data/baobab.schemas.in.h:9
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Ali naj bo orodna vrstica v glavnem oknu vidna."
+
+#: ../baobab/data/baobab.schemas.in.h:10
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+msgid "Which type of chart should be displayed."
+msgstr "Katera vrsta grafikona naj bo izrisana."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
+msgid "Active Chart"
+msgstr "Dejavni grafikon"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
+msgid "Monitor Home"
+msgstr "Nadzor domače mape"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
+msgid "Statusbar is Visible"
+msgstr "Vrstica stanja je vidna"
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -150,97 +197,49 @@ msgstr "_Orodna vrstica"
 msgid "_View"
 msgstr "Po_gled"
 
-#: ../baobab/data/baobab.schemas.in.h:1
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr "Seznam naslovov URI razdelkov diska izločenih iz preiskovanja."
-
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Chart currently active"
-msgstr "Izriši trenutno dejavno"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Enable monitoring of home directory"
-msgstr "Vključi nadzorovanje domačega imenika"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-msgid "Excluded partitions URIs"
-msgstr "Izločeni naslovni URI razdelkov"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Status Bar is Visible"
-msgstr "Vrstica stanja je vidna"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-msgid "Subfolders tooltips visible"
-msgstr "Pokaži namige podrejenih map"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-msgid "Toolbar is Visible"
-msgstr "Orodna vrstica je vidna"
-
-#: ../baobab/data/baobab.schemas.in.h:8
-msgid "Whether any change to the home directory should be monitored."
-msgstr "Ali naj bodo spremembe v domačem imeniku nadzorovane."
-
-#: ../baobab/data/baobab.schemas.in.h:9
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "Ali naj bo vrstica stanja na dnu glavnega okna vidna."
-
-#: ../baobab/data/baobab.schemas.in.h:10
-msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr "Ali naj bodo izrisani namigi podmap izbrane mape."
-
-#: ../baobab/data/baobab.schemas.in.h:11
-msgid "Whether the toolbar should be visible in main window."
-msgstr "Ali naj bo orodna vrstica v glavnem oknu vidna."
-
-#: ../baobab/data/baobab.schemas.in.h:12
-msgid "Which type of chart should be displayed."
-msgstr "Katera vrsta grafikona naj bo izrisana."
-
-#: ../baobab/src/baobab.c:134
-#: ../baobab/src/baobab.c:353
+#: ../baobab/src/baobab.c:135
+#: ../baobab/src/baobab.c:354
 msgid "Scanning..."
 msgstr "Preiskovanje ..."
 
-#: ../baobab/src/baobab.c:180
+#: ../baobab/src/baobab.c:181
 msgid "Total filesystem capacity:"
 msgstr "Celotna zmogljivost datotečnega sistema:"
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "used:"
 msgstr "porabljeno:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "available:"
 msgstr "na voljo:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:238
-#: ../baobab/src/baobab.c:295
-#: ../baobab/src/callbacks.c:266
+#: ../baobab/src/baobab.c:239
+#: ../baobab/src/baobab.c:296
+#: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Računanje stolpcev odstotkov ..."
 
-#: ../baobab/src/baobab.c:249
-#: ../baobab/src/baobab.c:1350
-#: ../baobab/src/callbacks.c:270
+#: ../baobab/src/baobab.c:250
+#: ../baobab/src/baobab.c:1291
+#: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Pripravljeno"
 
-#: ../baobab/src/baobab.c:386
+#: ../baobab/src/baobab.c:387
 msgid "Total filesystem capacity"
 msgstr "Celotna zmogljivost datotečnega sistema"
 
-#: ../baobab/src/baobab.c:408
+#: ../baobab/src/baobab.c:409
 msgid "Total filesystem usage"
 msgstr "Celotna poraba datotečnega sistema"
 
-#: ../baobab/src/baobab.c:449
+#: ../baobab/src/baobab.c:450
 msgid "contains hardlinks for:"
 msgstr "vsebuje trde povezave za:"
 
-#: ../baobab/src/baobab.c:458
+#: ../baobab/src/baobab.c:459
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
@@ -249,55 +248,55 @@ msgstr[1] "%5d predmet"
 msgstr[2] "%5d predmeta"
 msgstr[3] "%5d predmeti"
 
-#: ../baobab/src/baobab.c:585
+#: ../baobab/src/baobab.c:586
 msgid "Could not initialize monitoring"
 msgstr "Ni mogoče zagnati merjenja"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:587
 msgid "Changes to your home folder will not be monitored."
 msgstr "Ali naj bodo spremembe v domačem imeniku nadzorovane."
 
-#: ../baobab/src/baobab.c:965
+#: ../baobab/src/baobab.c:911
 msgid "Move to parent folder"
 msgstr "Premakniti v nadrejeno mapo"
 
-#: ../baobab/src/baobab.c:969
+#: ../baobab/src/baobab.c:915
 msgid "Zoom in"
 msgstr "Približaj"
 
-#: ../baobab/src/baobab.c:973
+#: ../baobab/src/baobab.c:919
 msgid "Zoom out"
 msgstr "Oddalji"
 
-#: ../baobab/src/baobab.c:977
+#: ../baobab/src/baobab.c:923
 msgid "Save screenshot"
 msgstr "Shrani zajeto sliko"
 
-#: ../baobab/src/baobab.c:1164
+#: ../baobab/src/baobab.c:1109
 msgid "View as Rings Chart"
 msgstr "Določitev krožnega grafikona"
 
-#: ../baobab/src/baobab.c:1166
+#: ../baobab/src/baobab.c:1111
 msgid "View as Treemap Chart"
 msgstr "Seznamski drevesni pregled grafikona"
 
-#: ../baobab/src/baobab.c:1275
+#: ../baobab/src/baobab.c:1216
 msgid "Show version"
 msgstr "Počasna različica"
 
-#: ../baobab/src/baobab.c:1276
+#: ../baobab/src/baobab.c:1217
 msgid "[DIRECTORY]"
 msgstr "[IMENIK]"
 
-#: ../baobab/src/baobab.c:1306
+#: ../baobab/src/baobab.c:1247
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Preveč je argumentov. Določena je lahko le ena mapa."
 
-#: ../baobab/src/baobab.c:1323
+#: ../baobab/src/baobab.c:1264
 msgid "Could not detect any mount point."
 msgstr "Ni mogoče zaznati priklopne točke."
 
-#: ../baobab/src/baobab.c:1325
+#: ../baobab/src/baobab.c:1266
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "Brez določene priklopne točne, zasedenosti diska ni mogoče določiti."
 
@@ -338,27 +337,27 @@ msgstr "Shrani zaslonsko sliko"
 msgid "_Image type:"
 msgstr "_Vrsta slike:"
 
-#: ../baobab/src/baobab-prefs.c:184
+#: ../baobab/src/baobab-prefs.c:172
 msgid "Scan"
 msgstr "Preišči"
 
-#: ../baobab/src/baobab-prefs.c:191
+#: ../baobab/src/baobab-prefs.c:179
 msgid "Device"
 msgstr "Naprava"
 
-#: ../baobab/src/baobab-prefs.c:199
+#: ../baobab/src/baobab-prefs.c:187
 msgid "Mount Point"
 msgstr "Priklopna točka"
 
-#: ../baobab/src/baobab-prefs.c:207
+#: ../baobab/src/baobab-prefs.c:195
 msgid "Filesystem Type"
 msgstr "Vrsta datotečnega sistema"
 
-#: ../baobab/src/baobab-prefs.c:215
+#: ../baobab/src/baobab-prefs.c:203
 msgid "Total Size"
 msgstr "Skupna velikost"
 
-#: ../baobab/src/baobab-prefs.c:224
+#: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
 msgstr "Na voljo"
 
@@ -532,35 +531,35 @@ msgstr "Ni mogoče premakniti datoteke v smeti"
 msgid "Details: %s"
 msgstr "Podrobnosti: %s"
 
-#: ../baobab/src/baobab-utils.c:533
+#: ../baobab/src/baobab-utils.c:522
 msgid "There was an error displaying help."
 msgstr "Prišlo je do napake med prikazovanjem pomoči."
 
-#: ../baobab/src/callbacks.c:77
+#: ../baobab/src/callbacks.c:76
 #: ../logview/logview-about.h:49
 msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
 msgstr "Ta program spada med prosto programsko opremo; lahko ga širite in/ali spreminjate pod pogoji Splošnega javnega dovoljenja GNU (GNU General Public License), kot ga je objavila ustanova Free Software Foundation; bodisi različice 2 ali (po vaši izbiri) katirekoli poznejši različici."
 
-#: ../baobab/src/callbacks.c:82
+#: ../baobab/src/callbacks.c:81
 #: ../logview/logview-about.h:53
 msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
 msgstr "Ta program je na voljo v upanju, da bo uporaben, vendar je BREZ VSAKRŠNEGA JAMSTVA; tudi brez jamstva o USTREZNOSTI ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Za več podrobnosti si glejte besedilo Splošnega javnega dovoljenja (GNU GPL)."
 
-#: ../baobab/src/callbacks.c:87
+#: ../baobab/src/callbacks.c:86
 #: ../logview/logview-about.h:57
 msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 msgstr "Skupaj s tem programom bi morali prejeti izvod Splošnega dovoljenja GNU (GNU General Public License); v primeru, da ga niste, pišite na Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
-#: ../baobab/src/callbacks.c:102
+#: ../baobab/src/callbacks.c:101
 msgid "Baobab"
 msgstr "Baobab"
 
-#: ../baobab/src/callbacks.c:103
+#: ../baobab/src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."
 msgstr "Grafično orodje za analiziranje porabe diska."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:111
+#: ../baobab/src/callbacks.c:110
 #: ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
@@ -569,13 +568,13 @@ msgstr ""
 "Andraž Tori <andraz.tori1@guest.arnes.si>\n"
 "Matej Urbančič <mateju@svn.gnome.org>"
 
-#: ../baobab/src/callbacks.c:209
+#: ../baobab/src/callbacks.c:208
 #: ../gsearchtool/gsearchtool-callbacks.c:504
 #: ../gsearchtool/gsearchtool-callbacks.c:843
 msgid "The document does not exist."
 msgstr "Dokument ne obstaja."
 
-#: ../baobab/src/callbacks.c:320
+#: ../baobab/src/callbacks.c:289
 msgid "The folder does not exist."
 msgstr "Mapa ne obstaja"
 
@@ -3168,6 +3167,16 @@ msgstr "Različica:"
 msgid "Could not open the following files:"
 msgstr "Ni mogoče odpreti naslednjih datotek:"
 
+#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgstr "Možnosti orodja za analizo porabe diska"
+#~ msgid "Select _devices to include in filesystem scan:"
+#~ msgstr "Izberite _naprave zajete v sistemsko preiskovanje:"
+#~ msgid "_Monitor changes to your home folder"
+#~ msgstr "_Nadziraj spremembe domače mape"
+#~ msgid "Subfolders tooltips visible"
+#~ msgstr "Pokaži namige podrejenih map"
+#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
+#~ msgstr "Ali naj bodo izrisani namigi podmap izbrane mape."
 #~ msgid "Save snapshot"
 #~ msgstr "Shrani zaslonsko sliko"
 #~ msgid "Total filesystem usage:"
@@ -3462,8 +3471,6 @@ msgstr "Ni mogoče odpreti naslednjih datotek:"
 #~ msgstr "Zloži _vse"
 #~ msgid "Collapse all the rows"
 #~ msgstr "Zloži vse vrstice"
-#~ msgid "_Monitor"
-#~ msgstr "Nadzoruj"
 #~ msgid "Monitor Current Log"
 #~ msgstr "Nadzoruj trenutni dnevnik"
 #~ msgid "Ca_lendar"
