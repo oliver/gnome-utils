@@ -1,4 +1,4 @@
-# translation of gnome-utils.HEAD.po to Español
+# translation of gnome-utils.master.po to Español
 # Carlos Perelló Marín <carlos@gnome-db.org>, 2001.
 # QA - Germán Poo Caamaño <gpoo@ubiobio.cl>, 2002.
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>,2002-2003.
@@ -13,11 +13,11 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils.HEAD\n"
+"Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-10-09 13:26+0000\n"
-"PO-Revision-Date: 2010-10-09 15:30+0200\n"
+"POT-Creation-Date: 2010-10-16 18:39+0000\n"
+"PO-Revision-Date: 2010-10-18 11:03+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -35,19 +35,70 @@ msgstr "Compruebe el tamaño de las carpetas y el espacio disponible en disco"
 msgid "Disk Usage Analyzer"
 msgstr "Analizador de uso de disco"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
-msgstr "Preferencias del analizador de uso de disco"
+#: ../baobab/data/baobab.schemas.in.h:1
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr "Una lista de URI para las particiones que excluir de la inspección."
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:2
-msgid "Select _devices to include in filesystem scan:"
+#: ../baobab/data/baobab.schemas.in.h:2
+msgid "Chart currently active"
+msgstr "Gráfico actualmente activo"
+
+#: ../baobab/data/baobab.schemas.in.h:3
+msgid "Enable monitoring of home directory"
+msgstr "Activar monitorización del directorio personal"
+
+#: ../baobab/data/baobab.schemas.in.h:4
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "URI de las particiones excluidas"
+
+#: ../baobab/data/baobab.schemas.in.h:5
+msgid "Status Bar is Visible"
+msgstr "La barra de estado es visible"
+
+#: ../baobab/data/baobab.schemas.in.h:6
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "La barra de herramientas es visible"
+
+#: ../baobab/data/baobab.schemas.in.h:7
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
 msgstr ""
-"Seleccionar qué _dispositivos incluir en la inspección del sistema de "
-"archivos:"
+"Indica si cualquier cambio en el directorio personal debe ser monitorizado."
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:3
-msgid "_Monitor changes to your home folder"
-msgstr "_Monitorizar cambios en su carpeta personal"
+#: ../baobab/data/baobab.schemas.in.h:8
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr ""
+"Indica si la barra de estado en la parte inferior de la ventana principal "
+"debe ser visible."
+
+#: ../baobab/data/baobab.schemas.in.h:9
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr ""
+"Indica si la barra de herramientas debe ser visible en la ventana principal."
+
+#: ../baobab/data/baobab.schemas.in.h:10
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+msgid "Which type of chart should be displayed."
+msgstr "Qué tipo de gráfico se debe mostrar."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
+msgid "Active Chart"
+msgstr "Gráfico activa"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
+#| msgid "_Monitor"
+msgid "Monitor Home"
+msgstr "Monitorizar carpeta personal"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
+#| msgid "Status Bar is Visible"
+msgid "Statusbar is Visible"
+msgstr "La barra de estado es visible"
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -151,217 +202,162 @@ msgstr "Barra de _herramientas"
 msgid "_View"
 msgstr "_Ver"
 
-#: ../baobab/data/baobab.schemas.in.h:1
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr "Una lista de URI para las particiones que excluir de la inspección."
-
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Chart currently active"
-msgstr "Gráfico actualmente activo"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Enable monitoring of home directory"
-msgstr "Activar monitorización del directorio personal"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-msgid "Excluded partitions URIs"
-msgstr "URI de las particiones excluidas"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Status Bar is Visible"
-msgstr "La barra de estado es visible"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-msgid "Subfolders tooltips visible"
-msgstr "Comentarios de las subcarpetas visibles"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-msgid "Toolbar is Visible"
-msgstr "La barra de herramientas es visible"
-
-#: ../baobab/data/baobab.schemas.in.h:8
-msgid "Whether any change to the home directory should be monitored."
-msgstr ""
-"Indica si cualquier cambio en el directorio personal debe ser monitorizado."
-
-#: ../baobab/data/baobab.schemas.in.h:9
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr ""
-"Indica si la barra de estado en la parte inferior de la ventana principal "
-"debe ser visible."
-
-#: ../baobab/data/baobab.schemas.in.h:10
-msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr ""
-"Indica si se deben mostrar los comentarios de las subcarpetas de la carpeta "
-"seleccionada."
-
-#: ../baobab/data/baobab.schemas.in.h:11
-msgid "Whether the toolbar should be visible in main window."
-msgstr ""
-"Indica si la barra de herramientas debe ser visible en la ventana principal."
-
-#: ../baobab/data/baobab.schemas.in.h:12
-#| msgid "Whether the sidebar should be visible"
-msgid "Which type of chart should be displayed."
-msgstr "Qué tipo de gráfico se debe mostrar."
-
-#: ../baobab/src/baobab.c:134 ../baobab/src/baobab.c:353
+#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
 msgid "Scanning..."
 msgstr "Inspeccionando…"
 
-#: ../baobab/src/baobab.c:180
+#: ../baobab/src/baobab.c:181
 msgid "Total filesystem capacity:"
 msgstr "Capacidad total del sistema de archivos:"
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "used:"
 msgstr "Usado:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "available:"
 msgstr "Disponible:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:238 ../baobab/src/baobab.c:295
-#: ../baobab/src/callbacks.c:267
+#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Calculando barras de porcentajes…"
 
-#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1343
-#: ../baobab/src/callbacks.c:271
+#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Preparado"
 
-#: ../baobab/src/baobab.c:386
+#: ../baobab/src/baobab.c:387
 msgid "Total filesystem capacity"
 msgstr "Capacidad total de los sistemas de archivos"
 
-#: ../baobab/src/baobab.c:408
+#: ../baobab/src/baobab.c:409
 msgid "Total filesystem usage"
 msgstr "Uso total de los sistemas de archivos"
 
-#: ../baobab/src/baobab.c:449
+#: ../baobab/src/baobab.c:450
 msgid "contains hardlinks for:"
 msgstr "contiene enlaces duros de:"
 
-#: ../baobab/src/baobab.c:458
+#: ../baobab/src/baobab.c:459
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d elemento"
 msgstr[1] "%5d elementos"
 
-#: ../baobab/src/baobab.c:585
+#: ../baobab/src/baobab.c:586
 msgid "Could not initialize monitoring"
 msgstr "No se pudo inicializar la monitorización"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:587
 msgid "Changes to your home folder will not be monitored."
 msgstr "Los cambios en su carpeta personal no serán monitorizados."
 
-#: ../baobab/src/baobab.c:965
+#: ../baobab/src/baobab.c:911
 msgid "Move to parent folder"
 msgstr "Mover a la carpeta superior"
 
-#: ../baobab/src/baobab.c:969
+#: ../baobab/src/baobab.c:915
 msgid "Zoom in"
 msgstr "Ampliar"
 
-#: ../baobab/src/baobab.c:973
+#: ../baobab/src/baobab.c:919
 msgid "Zoom out"
 msgstr "Reducir"
 
-#: ../baobab/src/baobab.c:977
+#: ../baobab/src/baobab.c:923
 msgid "Save screenshot"
 msgstr "Guardar la captura de pantalla"
 
-#: ../baobab/src/baobab.c:1164
+#: ../baobab/src/baobab.c:1109
 msgid "View as Rings Chart"
 msgstr "Ver como gráfico de anillo"
 
-#: ../baobab/src/baobab.c:1166
+#: ../baobab/src/baobab.c:1111
 msgid "View as Treemap Chart"
 msgstr "Ver como gráfico de árbol"
 
-#: ../baobab/src/baobab.c:1268
+#: ../baobab/src/baobab.c:1216
 msgid "Show version"
 msgstr "Mostrar versión"
 
-#: ../baobab/src/baobab.c:1269
+#: ../baobab/src/baobab.c:1217
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORIO]"
 
-#: ../baobab/src/baobab.c:1299
+#: ../baobab/src/baobab.c:1247
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Demasiados parámetros. Sólo se puede especificar un directorio."
 
-#: ../baobab/src/baobab.c:1316
+#: ../baobab/src/baobab.c:1264
 msgid "Could not detect any mount point."
 msgstr "No se pudo detectar ningún punto de montaje."
 
-#: ../baobab/src/baobab.c:1318
+#: ../baobab/src/baobab.c:1266
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "El uso del disco no se puede analizar sin puntos de montaje."
 
-#: ../baobab/src/baobab-chart.c:206
+#: ../baobab/src/baobab-chart.c:205
 msgid "Maximum depth"
 msgstr "Profundidad máxima"
 
-#: ../baobab/src/baobab-chart.c:207
+#: ../baobab/src/baobab-chart.c:206
 msgid "The maximum depth drawn in the chart from the root"
 msgstr "La profundidad máxima dibujada en el gráfico desde la raíz"
 
-#: ../baobab/src/baobab-chart.c:216
+#: ../baobab/src/baobab-chart.c:215
 msgid "Chart model"
 msgstr "Modelo de gráfico"
 
-#: ../baobab/src/baobab-chart.c:217
+#: ../baobab/src/baobab-chart.c:216
 msgid "Set the model of the chart"
 msgstr "Establece el modelo del gráfico"
 
-#: ../baobab/src/baobab-chart.c:224
+#: ../baobab/src/baobab-chart.c:223
 msgid "Chart root node"
 msgstr "Nodo raíz del gráfico"
 
-#: ../baobab/src/baobab-chart.c:225
+#: ../baobab/src/baobab-chart.c:224
 msgid "Set the root node from the model"
 msgstr "Establece el nodo raíz del modelo"
 
-#: ../baobab/src/baobab-chart.c:1704
+#: ../baobab/src/baobab-chart.c:1690
 msgid "Cannot create pixbuf image!"
 msgstr "No se puede crear la imagen pixbuf"
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1714
+#: ../baobab/src/baobab-chart.c:1700
 msgid "Save Snapshot"
 msgstr "Guardar captura"
 
-#: ../baobab/src/baobab-chart.c:1743
+#: ../baobab/src/baobab-chart.c:1727
 msgid "_Image type:"
 msgstr "Tipo de _imagen:"
 
-#: ../baobab/src/baobab-prefs.c:184
+#: ../baobab/src/baobab-prefs.c:172
 msgid "Scan"
 msgstr "Inspeccionar"
 
-#: ../baobab/src/baobab-prefs.c:191
+#: ../baobab/src/baobab-prefs.c:179
 msgid "Device"
 msgstr "Dispositivo"
 
-#: ../baobab/src/baobab-prefs.c:199
+#: ../baobab/src/baobab-prefs.c:187
 msgid "Mount Point"
 msgstr "Punto de montaje"
 
-#: ../baobab/src/baobab-prefs.c:207
+#: ../baobab/src/baobab-prefs.c:195
 msgid "Filesystem Type"
 msgstr "Tipo de sistema de archivos"
 
-#: ../baobab/src/baobab-prefs.c:215
+#: ../baobab/src/baobab-prefs.c:203
 msgid "Total Size"
 msgstr "Tamaño total"
 
-#: ../baobab/src/baobab-prefs.c:224
+#: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
 msgstr "Disponible"
 
@@ -445,11 +441,11 @@ msgstr "Nombre del _dominio:"
 msgid "Connect to Server"
 msgstr "Conectar con el servidor"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:660
+#: ../baobab/src/baobab-remote-connect-dialog.c:659
 msgid "Service _type:"
 msgstr "_Tipo de servicio:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:779
+#: ../baobab/src/baobab-remote-connect-dialog.c:778
 msgid "_Scan"
 msgstr "In_speccionar"
 
@@ -539,11 +535,11 @@ msgstr "No se pudo mover el archivo a la papelera"
 msgid "Details: %s"
 msgstr "Detalles: %s"
 
-#: ../baobab/src/baobab-utils.c:533
+#: ../baobab/src/baobab-utils.c:522
 msgid "There was an error displaying help."
 msgstr "Hubo un error al mostrar la ayuda."
 
-#: ../baobab/src/callbacks.c:78 ../logview/logview-about.h:49
+#: ../baobab/src/callbacks.c:76 ../logview/logview-about.h:49
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -555,7 +551,7 @@ msgstr ""
 "Software Foundation; en la versión 2 de la licencia, o (a su elección) "
 "cualquier versión posterior."
 
-#: ../baobab/src/callbacks.c:83 ../logview/logview-about.h:53
+#: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -567,7 +563,7 @@ msgstr ""
 "IDONEIDAD PARA UN PROPÓSITO EN FIN. Véase la Licencia Pública General de GNU "
 "para más detalles."
 
-#: ../baobab/src/callbacks.c:88 ../logview/logview-about.h:57
+#: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
@@ -575,19 +571,19 @@ msgid ""
 msgstr ""
 "Debería haber recibido una copia de la Licencia Pública General GNU junto "
 "con el Visor de sucesos de GNOME; de lo contrario, escriba a la Free "
-"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-"
-"1301 EE. UU."
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301 EE. UU."
 
-#: ../baobab/src/callbacks.c:103
+#: ../baobab/src/callbacks.c:101
 msgid "Baobab"
 msgstr "Baobab"
 
-#: ../baobab/src/callbacks.c:104
+#: ../baobab/src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."
 msgstr "Una herramienta gráfica para analizar el uso del disco."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:112 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -600,12 +596,12 @@ msgstr ""
 "Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999\n"
 "Miguel de Icaza <miguel@metropolis.nuclecu.unam.mx> 1998"
 
-#: ../baobab/src/callbacks.c:210 ../gsearchtool/gsearchtool-callbacks.c:504
+#: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:504
 #: ../gsearchtool/gsearchtool-callbacks.c:843
 msgid "The document does not exist."
 msgstr "El documento no existe."
 
-#: ../baobab/src/callbacks.c:321
+#: ../baobab/src/callbacks.c:289
 msgid "The folder does not exist."
 msgstr "La carpeta no existe."
 
@@ -825,7 +821,8 @@ msgid ""
 "\"databases\"."
 msgstr ""
 "Esta clave define qué pagina de la barra lateral debe mostrarse y se usa "
-"para recordar el estado entre las sesiones. Puede ser «speller» o |databases»."
+"para recordar el estado entre las sesiones. Puede ser «speller» o |"
+"databases»."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
 msgid "Use smart lookup (Deprecated)"
@@ -2139,7 +2136,8 @@ msgstr "Seleccione la opción de búsqueda «El nombre no contiene»"
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr ""
-"Seleccione la opción de búsqueda «El nombre coincide con la expresión regular»"
+"Seleccione la opción de búsqueda «El nombre coincide con la expresión "
+"regular»"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2275,8 +2273,8 @@ msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando se "
-"inicia la herramienta de búsqueda."
+"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando "
+"se inicia la herramienta de búsqueda."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
 msgid ""
@@ -3123,7 +3121,8 @@ msgid ""
 "messages or /var/log/messages, depending on your operating system."
 msgstr ""
 "Especifica el archivo de sucesos mostrado al inicio. Los predeterminados son "
-"«/var/adm/messages» o «/var/log/messages», dependiendo de su sistema operativo."
+"«/var/adm/messages» o «/var/log/messages», dependiendo de su sistema "
+"operativo."
 
 #: ../logview/data/gnome-system-log.schemas.in.h:8
 msgid ""
@@ -3415,6 +3414,25 @@ msgstr "Versión: "
 msgid "Could not open the following files:"
 msgstr "No se pudieron abrir los siguientes archivos:"
 
+#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgstr "Preferencias del analizador de uso de disco"
+
+#~ msgid "Select _devices to include in filesystem scan:"
+#~ msgstr ""
+#~ "Seleccionar qué _dispositivos incluir en la inspección del sistema de "
+#~ "archivos:"
+
+#~ msgid "_Monitor changes to your home folder"
+#~ msgstr "_Monitorizar cambios en su carpeta personal"
+
+#~ msgid "Subfolders tooltips visible"
+#~ msgstr "Comentarios de las subcarpetas visibles"
+
+#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
+#~ msgstr ""
+#~ "Indica si se deben mostrar los comentarios de las subcarpetas de la "
+#~ "carpeta seleccionada."
+
 #~ msgid "Save snapshot"
 #~ msgstr "Guardar captura"
 
@@ -3686,8 +3704,8 @@ msgstr "No se pudieron abrir los siguientes archivos:"
 #~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
 #~ "You can't format a floppy without one of them."
 #~ msgstr ""
-#~ "No se encuentran instaladas la utilidades «mke2fs» ni «mkdosfs/mformat». No "
-#~ "se puede dar formato a un disquete sin una de ellas."
+#~ "No se encuentran instaladas la utilidades «mke2fs» ni «mkdosfs/mformat». "
+#~ "No se puede dar formato a un disquete sin una de ellas."
 
 #~ msgid "Unable to open the device %s, formatting cannot continue."
 #~ msgstr ""
@@ -3815,9 +3833,6 @@ msgstr "No se pudieron abrir los siguientes archivos:"
 
 #~ msgid "Collapse all the rows"
 #~ msgstr "Contrae todas las filas"
-
-#~ msgid "_Monitor"
-#~ msgstr "_Monitorizar"
 
 #~ msgid "Monitor Current Log"
 #~ msgstr "Monitoriza el registro actual"
