@@ -156,7 +156,7 @@ AC_ARG_ENABLE([gdict-applet],
                [AS_HELP_STRING([--enable-gdict-applet=@<:@yes/no@:>@],
                                [Whether to build the Dictionary gnome-panel applet])],
                [],
-               [enable_gdict_applet=yes])
+               [enable_gdict_applet=no])
 
 AS_CASE([$enable_gdict_applet],
         [yes],
