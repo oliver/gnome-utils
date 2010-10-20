@@ -120,7 +120,7 @@ entry_key_press_event_cb (GtkWidget *entry,
 {
   LogviewFindbar *findbar = user_data;
 
-  if (event->keyval == GDK_Escape) {
+  if (event->keyval == GDK_KEY_Escape) {
     g_signal_emit (findbar, signals[CLOSE], 0);
     return TRUE;
   }

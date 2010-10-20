@@ -1116,9 +1116,9 @@ static const struct {
   GdkModifierType modifier;
   const gchar *action;
 } extra_keybindings [] = {
-  { GDK_KP_Add,      GDK_CONTROL_MASK, "ViewZoomIn" },
-  { GDK_KP_Subtract, GDK_CONTROL_MASK, "ViewZoomOut" },
-  { GDK_KP_0,        GDK_CONTROL_MASK, "ViewZoom100" }
+  { GDK_KEY_KP_Add,      GDK_CONTROL_MASK, "ViewZoomIn" },
+  { GDK_KEY_KP_Subtract, GDK_CONTROL_MASK, "ViewZoomOut" },
+  { GDK_KEY_KP_0,        GDK_CONTROL_MASK, "ViewZoom100" }
 };
 
 static gboolean
@@ -1375,7 +1375,7 @@ logview_window_init (LogviewWindow *logview)
   /* version selector */
   priv->version_bar = gtk_hbox_new (FALSE, 0);
   gtk_container_set_border_width (GTK_CONTAINER (priv->version_bar), 3);
-  priv->version_selector = gtk_combo_box_new_text ();
+  priv->version_selector = gtk_combo_box_text_new ();
   g_signal_connect (priv->version_selector, "changed",
                     G_CALLBACK (logview_version_selector_changed), logview);
   w = gtk_label_new (_("Version: "));
