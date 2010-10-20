@@ -1,4 +1,81 @@
 ====================================================================
+GNOME Utilities 2.91.0 (20th October 2010) - "Amongst the Waves"
+
+First unstable release of the 2.91 release cycle.
+
+Changwoo Ryu (1):
+      Updated Korean translation
+
+Cosimo Cecchi (3):
+      build: disable the gdict applet by default
+      build: remove GTK2 dependency completely
+      baobab: fix some leftovers from the GSettings transition
+
+Dennis Cranston (6):
+      gsearchtool: Fix bug 615787, searching for backslashes in text files.
+      gsearchtool: Update ChangeLog
+      gsearchtool: Fix bug 619499, open folder menu item can be misleading.
+      gsearchtool: Fix bug 619499, open folder menu item can be misleading.
+      [gsearchtool] Fix bug #454650
+      [gsearchtool] Migrate to GTK3
+
+Emmanuele Bassi (2):
+      Post-branch version bump to 2.91.0
+      build: Remove shave
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Javier Jardón (3):
+      Update autotools config abit
+      screenshot: Use accessor functions instead direct access
+      screenshot: Port to "draw" vfunc
+
+Jorge González (4):
+      Updated Spanish translation
+      Updated Spanish translation
+      Updated Spanish translation
+      Updated Spanish translation
+
+Kjartan Maraas (2):
+      Updated Norwegian bokmål translation
+      Fix up POTFILES.in
+
+Matej Urbančič (3):
+      Updated Slovenian translation
+      Updated Slovenian translation
+      Updated Slovenian translation
+
+Paolo Borelli (18):
+      Persist the currently selected chart type
+      Split gtk2 and gtk3 cflags and libs to allow porting each app
+      Update to gtk3 cellrenderer api
+      Get rid of GtkObject and clean up quit handling
+      Port chart to gtk3 drawing api
+      Remove deprecated gtk stuff
+      Remove another property removed in gtk3
+      Move defines in the appropriate C files
+      Rename the preference dialog ui file
+      Remove leftover typedef
+      Remove the subfolder tooltips preference
+      Port baobab to gsettings.
+      Use GtkComboBoxText. Patch by Matthias Clasen
+      Compile logview against Gtk3
+      Compile gnome-dictionary against Gtk3
+      Link gtk3 version of libcanberra
+      Misc gtk3 fixups
+      Port screenshot handling to gtk3
+
+Viktors Petrovs (1):
+      Fixed some memory leaks.
+
+Xandru Armesto (1):
+      Updated asturian translation
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+====================================================================
 GNOME Utilities 2.32.0 (27th September 2010) - "My Bad"
 
     • First stable release of the 2.32 cycle
