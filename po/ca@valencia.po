@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-21 23:15+0200\n"
+"POT-Creation-Date: 2010-10-29 01:29+0100\n"
 "PO-Revision-Date: 2010-04-02 18:21+0200\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -116,12 +117,12 @@ msgstr "_Redueix-ho tot"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1234 ../logview/logview-window.c:866
+#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "_Continguts"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1181 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
 msgid "_Edit"
 msgstr "_Edita"
 
@@ -131,7 +132,7 @@ msgstr "_Expandeix-ho tot"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1184 ../logview/logview-window.c:840
+#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
 msgid "_Help"
 msgstr "A_juda"
 
@@ -140,7 +141,7 @@ msgid "_Toolbar"
 msgstr "Barra d'_eines"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1182 ../logview/logview-window.c:838
+#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
 msgid "_View"
 msgstr "_Mostra"
 
@@ -187,89 +188,101 @@ msgstr ""
 msgid "Whether the toolbar should be visible in main window."
 msgstr "Si la barra d'eines s'ha de veure a la finestra principal."
 
-#: ../baobab/src/baobab.c:139 ../baobab/src/baobab.c:326
+#: ../baobab/src/baobab.c:134 ../baobab/src/baobab.c:353
 msgid "Scanning..."
 msgstr "S'està escanejant..."
 
+#: ../baobab/src/baobab.c:180
+msgid "Total filesystem capacity:"
+msgstr "Capacitat total del sistema de fitxers:"
+
+#: ../baobab/src/baobab.c:181
+msgid "used:"
+msgstr "utilitzat:"
+
+#: ../baobab/src/baobab.c:182
+msgid "available:"
+msgstr "disponible:"
+
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:209 ../baobab/src/baobab.c:268
-#: ../baobab/src/callbacks.c:264
+#: ../baobab/src/baobab.c:238 ../baobab/src/baobab.c:295
+#: ../baobab/src/callbacks.c:267
 msgid "Calculating percentage bars..."
 msgstr "S'estan calculant les barres de percentatge..."
 
-#: ../baobab/src/baobab.c:220 ../baobab/src/baobab.c:1169
-#: ../baobab/src/callbacks.c:268
+#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1289
+#: ../baobab/src/callbacks.c:271
 msgid "Ready"
 msgstr "A punt"
 
-#: ../baobab/src/baobab.c:362
+#: ../baobab/src/baobab.c:386
 msgid "Total filesystem capacity"
 msgstr "Capacitat total del sistema de fitxers"
 
-#: ../baobab/src/baobab.c:384
+#: ../baobab/src/baobab.c:408
 msgid "Total filesystem usage"
 msgstr "Utilització total del sistema de fitxers"
 
-#: ../baobab/src/baobab.c:425
+#: ../baobab/src/baobab.c:449
 msgid "contains hardlinks for:"
 msgstr "conté enllaços forts per a:"
 
-#: ../baobab/src/baobab.c:434
+#: ../baobab/src/baobab.c:458
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d element"
 msgstr[1] "%5d elements"
 
-#: ../baobab/src/baobab.c:785
+#: ../baobab/src/baobab.c:585
 msgid "Could not initialize monitoring"
 msgstr "No s'ha pogut inicialitzar el seguiment"
 
-#: ../baobab/src/baobab.c:786
+#: ../baobab/src/baobab.c:586
 msgid "Changes to your home folder will not be monitored."
 msgstr "No es farà un seguiment dels canvis al directori d'usuari."
 
-#: ../baobab/src/baobab.c:893
+#: ../baobab/src/baobab.c:965
 msgid "Move to parent folder"
 msgstr "Vés a la carpeta pare"
 
-#: ../baobab/src/baobab.c:897
+#: ../baobab/src/baobab.c:969
 msgid "Zoom in"
 msgstr "Amplia"
 
-#: ../baobab/src/baobab.c:901
+#: ../baobab/src/baobab.c:973
 msgid "Zoom out"
 msgstr "Redueix"
 
-#: ../baobab/src/baobab.c:905
+#: ../baobab/src/baobab.c:977
 msgid "Save screenshot"
 msgstr "Alça la captura de pantalla"
 
-#: ../baobab/src/baobab.c:991
+#: ../baobab/src/baobab.c:1114
 msgid "View as Rings Chart"
 msgstr "Visualitza en un diagrama d'anells"
 
-#: ../baobab/src/baobab.c:993
+#: ../baobab/src/baobab.c:1116
 msgid "View as Treemap Chart"
 msgstr "Visualitza en un diagrama de mapa d'arbre"
 
-#: ../baobab/src/baobab.c:1092
+#: ../baobab/src/baobab.c:1214
 msgid "Show version"
 msgstr "Mostra la versió"
 
-#: ../baobab/src/baobab.c:1093
+#: ../baobab/src/baobab.c:1215
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORI]"
 
-#: ../baobab/src/baobab.c:1123
+#: ../baobab/src/baobab.c:1245
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Hi ha masses paràmetres. Només es pot especificar un directori."
 
-#: ../baobab/src/baobab.c:1141
+#: ../baobab/src/baobab.c:1262
 msgid "Could not detect any mount point."
 msgstr "No s'ha pogut detectar cap punt de muntatge."
 
-#: ../baobab/src/baobab.c:1144
+#: ../baobab/src/baobab.c:1264
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr ""
 "No es pot analitzar la utilització del disc sense els punts de muntatge."
@@ -298,40 +311,40 @@ msgstr "Node arrel del diagrama"
 msgid "Set the root node from the model"
 msgstr "Estableix el node arrel del diagrama d'anells"
 
-#: ../baobab/src/baobab-chart.c:1695
+#: ../baobab/src/baobab-chart.c:1704
 msgid "Cannot create pixbuf image!"
 msgstr "No s'ha pogut crear la imatge pixbuf."
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1705
+#: ../baobab/src/baobab-chart.c:1714
 msgid "Save Snapshot"
 msgstr "Alça la captura"
 
-#: ../baobab/src/baobab-chart.c:1734
+#: ../baobab/src/baobab-chart.c:1743
 msgid "_Image type:"
 msgstr "Tipus d'_imatge:"
 
-#: ../baobab/src/baobab-prefs.c:181
+#: ../baobab/src/baobab-prefs.c:184
 msgid "Scan"
 msgstr "Escaneja"
 
-#: ../baobab/src/baobab-prefs.c:188
+#: ../baobab/src/baobab-prefs.c:191
 msgid "Device"
 msgstr "Dispositiu"
 
-#: ../baobab/src/baobab-prefs.c:196
+#: ../baobab/src/baobab-prefs.c:199
 msgid "Mount Point"
 msgstr "Punt de muntatge"
 
-#: ../baobab/src/baobab-prefs.c:204
+#: ../baobab/src/baobab-prefs.c:207
 msgid "Filesystem Type"
 msgstr "Tipus de sistema de fitxers"
 
-#: ../baobab/src/baobab-prefs.c:212
+#: ../baobab/src/baobab-prefs.c:215
 msgid "Total Size"
 msgstr "Mida total"
 
-#: ../baobab/src/baobab-prefs.c:221
+#: ../baobab/src/baobab-prefs.c:224
 msgid "Available"
 msgstr "Disponible"
 
@@ -377,56 +390,56 @@ msgstr ""
 msgid "Please enter a name and try again."
 msgstr "Introduïu un nom i torneu-ho a provar."
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:443
+#: ../baobab/src/baobab-remote-connect-dialog.c:441
 msgid "_Location (URI):"
 msgstr "_Ubicació (URI):"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:465
+#: ../baobab/src/baobab-remote-connect-dialog.c:463
 msgid "_Server:"
 msgstr "_Servidor:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:484
+#: ../baobab/src/baobab-remote-connect-dialog.c:482
 msgid "Optional information:"
 msgstr "Informació opcional:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:496
+#: ../baobab/src/baobab-remote-connect-dialog.c:494
 msgid "_Share:"
 msgstr "_Compartit:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:517
+#: ../baobab/src/baobab-remote-connect-dialog.c:515
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "_Port:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:537
+#: ../baobab/src/baobab-remote-connect-dialog.c:535
 msgid "_Folder:"
 msgstr "C_arpeta:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:557
+#: ../baobab/src/baobab-remote-connect-dialog.c:555
 msgid "_User Name:"
 msgstr "_Nom d'usuari:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:578
+#: ../baobab/src/baobab-remote-connect-dialog.c:576
 msgid "_Domain Name:"
 msgstr "Nom del _domini:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:645
+#: ../baobab/src/baobab-remote-connect-dialog.c:643
 msgid "Connect to Server"
 msgstr "Connecta al servidor"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:662
+#: ../baobab/src/baobab-remote-connect-dialog.c:660
 msgid "Service _type:"
 msgstr "_Tipus de servei:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:781
+#: ../baobab/src/baobab-remote-connect-dialog.c:779
 msgid "_Scan"
 msgstr "_Escaneja"
 
-#: ../baobab/src/baobab-treeview.c:86
+#: ../baobab/src/baobab-treeview.c:82
 msgid "Rescan your home folder?"
 msgstr "Voleu tornar a escanejar el directori d'usuari?"
 
-#: ../baobab/src/baobab-treeview.c:87
+#: ../baobab/src/baobab-treeview.c:83
 msgid ""
 "The content of your home folder has changed. Select rescan to update the "
 "disk usage details."
@@ -434,7 +447,7 @@ msgstr ""
 "El contingut del vostre directori d'usuari ha canviat. Seleccioneu tornar a "
 "escanejar per actualitzar els detalls d'ús."
 
-#: ../baobab/src/baobab-treeview.c:88
+#: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
 msgstr "_Torna a escanejar"
 
@@ -454,73 +467,61 @@ msgstr "Mida"
 msgid "Contents"
 msgstr "Continguts"
 
-#: ../baobab/src/baobab-utils.c:110
+#: ../baobab/src/baobab-utils.c:106
 msgid "Select Folder"
 msgstr "Seleccioneu una carpeta"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:122
+#: ../baobab/src/baobab-utils.c:118
 msgid "_Show hidden folders"
 msgstr "_Mostra les carpetes ocultes"
 
-#: ../baobab/src/baobab-utils.c:301
+#: ../baobab/src/baobab-utils.c:297
 msgid "Cannot check an excluded folder!"
 msgstr "No es pot comprovar una carpeta exclosa."
 
-#: ../baobab/src/baobab-utils.c:325
+#: ../baobab/src/baobab-utils.c:321
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "«%s» no és una carpeta vàlida"
 
-#: ../baobab/src/baobab-utils.c:328
+#: ../baobab/src/baobab-utils.c:324
 msgid "Could not analyze disk usage."
 msgstr "No s'ha pogut analitzar l'ús del disc."
 
-#: ../baobab/src/baobab-utils.c:369
+#: ../baobab/src/baobab-utils.c:364
 msgid "_Open Folder"
 msgstr "O_bre la carpeta"
 
-#: ../baobab/src/baobab-utils.c:375
+#: ../baobab/src/baobab-utils.c:370
 #: ../gsearchtool/gsearchtool-callbacks.c:1203
 msgid "Mo_ve to Trash"
 msgstr "Mo_u a la paperera"
 
-#: ../baobab/src/baobab-utils.c:401
-msgid "Total filesystem capacity:"
-msgstr "Capacitat total del sistema de fitxers:"
-
-#: ../baobab/src/baobab-utils.c:402
-msgid "used:"
-msgstr "utilitzat:"
-
-#: ../baobab/src/baobab-utils.c:403
-msgid "available:"
-msgstr "disponible:"
-
-#: ../baobab/src/baobab-utils.c:447
+#: ../baobab/src/baobab-utils.c:404
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "No s'ha pogut obrir la carpeta «%s»"
 
-#: ../baobab/src/baobab-utils.c:450
+#: ../baobab/src/baobab-utils.c:407
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "No hi ha cap visualitzador instal·lat capaç de mostrar la carpeta."
 
-#: ../baobab/src/baobab-utils.c:519
+#: ../baobab/src/baobab-utils.c:476
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "No s'ha pogut moure «%s» a la paperera"
 
-#: ../baobab/src/baobab-utils.c:527
+#: ../baobab/src/baobab-utils.c:484
 msgid "Could not move file to the Trash"
 msgstr "No s'ha pogut moure el fitxer a la paperera"
 
-#: ../baobab/src/baobab-utils.c:529
+#: ../baobab/src/baobab-utils.c:486
 #, c-format
 msgid "Details: %s"
 msgstr "Detalls: %s"
 
-#: ../baobab/src/baobab-utils.c:576
+#: ../baobab/src/baobab-utils.c:533
 msgid "There was an error displaying help."
 msgstr "S'ha produït un error en mostrar l'ajuda."
 
@@ -559,16 +560,16 @@ msgstr ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  "
 "USA"
 
-#: ../baobab/src/callbacks.c:101
+#: ../baobab/src/callbacks.c:103
 msgid "Baobab"
 msgstr "Baobab"
 
-#: ../baobab/src/callbacks.c:102
+#: ../baobab/src/callbacks.c:104
 msgid "A graphical tool to analyze disk usage."
 msgstr "Una eina gràfica per analitzar la utilització dels discs."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:112 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -578,12 +579,12 @@ msgstr ""
 "Gil Forcada <gilforcada@guifi.net>\n"
 "Joan Duran <jodufi@gmail.com>"
 
-#: ../baobab/src/callbacks.c:207 ../gsearchtool/gsearchtool-callbacks.c:504
+#: ../baobab/src/callbacks.c:210 ../gsearchtool/gsearchtool-callbacks.c:504
 #: ../gsearchtool/gsearchtool-callbacks.c:843
 msgid "The document does not exist."
 msgstr "El document no existeix."
 
-#: ../baobab/src/callbacks.c:318
+#: ../baobab/src/callbacks.c:321
 msgid "The folder does not exist."
 msgstr "El directori no existeix."
 
@@ -604,7 +605,7 @@ msgid "Cl_ear"
 msgstr "_Neteja"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1236 ../logview/logview-window.c:868
+#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
 msgid "_About"
 msgstr "_Quant a"
 
@@ -613,7 +614,7 @@ msgid "_Look Up Selected Text"
 msgstr "Consu_lta el text seleccionat"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1205
 msgid "_Preferences"
 msgstr "_Preferències"
 
@@ -623,7 +624,7 @@ msgstr "Im_primeix"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
 msgid "_Save"
-msgstr "Al_ça"
+msgstr "De_sa"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -633,8 +634,8 @@ msgstr ""
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
 #: ../gnome-dictionary/src/gdict-about.c:78
 #: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:608
-#: ../gnome-dictionary/src/gdict-window.c:1953
+#: ../gnome-dictionary/src/gdict-window.c:605
+#: ../gnome-dictionary/src/gdict-window.c:1947
 msgid "Dictionary"
 msgstr "Diccionari"
 
@@ -1042,7 +1043,7 @@ msgstr "S'ha produït un error en la coincidència"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
-#: ../logview/logview-window.c:513
+#: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "No s'ha trobat"
 
@@ -1335,55 +1336,55 @@ msgstr "estrat"
 msgid " - Look up words in dictionaries"
 msgstr " - Cerca paraules a diccionaris"
 
-#: ../gnome-dictionary/src/gdict-applet.c:205
-#: ../gnome-dictionary/src/gdict-window.c:837
+#: ../gnome-dictionary/src/gdict-applet.c:206
+#: ../gnome-dictionary/src/gdict-window.c:834
 msgid "Save a Copy"
 msgstr "Alça una còpia"
 
-#: ../gnome-dictionary/src/gdict-applet.c:215
-#: ../gnome-dictionary/src/gdict-window.c:847
+#: ../gnome-dictionary/src/gdict-applet.c:216
+#: ../gnome-dictionary/src/gdict-window.c:844
 msgid "Untitled document"
 msgstr "Document sense títol"
 
-#: ../gnome-dictionary/src/gdict-applet.c:236
-#: ../gnome-dictionary/src/gdict-window.c:868
+#: ../gnome-dictionary/src/gdict-applet.c:237
+#: ../gnome-dictionary/src/gdict-window.c:865
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "S'ha produït un error en escriure a «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:361
+#: ../gnome-dictionary/src/gdict-applet.c:362
 msgid "Clear the definitions found"
 msgstr "Neteja les definicions trobades"
 
-#: ../gnome-dictionary/src/gdict-applet.c:363
+#: ../gnome-dictionary/src/gdict-applet.c:364
 msgid "Clear definition"
 msgstr "Neteja la definició"
 
-#: ../gnome-dictionary/src/gdict-applet.c:364
+#: ../gnome-dictionary/src/gdict-applet.c:365
 msgid "Clear the text of the definition"
 msgstr "Neteja el text de la definició"
 
-#: ../gnome-dictionary/src/gdict-applet.c:371
+#: ../gnome-dictionary/src/gdict-applet.c:372
 msgid "Print the definitions found"
 msgstr "Imprimeix les definicions trobades"
 
-#: ../gnome-dictionary/src/gdict-applet.c:373
+#: ../gnome-dictionary/src/gdict-applet.c:374
 msgid "Print definition"
 msgstr "Imprimeix la definició"
 
-#: ../gnome-dictionary/src/gdict-applet.c:374
+#: ../gnome-dictionary/src/gdict-applet.c:375
 msgid "Print the text of the definition"
 msgstr "Imprimeix el text de la definició"
 
-#: ../gnome-dictionary/src/gdict-applet.c:381
+#: ../gnome-dictionary/src/gdict-applet.c:382
 msgid "Save the definitions found"
 msgstr "Alça les definicions trobades"
 
-#: ../gnome-dictionary/src/gdict-applet.c:383
+#: ../gnome-dictionary/src/gdict-applet.c:384
 msgid "Save definition"
 msgstr "Alça la definició"
 
-#: ../gnome-dictionary/src/gdict-applet.c:384
+#: ../gnome-dictionary/src/gdict-applet.c:385
 msgid "Save the text of the definition to a file"
 msgstr "Alça el text de la definició en un fitxer"
 
@@ -1407,64 +1408,64 @@ msgstr "Teclegeu la paraula que vulgueu cercar"
 msgid "Dictionary entry"
 msgstr "Entrada del diccionari"
 
-#: ../gnome-dictionary/src/gdict-applet.c:724
-#: ../gnome-dictionary/src/gdict-window.c:1001
+#: ../gnome-dictionary/src/gdict-applet.c:716
+#: ../gnome-dictionary/src/gdict-window.c:998
 msgid "Dictionary Preferences"
 msgstr "Preferències del diccionari"
 
-#: ../gnome-dictionary/src/gdict-applet.c:750
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:504
-#: ../gnome-dictionary/src/gdict-source-dialog.c:494
-#: ../gnome-dictionary/src/gdict-window.c:1145
+#: ../gnome-dictionary/src/gdict-applet.c:742
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1140
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "S'ha produït un error en mostrar l'ajuda"
 
-#: ../gnome-dictionary/src/gdict-applet.c:902
-#: ../gnome-dictionary/src/gdict-window.c:517
+#: ../gnome-dictionary/src/gdict-applet.c:896
+#: ../gnome-dictionary/src/gdict-window.c:514
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "No hi ha cap diccionari font amb el nom «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:906
-#: ../gnome-dictionary/src/gdict-window.c:521
+#: ../gnome-dictionary/src/gdict-applet.c:900
+#: ../gnome-dictionary/src/gdict-window.c:518
 msgid "Unable to find dictionary source"
 msgstr "No s'ha pogut trobar el diccionari font"
 
-#: ../gnome-dictionary/src/gdict-applet.c:922
-#: ../gnome-dictionary/src/gdict-window.c:537
+#: ../gnome-dictionary/src/gdict-applet.c:916
+#: ../gnome-dictionary/src/gdict-window.c:534
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "No hi ha cap context disponible per a la font «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:926
-#: ../gnome-dictionary/src/gdict-window.c:541
+#: ../gnome-dictionary/src/gdict-applet.c:920
+#: ../gnome-dictionary/src/gdict-window.c:538
 msgid "Unable to create a context"
 msgstr "No s'ha pogut crear el context"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1191
-#: ../gnome-dictionary/src/gdict-window.c:2084
+#: ../gnome-dictionary/src/gdict-applet.c:1172
+#: ../gnome-dictionary/src/gdict-window.c:2078
 msgid "Unable to connect to GConf"
 msgstr "No s'ha pogut connectar al GConf"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1204
-#: ../gnome-dictionary/src/gdict-window.c:2097
+#: ../gnome-dictionary/src/gdict-applet.c:1185
+#: ../gnome-dictionary/src/gdict-window.c:2091
 msgid "Unable to get notification for preferences"
 msgstr "No s'ha pogut obtindre la notificació per a les preferències"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1218
-#: ../gnome-dictionary/src/gdict-window.c:2110
+#: ../gnome-dictionary/src/gdict-applet.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:2104
 msgid "Unable to get notification for the document font"
 msgstr ""
 "No s'ha pogut obtindre la notificació per al tipus de lletra del document"
 
-#: ../gnome-dictionary/src/gdict-common.c:79
+#: ../gnome-dictionary/src/gdict-common.c:80
 #, c-format
 msgid "Unable to rename file '%s' to '%s': %s"
 msgstr "No s'ha pogut canviar el nom del fitxer «%s» a «%s»: %s"
 
-#: ../gnome-dictionary/src/gdict-common.c:103
-#: ../gnome-dictionary/src/gdict-common.c:126
+#: ../gnome-dictionary/src/gdict-common.c:104
+#: ../gnome-dictionary/src/gdict-common.c:127
 #, c-format
 msgid "Unable to create the data directory '%s': %s"
 msgstr "No s'ha pogut crear el directori de dades «%s»: %s"
@@ -1477,29 +1478,29 @@ msgstr "Edita la font del diccionari"
 msgid "Add Dictionary Source"
 msgstr "Afig un diccionari font"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:354
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Voleu suprimir «%s»?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Això suprimirà per sempre el diccionari font de la llista."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:386
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "No s'ha pogut suprimir la font «%s»"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:666
 msgid "Add a new dictionary source"
 msgstr "Afig un diccionari font"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:672
 msgid "Remove the currently selected dictionary source"
 msgstr "Suprimeix el diccionari font seleccionat"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:685
 msgid "Set the font used for printing the definitions"
 msgstr "Estableix el tipus de lletra utilitzat en imprimir les definicions"
 
@@ -1509,207 +1510,207 @@ msgstr "Estableix el tipus de lletra utilitzat en imprimir les definicions"
 msgid "Unable to display the preview: %s"
 msgstr "No s'ha pogut mostrar la previsualització: %s"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:356
-#: ../gnome-dictionary/src/gdict-source-dialog.c:449
+#: ../gnome-dictionary/src/gdict-source-dialog.c:341
+#: ../gnome-dictionary/src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "No s'ha pogut crear un fitxer font"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:374
-#: ../gnome-dictionary/src/gdict-source-dialog.c:467
+#: ../gnome-dictionary/src/gdict-source-dialog.c:359
+#: ../gnome-dictionary/src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "No s'ha pogut alçar un fitxer font"
 
-#: ../gnome-dictionary/src/gdict-window.c:316
+#: ../gnome-dictionary/src/gdict-window.c:315
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "S'està cercant «%s»..."
 
-#: ../gnome-dictionary/src/gdict-window.c:348
-#: ../gnome-dictionary/src/gdict-window.c:407
+#: ../gnome-dictionary/src/gdict-window.c:347
+#: ../gnome-dictionary/src/gdict-window.c:404
 msgid "No definitions found"
 msgstr "No s'ha trobat cap definició"
 
-#: ../gnome-dictionary/src/gdict-window.c:350
+#: ../gnome-dictionary/src/gdict-window.c:349
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "S'ha trobat una definició"
 msgstr[1] "S'han trobat %d definicions"
 
-#: ../gnome-dictionary/src/gdict-window.c:606
+#: ../gnome-dictionary/src/gdict-window.c:603
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Diccionari"
 
-#: ../gnome-dictionary/src/gdict-window.c:1180 ../logview/logview-window.c:836
+#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
 msgid "_File"
 msgstr "_Filtre"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1178
 msgid "_Go"
 msgstr "_Vés"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1182
 msgid "_New"
 msgstr "_Nou"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1183
 msgid "New look up"
 msgstr "Nova cerca"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1184
 msgid "_Save a Copy..."
 msgstr "Al_ça una còpia..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:1186
 msgid "P_review..."
 msgstr "P_revisualització..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1192
+#: ../gnome-dictionary/src/gdict-window.c:1187
 msgid "Preview this document"
 msgstr "Previsualitza este document"
 
-#: ../gnome-dictionary/src/gdict-window.c:1193
+#: ../gnome-dictionary/src/gdict-window.c:1188
 msgid "_Print..."
 msgstr "Im_primeix..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1194
+#: ../gnome-dictionary/src/gdict-window.c:1189
 msgid "Print this document"
 msgstr "Imprimeix este document"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201 ../logview/logview-window.c:851
+#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
 msgid "Select _All"
 msgstr "_Selecciona-ho tot"
 
-#: ../gnome-dictionary/src/gdict-window.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:1199
 msgid "Find a word or phrase in the document"
 msgstr "Cerca una paraula o frase al document"
 
-#: ../gnome-dictionary/src/gdict-window.c:1206
+#: ../gnome-dictionary/src/gdict-window.c:1201
 msgid "Find Ne_xt"
 msgstr "Cerca la se_güent"
 
-#: ../gnome-dictionary/src/gdict-window.c:1208
+#: ../gnome-dictionary/src/gdict-window.c:1203
 msgid "Find Pre_vious"
 msgstr "Cerca l'an_terior"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1209
 msgid "_Previous Definition"
 msgstr "Definició _anterior"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1210
 msgid "Go to the previous definition"
 msgstr "Vés a la definició anterior"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1211
 msgid "_Next Definition"
 msgstr "Definició _següent"
 
-#: ../gnome-dictionary/src/gdict-window.c:1217
+#: ../gnome-dictionary/src/gdict-window.c:1212
 msgid "Go to the next definition"
 msgstr "Vés a la definició següent"
 
-#: ../gnome-dictionary/src/gdict-window.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:1213
 msgid "_First Definition"
 msgstr "_Primera definició"
 
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1214
 msgid "Go to the first definition"
 msgstr "Vés a la primera definició"
 
-#: ../gnome-dictionary/src/gdict-window.c:1220
+#: ../gnome-dictionary/src/gdict-window.c:1215
 msgid "_Last Definition"
 msgstr "Ú_ltima definició"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1216
 msgid "Go to the last definition"
 msgstr "Vés a l'última definició"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1224
+#: ../gnome-dictionary/src/gdict-window.c:1219
 msgid "Similar _Words"
 msgstr "_Paraules semblants"
 
-#: ../gnome-dictionary/src/gdict-window.c:1226
+#: ../gnome-dictionary/src/gdict-window.c:1221
 msgid "Dictionary Sources"
 msgstr "Fonts de diccionari"
 
-#: ../gnome-dictionary/src/gdict-window.c:1228
+#: ../gnome-dictionary/src/gdict-window.c:1223
 msgid "Available _Databases"
 msgstr "Bases de _dades disponibles"
 
-#: ../gnome-dictionary/src/gdict-window.c:1230
+#: ../gnome-dictionary/src/gdict-window.c:1225
 msgid "Available St_rategies"
 msgstr "Est_ratègies disponibles"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1247
+#: ../gnome-dictionary/src/gdict-window.c:1242
 msgid "_Sidebar"
 msgstr "Barra _lateral"
 
-#: ../gnome-dictionary/src/gdict-window.c:1249
+#: ../gnome-dictionary/src/gdict-window.c:1244
 msgid "S_tatusbar"
 msgstr "Barra d'_estat"
 
-#: ../gnome-dictionary/src/gdict-window.c:1370
+#: ../gnome-dictionary/src/gdict-window.c:1365
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "S'ha seleccionat la font de diccionari «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1391
+#: ../gnome-dictionary/src/gdict-window.c:1386
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "S'ha seleccionat l'estratègia «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1411
+#: ../gnome-dictionary/src/gdict-window.c:1406
 #, c-format
 msgid "Database `%s' selected"
 msgstr "S'ha seleccionat la base de dades «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1431
+#: ../gnome-dictionary/src/gdict-window.c:1426
 #, c-format
 msgid "Word `%s' selected"
 msgstr "S'ha seleccionat la paraula «%s»"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1453
+#: ../gnome-dictionary/src/gdict-window.c:1448
 msgid "Double-click on the word to look up"
 msgstr "Feu un doble clic a la paraula per cercar-la"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1454
 msgid "Double-click on the matching strategy to use"
 msgstr "Feu un doble clic a l'estratègia de coincidència a emprar"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1464
+#: ../gnome-dictionary/src/gdict-window.c:1459
 msgid "Double-click on the source to use"
 msgstr "Feu un doble clic a la font a utilitzar"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1473
+#: ../gnome-dictionary/src/gdict-window.c:1468
 msgid "Double-click on the database to use"
 msgstr "Feu doble clic a la base de dades que vulgueu emprar"
 
-#: ../gnome-dictionary/src/gdict-window.c:1761
+#: ../gnome-dictionary/src/gdict-window.c:1755
 msgid "Look _up:"
 msgstr "_Cerca:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1835
+#: ../gnome-dictionary/src/gdict-window.c:1829
 msgid "Similar words"
 msgstr "Paraules semblants"
 
-#: ../gnome-dictionary/src/gdict-window.c:1848
+#: ../gnome-dictionary/src/gdict-window.c:1842
 msgid "Available dictionaries"
 msgstr "Diccionaris disponibles"
 
-#: ../gnome-dictionary/src/gdict-window.c:1861
+#: ../gnome-dictionary/src/gdict-window.c:1855
 msgid "Available strategies"
 msgstr "Estratègies disponibles"
 
-#: ../gnome-dictionary/src/gdict-window.c:1872
+#: ../gnome-dictionary/src/gdict-window.c:1866
 msgid "Dictionary sources"
 msgstr "Fonts de diccionaris"
 
@@ -1766,11 +1767,11 @@ msgstr "Captura _al cap de"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "seconds"
 msgstr "segons"
 
-#: ../gnome-screenshot/gnome-screenshot.c:514
+#: ../gnome-screenshot/gnome-screenshot.c:516
 #: ../gnome-screenshot/gnome-screenshot.c:524
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
@@ -1788,7 +1789,7 @@ msgstr "Fes una _captura de pantalla"
 msgid "Error while saving screenshot"
 msgstr "S'ha produït un error en alçar la captura de pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:661
+#: ../gnome-screenshot/gnome-screenshot.c:660
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1799,16 +1800,16 @@ msgstr ""
 " L'error ha sigut %s.\n"
 " Trieu una altra ubicació o torneu-ho a intentar."
 
-#: ../gnome-screenshot/gnome-screenshot.c:793
+#: ../gnome-screenshot/gnome-screenshot.c:792
 msgid "Screenshot taken"
 msgstr "S'ha obtingut la captura de pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:847
+#: ../gnome-screenshot/gnome-screenshot.c:846
 msgid "Unable to take a screenshot of the current window"
 msgstr "No s'ha pogut fer la captura de la finestra actual"
 
 # Captura enlloc d'instantània per evitar problemes amb caràcters no ascii
-#: ../gnome-screenshot/gnome-screenshot.c:897
+#: ../gnome-screenshot/gnome-screenshot.c:896
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Captura-%s.png"
@@ -1816,15 +1817,15 @@ msgstr "Captura-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:904
+#: ../gnome-screenshot/gnome-screenshot.c:903
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Captura-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:914
-#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/gnome-screenshot.c:913
+#: ../gnome-screenshot/screenshot-dialog.c:353
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Captura.png"
@@ -1832,48 +1833,48 @@ msgstr "Captura.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:921
+#: ../gnome-screenshot/gnome-screenshot.c:920
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Captura-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1285
 msgid "Grab a window instead of the entire screen"
 msgstr "Captura una finestra en lloc de tota la pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1286
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Captura una àrea de la pantalla en lloc de tota la pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1287
 msgid "Include the window border with the screenshot"
 msgstr "Inclou la vora de la finestra en la captura"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "Remove the window border from the screenshot"
 msgstr "Suprimeix la vora de la finestra en la captura de pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Fes la captura al cap de l'estona indicada [en segons]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Efecte que s'afegirà a la vora (ombra, vora, o sense)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "effect"
 msgstr "efecte"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1293
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 msgid "Interactively set options"
 msgstr "Estableix opcions interactivament"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1304
+#: ../gnome-screenshot/gnome-screenshot.c:1302
 msgid "Take a picture of the screen"
 msgstr "Fa una fotografia de la pantalla"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1322
+#: ../gnome-screenshot/gnome-screenshot.c:1320
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1963,7 +1964,7 @@ msgstr "El número de segons a esperar abans de fer la captura de pantalla."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Captura de pantalla específica de finestres (desconsellat)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:239
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1972,7 +1973,7 @@ msgstr ""
 "captura de pantalles.\n"
 "Comproveu la instal·lació del gnome-utils"
 
-#: ../gnome-screenshot/screenshot-dialog.c:260
+#: ../gnome-screenshot/screenshot-dialog.c:257
 msgid "Select a folder"
 msgstr "Seleccioneu un directori"
 
@@ -1998,29 +1999,29 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "S'ha produït un error desconegut en alçar la captura al disc"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:828
+#: ../gnome-screenshot/screenshot-utils.c:888
 msgid "Untitled Window"
 msgstr "Finestra sense títol"
 
-#: ../gnome-screenshot/screenshot-xfer.c:74
+#: ../gnome-screenshot/screenshot-xfer.c:72
 msgid "File already exists"
 msgstr "El fitxer ja existeix"
 
-#: ../gnome-screenshot/screenshot-xfer.c:77
+#: ../gnome-screenshot/screenshot-xfer.c:75
 #, c-format
 msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "Ja existeix el fitxer «%s». Voleu reemplaçar-lo?"
 
-#: ../gnome-screenshot/screenshot-xfer.c:84
+#: ../gnome-screenshot/screenshot-xfer.c:82
 #: ../gsearchtool/gsearchtool-callbacks.c:1722
 msgid "_Replace"
 msgstr "_Reemplaça"
 
-#: ../gnome-screenshot/screenshot-xfer.c:122
+#: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
 msgstr "S'està desant el fitxer..."
 
-#: ../gnome-screenshot/screenshot-xfer.c:294
+#: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
 msgstr "No es pot accedir al fitxer font"
 
@@ -2190,8 +2191,8 @@ msgid ""
 msgstr ""
 "Esta clau defineix quins camins exclourà l'eina de cerca del segon pas de la "
 "cerca ràpida. El segon pas utilitza l'orde find per cercar fitxers. La idea "
-"del segon pas és cercar fitxers que no estan indexats. Els comodins «*» i «?» "
-"valen. El valor per defecte és /."
+"del segon pas és cercar fitxers que no estan indexats. Els comodins «*» i "
+"«?» valen. El valor per defecte és /."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
 msgid ""
@@ -2258,8 +2259,8 @@ msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Esta clau determina si l'opció de cerca «Segueix els enllaços simbòlics» està "
-"seleccionada en iniciar l'eina de cerca."
+"Esta clau determina si l'opció de cerca «Segueix els enllaços simbòlics» "
+"està seleccionada en iniciar l'eina de cerca."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
 msgid ""
@@ -2460,7 +2461,7 @@ msgstr "Obri la _carpeta"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1225
 msgid "_Save Results As..."
-msgstr "Al_ça els resultats com..."
+msgstr "De_sa els resultats com..."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1607
 msgid "Save Search Results As..."
@@ -2631,191 +2632,191 @@ msgstr " ("
 msgid " (%d"
 msgstr " (%d"
 
-#: ../gsearchtool/gsearchtool.c:81
+#: ../gsearchtool/gsearchtool.c:80
 msgid "Contains the _text"
 msgstr "Conté el _text"
 
-#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:82
 msgid "_Date modified less than"
 msgstr "La _data de modificació és anterior a"
 
-#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:82 ../gsearchtool/gsearchtool.c:83
 msgid "days"
 msgstr "dies"
 
-#: ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:83
 msgid "Date modified more than"
 msgstr "La data de modificació és posterior a"
 
-#: ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:85
 msgid "S_ize at least"
 msgstr "La _mida és almenys"
 
-#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:85 ../gsearchtool/gsearchtool.c:86
 msgid "kilobytes"
 msgstr "kilobytes"
 
-#: ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:86
 msgid "Si_ze at most"
 msgstr "La mida és com a mol_t"
 
-#: ../gsearchtool/gsearchtool.c:88
+#: ../gsearchtool/gsearchtool.c:87
 msgid "File is empty"
 msgstr "El fitxer està buit"
 
-#: ../gsearchtool/gsearchtool.c:90
+#: ../gsearchtool/gsearchtool.c:89
 msgid "Owned by _user"
 msgstr "Pr_opietari del fitxer"
 
-#: ../gsearchtool/gsearchtool.c:91
+#: ../gsearchtool/gsearchtool.c:90
 msgid "Owned by _group"
 msgstr "_Grup del fitxer"
 
-#: ../gsearchtool/gsearchtool.c:92
+#: ../gsearchtool/gsearchtool.c:91
 msgid "Owner is unrecognized"
 msgstr "No es reconeix el propietari"
 
-#: ../gsearchtool/gsearchtool.c:94
+#: ../gsearchtool/gsearchtool.c:93
 msgid "Na_me does not contain"
 msgstr "El no_m no conté"
 
-#: ../gsearchtool/gsearchtool.c:95
+#: ../gsearchtool/gsearchtool.c:94
 msgid "Name matches regular e_xpression"
 msgstr "El nom coincideix amb una e_xpressió regular"
 
-#: ../gsearchtool/gsearchtool.c:97
+#: ../gsearchtool/gsearchtool.c:96
 msgid "Show hidden and backup files"
 msgstr "Mostra els fitxers ocults i de còpia de seguretat"
 
-#: ../gsearchtool/gsearchtool.c:98
+#: ../gsearchtool/gsearchtool.c:97
 msgid "Follow symbolic links"
 msgstr "Segueix els enllaços simbòlics"
 
-#: ../gsearchtool/gsearchtool.c:99
+#: ../gsearchtool/gsearchtool.c:98
 msgid "Exclude other filesystems"
 msgstr "Exclou altres sistemes de fitxers"
 
-#: ../gsearchtool/gsearchtool.c:157
+#: ../gsearchtool/gsearchtool.c:156
 msgid "Show version of the application"
 msgstr "Mostra la versió de l'aplicació"
 
-#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
-#: ../gsearchtool/gsearchtool.c:172
+#: ../gsearchtool/gsearchtool.c:157 ../gsearchtool/gsearchtool.c:162
+#: ../gsearchtool/gsearchtool.c:171
 msgid "STRING"
 msgstr "CADENA"
 
-#: ../gsearchtool/gsearchtool.c:159
+#: ../gsearchtool/gsearchtool.c:158
 msgid "PATH"
 msgstr "CAMÍ"
 
-#: ../gsearchtool/gsearchtool.c:160
+#: ../gsearchtool/gsearchtool.c:159
 msgid "VALUE"
 msgstr "VALOR"
 
-#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+#: ../gsearchtool/gsearchtool.c:163 ../gsearchtool/gsearchtool.c:164
 msgid "DAYS"
 msgstr "DIES"
 
-#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+#: ../gsearchtool/gsearchtool.c:165 ../gsearchtool/gsearchtool.c:166
 msgid "KILOBYTES"
 msgstr "KILOBYTES"
 
-#: ../gsearchtool/gsearchtool.c:169
+#: ../gsearchtool/gsearchtool.c:168
 msgid "USER"
 msgstr "USUARI"
 
-#: ../gsearchtool/gsearchtool.c:170
+#: ../gsearchtool/gsearchtool.c:169
 msgid "GROUP"
 msgstr "GRUP"
 
-#: ../gsearchtool/gsearchtool.c:173
+#: ../gsearchtool/gsearchtool.c:172
 msgid "PATTERN"
 msgstr "PATRÓ"
 
-#: ../gsearchtool/gsearchtool.c:384
+#: ../gsearchtool/gsearchtool.c:383
 msgid "A locate database has probably not been created."
 msgstr "Possiblement no s'haja creat cap base de dades locate."
 
-#: ../gsearchtool/gsearchtool.c:486
+#: ../gsearchtool/gsearchtool.c:485
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "Ha fallat la conversió del conjunt de caràcters de «%s»"
 
-#: ../gsearchtool/gsearchtool.c:510
+#: ../gsearchtool/gsearchtool.c:509
 msgid "Searching..."
 msgstr "S'està cercant..."
 
-#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:509 ../gsearchtool/gsearchtool.c:1015
 #: ../gsearchtool/gsearchtool.c:2988
 msgid "Search for Files"
 msgstr "Cerca fitxers"
 
-#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:961 ../gsearchtool/gsearchtool.c:990
 msgid "No files found"
 msgstr "No s'ha trobat cap fitxer"
 
-#: ../gsearchtool/gsearchtool.c:984
+#: ../gsearchtool/gsearchtool.c:983
 msgid "(stopped)"
 msgstr "(parat)"
 
-#: ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:989
 msgid "No Files Found"
 msgstr "No s'ha trobat cap fitxer"
 
-#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:994
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "S'ha trobat %'d fitxer"
 msgstr[1] "S'han trobat %'d fitxers"
 
-#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
+#: ../gsearchtool/gsearchtool.c:998 ../gsearchtool/gsearchtool.c:1036
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "S'ha trobat %'d fitxer"
 msgstr[1] "S'han trobat %'d fitxers"
 
-#: ../gsearchtool/gsearchtool.c:1128
+#: ../gsearchtool/gsearchtool.c:1127
 msgid "Entry changed called for a non entry option!"
 msgstr "S'ha demanat un canvi per a una entrada sense opcions!"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1287
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Estableix el text de l'opció de cerca «El nom conté»"
 
-#: ../gsearchtool/gsearchtool.c:1289
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Estableix el text de l'opció de cerca «Cerca a la carpeta»"
 
-#: ../gsearchtool/gsearchtool.c:1290
+#: ../gsearchtool/gsearchtool.c:1289
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr "Ordena els fitxers per: nom, carpeta, mida, tipus o data"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1290
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Estableix l'orde del resultat a descendent, per defecte és ascendent"
 
-#: ../gsearchtool/gsearchtool.c:1292
+#: ../gsearchtool/gsearchtool.c:1291
 msgid "Automatically start a search"
 msgstr "Comença una cerca automàticament"
 
-#: ../gsearchtool/gsearchtool.c:1298
+#: ../gsearchtool/gsearchtool.c:1297
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Selecciona l'opció de cerca «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1301
+#: ../gsearchtool/gsearchtool.c:1300
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Selecciona i estableix l'opció de cerca «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1408
+#: ../gsearchtool/gsearchtool.c:1407
 msgid "Invalid option passed to sortby command line argument."
 msgstr ""
-"S'ha passat una opció no vàlida a l'argument de la línia d'ordes «sortby»."
+"S'ha passat una opció no vàlida a l'argument de la línia d'ordes «eixby»."
 
-#: ../gsearchtool/gsearchtool.c:1702
+#: ../gsearchtool/gsearchtool.c:1701
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2823,7 +2824,7 @@ msgstr ""
 "\n"
 "... Hi ha massa errors per mostrar ..."
 
-#: ../gsearchtool/gsearchtool.c:1716
+#: ../gsearchtool/gsearchtool.c:1715
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
@@ -2831,11 +2832,11 @@ msgstr ""
 "El resultat de la cerca pot ser invàlid. S'han produït errors en fer la "
 "cerca."
 
-#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
+#: ../gsearchtool/gsearchtool.c:1727 ../gsearchtool/gsearchtool.c:1771
 msgid "Show more _details"
 msgstr "Mostra més _detalls"
 
-#: ../gsearchtool/gsearchtool.c:1758
+#: ../gsearchtool/gsearchtool.c:1757
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -2843,71 +2844,71 @@ msgstr ""
 "Els resultats de les cerques poden estar desactualitzades o no ser vàlides.  "
 "Voleu inhabilitar la funcionalitat de cerca ràpida?"
 
-#: ../gsearchtool/gsearchtool.c:1783
+#: ../gsearchtool/gsearchtool.c:1782
 msgid "Disable _Quick Search"
 msgstr "Inhabilita la cerca _ràpida"
 
-#: ../gsearchtool/gsearchtool.c:1810
+#: ../gsearchtool/gsearchtool.c:1809
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "No es pot establir el grup per al procés fill %d: %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1835
+#: ../gsearchtool/gsearchtool.c:1834
 msgid "Error parsing the search command."
 msgstr "S'ha produït un error en analitzar l'orde de cerca."
 
-#: ../gsearchtool/gsearchtool.c:1868
+#: ../gsearchtool/gsearchtool.c:1867
 msgid "Error running the search command."
 msgstr "S'ha produït un error en executar l'orde de cerca."
 
-#: ../gsearchtool/gsearchtool.c:1988
+#: ../gsearchtool/gsearchtool.c:1987
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Introduïu un valor de text per a l'opció de cerca «%s»."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1993
+#: ../gsearchtool/gsearchtool.c:1992
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "«%s» a %s"
 
-#: ../gsearchtool/gsearchtool.c:1995
+#: ../gsearchtool/gsearchtool.c:1994
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Introduïu el valor de %s per a l'opció de cerca «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2053
+#: ../gsearchtool/gsearchtool.c:2052
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Suprimeix «%s»"
 
-#: ../gsearchtool/gsearchtool.c:2054
+#: ../gsearchtool/gsearchtool.c:2053
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Feu clic per suprimir l'opció de cerca «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2147
+#: ../gsearchtool/gsearchtool.c:2146
 msgid "A_vailable options:"
 msgstr "Opcions _disponibles:"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2175
 msgid "Available options"
 msgstr "Opcions disponibles"
 
-#: ../gsearchtool/gsearchtool.c:2177
+#: ../gsearchtool/gsearchtool.c:2176
 msgid "Select a search option from the drop-down list."
 msgstr "Seleccioneu una opció de cerca de la llista desplegable."
 
-#: ../gsearchtool/gsearchtool.c:2189
+#: ../gsearchtool/gsearchtool.c:2188
 msgid "Add search option"
 msgstr "Afig una opció de cerca"
 
-#: ../gsearchtool/gsearchtool.c:2190
+#: ../gsearchtool/gsearchtool.c:2189
 msgid "Click to add the selected available search option."
 msgstr "Feu clic per afegir l'opció de cerca disponible seleccionada."
 
-#: ../gsearchtool/gsearchtool.c:2279
+#: ../gsearchtool/gsearchtool.c:2278
 msgid "S_earch results:"
 msgstr "Resultats de la c_erca:"
 
@@ -3144,7 +3145,7 @@ msgstr "Realça"
 msgid "_Regular Expression:"
 msgstr "Expressió _regular:"
 
-#: ../logview/logview-app.c:375
+#: ../logview/logview-app.c:374
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "No s'ha pogut obrir el fitxer %s"
@@ -3170,15 +3171,15 @@ msgstr "L'expressió regular no és vàlida: %s"
 msgid "Please specify either foreground or background color!"
 msgstr "Especifiqueu el color de primer pla o de segon pla"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Edit filter"
 msgstr "Edita el filtre"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Add new filter"
 msgstr "Afig un filtre nou"
 
-#: ../logview/logview-filter-manager.c:503
+#: ../logview/logview-filter-manager.c:502
 msgid "Filters"
 msgstr "Filtres"
 
@@ -3230,23 +3231,23 @@ msgstr ""
 msgid "Loading..."
 msgstr "S'està carregant..."
 
-#: ../logview/logview-main.c:62
+#: ../logview/logview-main.c:61
 msgid "Show the application's version"
 msgstr "Mostra la versió de l'aplicació"
 
-#: ../logview/logview-main.c:64
+#: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
 msgstr "[FITXER DE REGISTRE...]"
 
-#: ../logview/logview-main.c:68
+#: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
 msgstr " - Navega i fes un seguiment dels registres"
 
-#: ../logview/logview-main.c:103
+#: ../logview/logview-main.c:102
 msgid "Log Viewer"
 msgstr "Visualitzador de registres del sistema"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:788
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
 msgid "System Log Viewer"
 msgstr "Visualitzador de registres del sistema"
 
@@ -3260,135 +3261,135 @@ msgstr "darrera actualització: %s"
 msgid "%d lines (%s) - %s"
 msgstr "%d línies (%s) - %s"
 
-#: ../logview/logview-window.c:343
+#: ../logview/logview-window.c:317
 msgid "Open Log"
 msgstr "Obri un fitxer de registre"
 
-#: ../logview/logview-window.c:382
+#: ../logview/logview-window.c:356
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "S'ha produït un error en mostrar l'ajuda: %s"
 
-#: ../logview/logview-window.c:498
+#: ../logview/logview-window.c:470
 msgid "Wrapped"
 msgstr "Ajustat"
 
-#: ../logview/logview-window.c:793
+#: ../logview/logview-window.c:764
 msgid "A system log viewer for GNOME."
 msgstr "Un visualitzador de registres del sistema per al GNOME."
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:810
 msgid "_Filters"
 msgstr "_Filtres"
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "_Open..."
 msgstr "_Obri..."
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:813
 msgid "Open a log from file"
 msgstr "Obri un registre des d'un fitxer"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "_Close"
 msgstr "Tan_ca"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:815
 msgid "Close this log"
 msgstr "Tanca este registre"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "_Quit"
 msgstr "I_x"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:817
 msgid "Quit the log viewer"
 msgstr "Ix del visualitzador de registres"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "_Copy"
 msgstr "_Copia"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:820
 msgid "Copy the selection"
 msgstr "Copia la selecció"
 
-#: ../logview/logview-window.c:851
+#: ../logview/logview-window.c:822
 msgid "Select the entire log"
 msgstr "Selecciona tot el registre"
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "_Find..."
 msgstr "_Cerca..."
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:824
 msgid "Find a word or phrase in the log"
 msgstr "Cerca una paraula o frase al registre"
 
-#: ../logview/logview-window.c:856
+#: ../logview/logview-window.c:827
 msgid "Bigger text size"
 msgstr "Mida del text més gran"
 
-#: ../logview/logview-window.c:858
+#: ../logview/logview-window.c:829
 msgid "Smaller text size"
 msgstr "Mida del text més petita"
 
-#: ../logview/logview-window.c:860
+#: ../logview/logview-window.c:831
 msgid "Normal text size"
 msgstr "Mida del text normal"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage Filters"
 msgstr "Gestiona els filtres"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:834
 msgid "Manage filters"
 msgstr "Gestiona els filtres"
 
-#: ../logview/logview-window.c:866
+#: ../logview/logview-window.c:837
 msgid "Open the help contents for the log viewer"
 msgstr "Obri els continguts de l'ajuda per al visualitzador de registres"
 
-#: ../logview/logview-window.c:868
+#: ../logview/logview-window.c:839
 msgid "Show the about dialog for the log viewer"
 msgstr ""
 "Mostra el quadre de diàleg de «Quant a» per al visualitzador de registres"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "_Statusbar"
 msgstr "_Barra d'estat"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:844
 msgid "Show Status Bar"
 msgstr "Mostra la barra d'estat"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Side _Pane"
 msgstr "_Subfinestra lateral"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:846
 msgid "Show Side Pane"
 msgstr "Mostra la subfinestra lateral"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Show matches only"
 msgstr "Mostra només les coincidències"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:848
 msgid "Only show lines that match one of the given filters"
 msgstr ""
 "Mostra només les línies que coincideixen amb un dels filtres proporcionats"
 
-#: ../logview/logview-window.c:1014
+#: ../logview/logview-window.c:962
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "No es pot llegir de «%s»"
 
-#: ../logview/logview-window.c:1436
+#: ../logview/logview-window.c:1381
 msgid "Version: "
 msgstr "Versió: "
 
-#: ../logview/logview-window.c:1543
+#: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "No s'han pogut obrir els fitxers següents:"
 
@@ -3719,8 +3720,8 @@ msgstr "No s'han pogut obrir els fitxers següents:"
 #~ "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
 #~ "been found and marked."
 #~ msgstr[0] ""
-#~ "S'ha formatat el disquet, però s'ha trobat <b>%d bloc defectuós</b> (de %"
-#~ "d) que ha estat marcat."
+#~ "S'ha formatat el disquet, però s'ha trobat <b>%d bloc defectuós</b> (de "
+#~ "%d) que ha estat marcat."
 #~ msgstr[1] ""
 #~ "S'ha formatat el disquet, però s'han trobat <b>%d blocs defectuosos</b> "
 #~ "(de %d) que han estat marcats."
