@@ -1297,7 +1297,7 @@ logview_window_init (LogviewWindow *logview)
   gtk_widget_show (w);
   
   /* panes */
-  hpaned = gtk_hpaned_new ();
+  hpaned = gtk_paned_new (GTK_ORIENTATION_HORIZONTAL);
   gtk_box_pack_start (GTK_BOX (vbox), hpaned, TRUE, TRUE, 0);
   priv->hpaned = hpaned;
   gtk_widget_show (hpaned);
