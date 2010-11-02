@@ -9,14 +9,14 @@
 # Tõivo Leedjärv <toivo linux ee>, 2002.
 # Ivar Smolin <okul linux ee>, 2005-2009.
 # Priit Laes <amd store20 com>, 2005.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-05-03 16:05+0000\n"
-"PO-Revision-Date: 2010-08-26 21:30+0300\n"
+"POT-Creation-Date: 2010-10-29 00:35+0000\n"
+"PO-Revision-Date: 2010-11-02 07:38+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -30,14 +30,36 @@ msgstr "Kaustade suuruse ja saadaoleva kettaruumi kontroll"
 msgid "Disk Usage Analyzer"
 msgstr "Kettakasutuse analüsaator"
 
-msgid "Disk Usage Analyzer Preferences"
-msgstr "Kettakasutuse analüsaatori eelistused"
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr "Läbivaatusele mittekuuluvate jaotiste URI-de loetelu."
 
-msgid "Select _devices to include in filesystem scan:"
-msgstr "Failisüsteemi _läbivaatusele kaasatavate seadmete nimekiri:"
+msgid "Active Chart"
+msgstr "Aktiivne diagramm"
 
-msgid "_Monitor changes to your home folder"
-msgstr "Kodukataloogis toimuvate _muudatuste jälgimine"
+msgid "Excluded partitions URIs"
+msgstr "Välistatud jaotiste URI-d"
+
+msgid "Monitor Home"
+msgstr ""
+
+msgid "Statusbar is Visible"
+msgstr "Olekuriba on nähtaval"
+
+msgid "Toolbar is Visible"
+msgstr "Tööriistariba on nähtaval"
+
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Kas kodukataloogis toimuvaid muudatusi tuleb jälgida või mitte."
+
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr ""
+"Kas peaakna alumises osas olev olekuriba peab nähtaval olema või mitte."
+
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Kas peaakna tööriistariba peab nähtaval olema või mitte."
+
+msgid "Which type of chart should be displayed."
+msgstr "Kuvatava diagrammi liik."
 
 msgid "All_ocated Space"
 msgstr "Eraldatud _ruum"
@@ -112,40 +134,17 @@ msgstr "_Tööriistariba"
 msgid "_View"
 msgstr "_Vaade"
 
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr "Läbivaatusele mittekuuluvate jaotiste URI-de loetelu."
-
-msgid "Enable monitoring of home directory"
-msgstr "Kodukataloogi jälgimine lubatud"
-
-msgid "Excluded partitions URIs"
-msgstr "Välistatud jaotiste URI-d"
-
-msgid "Status Bar is Visible"
-msgstr "Olekuriba on nähtaval"
-
-msgid "Subfolders tooltips visible"
-msgstr "Alamkataloogide vihjed nähtaval"
-
-msgid "Toolbar is Visible"
-msgstr "Tööriistariba on nähtaval"
-
-msgid "Whether any change to the home directory should be monitored."
-msgstr "Kas kodukataloogis toimuvaid muudatusi tuleb jälgida või mitte."
-
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr ""
-"Kas peaakna alumises osas olev olekuriba peab nähtaval olema või mitte."
-
-msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr ""
-"Kas valitud kataloogi kohta näidatakse alamkataloogi vihjeid või mitte."
-
-msgid "Whether the toolbar should be visible in main window."
-msgstr "Kas peaakna tööriistariba peab nähtaval olema või mitte."
-
 msgid "Scanning..."
 msgstr "Läbivaatus..."
+
+msgid "Total filesystem capacity:"
+msgstr "Failisüsteemi kogumahtuvus:"
+
+msgid "used:"
+msgstr "kasutusel:"
+
+msgid "available:"
+msgstr "vaba:"
 
 #. set statusbar, percentage and allocated/normal size
 msgid "Calculating percentage bars..."
@@ -365,15 +364,6 @@ msgstr "_Ava kataloog"
 
 msgid "Mo_ve to Trash"
 msgstr "Tõsta _prügikasti"
-
-msgid "Total filesystem capacity:"
-msgstr "Failisüsteemi kogumahtuvus:"
-
-msgid "used:"
-msgstr "kasutusel:"
-
-msgid "available:"
-msgstr "vaba:"
 
 #, c-format
 msgid "Could not open folder \"%s\""
@@ -1879,9 +1869,9 @@ msgstr "Ava rakendusega %s"
 msgid "Open Wit_h"
 msgstr "Ava _rakendusega"
 
-#. Popup menu item: Open Folder
-msgid "Open _Folder"
-msgstr "_Ava kataloog"
+#. Popup menu item: Open Containing Folder
+msgid "Open Containing _Folder"
+msgstr ""
 
 msgid "_Save Results As..."
 msgstr "Salvesta tulemused _kui..."
@@ -2022,7 +2012,7 @@ msgid "Contains the _text"
 msgstr "Sisaldab _teksti"
 
 msgid "_Date modified less than"
-msgstr "Muutmise kuupäev on vähem kui"
+msgstr "_Muutmise kuupäev on vähem kui"
 
 msgid "days"
 msgstr "päeva tagasi"
@@ -2590,3 +2580,22 @@ msgstr "Versioon: "
 
 msgid "Could not open the following files:"
 msgstr "Järgnevaid faile pole võimalik avada:"
+
+#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgstr "Kettakasutuse analüsaatori eelistused"
+
+#~ msgid "Select _devices to include in filesystem scan:"
+#~ msgstr "Failisüsteemi _läbivaatusele kaasatavate seadmete nimekiri:"
+
+#~ msgid "_Monitor changes to your home folder"
+#~ msgstr "Kodukataloogis toimuvate _muudatuste jälgimine"
+
+#~ msgid "Enable monitoring of home directory"
+#~ msgstr "Kodukataloogi jälgimine lubatud"
+
+#~ msgid "Subfolders tooltips visible"
+#~ msgstr "Alamkataloogide vihjed nähtaval"
+
+#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
+#~ msgstr ""
+#~ "Kas valitud kataloogi kohta näidatakse alamkataloogi vihjeid või mitte."
