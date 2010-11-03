@@ -398,6 +398,9 @@ AC_CONFIG_FILES([
         gnome-dictionary/src/Makefile
 
         gnome-screenshot/Makefile
+
+	font-viewer/Makefile
+	font-viewer/gnome-font-viewer.desktop.in
 ])
 
 AC_OUTPUT

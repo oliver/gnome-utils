@@ -25,6 +25,7 @@ SUBDIRS = \
 	po			\
 	libeggsmclient		\
 	baobab			\
+	font-viewer		\
 	gnome-dictionary	\
 	gnome-screenshot	\
 	gsearchtool		\
