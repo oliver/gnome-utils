@@ -9,6 +9,7 @@ GNOME Utilities for the GNOME 2.91 Desktop contains the following -
 	gnome-dictionary	[gnome-dictionary]
 	gnome-screenshot	[gnome-screenshot]
 	baobab                  [baobab]
+	font-viewer             [font-viewer]
 
 Requirements -
 
