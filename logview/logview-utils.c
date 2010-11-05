@@ -136,7 +136,8 @@ log_read_dates (const char **buffer_lines, time_t current)
 {
   int current_year, offsetyear, i, n, rangemin, rangemax, timestamp_len = 0;
   GSList *days = NULL;
-  GDate *date, *newdate;
+  GDate *date = NULL;
+  GDate *newdate;
   struct tm *tmptm;
   char *date_string;
   Day *day;
