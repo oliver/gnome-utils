@@ -8,16 +8,17 @@
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
-# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009, 2010.
+# Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-09-23 12:21+0000\n"
-"PO-Revision-Date: 2010-08-12 15:03+0900\n"
-"Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
+"POT-Creation-Date: 2010-11-07 11:50+0000\n"
+"PO-Revision-Date: 2010-11-13 21:53+0900\n"
+"Last-Translator: Yasumichi Akahoshi <yasumichi@vinelinux.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,17 +34,45 @@ msgstr "フォルダと利用可能なディスク容量をチェックします
 msgid "Disk Usage Analyzer"
 msgstr "ディスク使用量の解析"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:1
-msgid "Disk Usage Analyzer Preferences"
-msgstr "解析ツールの設定"
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr "スキャンを実行しないパーティションの URI を要素とするリストです。"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:2
-msgid "Select _devices to include in filesystem scan:"
-msgstr "ファイルシステムを解析する際のデバイスの選択(_D):"
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
+msgid "Active Chart"
+msgstr "アクティブなチャート"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:3
-msgid "_Monitor changes to your home folder"
-msgstr "ホーム・フォルダに対する変更を監視する(_M)"
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "対象外となるパーティションの URI"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
+msgid "Monitor Home"
+msgstr "ホームの監視"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
+msgid "Statusbar is Visible"
+msgstr "ステータスバーの表示可否"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "ツールバーの表示可否"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "ホーム・フォルダの変更を監視するかどうかを設定します。"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "メイン・ウィンドウの下にステータスバーを表示するかどうかを設定します。"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr "メイン・ウィンドウにツールバーを表示するかどうか設定します。"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+msgid "Which type of chart should be displayed."
+msgstr "表示すべきチャートの種類を設定します。"
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -147,202 +176,161 @@ msgstr "ツールバー(_T)"
 msgid "_View"
 msgstr "表示(_V)"
 
-#: ../baobab/data/baobab.schemas.in.h:1
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr "スキャンを実行しないパーティションの URI を要素とするリストです。"
-
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Enable monitoring of home directory"
-msgstr "ホーム・フォルダを監視する"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Excluded partitions URIs"
-msgstr "対象外となるパーティションの URI"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-msgid "Status Bar is Visible"
-msgstr "ステータスバーの表示可否"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Subfolders tooltips visible"
-msgstr "ツールチップの中にサブフォルダを表示するかどうか"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-msgid "Toolbar is Visible"
-msgstr "ツールバーの表示可否"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-msgid "Whether any change to the home directory should be monitored."
-msgstr "ホーム・フォルダの変更を監視するかどうかです。"
-
-#: ../baobab/data/baobab.schemas.in.h:8
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "メイン・ウィンドウの下にステータスバーを表示するかどうかです。"
-
-#: ../baobab/data/baobab.schemas.in.h:9
-msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr ""
-"選択したフォルダにあるサブフォルダをツールチップの中に表示するかどうかです。"
-
-#: ../baobab/data/baobab.schemas.in.h:10
-msgid "Whether the toolbar should be visible in main window."
-msgstr "メイン・ウィンドウにツールバーを表示するかどうかです。"
-
-#: ../baobab/src/baobab.c:134 ../baobab/src/baobab.c:353
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "スキャン中..."
 
-#: ../baobab/src/baobab.c:180
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "ファイルシステムの容量:"
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "使用済:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "利用可能:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:238 ../baobab/src/baobab.c:295
-#: ../baobab/src/callbacks.c:267
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
+#: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "使用率バーの計算中..."
 
-#: ../baobab/src/baobab.c:249 ../baobab/src/baobab.c:1289
-#: ../baobab/src/callbacks.c:271
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
+#: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "準備完了です"
 
-#: ../baobab/src/baobab.c:386
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "ファイルシステムの容量"
 
-#: ../baobab/src/baobab.c:408
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "ファイルシステム使用量"
 
-#: ../baobab/src/baobab.c:449
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "含むハードリンク:"
 
-#: ../baobab/src/baobab.c:458
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d 個のオブジェクト"
 
-#: ../baobab/src/baobab.c:585
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "監視機能を初期化できませんでした"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "ホーム・フォルダに対する変更を監視しません。"
 
-#: ../baobab/src/baobab.c:965
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "親フォルダへ移動する"
 
-#: ../baobab/src/baobab.c:969
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "拡大する"
 
-#: ../baobab/src/baobab.c:973
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "縮小する"
 
-#: ../baobab/src/baobab.c:977
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "スクリーンショットの保存"
 
-#: ../baobab/src/baobab.c:1114
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "リング・チャート表示"
 
-#: ../baobab/src/baobab.c:1116
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "ツリーマップ・チャート表示"
 
-#: ../baobab/src/baobab.c:1214
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "バージョンを表示"
 
-#: ../baobab/src/baobab.c:1215
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[ディレクトリ]"
 
-#: ../baobab/src/baobab.c:1245
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "引数が多すぎます。ディレクトリを一つだけ指定可能です。"
 
-#: ../baobab/src/baobab.c:1262
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "1つもマウントポイントを検出できませんでした"
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "マウントポイントの無いディスクの容量は解析できません"
 
-#: ../baobab/src/baobab-chart.c:206
+#: ../baobab/src/baobab-chart.c:205
 msgid "Maximum depth"
 msgstr "深さの最大値"
 
-#: ../baobab/src/baobab-chart.c:207
+#: ../baobab/src/baobab-chart.c:206
 msgid "The maximum depth drawn in the chart from the root"
 msgstr "描画できるチャートの深さです (ルートからの)"
 
-#: ../baobab/src/baobab-chart.c:216
+#: ../baobab/src/baobab-chart.c:215
 msgid "Chart model"
 msgstr "チャートのモデル"
 
-#: ../baobab/src/baobab-chart.c:217
+#: ../baobab/src/baobab-chart.c:216
 msgid "Set the model of the chart"
 msgstr "チャートのモデルをセットします"
 
-#: ../baobab/src/baobab-chart.c:224
+#: ../baobab/src/baobab-chart.c:223
 msgid "Chart root node"
 msgstr "チャートのルート"
 
-#: ../baobab/src/baobab-chart.c:225
+#: ../baobab/src/baobab-chart.c:224
 msgid "Set the root node from the model"
 msgstr "チャートのルートにするフォルダを選択します"
 
-#: ../baobab/src/baobab-chart.c:1704
+#: ../baobab/src/baobab-chart.c:1690
 msgid "Cannot create pixbuf image!"
 msgstr "Pixbuf 画像を生成できません!"
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1714
+#: ../baobab/src/baobab-chart.c:1700
 msgid "Save Snapshot"
 msgstr "スナップショットの保存"
 
-#: ../baobab/src/baobab-chart.c:1743
+#: ../baobab/src/baobab-chart.c:1727
 msgid "_Image type:"
 msgstr "画像の種類(_I):"
 
-#: ../baobab/src/baobab-prefs.c:184
+#: ../baobab/src/baobab-prefs.c:172
 msgid "Scan"
 msgstr "スキャン"
 
-#: ../baobab/src/baobab-prefs.c:191
+#: ../baobab/src/baobab-prefs.c:179
 msgid "Device"
 msgstr "デバイス"
 
-#: ../baobab/src/baobab-prefs.c:199
+#: ../baobab/src/baobab-prefs.c:187
 msgid "Mount Point"
 msgstr "マウントポイント"
 
-#: ../baobab/src/baobab-prefs.c:207
+#: ../baobab/src/baobab-prefs.c:195
 msgid "Filesystem Type"
 msgstr "ファイルシステムの種類"
 
-#: ../baobab/src/baobab-prefs.c:215
+#: ../baobab/src/baobab-prefs.c:203
 msgid "Total Size"
 msgstr "合計"
 
-#: ../baobab/src/baobab-prefs.c:224
+#: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
 msgstr "空き"
 
@@ -424,11 +412,11 @@ msgstr "ドメイン名(_D):"
 msgid "Connect to Server"
 msgstr "サーバへの接続"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:660
+#: ../baobab/src/baobab-remote-connect-dialog.c:659
 msgid "Service _type:"
 msgstr "サービスの種類(_T):"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:779
+#: ../baobab/src/baobab-remote-connect-dialog.c:778
 msgid "_Scan"
 msgstr "スキャン(_S)"
 
@@ -448,7 +436,7 @@ msgstr ""
 msgid "_Rescan"
 msgstr "再スキャン(_R)"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2389
 msgid "Folder"
 msgstr "フォルダ"
 
@@ -456,7 +444,7 @@ msgstr "フォルダ"
 msgid "Usage"
 msgstr "使用量"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2419
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2402
 msgid "Size"
 msgstr "サイズ"
 
@@ -464,65 +452,65 @@ msgstr "サイズ"
 msgid "Contents"
 msgstr "内容"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "フォルダの選択"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "隠しフォルダも表示する(_S)"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "対象外のフォルダをチェックできませんでした!"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "\"%s\" はフォルダとして妥当ではありません"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "ディスクの使用量を解析できませんでした"
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "フォルダを開く(_O)"
 
-#: ../baobab/src/baobab-utils.c:370
-#: ../gsearchtool/gsearchtool-callbacks.c:1203
+#: ../baobab/src/baobab-utils.c:332
+#: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "ゴミ箱へ移動する(_V)"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "\"%s\" と言うフォルダを開けませんでした"
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "フォルダを表示する機能を持ったビューアがインストールされていません"
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "\"%s\" をゴミ箱に移動できませんでした"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "ファイルをゴミ箱に移動できませんでした"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "詳細: %s"
 
-#: ../baobab/src/baobab-utils.c:533
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "ヘルプを表示する際にエラーが発生しました。"
 
-#: ../baobab/src/callbacks.c:78 ../logview/logview-about.h:49
+#: ../baobab/src/callbacks.c:76 ../logview/logview-about.h:49
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -533,7 +521,7 @@ msgstr ""
 "一般公衆利用許諾契約書の第二版、あるいは(オプションで)それ以降の版が定める条"
 "項の下で本プログラムを再頒布または変更することができます。"
 
-#: ../baobab/src/callbacks.c:83 ../logview/logview-about.h:53
+#: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -544,7 +532,7 @@ msgstr ""
 "対する適合性についての暗黙の保証を含めて、いかなる保証も行ないません。詳細は "
 "GNU 一般公衆利用許諾契約書をご覧ください。"
 
-#: ../baobab/src/callbacks.c:88 ../logview/logview-about.h:57
+#: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
@@ -554,16 +542,16 @@ msgstr ""
 "はずです。そうでない場合は、Free Software Foundation, Inc., 51 Franklin "
 "Street, Fifth Floor, Boston, MA 02110-1301, USA まで連絡してください。"
 
-#: ../baobab/src/callbacks.c:103
+#: ../baobab/src/callbacks.c:101
 msgid "Baobab"
 msgstr "Baobab"
 
-#: ../baobab/src/callbacks.c:104
+#: ../baobab/src/callbacks.c:102
 msgid "A graphical tool to analyze disk usage."
 msgstr "ディスクの使用量を解析するグラフィカルなツールです。"
 
 #. translator credits
-#: ../baobab/src/callbacks.c:112 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -577,12 +565,12 @@ msgstr ""
 "やまねひでき <henrich@debian.or.jp>\n"
 "日本GNOMEユーザー会 http://www.gnome.gr.jp/"
 
-#: ../baobab/src/callbacks.c:210 ../gsearchtool/gsearchtool-callbacks.c:504
-#: ../gsearchtool/gsearchtool-callbacks.c:843
+#: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
+#: ../gsearchtool/gsearchtool-callbacks.c:811
 msgid "The document does not exist."
 msgstr "ドキュメントは存在しません。"
 
-#: ../baobab/src/callbacks.c:321
+#: ../baobab/src/callbacks.c:289
 msgid "The folder does not exist."
 msgstr "そのフォルダは存在しません"
 
@@ -632,7 +620,7 @@ msgstr "オンライン辞書を使って単語の意味や綴りを調べます
 #: ../gnome-dictionary/src/gdict-about.c:78
 #: ../gnome-dictionary/src/gdict-app.c:385
 #: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1947
+#: ../gnome-dictionary/src/gdict-window.c:1946
 msgid "Dictionary"
 msgstr "辞書"
 
@@ -1077,7 +1065,7 @@ msgid "The filename used by this dictionary source"
 msgstr "この辞書が使用するファイル名です"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2382
+#: ../gsearchtool/gsearchtool.c:2365
 msgid "Name"
 msgstr "名前"
 
@@ -1431,17 +1419,17 @@ msgid "Unable to create a context"
 msgstr "コンテキストを生成できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2078
+#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "GConf に接続できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2091
+#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "設定変更の通知を取得できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2104
+#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "ドキュメントのフォント変更の通知を取得できません"
 
@@ -1478,15 +1466,15 @@ msgstr "一覧から辞書を完全に削除します。"
 msgid "Unable to remove source '%s'"
 msgstr "辞書 '%s' を削除できません"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:666
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
 msgid "Add a new dictionary source"
 msgstr "新しい辞書を追加します"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:672
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
 msgid "Remove the currently selected dictionary source"
 msgstr "現在選択している辞書を削除します"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:685
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
 msgid "Set the font used for printing the definitions"
 msgstr "印刷時に使用するフォントの設定"
 
@@ -1752,7 +1740,7 @@ msgstr "取得するまでの待ち時間(_A): "
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "seconds"
 msgstr "秒"
 
@@ -1766,15 +1754,15 @@ msgstr "スクリーンショットの取得"
 msgid "Effects"
 msgstr "画像効果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:531
+#: ../gnome-screenshot/gnome-screenshot.c:530
 msgid "Take _Screenshot"
 msgstr "スクリーンショットの取得(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:657
+#: ../gnome-screenshot/gnome-screenshot.c:656
 msgid "Error while saving screenshot"
 msgstr "スクリーンショットを保存する際にエラーが発生しました"
 
-#: ../gnome-screenshot/gnome-screenshot.c:660
+#: ../gnome-screenshot/gnome-screenshot.c:659
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1785,15 +1773,15 @@ msgstr ""
 " エラー: %s\n"
 "別の場所を選択してもう一度実行してみてください。"
 
-#: ../gnome-screenshot/gnome-screenshot.c:792
+#: ../gnome-screenshot/gnome-screenshot.c:791
 msgid "Screenshot taken"
 msgstr "スクリーンショットを撮影しました"
 
-#: ../gnome-screenshot/gnome-screenshot.c:846
+#: ../gnome-screenshot/gnome-screenshot.c:845
 msgid "Unable to take a screenshot of the current window"
 msgstr "ウィンドウのスクリーンショットを撮れません"
 
-#: ../gnome-screenshot/gnome-screenshot.c:896
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Screenshot-%s.png"
@@ -1801,15 +1789,15 @@ msgstr "Screenshot-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:903
+#: ../gnome-screenshot/gnome-screenshot.c:902
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Screenshot-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:913
-#: ../gnome-screenshot/screenshot-dialog.c:353
+#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/screenshot-dialog.c:346
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
@@ -1817,48 +1805,48 @@ msgstr "Screenshot.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:920
+#: ../gnome-screenshot/gnome-screenshot.c:919
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Screenshot-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1284
 msgid "Grab a window instead of the entire screen"
 msgstr "画面全体ではなくウィンドウ単体を取得する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1285
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "画面全体ではなく一部を取得する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1286
 msgid "Include the window border with the screenshot"
 msgstr "スクリーンショットにウィンドウの境界線を含める"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1287
 msgid "Remove the window border from the screenshot"
 msgstr "スクリーンショットからウィンドウの境界を取り除く"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "指定した時間を経過してからスクリーンショットを撮る [秒単位]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "境界線に適用する画像効果を指定する (shadow, border, none)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "effect"
 msgstr "画像効果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "Interactively set options"
 msgstr "設定ダイアログを表示する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1302
+#: ../gnome-screenshot/gnome-screenshot.c:1301
 msgid "Take a picture of the screen"
 msgstr "画面全体のスクリーンショットを撮る"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1320
+#: ../gnome-screenshot/gnome-screenshot.c:1319
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1948,7 +1936,7 @@ msgstr "スクリーンショットを撮るまでに待機する時間 (単位�
 msgid "Window-specific screenshot (deprecated)"
 msgstr "【廃止】ウィンドウだけスクリーンショットを撮るかどうか"
 
-#: ../gnome-screenshot/screenshot-dialog.c:236
+#: ../gnome-screenshot/screenshot-dialog.c:229
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1956,7 +1944,7 @@ msgstr ""
 "スクリーンショット取得プログラムの UI 定義ファイルが見つかりません。\n"
 "'gnome-utils' というパッケージのインストールを確認してください。"
 
-#: ../gnome-screenshot/screenshot-dialog.c:257
+#: ../gnome-screenshot/screenshot-dialog.c:250
 msgid "Select a folder"
 msgstr "フォルダの選択"
 
@@ -1982,7 +1970,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "スクリーンショットを保存する際に不明なエラー"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:888
+#: ../gnome-screenshot/screenshot-utils.c:884
 msgid "Untitled Window"
 msgstr "名前なしのウィンドウ"
 
@@ -1996,7 +1984,7 @@ msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "既に \"%s\" というファイルが存在します。置き換えてもよろしいですか?"
 
 #: ../gnome-screenshot/screenshot-xfer.c:82
-#: ../gsearchtool/gsearchtool-callbacks.c:1722
+#: ../gsearchtool/gsearchtool-callbacks.c:1680
 msgid "_Replace"
 msgstr "置き換える(_R)"
 
@@ -2063,13 +2051,13 @@ msgstr "検索オプション \"次の文字列を含む\" の選択可否"
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:15
 msgid "Select the search option \"Date modified less than\""
-msgstr "検索オプション \"次の日数より前に変更した\" の選択可否"
+msgstr "検索オプション \"次の日数以内に変更した\" の選択可否"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:18
 msgid "Select the search option \"Date modified more than\""
-msgstr "検索オプション \"次の日数より後に変更した\" の選択可否"
+msgstr "検索オプション \"次の日数より以前に変更した\" の選択可否"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2129,13 +2117,13 @@ msgstr "検索オプション \"隠しファイル/フォルダを表示する\"
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:48
 msgid "Select the search option \"Size at least\""
-msgstr "検索オプション \"次のサイズよりも小さい\" の選択可否"
+msgstr "検索オプション \"最小サイズ\" の選択可否"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:51
 msgid "Select the search option \"Size at most\""
-msgstr "検索オプション \"次のサイズよりも大きい\" の選択可否"
+msgstr "検索オプション \"最大サイズ\" の選択可否"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:52
 msgid "Show Additional Options"
@@ -2208,16 +2196,16 @@ msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"検索オプション \"次の日数より前に変更した\" を有効にして、検索ツールを起動す"
-"るかどうかを選択します。"
+"検索オプション \"次の日数以内に変更した\" を有効にして、検索ツールを起動する"
+"かどうかを選択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"検索オプション \"次の日数より後に変更した\" を有効にして、検索ツールを起動す"
-"るかどうかを選択します。"
+"検索オプション \"次の日数より以前に変更した\" を有効にして、検索ツールを起動"
+"するかどうかを選択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
 msgid ""
@@ -2306,16 +2294,16 @@ msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"検索オプション \"次のサイズよりも小さい\" を有効にして、検索ツールを起動する"
-"かどうかを選択します。"
+"検索オプション \"最小サイズ\" を有効にして、検索ツールを起動するかどうかを選"
+"択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"検索オプション \"次のサイズよりも大きい\" を有効にして、検索ツールを起動する"
-"かどうかを選択します。"
+"検索オプション \"最大サイズ\" を有効にして、検索ツールを起動するかどうかを選"
+"択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
 msgid ""
@@ -2342,135 +2330,135 @@ msgstr "検索ツールを最大化した状態で起動するかどうかです
 msgid "Could not open help document."
 msgstr "ヘルプ・ドキュメントが開けませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:345
+#: ../gsearchtool/gsearchtool-callbacks.c:341
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "本当に %d個のドキュメントを開きますか?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:350
-#: ../gsearchtool/gsearchtool-callbacks.c:547
+#: ../gsearchtool/gsearchtool-callbacks.c:346
+#: ../gsearchtool/gsearchtool-callbacks.c:531
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
 msgstr[0] "これは %d個の別々のウィンドウを開くことになります。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:390
+#: ../gsearchtool/gsearchtool-callbacks.c:382
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "ドキュメント \"%s\" を開けませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:419
+#: ../gsearchtool/gsearchtool-callbacks.c:407
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "フォルダ \"%s\" を開けませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:427
+#: ../gsearchtool/gsearchtool-callbacks.c:415
 msgid "The nautilus file manager is not running."
 msgstr "Nautilus ファイル・マネージャが実行されていません。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:519
+#: ../gsearchtool/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "ドキュメントを表示するビュワーがインストールされていません。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:542
+#: ../gsearchtool/gsearchtool-callbacks.c:526
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
 msgstr[0] "本当に %d個のフォルダを開きますか?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:695
+#: ../gsearchtool/gsearchtool-callbacks.c:675
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "\"%s\" をゴミ箱に移動できませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:726
+#: ../gsearchtool/gsearchtool-callbacks.c:702
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "\"%s\" を完全に削除しますか?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:729
+#: ../gsearchtool/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "ゴミ箱は利用できません。\"%s\" をゴミ箱へ移動できませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:768
+#: ../gsearchtool/gsearchtool-callbacks.c:740
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "\"%s\" を削除できませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:879
+#: ../gsearchtool/gsearchtool-callbacks.c:847
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "\"%s\" の削除に失敗しました: %s"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:891
+#: ../gsearchtool/gsearchtool-callbacks.c:859
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "\"%s\" の移動に失敗しました: %s 。"
 
 #. Popup menu item: Open
-#: ../gsearchtool/gsearchtool-callbacks.c:1019
-#: ../gsearchtool/gsearchtool-callbacks.c:1049
+#: ../gsearchtool/gsearchtool-callbacks.c:987
+#: ../gsearchtool/gsearchtool-callbacks.c:1017
 msgid "_Open"
 msgstr "開く(_O)"
 
 #. Popup menu item: Open with (default)
-#: ../gsearchtool/gsearchtool-callbacks.c:1074
+#: ../gsearchtool/gsearchtool-callbacks.c:1042
 #, c-format
 msgid "_Open with %s"
 msgstr "%s で開く(_O)"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1108
+#: ../gsearchtool/gsearchtool-callbacks.c:1077
 #, c-format
 msgid "Open with %s"
 msgstr "%s で開く"
 
 #. Popup menu item: Open With
-#: ../gsearchtool/gsearchtool-callbacks.c:1140
+#: ../gsearchtool/gsearchtool-callbacks.c:1110
 msgid "Open Wit_h"
 msgstr "開く(_H)"
 
-#. Popup menu item: Open Folder
-#: ../gsearchtool/gsearchtool-callbacks.c:1185
-msgid "Open _Folder"
-msgstr "フォルダを開く(_F)"
+#. Popup menu item: Open Containing Folder
+#: ../gsearchtool/gsearchtool-callbacks.c:1155
+msgid "Open Containing _Folder"
+msgstr "親フォルダを開く(_F)"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1225
+#: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
 msgstr "検索結果に名前を付けて保存(_S)"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1607
+#: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
 msgstr "検索結果に名前を付けて保存..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1638
+#: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
 msgstr "ドキュメントを保存できませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1639
+#: ../gsearchtool/gsearchtool-callbacks.c:1609
 msgid "You did not select a document name."
 msgstr "ドキュメントの名前を選択していません。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1669
+#: ../gsearchtool/gsearchtool-callbacks.c:1635
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "ドキュメント \"%s\" を %s へ保存できませんでした。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1703
+#: ../gsearchtool/gsearchtool-callbacks.c:1665
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "ドキュメント \"%s\" は既に存在します。置き換えてもよろしいですか?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1707
+#: ../gsearchtool/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "既存のファイルを置き換えると、その内容は上書きされます。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1772
+#: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "指定したドキュメントはフォルダです。"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1810
+#: ../gsearchtool/gsearchtool-callbacks.c:1768
 msgid "You may not have write permissions to the document."
 msgstr "そのドキュメントに対する書き込み権限がないようです。"
 
@@ -2608,191 +2596,191 @@ msgstr " ("
 msgid " (%d"
 msgstr " (%d"
 
-#: ../gsearchtool/gsearchtool.c:80
+#: ../gsearchtool/gsearchtool.c:81
 msgid "Contains the _text"
 msgstr "次の文字列を含む(_T)"
 
-#: ../gsearchtool/gsearchtool.c:82
+#: ../gsearchtool/gsearchtool.c:83
 msgid "_Date modified less than"
-msgstr "次の日数より前に変更した(_D)"
+msgstr "次の日数以内に変更した(_D)"
 
-#: ../gsearchtool/gsearchtool.c:82 ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
 msgid "days"
 msgstr "日"
 
-#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:84
 msgid "Date modified more than"
-msgstr "次の日数より後に変更した"
+msgstr "次の日数より以前に変更した"
 
-#: ../gsearchtool/gsearchtool.c:85
+#: ../gsearchtool/gsearchtool.c:86
 msgid "S_ize at least"
-msgstr "次のサイズよりも小さい(_I)"
+msgstr "最小サイズ(_I)"
 
-#: ../gsearchtool/gsearchtool.c:85 ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "Kバイト"
 
-#: ../gsearchtool/gsearchtool.c:86
-msgid "Si_ze at most"
-msgstr "次のサイズよりも大きい(_Z)"
-
 #: ../gsearchtool/gsearchtool.c:87
+msgid "Si_ze at most"
+msgstr "最大サイズ(_Z)"
+
+#: ../gsearchtool/gsearchtool.c:88
 msgid "File is empty"
 msgstr "ファイルが空である"
 
-#: ../gsearchtool/gsearchtool.c:89
+#: ../gsearchtool/gsearchtool.c:90
 msgid "Owned by _user"
 msgstr "次のユーザが所有する(_U)"
 
-#: ../gsearchtool/gsearchtool.c:90
+#: ../gsearchtool/gsearchtool.c:91
 msgid "Owned by _group"
 msgstr "次のグループが所有する(_G)"
 
-#: ../gsearchtool/gsearchtool.c:91
+#: ../gsearchtool/gsearchtool.c:92
 msgid "Owner is unrecognized"
 msgstr "所有者が不明である"
 
-#: ../gsearchtool/gsearchtool.c:93
+#: ../gsearchtool/gsearchtool.c:94
 msgid "Na_me does not contain"
 msgstr "次の名前を含まない(_M)"
 
-#: ../gsearchtool/gsearchtool.c:94
+#: ../gsearchtool/gsearchtool.c:95
 msgid "Name matches regular e_xpression"
 msgstr "名前が次の正規表現に一致する(_X)"
 
-#: ../gsearchtool/gsearchtool.c:96
-msgid "Show hidden and backup files"
-msgstr "隠しファイル/フォルダを表示する"
-
 #: ../gsearchtool/gsearchtool.c:97
+msgid "Show hidden and backup files"
+msgstr "隠しファイルとバックアップファイルを表示する"
+
+#: ../gsearchtool/gsearchtool.c:98
 msgid "Follow symbolic links"
 msgstr "シンボリックリンクをたどる"
 
-#: ../gsearchtool/gsearchtool.c:98
+#: ../gsearchtool/gsearchtool.c:99
 msgid "Exclude other filesystems"
 msgstr "他のファイルシステムを除く"
 
-#: ../gsearchtool/gsearchtool.c:156
+#: ../gsearchtool/gsearchtool.c:157
 msgid "Show version of the application"
 msgstr "アプリケーションのバージョンを表示する"
 
-#: ../gsearchtool/gsearchtool.c:157 ../gsearchtool/gsearchtool.c:162
-#: ../gsearchtool/gsearchtool.c:171
+#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
 msgstr "STRING"
 
-#: ../gsearchtool/gsearchtool.c:158
+#: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
 msgstr "PATH"
 
-#: ../gsearchtool/gsearchtool.c:159
+#: ../gsearchtool/gsearchtool.c:160
 msgid "VALUE"
 msgstr "VALUE"
 
-#: ../gsearchtool/gsearchtool.c:163 ../gsearchtool/gsearchtool.c:164
+#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DAYS"
 
-#: ../gsearchtool/gsearchtool.c:165 ../gsearchtool/gsearchtool.c:166
+#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "KILOBYTES"
 
-#: ../gsearchtool/gsearchtool.c:168
+#: ../gsearchtool/gsearchtool.c:169
 msgid "USER"
 msgstr "USER"
 
-#: ../gsearchtool/gsearchtool.c:169
+#: ../gsearchtool/gsearchtool.c:170
 msgid "GROUP"
 msgstr "GROUP"
 
-#: ../gsearchtool/gsearchtool.c:172
+#: ../gsearchtool/gsearchtool.c:173
 msgid "PATTERN"
 msgstr "PATTERN"
 
-#: ../gsearchtool/gsearchtool.c:383
+#: ../gsearchtool/gsearchtool.c:384
 msgid "A locate database has probably not been created."
 msgstr "locate 用のデータベースが生成されていないようです。"
 
-#: ../gsearchtool/gsearchtool.c:485
+#: ../gsearchtool/gsearchtool.c:486
 #, c-format
 msgid "Character set conversion failed for \"%s\""
 msgstr "\"%s\" の文字セットの変換に失敗しました"
 
-#: ../gsearchtool/gsearchtool.c:509
+#: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
 msgstr "検索中..."
 
-#: ../gsearchtool/gsearchtool.c:509 ../gsearchtool/gsearchtool.c:1015
-#: ../gsearchtool/gsearchtool.c:2988
+#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
+#: ../gsearchtool/gsearchtool.c:2972
 msgid "Search for Files"
 msgstr "ファイルの検索"
 
-#: ../gsearchtool/gsearchtool.c:961 ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
 msgid "No files found"
 msgstr "ファイルが見つかりません"
 
-#: ../gsearchtool/gsearchtool.c:983
+#: ../gsearchtool/gsearchtool.c:980
 msgid "(stopped)"
 msgstr "(停止中)"
 
-#: ../gsearchtool/gsearchtool.c:989
+#: ../gsearchtool/gsearchtool.c:986
 msgid "No Files Found"
 msgstr "ファイルが見つかりません"
 
-#: ../gsearchtool/gsearchtool.c:994
+#: ../gsearchtool/gsearchtool.c:991
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] " %'d個のファイルが見つかりました"
 
-#: ../gsearchtool/gsearchtool.c:998 ../gsearchtool/gsearchtool.c:1036
+#: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] " %'d個のファイルが見つかりました"
 
-#: ../gsearchtool/gsearchtool.c:1127
+#: ../gsearchtool/gsearchtool.c:1124
 msgid "Entry changed called for a non entry option!"
 msgstr "エントリオプションのないエントリに変更されました!"
 
-#: ../gsearchtool/gsearchtool.c:1287
+#: ../gsearchtool/gsearchtool.c:1284
 msgid "Set the text of \"Name contains\" search option"
 msgstr ""
 "検索オプション \"次の名前を含む\" に該当するファイル名をセットしてください"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1285
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "検索オプション \"対象となるフォルダ\" のテキストを設定"
 
-#: ../gsearchtool/gsearchtool.c:1289
+#: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "次のエントリから一つ選んでファイルの並べ替えます: 名前、フォルダ、サイズ、種"
 "類、日付"
 
-#: ../gsearchtool/gsearchtool.c:1290
+#: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
 msgstr "降順に並べ替えます。デフォルトは昇順です"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
 msgstr "自動的に検索を開始します"
 
-#: ../gsearchtool/gsearchtool.c:1297
+#: ../gsearchtool/gsearchtool.c:1294
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "検索オプション '%s' の選択"
 
-#: ../gsearchtool/gsearchtool.c:1300
+#: ../gsearchtool/gsearchtool.c:1297
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "検索オプション \"%s\" の選択とセット"
 
-#: ../gsearchtool/gsearchtool.c:1407
+#: ../gsearchtool/gsearchtool.c:1404
 msgid "Invalid option passed to sortby command line argument."
 msgstr "コマンドライン引数に不正なオプションが引き渡されました。"
 
-#: ../gsearchtool/gsearchtool.c:1701
+#: ../gsearchtool/gsearchtool.c:1698
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2800,7 +2788,7 @@ msgstr ""
 "\n"
 "...エラーが多すぎて表示でません..."
 
-#: ../gsearchtool/gsearchtool.c:1715
+#: ../gsearchtool/gsearchtool.c:1712
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
@@ -2808,11 +2796,11 @@ msgstr ""
 "この検索を実行した際にエラーが発生したので、検索結果が間違っているかもしれま"
 "せん。"
 
-#: ../gsearchtool/gsearchtool.c:1727 ../gsearchtool/gsearchtool.c:1771
+#: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
 msgstr "詳細を表示する(_D)"
 
-#: ../gsearchtool/gsearchtool.c:1757
+#: ../gsearchtool/gsearchtool.c:1751
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -2820,148 +2808,148 @@ msgstr ""
 "検索結果の期限が切れているか、または検索結果が間違っているかもしれません。"
 "クィック検索を無効にしてみますか?"
 
-#: ../gsearchtool/gsearchtool.c:1782
+#: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
 msgstr "クイック検索を無効にする(_Q)"
 
-#: ../gsearchtool/gsearchtool.c:1809
+#: ../gsearchtool/gsearchtool.c:1800
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "子プロセス %d のグループ ID のセットに失敗しました: %s\n"
 
-#: ../gsearchtool/gsearchtool.c:1834
+#: ../gsearchtool/gsearchtool.c:1825
 msgid "Error parsing the search command."
 msgstr "検索コマンドを解析する際にエラーが発生しました。"
 
-#: ../gsearchtool/gsearchtool.c:1867
+#: ../gsearchtool/gsearchtool.c:1854
 msgid "Error running the search command."
 msgstr "検索コマンドを実行する際にエラーが発生しました。"
 
-#: ../gsearchtool/gsearchtool.c:1987
+#: ../gsearchtool/gsearchtool.c:1970
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "検索条件 \"%s\" の値 (文) を入力してください"
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1992
+#: ../gsearchtool/gsearchtool.c:1975
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "\"%s\" (単位: %s)"
 
-#: ../gsearchtool/gsearchtool.c:1994
+#: ../gsearchtool/gsearchtool.c:1977
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "検索条件 \"%2$s\" の %1$s の値を入力してください"
 
-#: ../gsearchtool/gsearchtool.c:2052
+#: ../gsearchtool/gsearchtool.c:2035
 #, c-format
 msgid "Remove \"%s\""
 msgstr "\"%s\" の削除"
 
-#: ../gsearchtool/gsearchtool.c:2053
+#: ../gsearchtool/gsearchtool.c:2036
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "削除する検索条件 \"%s\" をクリックしてください"
 
-#: ../gsearchtool/gsearchtool.c:2146
+#: ../gsearchtool/gsearchtool.c:2129
 msgid "A_vailable options:"
-msgstr "適用する検索条件(_V):"
+msgstr "利用可能な検索条件(_V):"
 
-#: ../gsearchtool/gsearchtool.c:2175
+#: ../gsearchtool/gsearchtool.c:2158
 msgid "Available options"
-msgstr "適用する検索条件"
+msgstr "利用可能な検索条件"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2159
 msgid "Select a search option from the drop-down list."
 msgstr "検索条件をメニューから選択してください"
 
-#: ../gsearchtool/gsearchtool.c:2188
+#: ../gsearchtool/gsearchtool.c:2171
 msgid "Add search option"
 msgstr "検索条件の追加"
 
-#: ../gsearchtool/gsearchtool.c:2189
+#: ../gsearchtool/gsearchtool.c:2172
 msgid "Click to add the selected available search option."
 msgstr "追加する検索条件を選択してクリックしてください"
 
-#: ../gsearchtool/gsearchtool.c:2278
+#: ../gsearchtool/gsearchtool.c:2261
 msgid "S_earch results:"
 msgstr "検索結果(_E):"
 
-#: ../gsearchtool/gsearchtool.c:2322
+#: ../gsearchtool/gsearchtool.c:2305
 msgid "List View"
 msgstr "一覧表示"
 
-#: ../gsearchtool/gsearchtool.c:2431
+#: ../gsearchtool/gsearchtool.c:2414
 msgid "Type"
 msgstr "種類"
 
-#: ../gsearchtool/gsearchtool.c:2443
+#: ../gsearchtool/gsearchtool.c:2426
 msgid "Date Modified"
 msgstr "変更日時"
 
-#: ../gsearchtool/gsearchtool.c:2759
+#: ../gsearchtool/gsearchtool.c:2742
 msgid "_Name contains:"
 msgstr "対象となる名前(_N):"
 
-#: ../gsearchtool/gsearchtool.c:2773 ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "ファイル名、またはワイルドカード有り/無しでファイル名の一部を入力してください"
 
-#: ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
 msgstr "対象となる名前"
 
-#: ../gsearchtool/gsearchtool.c:2780
+#: ../gsearchtool/gsearchtool.c:2763
 msgid "_Look in folder:"
 msgstr "対象となるフォルダ(_L):"
 
-#: ../gsearchtool/gsearchtool.c:2786
+#: ../gsearchtool/gsearchtool.c:2769
 msgid "Browse"
 msgstr "参照"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Look in folder"
 msgstr "対象となるフォルダ"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "検索を開始したいフォルダまたはデバイスを選択してください"
 
-#: ../gsearchtool/gsearchtool.c:2813
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Select more _options"
 msgstr "追加オプションの選択(_O)"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Select more options"
 msgstr "もっとたくさんのオプションを選択します"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Click to expand or collapse the list of available options."
 msgstr "クリックすると利用可能な検索オプションの一覧を展開または畳みます"
 
-#: ../gsearchtool/gsearchtool.c:2846
+#: ../gsearchtool/gsearchtool.c:2829
 msgid "Click to display the help manual."
 msgstr "クリックするとヘルプを表示します"
 
-#: ../gsearchtool/gsearchtool.c:2854
+#: ../gsearchtool/gsearchtool.c:2837
 msgid "Click to close \"Search for Files\"."
 msgstr "クリックすると \"ファイルの検索\" を閉じます"
 
-#: ../gsearchtool/gsearchtool.c:2880
+#: ../gsearchtool/gsearchtool.c:2863
 msgid "Click to perform a search."
 msgstr "クリックすると検索を実行します"
 
-#: ../gsearchtool/gsearchtool.c:2881
+#: ../gsearchtool/gsearchtool.c:2864
 msgid "Click to stop a search."
 msgstr "クリックすると検索を停止します"
 
-#: ../gsearchtool/gsearchtool.c:2973
+#: ../gsearchtool/gsearchtool.c:2957
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME 向けの検索ツール"
 
-#: ../gsearchtool/gsearchtool.c:2982
+#: ../gsearchtool/gsearchtool.c:2966
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "コマンドライン引数の処理に失敗しました: %s\n"
@@ -3362,3 +3350,23 @@ msgstr "バージョン: "
 #: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "次のファイルを開けませんでした:"
+
+#~ msgid "Disk Usage Analyzer Preferences"
+#~ msgstr "解析ツールの設定"
+
+#~ msgid "Select _devices to include in filesystem scan:"
+#~ msgstr "ファイルシステムを解析する際のデバイスの選択(_D):"
+
+#~ msgid "_Monitor changes to your home folder"
+#~ msgstr "ホーム・フォルダに対する変更を監視する(_M)"
+
+#~ msgid "Enable monitoring of home directory"
+#~ msgstr "ホーム・フォルダを監視する"
+
+#~ msgid "Subfolders tooltips visible"
+#~ msgstr "ツールチップの中にサブフォルダを表示するかどうか"
+
+#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
+#~ msgstr ""
+#~ "選択したフォルダにあるサブフォルダをツールチップの中に表示するかどうかで"
+#~ "す。"
