@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Sahran <sahran@live.com>, 2010-08-29.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2010-10-20 22:57+0000\n"
+"POT-Creation-Date: 2010-11-13 21:31+0000\n"
 "PO-Revision-Date: 2010-08-29 17:50+0000\n"
 "Last-Translator: Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -31,7 +31,7 @@ msgstr "تەكشۈرگەندە سىرتتا قالدۇرۇلىدىغان دىس�
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
 msgid "Active Chart"
-msgstr ""
+msgstr "ئاكتىپ دىئاگرامما"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
@@ -42,7 +42,6 @@ msgid "Monitor Home"
 msgstr ""
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
 msgstr "ھالەت بالداق كۆرۈنۈشچان"
 
@@ -63,7 +62,6 @@ msgid "Whether the toolbar should be visible in main window."
 msgstr "ئاساسىي كۆزنەكتىكى قورال بالداق كۆرۈنەمدۇ يوق."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
 msgstr ""
 
@@ -169,100 +167,100 @@ msgstr "قورال بالداق(_T)"
 msgid "_View"
 msgstr "كۆرۈنۈش(_V)"
 
-#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "تەكشۈرۈۋاتىدۇ…"
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "ھۆججەت سىستېما ئومۇمىي سىغىمى:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "ئىشلىتىلگىنى:"
 
-#: ../baobab/src/baobab.c:183
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "ئىشلىتىلىشچان:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "پىرسەنت بالداقنى ھېسابلاۋاتىدۇ…"
 
-#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "تەييار"
 
-#: ../baobab/src/baobab.c:387
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "ھۆججەت سىستېما ئومۇمىي سىغىمى"
 
-#: ../baobab/src/baobab.c:409
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "ھۆججەت سىستېمىسىنىڭ ئىشلىتىلىشى"
 
-#: ../baobab/src/baobab.c:450
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "ئۆز ئىچىگە ئالغان قاتتىق ئۇلانما:"
 
-#: ../baobab/src/baobab.c:459
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d تۈر"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "كۆزىتىشنى دەسلەپلەشتۈرەلمىدى"
 
-#: ../baobab/src/baobab.c:587
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "باش مۇندەرىجە ئۆزگەرتىشلىرىنى كۆزىتەلمەيدۇ."
 
-#: ../baobab/src/baobab.c:911
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "ئاتا قىسقۇچقا يۆتكە"
 
-#: ../baobab/src/baobab.c:915
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "چوڭايتىش"
 
-#: ../baobab/src/baobab.c:919
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "كىچىكلىتىش"
 
-#: ../baobab/src/baobab.c:923
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "ئېكران كەسمىسى ساقلا"
 
-#: ../baobab/src/baobab.c:1109
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "چەمبەر دىئاگرامما كۆرسەت"
 
-#: ../baobab/src/baobab.c:1111
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "دەرەخسىمان دىئاگرامما كۆرسەت"
 
-#: ../baobab/src/baobab.c:1216
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "نەشرىنى كۆرسەت"
 
-#: ../baobab/src/baobab.c:1217
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[مۇندەرىجە]"
 
-#: ../baobab/src/baobab.c:1247
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "پارامېتىرلار بەك كۆپ. پەقەت بىرلا مۇندەرىجە بەلگىلىگىلى بولىدۇ."
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "ھېچقانداق ئېگەرلەش نۇقتىسى بايقالمىدى."
 
-#: ../baobab/src/baobab.c:1266
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "ئېگەرلەش نۇقتىسى بولمىسا دىسكا ئىشلىتىش ئەھۋالىنى تەھلىل قىلغىلى بولمايدۇ."
 
@@ -443,61 +441,61 @@ msgstr "چوڭلۇقى"
 msgid "Contents"
 msgstr "مەزمۇن"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "قىسقۇچ تاللا"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "يوشۇرۇن قىسقۇچنى كۆرسەت(_S)"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "شاللىۋەتكەن قىسقۇچنى تەكشۈرەلمىدى!"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "\"%s\" ئىناۋەتلىك قىسقۇچ ئەمەس"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "دىسكا ئىشلىتىلىشىنى تەھلىل قىلالمىدى."
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "قىسقۇچ ئاچ(_O)"
 
-#: ../baobab/src/baobab-utils.c:370
+#: ../baobab/src/baobab-utils.c:332
 #: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "ئەخلەتخانىغا يۆتكە(_V)"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "\"%s\" قىسقۇچنى ئاچالمايدۇ"
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "قىسقۇچنى كۆرسىتەلەيدىغان كۆرگۈچ ئورنىتىلمىغان."
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "\"%s\" نى ئەخلەتخانىغا يۆتكىيەلمەيدۇ"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "ھۆججەتنى ئەخلەتخانىغا يۆتكىيەلمەيدۇ"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "تەپسىلاتى: %s"
 
-#: ../baobab/src/baobab-utils.c:522
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "ياردەم كۆرسىتىشتە خاتالىق كۆرۈلدى."
 
@@ -1727,7 +1725,7 @@ msgstr "%s-ئېكران كەسمىسى.png"
 #: ../gnome-screenshot/gnome-screenshot.c:902
 #, c-format
 msgid "Screenshot-%s-%d.png"
-msgstr "%s-%d-ئېكران كەسمىسى.png"
+msgstr "ئېكران كەسمىسى-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
@@ -2297,7 +2295,6 @@ msgstr "ئاچقۇز(_H)"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
-#| msgid "Open _Folder"
 msgid "Open Containing _Folder"
 msgstr "قىسقۇچنى ئاچ(_F)"
 
