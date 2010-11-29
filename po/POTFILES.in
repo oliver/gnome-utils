@@ -70,3 +70,7 @@ logview/logview-log.c
 logview/logview-loglist.c
 logview/logview-main.c
 logview/logview-window.c
+font-viewer/font-thumbnailer.c
+font-viewer/font-view.c
+font-viewer/gnome-font-viewer.desktop.in.in
+font-viewer/fontilus.schemas.in
