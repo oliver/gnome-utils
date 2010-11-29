@@ -1,4 +1,62 @@
 ====================================================================
+GNOME Utilities 2.91.1 (29th November 2010) - "Crackity Jones"
+
+Second unstable release of the 2.91 release cycle.
+
+gnome-font-viewer has now been resurrected from gnome-control-center and
+moved to gnome-utils.
+
+Carles Ferrando (1):
+      Updated Catalan (Valencian) translation
+
+Cosimo Cecchi (4):
+      font-viewer: import from gnome-control-center (#632205)
+      misc: update README and MAINTAINERS for font-viewer
+      font-viewer: commit one missing header
+      i18n: fix POTFILES.in
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Gheyret T.Kenji (2):
+      Added UG translation
+      Added UG translation
+
+Ivar Smolin (1):
+      [l10n] Updated Estonian translation
+
+Matej Urbančič (9):
+      Updated Slovenian translation
+      Added sl for Slovenian translation
+      Updated Slovenian translation
+      Updated Slovenian translation
+      Added sl for Slovenian translation
+      Updated Slovenian translation
+      Added sl for Slovenian translation
+      Added sl for Slovenian translation
+      Updated Slovenian translation
+
+Paolo Borelli (6):
+      Gtk3 compile fix that git lost in the shuffle
+      Use gtk_paned_new instead gtk_[h|v]paned_new
+      [baobab] Cleanup open_file_with_application util
+      Remove the need of the BaobabFS struct
+      [logview] Fix uninitialized variable
+      [baobab] remove unused variable
+
+Theppitak Karoonboonyanan (1):
+      Updated Thai translation.
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+Yasumichi Akahoshi (1):
+      Updated Japanese translation.
+
+Yinghua Wang (1):
+      Update Simplified Chinese translation.
+
+====================================================================
 GNOME Utilities 2.91.0 (20th October 2010) - "Amongst the Waves"
 
 First unstable release of the 2.91 release cycle.
