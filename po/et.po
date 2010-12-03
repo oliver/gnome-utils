@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-10-29 00:35+0000\n"
-"PO-Revision-Date: 2010-11-02 07:38+0200\n"
+"POT-Creation-Date: 2010-11-29 20:09+0000\n"
+"PO-Revision-Date: 2010-12-03 10:19+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -245,7 +245,7 @@ msgid "Mount Point"
 msgstr "Ühenduspunkt"
 
 msgid "Filesystem Type"
-msgstr "Failisüsteemi tüüp"
+msgstr "Failisüsteemi liik"
 
 msgid "Total Size"
 msgstr "Kogusuurus"
@@ -2227,7 +2227,7 @@ msgid "List View"
 msgstr "Nimekirjavaade"
 
 msgid "Type"
-msgstr "Tüüp"
+msgstr "Liik"
 
 msgid "Date Modified"
 msgstr "Viimase muutmise aeg"
@@ -2580,6 +2580,111 @@ msgstr "Versioon: "
 
 msgid "Could not open the following files:"
 msgstr "Järgnevaid faile pole võimalik avada:"
+
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Pisipildiks tehtav tekst (vaikimisi: Aa)"
+
+msgid "TEXT"
+msgstr "TEKST"
+
+msgid "Font size (default: 64)"
+msgstr "Kirjatüübi suurus (vaikimisi: 64)"
+
+msgid "SIZE"
+msgstr "SUURUS"
+
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "KIRJATÜÜBI-FAIL VÄLJUNDFAIL"
+
+msgid "Name:"
+msgstr "Nimi:"
+
+msgid "Style:"
+msgstr "Laad:"
+
+msgid "Type:"
+msgstr "Liik:"
+
+msgid "Size:"
+msgstr "Suurus:"
+
+msgid "Version:"
+msgstr "Versioon:"
+
+msgid "Copyright:"
+msgstr "Autoriõigused:"
+
+msgid "Description:"
+msgstr "Kirjeldus:"
+
+msgid "Installed"
+msgstr "Paigaldatud"
+
+msgid "Install Failed"
+msgstr "Tõrge paigaldamisel"
+
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "Kasutamine: %s kirjatüübi-fail\n"
+
+msgid "I_nstall Font"
+msgstr "_Paigalda kirjatüüp"
+
+msgid "Font Viewer"
+msgstr "Kirjatüüpide näitaja"
+
+msgid "Preview fonts"
+msgstr "Kirjatüüpide vaatlemine"
+
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr ""
+
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr ""
+
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr ""
+
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr ""
+
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr ""
+
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr ""
+
+msgid "Thumbnail command for OpenType fonts"
+msgstr ""
+
+msgid "Thumbnail command for PCF fonts"
+msgstr ""
+
+msgid "Thumbnail command for TrueType fonts"
+msgstr ""
+
+msgid "Thumbnail command for Type1 fonts"
+msgstr ""
+
+msgid "Whether to thumbnail OpenType fonts"
+msgstr ""
+
+msgid "Whether to thumbnail PCF fonts"
+msgstr ""
+
+msgid "Whether to thumbnail TrueType fonts"
+msgstr ""
+
+msgid "Whether to thumbnail Type1 fonts"
+msgstr ""
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "Kettakasutuse analüsaatori eelistused"
