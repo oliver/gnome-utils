@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-21 00:56+0200\n"
-"PO-Revision-Date: 2010-10-21 00:57+0200\n"
+"POT-Creation-Date: 2010-12-05 01:53+0200\n"
+"PO-Revision-Date: 2010-12-05 02:08+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,56 +37,17 @@ msgstr "גדלי התיקיות והמקום פנוי בכונן נבדקים"
 msgid "Disk Usage Analyzer"
 msgstr "מנתח השימוש בכונן"
 
-#: ../baobab/data/baobab.schemas.in.h:1
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "A list of uri for partitions to be excluded from scanning."
 
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Chart currently active"
-msgstr "Chart currently active"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Enable monitoring of home directory"
-msgstr "Enable monitoring of home directory"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
-msgid "Excluded partitions URIs"
-msgstr "Exluded partitions uris"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Status Bar is Visible"
-msgstr "Status Bar is Visible"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
-msgid "Toolbar is Visible"
-msgstr "Toolbar is Visible"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
-msgid "Whether any change to the home directory should be monitored."
-msgstr "Whether any change to the home directory should be monitored."
-
-#: ../baobab/data/baobab.schemas.in.h:8
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "Whether the status bar at the bottom of main window should be visible."
-
-#: ../baobab/data/baobab.schemas.in.h:9
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
-msgid "Whether the toolbar should be visible in main window."
-msgstr "Whether the toolbar should be visible in main window."
-
-#: ../baobab/data/baobab.schemas.in.h:10
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-msgid "Which type of chart should be displayed."
-msgstr "Which type of chart should be displayed."
-
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr "Active Chart"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "Exluded partitions uris"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
 msgid "Monitor Home"
@@ -95,6 +56,26 @@ msgstr "Monitor Home"
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
 msgstr "Statusbar is Visible"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "Toolbar is Visible"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Whether any change to the home directory should be monitored."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "Whether the status bar at the bottom of main window should be visible."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Whether the toolbar should be visible in main window."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+msgid "Which type of chart should be displayed."
+msgstr "Which type of chart should be displayed."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -198,101 +179,101 @@ msgstr "_סרגל כלים"
 msgid "_View"
 msgstr "תצוגה"
 
-#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "בסריקה..."
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "קיבולת מערכת הקבצים:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "בשימוש:"
 
-#: ../baobab/src/baobab.c:183
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "פנוי:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "האחוזים בחישוב..."
 
-#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "לאחר הכנות"
 
-#: ../baobab/src/baobab.c:387
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "קיבולת מערכת הקבצים"
 
-#: ../baobab/src/baobab.c:409
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "שימוש במערכת הקבצים"
 
-#: ../baobab/src/baobab.c:450
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "מכיל קישורים קשיחים עבור:"
 
-#: ../baobab/src/baobab.c:459
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "פריט אחד"
 msgstr[1] "%5d פריטים"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "לא ניתן להפעיל את המעקב"
 
-#: ../baobab/src/baobab.c:587
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "לא יתבצע מעקב אחר שינויים בתיקיית הבית."
 
-#: ../baobab/src/baobab.c:911
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "העברה לתיקיית ההורה"
 
-#: ../baobab/src/baobab.c:915
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "התקרבות"
 
-#: ../baobab/src/baobab.c:919
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "התרחקות"
 
-#: ../baobab/src/baobab.c:923
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "שמירת צילום המסך"
 
-#: ../baobab/src/baobab.c:1109
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "הצגה כתרשים טבעות"
 
-#: ../baobab/src/baobab.c:1111
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "הצגה כתרשים מפת עץ"
 
-#: ../baobab/src/baobab.c:1216
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "הצגת הגרסה"
 
-#: ../baobab/src/baobab.c:1217
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORY]"
 
-#: ../baobab/src/baobab.c:1247
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "יותר מדי ארגומנטים. ניתן לציין תיקייה אחת בלבד."
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "לא זוהו נקודות עיגון."
 
-#: ../baobab/src/baobab.c:1266
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "ללא נקודות עיגון לא ניתן לנתח את השימוש בכונן."
 
@@ -475,61 +456,61 @@ msgstr "גודל"
 msgid "Contents"
 msgstr "תכנים"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "בחירת תיקייה"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "הצגת תיקיות _מוסתרות"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "לא ניתן לבדוק תיקייה שנופתה!"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "\"%s\" אינה תיקייה תקינה"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "לא ניתן לנתח את השימוש בכונן."
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "_פתיחת תיקייה"
 
-#: ../baobab/src/baobab-utils.c:370
+#: ../baobab/src/baobab-utils.c:332
 #: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "ה_עברה לאשפה"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "לא ניתן לפתוח את התיקייה \"%s\""
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "אין מציג מותקן המסוגל להציג את התיקייה."
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "לא ניתן להעביר את  \"%s\" לאשפה"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "לא ניתן להעביר קובץ לאשפה"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "פרטים: %s"
 
-#: ../baobab/src/baobab-utils.c:522
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "אירעה שגיאה בהצגת העזרה."
 
@@ -3366,6 +3347,156 @@ msgstr "גרסה:"
 #: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "לא ניתן לפתוח את הקבצים הבאים:"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "טקסט להצגה בתמונה הממוזערת (בררת מחדל: Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "TEXT"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "גודל הגופן (בררת מחדל: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../font-viewer/font-view.c:289
+msgid "Name:"
+msgstr "שם:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "סגנון:"
+
+#: ../font-viewer/font-view.c:304
+msgid "Type:"
+msgstr "סוג:"
+
+#: ../font-viewer/font-view.c:308
+msgid "Size:"
+msgstr "גודל:"
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+msgid "Version:"
+msgstr "גרסה:"
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "זכויות יוצרים:"
+
+#: ../font-viewer/font-view.c:360
+msgid "Description:"
+msgstr "תיאור:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "מותקן"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "ההתקנה נכשלה"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "Usage: %s fontfile\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "הת_קנת גופן"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "מציג הגופנים"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "תצוגה מקדימה של הגופנים"
+
+#: ../font-viewer/fontilus.schemas.in.h:1
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr "If set to true, then OpenType fonts will be thumbnailed."
+
+#: ../font-viewer/fontilus.schemas.in.h:2
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr "If set to true, then PCF fonts will be thumbnailed."
+
+#: ../font-viewer/fontilus.schemas.in.h:3
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr "If set to true, then TrueType fonts will be thumbnailed."
+
+#: ../font-viewer/fontilus.schemas.in.h:4
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr "If set to true, then Type1 fonts will be thumbnailed."
+
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+
+#: ../font-viewer/fontilus.schemas.in.h:6
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr "Set this key to the command used to create thumbnails for PCF fonts."
+
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+
+#: ../font-viewer/fontilus.schemas.in.h:8
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr "Set this key to the command used to create thumbnails for Type1 fonts."
+
+#: ../font-viewer/fontilus.schemas.in.h:9
+msgid "Thumbnail command for OpenType fonts"
+msgstr "Thumbnail command for OpenType fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:10
+msgid "Thumbnail command for PCF fonts"
+msgstr "Thumbnail command for PCF fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:11
+msgid "Thumbnail command for TrueType fonts"
+msgstr "Thumbnail command for TrueType fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:12
+msgid "Thumbnail command for Type1 fonts"
+msgstr "Thumbnail command for Type1 fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:13
+msgid "Whether to thumbnail OpenType fonts"
+msgstr "Whether to thumbnail OpenType fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:14
+msgid "Whether to thumbnail PCF fonts"
+msgstr "Whether to thumbnail PCF fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:15
+msgid "Whether to thumbnail TrueType fonts"
+msgstr "Whether to thumbnail TrueType fonts"
+
+#: ../font-viewer/fontilus.schemas.in.h:16
+msgid "Whether to thumbnail Type1 fonts"
+msgstr "Whether to thumbnail Type1 fonts"
+
+#~ msgid "Chart currently active"
+#~ msgstr "Chart currently active"
+
+#~ msgid "Enable monitoring of home directory"
+#~ msgstr "Enable monitoring of home directory"
+
+#~ msgid "Status Bar is Visible"
+#~ msgstr "Status Bar is Visible"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "העדפות מנתח השימוש בכונן"
