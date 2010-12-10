@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-03 00:15+0100\n"
-"PO-Revision-Date: 2010-11-03 00:24+0100\n"
+"POT-Creation-Date: 2010-12-10 20:53+0100\n"
+"PO-Revision-Date: 2010-12-10 20:56+0100\n"
 "Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
 "Language-Team: Galician <gnome-gl-list@gnome.org>\n"
 "Language: gl\n"
@@ -188,101 +188,101 @@ msgstr "Barra de _ferramentas"
 msgid "_View"
 msgstr "_Ver"
 
-#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "Analizando..."
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "Capacidade total do sistema de ficheiros:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "usado:"
 
-#: ../baobab/src/baobab.c:183
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "dispoñíbel:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Calculando as barras de porcentaxe..."
 
-#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Listo"
 
-#: ../baobab/src/baobab.c:387
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "Capacidade total do sistema de ficheiros"
 
-#: ../baobab/src/baobab.c:409
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "Uso total do sistema de ficheiros"
 
-#: ../baobab/src/baobab.c:450
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "contén ligazóns duras para:"
 
-#: ../baobab/src/baobab.c:459
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d elemento"
 msgstr[1] "%5d elementos"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "Non foi posíbel inicializar a monitorización"
 
-#: ../baobab/src/baobab.c:587
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "Non se monitorizarán os cambios no seu cartafol persoal."
 
-#: ../baobab/src/baobab.c:911
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "Mover a un cartafol pai"
 
-#: ../baobab/src/baobab.c:915
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "Ampliar"
 
-#: ../baobab/src/baobab.c:919
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "Reducir"
 
-#: ../baobab/src/baobab.c:923
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "Gardar a captura de pantalla"
 
-#: ../baobab/src/baobab.c:1109
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "Visualizar como gráfica de aneis"
 
-#: ../baobab/src/baobab.c:1111
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "Visualizar como diagrama en árbore"
 
-#: ../baobab/src/baobab.c:1216
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "Mostrar a versión"
 
-#: ../baobab/src/baobab.c:1217
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[DIRECTORY]"
 
-#: ../baobab/src/baobab.c:1247
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Demasiados argumentos. Só se pode especificar un cartafol."
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "Non foi posíbel detectar ningún punto de montaxe."
 
-#: ../baobab/src/baobab.c:1266
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "Sen puntos de montaxe non é posíbel analizar o uso do disco."
 
@@ -465,61 +465,61 @@ msgstr "Tamaño"
 msgid "Contents"
 msgstr "Contidos"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "Seleccionar cartafol"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "Mo_strar os cartafoles ocultos"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "Non é posíbel comprobar un cartafol excluído!"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "«%s» non é un cartafol válido"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "Non foi posíbel analizar o uso do disco."
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "_Abrir cartafol"
 
-#: ../baobab/src/baobab-utils.c:370
+#: ../baobab/src/baobab-utils.c:332
 #: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "Mov_er ao lixo"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "Non foi posíbel abrir o cartafol «%s»"
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "Non hai instalado ningún visualizador capaz de mostrar o cartafol."
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "Non foi posíbel mover «%s» ao lixo"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "Non foi posíbel mover o ficheiro ao lixo"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "Detalles: %s"
 
-#: ../baobab/src/baobab-utils.c:522
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "Produciuse un erro ao mostrar a axuda."
 
@@ -3396,6 +3396,161 @@ msgstr "Versión: "
 #: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "Non foi posíbel abrir os seguintes ficheiros:"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Texto para miniaturizar (predeterminado: Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "TEXTO"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "Tamaño do tipo de letra (predeterminado: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "TAMAÑO"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FICHEIRO-DE-TIPOGRAFIA FICHEIRO-DE-SAÍDA"
+
+#: ../font-viewer/font-view.c:289
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "Estilo:"
+
+#: ../font-viewer/font-view.c:304
+msgid "Type:"
+msgstr "Tipo:"
+
+#: ../font-viewer/font-view.c:308
+msgid "Size:"
+msgstr "Tamaño:"
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+msgid "Version:"
+msgstr "Versión:"
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "Copyright:"
+
+#: ../font-viewer/font-view.c:360
+msgid "Description:"
+msgstr "Descrición:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "Instalado"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "Produciuse un fallo na instalación"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "Uso: %s ficheiro de tipo de letra\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "I_nstalar tipo de letra"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "Visor de tipos de letra"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "Vista previa de tipos de letra"
+
+#: ../font-viewer/fontilus.schemas.in.h:1
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr ""
+"Se está estabelecido a «true», entón os tipos de letra OpenType serán "
+"miniaturizados"
+
+#: ../font-viewer/fontilus.schemas.in.h:2
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr ""
+"Se está estabelecido como «true», entón os tipos de letra PCF serán "
+"miniaturizados."
+
+#: ../font-viewer/fontilus.schemas.in.h:3
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr ""
+"Se está estabelecido como «true», entón os tipos de letra TrueType serán "
+"miniaturizados."
+
+#: ../font-viewer/fontilus.schemas.in.h:4
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr ""
+"Se está estabelecido como «true», entón os tipos de letra Type1 serán "
+"miniaturizados."
+
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+"Definir esta chave na orde usada para crear miniaturas para os tipos de "
+"letra OpenType."
+
+#: ../font-viewer/fontilus.schemas.in.h:6
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr ""
+"Definir esta chave na orde usada para crear miniaturas para os tipos de "
+"letra PCF."
+
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+"Definir esta chave na orde usada para crear miniaturas para os tipos de "
+"letra TrueType."
+
+#: ../font-viewer/fontilus.schemas.in.h:8
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr ""
+"Definir esta chave na orde usada para crear miniaturas para os tipos de "
+"letra Type1."
+
+#: ../font-viewer/fontilus.schemas.in.h:9
+msgid "Thumbnail command for OpenType fonts"
+msgstr "Orde para miniaturizar os tipos de letra OpenType"
+
+#: ../font-viewer/fontilus.schemas.in.h:10
+msgid "Thumbnail command for PCF fonts"
+msgstr "Orde para miniaturizar os tipos de letra PCF"
+
+#: ../font-viewer/fontilus.schemas.in.h:11
+msgid "Thumbnail command for TrueType fonts"
+msgstr "Orde para miniaturizar os tipos de letra TrueType"
+
+#: ../font-viewer/fontilus.schemas.in.h:12
+msgid "Thumbnail command for Type1 fonts"
+msgstr "Orde para miniaturizar os tipos de letra Type1"
+
+#: ../font-viewer/fontilus.schemas.in.h:13
+msgid "Whether to thumbnail OpenType fonts"
+msgstr "Indica se se miniaturizan os tipos de letra OpenType"
+
+#: ../font-viewer/fontilus.schemas.in.h:14
+msgid "Whether to thumbnail PCF fonts"
+msgstr "Indica se se miniaturizan os tipos de letra PCF"
+
+#: ../font-viewer/fontilus.schemas.in.h:15
+msgid "Whether to thumbnail TrueType fonts"
+msgstr "Indica se se miniaturizan os tipos de letra TrueType"
+
+#: ../font-viewer/fontilus.schemas.in.h:16
+msgid "Whether to thumbnail Type1 fonts"
+msgstr "Indica se se miniaturizan os tipos de letra Type1"
 
 #~ msgid "Chart currently active"
 #~ msgstr "Gráfica activa actualmente"
