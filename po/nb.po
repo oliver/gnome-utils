@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 2.91.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-16 20:38+0200\n"
-"PO-Revision-Date: 2010-10-16 20:39+0200\n"
+"POT-Creation-Date: 2010-12-17 14:20+0100\n"
+"PO-Revision-Date: 2010-12-17 14:22+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian/Bokmaal <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -26,56 +26,17 @@ msgstr "Sjekk mappestørrelser og tilgjengelig diskplass"
 msgid "Disk Usage Analyzer"
 msgstr "Analyse av diskplass"
 
-#: ../baobab/data/baobab.schemas.in.h:1
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "En liste med URIer til partisjoner som skal ekskluderes fra søket."
 
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Chart currently active"
-msgstr "Aktivt plott"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Enable monitoring of home directory"
-msgstr "Aktiver overvåking av hjemmekatalog"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
-msgid "Excluded partitions URIs"
-msgstr "URIer til ekskluderte partisjoner"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Status Bar is Visible"
-msgstr "Statuslinjen er synlig"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
-msgid "Toolbar is Visible"
-msgstr "Verktøylinjen er synlig"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
-msgid "Whether any change to the home directory should be monitored."
-msgstr "Om endringer i hjemmekatalogen skal overvåkes."
-
-#: ../baobab/data/baobab.schemas.in.h:8
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "Hvorvidt statuslinjen nederst i hovedvinduet skal være synlig."
-
-#: ../baobab/data/baobab.schemas.in.h:9
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
-msgid "Whether the toolbar should be visible in main window."
-msgstr "Hvorvidt verktøylinjen skal være synlig i hovedvinduet."
-
-#: ../baobab/data/baobab.schemas.in.h:10
-#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-msgid "Which type of chart should be displayed."
-msgstr "Type plott som skal vises."
-
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
 msgid "Active Chart"
 msgstr "Aktivt plott"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "URIer til ekskluderte partisjoner"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
 msgid "Monitor Home"
@@ -84,6 +45,26 @@ msgstr "Overvåk hjemmekatalog"
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
 msgstr "Statuslinjen er synlig"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "Verktøylinjen er synlig"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Om endringer i hjemmekatalogen skal overvåkes."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "Hvorvidt statuslinjen nederst i hovedvinduet skal være synlig."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Hvorvidt verktøylinjen skal være synlig i hovedvinduet."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+msgid "Which type of chart should be displayed."
+msgstr "Type plott som skal vises."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -187,101 +168,101 @@ msgstr "Verk_tøylinje"
 msgid "_View"
 msgstr "_Vis"
 
-#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "Søker ..."
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "Total kapasitet for filsystemet:"
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "brukt:"
 
-#: ../baobab/src/baobab.c:183
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "tilgjengelig:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Beregner prosentsøylene ..."
 
-#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Klar"
 
-#: ../baobab/src/baobab.c:387
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "Total kapasitet for filsystemet"
 
-#: ../baobab/src/baobab.c:409
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "Total benyttet plass på filsystemet"
 
-#: ../baobab/src/baobab.c:450
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "inneholder harde lenker for:"
 
-#: ../baobab/src/baobab.c:459
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d oppføring"
 msgstr[1] "%5d oppføringer"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "Kunne ikke initiere overvåking"
 
-#: ../baobab/src/baobab.c:587
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "Endringer i hjemmekatalogen vil ikke overvåkes."
 
-#: ../baobab/src/baobab.c:911
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "Flytt til opphavsmappe"
 
-#: ../baobab/src/baobab.c:915
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "Zoom inn"
 
-#: ../baobab/src/baobab.c:919
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "Zoom ut"
 
-#: ../baobab/src/baobab.c:923
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "Lagre skjermdump"
 
-#: ../baobab/src/baobab.c:1109
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "Vis som ringdiagram"
 
-#: ../baobab/src/baobab.c:1111
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "Vis som trekartdiagram"
 
-#: ../baobab/src/baobab.c:1216
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "Vis versjon"
 
-#: ../baobab/src/baobab.c:1217
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[KATALOG]"
 
-#: ../baobab/src/baobab.c:1247
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "For mange argumenter. Du kan kun oppgi en katalog."
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "Fant ingen monterinspunkter."
 
-#: ../baobab/src/baobab.c:1266
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "Diskbruk kan ikke analyseres uten monteringspunkter."
 
@@ -448,7 +429,7 @@ msgstr ""
 msgid "_Rescan"
 msgstr "Oppdate_r"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2407
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2389
 msgid "Folder"
 msgstr "Mappe"
 
@@ -456,7 +437,7 @@ msgstr "Mappe"
 msgid "Usage"
 msgstr "Bruk"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2420
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2402
 msgid "Size"
 msgstr "Størrelse"
 
@@ -464,61 +445,61 @@ msgstr "Størrelse"
 msgid "Contents"
 msgstr "Innhold"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "Velg mappe"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "Vi_s skjulte mapper"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "Kan ikke sjekke en utelukket mappe!"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "«%s» er ikke en gyldig mappe"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "Kunne ikke analysere diskbruk"
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "_Åpne mappe"
 
-#: ../baobab/src/baobab-utils.c:370
-#: ../gsearchtool/gsearchtool-callbacks.c:1205
+#: ../baobab/src/baobab-utils.c:332
+#: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "Fl_ytt til papirkurven"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "Kunne ikke åpne mappe «%s»."
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "Du har ikke installert visningsprogram som kan vise mappen."
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "Kunne ikke flytte «%s» til papirkurven"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "Kunne ikke flytte filen til papirkurven"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "Detaljer: %s"
 
-#: ../baobab/src/baobab-utils.c:522
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "Det oppsto en feil under visning av hjelp."
 
@@ -571,8 +552,8 @@ msgstr ""
 "Kjartan Maraas <kmaraas@gnome.org>\n"
 "Espen Stefansen <libbe AT stefansen DOT net>, 2007"
 
-#: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:504
-#: ../gsearchtool/gsearchtool-callbacks.c:843
+#: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
+#: ../gsearchtool/gsearchtool-callbacks.c:811
 msgid "The document does not exist."
 msgstr "Dokumentet eksisterer ikke."
 
@@ -626,7 +607,7 @@ msgstr "Sjekk orddefinisjoner og staving i en ordbok på nettet"
 #: ../gnome-dictionary/src/gdict-about.c:78
 #: ../gnome-dictionary/src/gdict-app.c:385
 #: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1947
+#: ../gnome-dictionary/src/gdict-window.c:1946
 msgid "Dictionary"
 msgstr "Ordbok"
 
@@ -1069,7 +1050,7 @@ msgid "The filename used by this dictionary source"
 msgstr "Filnavn som brukes av denne ordbokkilden"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2383
+#: ../gsearchtool/gsearchtool.c:2365
 msgid "Name"
 msgstr "Navn"
 
@@ -1423,17 +1404,17 @@ msgid "Unable to create a context"
 msgstr "Kan ikke opprette en kontekst"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2078
+#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "Kan ikke koble til GConf"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2091
+#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "Kan ikke motta varsling for brukervalg"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2104
+#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "Kan ikke motta varsling for dokumentets skrift"
 
@@ -1470,15 +1451,15 @@ msgstr "Dette vil fjerne ordbokkilden fra listen permanent."
 msgid "Unable to remove source '%s'"
 msgstr "Kan ikke fjerne kilde «%s»"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:666
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
 msgid "Add a new dictionary source"
 msgstr "Legg til ny ordbokkilde"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:672
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
 msgid "Remove the currently selected dictionary source"
 msgstr "Fjern valgt ordbokkilde"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:685
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
 msgid "Set the font used for printing the definitions"
 msgstr "Sett skrift til bruk for utskrift av definisjoner"
 
@@ -1745,7 +1726,7 @@ msgstr "T_a skjermdump etter"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "seconds"
 msgstr "sekunder"
 
@@ -1759,15 +1740,15 @@ msgstr "Ta skjermdump"
 msgid "Effects"
 msgstr "Effekter"
 
-#: ../gnome-screenshot/gnome-screenshot.c:531
+#: ../gnome-screenshot/gnome-screenshot.c:530
 msgid "Take _Screenshot"
 msgstr "Ta _skjermdump"
 
-#: ../gnome-screenshot/gnome-screenshot.c:657
+#: ../gnome-screenshot/gnome-screenshot.c:656
 msgid "Error while saving screenshot"
 msgstr "Feil ved lagring av skjermdump"
 
-#: ../gnome-screenshot/gnome-screenshot.c:660
+#: ../gnome-screenshot/gnome-screenshot.c:659
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1778,15 +1759,15 @@ msgstr ""
 " Feilen var %s.\n"
 " Vennligst velg en annen lokasjon og prøv igjen."
 
-#: ../gnome-screenshot/gnome-screenshot.c:792
+#: ../gnome-screenshot/gnome-screenshot.c:791
 msgid "Screenshot taken"
 msgstr "Skjermdump tatt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:846
+#: ../gnome-screenshot/gnome-screenshot.c:845
 msgid "Unable to take a screenshot of the current window"
 msgstr "Kan ikke ta skjermdump av dette vinduet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:896
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Skjermdump-%s.png"
@@ -1794,15 +1775,15 @@ msgstr "Skjermdump-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:903
+#: ../gnome-screenshot/gnome-screenshot.c:902
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Skjermdump-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:913
-#: ../gnome-screenshot/screenshot-dialog.c:353
+#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/screenshot-dialog.c:346
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Skjermdump.png"
@@ -1810,48 +1791,48 @@ msgstr "Skjermdump.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:920
+#: ../gnome-screenshot/gnome-screenshot.c:919
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Skjermdump-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1284
 msgid "Grab a window instead of the entire screen"
 msgstr "Dump et vindu i stedet for hele skjermen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1285
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Dump en del av skjermen i stedet for hele området"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1286
 msgid "Include the window border with the screenshot"
 msgstr "Ta med vinduskant i skjermdumpet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1287
 msgid "Remove the window border from the screenshot"
 msgstr "Fjern vinduskanten i skjermdumpet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1288
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Ta skjermdump etter oppgitt pause [i sekunder]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effekt som skal brukes på vinduskanten (skygge, kant eller ingen)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1289
 msgid "effect"
 msgstr "effekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 msgid "Interactively set options"
 msgstr "Spør etter alternativer"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1302
+#: ../gnome-screenshot/gnome-screenshot.c:1301
 msgid "Take a picture of the screen"
 msgstr "Ta et bilde av skjermen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1320
+#: ../gnome-screenshot/gnome-screenshot.c:1319
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1939,7 +1920,7 @@ msgstr "Antall sekunder pause før skjermdumpet tas."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Vindusspesifikt skjermdump (utgått)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:236
+#: ../gnome-screenshot/screenshot-dialog.c:229
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1947,7 +1928,7 @@ msgstr ""
 "Fil med definisjon av brukergrensesnitt for skjermdumpprogrammet mangler.\n"
 "Vennligst sjekk gnome-utils-installasjonen."
 
-#: ../gnome-screenshot/screenshot-dialog.c:257
+#: ../gnome-screenshot/screenshot-dialog.c:250
 msgid "Select a folder"
 msgstr "Velg en mappe"
 
@@ -1973,7 +1954,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Ukjent feil under lagring av skjermdump til disk"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:888
+#: ../gnome-screenshot/screenshot-utils.c:884
 msgid "Untitled Window"
 msgstr "Vindu uten tittel"
 
@@ -1987,7 +1968,7 @@ msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "Filen «%s» eksisterer allerede. Vil du erstatte den?"
 
 #: ../gnome-screenshot/screenshot-xfer.c:82
-#: ../gsearchtool/gsearchtool-callbacks.c:1724
+#: ../gsearchtool/gsearchtool-callbacks.c:1680
 msgid "_Replace"
 msgstr "E_rstatt"
 
@@ -2334,140 +2315,140 @@ msgstr "Denne nøkkelen bestemmer om søkeverktøyet skal startes maksimert."
 msgid "Could not open help document."
 msgstr "Kunne ikke åpne hjelpdokumentet."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:345
+#: ../gsearchtool/gsearchtool-callbacks.c:341
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "Er du sikker på at du vil åpne %d dokument?"
 msgstr[1] "Er du sikker på at du vil åpne %d dokumenter?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:350
-#: ../gsearchtool/gsearchtool-callbacks.c:547
+#: ../gsearchtool/gsearchtool-callbacks.c:346
+#: ../gsearchtool/gsearchtool-callbacks.c:531
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
 msgstr[0] "Dette vil åpne %d separat mappe."
 msgstr[1] "Dette vil åpne %d separate mapper."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:390
+#: ../gsearchtool/gsearchtool-callbacks.c:382
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "Kunne ikke åpne dokument «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:419
+#: ../gsearchtool/gsearchtool-callbacks.c:407
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "Kunne ikke åpne mappe «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:427
+#: ../gsearchtool/gsearchtool-callbacks.c:415
 msgid "The nautilus file manager is not running."
 msgstr "Filhåndtereren Nautilus kjører ikke."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:519
+#: ../gsearchtool/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "Du har ikke installert visningsprogram som kan vise dokumentet."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:542
+#: ../gsearchtool/gsearchtool-callbacks.c:526
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
 msgstr[0] "Er du sikker på at du vil åpne %d mappe?"
 msgstr[1] "Er du sikker på at du vil åpne %d mapper?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:695
+#: ../gsearchtool/gsearchtool-callbacks.c:675
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "Kunne ikke flytte «%s» til papirkurven."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:726
+#: ../gsearchtool/gsearchtool-callbacks.c:702
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "Vil du slette «%s» permanent?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:729
+#: ../gsearchtool/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr ""
 "Papirkurven er ikke tilgjengelig. Kunne ikke flytte «%s» til papirkurven."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:768
+#: ../gsearchtool/gsearchtool-callbacks.c:740
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "Kan ikke slette «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:879
+#: ../gsearchtool/gsearchtool-callbacks.c:847
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "Sletting av «%s» feilet: %s."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:891
+#: ../gsearchtool/gsearchtool-callbacks.c:859
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "Flytting av «%s» feilet: %s."
 
 #. Popup menu item: Open
-#: ../gsearchtool/gsearchtool-callbacks.c:1019
-#: ../gsearchtool/gsearchtool-callbacks.c:1049
+#: ../gsearchtool/gsearchtool-callbacks.c:987
+#: ../gsearchtool/gsearchtool-callbacks.c:1017
 msgid "_Open"
 msgstr "_Åpne"
 
 #. Popup menu item: Open with (default)
-#: ../gsearchtool/gsearchtool-callbacks.c:1074
+#: ../gsearchtool/gsearchtool-callbacks.c:1042
 #, c-format
 msgid "_Open with %s"
 msgstr "_Åpne med %s"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1109
+#: ../gsearchtool/gsearchtool-callbacks.c:1077
 #, c-format
 msgid "Open with %s"
 msgstr "Åpne med %s"
 
 #. Popup menu item: Open With
-#: ../gsearchtool/gsearchtool-callbacks.c:1142
+#: ../gsearchtool/gsearchtool-callbacks.c:1110
 msgid "Open Wit_h"
 msgstr "Åpne me_d"
 
 #. Popup menu item: Open Containing Folder
-#: ../gsearchtool/gsearchtool-callbacks.c:1187
+#: ../gsearchtool/gsearchtool-callbacks.c:1155
 msgid "Open Containing _Folder"
 msgstr "Åpne opphavs_mappe"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1227
+#: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
 msgstr "Lagre re_sultater som..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1609
+#: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
 msgstr "Lagre søkeresultater som..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1640
+#: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
 msgstr "Kunne ikke lagre dokument."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1641
+#: ../gsearchtool/gsearchtool-callbacks.c:1609
 msgid "You did not select a document name."
 msgstr "Kunne valgte ikke et dokumentnavn."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1671
+#: ../gsearchtool/gsearchtool-callbacks.c:1635
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Kunne ikke lagre dokument «%s» til «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1705
+#: ../gsearchtool/gsearchtool-callbacks.c:1665
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Dokument «%s» eksisterer allerede. Vil du erstatte den?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1709
+#: ../gsearchtool/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr ""
 "Hvis du erstatter en eksisterende fil vil innholdet i denne bli overskrevet."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1774
+#: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "Dokumentnavnet du valgte er en mappe."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1812
+#: ../gsearchtool/gsearchtool-callbacks.c:1768
 msgid "You may not have write permissions to the document."
 msgstr "Du har ikke skriverettigheter til dokumentet."
 
@@ -2715,82 +2696,82 @@ msgstr "Det finnes ingen database for programmet locate."
 msgid "Character set conversion failed for \"%s\""
 msgstr "Konvertering av tegnsett feilet for «%s»"
 
-#: ../gsearchtool/gsearchtool.c:510
+#: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
 msgstr "Søker..."
 
-#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
-#: ../gsearchtool/gsearchtool.c:2990
+#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
+#: ../gsearchtool/gsearchtool.c:2972
 msgid "Search for Files"
 msgstr "Søk etter filer"
 
-#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
 msgid "No files found"
 msgstr "Ingen filer funnet"
 
-#: ../gsearchtool/gsearchtool.c:984
+#: ../gsearchtool/gsearchtool.c:980
 msgid "(stopped)"
 msgstr "(stoppet)"
 
-#: ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:986
 msgid "No Files Found"
 msgstr "Ingen filer funnet"
 
-#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:991
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "%'d fil funnet"
 msgstr[1] "%'d filer funnet"
 
-#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
+#: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "%'d fil funnet"
 msgstr[1] "%'d filer funnet"
 
-#: ../gsearchtool/gsearchtool.c:1128
+#: ../gsearchtool/gsearchtool.c:1124
 msgid "Entry changed called for a non entry option!"
 msgstr ""
 "Oppføring endret ble kalt for et alternativ som ikke gjaldt oppføringen!"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1284
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Sett teksten for søkealternativet «Navnet inneholder»"
 
-#: ../gsearchtool/gsearchtool.c:1289
+#: ../gsearchtool/gsearchtool.c:1285
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Sett teksten for søkealternativet «Se i mappe»"
 
-#: ../gsearchtool/gsearchtool.c:1290
+#: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "Sorter filer på en av førlgende: navn, mappe, størrelse, type eller dato"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Sett sorteringsrekkefølgen til synkende. Forvalg er stigende"
 
-#: ../gsearchtool/gsearchtool.c:1292
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
 msgstr "Start et søk automatisk"
 
-#: ../gsearchtool/gsearchtool.c:1298
+#: ../gsearchtool/gsearchtool.c:1294
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Velg søkealternativet «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1301
+#: ../gsearchtool/gsearchtool.c:1297
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Velg og sett søkealternativet «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1408
+#: ../gsearchtool/gsearchtool.c:1404
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Ugyldig flagg gitt til flagget --sortby."
 
-#: ../gsearchtool/gsearchtool.c:1702
+#: ../gsearchtool/gsearchtool.c:1698
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2798,7 +2779,7 @@ msgstr ""
 "\n"
 "... For mange feil å vise..."
 
-#: ../gsearchtool/gsearchtool.c:1716
+#: ../gsearchtool/gsearchtool.c:1712
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
@@ -2806,11 +2787,11 @@ msgstr ""
 "Søkeresultatet kan være ugyldig. Det ble funnet feil under utføring av dette "
 "søket."
 
-#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
+#: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
 msgstr "Vis flere _detaljer"
 
-#: ../gsearchtool/gsearchtool.c:1758
+#: ../gsearchtool/gsearchtool.c:1751
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -2818,147 +2799,147 @@ msgstr ""
 "Søkeresultatet kan være utdatert eller ugyldig. Vil du deaktivere "
 "hurtigsøkfunksjonen?"
 
-#: ../gsearchtool/gsearchtool.c:1783
+#: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
 msgstr "Deaktiver _hurtigsøk"
 
-#: ../gsearchtool/gsearchtool.c:1810
+#: ../gsearchtool/gsearchtool.c:1800
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Kunne ikke sette prosessgruppe-ID for barn %d: %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1835
+#: ../gsearchtool/gsearchtool.c:1825
 msgid "Error parsing the search command."
 msgstr "Feil under lesing av søkekommandoen."
 
-#: ../gsearchtool/gsearchtool.c:1868
+#: ../gsearchtool/gsearchtool.c:1854
 msgid "Error running the search command."
 msgstr "Feil under kjøring av søkekommandoen."
 
-#: ../gsearchtool/gsearchtool.c:1988
+#: ../gsearchtool/gsearchtool.c:1970
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Oppgi en tekstverdi for søkealternativet «%s»."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1993
+#: ../gsearchtool/gsearchtool.c:1975
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "«%s» i %s"
 
-#: ../gsearchtool/gsearchtool.c:1995
+#: ../gsearchtool/gsearchtool.c:1977
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Oppgi en verdi i %s for søkealternativet «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2053
+#: ../gsearchtool/gsearchtool.c:2035
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Fjern «%s»"
 
-#: ../gsearchtool/gsearchtool.c:2054
+#: ../gsearchtool/gsearchtool.c:2036
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Klikk for å fjerne søkealternativet «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2147
+#: ../gsearchtool/gsearchtool.c:2129
 msgid "A_vailable options:"
 msgstr "Til_gjengelige alternativer:"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2158
 msgid "Available options"
 msgstr "Tilgjengelige alternativer"
 
-#: ../gsearchtool/gsearchtool.c:2177
+#: ../gsearchtool/gsearchtool.c:2159
 msgid "Select a search option from the drop-down list."
 msgstr "Velg et søkealternativ fra nedtrekksmenyen."
 
-#: ../gsearchtool/gsearchtool.c:2189
+#: ../gsearchtool/gsearchtool.c:2171
 msgid "Add search option"
 msgstr "Legg til et søkealternativ"
 
-#: ../gsearchtool/gsearchtool.c:2190
+#: ../gsearchtool/gsearchtool.c:2172
 msgid "Click to add the selected available search option."
 msgstr "Klikk for å legge til valgt søkealternativ."
 
-#: ../gsearchtool/gsearchtool.c:2279
+#: ../gsearchtool/gsearchtool.c:2261
 msgid "S_earch results:"
 msgstr "Søk_eresultater:"
 
-#: ../gsearchtool/gsearchtool.c:2323
+#: ../gsearchtool/gsearchtool.c:2305
 msgid "List View"
 msgstr "Listevisning"
 
-#: ../gsearchtool/gsearchtool.c:2432
+#: ../gsearchtool/gsearchtool.c:2414
 msgid "Type"
 msgstr "Type"
 
-#: ../gsearchtool/gsearchtool.c:2444
+#: ../gsearchtool/gsearchtool.c:2426
 msgid "Date Modified"
 msgstr "Dato endret"
 
-#: ../gsearchtool/gsearchtool.c:2760
+#: ../gsearchtool/gsearchtool.c:2742
 msgid "_Name contains:"
 msgstr "_Navnet inneholder:"
 
-#: ../gsearchtool/gsearchtool.c:2774 ../gsearchtool/gsearchtool.c:2775
+#: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "Oppgi et filnavn eller en del av et filnavn med eller uten jokertegn."
 
-#: ../gsearchtool/gsearchtool.c:2775
+#: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
 msgstr "Navn inneholder"
 
-#: ../gsearchtool/gsearchtool.c:2781
+#: ../gsearchtool/gsearchtool.c:2763
 msgid "_Look in folder:"
 msgstr "_Se i mappe:"
 
-#: ../gsearchtool/gsearchtool.c:2787
+#: ../gsearchtool/gsearchtool.c:2769
 msgid "Browse"
 msgstr "Bla gjennom"
 
-#: ../gsearchtool/gsearchtool.c:2796
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Look in folder"
 msgstr "Se i mappe"
 
-#: ../gsearchtool/gsearchtool.c:2796
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Velg mappen eller enheten du vil starte søket i."
 
-#: ../gsearchtool/gsearchtool.c:2814
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Select more _options"
 msgstr "Vis flere _alternativer"
 
-#: ../gsearchtool/gsearchtool.c:2823
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Select more options"
 msgstr "Vis flere alternativer"
 
-#: ../gsearchtool/gsearchtool.c:2823
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Click to expand or collapse the list of available options."
 msgstr "Klikk for å utvide eller slå samme listen med søkealternativer."
 
-#: ../gsearchtool/gsearchtool.c:2847
+#: ../gsearchtool/gsearchtool.c:2829
 msgid "Click to display the help manual."
 msgstr "Klikk for å vise hjelp."
 
-#: ../gsearchtool/gsearchtool.c:2855
+#: ../gsearchtool/gsearchtool.c:2837
 msgid "Click to close \"Search for Files\"."
 msgstr "Klikk for å lukke «Søk etter filer»."
 
-#: ../gsearchtool/gsearchtool.c:2881
+#: ../gsearchtool/gsearchtool.c:2863
 msgid "Click to perform a search."
 msgstr "Klikk for å utføre et søk."
 
-#: ../gsearchtool/gsearchtool.c:2882
+#: ../gsearchtool/gsearchtool.c:2864
 msgid "Click to stop a search."
 msgstr "Klikk for å stoppe et søk."
 
-#: ../gsearchtool/gsearchtool.c:2975
+#: ../gsearchtool/gsearchtool.c:2957
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME-søkeverktøyet"
 
-#: ../gsearchtool/gsearchtool.c:2984
+#: ../gsearchtool/gsearchtool.c:2966
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Klarte ikke å tolke kommandolinjeargumenter: %s\n"
@@ -3352,3 +3333,142 @@ msgstr "Versjon: "
 #: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "Kunne ikke åpne følgende filer:"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Tekst for miniatyr (forvalg: Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "TEKST"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "Skriftstørrelse (forvalg: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "STØRRELSE"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "SKRIFTFIL UTDATAFIL"
+
+#: ../font-viewer/font-view.c:289
+msgid "Name:"
+msgstr "Navn:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "Stil:"
+
+#: ../font-viewer/font-view.c:304
+msgid "Type:"
+msgstr "Type:"
+
+#: ../font-viewer/font-view.c:308
+msgid "Size:"
+msgstr "Størrelse:"
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+msgid "Version:"
+msgstr "Versjon:"
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "Opphavsrett:"
+
+#: ../font-viewer/font-view.c:360
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "Installert"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "Installering feilet"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "Bruk: %s skriftfil\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "I_nstaller skrift"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "Skriftvisning"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "Forhåndsvis skrifter"
+
+#: ../font-viewer/fontilus.schemas.in.h:1
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:2
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:3
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:4
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:6
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:8
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:9
+msgid "Thumbnail command for OpenType fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:10
+msgid "Thumbnail command for PCF fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:11
+msgid "Thumbnail command for TrueType fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:12
+msgid "Thumbnail command for Type1 fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:13
+msgid "Whether to thumbnail OpenType fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:14
+msgid "Whether to thumbnail PCF fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:15
+msgid "Whether to thumbnail TrueType fonts"
+msgstr ""
+
+#: ../font-viewer/fontilus.schemas.in.h:16
+msgid "Whether to thumbnail Type1 fonts"
+msgstr ""
