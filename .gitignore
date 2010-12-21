@@ -4,6 +4,8 @@ Makefile
 Makefile.in
 aclocal.m4
 /autom4te.cache/
+/baobab/data/org.gnome.baobab.gschema.valid
+/baobab/data/org.gnome.baobab.gschema.xml
 .deps/
 config.guess
 config.h
@@ -14,6 +16,15 @@ config.status
 config.sub
 configure
 depcomp
+/font-viewer/font-thumbnailer.o
+/font-viewer/font-view.o
+/font-viewer/fontilus.schemas
+/font-viewer/ftstream-vfs.o
+/font-viewer/gnome-font-viewer
+/font-viewer/gnome-font-viewer.desktop
+/font-viewer/gnome-font-viewer.desktop.in
+/font-viewer/gnome-thumbnail-font
+/font-viewer/totem-resources.o
 /gnome-dictionary/docs/reference/gdict/version.xml
 /gnome-dictionary/libgdict/gdict-1.0.pc
 /gnome-dictionary/libgdict/gdict-version.h
