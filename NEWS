@@ -1,4 +1,49 @@
 ====================================================================
+GNOME Utilities 2.91.2 (22th December 2010) - "Wishlist"
+
+Third unstable release of the 2.91 release cycle, containing mostly
+build fixes for GTK+ deprecations.
+
+Cosimo Cecchi (3):
+      smclient: update from libegg for GTK+3 changes
+      gdict: don't use gdk_cursor_unref()
+      screenshot: adapt for GDK backend API changes
+
+Djavan Fagundes (2):
+      Added pt_BR to Makefile.am
+      Added Brazilian Portuguese images
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Ivar Smolin (2):
+      [l10n] Updated Estonian translation
+      [l10n] Updated Estonian translation
+
+Jorge González (1):
+      Updated Spanish translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Matthias Clasen (2):
+      Fix build with current GTK+
+      libgdict: Turn off GTK_DISABLE_DEPRECATED for now
+
+Ricardo Franco (1):
+      Added Brazilian Portuguese translation
+
+Saleem Abdulrasool (2):
+      make gdict compile against latest gtk+
+      gitignore: update for fontilus and baobab files
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+====================================================================
 GNOME Utilities 2.91.1 (29th November 2010) - "Crackity Jones"
 
 Second unstable release of the 2.91 release cycle.
