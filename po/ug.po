@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2010-11-13 21:31+0000\n"
+"POT-Creation-Date: 2010-11-29 20:09+0000\n"
 "PO-Revision-Date: 2010-08-29 17:50+0000\n"
 "Last-Translator: Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -323,7 +323,7 @@ msgstr "ئومۇمىي سىغىمى"
 
 #: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
-msgstr "ئىشلىتىلىشچان"
+msgstr "بار"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:77
 #, c-format
@@ -534,10 +534,8 @@ msgstr "دىسكا ئىشلىتىش ئەھۋالى تەھلىلىگە ئىشلى
 #: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
-msgstr "Sahran <sahran@live.com>\n"
-"Gheyret T.Kenji <gheyret@yahoo.com>\n"
-"Zeper <zeper@msn.com>\n"
-"Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch>"
+msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+"Sahran<sahran@live.com>"
 
 #: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
 #: ../gsearchtool/gsearchtool-callbacks.c:811
@@ -968,7 +966,7 @@ msgstr "ئىزدە(_I):"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
 msgid "_Previous"
-msgstr "ئالدىنقى(_P)"
+msgstr "ئالدىنقىسى(_P)"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
 msgid "_Next"
@@ -1653,7 +1651,7 @@ msgstr "ئۈنۈم قوللان(_E):"
 
 #: ../gnome-screenshot/gnome-screenshot.c:437
 msgid "Grab the whole _desktop"
-msgstr "پۈتكۈل ئۈستەلۈستىنى تۇت(_D)"
+msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇت(_D)"
 
 #: ../gnome-screenshot/gnome-screenshot.c:449
 msgid "Grab the current _window"
@@ -1825,7 +1823,7 @@ msgstr "گىرۋەككە قوشۇلىدىغان ئۈنۈم. ئىشلەتكىلى
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
-msgstr "پۈتكۈل ئۈستەلۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن قالغان ئىشلەتكىلى بولمايدۇ."
+msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن قالغان ئىشلەتكىلى بولمايدۇ."
 
 #: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
 msgid "Include Border"
@@ -2544,7 +2542,7 @@ msgstr "STRING"
 
 #: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
-msgstr "يولى"
+msgstr "PATH"
 
 #: ../gsearchtool/gsearchtool.c:160
 msgid "VALUE"
@@ -2581,7 +2579,7 @@ msgstr "\"%s\" ھەرپ توپلىمىنى ئايلاندۇرالمىدى"
 
 #: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
-msgstr "ئىزدەۋاتىدۇ…"
+msgstr "ئىزدەۋاتىدۇ..."
 
 #: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
 #: ../gsearchtool/gsearchtool.c:2972
@@ -2826,7 +2824,7 @@ msgstr "ھۆججەت ئىناۋەتلىك .desktop ھۆججىتى ئەمەس."
 #: ../libeggsmclient/eggdesktopfile.c:188
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr "ئۈستەل يۈزى ھۆججەت نەشرى '%s' ئىناۋەتسىز"
+msgstr "تونۇيالمىغان ئۈستەلئۈستى ھۆججەت نەشرى '%s'"
 
 #: ../libeggsmclient/eggdesktopfile.c:958
 #, c-format
@@ -2836,7 +2834,7 @@ msgstr "%s قوزغىلىۋاتىدۇ"
 #: ../libeggsmclient/eggdesktopfile.c:1100
 #, c-format
 msgid "Application does not accept documents on command line"
-msgstr "پروگرامما بۇيرۇق قۇرىدا پۈتۈكلەرنى قوبۇل قىلمايدۇ"
+msgstr "پروگرامما بۇيرۇق قۇرىدا پۈتۈكنى قوبۇل قىلالمايدۇ"
 
 #: ../libeggsmclient/eggdesktopfile.c:1168
 #, c-format
@@ -2846,7 +2844,7 @@ msgstr "تونۇمايدىغان ئىجرا تاللانمىسى: %d"
 #: ../libeggsmclient/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "پۈتۈك URI نى 'Type=Link' ئۈستەليۈزى تۈرىگە يوللىيالمىدى."
+msgstr "URI پۈتۈكنى 'Type=Link' ئۈستەلئۈستى تۈرىگە يوللىيالمىدى."
 
 #: ../libeggsmclient/eggdesktopfile.c:1392
 #, c-format
@@ -2855,15 +2853,15 @@ msgstr "ئىجراچان تۈر ئەمەس"
 
 #: ../libeggsmclient/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr "ئەڭگىمە باشقۇرغۇغا باغلىنىشنى چەكلە"
+msgstr "ئەڭگىمە باشقۇرغۇچقا باغلىنىشنى چەكلە"
 
 #: ../libeggsmclient/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
-msgstr "بەلگىلەنگەن سەپلىمە ساقلانغان ھۆججەت"
+msgstr "سەپلىمە ساقلانغان ھۆججەتنى بەلگىلە"
 
 #: ../libeggsmclient/eggsmclient.c:228
 msgid "FILE"
-msgstr "ھۆججەت"
+msgstr "FILE"
 
 #: ../libeggsmclient/eggsmclient.c:231
 msgid "Specify session management ID"
@@ -3007,7 +3005,7 @@ msgstr "كېيىنكىنى ئىزدە"
 
 #: ../logview/logview-findbar.c:187
 msgid "Find previous occurrence of the search string"
-msgstr "باش تەرەپكە قاراپ ئىزدە"
+msgstr "باش قىسمىدا كۆرۈنگەن تېكىستلەرنى ئىزدەيدۇ"
 
 #: ../logview/logview-findbar.c:192
 msgid "Find Next"
@@ -3015,7 +3013,7 @@ msgstr "كېيىنكىنى ئىزدە"
 
 #: ../logview/logview-findbar.c:195
 msgid "Find next occurrence of the search string"
-msgstr "ئاياق تەرەپكە قاراپ ئىزدە"
+msgstr "كەينىدە كۆرۈنگەن تېكىستلەرنى ئىزدەيدۇ"
 
 #: ../logview/logview-findbar.c:202
 msgid "Clear the search string"
@@ -3082,7 +3080,7 @@ msgstr "ياردەم كۆرسىتىشتە خاتالىق كۆرۈلدى: %s"
 
 #: ../logview/logview-window.c:470
 msgid "Wrapped"
-msgstr "قۇر ئالماشتۇرغان"
+msgstr "قاتلانغان قۇرنىمۇ ئىزدە"
 
 #: ../logview/logview-window.c:764
 msgid "A system log viewer for GNOME."
@@ -3200,6 +3198,152 @@ msgstr "نەشرى: "
 #: ../logview/logview-window.c:1488
 msgid "Could not open the following files:"
 msgstr "تۆۋەندىكى ھۆججەتنى ئاچالمايدۇ:"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "كىچىك سۈرەتكە تېكىست ئىشلەت (كۆڭۈلدىكى: Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "تېكىست"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "خەت چوڭلۇقى (كۆڭۈلدىكى: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "چوڭلۇقى"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "خەت نۇسخا-ھۆججەت چىقار-ھۆججەت"
+
+#: ../font-viewer/font-view.c:289
+#| msgid "_Name:"
+msgid "Name:"
+msgstr "ئاتى:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "ئۇسلۇب:"
+
+#: ../font-viewer/font-view.c:304
+#| msgid "Type"
+msgid "Type:"
+msgstr "تىپى:"
+
+#: ../font-viewer/font-view.c:308
+#| msgid "Size"
+msgid "Size:"
+msgstr "چوڭلۇقى:"
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+#| msgid "Version: "
+msgid "Version:"
+msgstr "نەشرى:"
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "نەشر ھوقۇقى:"
+
+#: ../font-viewer/font-view.c:360
+#| msgid "_Description:"
+msgid "Description:"
+msgstr "چۈشەندۈرۈش:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "ئورنىتىلغان"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "ئورنىتىش مەغلۇپ بولدى."
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr ""
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "خەت نۇسخا ئورنات(_N)"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+#| msgid "Log Viewer"
+msgid "Font Viewer"
+msgstr "خەت نۇسخا كۆرگۈچ"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+#| msgid "Preview this document"
+msgid "Preview fonts"
+msgstr "خەت نۇسخىنى ئالدىن كۆزەت"
+
+#: ../font-viewer/fontilus.schemas.in.h:1
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr "ئەگەر true قىلىپ تەڭشەلسە، OpenType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:2
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr "ئەگەر true قىلىپ تەڭشەلسە، PCF خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:3
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr "ئەگەر true قىلىپ تەڭشەلسە، TrueType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:4
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr "ئەگەر true قىلىپ تەڭشەلسە، Type1 خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "بۇ قىممەت تەڭشىكى OpenType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:6
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr "بۇ قىممەت تەڭشىكى PCF خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "بۇ قىممەت تەڭشىكى TrueType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:8
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr "بۇ قىممەت تەڭشىكى Type1 خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+
+#: ../font-viewer/fontilus.schemas.in.h:9
+msgid "Thumbnail command for OpenType fonts"
+msgstr "OpenType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#: ../font-viewer/fontilus.schemas.in.h:10
+msgid "Thumbnail command for PCF fonts"
+msgstr "PCF خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#: ../font-viewer/fontilus.schemas.in.h:11
+msgid "Thumbnail command for TrueType fonts"
+msgstr "TrueType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#: ../font-viewer/fontilus.schemas.in.h:12
+msgid "Thumbnail command for Type1 fonts"
+msgstr "Type1 خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#: ../font-viewer/fontilus.schemas.in.h:13
+msgid "Whether to thumbnail OpenType fonts"
+msgstr "OpenType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#: ../font-viewer/fontilus.schemas.in.h:14
+msgid "Whether to thumbnail PCF fonts"
+msgstr "PCF خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#: ../font-viewer/fontilus.schemas.in.h:15
+msgid "Whether to thumbnail TrueType fonts"
+msgstr "TrueType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#: ../font-viewer/fontilus.schemas.in.h:16
+msgid "Whether to thumbnail Type1 fonts"
+msgstr "Type1 خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "دىسكا ئىشلىتىش تەھلىلچى مايىللىقى"
