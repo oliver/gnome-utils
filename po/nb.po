@@ -1,21 +1,24 @@
 # Norwegian translation of gnome-utils (bokmål dialect).
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
+#
 # Kjartan Maraas <kmaraas@gnome.org>, 1999-2009.
 # Terance Edward Sola <terance@lyse.net>, 2005.
-#
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 2.91.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-17 14:20+0100\n"
-"PO-Revision-Date: 2010-12-17 14:22+0100\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian/Bokmaal <i18n-nb@lister.ping.uio.no>\n"
-"Language: \n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gnome-utils&component=general\n"
+"POT-Creation-Date: 2010-12-17 13:22+0000\n"
+"PO-Revision-Date: 2010-12-30 22:11+0100\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.1\n"
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
@@ -76,11 +79,11 @@ msgstr "Oppdater"
 
 #: ../baobab/data/baobab-main-window.ui.h:4
 msgid "S_can Remote Folder..."
-msgstr "S_øk i ekstern mappe ..."
+msgstr "S_øk i ekstern mappe …"
 
 #: ../baobab/data/baobab-main-window.ui.h:5
 msgid "Scan F_older..."
-msgstr "Sø_k i mappe ..."
+msgstr "Sø_k i mappe …"
 
 #: ../baobab/data/baobab-main-window.ui.h:6
 msgid "Scan Filesystem"
@@ -170,7 +173,7 @@ msgstr "_Vis"
 
 #: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
-msgstr "Søker ..."
+msgstr "Søker …"
 
 #: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
@@ -188,7 +191,7 @@ msgstr "tilgjengelig:"
 #: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
-msgstr "Beregner prosentsøylene ..."
+msgstr "Beregner prosentsøylene …"
 
 #: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
@@ -330,11 +333,11 @@ msgstr "Tilgjengelig"
 #: ../baobab/src/baobab-remote-connect-dialog.c:77
 #, c-format
 msgid "Cannot scan location \"%s\""
-msgstr "Kan ikke søke gjennom lokasjon «%s»"
+msgstr "Kan ikke søke gjennom adresse «%s»"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:175
 msgid "Custom Location"
-msgstr "Egendefinert lokasjon"
+msgstr "Egendefinert adresse"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:177
 msgid "SSH"
@@ -370,7 +373,7 @@ msgstr "Vennligst oppgi et nytt navn og prøv igjen."
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:441
 msgid "_Location (URI):"
-msgstr "_Lokasjon (URI):"
+msgstr "_Adresse (URI):"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:463
 msgid "_Server:"
@@ -550,7 +553,8 @@ msgstr "Et grafisk verktøy for å analysere diskbruk."
 msgid "translator-credits"
 msgstr ""
 "Kjartan Maraas <kmaraas@gnome.org>\n"
-"Espen Stefansen <libbe AT stefansen DOT net>, 2007"
+"Espen Stefansen <libbe AT stefansen DOT net>\n"
+"Torstein Adolf Winterseth <kvikende@fsfe.org>"
 
 #: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
 #: ../gsearchtool/gsearchtool-callbacks.c:811
@@ -719,7 +723,7 @@ msgid ""
 "window use a height based on the font size."
 msgstr ""
 "Denne nøkkelen definerer høyden på vinduet, og er brukt til å huske "
-"størrelsen på ordboksvinduet over flere sesjoner. Ved å sette denne til -1, "
+"størrelsen på ordboksvinduet over flere økter. Ved å sette denne til -1, "
 "vil vinduet bruke en høyde basert på skriftstørrelsen."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
@@ -729,7 +733,7 @@ msgid ""
 "window use a width based on the font size."
 msgstr ""
 "Denne nøkkelen definerer bredden på vinduet, og den er brukt til å huske "
-"størrelsen på ordboksvindiet over flere sesjoner. Ved å sette denne til -1, "
+"størrelsen på ordboksvindiet over flere økter. Ved å sette denne til -1, "
 "vil bredden på vinduet bli basert på skriftstørrelsen."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
@@ -739,7 +743,7 @@ msgid ""
 "make the sidebar always be displayed."
 msgstr ""
 "Denne nøkkelen bestemmer om sidepanelet skal være synlig, og den brukes til "
-"å huske sidepanelets tilstand på tvers av sesjoner. Settes den til \"TRUE\", "
+"å huske sidepanelets tilstand på tvers av økter. Settes den til \"TRUE\", "
 "vil sidepanelet alltid bli vist."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
@@ -749,7 +753,7 @@ msgid ""
 "make the statusbar always be displayed."
 msgstr ""
 "Denne nøkkelen bestemmer om statuslinje skal være synlig, og den brukes til "
-"å huske statuslinjens tilstand på tvers av sesjoner. Settes den til \"TRUE"
+"å huske statuslinjens tilstand på tvers av økter. Settes den til \"TRUE"
 "\", vil statuslinjen alltid bli vist."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
@@ -759,7 +763,7 @@ msgid ""
 "TRUE will make the window always appear as maximized."
 msgstr ""
 "Denne nøkkelen bestemmer om vinduet skal være maksimert, og den brukes til å "
-"huske ordbokvinduets tilstand på tvers av sesjoner. Settes den til \"TRUE\", "
+"huske ordbokvinduets tilstand på tvers av økter. Settes den til \"TRUE\", "
 "vil vinduet alltid være maksimert fra start."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
@@ -769,7 +773,7 @@ msgid ""
 "\"databases\"."
 msgstr ""
 "Denne nøkkelen bestemmer hvilken side som skal vises i sidepanelet, og den "
-"brukes til å huske innstillingen på tvers av sesjoner. Den kan være enten "
+"brukes til å huske innstillingen på tvers av økter. Den kan være enten "
 "\"speller\" eller \"databases\"."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
@@ -1482,7 +1486,7 @@ msgstr "Kan ikke lagre kildefil"
 #: ../gnome-dictionary/src/gdict-window.c:315
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "Søker etter «%s»..."
+msgstr "Søker etter «%s» …"
 
 #: ../gnome-dictionary/src/gdict-window.c:347
 #: ../gnome-dictionary/src/gdict-window.c:404
@@ -1520,11 +1524,11 @@ msgstr "Nytt oppslag"
 
 #: ../gnome-dictionary/src/gdict-window.c:1184
 msgid "_Save a Copy..."
-msgstr "_Lagre en kopi..."
+msgstr "_Lagre en kopi …"
 
 #: ../gnome-dictionary/src/gdict-window.c:1186
 msgid "P_review..."
-msgstr "Fo_rhåndsvis ..."
+msgstr "Fo_rhåndsvis …"
 
 #: ../gnome-dictionary/src/gdict-window.c:1187
 msgid "Preview this document"
@@ -1532,7 +1536,7 @@ msgstr "Forhåndsvis dette dokumentet"
 
 #: ../gnome-dictionary/src/gdict-window.c:1188
 msgid "_Print..."
-msgstr "S_kriv ut..."
+msgstr "S_kriv ut …"
 
 #: ../gnome-dictionary/src/gdict-window.c:1189
 msgid "Print this document"
@@ -1757,7 +1761,7 @@ msgid ""
 msgstr ""
 "Umulig å lagre skjermdump til %s.\n"
 " Feilen var %s.\n"
-" Vennligst velg en annen lokasjon og prøv igjen."
+" Vennligst velg en annen adresse og prøv igjen."
 
 #: ../gnome-screenshot/gnome-screenshot.c:791
 msgid "Screenshot taken"
@@ -1974,7 +1978,7 @@ msgstr "E_rstatt"
 
 #: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
-msgstr "Lagrer fil..."
+msgstr "Lagrer fil …"
 
 #: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
@@ -1987,7 +1991,7 @@ msgstr ""
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
-msgstr "Søk etter filer..."
+msgstr "Søk etter filer …"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:1
 msgid "Default Window Height"
@@ -2155,7 +2159,7 @@ msgid ""
 "use the default height."
 msgstr ""
 "Denne nøkkelen definerer høyden på vinduet, og den er brukt til å huske "
-"størrelsen på søkevertøyet mellom sesjonenen. Ved å sette den til -1, vil "
+"størrelsen på søkevertøyet mellom øktenen. Ved å sette den til -1, vil "
 "forvalgt bredde brukes."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
@@ -2165,7 +2169,7 @@ msgid ""
 "the default width."
 msgstr ""
 "Denne nøkkelen definerer bredden på vinduet, og den er brukt til å huske "
-"størrelsen på søkeverktøyet mellom sesjoner. Ved å sette denne til -1, vil "
+"størrelsen på søkeverktøyet mellom økter. Ved å sette denne til -1, vil "
 "forvalgt bredde brukes."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
@@ -2173,8 +2177,8 @@ msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
 msgstr ""
-"Denne nøkkelen bestemmer om «Inneholder teksten» alternativet skal gjelde "
-"når søkeverktøyet starter."
+"Denne nøkkelen bestemmer om «Inneholder teksten» alternativet skal gjelde når "
+"søkeverktøyet starter."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
 msgid ""
@@ -2295,8 +2299,8 @@ msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
-"Denne nøkkelen bestemmer om søkeverktøyet slår av bruken av «find»-"
-"kommandoen etter å ha utført et raskt søk."
+"Denne nøkkelen bestemmer om søkeverktøyet slår av bruken av «find»-kommandoen "
+"etter å ha utført et raskt søk."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
 msgid ""
@@ -2415,11 +2419,11 @@ msgstr "Åpne opphavs_mappe"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
-msgstr "Lagre re_sultater som..."
+msgstr "Lagre re_sultater som …"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
-msgstr "Lagre søkeresultater som..."
+msgstr "Lagre søkeresultater som …"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
@@ -2698,7 +2702,7 @@ msgstr "Konvertering av tegnsett feilet for «%s»"
 
 #: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
-msgstr "Søker..."
+msgstr "Søker …"
 
 #: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
 #: ../gsearchtool/gsearchtool.c:2972
@@ -2777,7 +2781,7 @@ msgid ""
 "... Too many errors to display ..."
 msgstr ""
 "\n"
-"... For mange feil å vise..."
+"… For mange feil å vise …"
 
 #: ../gsearchtool/gsearchtool.c:1712
 msgid ""
@@ -2981,7 +2985,7 @@ msgstr "Ikke en oppstartbar oppføring"
 
 #: ../libeggsmclient/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr "Slå av tilkobling til sesjonshåndterer"
+msgstr "Slå av tilkobling til økthåndterer"
 
 #: ../libeggsmclient/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
@@ -2993,7 +2997,7 @@ msgstr "FIL"
 
 #: ../libeggsmclient/eggsmclient.c:231
 msgid "Specify session management ID"
-msgstr "Oppgi sesjonshåndterings-ID"
+msgstr "Oppgi økthåndterings-ID"
 
 #: ../libeggsmclient/eggsmclient.c:231
 msgid "ID"
@@ -3001,11 +3005,11 @@ msgstr "ID"
 
 #: ../libeggsmclient/eggsmclient.c:252
 msgid "Session management options:"
-msgstr "Alternativer for sesjonshåndtering:"
+msgstr "Alternativer for økthåndtering:"
 
 #: ../libeggsmclient/eggsmclient.c:253
 msgid "Show session management options"
-msgstr "Vis alternativer for sesjonshåndtering"
+msgstr "Vis alternativer for økthåndtering"
 
 #: ../logview/data/gnome-system-log.desktop.in.in.h:1
 msgid "Log File Viewer"
@@ -3172,7 +3176,7 @@ msgstr "Denne versjonen av systemlogg støtter ikke komprimerte logger."
 
 #: ../logview/logview-loglist.c:311
 msgid "Loading..."
-msgstr "Laster ..."
+msgstr "Laster …"
 
 #: ../logview/logview-main.c:61
 msgid "Show the application's version"
@@ -3180,7 +3184,7 @@ msgstr "Viser programmets versjon"
 
 #: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
-msgstr "[LOGGFIL...]"
+msgstr "[LOGGFIL …]"
 
 #: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
@@ -3227,7 +3231,7 @@ msgstr "_Filtre"
 
 #: ../logview/logview-window.c:813
 msgid "_Open..."
-msgstr "_Åpne..."
+msgstr "_Åpne …"
 
 #: ../logview/logview-window.c:813
 msgid "Open a log from file"
@@ -3263,7 +3267,7 @@ msgstr "Velg hele loggen"
 
 #: ../logview/logview-window.c:824
 msgid "_Find..."
-msgstr "_Finn..."
+msgstr "_Finn …"
 
 #: ../logview/logview-window.c:824
 msgid "Find a word or phrase in the log"
@@ -3472,3 +3476,5 @@ msgstr ""
 #: ../font-viewer/fontilus.schemas.in.h:16
 msgid "Whether to thumbnail Type1 fonts"
 msgstr ""
+
+
