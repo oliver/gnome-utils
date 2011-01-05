@@ -2,12 +2,12 @@
 # Estonian translation of Gnome-utils.
 #
 # Copyright (C) 1999, 2002, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007-2009 The GNOME Project.
+# Copyright (C) 2007–2011 The GNOME Project.
 # This file is distributed under the same license as the gnome-utils package.
 #
 # Lauris Kaplinski <lauris ariman ee>, 1999.
 # Tõivo Leedjärv <toivo linux ee>, 2002.
-# Ivar Smolin <okul linux ee>, 2005-2009.
+# Ivar Smolin <okul linux ee>, 2005–2011.
 # Priit Laes <amd store20 com>, 2005.
 #
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
 "POT-Creation-Date: 2010-12-17 13:22+0000\n"
-"PO-Revision-Date: 2010-12-03 10:19+0200\n"
+"PO-Revision-Date: 2011-01-05 16:15+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "Language: et\n"
@@ -429,7 +429,7 @@ msgid "translator-credits"
 msgstr ""
 "Lauris Kaplinski <lauris ariman ee>, 1999.\n"
 "Tõivo Leedjärv <toivo linux ee>, 2002.\n"
-"Ivar Smolin <okul linux ee>, 2005-2009.\n"
+"Ivar Smolin <okul linux ee>, 2005–2011.\n"
 "Priit Laes <amd store20 com>, 2005."
 
 msgid "The document does not exist."
@@ -2638,54 +2638,62 @@ msgid "Preview fonts"
 msgstr "Kirjatüüpide vaatlemine"
 
 msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr ""
+msgstr "Kui märgitud, siis tehakse OpenType kirjatüüpidest pisipildid."
 
 msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr ""
+msgstr "Kui märgitud, siis tehakse PCF-kirjatüüpidest pisipildid."
 
 msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr ""
+msgstr "Kui märgitud, siis tehakse TrueType kirjatüüpidest pisipildid."
 
 msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr ""
+msgstr "Kui märgitud, siis tehakse Type1 kirjatüüpidest pisipildid."
 
 msgid ""
 "Set this key to the command used to create thumbnails for OpenType fonts."
 msgstr ""
+"Selle võtmega määratakse käsk, mida kasutatakse OpenType kirjatüüpidest "
+"pisipiltide tegemisel."
 
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr ""
+"Selle võtmega määratakse käsk, mida kasutatakse PCF-kirjatüüpidest "
+"pisipiltide tegemisel."
 
 msgid ""
 "Set this key to the command used to create thumbnails for TrueType fonts."
 msgstr ""
+"Selle võtmega määratakse käsk, mida kasutatakse TrueType kirjatüüpidest "
+"pisipiltide tegemisel."
 
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
 msgstr ""
+"Selle võtmega määratakse käsk, mida kasutatakse Type1 kirjatüüpidest "
+"pisipiltide tegemisel."
 
 msgid "Thumbnail command for OpenType fonts"
-msgstr ""
+msgstr "OpenType kirjatüüpidest pisipiltide tegemise käsk"
 
 msgid "Thumbnail command for PCF fonts"
-msgstr ""
+msgstr "PCF-kirjatüüpidest pisipiltide tegemise käsk"
 
 msgid "Thumbnail command for TrueType fonts"
-msgstr ""
+msgstr "TrueType kirjatüüpidest pisipiltide tegemise käsk"
 
 msgid "Thumbnail command for Type1 fonts"
-msgstr ""
+msgstr "Type1 kirjatüüpidest pisipiltide tegemise käsk"
 
 msgid "Whether to thumbnail OpenType fonts"
-msgstr ""
+msgstr "Kas OpenType kirjatüüpidest tehakse pisipilte või mitte"
 
 msgid "Whether to thumbnail PCF fonts"
-msgstr ""
+msgstr "Kas PCF-kirjatüüpidest tehakse pisipilte või mitte"
 
 msgid "Whether to thumbnail TrueType fonts"
-msgstr ""
+msgstr "Kas TrueType kirjatüüpidest tehakse pisipilte või mitte"
 
 msgid "Whether to thumbnail Type1 fonts"
-msgstr ""
+msgstr "Kas Type1 kirjatüüpidest tehakse pisipilte või mitte"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "Kettakasutuse analüsaatori eelistused"
