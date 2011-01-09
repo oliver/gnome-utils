@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-26 18:13+0200\n"
-"PO-Revision-Date: 2010-12-26 18:17+0200\n"
+"POT-Creation-Date: 2011-01-09 21:08+0200\n"
+"PO-Revision-Date: 2011-01-09 21:09+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1755,7 +1755,7 @@ msgstr "שניות"
 #: ../gnome-screenshot/gnome-screenshot.c:524
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
-msgstr "צילום מסך"
+msgstr "צילום המסך"
 
 #: ../gnome-screenshot/gnome-screenshot.c:525
 msgid "Effects"
@@ -1763,11 +1763,11 @@ msgstr "אפקטים"
 
 #: ../gnome-screenshot/gnome-screenshot.c:530
 msgid "Take _Screenshot"
-msgstr "צילום _מסך"
+msgstr "צילום ה_מסך"
 
 #: ../gnome-screenshot/gnome-screenshot.c:656
 msgid "Error while saving screenshot"
-msgstr "שגיאה בשמירת צילום מסך"
+msgstr "שגיאה בשמירת צילום המסך"
 
 #: ../gnome-screenshot/gnome-screenshot.c:659
 #, c-format
