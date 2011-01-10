@@ -279,8 +279,10 @@ save_filters (LogviewPrefs *prefs)
   g_hash_table_foreach (prefs->priv->filters,
                         save_filter_foreach_func,
                         filters);
+  g_ptr_array_add (filters, NULL);
 
   filters_strv = (gchar **) g_ptr_array_free (filters, FALSE);
+
   g_settings_set_strv (prefs->priv->logview_prefs,
                        PREF_FILTERS,
                        (const gchar **) filters_strv);
@@ -446,7 +448,9 @@ logview_prefs_remove_stored_log (LogviewPrefs *prefs, GFile *target)
     g_object_unref (stored);
   }
 
+  g_ptr_array_add (new_value, NULL);
   g_strfreev (stored_logs);
+
   stored_logs = (gchar **) g_ptr_array_free (new_value, FALSE);
 
   g_settings_set_strv (prefs->priv->logview_prefs,
