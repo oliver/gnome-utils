@@ -28,7 +28,6 @@
 #include <sys/stat.h>
 #include <string.h>
 #include <gtk/gtk.h>
-#include <gconf/gconf-client.h>
 
 #include "logview-prefs.h"
 
@@ -36,17 +35,17 @@
 #define LOGVIEW_DEFAULT_WIDTH 600
 
 /* logview settings */
-#define GCONF_DIR 		"/apps/gnome-system-log"
-#define GCONF_WIDTH_KEY 	GCONF_DIR "/width"
-#define GCONF_HEIGHT_KEY 	GCONF_DIR "/height"
-#define GCONF_LOGFILE 		GCONF_DIR "/logfile"
-#define GCONF_LOGFILES 		GCONF_DIR "/logfiles"
-#define GCONF_FONTSIZE_KEY 	GCONF_DIR "/fontsize"
-#define GCONF_FILTERS     GCONF_DIR "/filters"
+#define LOGVIEW_SCHEMA "org.gnome.gnome-system-log"
+#define PREF_WIDTH    "width"
+#define PREF_HEIGHT	  "height"
+#define PREF_LOGFILE 	"logfile"
+#define PREF_LOGFILES "logfiles"
+#define PREF_FONTSIZE "fontsize"
+#define PREF_FILTERS  "filters"
 
 /* desktop-wide settings */
-#define GCONF_MONOSPACE_FONT_NAME "/desktop/gnome/interface/monospace_font_name"
-#define GCONF_MENUS_HAVE_TEAROFF  "/desktop/gnome/interface/menus_have_tearoff"
+#define GNOME_MONOSPACE_FONT_NAME "monospace-font-name"
+#define GNOME_MENUS_HAVE_TEAROFF  "menus-have-tearoff"
 
 static LogviewPrefs *singleton = NULL;
 
@@ -71,17 +70,11 @@ static guint signals[LAST_SIGNAL] = { 0 };
   (G_TYPE_INSTANCE_GET_PRIVATE ((o), LOGVIEW_TYPE_PREFS, LogviewPrefsPrivate))
 
 struct _LogviewPrefsPrivate {
-  GConfClient *client;
-
-  guint size_store_timeout;
+  GSettings *logview_prefs;
+  GSettings *interface_prefs;
 
   GHashTable *filters;
 };
-
-typedef struct {
-  int width;
-  int height;
-} WindowSize;
 
 G_DEFINE_TYPE (LogviewPrefs, logview_prefs, G_TYPE_OBJECT);
 
@@ -92,7 +85,8 @@ do_finalize (GObject *obj)
 
   g_hash_table_destroy (prefs->priv->filters);
 
-  g_object_unref (prefs->priv->client);
+  g_object_unref (prefs->priv->logview_prefs);
+  g_object_unref (prefs->priv->interface_prefs);
 
   G_OBJECT_CLASS (logview_prefs_parent_class)->finalize (obj);
 }
@@ -125,63 +119,29 @@ logview_prefs_class_init (LogviewPrefsClass *klass)
 }
 
 static void
-have_tearoff_changed_cb (GConfClient *client,
-                         guint id,
-                         GConfEntry *entry,
+have_tearoff_changed_cb (GSettings *settings,
+                         gchar *key,
                          gpointer data)
 {
   LogviewPrefs *prefs = data;
+  gboolean add_tearoffs;
 
-  if (entry->value && (entry->value->type == GCONF_VALUE_BOOL)) {
-    gboolean add_tearoffs;
-
-    add_tearoffs = gconf_value_get_bool (entry->value);
-    g_signal_emit (prefs, signals[HAVE_TEAROFF_CHANGED], 0, add_tearoffs, NULL);
-  }
+  add_tearoffs = g_settings_get_boolean (settings, key);
+  g_signal_emit (prefs, signals[HAVE_TEAROFF_CHANGED], 0, add_tearoffs, NULL);
 }
 
 static void
-monospace_font_changed_cb (GConfClient *client,
-                           guint id,
-                           GConfEntry *entry,
+monospace_font_changed_cb (GSettings *settings,
+                           gchar *key,
                            gpointer data)
 {
   LogviewPrefs *prefs = data;
+  gchar *monospace_font_name;
 
-  if (entry->value && (entry->value->type == GCONF_VALUE_STRING)) {
-    const gchar *monospace_font_name;
+  monospace_font_name = g_settings_get_string (settings, key);
+  g_signal_emit (prefs, signals[SYSTEM_FONT_CHANGED], 0, monospace_font_name, NULL);
 
-    monospace_font_name = gconf_value_get_string (entry->value);
-    g_signal_emit (prefs, signals[SYSTEM_FONT_CHANGED], 0, monospace_font_name, NULL);
-  }
-}
-
-static gboolean
-size_store_timeout_cb (gpointer data)
-{
-  WindowSize *size = data;
-  LogviewPrefs *prefs = logview_prefs_get ();
-
-  if (size->width > 0 && size->height > 0) {
-    if (gconf_client_key_is_writable (prefs->priv->client, GCONF_WIDTH_KEY, NULL))
-      gconf_client_set_int (prefs->priv->client,
-                            GCONF_WIDTH_KEY,
-                            size->width,
-                            NULL);
-
-    if (gconf_client_key_is_writable (prefs->priv->client, GCONF_HEIGHT_KEY, NULL))
-      gconf_client_set_int (prefs->priv->client,
-                            GCONF_HEIGHT_KEY,
-                            size->height,
-                            NULL);
-  }
-
-  /* reset the source id */
-  prefs->priv->size_store_timeout = 0;
-
-  g_free (size);
-
-  return FALSE;
+  g_free (monospace_font_name);
 }
 
 #define DELIMITER ":"
@@ -189,24 +149,24 @@ size_store_timeout_cb (gpointer data)
 static void
 load_filters (LogviewPrefs *prefs)
 {
-  GSList *node; 
-  GSList *filters;
+  gchar **filters;
   gchar **tokens;
+  const gchar *str;
   LogviewFilter *filter;
   GtkTextTag *tag;
   GdkColor color;
+  gint idx;
 
-  filters = gconf_client_get_list (prefs->priv->client,
-                                   GCONF_FILTERS,
-                                   GCONF_VALUE_STRING,
-                                   NULL);
+  filters = g_settings_get_strv (prefs->priv->logview_prefs,
+                                 PREF_FILTERS);
 
   prefs->priv->filters = g_hash_table_new_full (g_str_hash, g_str_equal,
                                                 (GDestroyNotify) g_free,
                                                 (GDestroyNotify) g_object_unref);
 
-  for (node = filters; node != NULL; node = g_slist_next (node)) {
-    tokens = g_strsplit (node->data, DELIMITER, MAX_TOKENS);
+  for (idx = 0; filters[idx] != NULL; idx++) {
+    str = filters[idx];
+    tokens = g_strsplit (str, DELIMITER, MAX_TOKENS);
     filter = logview_filter_new (tokens[FILTER_NAME], tokens[FILTER_REGEX]);
     tag = gtk_text_tag_new (tokens[FILTER_NAME]);
 
@@ -235,14 +195,13 @@ load_filters (LogviewPrefs *prefs)
     g_strfreev (tokens);
   }
 
-  g_slist_foreach (filters, (GFunc) g_free, NULL);
-  g_slist_free (filters);
+  g_strfreev (filters);
 }
 
 static void
 save_filter_foreach_func (gpointer key, gpointer value, gpointer user_data)
 {
-  GSList **filters;
+  GPtrArray *filters;
   const gchar *name;
   LogviewFilter *filter;
   GdkColor *foreground;
@@ -307,26 +266,26 @@ save_filter_foreach_func (gpointer key, gpointer value, gpointer user_data)
   g_free (regex);
   g_object_unref (tag);
   
-  *filters = g_slist_prepend (*filters, g_string_free (prefs_string, FALSE));
-} 
+  g_ptr_array_add (filters, g_string_free (prefs_string, FALSE));
+}
 
 static void
 save_filters (LogviewPrefs *prefs)
 {
-  GSList *filters;
+  GPtrArray *filters;
+  gchar **filters_strv;
 
-  filters = NULL;
-
+  filters = g_ptr_array_new ();
   g_hash_table_foreach (prefs->priv->filters,
                         save_filter_foreach_func,
-                        &filters);
-  gconf_client_set_list (prefs->priv->client,
-                         GCONF_FILTERS,
-                         GCONF_VALUE_STRING,
-                         filters, NULL);
+                        filters);
 
-  g_slist_foreach (filters, (GFunc) g_free, NULL);
-  g_slist_free (filters);
+  filters_strv = (gchar **) g_ptr_array_free (filters, FALSE);
+  g_settings_set_strv (prefs->priv->logview_prefs,
+                       PREF_FILTERS,
+                       (const gchar **) filters_strv);
+
+  g_strfreev (filters_strv);
 }
 
 static void
@@ -344,17 +303,13 @@ logview_prefs_init (LogviewPrefs *self)
 
   priv = self->priv = GET_PRIVATE (self);
 
-  priv->client = gconf_client_get_default ();
-  priv->size_store_timeout = 0;
+  priv->logview_prefs = g_settings_new (LOGVIEW_SCHEMA);
+  priv->interface_prefs = g_settings_new ("org.gnome.desktop.interface");
 
-  gconf_client_notify_add (priv->client,
-                           GCONF_MONOSPACE_FONT_NAME,
-                           (GConfClientNotifyFunc) monospace_font_changed_cb,
-                           self, NULL, NULL);
-  gconf_client_notify_add (priv->client,
-                           GCONF_MENUS_HAVE_TEAROFF,
-                           (GConfClientNotifyFunc) have_tearoff_changed_cb,
-                           self, NULL, NULL);
+  g_signal_connect (priv->interface_prefs, "changed::" GNOME_MONOSPACE_FONT_NAME,
+                    G_CALLBACK (monospace_font_changed_cb), self);
+  g_signal_connect (priv->interface_prefs, "changed::" GNOME_MENUS_HAVE_TEAROFF,
+                    G_CALLBACK (have_tearoff_changed_cb), self);
 
   load_filters (self);
 }
@@ -374,26 +329,12 @@ void
 logview_prefs_store_window_size (LogviewPrefs *prefs,
                                  int width, int height)
 {
-  /* we want to be smart here: since we will get a lot of configure events
-   * while resizing, we schedule the real GConf storage in a timeout.
-   */
-  WindowSize *size;
-
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  size = g_new0 (WindowSize, 1);
-  size->width = width;
-  size->height = height;
-
-  if (prefs->priv->size_store_timeout != 0) {
-    /* reschedule the timeout */
-    g_source_remove (prefs->priv->size_store_timeout);
-    prefs->priv->size_store_timeout = 0;
-  }
-
-  prefs->priv->size_store_timeout = g_timeout_add (200,
-                                                   size_store_timeout_cb,
-                                                   size);
+  g_settings_set_int (prefs->priv->logview_prefs,
+                      PREF_WIDTH, width);
+  g_settings_set_int (prefs->priv->logview_prefs,
+                      PREF_HEIGHT, height);
 }
 
 void
@@ -402,13 +343,10 @@ logview_prefs_get_stored_window_size (LogviewPrefs *prefs,
 {
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  *width = gconf_client_get_int (prefs->priv->client,
-                                 GCONF_WIDTH_KEY,
-                                 NULL);
-
-  *height = gconf_client_get_int (prefs->priv->client,
-                                  GCONF_HEIGHT_KEY,
-                                  NULL);
+  *width = g_settings_get_int (prefs->priv->logview_prefs,
+                               PREF_WIDTH);
+  *height = g_settings_get_int (prefs->priv->logview_prefs,
+                                PREF_HEIGHT);
 
   if ((*width == 0) ^ (*height == 0)) {
     /* if one of the two failed, return default for both */
@@ -422,7 +360,7 @@ logview_prefs_get_monospace_font_name (LogviewPrefs *prefs)
 {
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  return (gconf_client_get_string (prefs->priv->client, GCONF_MONOSPACE_FONT_NAME, NULL));
+  return (g_settings_get_string (prefs->priv->interface_prefs, GNOME_MONOSPACE_FONT_NAME));
 }
 
 gboolean
@@ -430,39 +368,35 @@ logview_prefs_get_have_tearoff (LogviewPrefs *prefs)
 {
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-	return (gconf_client_get_bool (prefs->priv->client, GCONF_MENUS_HAVE_TEAROFF, NULL));
+	return (g_settings_get_boolean (prefs->priv->interface_prefs, GNOME_MENUS_HAVE_TEAROFF));
 }
 
 /* the elements should be freed with g_free () */
 
-GSList *
+gchar **
 logview_prefs_get_stored_logfiles (LogviewPrefs *prefs)
 {
-  GSList *retval;
-
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  retval = gconf_client_get_list (prefs->priv->client,
-                                  GCONF_LOGFILES,
-                                  GCONF_VALUE_STRING,
-                                  NULL);
-  return retval;
+  return g_settings_get_strv (prefs->priv->logview_prefs,
+                              PREF_LOGFILES);
 }
 
 void
 logview_prefs_store_log (LogviewPrefs *prefs, GFile *file)
 {
-  GSList *stored_logs, *l;
+  gchar **stored_logs;
   GFile *stored;
   gboolean found = FALSE;
+  gint idx, old_size;
 
   g_assert (LOGVIEW_IS_PREFS (prefs));
   g_assert (G_IS_FILE (file));
 
   stored_logs = logview_prefs_get_stored_logfiles (prefs);
 
-  for (l = stored_logs; l; l = l->next) {
-    stored = g_file_parse_name (l->data);
+  for (idx = 0; stored_logs[idx] != NULL; idx++) {
+    stored = g_file_parse_name (stored_logs[idx]);
     if (g_file_equal (file, stored)) {
       found = TRUE;
     }
@@ -475,60 +409,51 @@ logview_prefs_store_log (LogviewPrefs *prefs, GFile *file)
   }
 
   if (!found) {
-    stored_logs = g_slist_prepend (stored_logs, g_file_get_parse_name (file));
-    gconf_client_set_list (prefs->priv->client,
-                           GCONF_LOGFILES,
-                           GCONF_VALUE_STRING,
-                           stored_logs,
-                           NULL);
+    old_size = g_strv_length (stored_logs);
+    stored_logs = g_realloc (stored_logs, (old_size + 1) * sizeof (gchar *));
+    stored_logs[old_size] = g_file_get_parse_name (file);
+    stored_logs[old_size + 1] = NULL;
+
+    g_settings_set_strv (prefs->priv->logview_prefs,
+                         PREF_LOGFILES,
+                         (const gchar **) stored_logs);
   }
 
-  /* the string list is copied */
-  g_slist_foreach (stored_logs, (GFunc) g_free, NULL);
-  g_slist_free (stored_logs);
+  g_strfreev (stored_logs);
 }
 
 void
 logview_prefs_remove_stored_log (LogviewPrefs *prefs, GFile *target)
 {
-  GSList *stored_logs, *l, *removed = NULL;
+  gchar **stored_logs;
   GFile *stored;
+  GPtrArray *new_value;
+  gint idx;
+  gboolean removed = FALSE;
 
   g_assert (LOGVIEW_IS_PREFS (prefs));
   g_assert (G_IS_FILE (target));
 
   stored_logs = logview_prefs_get_stored_logfiles (prefs);
+  new_value = g_ptr_array_new ();
 
-  for (l = stored_logs; l; l = l->next) {
-    stored = g_file_parse_name (l->data);
-    if (g_file_equal (stored, target)) {
-      removed = l;
-      stored_logs = g_slist_remove_link (stored_logs, l);
+  for (idx = 0; stored_logs[idx] != NULL; idx++) {
+    stored = g_file_parse_name (stored_logs[idx]);
+    if (!g_file_equal (stored, target)) {
+      g_ptr_array_add (new_value, g_strdup (stored_logs[idx]));
     }
 
     g_object_unref (stored);
-
-    if (removed) {
-      break;
-    }
   }
 
-  if (removed) {
-    gconf_client_set_list (prefs->priv->client,
-                           GCONF_LOGFILES,
-                           GCONF_VALUE_STRING,
-                           stored_logs,
-                           NULL);
-  }
+  g_strfreev (stored_logs);
+  stored_logs = (gchar **) g_ptr_array_free (new_value, FALSE);
 
-  /* the string list is copied */
-  g_slist_foreach (stored_logs, (GFunc) g_free, NULL);
-  g_slist_free (stored_logs);
+  g_settings_set_strv (prefs->priv->logview_prefs,
+                       PREF_LOGFILES,
+                       (const gchar **) stored_logs);
 
-  if (removed) {
-    g_free (removed->data);
-    g_slist_free (removed);
-  }
+  g_strfreev (stored_logs);
 }
 
 void
@@ -537,11 +462,7 @@ logview_prefs_store_fontsize (LogviewPrefs *prefs, int fontsize)
   g_assert (LOGVIEW_IS_PREFS (prefs));
   g_assert (fontsize > 0);
 
-  if (gconf_client_key_is_writable (prefs->priv->client, GCONF_FONTSIZE_KEY, NULL)) {
-    gconf_client_set_int (prefs->priv->client,
-                          GCONF_FONTSIZE_KEY,
-                          fontsize, NULL);
-  }
+  g_settings_set_int (prefs->priv->logview_prefs, PREF_FONTSIZE, fontsize);
 }
 
 int
@@ -549,7 +470,7 @@ logview_prefs_get_stored_fontsize (LogviewPrefs *prefs)
 {
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-	return gconf_client_get_int (prefs->priv->client, GCONF_FONTSIZE_KEY, NULL);
+	return g_settings_get_int (prefs->priv->logview_prefs, PREF_FONTSIZE);
 }
 
 void
@@ -558,24 +479,17 @@ logview_prefs_store_active_logfile (LogviewPrefs *prefs,
 {
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  if (gconf_client_key_is_writable (prefs->priv->client, GCONF_LOGFILE, NULL)) {
-    gconf_client_set_string (prefs->priv->client,
-                             GCONF_LOGFILE,
-                             filename,
-                             NULL);
-  }
+  g_settings_set_string (prefs->priv->logview_prefs,
+                         PREF_LOGFILE, filename);
 }
 
 char *
 logview_prefs_get_active_logfile (LogviewPrefs *prefs)
 {
-  char *filename;
-
   g_assert (LOGVIEW_IS_PREFS (prefs));
 
-  filename = gconf_client_get_string (prefs->priv->client, GCONF_LOGFILE, NULL);
-
-  return filename;
+  return g_settings_get_string (prefs->priv->logview_prefs,
+                                PREF_LOGFILE);
 }
 
 GList *

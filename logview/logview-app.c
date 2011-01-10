@@ -338,7 +338,7 @@ logview_app_initialize (LogviewApp *app, char **log_files)
 
   if (log_files == NULL) {
     char *active_log;
-    GSList *logs;
+    gchar **logs;
 
     active_log = logview_prefs_get_active_logfile (priv->prefs);
     logs = logview_prefs_get_stored_logfiles (priv->prefs);
@@ -346,15 +346,14 @@ logview_app_initialize (LogviewApp *app, char **log_files)
     if (!logs) {
       logview_app_first_time_initialize (app);
     } else {
-      logview_manager_add_logs_from_name_list (priv->manager,
-                                               logs, active_log);
+      logview_manager_add_logs_from_names (priv->manager,
+                                           logs, active_log);
 
       g_free (active_log);
-      g_slist_foreach (logs, (GFunc) g_free, NULL);
-      g_slist_free (logs);
+      g_strfreev (logs);
     }
   } else {
-    logview_manager_add_logs_from_names (priv->manager, log_files);
+    logview_manager_add_logs_from_names (priv->manager, log_files, NULL);
   }
 
   gtk_widget_show (GTK_WIDGET (priv->window));

@@ -10,27 +10,24 @@ $(desktop_in_files): $(desktop_in_files:.desktop.in=.desktop.in.in)
 
 man_MANS = gnome-system-log.1
 
-schemasdir = $(GCONF_SCHEMA_FILE_DIR)
-schemas_in_files = gnome-system-log.schemas.in
-schemas_DATA = $(schemas_in_files:.schemas.in=.schemas)
-@INTLTOOL_SCHEMAS_RULE@
+gsettingsschema_in_files = org.gnome.gnome-system-log.gschema.xml.in
+gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
+.PRECIOUS: $(gsettings_SCHEMAS)
 
-install-data-local: $(schemas_DATA)
-if GCONF_SCHEMAS_INSTALL
-	if test -z "$(DESTDIR)" ; then \
-		for p in $^ ; do \
-			GCONF_CONFIG_SOURCE=$(GCONF_SCHEMA_CONFIG_SOURCE) $(GCONFTOOL) --makefile-install-rule $$p 2>&1 > /dev/null; \
-		done \
-	fi
-endif
+convertdir = $(datadir)/GConf/gsettings
+convert_DATA = logview.convert
+
+@INTLTOOL_XML_NOMERGE_RULE@
+
+@GSETTINGS_RULES@
 
 EXTRA_DIST = 			\
 	gnome-system-log.desktop.in.in	\
 	$(xml_DATA)		\
 	$(man_MANS)		\
-	$(schemas_in_files)
+	$(gsettingsschema_in_files)
 
 DISTCLEANFILES =		\
 	$(desktop_DATA)		\
 	$(desktop_in_files)	\
-	$(schemas_DATA)
+	$(gsettings_SCHEMAS)

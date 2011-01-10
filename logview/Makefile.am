@@ -45,7 +45,6 @@ gnome_system_log_CFLAGS =	\
 	$(GTHREAD_CFLAGS)	\
 	$(GIO_CFLAGS)		\
 	$(GTK_CFLAGS)		\
-	$(GCONF_CFLAGS)		\
 	$(NULL)
 
 gnome_system_log_LDADD =	\
@@ -53,7 +52,6 @@ gnome_system_log_LDADD =	\
 	$(GIO_LIBS)		\
 	$(GTHREAD_LIBS)		\
 	$(GTK_LIBS)		\
-	$(GCONF_LIBS)		\
 	$(Z_LIBS)		\
 	-lm
 
