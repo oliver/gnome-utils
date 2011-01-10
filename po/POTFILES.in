@@ -13,6 +13,9 @@ baobab/src/baobab-treeview.c
 baobab/src/baobab-utils.c
 baobab/src/baobab-ringschart.c
 baobab/src/callbacks.c
+#
+# gnome-dictionary
+#
 gnome-dictionary/data/default.desktop.in
 gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in
 gnome-dictionary/data/GNOME_DictionaryApplet.xml
@@ -43,15 +46,21 @@ gnome-dictionary/src/gdict-sidebar.c
 gnome-dictionary/src/gdict-source-dialog.c
 gnome-dictionary/src/gdict-window.c
 gnome-dictionary/src/main.c
+#
+# gnome-screenshot
+#
 gnome-screenshot/gnome-screenshot.c
 gnome-screenshot/gnome-screenshot.desktop.in
 [type: gettext/glade]gnome-screenshot/gnome-screenshot.ui
-gnome-screenshot/gnome-screenshot.schemas.in
+gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in
 gnome-screenshot/screenshot-dialog.c
 gnome-screenshot/screenshot-save.c
 gnome-screenshot/screenshot-shadow.c
 gnome-screenshot/screenshot-utils.c
 gnome-screenshot/screenshot-xfer.c
+#
+# gsearchtool
+#
 gsearchtool/gnome-search-tool.desktop.in
 gsearchtool/gnome-search-tool.schemas.in
 gsearchtool/gsearchtool-callbacks.c
@@ -59,6 +68,9 @@ gsearchtool/gsearchtool-support.c
 gsearchtool/gsearchtool.c
 libeggsmclient/eggdesktopfile.c
 libeggsmclient/eggsmclient.c
+#
+# logview
+#
 logview/data/gnome-system-log.desktop.in.in
 logview/data/org.gnome.gnome-system-log.gschema.xml.in
 [type: gettext/glade]logview/data/logview-filter.ui
@@ -70,6 +82,9 @@ logview/logview-log.c
 logview/logview-loglist.c
 logview/logview-main.c
 logview/logview-window.c
+#
+# font-viewer
+#
 font-viewer/font-thumbnailer.c
 font-viewer/font-view.c
 font-viewer/gnome-font-viewer.desktop.in.in
