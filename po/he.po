@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-09 21:08+0200\n"
-"PO-Revision-Date: 2011-01-09 21:09+0200\n"
+"POT-Creation-Date: 2011-01-11 20:31+0200\n"
+"PO-Revision-Date: 2011-01-11 20:32+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1694,82 +1694,82 @@ msgstr "אסטרטגיות זמינות"
 msgid "Dictionary sources"
 msgstr "מקורות מילון"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:132
 msgid "Error loading the help page"
 msgstr "שגיאה בטעינת דף העזרה"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:244
 msgid "None"
 msgstr "ללא"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:245
 msgid "Drop shadow"
 msgstr "הצללה"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "Border"
 msgstr "גבול"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:350
 msgid "Include _pointer"
 msgstr "הכללת _סמן העכבר"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:359
 msgid "Include the window _border"
 msgstr "צירוף גבולות החלון לצילום"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:374
 msgid "Apply _effect:"
 msgstr "החלת _אפקט:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:436
 msgid "Grab the whole _desktop"
 msgstr "צילום כל שולחן ה_עבודה"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:448
 msgid "Grab the current _window"
 msgstr "צילום החלון ה_נוכחי"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:460
 msgid "Select _area to grab"
 msgstr "בחירת _אזור ללכידה"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:477
 msgid "Grab _after a delay of"
 msgstr "צילום לאחר ה_שהייה של"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:497
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "seconds"
 msgstr "שניות"
 
-#: ../gnome-screenshot/gnome-screenshot.c:516
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:515
+#: ../gnome-screenshot/gnome-screenshot.c:523
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "צילום המסך"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:524
 msgid "Effects"
 msgstr "אפקטים"
 
-#: ../gnome-screenshot/gnome-screenshot.c:530
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Take _Screenshot"
 msgstr "צילום ה_מסך"
 
-#: ../gnome-screenshot/gnome-screenshot.c:656
+#: ../gnome-screenshot/gnome-screenshot.c:649
 msgid "Error while saving screenshot"
 msgstr "שגיאה בשמירת צילום המסך"
 
-#: ../gnome-screenshot/gnome-screenshot.c:659
+#: ../gnome-screenshot/gnome-screenshot.c:652
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1780,15 +1780,15 @@ msgstr ""
 " השגיאה הייתה %s.‏\n"
 "‏ נא לבחור מיקום שונה ולנסות שוב."
 
-#: ../gnome-screenshot/gnome-screenshot.c:791
+#: ../gnome-screenshot/gnome-screenshot.c:784
 msgid "Screenshot taken"
 msgstr "המסך צולם"
 
-#: ../gnome-screenshot/gnome-screenshot.c:845
+#: ../gnome-screenshot/gnome-screenshot.c:838
 msgid "Unable to take a screenshot of the current window"
 msgstr "לא ניתן לצלם את החלון הנוכחי."
 
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:888
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "צילום מסך-%s.png"
@@ -1796,14 +1796,14 @@ msgstr "צילום מסך-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:902
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "צילום מסך -%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:905
 #: ../gnome-screenshot/screenshot-dialog.c:346
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
@@ -1812,48 +1812,48 @@ msgstr "צילום מסך.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:919
+#: ../gnome-screenshot/gnome-screenshot.c:912
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "צילום מסך-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1284
+#: ../gnome-screenshot/gnome-screenshot.c:1255
 msgid "Grab a window instead of the entire screen"
 msgstr "Grab a window instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Grab an area of the screen instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Include the window border with the screenshot"
 msgstr "Include the window border with the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Remove the window border from the screenshot"
 msgstr "Remove the window border from the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Take screenshot after specified delay [in seconds]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effect to add to the border (shadow, border or none)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "effect"
 msgstr "effect"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Interactively set options"
 msgstr "Interactively set options"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1301
+#: ../gnome-screenshot/gnome-screenshot.c:1272
 msgid "Take a picture of the screen"
 msgstr "Take a picture of the screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1319
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1887,11 +1887,11 @@ msgstr "שמירה בתיקייה:"
 msgid "_Name:"
 msgstr "_שם:"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "Border Effect"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
 msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
@@ -1899,7 +1899,7 @@ msgstr ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
@@ -1907,39 +1907,39 @@ msgstr ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "Include Border"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
 msgid "Include Pointer"
 msgstr "Include Pointer"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include the pointer in the screenshot"
 msgstr "Include the pointer in the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
 msgid "Include the window manager border along with the screenshot"
 msgstr "Include the window manager border along with the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Screenshot delay"
 msgstr "Screenshot delay"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Screenshot directory"
 msgstr "Screenshot directory"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "The directory the last screenshot was saved in."
 msgstr "The directory the last screenshot was saved in."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "The number of seconds to wait before taking the screenshot."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Window-specific screenshot (deprecated)"
 
@@ -3030,23 +3030,31 @@ msgstr "מציג קובצי יומן"
 msgid "View or monitor system log files"
 msgstr "הצגה של או מעקב אחר קובצי יומני המערכת"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "Height of the main window in pixels"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "רשימת המסננים שנשמרו"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "רשימת מסנני הביטויים הרגולריים שנשמרו"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "Log file to open up on startup"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "Log files to open up on startup"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "Size of the font used to display the log"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
@@ -3054,11 +3062,11 @@ msgstr ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr "Specifies the height of the log viewer main window in pixels."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
@@ -3066,7 +3074,7 @@ msgstr ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
@@ -3074,11 +3082,11 @@ msgstr ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr "Specifies the width of the log viewer main window in pixels."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "Width of the main window in pixels"
 
@@ -3106,7 +3114,7 @@ msgstr "הדגשה"
 msgid "_Regular Expression:"
 msgstr "ביטוי _רגולרי:"
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "לא ניתן לפתוח את הקובץ %s"
@@ -3421,73 +3429,60 @@ msgstr "מציג הגופנים"
 msgid "Preview fonts"
 msgstr "תצוגה מקדימה של הגופנים"
 
-#: ../font-viewer/fontilus.schemas.in.h:1
-msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "If set to true, then OpenType fonts will be thumbnailed."
 
-#: ../font-viewer/fontilus.schemas.in.h:2
-msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr "If set to true, then PCF fonts will be thumbnailed."
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "If set to true, then PCF fonts will be thumbnailed."
 
-#: ../font-viewer/fontilus.schemas.in.h:3
-msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "If set to true, then TrueType fonts will be thumbnailed."
 
-#: ../font-viewer/fontilus.schemas.in.h:4
-msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "If set to true, then Type1 fonts will be thumbnailed."
 
-#: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
 
-#: ../font-viewer/fontilus.schemas.in.h:6
-msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Set this key to the command used to create thumbnails for PCF fonts."
 
-#: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
 
-#: ../font-viewer/fontilus.schemas.in.h:8
-msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
 
-#: ../font-viewer/fontilus.schemas.in.h:9
-msgid "Thumbnail command for OpenType fonts"
-msgstr "Thumbnail command for OpenType fonts"
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Thumbnail command for OpenType fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:10
-msgid "Thumbnail command for PCF fonts"
-msgstr "Thumbnail command for PCF fonts"
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Thumbnail command for PCF fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:11
-msgid "Thumbnail command for TrueType fonts"
-msgstr "Thumbnail command for TrueType fonts"
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Thumbnail command for TrueType fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:12
-msgid "Thumbnail command for Type1 fonts"
-msgstr "Thumbnail command for Type1 fonts"
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Thumbnail command for Type1 fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:13
-msgid "Whether to thumbnail OpenType fonts"
-msgstr "Whether to thumbnail OpenType fonts"
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Whether to thumbnail OpenType fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:14
-msgid "Whether to thumbnail PCF fonts"
-msgstr "Whether to thumbnail PCF fonts"
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Whether to thumbnail PCF fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:15
-msgid "Whether to thumbnail TrueType fonts"
-msgstr "Whether to thumbnail TrueType fonts"
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Whether to thumbnail TrueType fonts"
 
-#: ../font-viewer/fontilus.schemas.in.h:16
-msgid "Whether to thumbnail Type1 fonts"
-msgstr "Whether to thumbnail Type1 fonts"
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Whether to thumbnail Type1 fonts"
 
 #~ msgid "Chart currently active"
 #~ msgstr "Chart currently active"
