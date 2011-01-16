@@ -10,15 +10,16 @@
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999.
 # Manuel de Vega Barreiro <barreiro@arrakis.es> 2000-2001.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-11-29 20:09+0000\n"
-"PO-Revision-Date: 2010-12-05 18:39+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2011-01-10 15:30+0000\n"
+"PO-Revision-Date: 2011-01-13 19:22+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1024,54 +1025,54 @@ msgstr "Sólo local"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Indica si el contexto usa sólo los diccionarios locales o no"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "Recarga la lista de bases de datos disponibles"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "Limpia la lista de bases de datos disponibles"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
-#: ../gnome-dictionary/libgdict/gdict-speller.c:779
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:837
+#: ../gnome-dictionary/libgdict/gdict-speller.c:778
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "Ocurrió un error al coincidir"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
 #: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "No encontrado"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
 msgstr "_Buscar:"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
 msgid "_Previous"
 msgstr "_Anterior"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
 msgstr "_Siguiente"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
 msgstr "Error al buscar la definición"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
-#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Ya se está haciendo otra búsqueda "
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
-#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Por favor, espere a que la búsqueda actual termine."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
 msgid "Error while retrieving the definition"
 msgstr "Error al obtener la definición"
 
@@ -1101,7 +1102,7 @@ msgid "The description of this dictionary source"
 msgstr "La descripción de esta fuente de diccionarios"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:274
-#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+#: ../gnome-dictionary/libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "Base de datos"
 
@@ -1110,7 +1111,7 @@ msgid "The default database of this dictonary source"
 msgstr "La base de datos predeterminada para esta fuente de diccionarios"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
-#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+#: ../gnome-dictionary/libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Estrategia"
 
@@ -1127,7 +1128,7 @@ msgid "The transport mechanism used by this dictionary source"
 msgstr "El mecanismo de transporte usado por esta fuente de diccionario"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
-#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+#: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "Contexto"
 
@@ -1175,7 +1176,7 @@ msgstr "La fuente de diccionario no tiene nombre"
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "La fuente de diccionario «%s» tiene un transporte inválido «%s»"
 
-#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
 msgstr "Recargar la lista de fuentes disponibles"
 
@@ -1195,27 +1196,27 @@ msgstr "Fuentes"
 msgid "Dictionary sources found"
 msgstr "Se encontraron fuentes de diccionario"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+#: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
 msgstr "Limpia la lista de palabras similares"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
 msgstr "El objeto GDictContext usado para obtener la definición de la palabra"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
 msgid "The database used to query the GdictContext"
 msgstr "La base de datos usar para consultar el GDictContext"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
 msgid "The strategy used to query the GdictContext"
 msgstr "La estrategia usada para consultar el GDictContext"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "Recarga la lista de estrategias disponibles"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "Limpia la lista de estrategias disponibles"
 
@@ -3065,23 +3066,31 @@ msgstr "Visor de archivos de sucesos"
 msgid "View or monitor system log files"
 msgstr "Vea o monitorice los archivos de sucesos del sistema"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "Altura de la ventana principal en píxeles"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "Lista de archivos guardados"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "Lista de filtros de expresiones regulares guardados"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "Archivo de sucesos que abrir al iniciar"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "Archivos de sucesos que abrir al iniciar"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "Tamaño de la tipografía usada para mostrar el registro"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
@@ -3089,12 +3098,12 @@ msgstr ""
 "Especifica una lista de registros de sucesos que abrir al inicio. Se crea "
 "una lista predeterminada leyendo /etc/syslog.conf."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr ""
 "Especifica la altura en píxeles de la ventana principal del visor de sucesos."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
@@ -3103,7 +3112,7 @@ msgstr ""
 "«/var/adm/messages» o «/var/log/messages», dependiendo de su sistema "
 "operativo."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
@@ -3112,13 +3121,13 @@ msgstr ""
 "registro de sucesos en la vista del árbol principal. Lo predeterminado es "
 "tomar el tamaño de la tipografía predeterminado del terminal."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr ""
 "Especifica la anchura de la ventana principal del visor de sucesos en "
 "píxeles."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "Anchura de la ventana principal en píxeles"
 
@@ -3146,7 +3155,7 @@ msgstr "Resaltar"
 msgid "_Regular Expression:"
 msgstr "Expresión _regular:"
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "No se pudo abrir el archivo %s"
@@ -3414,7 +3423,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "Nombre:"
 
@@ -3423,17 +3431,14 @@ msgid "Style:"
 msgstr "Estilo:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "Tipo:"
 
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "Tamaño:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "Versión:"
 
@@ -3442,7 +3447,6 @@ msgid "Copyright:"
 msgstr "Copyright:"
 
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "Descripción:"
 
@@ -3464,95 +3468,79 @@ msgid "I_nstall Font"
 msgstr "I_nstalar tipografía"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "Visor de tipografías"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "Vista previa de las tipografías"
 
-#: ../font-viewer/fontilus.schemas.in.h:1
-msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr ""
-"Si está establecido a «true», entonces las tipografías OpenType se "
-"miniaturizarán."
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías OpenType se "
+#~ "miniaturizarán."
 
-#: ../font-viewer/fontilus.schemas.in.h:2
-msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr ""
-"Si está establecido a «true», entonces las tipografías PFC se miniaturizarán."
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías PFC se "
+#~ "miniaturizarán."
 
-#: ../font-viewer/fontilus.schemas.in.h:3
-msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr ""
-"Si está establecido a «true», entonces las tipografías TrueType se "
-"miniaturizarán."
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías TrueType se "
+#~ "miniaturizarán."
 
-#: ../font-viewer/fontilus.schemas.in.h:4
-msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr ""
-"Si está establecido a «true», entonces las tipografías Type1 se "
-"miniaturizarán."
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Si está establecido a «true», entonces las tipografías Type1 se "
+#~ "miniaturizarán."
 
-#: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Establezca en esta clave el comando que se debe usar para crear miniaturas "
-"de las tipografías OpenType."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías OpenType."
 
-#: ../font-viewer/fontilus.schemas.in.h:6
-msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr ""
-"Establezca en esta clave el comando que se debe usar para crear miniaturas "
-"de las tipografías PCF."
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías PCF."
 
-#: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Establezca en esta clave el comando que se debe usar para crear miniaturas "
-"de las tipografías TrueType."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías TrueType."
 
-#: ../font-viewer/fontilus.schemas.in.h:8
-msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Establezca en esta clave el comando que se debe usar para crear miniaturas "
-"de las tipografías Type1."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Establezca en esta clave el comando que se debe usar para crear "
+#~ "miniaturas de las tipografías Type1."
 
-#: ../font-viewer/fontilus.schemas.in.h:9
-msgid "Thumbnail command for OpenType fonts"
-msgstr "Comando para miniaturizar las tipografías OpenType"
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Comando para miniaturizar las tipografías OpenType"
 
-#: ../font-viewer/fontilus.schemas.in.h:10
-msgid "Thumbnail command for PCF fonts"
-msgstr "Comando para miniaturizar las tipografías PCF"
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Comando para miniaturizar las tipografías PCF"
 
-#: ../font-viewer/fontilus.schemas.in.h:11
-msgid "Thumbnail command for TrueType fonts"
-msgstr "Comando para miniaturizar las tipografías TrueType"
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Comando para miniaturizar las tipografías TrueType"
 
-#: ../font-viewer/fontilus.schemas.in.h:12
-msgid "Thumbnail command for Type1 fonts"
-msgstr "Comando para miniaturizar las tipografías Type1"
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Comando para miniaturizar las tipografías Type1"
 
-#: ../font-viewer/fontilus.schemas.in.h:13
-msgid "Whether to thumbnail OpenType fonts"
-msgstr "Indica si debe miniaturizar las tipografías OpenType"
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías OpenType"
 
-#: ../font-viewer/fontilus.schemas.in.h:14
-msgid "Whether to thumbnail PCF fonts"
-msgstr "Indica si debe miniaturizar las tipografías PCF"
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías PCF"
 
-#: ../font-viewer/fontilus.schemas.in.h:15
-msgid "Whether to thumbnail TrueType fonts"
-msgstr "Indica si debe miniaturizar las tipografías TrueType"
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías TrueType"
 
-#: ../font-viewer/fontilus.schemas.in.h:16
-msgid "Whether to thumbnail Type1 fonts"
-msgstr "Indica si debe miniaturizar las tipografías Type1"
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Indica si debe miniaturizar las tipografías Type1"
 
 #~ msgid "Chart currently active"
 #~ msgstr "Gráfico actualmente activo"
