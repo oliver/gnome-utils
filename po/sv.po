@@ -1,9 +1,9 @@
 # Swedish messages for gnome-utils.
-# Copyright (C) 2000-2009 Free Software Foundation, Inc.
+# Copyright (C) 2000-2011 Free Software Foundation, Inc.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2000.
 # Andreas Hyden <a.hyden@cyberpoint.se>.
 # Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011.
 #
 # $Id: sv.po,v 1.161 2006/12/11 21:18:20 dnylande Exp $
 #
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-31 12:40+0100\n"
-"PO-Revision-Date: 2010-12-31 12:47+0100\n"
+"POT-Creation-Date: 2011-01-22 15:52+0100\n"
+"PO-Revision-Date: 2011-01-22 15:53+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -1607,82 +1607,82 @@ msgstr "Tillgängliga strategier"
 msgid "Dictionary sources"
 msgstr "Ordbokskällor"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:132
 msgid "Error loading the help page"
 msgstr "Fil vid inläsning av hjälpsidan"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:244
 msgid "None"
 msgstr "Ingen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:245
 msgid "Drop shadow"
 msgstr "Skugga"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "Border"
 msgstr "Ram"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:350
 msgid "Include _pointer"
 msgstr "Inkludera _pekare"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:359
 msgid "Include the window _border"
 msgstr "Inkludera fönster_ramen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:374
 msgid "Apply _effect:"
 msgstr "Tillämpa _effekt:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:436
 msgid "Grab the whole _desktop"
 msgstr "Fånga hela s_krivbordet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:448
 msgid "Grab the current _window"
 msgstr "Fånga aktuellt _fönster"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:460
 msgid "Select _area to grab"
 msgstr "Välj _område att fånga"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:477
 msgid "Grab _after a delay of"
 msgstr "Fånga _efter en fördröjning på"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:497
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "seconds"
 msgstr "sekunder"
 
-#: ../gnome-screenshot/gnome-screenshot.c:516
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:515
+#: ../gnome-screenshot/gnome-screenshot.c:523
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Ta en skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:524
 msgid "Effects"
 msgstr "Effekter"
 
-#: ../gnome-screenshot/gnome-screenshot.c:530
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Take _Screenshot"
 msgstr "Ta en _skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:656
+#: ../gnome-screenshot/gnome-screenshot.c:649
 msgid "Error while saving screenshot"
 msgstr "Fel vid sparande av skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:659
+#: ../gnome-screenshot/gnome-screenshot.c:652
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1693,15 +1693,15 @@ msgstr ""
 " Felet var %s.\n"
 " Välj en annan plats och försök igen."
 
-#: ../gnome-screenshot/gnome-screenshot.c:791
+#: ../gnome-screenshot/gnome-screenshot.c:784
 msgid "Screenshot taken"
 msgstr "Skärmbild tagen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:845
+#: ../gnome-screenshot/gnome-screenshot.c:838
 msgid "Unable to take a screenshot of the current window"
 msgstr "Kunde inte ta en skärmbild av det aktuella fönstret"
 
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:888
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Skärmbild-%s.png"
@@ -1709,14 +1709,14 @@ msgstr "Skärmbild-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:902
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Skärmbild-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:905
 #: ../gnome-screenshot/screenshot-dialog.c:346
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
@@ -1725,48 +1725,48 @@ msgstr "Skärmbild.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:919
+#: ../gnome-screenshot/gnome-screenshot.c:912
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Skärmbild-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1284
+#: ../gnome-screenshot/gnome-screenshot.c:1255
 msgid "Grab a window instead of the entire screen"
 msgstr "Fånga ett fönster istället för hela skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Fånga ett område av skärmen istället för hela skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Include the window border with the screenshot"
 msgstr "Inkludera fönsterramen i skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Remove the window border from the screenshot"
 msgstr "Ta bort fönsterramen från skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Ta skärmbild efter angiven fördröjning [i sekunder]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effekt att lägga till i ramen (skugga, ram eller ingen)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "effect"
 msgstr "effekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Interactively set options"
 msgstr "Ställ interaktivt in alternativ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1301
+#: ../gnome-screenshot/gnome-screenshot.c:1272
 msgid "Take a picture of the screen"
 msgstr "Ta en bild av skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1319
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 #, c-format
 msgid "Conflicting options: --window and --area should not be used at the same time.\n"
 msgstr "Flaggor i konflikt: --window och --area bör inte användas samtidigt.\n"
@@ -1796,51 +1796,51 @@ msgstr "Spara i _mappen:"
 msgid "_Name:"
 msgstr "_Namn:"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "Rameffekt"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
 msgid "Effect to add to the outside of a border. Possible values are \"shadow\", \"none\", and \"border\"."
 msgstr "Effekt att lägga till utsidan på ramen. Möjliga värden är \"shadow\", \"none\" och \"border\"."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid "Grab just the current window, rather than the whole desktop. This key has been deprecated and it is no longer in use."
 msgstr "Fånga bara det aktuella fönstret istället för hela skrivbordet. Denna nyckel har fasats ut och används inte längre."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "Inkludera ram"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
 msgid "Include Pointer"
 msgstr "Inkludera pekare"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include the pointer in the screenshot"
 msgstr "Inkludera muspekaren i skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
 msgid "Include the window manager border along with the screenshot"
 msgstr "Inkludera fönsterhanterarens ram i skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Screenshot delay"
 msgstr "Fördröjning för skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Screenshot directory"
 msgstr "Katalog för skärmbilder"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "The directory the last screenshot was saved in."
 msgstr "Katalogen som den senaste skärmbilden sparades i."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Antalet sekunder att vänta innan skärmbilden tas."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Fönsterspecifik skärmbild (utfasad)"
 
@@ -2835,43 +2835,51 @@ msgstr "Loggfilsvisare"
 msgid "View or monitor system log files"
 msgstr "Visa eller övervaka systemloggfiler"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "Höjd på huvudfönstret i pixlar."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "Lista över sparade filter"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "Lista över sparade regexp-filter"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "Loggfil att öppna vid uppstart"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "Loggfiler att öppna vid uppstart"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "Storlek på typsnittet som används för att visa loggen"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid "Specifies a list of log files to open up at startup. A default list is created by reading /etc/syslog.conf."
 msgstr "Anger en lista på loggfiler som öppnas vid uppstart. En standardlista skapas genom att läsa /etc/syslog.conf."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr "Anger höjden på loggvisarens huvudfönster i pixlar."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid "Specifies the log file displayed at startup. The default is either /var/adm/messages or /var/log/messages, depending on your operating system."
 msgstr "Anger den loggfil som visas vid uppstart. Standard är antingen /var/adm/messages eller /var/log/messages, beroende på ditt operativsystem."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid "Specifies the size of the fixed-width font used to display the log in the main tree view. The default is taken from the default terminal font size."
 msgstr "Anger storleken på det typsnitt med fast breddsteg som används för att visa loggen i huvudträdvyn. Standarden är tagen från storleken för standardterminaltypsnittet."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr "Anger bredden på loggvisarens huvudfönster i pixlar."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "Bredd på huvudfönstret i pixlar"
 
@@ -2899,7 +2907,7 @@ msgstr "Markera"
 msgid "_Regular Expression:"
 msgstr "_Reguljärt uttryck:"
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Omöjligt att öppna filen %s"
@@ -3217,70 +3225,56 @@ msgstr "Typsnittsvisare"
 msgid "Preview fonts"
 msgstr "Förhandsvisa typsnitt"
 
-#: ../font-viewer/fontilus.schemas.in.h:1
-msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr "Om inställd till true så kommer miniatyrbilder av OpenType-typsnitt att skapas."
-
-#: ../font-viewer/fontilus.schemas.in.h:2
-msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr "Om inställd till true så kommer miniatyrbilder av PCF-typsnitt att skapas."
-
-#: ../font-viewer/fontilus.schemas.in.h:3
-msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr "Om inställd till true så kommer miniatyrbilder av TrueType-typsnitt att skapas."
-
-#: ../font-viewer/fontilus.schemas.in.h:4
-msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr "Om inställd till true så kommer miniatyrbilder av Type1-typsnitt att skapas."
-
-#: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "Ställ in denna nyckel till kommandot att använda för att skapa miniatyrbilder för OpenType-typsnitt."
-
-#: ../font-viewer/fontilus.schemas.in.h:6
-msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "Ställ in denna nyckel till kommandot att använda för att skapa miniatyrbilder för PCF-typsnitt."
-
-#: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "Ställ in denna nyckel till kommandot att använda för att skapa miniatyrbilder för TrueType-typsnitt."
-
-#: ../font-viewer/fontilus.schemas.in.h:8
-msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "Ställ in denna nyckel till kommandot att använda för att skapa miniatyrbilder för Type1-typsnitt."
-
-#: ../font-viewer/fontilus.schemas.in.h:9
-msgid "Thumbnail command for OpenType fonts"
-msgstr "Miniatyrbildskommando för OpenType-typsnitt"
-
-#: ../font-viewer/fontilus.schemas.in.h:10
-msgid "Thumbnail command for PCF fonts"
-msgstr "Miniatyrbildskommando för PCF-typsnitt"
-
-#: ../font-viewer/fontilus.schemas.in.h:11
-msgid "Thumbnail command for TrueType fonts"
-msgstr "Miniatyrbildskommando för TrueType-typsnitt"
-
-#: ../font-viewer/fontilus.schemas.in.h:12
-msgid "Thumbnail command for Type1 fonts"
-msgstr "Miniatyrbildskommando för Type1-typsnitt"
-
-#: ../font-viewer/fontilus.schemas.in.h:13
-msgid "Whether to thumbnail OpenType fonts"
-msgstr "Huruvida miniatyrbilder av OpenType-typsnitt ska skapas"
-
-#: ../font-viewer/fontilus.schemas.in.h:14
-msgid "Whether to thumbnail PCF fonts"
-msgstr "Huruvida miniatyrbilder av PCF-typsnitt ska skapas"
-
-#: ../font-viewer/fontilus.schemas.in.h:15
-msgid "Whether to thumbnail TrueType fonts"
-msgstr "Huruvida miniatyrbilder av TrueType-typsnitt ska skapas"
-
-#: ../font-viewer/fontilus.schemas.in.h:16
-msgid "Whether to thumbnail Type1 fonts"
-msgstr "Huruvida miniatyrbilder av Type1-typsnitt ska skapas"
-
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Om inställd till true så kommer miniatyrbilder av OpenType-typsnitt att "
+#~ "skapas."
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Om inställd till true så kommer miniatyrbilder av PCF-typsnitt att skapas."
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Om inställd till true så kommer miniatyrbilder av TrueType-typsnitt att "
+#~ "skapas."
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Om inställd till true så kommer miniatyrbilder av Type1-typsnitt att "
+#~ "skapas."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Ställ in denna nyckel till kommandot att använda för att skapa "
+#~ "miniatyrbilder för OpenType-typsnitt."
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Ställ in denna nyckel till kommandot att använda för att skapa "
+#~ "miniatyrbilder för PCF-typsnitt."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Ställ in denna nyckel till kommandot att använda för att skapa "
+#~ "miniatyrbilder för TrueType-typsnitt."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Ställ in denna nyckel till kommandot att använda för att skapa "
+#~ "miniatyrbilder för Type1-typsnitt."
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Miniatyrbildskommando för OpenType-typsnitt"
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Miniatyrbildskommando för PCF-typsnitt"
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Miniatyrbildskommando för TrueType-typsnitt"
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Miniatyrbildskommando för Type1-typsnitt"
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Huruvida miniatyrbilder av OpenType-typsnitt ska skapas"
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Huruvida miniatyrbilder av PCF-typsnitt ska skapas"
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Huruvida miniatyrbilder av TrueType-typsnitt ska skapas"
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Huruvida miniatyrbilder av Type1-typsnitt ska skapas"
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "Inställningar för diskanvändningsanalysator"
 #~ msgid "Select _devices to include in filesystem scan:"
