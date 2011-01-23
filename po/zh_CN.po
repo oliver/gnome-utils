@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2010-10-20 22:57+0000\n"
+"POT-Creation-Date: 2011-01-10 15:30+0000\n"
 "PO-Revision-Date: 2010-10-20 17:41+0800\n"
 "Last-Translator: Tao Wei <weitao1979@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -173,100 +173,100 @@ msgstr "工具栏(_T)"
 msgid "_View"
 msgstr "查看(_V)"
 
-#: ../baobab/src/baobab.c:135 ../baobab/src/baobab.c:354
+#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "正在扫描..."
 
-#: ../baobab/src/baobab.c:181
+#: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
 msgstr "总计文件系统容量："
 
-#: ../baobab/src/baobab.c:182
+#: ../baobab/src/baobab.c:183
 msgid "used:"
 msgstr "已用："
 
-#: ../baobab/src/baobab.c:183
+#: ../baobab/src/baobab.c:184
 msgid "available:"
 msgstr "可用："
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:239 ../baobab/src/baobab.c:296
+#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "正在计算百分比条..."
 
-#: ../baobab/src/baobab.c:250 ../baobab/src/baobab.c:1291
+#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "就绪"
 
-#: ../baobab/src/baobab.c:387
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "文件系统总容量"
 
-#: ../baobab/src/baobab.c:409
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "文件系统总用量"
 
-#: ../baobab/src/baobab.c:450
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "包含硬链接："
 
-#: ../baobab/src/baobab.c:459
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "% 5d 项"
 
-#: ../baobab/src/baobab.c:586
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "无法初始化监视"
 
-#: ../baobab/src/baobab.c:587
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "对主目录的更改无法监视。"
 
-#: ../baobab/src/baobab.c:911
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "移动到父文件夹"
 
-#: ../baobab/src/baobab.c:915
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "放大"
 
-#: ../baobab/src/baobab.c:919
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "缩小"
 
-#: ../baobab/src/baobab.c:923
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "保存抓图"
 
-#: ../baobab/src/baobab.c:1109
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "查看为圆环图"
 
-#: ../baobab/src/baobab.c:1111
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "查看为树形图"
 
-#: ../baobab/src/baobab.c:1216
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "显示版本号"
 
-#: ../baobab/src/baobab.c:1217
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[目录]"
 
-#: ../baobab/src/baobab.c:1247
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "参数太多，只可以指定一个目录。"
 
-#: ../baobab/src/baobab.c:1264
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "无法检测到任何挂载点。"
 
-#: ../baobab/src/baobab.c:1266
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
 msgstr "没有挂载点，无法分析磁盘使用情况。"
 
@@ -447,61 +447,61 @@ msgstr "大小"
 msgid "Contents"
 msgstr "内容"
 
-#: ../baobab/src/baobab-utils.c:106
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "选择文件夹"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:118
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "显示隐藏文件夹(_S)"
 
-#: ../baobab/src/baobab-utils.c:297
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "无法检查被排除的文件夹！"
 
-#: ../baobab/src/baobab-utils.c:321
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "“%s”不是有效的文件夹"
 
-#: ../baobab/src/baobab-utils.c:324
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "无法分析磁盘使用。"
 
-#: ../baobab/src/baobab-utils.c:364
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "打开文件夹(_O)"
 
-#: ../baobab/src/baobab-utils.c:370
+#: ../baobab/src/baobab-utils.c:332
 #: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "移动到回收站(_V)"
 
-#: ../baobab/src/baobab-utils.c:404
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "无法打开文件夹“%s”"
 
-#: ../baobab/src/baobab-utils.c:407
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "没有安装能显示文件夹的查看器。"
 
-#: ../baobab/src/baobab-utils.c:476
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "无法将“%s”移动到回收站"
 
-#: ../baobab/src/baobab-utils.c:484
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "无法将文件移动到回收站"
 
-#: ../baobab/src/baobab-utils.c:486
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "细节：%s"
 
-#: ../baobab/src/baobab-utils.c:522
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "显示帮助时出错。"
 
@@ -974,54 +974,54 @@ msgstr "只有文本"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "上下文是否只使用本地字典"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "重新装入可用数据库列表"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "清除可用数据库列表"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
-#: ../gnome-dictionary/libgdict/gdict-speller.c:779
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:837
+#: ../gnome-dictionary/libgdict/gdict-speller.c:778
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "匹配时出错"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
 #: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "未找到"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
 msgstr "查找(_I)："
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
 msgid "_Previous"
 msgstr "前一个(_P)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
 msgstr "下一个(_N)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
 msgstr "查阅定义出错"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
-#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "另外一项搜索正在进行中"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
-#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "请稍候，等待当前搜索结束。"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
 msgid "Error while retrieving the definition"
 msgstr "获取定义出错"
 
@@ -1051,7 +1051,7 @@ msgid "The description of this dictionary source"
 msgstr "此字典源的描述"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:274
-#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+#: ../gnome-dictionary/libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "数据库"
 
@@ -1060,7 +1060,7 @@ msgid "The default database of this dictonary source"
 msgstr "此字典源的默认数据库"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
-#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+#: ../gnome-dictionary/libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "策略"
 
@@ -1077,7 +1077,7 @@ msgid "The transport mechanism used by this dictionary source"
 msgstr "此字典源所使用的传送机制"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
-#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+#: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "上下文"
 
@@ -1119,7 +1119,7 @@ msgstr "字典源没有名称"
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "字典源“%s”的传送“%s”无效"
 
-#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
 msgstr "重新装入可用源列表"
 
@@ -1139,27 +1139,27 @@ msgstr "源"
 msgid "Dictionary sources found"
 msgstr "找到的字典源"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+#: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
 msgstr "清除相似单词列表"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
 msgstr "用于获得单词定义的 GdictContext 对象"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
 msgid "The database used to query the GdictContext"
 msgstr "用于查询 GdictContext 的数据库"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
 msgid "The strategy used to query the GdictContext"
 msgstr "查询 GdictContext 所使用的策略"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "重新装入可用的策略"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "清除可用策略列表"
 
@@ -2938,23 +2938,31 @@ msgstr "系统日志查看器"
 msgid "View or monitor system log files"
 msgstr "查看或监视系统日志文件"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "主窗口的高度，以像素计"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "已保存过滤器的列表"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "以保存正则表达式过滤器的列表"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "启动时打开的日志文件"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "启动时打开的日志文件"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "用于显示日志的字体大小"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
@@ -2962,11 +2970,11 @@ msgstr ""
 "指定在程序启动时要打开的日志文件。默认列表将会通过读取 /etc/syslog.conf 创"
 "建。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr "指定日志查看器主窗口的高度，以像素计。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
@@ -2974,18 +2982,18 @@ msgstr ""
 "指定在程序启动时显示的日志文件。根据您的操作系统不同，默认是 /var/adm/"
 "messages 或者 /var/log/messages。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
 msgstr ""
 "指定用于在主树视图中显示日志的等宽字体大小。默认值来自于默认终端字体大小。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr "指定日志查看器主窗口的宽度，以像素计。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "主窗口的宽度，以像素计"
 
@@ -3013,7 +3021,7 @@ msgstr "高亮"
 msgid "_Regular Expression:"
 msgstr "正则表达式(_R)："
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "无法打开文件 %s"
@@ -3037,7 +3045,7 @@ msgstr "无效的正则表达式：%s"
 
 #: ../logview/logview-filter-manager.c:238
 msgid "Please specify either foreground or background color!"
-msgstr "\t请指定或前景或背景颜色！"
+msgstr "请指定或前景或背景颜色！"
 
 #: ../logview/logview-filter-manager.c:292
 msgid "Edit filter"
@@ -3255,482 +3263,75 @@ msgstr "版本："
 msgid "Could not open the following files:"
 msgstr "无法打开下列文件："
 
-#~ msgid "Chart currently active"
-#~ msgstr "当前活动的图表"
-
-#~ msgid "Enable monitoring of home directory"
-#~ msgstr "启用主目录的监视"
-
-#~ msgid "Status Bar is Visible"
-#~ msgstr "状态栏可见"
-
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "磁盘使用分析器首选项"
-
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "选择要在文件系统扫描中包含的设备(_D)："
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "监视对主文件夹的更改(_M)"
-
-#~ msgid "Subfolders tooltips visible"
-#~ msgstr "子文件夹工具提示可见"
-
-#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
-#~ msgstr "是否绘制选中文件夹的子文件夹工具提示。"
-
-#~ msgid "Save snapshot"
-#~ msgstr "保存抓图"
-
-#~ msgid "Enter Password"
-#~ msgstr "输入密码"
-
-#~ msgid "Floppy Formatter"
-#~ msgstr "软盘格式化程序"
-
-#~ msgid "Format floppy disks"
-#~ msgstr "格式化软盘"
-
-#~ msgid ""
-#~ "0 for the quick format, 1 for a standard one (adds a low-level format) "
-#~ "and finally 2 for a thorough format (adds a bad blocks scan)."
-#~ msgstr ""
-#~ "0 为快速格式化，1 为标准方式(增加了低级格式化)，最后，2 是完全格式化(增加"
-#~ "了坏块扫描)。"
-
-#~ msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
-#~ msgstr "高级用户专用 - 默认的 FAT 格式化后端程序"
-
-#~ msgid "Default filesystem type"
-#~ msgstr "默认文件系统类型"
-
-#~ msgid "Default formatting mode"
-#~ msgstr "默认格式化方式"
-
-#~ msgid ""
-#~ "TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to "
-#~ "set mtools as the preferred FAT formatting backend."
-#~ msgstr ""
-#~ "设为真将使用 mkdosfs 作为首选的 FAT 格式化后端，或者设为假将使用 mtools 作"
-#~ "为首选的 FAT 格式化后端程序。"
-
-#~ msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
-#~ msgstr ""
-#~ "设为 ext2 将格式化为 Linux 内建的文件系统，或者设为 fat 将格式化为 DOS 文"
-#~ "件系统。"
-
-#~ msgid "Internal Error: Unable to seek to the correct location."
-#~ msgstr "内部错误：无法搜索到正确位置。"
-
-#~ msgid "Internal Error: Weird value (%ld) in do_test\n"
-#~ msgstr "内部错误：do_test 中的非法值 (%ld)\n"
-
-#~ msgid "Checking for bad blocks..."
-#~ msgstr "正在检查坏块..."
-
-#~ msgid "Failed to open device %s for badblock checking\n"
-#~ msgstr "为执行坏块检查打开设备 %s 失败\n"
-
-#~ msgid "Checking for bad blocks... Done"
-#~ msgstr "正在检查坏块... 完成"
-
-#~ msgid "Formatting the disk..."
-#~ msgstr "正在格式化磁盘..."
-
-#~ msgid "I don't know what this is, but it's very wrong."
-#~ msgstr "未知原因的严重错误。"
-
-#~ msgid "Error formatting track #%d"
-#~ msgstr "格式化第 %d 道时出错"
-
-#~ msgid "Error during completion of formatting"
-#~ msgstr "完成格式时出错"
-
-#~ msgid "Formatting the disk... Done"
-#~ msgstr "正在格式化磁盘... 完成"
-
-#~ msgid "Verifying the format..."
-#~ msgstr "正在校验格式..."
-
-#~ msgid ""
-#~ "Unable to write to the floppy.\n"
-#~ "\n"
-#~ "Please confirm that it is not write-protected."
-#~ msgstr ""
-#~ "无法写入软盘。\n"
-#~ "\n"
-#~ "请确认该软盘没有写保护。"
-
-#~ msgid "Insufficient permissions to open floppy device %s."
-#~ msgstr "没有足够的权限打开软驱设备 %s。"
-
-#~ msgid ""
-#~ "Unable to access the floppy disk.\n"
-#~ "\n"
-#~ "Please confirm that it is in the drive\n"
-#~ "with the drive door shut."
-#~ msgstr ""
-#~ "无法访问软盘。\n"
-#~ "\n"
-#~ "请确认软盘在驱动器内\n"
-#~ "并且关闭了驱动器门。"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s:%d"
-#~ msgstr ""
-#~ "访问软盘设备 %s 时发生一般性错误。\n"
-#~ "\n"
-#~ "错误码 %s：%d"
-
-#~ msgid ""
-#~ "Read Error:\n"
-#~ "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr ""
-#~ "读取错误:\n"
-#~ "读取柱面 %d 时出现问题，期待值 %d，读取值 %d"
-
-#~ msgid "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr "读取柱面 %d 时出现问题，期待值 %d，读取值 %d"
-
-#~ msgid "Bad data in cyl %d.  Continuing... "
-#~ msgstr "柱面 %d 上有错误数据。继续..."
-
-#~ msgid "Error closing device %s"
-#~ msgstr "关闭设备 %s 时出错"
-
-#~ msgid "Verifying the format... Done"
-#~ msgstr "正在校验格式... 完成"
-
-#~ msgid "Unable to write to device %s"
-#~ msgstr "无法写入设备 %s"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s"
-#~ msgstr ""
-#~ "访问软盘设备 %s 时发生一般性错误。\n"
-#~ "\n"
-#~ "错误码 %s"
-
-#~ msgid "Could not determine current floppy geometry."
-#~ msgstr "无法确定当前软盘的几何属性。"
-
-#~ msgid "Error while creating a unique filename for the bad blocks list file."
-#~ msgstr "为坏块列表文件创建唯一的文件名时发生错误。"
-
-#~ msgid "Error while filling the bad blocks list file."
-#~ msgstr "填充坏块列表文件时发生错误。"
-
-#~ msgid "Error while spawning the (%s) command: %s."
-#~ msgstr "执行(%s)命令时发生错误：%s"
-
-#~ msgid "Unknown mke2fs starting signature, cancelling."
-#~ msgstr "未知的 mke2fs 起始签名，正在取消。"
-
-#~ msgid ""
-#~ "The filesystem creation utility (%s) reported the following errors:\n"
-#~ "\n"
-#~ "%s (%d)"
-#~ msgstr ""
-#~ "文件系统创建工具(%s)报告如下错误：\n"
-#~ "\n"
-#~ "%s (%d)"
-
-#~ msgid "Abnormal child process termination."
-#~ msgstr "子进程异常终止。"
-
-#~ msgid "Error while spawning the mbadblocks command: %s."
-#~ msgstr "执行 mbadblocks 命令时发生错误：%s。"
-
-#~ msgid ""
-#~ "The bad blocks checking utility (mbadblocks) reported the following "
-#~ "errors:\n"
-#~ "%s."
-#~ msgstr ""
-#~ "坏块检查工具(mbadblocks)报告如下错误：\n"
-#~ "%s。"
-
-#~ msgid "Abnormal mbadblocks child process termination."
-#~ msgstr "mbadblocks 子进程异常终止。"
-
-#~ msgid "Making filesystem on disk..."
-#~ msgstr "正在制作磁盘上的文件系统..."
-
-#~ msgid "Unable to create filesystem correctly."
-#~ msgstr "无法正确创建文件系统。"
-
-#~ msgid "Making filesystem on disk... Done"
-#~ msgstr "正在制作磁盘上的文件系统... 完成"
-
-#~ msgid "Checking for bad blocks... (this might take a while)"
-#~ msgstr "正在检查坏块... (这将花些时间)"
-
-#~ msgid "Error while checking the bad blocks."
-#~ msgstr "检查坏块时发生错误。"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid ""
-#~ "<small><i><b>Note</b>: The mbadblocks utility isn't installed on this "
-#~ "system.  It must be installed in order to perform a thorough DOS (fat) "
-#~ "formatting.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>注意</b>：这个系统上没有安装 mbadblocks 工具。要进行完全的 "
-#~ "DOS (fat) 格式化必须先安装它。</i></small>"
-
-#~ msgid "DOS (FAT)"
-#~ msgstr "DOS (FAT)"
-
-#~ msgid "Double Density 3.5\" (720KB)"
-#~ msgstr "双密度 3.5\" (720 KB)"
-
-#~ msgid "Double Density 5.25\" (360KB)"
-#~ msgstr "双密度 5.25\" (360 KB)"
-
-#~ msgid "File system _type:"
-#~ msgstr "文件系统类型(_T)："
-
-#~ msgid "Filesystem Settings"
-#~ msgstr "文件系统设置"
-
-#~ msgid "Floppy _density:"
-#~ msgstr "软盘密度(_D)："
-
-#~ msgid "Floppy de_vice:"
-#~ msgstr "软盘设备(_V)："
-
-#~ msgid "Formatting Mode"
-#~ msgstr "格式化模式"
-
-#~ msgid "High Density 3.5\" (1.44MB)"
-#~ msgstr "高密度 3.5\" (1.44 MB)"
-
-#~ msgid "High Density 5.25\" (1.2MB)"
-#~ msgstr "高密度 5.25\" (1.2 MB)"
-
-#~ msgid "Linux Native (ext2)"
-#~ msgstr "Linux 内建 (ext2)"
-
-#~ msgid "Physical Settings"
-#~ msgstr "物理设置"
-
-#~ msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
-#~ msgstr "完全(在标准方式基础上增加坏块检查)(_G)"
-
-#~ msgid "Volume _name:"
-#~ msgstr "卷标名(_N)："
-
-#~ msgid "_Format"
-#~ msgstr "格式化(_F)"
-
-#~ msgid "_Quick (only creates the filesystem)"
-#~ msgstr "快速(仅创建文件系统)(_Q)"
-
-#~ msgid "_Standard (adds a low-level format to the quick mode)"
-#~ msgstr "标准(在快速方式前增加低级格式化)(_S)"
-
-#~ msgid "Cannot Format"
-#~ msgstr "无法格式化"
-
-#~ msgid ""
-#~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
-#~ "You can't format a floppy without one of them."
-#~ msgstr ""
-#~ "mke2fs 和 mkdosfs/mformat 应用程序一个都没有安装。没有它们无法格式化软盘。"
-
-#~ msgid "Unable to open the device %s, formatting cannot continue."
-#~ msgstr "无法打开设备 %s，无法继续格式化。"
-
-#~ msgid ""
-#~ "The device %s is disconnected.\n"
-#~ "Please attach device to continue."
-#~ msgstr ""
-#~ "设备 %s 已断开。\n"
-#~ "请连接设备并继续。"
-
-#~ msgid ""
-#~ "You do not have the proper permissions to write to %s, formatting will "
-#~ "not be possible.\n"
-#~ "Contact your system administrator about getting write permissions."
-#~ msgstr ""
-#~ "您没有适当的权限写入 %s，格式化是不可能的。\n"
-#~ "与您的系统管理员交涉以获得写权限。"
-
-#~ msgid "Cannot initialize device"
-#~ msgstr "无法初始化设备"
-
-#~ msgid "Unable to open any device, formatting cannot continue."
-#~ msgstr "无法打开任何设备，无法继续格式化。"
-
-#~ msgid "/dev/floppy/0 or /dev/fd0"
-#~ msgstr "/dev/floppy/0 或 /dev/fd0"
-
-#~ msgid "Could not display help for the floppy formatter."
-#~ msgstr "无法显示软盘格式化器的帮助信息。"
-
-#~ msgid "Incorrect volume name"
-#~ msgstr "卷标名不正确"
-
-#~ msgid "The volume name can't contain any blank space."
-#~ msgstr "卷标名不能含有任何空白。"
-
-#~ msgid "The device to format"
-#~ msgstr "要格式化的设备"
-
-#~ msgid "DEVICE"
-#~ msgstr "设备"
-
-#~ msgid "- Floppy Formatter"
-#~ msgstr "- 软盘格式化程序"
-
-#~ msgid ""
-#~ "The floppy has been formatted, but <b>%d bad block</b> (out of %d) has "
-#~ "been found and marked."
-#~ msgid_plural ""
-#~ "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
-#~ "been found and marked."
-#~ msgstr[0] ""
-#~ "该软盘已被格式化，但是发现和标记了 <b>%d 个坏块</b>(总区块数为 %d)。"
-
-#~ msgid "Floppy formatted successfully."
-#~ msgstr "软盘格式化成功。"
-
-#~ msgid "Floppy formatting cancelled."
-#~ msgstr "取消软盘格式化。"
-
-#~ msgid "Format Progress"
-#~ msgstr "格式化进度"
-
-#~ msgid "Dictionary Server"
-#~ msgstr "字典服务器"
-
-#~ msgid "Dictionary and spelling tool"
-#~ msgstr "字典和拼写工具"
-
-#~ msgid "O_pen Folder"
-#~ msgstr "打开文件夹(_P)"
-
-#~ msgid "System Log"
-#~ msgstr "系统日志"
-
-#~ msgid "Current"
-#~ msgstr "当前"
-
-#~ msgid "One file or more could not be opened"
-#~ msgstr "无法打开一个或更多文件"
-
-#~ msgid ""
-#~ "%s is not user readable. Either run the program as root or ask the "
-#~ "sysadmin to change the permissions on the file.\n"
-#~ msgstr ""
-#~ "用户不能读取 %s。要么以 root 身份运行程序，要么要求系统管理员改变文件的许"
-#~ "可权。\n"
-
-#~ msgid "%s is too big."
-#~ msgstr "%s 太大。"
-
-#~ msgid "%s could not be opened."
-#~ msgstr "无法打开 %s。"
-
-#~ msgid "%s is not a log file."
-#~ msgstr "%s 不是日志文件。"
-
-#~ msgid "Not enough memory."
-#~ msgstr "内存不足。"
-
-#~ msgid "%s cannot be opened."
-#~ msgstr "无法打开 %s。"
-
-#~ msgid "_Clear"
-#~ msgstr "清除(_C)"
-
-#~ msgid "_Filter..."
-#~ msgstr "过滤器(_F)..."
-
-#~ msgid "Filter log"
-#~ msgstr "过滤器日志"
-
-#~ msgid "Collapse _All"
-#~ msgstr "全部折叠(_A)"
-
-#~ msgid "Collapse all the rows"
-#~ msgstr "折叠所有的行"
-
-#~ msgid "Monitor Current Log"
-#~ msgstr "监视当前日志"
-
-#~ msgid "Ca_lendar"
-#~ msgstr "日历(_L)"
-
-#~ msgid "Show Calendar Log"
-#~ msgstr "显示日历日志"
-
-#~ msgid "%s (monitored) - %s"
-#~ msgstr "%s (已监视) - %s"
-
-#~ msgid "Days"
-#~ msgstr "天数"
-
-#~ msgid "Pointer towards a GSList of days for the current log."
-#~ msgstr "指向当前日志天数 GSList 的指针。"
-
-#~ msgid "Show System Log Viewer options"
-#~ msgstr "显示系统日志查看器选项"
-
-#~ msgid "Unable to create user interface."
-#~ msgstr "无法创建用户界面。"
-
-#~ msgid "January"
-#~ msgstr "一月"
-
-#~ msgid "February"
-#~ msgstr "二月"
-
-#~ msgid "March"
-#~ msgstr "三月"
-
-#~ msgid "April"
-#~ msgstr "四月"
-
-#~ msgid "May"
-#~ msgstr "五月"
-
-#~ msgid "June"
-#~ msgstr "六月"
-
-#~ msgid "July"
-#~ msgstr "七月"
-
-#~ msgid "August"
-#~ msgstr "八月"
-
-#~ msgid "September"
-#~ msgstr "九月"
-
-#~ msgid "October"
-#~ msgstr "十月"
-
-#~ msgid "November"
-#~ msgstr "十一月"
-
-#~ msgid "December"
-#~ msgstr "十二月"
-
-#~ msgid "Invalid date"
-#~ msgstr "无效的日期"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "This file cannot be monitored."
-#~ msgstr "此文件无法被监视。"
-
-#~ msgid "File monitoring is not supported on this file system.\n"
-#~ msgstr "不支持对此文件系统进行监视。\n"
-
-#~ msgid "Gnome-VFS Error.\n"
-#~ msgstr "Gnome-VFS 错误。\n"
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "生成缩略图所用的文字(默认：Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "文字"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "字体大小(默认：64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "大小"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "字体文件 输出文件"
+
+#: ../font-viewer/font-view.c:289
+msgid "Name:"
+msgstr "名称："
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "样式："
+
+#: ../font-viewer/font-view.c:304
+msgid "Type:"
+msgstr "类型："
+
+#: ../font-viewer/font-view.c:308
+msgid "Size:"
+msgstr "大小："
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+msgid "Version:"
+msgstr "版本："
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "版权："
+
+#: ../font-viewer/font-view.c:360
+msgid "Description:"
+msgstr "描述："
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "已安装"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "安装失败"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "用法：%s 字体文件\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "安装字体(_N)"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "字体查看器"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "预览字体"
