@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils-master-po-gl-14799\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-14 16:34+0100\n"
-"PO-Revision-Date: 2011-01-14 16:34+0100\n"
+"POT-Creation-Date: 2011-01-27 03:29+0100\n"
+"PO-Revision-Date: 2011-01-26 15:18+0100\n"
 "Last-Translator: Fran Diéguez <frandieguez@ubuntu.com>\n"
 "Language-Team: Galician <gnome-gl-list@gnome.org>\n"
 "Language: gl\n"
@@ -96,11 +96,11 @@ msgstr "Actualizar"
 
 #: ../baobab/data/baobab-main-window.ui.h:4
 msgid "S_can Remote Folder..."
-msgstr "Anali_zar cartafol remoto..."
+msgstr "Anali_zar cartafol remoto…"
 
 #: ../baobab/data/baobab-main-window.ui.h:5
 msgid "Scan F_older..."
-msgstr "Analizar cartaf_ol..."
+msgstr "Analizar cartaf_ol…"
 
 #: ../baobab/data/baobab-main-window.ui.h:6
 msgid "Scan Filesystem"
@@ -190,7 +190,7 @@ msgstr "_Ver"
 
 #: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
-msgstr "Analizando..."
+msgstr "Analizando…"
 
 #: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
@@ -208,7 +208,7 @@ msgstr "dispoñíbel:"
 #: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
-msgstr "Calculando as barras de porcentaxe..."
+msgstr "Calculando as barras de porcentaxe…"
 
 #: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
@@ -590,7 +590,7 @@ msgstr "O cartafol non existe."
 
 #: ../gnome-dictionary/data/default.desktop.in.h:1
 msgid "Default Dictionary Server"
-msgstr "Servidor de dicionario predefinido"
+msgstr "Servidor de dicionario predeterminado"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
 msgid "Dictionary Look up"
@@ -653,24 +653,24 @@ msgid ""
 "deprecated and no longer in use."
 msgstr ""
 "Especifica se se usa a busca intelixente. Esta chave depende de que o "
-"servidor de dicionario permita esta opción. O predefinido é TRUE. Esta chave "
-"está obsoleta e non se usará máis."
+"servidor de dicionario permita esta opción. O valor predeterminado é TRUE. "
+"Esta chave está obsoleta e non se usará máis."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
 msgid "The default database to use"
-msgstr "A base de datos predefinida que hai que usar"
+msgstr "A base de datos predeterminada que hai que usar"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
 msgid "The default height of the application window"
-msgstr "A altura predefinida da xanela da aplicativo"
+msgstr "A altura predeterminada da xanela da aplicativo"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
 msgid "The default search strategy to use"
-msgstr "A estratexia predefinida de busca que se debe usar"
+msgstr "A estratexia predeterminada de busca que se debe usar"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
 msgid "The default width of the application window"
-msgstr "A largura predefinida da xanela da aplicativo"
+msgstr "A largura predeterminada da xanela da aplicativo"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
 msgid ""
@@ -678,7 +678,7 @@ msgid ""
 "http://www.dict.org for details on other servers. This key is deprecated and "
 "no longer in use."
 msgstr ""
-"O servidor de dicionario ao que conectarse. O servidor predefinido é dict."
+"O servidor de dicionario ao que conectarse. O servidor predeterminado é dict."
 "org. Visite http://www.dict.org para máis detalles sobre outros servidores. "
 "Esta chave está obsoleta e non se usará máis."
 
@@ -696,19 +696,19 @@ msgid ""
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"O nome da base de datos individual predefinida ou a meta base de datos para "
-"usar nunha orixe de dicionario. O signo de exclamación (\"!\") significa que "
-"se debería buscar en todas as bases de datos presentes nunha orixe de "
-"dicionarios"
+"O nome da base de datos individual predeterminada ou a meta base de datos "
+"para usar nunha orixe de dicionario. O signo de exclamación (\"!\") "
+"significa que se debería buscar en todas as bases de datos presentes nunha "
+"orixe de dicionarios"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
 msgstr ""
-"O nome da estratexia de busca predefinida para usar nunha orixe de "
-"dicionario, se está dispoñíbel. A estratexia predefinida é 'exact', que é "
-"coincidir con palabras exactamente iguais."
+"O nome da estratexia de busca predeterminada para usar nunha orixe de "
+"dicionario, se está dispoñíbel. A estratexia predeterminada é «exact», que é "
+"coincidir con palabras exactamente iguais.z"
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
 msgid "The name of the dictionary source used"
@@ -730,8 +730,8 @@ msgid ""
 "The port number to connect to. The default port is 2628. This key is "
 "deprecated and no longer in use."
 msgstr ""
-"O número do porto ao cal conectarse. O porto predefinido é 2628. Esta chave "
-"está obsoleta e xa non se usa."
+"O número do porto ao cal conectarse. O porto predeterminado é 2628. Esta "
+"chave está obsoleta e xa non se usa."
 
 #: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
 msgid "The width of the sidebar"
@@ -971,13 +971,12 @@ msgstr "Os parámetros da orde «%s» son incorrectos"
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
 msgstr ""
-"Non se encontrou ningunha base de datos no servidor de dicionarios en «%s»"
+"Non se atopou ningunha base de datos no servidor de dicionarios en «%s»"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1315
 #, c-format
 msgid "No strategies found on dictionary server at '%s'"
-msgstr ""
-"Non se encontrou ningúnha estratexias no servidor de dicionarios en «%s»"
+msgstr "Non se atopou ningunha estratexias no servidor de dicionarios en «%s»"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1748
 #, c-format
@@ -1047,7 +1046,7 @@ msgstr "Produciuse un erro ao estabelecer a equivalencia"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
 #: ../logview/logview-window.c:485
 msgid "Not found"
-msgstr "Non encontrado"
+msgstr "Non atopado"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
@@ -1111,7 +1110,7 @@ msgstr "Base de datos"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
 msgid "The default database of this dictonary source"
-msgstr "A base de datos predefinida para esta orixe de dicionarios"
+msgstr "A base de datos predeterminada para esta orixe de dicionarios"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
 #: ../gnome-dictionary/libgdict/gdict-speller.c:390
@@ -1120,7 +1119,7 @@ msgstr "Estratexia"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
 msgid "The default strategy of this dictonary source"
-msgstr "A estratexia predefinida para esta orixe de dicionarios"
+msgstr "A estratexia predeterminada para esta orixe de dicionarios"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
@@ -1148,8 +1147,7 @@ msgstr "O tipo de transporte non é válido '%d'"
 #, c-format
 msgid "No '%s' group found inside the dictionary source definition"
 msgstr ""
-"Non se localizou ningún grupo «%s» dentro da definición da orixe do "
-"dicionario"
+"Non se atopou ningún grupo «%s» dentro da definición da orixe do dicionario"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:457
 #: ../gnome-dictionary/libgdict/gdict-source.c:481
@@ -1185,11 +1183,11 @@ msgstr "Recargar a lista de orixes dispoñíbeis"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
 msgid "Paths"
-msgstr "Camiños"
+msgstr "Rutas"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:172
 msgid "Search paths used by this object"
-msgstr "Camiños de busca usados por este obxecto"
+msgstr "Rutas de busca usados por este obxecto"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:184
 msgid "Sources"
@@ -1197,7 +1195,7 @@ msgstr "Orixes"
 
 #: ../gnome-dictionary/libgdict/gdict-source-loader.c:185
 msgid "Dictionary sources found"
-msgstr "Localizáronse orixes de dicionario"
+msgstr "Atopáronse orixes de dicionario"
 
 #: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
@@ -1277,7 +1275,7 @@ msgstr "Vexa gnome-dictionary --help para o uso\n"
 
 #: ../gnome-dictionary/src/gdict-app.c:270
 msgid "Unable to find a suitable dictionary source"
-msgstr "Non é posíbel localizar unha orixe de dicionario apropiada"
+msgstr "Non é posíbel atopar unha orixe de dicionario apropiada"
 
 #: ../gnome-dictionary/src/gdict-app.c:304
 #, c-format
@@ -1358,7 +1356,7 @@ msgstr "Produciuse un erro ao escribir en «%s»"
 
 #: ../gnome-dictionary/src/gdict-applet.c:362
 msgid "Clear the definitions found"
-msgstr "Limpar as definicións localizadas"
+msgstr "Limpar as definicións atopadas"
 
 #: ../gnome-dictionary/src/gdict-applet.c:364
 msgid "Clear definition"
@@ -1370,7 +1368,7 @@ msgstr "Limpar o texto da definición"
 
 #: ../gnome-dictionary/src/gdict-applet.c:372
 msgid "Print the definitions found"
-msgstr "Imprimir as definicións localizadas"
+msgstr "Imprimir as definicións atopadas"
 
 #: ../gnome-dictionary/src/gdict-applet.c:374
 msgid "Print definition"
@@ -1382,7 +1380,7 @@ msgstr "Imprimir o texto da definición"
 
 #: ../gnome-dictionary/src/gdict-applet.c:382
 msgid "Save the definitions found"
-msgstr "Gardar as definicións localizadas"
+msgstr "Gardar as definicións atopadas"
 
 #: ../gnome-dictionary/src/gdict-applet.c:384
 msgid "Save definition"
@@ -1402,7 +1400,7 @@ msgstr "Alternar a xanela do dicionario"
 
 #: ../gnome-dictionary/src/gdict-applet.c:536
 msgid "Show or hide the definition window"
-msgstr "Mostrar ou ocultar a xanela da definición"
+msgstr "Mostrar ou agochar a xanela da definición"
 
 #: ../gnome-dictionary/src/gdict-applet.c:588
 msgid "Type the word you want to look up"
@@ -1434,7 +1432,7 @@ msgstr "Non hai ningunha orixe de dicionario co nome «%s»"
 #: ../gnome-dictionary/src/gdict-applet.c:900
 #: ../gnome-dictionary/src/gdict-window.c:518
 msgid "Unable to find dictionary source"
-msgstr "Non é posíbel localizar a orixe do dicionario"
+msgstr "Non é posíbel atopar a orixe do dicionario"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
 #: ../gnome-dictionary/src/gdict-window.c:534
@@ -1527,20 +1525,20 @@ msgstr "Non é posíbel gardar o ficheiro de orixes"
 #: ../gnome-dictionary/src/gdict-window.c:315
 #, c-format
 msgid "Searching for '%s'..."
-msgstr "Buscando «%s»..."
+msgstr "Buscando «%s»…"
 
 #: ../gnome-dictionary/src/gdict-window.c:347
 #: ../gnome-dictionary/src/gdict-window.c:404
 msgid "No definitions found"
-msgstr "Non se localizaron definicións"
+msgstr "Non se atoparon definicións"
 
 # (pofilter) variables: (u'translation contains variables not in original: %d',)
 #: ../gnome-dictionary/src/gdict-window.c:349
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
-msgstr[0] "Localizouse unha definición"
-msgstr[1] "Localizáronse %d definicións"
+msgstr[0] "Atopouse unha definición"
+msgstr[1] "Atopáronse %d definicións"
 
 #: ../gnome-dictionary/src/gdict-window.c:603
 #, c-format
@@ -1566,11 +1564,11 @@ msgstr "Nova busca"
 
 #: ../gnome-dictionary/src/gdict-window.c:1184
 msgid "_Save a Copy..."
-msgstr "_Gardar unha copia..."
+msgstr "_Gardar unha copia…"
 
 #: ../gnome-dictionary/src/gdict-window.c:1186
 msgid "P_review..."
-msgstr "P_revisualización..."
+msgstr "P_revisualización…"
 
 #: ../gnome-dictionary/src/gdict-window.c:1187
 msgid "Preview this document"
@@ -1578,7 +1576,7 @@ msgstr "Previsualizar este documento"
 
 #: ../gnome-dictionary/src/gdict-window.c:1188
 msgid "_Print..."
-msgstr "Im_primir..."
+msgstr "Im_primir…"
 
 #: ../gnome-dictionary/src/gdict-window.c:1189
 msgid "Print this document"
@@ -2026,7 +2024,7 @@ msgstr "_Substituír"
 
 #: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
-msgstr "Gardando o ficheiro..."
+msgstr "Gardando o ficheiro…"
 
 #: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
@@ -2035,23 +2033,23 @@ msgstr "Non é posíbel acceder ao ficheiro orixe"
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
-"Localizar documentos e cartafoles neste computador por nome ou por contido"
+"Buscar documentos e cartafoles neste computador por nome ou por contido"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
-msgstr "Buscar ficheiros..."
+msgstr "Buscar ficheiros…"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:1
 msgid "Default Window Height"
-msgstr "Altura predefinida da xanela"
+msgstr "Altura predeterminada da xanela"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
-msgstr "Xanela maximizada predefinida"
+msgstr "Xanela maximizada predeterminada"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:3
 msgid "Default Window Width"
-msgstr "Largura predefinida da xanela"
+msgstr "Largura predeterminada da xanela"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
@@ -2067,11 +2065,11 @@ msgstr "Buscar no cartafol"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
-msgstr "Camiños excluídos da busca rápida"
+msgstr "Rutas excluídas da busca rápida"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
-msgstr "Camiños excluídos da segunda análise da busca rápida"
+msgstr "Rutas excluídas da segunda análise da busca rápida"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
@@ -2167,7 +2165,8 @@ msgstr "Mostrar as opcións adicionais"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr "Esta chave define o valor predefinido do widget «Buscar en cartafol»"
+msgstr ""
+"Esta chave define o valor predeterminado do widget «Buscar en cartafol»"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
 msgid ""
@@ -2183,9 +2182,9 @@ msgid ""
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
-"Esta chave define os camiños que a ferramenta de busca excluirá dunha busca "
-"rápida. Permítense os comodíns '*' e '?'. Os valores predefinidos son /mnt/"
-"*, /media/*, /dev/*, /tmp/*, /proc/* e /var/*."
+"Esta chave define as rutas que a ferramenta de busca excluirá na busca "
+"rápida. Permítense os comodíns '*' e '?'. Os valores predeterminados son /"
+"mnt/*, /media/*, /dev/*, /tmp/*, /proc/* e /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
 msgid ""
@@ -2195,11 +2194,11 @@ msgid ""
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
 msgstr ""
-"Esta chave define os camiños que a ferramenta de busca excluirá dunha "
-"segunda análise ao efectuar unha busca rápida. A segunda análise usa a orde "
-"«find» para buscar ficheiros. O obxectivo da segunda análise é buscar "
-"ficheiros que non foran indexados. Permítense os comodíns '*' e '?'. O valor "
-"predefinido é /."
+"Esta chave define as rutas que a ferramenta de busca excluirá dunha segunda "
+"análise ao efectuar unha busca rápida. A segunda análise usa a orde «find» "
+"para buscar ficheiros. O obxectivo da segunda análise é buscar ficheiros que "
+"non foran indexados. Permítense os comodíns '*' e '?'. O valor "
+"predeterminado é /."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
 msgid ""
@@ -2209,7 +2208,7 @@ msgid ""
 msgstr ""
 "Esta chave define a altura da xanela e úsase para lembrar o tamaño da "
 "ferramenta de busca entre sesións. Definila como -1 fará que a ferramenta "
-"use a altura predefinida."
+"use a altura predeterminada."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
 msgid ""
@@ -2219,7 +2218,7 @@ msgid ""
 msgstr ""
 "Esta chave define a largura da xanela e úsase para lembrar o tamaño da "
 "ferramenta de busca entre sesións. Definila como -1 fará que a ferramenta "
-"use a largura predefinida."
+"use a largura predeterminada."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
 msgid ""
@@ -2363,7 +2362,8 @@ msgstr ""
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
 msgstr ""
-"Esta chave determina se a ferramenta de busca se inicia en estado maximizado."
+"Esta chave determina se a xanela da ferramenta de busca se inicia en estado "
+"maximizado."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -2468,11 +2468,11 @@ msgstr "_Abrir o cartafol contedor"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
-msgstr "_Gardar resultados como..."
+msgstr "_Gardar resultados como…"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
-msgstr "Gardar os resultados da busca como..."
+msgstr "Gardar os resultados da busca como…"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
@@ -2625,7 +2625,7 @@ msgstr "%s (%dª copia)%s"
 
 #: ../gsearchtool/gsearchtool-support.c:1586
 msgid " (invalid Unicode)"
-msgstr " (Unicode inválido)"
+msgstr " (Unicode non válido)"
 
 #. localizers: opening parentheses to match the "th copy)" string
 #: ../gsearchtool/gsearchtool-support.c:1675
@@ -2713,7 +2713,7 @@ msgstr "CADEA"
 
 #: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
-msgstr "CAMIÑO"
+msgstr "RUTA"
 
 #: ../gsearchtool/gsearchtool.c:160
 msgid "VALUE"
@@ -2741,7 +2741,7 @@ msgstr "PATRÓN"
 
 #: ../gsearchtool/gsearchtool.c:384
 msgid "A locate database has probably not been created."
-msgstr "Probabelmente non se creou unha base de datos de localización."
+msgstr "Probabelmente non se creou unha base de datos de locate."
 
 #: ../gsearchtool/gsearchtool.c:486
 #, c-format
@@ -2750,7 +2750,7 @@ msgstr "A conversión do conxunto de caracteres fallou por «%s»"
 
 #: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
-msgstr "Buscando..."
+msgstr "Buscando…"
 
 #: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
 #: ../gsearchtool/gsearchtool.c:2972
@@ -2759,7 +2759,7 @@ msgstr "Buscar ficheiros"
 
 #: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
 msgid "No files found"
-msgstr "Non se encontrou ningún ficheiro"
+msgstr "Non se atopou ningún ficheiro"
 
 #: ../gsearchtool/gsearchtool.c:980
 msgid "(stopped)"
@@ -2767,21 +2767,21 @@ msgstr "(detido)"
 
 #: ../gsearchtool/gsearchtool.c:986
 msgid "No Files Found"
-msgstr "Non se encontrou ningún ficheiro"
+msgstr "Non se atopou ningún ficheiro"
 
 #: ../gsearchtool/gsearchtool.c:991
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
-msgstr[0] "%'d ficheiro encontrado"
-msgstr[1] "%'d ficheiros encontrados"
+msgstr[0] "%'d ficheiro atopado"
+msgstr[1] "%'d ficheiros atopados"
 
 #: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
-msgstr[0] "%'d ficheiro encontrado"
-msgstr[1] "%'d ficheiros encontrados"
+msgstr[0] "%'d ficheiro atopado"
+msgstr[1] "%'d ficheiros atopados"
 
 #: ../gsearchtool/gsearchtool.c:1124
 msgid "Entry changed called for a non entry option!"
@@ -2803,7 +2803,8 @@ msgstr "Ordenar os ficheiros por nome, cartafol, tamaño, tipo ou data"
 #: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
 msgstr ""
-"Configurar unha orde de clasificación descendente; o predefinido é ascendente"
+"Configurar unha orde de clasificación descendente; o predeterminado é "
+"ascendente"
 
 #: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
@@ -2830,7 +2831,7 @@ msgid ""
 "... Too many errors to display ..."
 msgstr ""
 "\n"
-"... Demasiados erros para mostrar ..."
+"… Demasiados erros para mostrar …"
 
 #: ../gsearchtool/gsearchtool.c:1712
 msgid ""
@@ -3115,8 +3116,8 @@ msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
 msgstr ""
-"Especifica o ficheiro de rexistro mostrado ao inicio. O predefinido é /var/"
-"adm/messages ou /var/log/messages, dependendo do seu sistema operativo."
+"Especifica o ficheiro de rexistro mostrado ao inicio. O predeterminado é /"
+"var/adm/messages ou /var/log/messages, dependendo do seu sistema operativo."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
@@ -3124,8 +3125,8 @@ msgid ""
 "main tree view. The default is taken from the default terminal font size."
 msgstr ""
 "Especifica o tamaño do tipo de letra de largura fixa usada para mostrar o "
-"rexistro na visualización de árbore principal. O predefinido cóllese do "
-"tamaño do tipo de letra predefinido do terminal."
+"rexistro na visualización de árbore principal. O predeterminado cóllese do "
+"tamaño do tipo de letra predeterminado do terminal."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
@@ -3243,7 +3244,7 @@ msgstr "Esta versión do System Log non permite os rexistros GZipped."
 
 #: ../logview/logview-loglist.c:311
 msgid "Loading..."
-msgstr "Cargando..."
+msgstr "Cargando…"
 
 #: ../logview/logview-main.c:61
 msgid "Show the application's version"
@@ -3251,7 +3252,7 @@ msgstr "Mostrar a versión do aplicativo"
 
 #: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
-msgstr "[FICHEIRO DE REXISTROS...]"
+msgstr "[FICHEIRO DE REXISTROS…]"
 
 #: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
@@ -3298,7 +3299,7 @@ msgstr "Filtros"
 
 #: ../logview/logview-window.c:813
 msgid "_Open..."
-msgstr "_Abrir..."
+msgstr "_Abrir…"
 
 #: ../logview/logview-window.c:813
 msgid "Open a log from file"
@@ -3334,7 +3335,7 @@ msgstr "Seleccionar todo o rexistro"
 
 #: ../logview/logview-window.c:824
 msgid "_Find..."
-msgstr "_Buscar..."
+msgstr "_Buscar…"
 
 #: ../logview/logview-window.c:824
 msgid "Find a word or phrase in the log"
