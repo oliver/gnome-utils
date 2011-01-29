@@ -35,8 +35,6 @@ GNOME_COMPILE_WARNINGS([maximum])
 
 AC_PATH_XTRA
 
-AC_C_CONST
-AC_C_INLINE
 AC_TYPE_OFF_T
 AC_TYPE_PID_T
 AC_TYPE_SIZE_T
@@ -69,41 +67,35 @@ AC_SUBST(SUN_OS)
 
 dnl pkg-config check
 
-GLIB_REQUIRED=2.20.0
-GIO_REQUIRED=2.16.0
+GLIB_REQUIRED=2.26.0
 GTK_REQUIRED=2.91.1
-GIO_UNIX_REQUIRED=2.18.0
 LIBPANEL_APPLET_REQUIRED=2.13.4
 LIBGTOP_REQUIRED=2.12.0
 LIBCANBERRA_GTK_REQUIRED=0.26
 
-PKG_CHECK_MODULES(GLIB, glib-2.0 >= $GLIB_REQUIRED)
+PKG_CHECK_MODULES([GLIB], [glib-2.0 >= $GLIB_REQUIRED])
 AC_SUBST(GLIB_CFLAGS)
 AC_SUBST(GLIB_LIBS)
 
-PKG_CHECK_MODULES(GTHREAD, gthread-2.0 >= $GLIB_REQUIRED)
+PKG_CHECK_MODULES([GTHREAD], [gthread-2.0 >= $GLIB_REQUIRED])
 AC_SUBST(GTHREAD_CFLAGS)
 AC_SUBST(GTHREAD_LIBS)
 
-PKG_CHECK_MODULES(GIO, gio-2.0 >= $GIO_REQUIRED)
+PKG_CHECK_MODULES([GIO], [gio-2.0])
 AC_SUBST(GIO_CFLAGS)
 AC_SUBST(GIO_LIBS)
 
-PKG_CHECK_MODULES(GIO_UNIX, gio-unix-2.0 >= $GIO_UNIX_REQUIRED)
+PKG_CHECK_MODULES([GIO_UNIX], [gio-unix-2.0])
 AC_SUBST(GIO_UNIX_CFLAGS)
 AC_SUBST(GIO_UNIX_LIBS)
 
-PKG_CHECK_MODULES(GTK, gtk+-3.0 >= $GTK_REQUIRED)
+PKG_CHECK_MODULES([GTK], [gtk+-3.0 >= $GTK_REQUIRED])
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
 
 PKG_CHECK_MODULES(LIBEGGSMCLIENT, gtk+-3.0 >= $GTK_REQUIRED)
 AC_SUBST(LIBEGGSMCLIENT_CFLAGS)
 AC_SUBST(LIBEGGSMCLIENT_LIBS)
-
-PKG_CHECK_MODULES(GCONF, gconf-2.0)
-AC_SUBST(GCONF_CFLAGS)
-AC_SUBST(GCONF_LIBS)
 
 PKG_CHECK_MODULES(DESKTOP_GSETTINGS, gsettings-desktop-schemas)
 AC_SUBST(DESKTOP_GSETTINGS)
@@ -133,8 +125,12 @@ AC_SUBST(GDICT_VERSION)
 
 # xext for gnome-screenshot; in theory checking for xext should be
 # enough but there are a lot of broken distros out there
-PKG_CHECK_MODULES(XSHAPE, xext x11,
-                  [AC_CHECK_HEADERS(X11/extensions/shape.h, XSHAPE_LIBS="-lXext -lX11")])
+PKG_CHECK_MODULES([XSHAPE],
+                  [xext x11],
+                  [
+                    AC_CHECK_HEADERS([X11/extensions/shape.h],
+                                     [XSHAPE_LIBS="-lXext -lX11"])
+                  ])
 AC_SUBST(XSHAPE_LIBS)
 
 # for anything which calls gconftool-2 correctly
@@ -142,10 +138,6 @@ AC_PATH_PROG(GCONFTOOL, [gconftool-2], [no])
 AS_IF([test "x$GCONFTOOL" = "xno"],
       [AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])]
 )
-
-GLIB_GSETTINGS
-
-AM_GCONF_SOURCE_2
 
 AC_ARG_ENABLE([gdict-applet],
                [AS_HELP_STRING([--enable-gdict-applet=@<:@yes/no@:>@],
@@ -170,11 +162,11 @@ AS_CASE([$enable_gdict_applet],
 AM_CONDITIONAL([BUILD_GDICT_APPLET], [test "x$enable_gdict_applet" = "xyes"])
 
 # Baobab checks
-PKG_CHECK_MODULES(LIBGTOP, libgtop-2.0 >= $LIBGTOP_REQUIRED)
+PKG_CHECK_MODULES([LIBGTOP], [libgtop-2.0 >= $LIBGTOP_REQUIRED])
 AC_SUBST(LIBGTOP_CFLAGS)
 AC_SUBST(LIBGTOP_LIBS)
 
-PKG_CHECK_MODULES(LIBCANBERRA_GTK, libcanberra-gtk3 >= $LIBCANBERRA_GTK_REQUIRED)
+PKG_CHECK_MODULES([LIBCANBERRA_GTK], [libcanberra-gtk3 >= $LIBCANBERRA_GTK_REQUIRED])
 AC_SUBST(LIBCANBERRA_GTK_CFLAGS)
 AC_SUBST(LIBCANBERRA_GTK_LIBS)
 
@@ -347,12 +339,13 @@ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], "$GETTEXT_PACKAGE", [Define the gettext pa
 AC_SUBST(GETTEXT_PACKAGE)
 AM_GLIB_GNU_GETTEXT
 
-GLIB_GSETTINGS
-
 # AM_GLIB_GNU_GETTEXT above substs $DATADIRNAME
 # this is the directory where the *.{mo,gmo} files are installed
 gnomeutilslocaledir='${prefix}/${DATADIRNAME}/locale'
 AC_SUBST(gnomeutilslocaledir)
+
+GLIB_GSETTINGS
+AM_GCONF_SOURCE_2
 
 dnl gtk-doc stuff
 GTK_DOC_CHECK([1.10])
@@ -392,6 +385,7 @@ AC_CONFIG_FILES([
         gnome-dictionary/libgdict/gdict-version.h
         gnome-dictionary/libgdict/gdict-1.0.pc
         gnome-dictionary/data/Makefile
+        gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in
         gnome-dictionary/docs/Makefile
         gnome-dictionary/docs/reference/Makefile
         gnome-dictionary/docs/reference/gdict/Makefile

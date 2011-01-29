@@ -16,6 +16,9 @@ config.status
 config.sub
 configure
 depcomp
+/gnome-dictionary/data/org.gnome.dictionary.gschema.valid
+/gnome-dictionary/data/org.gnome.dictionary.gschema.xml
+/gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in
 /font-viewer/font-thumbnailer.o
 /font-viewer/font-view.o
 /font-viewer/fontilus.schemas
