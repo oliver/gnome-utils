@@ -20,7 +20,7 @@ gnome-dictionary/data/default.desktop.in
 gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in
 gnome-dictionary/data/GNOME_DictionaryApplet.xml
 gnome-dictionary/data/gnome-dictionary.desktop.in.in
-gnome-dictionary/data/gnome-dictionary.schemas.in
+gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in
 [type: gettext/glade]gnome-dictionary/data/gnome-dictionary-preferences.ui
 [type: gettext/glade]gnome-dictionary/data/gnome-dictionary-source.ui
 gnome-dictionary/data/spanish.desktop.in
