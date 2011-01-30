@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2011-01-10 15:30+0000\n"
-"PO-Revision-Date: 2011-01-10 20:52+0200\n"
+"POT-Creation-Date: 2011-01-29 19:22+0000\n"
+"PO-Revision-Date: 2011-01-30 12:32+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -471,41 +471,11 @@ msgstr "Sõnade definitsioonide ja kirjaviiside otsimine onlain-sõnaraamatust"
 msgid "Dictionary"
 msgstr "Sõnaraamat"
 
-msgid "Dictionary server (Deprecated)"
-msgstr "Sõnaraamatuserver (aegunud)"
-
-msgid "Port used to connect to server (Deprecated)"
-msgstr "Serveriga ühenduse loomiseks kasutatav port (aegunud)"
-
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Targa otsingu kasutamise määramine. Selle võtme toimimine sõltub sellest, "
-"kas sõnastikuserver seda võtit toetab. Vaikimisi on see võti valitud. See "
-"valik on aegunud ja pole enam kasutusel."
-
 msgid "The default database to use"
 msgstr "Andmebaas, mida vaikimisi kasutada"
 
-msgid "The default height of the application window"
-msgstr "Rakenduse akna vaikimisi kõrgus"
-
 msgid "The default search strategy to use"
 msgstr "Vaikimisi kasutatav otsingustrateegia"
-
-msgid "The default width of the application window"
-msgstr "Rakenduse akna vaikimisi laius"
-
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"Sõnaraamatu server, kuhu ühenduda. Vaikimisi server on dict.org. Teiste "
-"serverite kohta lisainfo saamiseks vaata http://www.dict.org. See valik on "
-"aegunud ja pole enam kasutusel."
 
 msgid "The font to be used when printing"
 msgstr "Printimiseks kasutatav kirjatüüp"
@@ -536,92 +506,6 @@ msgstr "Kasutuseloleva sõnaraamatu allika nimi"
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Sõnadefinitsioonide hankimiseks kasutatav sõnaraamatuallikas."
-
-msgid "The page of the sidebar to show"
-msgstr "Külgpaanil näidatav leht"
-
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Pordi number, kuhu ühenduda. Vaikimisi port on 2628. See valik on aegunud ja "
-"pole enam kasutusel."
-
-msgid "The width of the sidebar"
-msgstr "Külgpaani laius"
-
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr ""
-"See võti määrab külgpaani laiuse ja seda kasutatakse seansside vahel sätete "
-"meelespidamiseks."
-
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"See võti sisaldab sõnaraamatu akna kõrgust ja on mõeldud kõrguse "
-"meelespidamiseks seansside vahel. Väärtus -1 tähendab, et sõnaraamatu aken "
-"kasutab kirjatüübi suurusest tuletatud kõrgust."
-
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"See võti sisaldab sõnaraamatu akna laiust ja on mõeldud laiuse "
-"meelespidamiseks seansside vahel. Väärtus -1 tähendab, et sõnaraamatu aken "
-"kasutab kirjatüübi suurusest tuletatud laiust."
-
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"See võti määrab, kas külgpaan on nähtaval ja see on mõeldud külgpaani oleku "
-"meelespidamiseks seansside vahel. Kui see võti märkida, siis kuvatakse "
-"külgpaani alati."
-
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"See võti määrab, kas olekuriba on nähtaval ja see on mõeldud olekuriba "
-"seisundi meelespidamiseks seansside vahel. Kui see võti märkida, siis "
-"kuvatakse olekuriba alati."
-
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"See võti määrab, kas aken tuleb maksimeerida ja see on mõeldud "
-"sõnaraamatuakna oleku meelespidamiseks seansside vahel. Kui see võti "
-"märkida, siis sõnaraamatu käivitamisel maksimeeritakse selle aken."
-
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"See võti kirjeldab, millist lehte tuleks külgpaanil näidata ja seda "
-"kasutatakse sätete meeldejätmiseks seansside vahel. Selle väärtuseks võib "
-"olla \"speller\" või \"databases\"."
-
-msgid "Use smart lookup (Deprecated)"
-msgstr "Targa otsingu kasutamine (aegunud)"
-
-msgid "Whether the application window should be maximized"
-msgstr "Millal tuleb rakenduse akent maksimeerida"
-
-msgid "Whether the sidebar should be visible"
-msgstr "Millal peaks külgpaan nähtaval olema"
-
-msgid "Whether the statusbar should be visible"
-msgstr "Millal peaks olekuriba nähtaval olema"
 
 msgid "Print"
 msgstr "Printimine"
@@ -933,45 +817,11 @@ msgstr "GDict'i valikute näitamine"
 msgid "Look up words in dictionaries"
 msgstr "Sõnade otsimine sõnaraamatutest"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"'%s' definitsioonid\n"
-"  Allikast '%s':\n"
-"\n"
-"%s\n"
-
-#, c-format
-msgid "Error: %s\n"
-msgstr "Viga: %s\n"
-
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "Kasutamisjuhisteks proovi gnome-dictionary --help\n"
-
-msgid "Unable to find a suitable dictionary source"
-msgstr "Kasutatavat sõnaraamatuallikat pole võimalik leida"
-
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"Viga \"%s\" definitsiooni otsimisel:\n"
-"%s"
-
 msgid "Words to look up"
 msgstr "Otsitavad sõnad"
 
-msgid "word"
-msgstr "sõna"
+msgid "WORD"
+msgstr "SÕNA"
 
 msgid "Words to match"
 msgstr "Sobivad sõnad"
@@ -979,26 +829,17 @@ msgstr "Sobivad sõnad"
 msgid "Dictionary source to use"
 msgstr "Kasutatav sõnaraamatuallikas"
 
-msgid "source"
-msgstr "allikas"
-
-msgid "Show available dictionary sources"
-msgstr "Saadaolevate sõnaraamatuallikate näitamine"
-
-msgid "Print result to the console"
-msgstr "Tulemuse printimine konsoolile"
+msgid "NAME"
+msgstr "NIMI"
 
 msgid "Database to use"
 msgstr "Kasutatav andmebaas"
 
-msgid "db"
-msgstr "andmebaas"
-
 msgid "Strategy to use"
 msgstr "Kasutatav strateegia"
 
-msgid "strat"
-msgstr "strateegia"
+msgid "WORDS"
+msgstr "SÕNAD"
 
 #. create the new option context
 msgid " - Look up words in dictionaries"
@@ -1086,14 +927,6 @@ msgstr "Eelistuste kohta pole võimalik teavitust hankida"
 msgid "Unable to get notification for the document font"
 msgstr "Dokumendi kirjatüübi kohta pole võimalik teavitust hankida"
 
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "Faili '%s' pole võimalik nimega '%s' ümber nimetaga: %s"
-
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "Andmekataloogi '%s' pole võimalik luua: %s"
-
 msgid "Edit Dictionary Source"
 msgstr "Sõnaraamatuallika redigeerimine"
 
@@ -1115,7 +948,10 @@ msgid "Add a new dictionary source"
 msgstr "Uue sõnaraamatuallika lisamine"
 
 msgid "Remove the currently selected dictionary source"
-msgstr "Hetkel valitud sõnaraamtuallika eemaldamine"
+msgstr "Hetkel valitud sõnaraamatuallika eemaldamine"
+
+msgid "Edit the currently selected dictionary source"
+msgstr "Hetkel valitud sõnaraamatuallika muutmine"
 
 msgid "Set the font used for printing the definitions"
 msgstr "Definitsiooni printimiseks kirjatüübi määramine"
@@ -2642,6 +2478,173 @@ msgstr "Kirjatüüpide näitaja"
 
 msgid "Preview fonts"
 msgstr "Kirjatüüpide vaatlemine"
+
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "Sõnaraamatuserver (aegunud)"
+
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "Serveriga ühenduse loomiseks kasutatav port (aegunud)"
+
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Targa otsingu kasutamise määramine. Selle võtme toimimine sõltub sellest, "
+#~ "kas sõnastikuserver seda võtit toetab. Vaikimisi on see võti valitud. See "
+#~ "valik on aegunud ja pole enam kasutusel."
+
+#~ msgid "The default height of the application window"
+#~ msgstr "Rakenduse akna vaikimisi kõrgus"
+
+#~ msgid "The default width of the application window"
+#~ msgstr "Rakenduse akna vaikimisi laius"
+
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "Sõnaraamatu server, kuhu ühenduda. Vaikimisi server on dict.org. Teiste "
+#~ "serverite kohta lisainfo saamiseks vaata http://www.dict.org. See valik "
+#~ "on aegunud ja pole enam kasutusel."
+
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "Külgpaanil näidatav leht"
+
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Pordi number, kuhu ühenduda. Vaikimisi port on 2628. See valik on aegunud "
+#~ "ja pole enam kasutusel."
+
+#~ msgid "The width of the sidebar"
+#~ msgstr "Külgpaani laius"
+
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "See võti määrab külgpaani laiuse ja seda kasutatakse seansside vahel "
+#~ "sätete meelespidamiseks."
+
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "See võti sisaldab sõnaraamatu akna kõrgust ja on mõeldud kõrguse "
+#~ "meelespidamiseks seansside vahel. Väärtus -1 tähendab, et sõnaraamatu "
+#~ "aken kasutab kirjatüübi suurusest tuletatud kõrgust."
+
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "See võti sisaldab sõnaraamatu akna laiust ja on mõeldud laiuse "
+#~ "meelespidamiseks seansside vahel. Väärtus -1 tähendab, et sõnaraamatu "
+#~ "aken kasutab kirjatüübi suurusest tuletatud laiust."
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "See võti määrab, kas külgpaan on nähtaval ja see on mõeldud külgpaani "
+#~ "oleku meelespidamiseks seansside vahel. Kui see võti märkida, siis "
+#~ "kuvatakse külgpaani alati."
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "See võti määrab, kas olekuriba on nähtaval ja see on mõeldud olekuriba "
+#~ "seisundi meelespidamiseks seansside vahel. Kui see võti märkida, siis "
+#~ "kuvatakse olekuriba alati."
+
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "See võti määrab, kas aken tuleb maksimeerida ja see on mõeldud "
+#~ "sõnaraamatuakna oleku meelespidamiseks seansside vahel. Kui see võti "
+#~ "märkida, siis sõnaraamatu käivitamisel maksimeeritakse selle aken."
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "See võti kirjeldab, millist lehte tuleks külgpaanil näidata ja seda "
+#~ "kasutatakse sätete meeldejätmiseks seansside vahel. Selle väärtuseks võib "
+#~ "olla \"speller\" või \"databases\"."
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "Targa otsingu kasutamine (aegunud)"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "Millal tuleb rakenduse akent maksimeerida"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "Millal peaks külgpaan nähtaval olema"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "Millal peaks olekuriba nähtaval olema"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "'%s' definitsioonid\n"
+#~ "  Allikast '%s':\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "Viga: %s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "Kasutamisjuhisteks proovi gnome-dictionary --help\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "Kasutatavat sõnaraamatuallikat pole võimalik leida"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Viga \"%s\" definitsiooni otsimisel:\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "sõna"
+
+#~ msgid "source"
+#~ msgstr "allikas"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "Saadaolevate sõnaraamatuallikate näitamine"
+
+#~ msgid "Print result to the console"
+#~ msgstr "Tulemuse printimine konsoolile"
+
+#~ msgid "db"
+#~ msgstr "andmebaas"
+
+#~ msgid "strat"
+#~ msgstr "strateegia"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "Faili '%s' pole võimalik nimega '%s' ümber nimetaga: %s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "Andmekataloogi '%s' pole võimalik luua: %s"
 
 #~ msgid "If set to true, then OpenType fonts will be thumbnailed."
 #~ msgstr "Kui märgitud, siis tehakse OpenType kirjatüüpidest pisipildid."
