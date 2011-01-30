@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2011-01-10 15:30+0000\n"
-"PO-Revision-Date: 2011-01-16 20:56+0100\n"
+"POT-Creation-Date: 2011-01-29 19:22+0000\n"
+"PO-Revision-Date: 2011-01-30 18:54+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,6 @@ msgid "Monitor Home"
 msgstr "Sledování domovské složky"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
 msgstr "Stavový panel je zobrazen"
 
@@ -80,7 +79,6 @@ msgid "Whether the toolbar should be visible in main window."
 msgstr "Jestli má být lišta nástrojů v hlavním okně viditelná."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
 msgstr "Jaký typ grafu by měl být zobrazen."
 
@@ -158,12 +156,12 @@ msgstr "S_balit vše"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1322 ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "_Obsah"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1269 ../logview/logview-window.c:808
 msgid "_Edit"
 msgstr "_Upravit"
 
@@ -173,7 +171,7 @@ msgstr "Rozbalit vš_e"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1272 ../logview/logview-window.c:811
 msgid "_Help"
 msgstr "_Nápověda"
 
@@ -182,7 +180,7 @@ msgid "_Toolbar"
 msgstr "Lišta nás_trojů"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1270 ../logview/logview-window.c:809
 msgid "_View"
 msgstr "_Zobrazit"
 
@@ -604,7 +602,7 @@ msgid "Cl_ear"
 msgstr "_Vymazat"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1324 ../logview/logview-window.c:839
 msgid "_About"
 msgstr "O _aplikaci"
 
@@ -613,7 +611,7 @@ msgid "_Look Up Selected Text"
 msgstr "_Hledat vybraný text"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../gnome-dictionary/src/gdict-window.c:1298
 msgid "_Preferences"
 msgstr "_Nastavení"
 
@@ -630,66 +628,30 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Kontrolovat slova a pravopis v on-line slovníku"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1946
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:599
+#: ../gnome-dictionary/src/gdict-window.c:1943
 msgid "Dictionary"
 msgstr "Slovník"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "Server se slovníkem (Zastaralé)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "Port pro připojení se k serveru (Zastaralé)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Zadejte, jestli se má používat chytré hledání. Tento klíč závisí na tom, zda "
-"server se slovníkem podporuje tuto možnost. Výchozí hodnota je TRUE. Tento "
-"klíč je zastaralý a už se nepoužívá."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Výchozí používaná databáze"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "Výchozí výška okna aplikace"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "Výchozí používaná metoda hledání"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "Výchozí šířka okna aplikace"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"Server se slovníkem, ke kterému se připojovat. Výchozí server je dict.org. "
-"Podrobnosti o dalších serverech naleznete na http://www.dict.org. Tento klíč "
-"je zastaralý a už se nepoužívá."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "Písmo, které používat při tisku"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "Písmo, které používat při tisku definice."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -699,7 +661,7 @@ msgstr ""
 "ve zdroji slovníku. Vykřičník („!“) znamená, že se má hledat ve všech "
 "databázích ve zdroji slovníku."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -707,114 +669,14 @@ msgstr ""
 "Název výchozí metody hledání, kterou používat ve zdroji slovníku, je-li k "
 "dispozici. Výchozí metoda je „exact“, to je hledat přesně odpovídající slova."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "Název používaného zdroje slovníku"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Název zdroje slovníku používaného pro získávání definic slov."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "Stránka postranního panelu pro zobrazení"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Číslo portu, ke kterému se má připojit. Výchozí port je 2628. Tento klíč je "
-"zastaralý a už se nepoužívá."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "Šířka postranního panelu"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr ""
-"Tento klíč definuje šířku postranního panelu a je použit pro zapamatování "
-"nastavení mezi sezeními."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"Tento klíč definuje výšku okna a je použit pro zapamatování velikosti okna "
-"slovníku mezi sezeními. Nastavení na -1 způsobí, že okno slovníku bude "
-"používat výšku založenou na velikosti písma."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"Tento klíč definuje šířku okna a je použit pro zapamatování velikosti okna "
-"slovníku mezi sezeními. Nastavení na -1 způsobí, že okno slovníku bude "
-"používat šířku založenou na velikosti písma."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"Tento klíč definuje, jestli má být postranní panel viditelný, a je použit "
-"pro zapamatování stavu postranního panelu mezi sezeními. Nastavení na TRUE "
-"učiní postranní panel vždy viditelným."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"Tento klíč definuje, jestli má být stavový řádek viditelný, a je použit pro "
-"zapamatování stavu stavového řádku mezi sezeními. Nastavení na TRUE učiní "
-"stavový řádek vždy viditelným."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"Tento klíč definuje, jestli má být okno maximalizováno, a je použit pro "
-"zapamatování stavu okna slovníku mezi sezeními. Nastavení na TRUE způsobí, "
-"že okno bude vždy maximalizováno."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"Tento klíč definuje, která stránka postranního panelu má být zobrazena, a je "
-"použit pro zapamatování nastavení mezi sezeními. Může být „speller“ nebo "
-"„databases“."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "Používat chytré hledání (Zastaralé)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "Jestli má být okno aplikace maximalizováno"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "Jestli má být postranní panel viditelný"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "Jestli má být stavový řádek viditelný"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -1233,109 +1095,59 @@ msgstr "Zobrazit nastavení GDict"
 msgid "Look up words in dictionaries"
 msgstr "Hledat slova ve slovnících"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"Definice „%s“\n"
-"  Z „%s“:\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "Chyba: %s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "Použití viz příkaz gnome-dictionary --help\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "Nelze najít vhodný zdroj slovníku"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"Chyba při vyhledávání definice „%s“:\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Slova, která hledat"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
-msgstr "slovo"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
+msgstr "SLOVO"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "Slova pro porovnání"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "Zdroj slovníku, který používat"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "zdroj"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "NÁZEV"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "Zobrazit dostupné zdroje slovníků"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "Vypsat výsledek na konzolu"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "Databáze, kterou používat"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "db"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "Metoda, kterou používat"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "metoda"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "SLOVA"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " - Hledat slova ve slovnících"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:834
+#: ../gnome-dictionary/src/gdict-window.c:955
 msgid "Save a Copy"
 msgstr "Uložit kopii"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:965
 msgid "Untitled document"
 msgstr "Nepojmenovaný dokument"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:865
+#: ../gnome-dictionary/src/gdict-window.c:986
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Chyba při zápisu do „%s“"
@@ -1397,14 +1209,14 @@ msgid "Dictionary entry"
 msgstr "Položka slovníku"
 
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:998
+#: ../gnome-dictionary/src/gdict-window.c:1091
 msgid "Dictionary Preferences"
 msgstr "Nastavení slovníku"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1140
+#: ../gnome-dictionary/src/gdict-window.c:1233
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Při zobrazování nápovědy došlo k chybě"
@@ -1432,67 +1244,59 @@ msgid "Unable to create a context"
 msgstr "Nelze vytvořit kontext"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "Nelze se připojit k GConf"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "Nelze získat upozornění na nastavení"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "Nelze získat upozornění na písmo dokumentu"
 
-#: ../gnome-dictionary/src/gdict-common.c:80
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "Nelze přejmenovat soubor „%s“ na „%s“: %s"
-
-#: ../gnome-dictionary/src/gdict-common.c:104
-#: ../gnome-dictionary/src/gdict-common.c:127
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "Nelze vymazat datovou složku „%s“: %s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "Upravit zdroj slovníku"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "Přidat zdroj slovníku"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Odstranit „%s“?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Toto natrvalo odstraní zdroj slovníku ze seznamu."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Nelze odstranit zdroj „%s“"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Přidat nový zdroj slovníku"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "Odstranit momentálně vybraný zdroj slovníku"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+#| msgid "Remove the currently selected dictionary source"
+msgid "Edit the currently selected dictionary source"
+msgstr "Upravit momentálně vybraný zdroj slovníku"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "Nastavit písmo používané pro tisk definic"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Nelze zobrazit náhled: %s"
@@ -1507,17 +1311,17 @@ msgstr "Nelze vytvořit zdrojový soubor"
 msgid "Unable to save source file"
 msgstr "Nelze uložit zdrojový soubor"
 
-#: ../gnome-dictionary/src/gdict-window.c:315
+#: ../gnome-dictionary/src/gdict-window.c:309
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Hledá se „%s“…"
 
-#: ../gnome-dictionary/src/gdict-window.c:347
-#: ../gnome-dictionary/src/gdict-window.c:404
+#: ../gnome-dictionary/src/gdict-window.c:341
+#: ../gnome-dictionary/src/gdict-window.c:398
 msgid "No definitions found"
 msgstr "Nenalezeny žádné definice"
 
-#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:343
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
@@ -1525,259 +1329,259 @@ msgstr[0] "Nalezena definice"
 msgstr[1] "Nalezeny %d definice"
 msgstr[2] "Nalezeno %d definic"
 
-#: ../gnome-dictionary/src/gdict-window.c:603
+#: ../gnome-dictionary/src/gdict-window.c:597
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Slovník"
 
-#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1268 ../logview/logview-window.c:807
 msgid "_File"
 msgstr "_Soubor"
 
-#: ../gnome-dictionary/src/gdict-window.c:1178
+#: ../gnome-dictionary/src/gdict-window.c:1271
 msgid "_Go"
 msgstr "Pře_jít"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1182
+#: ../gnome-dictionary/src/gdict-window.c:1275
 msgid "_New"
 msgstr "_Nový"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1276
 msgid "New look up"
 msgstr "Nové hledání"
 
-#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../gnome-dictionary/src/gdict-window.c:1277
 msgid "_Save a Copy..."
 msgstr "_Uložit kopii…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../gnome-dictionary/src/gdict-window.c:1279
 msgid "P_review..."
 msgstr "Ná_hled…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1280
 msgid "Preview this document"
 msgstr "Zobrazit náhled tohoto dokumentu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1281
 msgid "_Print..."
 msgstr "Vy_tisknout…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "Print this document"
 msgstr "Vytisknout tento dokument"
 
-#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1289 ../logview/logview-window.c:822
 msgid "Select _All"
 msgstr "Vybrat vš_e"
 
-#: ../gnome-dictionary/src/gdict-window.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:1292
 msgid "Find a word or phrase in the document"
 msgstr "Najít v dokumentu slovo nebo frázi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
+#: ../gnome-dictionary/src/gdict-window.c:1294
 msgid "Find Ne_xt"
 msgstr "Najít _následující"
 
-#: ../gnome-dictionary/src/gdict-window.c:1203
+#: ../gnome-dictionary/src/gdict-window.c:1296
 msgid "Find Pre_vious"
 msgstr "Najít _předchozí"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1209
+#: ../gnome-dictionary/src/gdict-window.c:1302
 msgid "_Previous Definition"
 msgstr "_Předchozí definice"
 
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Go to the previous definition"
 msgstr "Přejít na předchozí definici"
 
-#: ../gnome-dictionary/src/gdict-window.c:1211
+#: ../gnome-dictionary/src/gdict-window.c:1304
 msgid "_Next Definition"
 msgstr "_Následující definice"
 
-#: ../gnome-dictionary/src/gdict-window.c:1212
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "Go to the next definition"
 msgstr "Přejít na následující definici"
 
-#: ../gnome-dictionary/src/gdict-window.c:1213
+#: ../gnome-dictionary/src/gdict-window.c:1306
 msgid "_First Definition"
 msgstr "_První definice"
 
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1307
 msgid "Go to the first definition"
 msgstr "Přejít na první definici"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1308
 msgid "_Last Definition"
 msgstr "Po_slední definice"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "Go to the last definition"
 msgstr "Přejít na poslední definici"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Similar _Words"
 msgstr "Podobná _slova"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Dictionary Sources"
 msgstr "Zdroje slovníků"
 
-#: ../gnome-dictionary/src/gdict-window.c:1223
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Available _Databases"
 msgstr "Dostupné _databáze"
 
-#: ../gnome-dictionary/src/gdict-window.c:1225
+#: ../gnome-dictionary/src/gdict-window.c:1318
 msgid "Available St_rategies"
 msgstr "Dostupné _metody"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1242
+#: ../gnome-dictionary/src/gdict-window.c:1335
 msgid "_Sidebar"
 msgstr "Po_stranní panel"
 
-#: ../gnome-dictionary/src/gdict-window.c:1244
+#: ../gnome-dictionary/src/gdict-window.c:1337
 msgid "S_tatusbar"
 msgstr "S_tavový řádek"
 
-#: ../gnome-dictionary/src/gdict-window.c:1365
+#: ../gnome-dictionary/src/gdict-window.c:1402
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Vybrán zdroj slovníku „%s“"
 
-#: ../gnome-dictionary/src/gdict-window.c:1386
+#: ../gnome-dictionary/src/gdict-window.c:1423
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Vybrána metoda „%s“"
 
-#: ../gnome-dictionary/src/gdict-window.c:1406
+#: ../gnome-dictionary/src/gdict-window.c:1443
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Vybrána databáze „%s“"
 
-#: ../gnome-dictionary/src/gdict-window.c:1426
+#: ../gnome-dictionary/src/gdict-window.c:1463
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Vybráno slovo „%s“"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1448
+#: ../gnome-dictionary/src/gdict-window.c:1488
 msgid "Double-click on the word to look up"
 msgstr "Klikněte dvakrát na slovo pro jeho vyhledání"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1454
+#: ../gnome-dictionary/src/gdict-window.c:1494
 msgid "Double-click on the matching strategy to use"
 msgstr "Klikněte dvakrát na odpovídající metodu pro její použití"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1499
 msgid "Double-click on the source to use"
 msgstr "Klikněte dvakrát na zdroj pro jeho použití"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1468
+#: ../gnome-dictionary/src/gdict-window.c:1508
 msgid "Double-click on the database to use"
 msgstr "Klikněte dvakrát na databázi, kterou chcete používat"
 
-#: ../gnome-dictionary/src/gdict-window.c:1755
+#: ../gnome-dictionary/src/gdict-window.c:1763
 msgid "Look _up:"
 msgstr "_Hledat:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1829
+#: ../gnome-dictionary/src/gdict-window.c:1837
 msgid "Similar words"
 msgstr "Podobná slova"
 
-#: ../gnome-dictionary/src/gdict-window.c:1842
+#: ../gnome-dictionary/src/gdict-window.c:1850
 msgid "Available dictionaries"
 msgstr "Dostupné slovníky"
 
-#: ../gnome-dictionary/src/gdict-window.c:1855
+#: ../gnome-dictionary/src/gdict-window.c:1868
 msgid "Available strategies"
 msgstr "Dostupné metody"
 
-#: ../gnome-dictionary/src/gdict-window.c:1866
+#: ../gnome-dictionary/src/gdict-window.c:1884
 msgid "Dictionary sources"
 msgstr "Zdroje slovníků"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:132
 msgid "Error loading the help page"
 msgstr "Chyba při načítání nápovědy"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:244
 msgid "None"
 msgstr "Žádný"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:245
 msgid "Drop shadow"
 msgstr "Vrhat stín"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "Border"
 msgstr "Rámeček"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:350
 msgid "Include _pointer"
 msgstr "Zahrnout _kurzor myši"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:359
 msgid "Include the window _border"
 msgstr "Zahrnout _rámeček okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:374
 msgid "Apply _effect:"
 msgstr "Aplikovat _efekt:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:436
 msgid "Grab the whole _desktop"
 msgstr "Zachytit _celou pracovní plochu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:448
 msgid "Grab the current _window"
 msgstr "Zachytit _aktuální okno"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:460
 msgid "Select _area to grab"
 msgstr "Zvolit _oblast zachycení"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:477
 msgid "Grab _after a delay of"
 msgstr "Zachytit po _prodlevě"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:497
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "seconds"
 msgstr "sekund"
 
-#: ../gnome-screenshot/gnome-screenshot.c:516
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:515
+#: ../gnome-screenshot/gnome-screenshot.c:523
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Zachytit snímek obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:524
 msgid "Effects"
 msgstr "Efekty"
 
-#: ../gnome-screenshot/gnome-screenshot.c:530
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Take _Screenshot"
 msgstr "Zachytit _snímek obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:656
+#: ../gnome-screenshot/gnome-screenshot.c:649
 msgid "Error while saving screenshot"
 msgstr "Chyba při ukládání snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:659
+#: ../gnome-screenshot/gnome-screenshot.c:652
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1788,15 +1592,15 @@ msgstr ""
 " Chyba byla %s.\n"
 " Vyberte prosím jiné umístění a zkuste to znovu."
 
-#: ../gnome-screenshot/gnome-screenshot.c:791
+#: ../gnome-screenshot/gnome-screenshot.c:784
 msgid "Screenshot taken"
 msgstr "Snímek obrazovky zachycen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:845
+#: ../gnome-screenshot/gnome-screenshot.c:838
 msgid "Unable to take a screenshot of the current window"
 msgstr "Nelze zachytit snímek aktuálního okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:888
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Snímek obrazovky-%s.png"
@@ -1804,14 +1608,14 @@ msgstr "Snímek obrazovky-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:902
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Snímek obrazovky-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:905
 #: ../gnome-screenshot/screenshot-dialog.c:346
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
@@ -1820,48 +1624,48 @@ msgstr "Snímek obrazovky.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:919
+#: ../gnome-screenshot/gnome-screenshot.c:912
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Snímek obrazovky-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1284
+#: ../gnome-screenshot/gnome-screenshot.c:1255
 msgid "Grab a window instead of the entire screen"
 msgstr "Zachytit okno místo celé obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Zachytit oblast obrazovky místo celé obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Include the window border with the screenshot"
 msgstr "Vložit do snímku obrazovky i rámeček okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Remove the window border from the screenshot"
 msgstr "Odstranit ze snímku obrazovky rámeček okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Zachytit snímek obrazovky po zadaném zpoždění [v sekundách]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Efekt přidaný k rámečku (stín, rámeček nebo žádný)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "effect"
 msgstr "efekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Interactively set options"
 msgstr "Nastavit volby interaktivně"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1301
+#: ../gnome-screenshot/gnome-screenshot.c:1272
 msgid "Take a picture of the screen"
 msgstr "Zachytit snímek obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1319
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1894,11 +1698,11 @@ msgstr "Uložit do _složky:"
 msgid "_Name:"
 msgstr "Náz_ev:"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "Efekt rámečku"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
 msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
@@ -1906,7 +1710,7 @@ msgstr ""
 "Efekt přidaný k vnější části rámečku. Možné hodnoty jsou „shadow“, „none“ a "
 "„border“."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
@@ -1914,39 +1718,39 @@ msgstr ""
 "Zachytit pouze aktuální okno, nikoliv celou pracovní plochu. Tento klíč je "
 "zastaralý a už se nepoužívá."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "Zahrnout rámeček"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
 msgid "Include Pointer"
 msgstr "Zahrnout kurzor myši"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include the pointer in the screenshot"
 msgstr "Zahrnout do snímku obrazovky kurzor myši"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
 msgid "Include the window manager border along with the screenshot"
 msgstr "Zahrnout do snímku obrazovky rámeček správce oken"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Screenshot delay"
 msgstr "Zpoždění snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Screenshot directory"
 msgstr "Složka se snímky obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "The directory the last screenshot was saved in."
 msgstr "Složka, do které byl uložen poslední snímek obrazovky."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Doba čekání v sekundách před zachycením snímku obrazovky."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Snímek obrazovky podle specifického nastavení okna (zastaralé)"
 
@@ -2442,7 +2246,6 @@ msgstr "Otevřít _s"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
-#| msgid "Open _Folder"
 msgid "Open Containing _Folder"
 msgstr "Otevřít _složku s obsahem"
 
@@ -3401,7 +3204,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "SOUBOR-PÍSMA VÝSTUPNÍ-SOUBOR"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "Název:"
 
@@ -3410,17 +3212,14 @@ msgid "Style:"
 msgstr "Styl:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "Typ:"
 
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "Velikost:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "Verze:"
 
@@ -3429,7 +3228,6 @@ msgid "Copyright:"
 msgstr "Copyright:"
 
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "Popis:"
 
@@ -3451,14 +3249,179 @@ msgid "I_nstall Font"
 msgstr "I_nstalovat písmo"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "Prohlížeč písem"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "Náhled písem"
+
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "Server se slovníkem (Zastaralé)"
+
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "Port pro připojení se k serveru (Zastaralé)"
+
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Zadejte, jestli se má používat chytré hledání. Tento klíč závisí na tom, "
+#~ "zda server se slovníkem podporuje tuto možnost. Výchozí hodnota je TRUE. "
+#~ "Tento klíč je zastaralý a už se nepoužívá."
+
+#~ msgid "The default height of the application window"
+#~ msgstr "Výchozí výška okna aplikace"
+
+#~ msgid "The default width of the application window"
+#~ msgstr "Výchozí šířka okna aplikace"
+
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "Server se slovníkem, ke kterému se připojovat. Výchozí server je dict."
+#~ "org. Podrobnosti o dalších serverech naleznete na http://www.dict.org. "
+#~ "Tento klíč je zastaralý a už se nepoužívá."
+
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "Stránka postranního panelu pro zobrazení"
+
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Číslo portu, ke kterému se má připojit. Výchozí port je 2628. Tento klíč "
+#~ "je zastaralý a už se nepoužívá."
+
+#~ msgid "The width of the sidebar"
+#~ msgstr "Šířka postranního panelu"
+
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "Tento klíč definuje šířku postranního panelu a je použit pro zapamatování "
+#~ "nastavení mezi sezeními."
+
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "Tento klíč definuje výšku okna a je použit pro zapamatování velikosti "
+#~ "okna slovníku mezi sezeními. Nastavení na -1 způsobí, že okno slovníku "
+#~ "bude používat výšku založenou na velikosti písma."
+
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "Tento klíč definuje šířku okna a je použit pro zapamatování velikosti "
+#~ "okna slovníku mezi sezeními. Nastavení na -1 způsobí, že okno slovníku "
+#~ "bude používat šířku založenou na velikosti písma."
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "Tento klíč definuje, jestli má být postranní panel viditelný, a je použit "
+#~ "pro zapamatování stavu postranního panelu mezi sezeními. Nastavení na "
+#~ "TRUE učiní postranní panel vždy viditelným."
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "Tento klíč definuje, jestli má být stavový řádek viditelný, a je použit "
+#~ "pro zapamatování stavu stavového řádku mezi sezeními. Nastavení na TRUE "
+#~ "učiní stavový řádek vždy viditelným."
+
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "Tento klíč definuje, jestli má být okno maximalizováno, a je použit pro "
+#~ "zapamatování stavu okna slovníku mezi sezeními. Nastavení na TRUE "
+#~ "způsobí, že okno bude vždy maximalizováno."
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "Tento klíč definuje, která stránka postranního panelu má být zobrazena, a "
+#~ "je použit pro zapamatování nastavení mezi sezeními. Může být „speller“ "
+#~ "nebo „databases“."
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "Používat chytré hledání (Zastaralé)"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "Jestli má být okno aplikace maximalizováno"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "Jestli má být postranní panel viditelný"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "Jestli má být stavový řádek viditelný"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Definice „%s“\n"
+#~ "  Z „%s“:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "Chyba: %s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "Použití viz příkaz gnome-dictionary --help\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "Nelze najít vhodný zdroj slovníku"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Chyba při vyhledávání definice „%s“:\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "slovo"
+
+#~ msgid "source"
+#~ msgstr "zdroj"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "Zobrazit dostupné zdroje slovníků"
+
+#~ msgid "Print result to the console"
+#~ msgstr "Vypsat výsledek na konzolu"
+
+#~ msgid "db"
+#~ msgstr "db"
+
+#~ msgid "strat"
+#~ msgstr "metoda"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "Nelze přejmenovat soubor „%s“ na „%s“: %s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "Nelze vymazat datovou složku „%s“: %s"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "Nastavení Analyzátoru využití disku"
