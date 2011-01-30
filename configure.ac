@@ -101,6 +101,10 @@ PKG_CHECK_MODULES(DESKTOP_GSETTINGS, gsettings-desktop-schemas)
 AC_SUBST(DESKTOP_GSETTINGS)
 AC_SUBST(DESKTOP_GSETTINGS)
 
+PKG_CHECK_MODULES(GCONF, gconf-2.0)
+AC_SUBST(GCONF_CFLAGS)
+AC_SUBST(GCONF_LIBS)
+
 # For each cycle:
 # 	first release: increment major += 1, minor = micro = 0;
 # 	each release before API freeze: minor += 1;
