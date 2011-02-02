@@ -25,7 +25,8 @@ EXTRA_DIST = 			\
 	gnome-system-log.desktop.in.in	\
 	$(xml_DATA)		\
 	$(man_MANS)		\
-	$(gsettingsschema_in_files)
+	$(gsettingsschema_in_files) \
+	$(convert_DATA)
 
 DISTCLEANFILES =		\
 	$(desktop_DATA)		\

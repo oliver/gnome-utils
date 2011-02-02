@@ -6,3 +6,4 @@ gnome-dictionary/data/gnome-dictionary.desktop.in
 gnome-dictionary/data/french.desktop.in
 logview/data/gnome-system-log.desktop.in
 font-viewer/gnome-font-viewer.desktop.in
+gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in
