@@ -1,4 +1,90 @@
 ====================================================================
+GNOME Utilities 2.91.3 (1st February 2011) - "New Fang"
+
+Fourth unstable release of the 2.91 release cycle; most applications
+have been ported to GSettings and/or GtkApplication.
+
+A S Alam (1):
+      update Punjabi Translation
+
+Andika Triwidada (1):
+      Updated Indonesian translation
+
+Carlos Garcia Campos (1):
+      font-viewer: Install .thumbnailer file to register gnome-thumbnail-font
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Cosimo Cecchi (5):
+      logview: port to GSettings
+      font-viewer: remove gconf leftover
+      i18n: fix POTFILES.in
+      screenshot: port to GSettings
+      logview-prefs: NULL-terminate pointer arrays
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+Daniel Nylander (2):
+      Updated Swedish translation
+      Updated Swedish translation
+
+Emmanuele Bassi (9):
+      dictionary: Port to GSettings
+      dictionary: Port to GtkApplication
+      po: Update POTFILES
+      dictionary: Use the GtkAboutDialog:license-type property
+      dictionary: Remove error dialogs
+      dictionary: Add an "Edit" button in the sources dialog
+      dictionary: Fix visibility of sidebar and statusbar
+      dictionary: Remove style_set class handler
+      build: Add back GConf check
+
+Fran Diéguez (3):
+      Updaged Galician translations
+      QA of Galician translations
+      Updating Galician translations
+
+Funda Wang (1):
+      Updated zh_CN translation.
+
+Gheyret T.Kenji (1):
+      Added UG translation
+
+Ivar Smolin (3):
+      [l10n] Updated Estonian translation
+      [l10n] Updated Estonian translation
+      [l10n] Updated Estonian translation
+
+Jorge González (1):
+      Updated Spanish translation
+
+Kjartan Maraas (2):
+      Updated Norwegian bokmål translation from Torstein Adolf Winterseth
+      Updated Norwegian bokmål translation
+
+Marek Černocký (2):
+      Updated Czech translation
+      Updated Czech translation
+
+Mario Blättermann (1):
+      [l10n] Updated German translation
+
+Maxim V. Dziumanenko (1):
+      Updated Ukrainian translation
+
+Piotr Eljasiak (1):
+      Fix typo (G_TYPE_INSTANCE_CHECK_TYPE -> G_TYPE_CHECK_INSTANCE_TYPE)
+
+Yaron Shahrabani (5):
+      Updated Hebrew translation
+      Updated Hebrew translation.
+      Updated Hebrew translation.
+      Updated Hebrew translation.
+      Updated Hebrew translation.
+
+====================================================================
 GNOME Utilities 2.91.2 (22th December 2010) - "Wishlist"
 
 Third unstable release of the 2.91 release cycle, containing mostly
