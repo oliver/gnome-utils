@@ -11,10 +11,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils 2.91.2\n"
+"Project-Id-Version: gnome-utils 2.91.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-20 21:49+0800\n"
-"PO-Revision-Date: 2011-01-08 08:50+0800\n"
+"POT-Creation-Date: 2011-02-04 13:17+0800\n"
+"PO-Revision-Date: 2011-02-04 06:58+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -146,12 +146,12 @@ msgstr "全部收起(_C)"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "內容(_C)"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
 msgid "_Edit"
 msgstr "編輯(_E)"
 
@@ -161,7 +161,7 @@ msgstr "全部展開(_E)"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
 msgid "_Help"
 msgstr "求助(_H)"
 
@@ -170,7 +170,7 @@ msgid "_Toolbar"
 msgstr "工具列(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
 msgid "_View"
 msgstr "檢視(_V)"
 
@@ -589,7 +589,7 @@ msgid "Cl_ear"
 msgstr "清除(_E)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
 msgid "_About"
 msgstr "關於(_A)"
 
@@ -598,7 +598,7 @@ msgid "_Look Up Selected Text"
 msgstr "查詢已選字詞(_L)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "偏好設定(_P)"
 
@@ -616,64 +616,30 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "在線上字典中查詢字詞的解譯及拼法"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1946
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "字典"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "字典伺服器（不建議再使用）"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "連接至伺服器所用的連接埠（不建議再使用）"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"是否使用智慧型檢索。本設定鍵會否生效取決於字典伺服器是否支援這個選項。預設為 "
-"TRUE。本設定鍵被認定為過時而且不再被使用。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "預設使用的資料庫"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "應用程式視窗預設高度"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "預設使用的搜尋方法"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "應用程式視窗的預設寬度"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"要連接的字典伺服器。預設的伺服器為 dict.org。請瀏覽 http://www.dict.org 獲取"
-"有關其它伺服器的詳情。本設定鍵被認定為過時而且不再被使用。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "輸出時所使用的字型"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "輸出解釋時所使用的字型"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -682,7 +648,7 @@ msgstr ""
 "指定在字典來源所預設使用的資料庫或後設資料庫名稱。“!”表示 gnome-dictionary 會"
 "搜尋指字典來源中所有的資料庫。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -690,105 +656,14 @@ msgstr ""
 "在字典伺服器中所使用的預設的搜尋方式名稱（如果這個名稱存在的話）。預設的搜尋"
 "方式是‘exact’，它會完整比對字詞。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "在字典來源中所使用的名稱。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "在字典伺服器中用來擷取字詞解釋的資料庫名稱。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "側面窗格顯示的頁次"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"連線至指定的連接埠。預設連接埠為 2628。本設定鍵被認定為過時而且不再被使用。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "側面窗格的寬度"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr "本設定鍵定義側面窗格的寬度，及記錄其在其它作業階段的設定"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"本設定鍵定義視窗的高度，及記錄其在其它作業階段中字典視窗的大小。如果將其值設"
-"為 -1，則會使視窗根據字型大小來決定高度。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"這個關鍵字解釋視窗的寬度，而且在不同的執行階段間記住字典典視窗的大小。如果將"
-"它的值設為 -1 則會使視窗根據字型大小來決定寬度。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"本設定鍵決定是否顯示側面窗格，及記錄其在其它作業階段的狀態。如設定為 TRUE 則"
-"總會顯示側面窗格。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"本設定鍵決定是否顯示狀態列，及記錄其在其它作業階段的狀態。如設定為 TRUE 則總"
-"會顯示狀態列。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"本設定鍵定義視窗是否最大化，及記錄其在其它作業階段中字典視窗的狀態。如設定為 "
-"TRUE 則會使視窗總是會以保持最大化形式顯示。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"本設定鍵決定側面窗格會顯示那一頁次，及記錄其在其它作業階段中的設定。可用的數"
-"值為“speller”或“databases”。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "使用智慧型檢索（不建議再使用）"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "應用程式視窗是否該被最大化"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "應否顯示側面窗格"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "應否顯示狀態列"
 
 # zh_HK: msgstr "打印"
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
@@ -1207,109 +1082,59 @@ msgstr "顯示 GDict 選項"
 msgid "Look up words in dictionaries"
 msgstr "在字典中查詢字詞"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"‘%s’的解釋\n"
-" 來自‘%s’：\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "錯誤：%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "執行 gnome-dictionary --help 來查詢使用方法\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "無法找到合適的字典來源"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"查詢“%s”解釋時發生錯誤：\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "要查詢的字詞"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
-msgstr "字詞"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
+msgstr "WORD"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "比對的字詞"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "使用的字典來源"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "來源"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "NAME"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "顯示現存的字典來源"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "將結果輸出至終端機"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "使用的資料庫"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "db"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "使用的搜尋方法"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "strat"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "WORDS"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " - 在字典中查字詞"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:834
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "儲存副本"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "未命名的文件"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:865
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "寫入‘%s’時發生錯誤"
@@ -1374,103 +1199,94 @@ msgid "Dictionary entry"
 msgstr "字典輸入欄位"
 
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:998
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "字典偏好設定"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1140
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "顯示說明文件時發生錯誤"
 
 #: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:514
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "沒有現存字典來源的名稱為‘%s’"
 
 #: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:518
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "無法找到字典來源"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:534
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "來源‘%s’沒有內容存在"
 
 #: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:538
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "無法建構內容"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "無法連接到 GConf"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "無法為偏好設定取得通知"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "無法為文件字型取得通知"
 
-#: ../gnome-dictionary/src/gdict-common.c:80
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "無法將檔案‘%s’更名為‘%s’：%s"
-
-#: ../gnome-dictionary/src/gdict-common.c:104
-#: ../gnome-dictionary/src/gdict-common.c:127
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "無法建構資料目錄‘%s’：%s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "編輯字典來源"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "加入字典來源"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "移除“%s”？"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "這會從清單中將字典來源永久刪除。"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "無法移除來源‘%s’"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "新增一個字典來源"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "移除目前選擇的字典來源"
 
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+msgid "Edit the currently selected dictionary source"
+msgstr "編輯目前選擇的字典來源"
+
 # zh_HK: msgstr "設定打印解釋時使用的字型"
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "設定列印解釋時使用的字型"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "無法顯示預覽 %s"
@@ -1485,197 +1301,197 @@ msgstr "無法建構來源檔案"
 msgid "Unable to save source file"
 msgstr "無法儲存來源檔案"
 
-#: ../gnome-dictionary/src/gdict-window.c:315
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "搜尋‘%s’…"
 
-#: ../gnome-dictionary/src/gdict-window.c:347
-#: ../gnome-dictionary/src/gdict-window.c:404
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "找不到字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "找到%d 字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:603
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - 字典"
 
-#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
 msgid "_File"
 msgstr "檔案(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1178
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "前往(_G)"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1182
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "新增(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "新增查詢"
 
-#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "儲存副本(_S)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "預覽(_R)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "預覽這份文件"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "列印(_P)…"
 
 # zh_HK: msgstr "打印這份文件"
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "列印這份文件"
 
-#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
 msgid "Select _All"
 msgstr "全部選取(_A)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "在文件中尋找字詞"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "找下一個(_X)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1203
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "找上一個(_V)"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1209
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "上一個字詞解釋(_P)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "前往上一個字詞的解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1211
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "下一個字詞解釋(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1212
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "前往下一個字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1213
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "第一個字詞解釋(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "前往第一個字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "最後一個字詞解釋(_L)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "前往最後一個字詞解釋"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "近似字詞(_W)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "字典來源"
 
-#: ../gnome-dictionary/src/gdict-window.c:1223
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "現存資料庫(_D)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1225
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "現有搜尋方法(_R)"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1242
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "側面窗格(_S)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1244
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "狀態列(_T)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1365
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "已選定字典來源「%s」"
 
-#: ../gnome-dictionary/src/gdict-window.c:1386
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "已選取搜尋方法‘%s’"
 
-#: ../gnome-dictionary/src/gdict-window.c:1406
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "已選取資料庫‘%s’"
 
-#: ../gnome-dictionary/src/gdict-window.c:1426
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "已選取字詞‘%s’"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1448
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "在要查詢的字詞上按兩下滑鼠鍵"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1454
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "在要使用的搜尋方法上按兩下滑鼠鍵"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "在要使用的來源按兩下滑鼠鍵"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1468
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "在要使用的資料庫上按兩下滑鼠鍵"
 
-#: ../gnome-dictionary/src/gdict-window.c:1755
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "查詢(_U)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1829
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "近似字詞"
 
-#: ../gnome-dictionary/src/gdict-window.c:1842
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "現存字典"
 
-#: ../gnome-dictionary/src/gdict-window.c:1855
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "現有搜尋方法"
 
-#: ../gnome-dictionary/src/gdict-window.c:1866
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "字典來源"
 
@@ -1954,7 +1770,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "儲存螢幕截圖到磁碟時發生不明的錯誤"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:884
+#: ../gnome-screenshot/screenshot-utils.c:852
 msgid "Untitled Window"
 msgstr "未命名視窗"
 
@@ -2967,11 +2783,11 @@ msgstr "主視窗的高度（像素）"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
 msgid "List of saved filters"
-msgstr ""
+msgstr "已儲存過濾條件清單"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
 msgid "List of saved regexp filters"
-msgstr ""
+msgstr "已儲存正規表示式過濾條件清單"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
@@ -3356,6 +3172,163 @@ msgstr "字型檢視程式"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "預覽字型"
+
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "字典伺服器（不建議再使用）"
+
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "連接至伺服器所用的連接埠（不建議再使用）"
+
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "是否使用智慧型檢索。本設定鍵會否生效取決於字典伺服器是否支援這個選項。預設"
+#~ "為 TRUE。本設定鍵被認定為過時而且不再被使用。"
+
+#~ msgid "The default height of the application window"
+#~ msgstr "應用程式視窗預設高度"
+
+#~ msgid "The default width of the application window"
+#~ msgstr "應用程式視窗的預設寬度"
+
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "要連接的字典伺服器。預設的伺服器為 dict.org。請瀏覽 http://www.dict.org 獲"
+#~ "取有關其它伺服器的詳情。本設定鍵被認定為過時而且不再被使用。"
+
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "側面窗格顯示的頁次"
+
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "連線至指定的連接埠。預設連接埠為 2628。本設定鍵被認定為過時而且不再被使"
+#~ "用。"
+
+#~ msgid "The width of the sidebar"
+#~ msgstr "側面窗格的寬度"
+
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr "本設定鍵定義側面窗格的寬度，及記錄其在其它作業階段的設定"
+
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "本設定鍵定義視窗的高度，及記錄其在其它作業階段中字典視窗的大小。如果將其值"
+#~ "設為 -1，則會使視窗根據字型大小來決定高度。"
+
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "這個關鍵字解釋視窗的寬度，而且在不同的執行階段間記住字典典視窗的大小。如果"
+#~ "將它的值設為 -1 則會使視窗根據字型大小來決定寬度。"
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "本設定鍵決定是否顯示側面窗格，及記錄其在其它作業階段的狀態。如設定為 TRUE "
+#~ "則總會顯示側面窗格。"
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "本設定鍵決定是否顯示狀態列，及記錄其在其它作業階段的狀態。如設定為 TRUE 則"
+#~ "總會顯示狀態列。"
+
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "本設定鍵定義視窗是否最大化，及記錄其在其它作業階段中字典視窗的狀態。如設定"
+#~ "為 TRUE 則會使視窗總是會以保持最大化形式顯示。"
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "本設定鍵決定側面窗格會顯示那一頁次，及記錄其在其它作業階段中的設定。可用的"
+#~ "數值為“speller”或“databases”。"
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "使用智慧型檢索（不建議再使用）"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "應用程式視窗是否該被最大化"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "應否顯示側面窗格"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "應否顯示狀態列"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "‘%s’的解釋\n"
+#~ " 來自‘%s’：\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "錯誤：%s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "執行 gnome-dictionary --help 來查詢使用方法\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "無法找到合適的字典來源"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "查詢“%s”解釋時發生錯誤：\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "字詞"
+
+#~ msgid "source"
+#~ msgstr "來源"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "顯示現存的字典來源"
+
+#~ msgid "Print result to the console"
+#~ msgstr "將結果輸出至終端機"
+
+#~ msgid "db"
+#~ msgstr "db"
+
+#~ msgid "strat"
+#~ msgstr "strat"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "無法將檔案‘%s’更名為‘%s’：%s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "無法建構資料目錄‘%s’：%s"
 
 #~ msgid "If set to true, then OpenType fonts will be thumbnailed."
 #~ msgstr "如設定為「true」，則會顯示 OpenType 字型的縮圖。"
