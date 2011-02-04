@@ -1,4 +1,21 @@
 ====================================================================
+GNOME Utilities 2.91.4 (4th February 2011) - "Repeater"
+
+Bugfix release, that fixes the gnome-screenshot tool for being used
+with new GTK+ versions, thanks to Benjamin Otte.
+
+Benjamin Otte (2):
+      screenshot: Rewrite event handling in area selection
+      screenshot: Don't snap the selection
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Khaled Hosny (1):
+      Updated Arabic translation
+
+
+====================================================================
 GNOME Utilities 2.91.3 (1st February 2011) - "New Fang"
 
 Fourth unstable release of the 2.91 release cycle; most applications
