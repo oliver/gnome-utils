@@ -2,15 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Sahran <sahran@live.com>, 2010-08-29.
-#
+# Temkin <temkin119@gmail.com>,2011
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2010-11-29 20:09+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"utils&component=general\n"
+"POT-Creation-Date: 2011-02-09 18:25+0000\n"
 "PO-Revision-Date: 2010-08-29 17:50+0000\n"
-"Last-Translator: Last-Translator: Sahran <sahran@live.com>\n"
-"Language-Team: Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Last-Translator: Temkin <temkin119@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -39,7 +41,7 @@ msgstr "سىرتتا قالدۇرۇلىدىغان دىسكا رايونىنىڭ 
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
 msgid "Monitor Home"
-msgstr ""
+msgstr "ئېكران Home"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
@@ -63,7 +65,7 @@ msgstr "ئاساسىي كۆزنەكتىكى قورال بالداق كۆرۈنە
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
-msgstr ""
+msgstr "قايسى تىپتىكى دىئاگراممىنى كۆرسەتسۇن."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -139,12 +141,12 @@ msgstr "ھەممىنى قاتلا(_C)"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
 msgid "_Contents"
 msgstr "مەزمۇنلار(_C)"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
 msgid "_Edit"
 msgstr "تەھرىر(_E)"
 
@@ -154,7 +156,7 @@ msgstr "ھەممىنى ياي(_E)"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
 msgid "_Help"
 msgstr "ياردەم(_H)"
 
@@ -163,7 +165,7 @@ msgid "_Toolbar"
 msgstr "قورال بالداق(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
 msgid "_View"
 msgstr "كۆرۈنۈش(_V)"
 
@@ -262,7 +264,8 @@ msgstr "ھېچقانداق ئېگەرلەش نۇقتىسى بايقالمىدى.
 
 #: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
-msgstr "ئېگەرلەش نۇقتىسى بولمىسا دىسكا ئىشلىتىش ئەھۋالىنى تەھلىل قىلغىلى بولمايدۇ."
+msgstr ""
+"ئېگەرلەش نۇقتىسى بولمىسا دىسكا ئىشلىتىش ئەھۋالىنى تەھلىل قىلغىلى بولمايدۇ."
 
 #: ../baobab/src/baobab-chart.c:205
 msgid "Maximum depth"
@@ -360,7 +363,8 @@ msgstr "بىخەتەر WebDAV (HTTPS)"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:249
 msgid "Cannot Connect to Server. You must enter a name for the server."
-msgstr "مۇلازىمېتىرغا ئۇلىنالمىدى. مۇلازىمېتىرنىڭ ئاتىدىن بىرنى كىرگۈزۈشىڭىز لازىم."
+msgstr ""
+"مۇلازىمېتىرغا ئۇلىنالمىدى. مۇلازىمېتىرنىڭ ئاتىدىن بىرنى كىرگۈزۈشىڭىز لازىم."
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:252
 msgid "Please enter a name and try again."
@@ -419,7 +423,9 @@ msgstr "ماكان مۇندەرىجىڭىزنى قايتا تەكشۈرەمسى�
 msgid ""
 "The content of your home folder has changed. Select rescan to update the "
 "disk usage details."
-msgstr "نۆۋەتتىكى ماكان قىسقۇچىڭىز ئۆزگەرتىلدى. قايتا تەكشۈرۈش تاللانسا دىسكا ئىشلىتىش ئەھۋالىنىڭ تەپسىلاتىنى يېڭىلىغىلى بولىدۇ."
+msgstr ""
+"نۆۋەتتىكى ماكان قىسقۇچىڭىز ئۆزگەرتىلدى. قايتا تەكشۈرۈش تاللانسا دىسكا "
+"ئىشلىتىش ئەھۋالىنىڭ تەپسىلاتىنى يېڭىلىغىلى بولىدۇ."
 
 #: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
@@ -505,7 +511,11 @@ msgid ""
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr "بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى نەشرىنى ئىشلەتسىڭىز بولىدۇ."
+msgstr ""
+"بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان "
+"GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى "
+"ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى "
+"نەشرىنى ئىشلەتسىڭىز بولىدۇ."
 
 #: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
 msgid ""
@@ -513,14 +523,20 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
-msgstr "بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ."
+msgstr ""
+"بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا "
+"ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU "
+"ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ."
 
 #: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
-msgstr "مەزكۇر پروگرامما بىلەن بىرگە GNU General Public ئىجازەتنامىسىنى چوقۇم بىرگە بولىدۇ.ئۇنداق بولمىسا Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA  بىلەن ئالاقە قىلىڭ."
+msgstr ""
+"مەزكۇر پروگرامما بىلەن بىرگە GNU General Public ئىجازەتنامىسىنى چوقۇم بىرگە "
+"بولىدۇ.ئۇنداق بولمىسا Free Software Foundation, Inc., 51 Franklin Street, "
+"Fifth Floor, Boston, MA 02110-1301, USA  بىلەن ئالاقە قىلىڭ."
 
 #: ../baobab/src/callbacks.c:101
 msgid "Baobab"
@@ -534,7 +550,9 @@ msgstr "دىسكا ئىشلىتىش ئەھۋالى تەھلىلىگە ئىشلى
 #: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
-msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+msgstr ""
+"Gheyret Kenji <gheyret@gmail.com>\n"
+"Temkin<Temkin119@gmail.com>\n"
 "Sahran<sahran@live.com>"
 
 #: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
@@ -563,7 +581,7 @@ msgid "Cl_ear"
 msgstr "تازىلا(_E)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
 msgid "_About"
 msgstr "ھەققىدە(_A)"
 
@@ -572,7 +590,7 @@ msgid "_Look Up Selected Text"
 msgstr "تاللانغان تېكىستنى ئىزدە(_L)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "مايىللىق(_P)"
 
@@ -589,158 +607,55 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "توردىكى لۇغەتتىن سۆز ئېنىقلىمىسى ۋە ئىملاسىنى تەكشۈر"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1946
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "لۇغەت"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "لۇغەت مۇلازىمېتىرى(ئىشلىتىلمىگەن)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "مۇلازىمېتىرغا ئۇلىنىشتا ئىشلىتىدىغان ئېغىز (ئىشلىتىلمىگەن)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr "ئىدراكلىق ئىزدەشنى بەلگىلەمدۇ يوق. بۇ ھالقىلىق سۆز لۇغەت مۇلازىمېتىرى بۇ تاللانمىنى قوللاش قوللىماسلىققا تايىنىدۇ. كۆڭۈلدىكى ئەھۋالدا TRUE (قوللايدۇ). بۇ كۇنۇپكا ئىشلىتىلمىدى."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "ئىشلىتىلىدىغان كۆڭۈلدىكى ساندان"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "پروگراممىنىڭ كۆڭۈلدىكى ئېگىزلىكى"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "ئىشلىتىلىدىغان كۆڭۈلدىكى ئىستراتېگىيە"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "پروگراممىنىڭ كۆڭۈلدىكى كەڭلىكى"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr "ئۇلىنىدىغان لۇغەت مۇلازىمېتىرى. كۆڭۈلدىكى مۇلازىمېتىر dict.org. باشقا مۇلازىمېتىرلارغا مۇناسىۋەتلىك تەپسىلاتنى http://www.dict.org دىن كۆرۈڭ. بۇ كۇنۇپكا ئىشلىتىلمىدى."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "بېسىشتا ئىشلىتىدىغان خەت نۇسخا"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "بېسىشنى بەلگىلەشتە ئىشلىتىدىغان خەت نۇسخا"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
-msgstr "توردىكى مۇلازىمېتىردا ئىشلىتىدىغان مۇستەقىل ساندان ياكى مېتا ساندان ئاتى. ئۈندەش (\"!\") بەلگىسى لۇغەت پروگراممىسىنىڭ بېرىلگەن مۇلازىمېتىردىكى ھەممە سانداندىن ئىزدەشنى ئىپادىلەيدۇ"
+msgstr ""
+"توردىكى مۇلازىمېتىردا ئىشلىتىدىغان مۇستەقىل ساندان ياكى مېتا ساندان ئاتى. "
+"ئۈندەش (\"!\") بەلگىسى لۇغەت پروگراممىسىنىڭ بېرىلگەن مۇلازىمېتىردىكى ھەممە "
+"سانداندىن ئىزدەشنى ئىپادىلەيدۇ"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
-msgstr "لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تاكتىكىسى. كۆڭۈلدىكى تاكتىكا 'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
+msgstr ""
+"لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تاكتىكىسى. كۆڭۈلدىكى تاكتىكا "
+"'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "ئىشلىتىدىغان لۇغەت مەنبە ئاتى"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "سۆز ئېنىقلىمىسىغا ئېرىشىشتە ئىشلىتىدىغان لۇغەت مەنبە ئاتى."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "يان بالداقتا كۆرسىتىدىغان بەت"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr "ئۇلىنىدىغان ئېغىز نومۇرى. كۆڭۈلدىكى ئېغىز نومۇرى 2628. بۇ كۇنۇپكا ئىشلىتىلمىگەن."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "يان بالداق كەڭلىكى"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr "بۇ كۇنۇپكا يان بالداقنىڭ كەڭلىكىگە ئېنىقلىما بېرىدۇ، ھەمدە ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا يان بالداق تەڭشىكىنى ئەستە تۇتىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr "بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا لۇغەت كۆزنىكىنىڭ چوڭلۇقىنى ئەستە تۇتىدۇ. ئۇ -1 غا تەڭشەلسە لۇغەت كۆزنىكى خەت نۇسخا چوڭلۇقىنىڭ ئېگىزلىكىنى ئىشلىتىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr "بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا لۇغەت كۆزنىكىنىڭ چوڭلۇقىنى ئەستە تۇتىدۇ. ئۇ -1 غا تەڭشەلسە لۇغەت كۆزنىكى خەت نۇسخا چوڭلۇقىنىڭ كەڭلىكىنى ئىشلىتىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr "بۇ كۇنۇپكا يان بالداقنىڭ كۆرۈنۈش كۆرۈنمەسلىكنى ھەمدە ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا يان بالداقنىڭ ھالىتىنى ئەستە تۇتۇشنى بەلگىلەيدۇ. ئەگەر ئۇ TRUE قىلىپ تەڭشەلسە يان بالداق ھەمىشە كۆرۈنىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr "بۇ كۇنۇپكا ھالەت بالداقنىڭ كۆرۈنۈش كۆرۈنمەسلىكى ھەمدە ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا ھالەت بالداق ھالىتىنى ئەستە تۇتۇش تۇتماسلىقنى بەلگىلەيدۇ. ئەگەر ئۇ TRUE قىلىپ تەڭشەلسە ھالەت بالداق ھەمىشە كۆرۈنىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr "بۇ كۇنۇپكا كۆزنەكنىڭ ئەڭ چوڭ قىلىشنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا لۇغەت كۆزنىكىنىڭ ھالىتىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئەگەر ئۇ TRUE قىلىپ تەڭشەلسە كۆزنەك ئەڭ چوڭ كۆرۈنىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr "بۇ كۇنۇپكا قايسى بەتنى يان بالداقتا كۆرسىتىشنى بەلگىلەيدۇ ھەمدە ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا يان بالداق تەڭشىكىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. بۇ قىممەت \"speller\" ياكى \"databases\" بولىدۇ."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "ئىدراكلىق ئىزدەشنى ئىشلەت (ئىشلىتىلمىگەن)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "پروگرامما كۆزنىكى چوڭايتىلامدۇ يوق"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "يان بالداق كۆرسىتىلەمدۇ يوق"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "ھالەت بالداق كۆرسىتىلەمدۇ يوق"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -848,7 +763,9 @@ msgstr "'%s' كومپيۇتېرنى ئىزدىيەلمىدى: كومپيۇتېر
 msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
-msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى. مۇلازىمېتىر قايتۇرغان كود %d (مۇلازىمېتىر توختىغان)"
+msgstr ""
+"'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى. مۇلازىمېتىر قايتۇرغان كود %d "
+"(مۇلازىمېتىر توختىغان)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -902,7 +819,8 @@ msgstr "%s:%d لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى"
 msgid ""
 "Error while reading reply from server:\n"
 "%s"
-msgstr "مۇلازىمېتىرنىڭ جاۋابىنى ئوقۇشتا خاتالىق كۆرۈلدى:\n"
+msgstr ""
+"مۇلازىمېتىرنىڭ جاۋابىنى ئوقۇشتا خاتالىق كۆرۈلدى:\n"
 "%s"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1860
@@ -939,54 +857,54 @@ msgstr "يەرلىكلا"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "كونتېكىست يەرلىك لۇغەتنىلا ئىشلىتەمدۇ يوق"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "ئىشلەتكىلى بولىدىغان سانداننى قايتا يۈكلە"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "ئىشلەتكىلى بولىدىغان سانداننى تازىلا"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
-#: ../gnome-dictionary/libgdict/gdict-speller.c:779
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:837
+#: ../gnome-dictionary/libgdict/gdict-speller.c:778
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "ماسلاشتۇرغاندا خاتالىق كۆرۈلدى"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
 #: ../logview/logview-window.c:485
 msgid "Not found"
 msgstr "تېپىلمىدى"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
 msgstr "ئىزدە(_I):"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
 msgid "_Previous"
 msgstr "ئالدىنقىسى(_P)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
 msgstr "كېيىنكى(_N)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
 msgstr "ئېنىقلىما ئىزدەشتە خاتالىق كۆرۈلدى"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
-#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "يەنە بىر ئىزدەش ئىجرا قىلىنىۋاتىدۇ"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
-#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "نۆۋەتتىكى ئىزدەش ئاخىرلاشقۇچە كۈتۈڭ."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
 msgid "Error while retrieving the definition"
 msgstr "ئېنىقلىمىغا ئېرىشىشتە خاتالىق كۆرۈلدى"
 
@@ -1016,7 +934,7 @@ msgid "The description of this dictionary source"
 msgstr "بۇ لۇغەت مەنبەسىنىڭ چۈشەندۈرۈشى"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:274
-#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+#: ../gnome-dictionary/libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "ساندان"
 
@@ -1025,7 +943,7 @@ msgid "The default database of this dictonary source"
 msgstr "بۇ لۇغەت مەنبەسىنىڭ كۆڭۈلدىكى ساندىنى"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
-#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+#: ../gnome-dictionary/libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "تەدبىر"
 
@@ -1042,7 +960,7 @@ msgid "The transport mechanism used by this dictionary source"
 msgstr "بۇ لۇغەت مەنبەسى ئىشلەتكەن يوللاش قۇرۇلمىسى"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
-#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+#: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "تىل مۇھىتى"
 
@@ -1084,7 +1002,7 @@ msgstr "لۇغەت مەنبەسىنىڭ ئاتى يوق"
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "'%s' لۇغەت مەنبەسىنىڭ '%s' يوللاش ئىناۋەتسىز"
 
-#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
 msgstr "ئىشلەتكىلى بولىدىغان مەنبە تىزىملىكىنى قايتا يۈكلە"
 
@@ -1104,27 +1022,27 @@ msgstr "مەنبە"
 msgid "Dictionary sources found"
 msgstr "لۇغەت مەنبەسى تېپىلدى"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+#: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
 msgstr "ئوخشىشىپ كېتىدىغان سۆزلەرنى تازىلا"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
 msgstr "سۆز ئېنىقلىمىسىغا ئېرىشىشتە ئىشلىتىدىغان GdictContext نەڭى"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
 msgid "The database used to query the GdictContext"
 msgstr "GdictContext سۈرۈشتۈرۈشتە ئىشلىتىدىغان ساندان"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext سۈرۈشتۈرۈشتە ئىشلىتىدىغان تەدبىر"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "ئىشلەتكىلى بولىدىغان تەدبىرلەر تىزىملىكىنى قايتا يۈكلە"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "ئىشلەتكىلى بولىدىغان تەدبىرلەرنى تازىلا"
 
@@ -1154,107 +1072,59 @@ msgstr "GDict تاللانما كۆرسەت"
 msgid "Look up words in dictionaries"
 msgstr "لۇغەتلەردىن سۆز ئىزدە"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr "'%s' نىڭ ئېنىقلىمىسى\n"
-"ئورنى %s:\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "خاتالىق: %s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "gnome-dictionary --help نىڭ ئىشلىتىش ئۇسۇلىنى كۆرۈڭ\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "مۇۋاپىق لۇغەت مەنبەسى تېپىلمىدى"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr "\"%s\" نىڭ ئېنىقلىمىسىنى ئىزدىگەندە خاتالىق كۆرۈلدى:\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "ئىزدەيدىغان سۆزلەر"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
 msgstr "سۆز"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "ماس كەلگەن سۆزلەر"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "ئىشلىتىدىغان لۇغەت مەنبەسى"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "مەنبە"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "ئاتى"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "ئىشلەتكىلى بولىدىغان لۇغەت مەنبەسىنى كۆرسەت"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "نەتىجىنى كونترول سۇپىسىدا كۆرسەت"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "ئىشلىتىدىغان ساندان"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "db"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "ئىشلىتىدىغان تەدبىر"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "strat"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "سۆزلەر"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " - لۇغەتتىن سۆز ئىزدە"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:834
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "بىر نۇسخا ساقلا"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "ماۋزۇسىز پۈتۈك"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:865
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s' يازغاندا خاتالىق كۆرۈلدى"
@@ -1316,102 +1186,93 @@ msgid "Dictionary entry"
 msgstr "لۇغەت تۈرى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:998
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "لۇغەت مايىللىقى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1140
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "ياردەم كۆرسەتكەندە خاتالىق كۆرۈلدى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:514
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "'%s' ئاتلىق ئىشلىتىلىشچان لۇغەت مەنبەسى يوق"
 
 #: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:518
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "لۇغەت مەنبەسى تېپىلمىدى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:534
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "'%s' مەنبەنىڭ تىل مۇھىتى يوق"
 
 #: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:538
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "كونتېكىست قۇرالمايدۇ"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "GConf غا ئۇلىنالمىدى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "مايىللىقنىڭ ئۇقتۇرۇشىغا ئېرىشەلمەيدۇ"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "پۈتۈك خەت نۇسخا ئۇقتۇرۇشىغا ئېرىشەلمەيدۇ"
 
-#: ../gnome-dictionary/src/gdict-common.c:80
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "'%s' ھۆججەت ئاتىنى '%s' غا ئۆزگەرتەلمەيدۇ: %s"
-
-#: ../gnome-dictionary/src/gdict-common.c:104
-#: ../gnome-dictionary/src/gdict-common.c:127
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "سانلىق-مەلۇمات مۇندەرىجىسى '%s' نى قۇرالمايدۇ: %s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "لۇغەت مەنبە تەھرىر"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "لۇغەت مەنبەسى قوش"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" چىقىرىۋەت؟"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "بۇ مەشغۇلات لۇغەت مەنبەسىنى تىزىملىكتىن مەڭگۈلۈك چىقىرىۋېتىدۇ."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "'%s' مەنبەنى چىقىرىۋېتەلمەيدۇ"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "يېڭى لۇغەت مەنبەسىدىن بىرنى قوش"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "نۆۋەتتە تاللانغان لۇغەت مەنبەسىنى چىقىرىۋەت"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+msgid "Edit the currently selected dictionary source"
+msgstr "نۆۋەتتە تاللانغان لۇغەت مەنبەسىنى چىقىرىۋەت"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "بېسىشتا ئېنىقلىما بېرىلگەن خەت نۇسخا تەڭشەك"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "ئالدىن كۆزىتىشنى كۆرسىتەلمەيدۇ: %s"
@@ -1426,293 +1287,294 @@ msgstr "مەنبە ھۆججەت قۇرالمايدۇ"
 msgid "Unable to save source file"
 msgstr "مەنبە ھۆججەت ساقلىيالمايدۇ"
 
-#: ../gnome-dictionary/src/gdict-window.c:315
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "'%s' نى ئىزدەۋاتىدۇ…"
 
-#: ../gnome-dictionary/src/gdict-window.c:347
-#: ../gnome-dictionary/src/gdict-window.c:404
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "ئېنىقلىما تېپىلمىدى"
 
-#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "%d ئېنىقلىما تېپىلدى"
 
-#: ../gnome-dictionary/src/gdict-window.c:603
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - لۇغەت"
 
-#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
 msgid "_File"
 msgstr "ھۆججەت(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1178
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "يۆتكەل(_G)"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1182
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "يېڭى(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "يېڭى ئىزدەش"
 
-#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "نۇسخا ساقلا(_S)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "ئالدىن كۆزەت(_R)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "بۇ پۈتۈكنى ئالدىن كۆزەت"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "باس(_P)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "بۇ پۈتۈكنى باس"
 
-#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
 msgid "Select _All"
 msgstr "ھەممىنى تاللا(_A)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "پۈتۈكتىكى سۆز ياكى سۆز بىرىكمىسىنى ئىزدە"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "كېيىنكىنى ئىزدە(_X)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1203
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "ئالدىنقىنى ئىزدە(_V)"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1209
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "ئالدىنقى ئېنىقلىما(_P)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "ئالدىنقى ئېنىقلىمىغا يۆتكەل"
 
-#: ../gnome-dictionary/src/gdict-window.c:1211
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "كېيىنكى ئېنىقلىما(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1212
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "كېيىنكى ئېنىقلىمىغا يۆتكەل"
 
-#: ../gnome-dictionary/src/gdict-window.c:1213
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "بىرىنچى ئېنىقلىما(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "بىرىنچى ئېنىقلىمىغا يۆتكەل"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "ئاخىرقى ئېنىقلىما(_L)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "ئاخىرقى ئېنىقلىمىغا يۆتكەل"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "ئوخشايدىغان سۆزلەر(_W)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "لۇغەت مەنبەسى"
 
-#: ../gnome-dictionary/src/gdict-window.c:1223
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "ئىشلىتىلىشچان ساندان(_D)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1225
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "ئىشلىتىلىشچان تەدبىر(_R)"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1242
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "يان بالداق(_S)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1244
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "ھالەت بالداق(_T)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1365
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "`%s' لۇغەت مەنبەسى تاللاندى"
 
-#: ../gnome-dictionary/src/gdict-window.c:1386
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "`%s' تەدبىر تاللاندى"
 
-#: ../gnome-dictionary/src/gdict-window.c:1406
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "`%s' ساندان تاللاندى"
 
-#: ../gnome-dictionary/src/gdict-window.c:1426
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "`%s' سۆز تاللاندى"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1448
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "ئىزدەيدىغان سۆزنى قوش چېكىڭ"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1454
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "ئىشلىتىشكە ماس كەلگەن تەدبىرنى قوش چېكىڭ"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "ئىشلىتىدىغان مەنبەنى قوش چېكىڭ"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1468
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "ئىشلىتىدىغان سانداننى قوش چېكىڭ"
 
-#: ../gnome-dictionary/src/gdict-window.c:1755
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "ئىزدەش(_U):"
 
-#: ../gnome-dictionary/src/gdict-window.c:1829
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "ئوخشايدىغان سۆزلەر"
 
-#: ../gnome-dictionary/src/gdict-window.c:1842
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "ئىشلىتىلىشچان لۇغەتلەر"
 
-#: ../gnome-dictionary/src/gdict-window.c:1855
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "ئىشلىتىلىشچان تەدبىرلەر"
 
-#: ../gnome-dictionary/src/gdict-window.c:1866
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "لۇغەت مەنبەلىرى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:132
 msgid "Error loading the help page"
 msgstr "ياردەم بەتنى يۈكلەشتە خاتالىق كۆرۈلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:244
 msgid "None"
 msgstr "يوق"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:245
 msgid "Drop shadow"
 msgstr "سايە"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "Border"
 msgstr "گىرۋەك"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:350
 msgid "Include _pointer"
 msgstr "نۇر بەلگە بار(_P)"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:359
 msgid "Include the window _border"
 msgstr "كۆزنەك گىرۋىكىنى ئۆز ئىچىگە ئالىدۇ(_B)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:374
 msgid "Apply _effect:"
 msgstr "ئۈنۈم قوللان(_E):"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:436
 msgid "Grab the whole _desktop"
 msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇت(_D)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:448
 msgid "Grab the current _window"
 msgstr "نۆۋەتتىكى كۆزنەكنى تۇت(_W)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:460
 msgid "Select _area to grab"
 msgstr "تۇتىدىغان دائىرىنى تاللا(_A)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:477
 msgid "Grab _after a delay of"
 msgstr "تۇتۇشتىن ئىلگىرىكى كېچىكتۈرۈش ۋاقتى(_A)"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:497
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "seconds"
 msgstr "سېكۇنت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:516
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:515
+#: ../gnome-screenshot/gnome-screenshot.c:523
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "ئېكران كەسمىسى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:524
 msgid "Effects"
 msgstr "ئۈنۈملەر"
 
-#: ../gnome-screenshot/gnome-screenshot.c:530
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Take _Screenshot"
 msgstr "ئېكران كەسمىسى تۇت(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:656
+#: ../gnome-screenshot/gnome-screenshot.c:649
 msgid "Error while saving screenshot"
 msgstr "ئېكران كەسمىسى ساقلاۋاتقاندا خاتالىق كۆرۈلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:659
+#: ../gnome-screenshot/gnome-screenshot.c:652
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
 " Error was %s.\n"
 " Please choose another location and retry."
-msgstr "تۇتقان ئېكران كەسمىسىنى %s غا ساقلىيالمايدۇ.\n"
+msgstr ""
+"تۇتقان ئېكران كەسمىسىنى %s غا ساقلىيالمايدۇ.\n"
 "خاتالىق %s.\n"
 "باشقا ئورۇننى تاللاپ قايتا سىناڭ."
 
-#: ../gnome-screenshot/gnome-screenshot.c:791
+#: ../gnome-screenshot/gnome-screenshot.c:784
 msgid "Screenshot taken"
 msgstr "ئېكران كەسمىسى تۇتۇلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:845
+#: ../gnome-screenshot/gnome-screenshot.c:838
 msgid "Unable to take a screenshot of the current window"
 msgstr "نۆۋەتتىكى كۆزنەكنىڭ ئېكران كەسمىسىنى تۇتالمايدۇ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:888
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "%s-ئېكران كەسمىسى.png"
@@ -1720,15 +1582,15 @@ msgstr "%s-ئېكران كەسمىسى.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:902
+#: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "ئېكران كەسمىسى-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
-#: ../gnome-screenshot/screenshot-dialog.c:346
+#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/screenshot-dialog.c:331
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
@@ -1736,53 +1598,54 @@ msgstr "Screenshot.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:919
+#: ../gnome-screenshot/gnome-screenshot.c:912
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "%d-ئېكران كەسمىسى.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1284
+#: ../gnome-screenshot/gnome-screenshot.c:1255
 msgid "Grab a window instead of the entire screen"
 msgstr "پۈتۈن ئېكراننى ئەمەس كۆزنەكنى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "ئېكراننى ئەمەس ئېكراننىڭ مەلۇم دائىرىسىنى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Include the window border with the screenshot"
 msgstr "ئېكران كەسمىسىدە كۆزنەك گىرۋىكىمۇ بار"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Remove the window border from the screenshot"
 msgstr "ئېكران كەسمىسىدىن كۆزنەك گىرۋىكىنى چىقىرىۋەت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "بەلگىلەنگەن ۋاقىتتىن كېيىن ئېكران كەسمىسى تۇت [سېكۇنت]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "گىرۋەككە قوشىدىغان ئۈنۈم(سايە، گىرۋەك ياكى يوق)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "effect"
 msgstr "ئۈنۈم"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Interactively set options"
 msgstr "ئۆزئارا تەسىرچان تەڭشەك تاللانما"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1301
+#: ../gnome-screenshot/gnome-screenshot.c:1272
 msgid "Take a picture of the screen"
 msgstr "ئېكراننى رەسىمگە تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1319
+#: ../gnome-screenshot/gnome-screenshot.c:1290
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
 "time.\n"
-msgstr "توقۇنۇش تاللانما: -- كۆزنەك ۋە -- دائىرە بىر ۋاقىتتا بولمىسا ئىشلىتىلىدۇ.\n"
+msgstr ""
+"توقۇنۇش تاللانما: -- كۆزنەك ۋە -- دائىرە بىر ۋاقىتتا بولمىسا ئىشلىتىلىدۇ.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
@@ -1809,66 +1672,71 @@ msgstr "قىسقۇچقا ساقلا(_F):"
 msgid "_Name:"
 msgstr "ئاتى(_N):"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "گىرۋەك ئۈنۈمى"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
 msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
-msgstr "گىرۋەككە قوشۇلىدىغان ئۈنۈم. ئىشلەتكىلى بولىدىغان قىممىتى \"shadow\"(سايە)، \"none\"(يوق) ۋە \"border\"(گىرۋەك)"
+msgstr ""
+"گىرۋەككە قوشۇلىدىغان ئۈنۈم. ئىشلەتكىلى بولىدىغان قىممىتى \"shadow\"(سايە)، "
+"\"none\"(يوق) ۋە \"border\"(گىرۋەك)"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
-msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن قالغان ئىشلەتكىلى بولمايدۇ."
+msgstr ""
+"پۈتكۈل ئۈستەلئۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن "
+"قالغان ئىشلەتكىلى بولمايدۇ."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "گىرۋەك بار"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
 msgid "Include Pointer"
 msgstr "نۇر بەلگە بار"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include the pointer in the screenshot"
 msgstr "ئېكران كەسمىسىدە نۇر بەلگىمۇ بار"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
 msgid "Include the window manager border along with the screenshot"
 msgstr "ئېكران كەسمىسىدە كۆزنەك باشقۇرغۇچ گىرۋىكىمۇ بار"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Screenshot delay"
 msgstr "ئېكران كەسمىسى كېچىكتۈر"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Screenshot directory"
 msgstr "ئېكران كەسمىسى مۇندەرىجىسى"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "The directory the last screenshot was saved in."
 msgstr "ئاخىرقى قېتىم ئېكران كەسمىسى ساقلىغان مۇندەرىجە."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "ئېكران كەسمىسى تۇتۇشتىن ئىلگىرى كۈتىدىغان سېكۇنت سانى"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "Window-specific screenshot (deprecated)"
 msgstr "بەلگىلەنگەن كۆزنەكنىڭ ئېكران كەسمىسى (تەۋسىيە)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:229
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
-msgstr "ئېكران كەسمە پروگراممىسىنىڭ كۆرۈنۈش ئېنىقلىما ھۆججىتى يوقالغان.\n"
+msgstr ""
+"ئېكران كەسمە پروگراممىسىنىڭ كۆرۈنۈش ئېنىقلىما ھۆججىتى يوقالغان.\n"
 "gnome-utils ئورنىتىلىشىنى تەكشۈرۈڭ"
 
-#: ../gnome-screenshot/screenshot-dialog.c:250
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "قىسقۇچ تاللاڭ"
 
@@ -1877,21 +1745,23 @@ msgstr "قىسقۇچ تاللاڭ"
 msgid ""
 "Unable to clear the temporary folder:\n"
 "%s"
-msgstr "ۋاقىتلىق قىسقۇچنى تازىلىيالمايدۇ:\n"
+msgstr ""
+"ۋاقىتلىق قىسقۇچنى تازىلىيالمايدۇ:\n"
 "%s"
 
 #: ../gnome-screenshot/screenshot-save.c:95
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
-msgstr "بالا جەريان ساقلاش تاسادىپىي چېكىندى. ئېكران كەسمىسىنى دىسكىغا ساقلىيالمايدۇ."
+msgstr ""
+"بالا جەريان ساقلاش تاسادىپىي چېكىندى. ئېكران كەسمىسىنى دىسكىغا ساقلىيالمايدۇ."
 
 #: ../gnome-screenshot/screenshot-save.c:223
 msgid "Unknown error saving screenshot to disk"
 msgstr "ئېكران كەسمىسىنى دىسكىغا ساقلاشتا نامەلۇم خاتالىق كۆرۈلدى"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:884
+#: ../gnome-screenshot/screenshot-utils.c:852
 msgid "Untitled Window"
 msgstr "ماۋزۇسىز كۆزنەك"
 
@@ -1919,7 +1789,8 @@ msgstr "مەنبە ھۆججەتنى زىيارەت قىلالمىدى"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
-msgstr "بۇ كومپيۇتېردىكى پۈتۈك ۋە قىسقۇچلارنى ئاتى ياكى مەزمۇنى بويىچە ئورۇن بېكىتىدۇ"
+msgstr ""
+"بۇ كومپيۇتېردىكى پۈتۈك ۋە قىسقۇچلارنى ئاتى ياكى مەزمۇنى بويىچە ئورۇن بېكىتىدۇ"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
@@ -2051,20 +1922,26 @@ msgstr "قوشۇمچە تاللانما كۆرسەت"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr "بۇ ھالقىلىق كود widget نىڭ «قىسقۇچ ئىزدە»نىڭ كۆڭۈلدىكى قىممىتىنى ئېنىقلايدۇ."
+msgstr ""
+"بۇ ھالقىلىق كود widget نىڭ «قىسقۇچ ئىزدە»نىڭ كۆڭۈلدىكى قىممىتىنى ئېنىقلايدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
-msgstr "بۇ كۇنۇپكا ئىزدەش نەتىجىسىدىكى ھەر قايسى ئىستونلارنىڭ تەرتىپى ئېنىقلىنىدۇ. بۇ كۇنۇپكىنى ئىشلەتكۈچى ئۆزگەرتەلمەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش نەتىجىسىدىكى ھەر قايسى ئىستونلارنىڭ تەرتىپى ئېنىقلىنىدۇ. "
+"بۇ كۇنۇپكىنى ئىشلەتكۈچى ئۆزگەرتەلمەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr "بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا سىرتتا قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'. كۆڭۈلدىكى قىممىتى /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, /var/*."
+msgstr ""
+"بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا سىرتتا قالدۇرۇلىدىغان يولنى "
+"ئېنىقلايدۇ. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'. كۆڭۈلدىكى قىممىتى /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
 msgid ""
@@ -2073,87 +1950,119 @@ msgid ""
 "search for files. The purpose of the second scan is to find files that have "
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
-msgstr "بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا ئىككىنچى قېتىم تەكشۈرگەندە سىرتتا قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. ئىككىنچى قېتىم تەكشۈرگەندە find بۇيرۇقىنى ئىشلىتىپ ھۆججەت ئىزدەيدۇ. ئىككىنچى قېتىم تەكشۈرۈشنىڭ مەقسىتى ئىندېكسقا كىرگۈزۈلمىگەن ھۆججەتنى ئىزدەش. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'."
+msgstr ""
+"بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا ئىككىنچى قېتىم تەكشۈرگەندە سىرتتا "
+"قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. ئىككىنچى قېتىم تەكشۈرگەندە find بۇيرۇقىنى "
+"ئىشلىتىپ ھۆججەت ئىزدەيدۇ. ئىككىنچى قېتىم تەكشۈرۈشنىڭ مەقسىتى ئىندېكسقا "
+"كىرگۈزۈلمىگەن ھۆججەتنى ئىزدەش. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
-msgstr "بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە ئىزدەش قورالى كۆڭۈلدىكى ئېگىزلىكنى ئىشلىتىدۇ."
+msgstr ""
+"بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
+"ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
+"ئىزدەش قورالى كۆڭۈلدىكى ئېگىزلىكنى ئىشلىتىدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
-msgstr "بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە ئىزدەش قورالى كۆڭۈلدىكى كەڭلىكنى ئىشلىتىدۇ."
+msgstr ""
+"بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
+"ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
+"ئىزدەش قورالى كۆڭۈلدىكى كەڭلىكنى ئىشلىتىدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆز ئىچىگە ئالغان تېكىست»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆز ئىچىگە ئالغان تېكىست»نى تاللىغان "
+"ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن ئىلگىرى»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن ئىلگىرى»نى تاللىغان "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن كېيىن»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن كېيىن»نى تاللىغان "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە "
+"ئالمايدۇ»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ھۆججەت بوش»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ھۆججەت بوش»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «بەلگە ئۇلانمىغا ئەگەش»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «بەلگە ئۇلانمىغا ئەگەش»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ماسلاشقان مۇنتىزىم ئىپادە»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ماسلاشقان مۇنتىزىم ئىپادە»نى "
+"تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «گۇرۇپپىغا تەۋە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «گۇرۇپپىغا تەۋە»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىشلەتكۈچىگە تەۋە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىشلەتكۈچىگە تەۋە»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىگىسى نامەلۇم»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىگىسى نامەلۇم»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
@@ -2161,42 +2070,56 @@ msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «�
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «تېخىمۇ كۆپ تاللانما تاللا»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «تېخىمۇ كۆپ تاللانما تاللا»نى تاللىغان "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت»نى "
+"تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى ئاز دېگەندە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى ئاز دېگەندە»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى كۆپ دېگەندە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى كۆپ دېگەندە»نى تاللىغان ياكى "
+"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى تېز ئىزدەشنى ئىجرا قىلغاندىن كېيىن find بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى تېز ئىزدەشنى ئىجرا قىلغاندىن كېيىن find بۇيرۇقى "
+"ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى ئادەتتىكى ھۆججەت ئات  ئىزدەشنى ئىجرا قىلغاندىن كېيىن locate بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى ئادەتتىكى ھۆججەت ئات  ئىزدەشنى ئىجرا قىلغاندىن "
+"كېيىن locate بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
-msgstr "بۇ كۇنۇپكا ئىزدەش قورالى ئەڭ چوڭ ھالەتتە قوزغىلىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
+msgstr ""
+"بۇ كۇنۇپكا ئىزدەش قورالى ئەڭ چوڭ ھالەتتە قوزغىلىشنى چەكلەش چەكلىمەسلىكنى "
+"بەلگىلەيدۇ."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -2324,7 +2247,9 @@ msgstr "\"%s\" پۈتۈك مەۋجۇت. ئۇنى ئالماشتۇرۇۋېتەم�
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
-msgstr "ئەگەر مەۋجۇت ھۆججەتنى ئالماشتۇرۇۋەتسىڭىز، ئۇ ھۆججەتنىڭ ھەممە مەزمۇنى قاپلىنىدۇ."
+msgstr ""
+"ئەگەر مەۋجۇت ھۆججەتنى ئالماشتۇرۇۋەتسىڭىز، ئۇ ھۆججەتنىڭ ھەممە مەزمۇنى "
+"قاپلىنىدۇ."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
@@ -2339,7 +2264,8 @@ msgstr "سىزنىڭ پۈتۈككە يېزىش ھوقۇقىڭىز يوق ئوخ�
 msgid ""
 "GConf error:\n"
 "  %s"
-msgstr "GConf خاتالىقى:\n"
+msgstr ""
+"GConf خاتالىقى:\n"
 "  %s"
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
@@ -2538,7 +2464,7 @@ msgstr "پروگراممىنىڭ نەشرىنى كۆرسەت."
 #: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
 #: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
-msgstr "STRING"
+msgstr "ھەرپ تىزمىسى"
 
 #: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
@@ -2562,7 +2488,7 @@ msgstr "USER"
 
 #: ../gsearchtool/gsearchtool.c:170
 msgid "GROUP"
-msgstr "GROUP"
+msgstr "گۇرۇپپا"
 
 #: ../gsearchtool/gsearchtool.c:173
 msgid "PATTERN"
@@ -2624,11 +2550,15 @@ msgstr "«قىسقۇچتىن ئىزدە» ئىزدەش تاللانما تېكى
 
 #: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr "تۆۋەندىكىلەردىن بىرى بويىچە ھۆججەت تەرتىپلە: ئاتى، قىسقۇچ، چوڭلۇقى، تىپى ياكى چېسلا"
+msgstr ""
+"تۆۋەندىكىلەردىن بىرى بويىچە ھۆججەت تەرتىپلە: ئاتى، قىسقۇچ، چوڭلۇقى، تىپى "
+"ياكى چېسلا"
 
 #: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
-msgstr "تەرتىپلەش تەرتىپىنى كېمەيگۈچى قىلىپ تەڭشە، كۆڭۈلدىكى ئەھۋالدا ئاشقۇچى تەرتىپتە تەرتىپلىنىدۇ"
+msgstr ""
+"تەرتىپلەش تەرتىپىنى كېمەيگۈچى قىلىپ تەڭشە، كۆڭۈلدىكى ئەھۋالدا ئاشقۇچى "
+"تەرتىپتە تەرتىپلىنىدۇ"
 
 #: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
@@ -2652,14 +2582,17 @@ msgstr "بۇيرۇق قۇرى پارامېتىرى sortby نىڭ تاللانم�
 msgid ""
 "\n"
 "... Too many errors to display ..."
-msgstr "\n"
+msgstr ""
+"\n"
 "… خاتالىق بەك كۆپ تولۇق كۆرسىتەلمەيدۇ …"
 
 #: ../gsearchtool/gsearchtool.c:1712
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
-msgstr "ئىزدەش نەتىجىسى بەلكىم ئىناۋەتسىز. چۈنكى بۇ قېتىملىق ئىزدەشنى ئىجرا قىلغاندا خاتالىق كۆرۈلدى."
+msgstr ""
+"ئىزدەش نەتىجىسى بەلكىم ئىناۋەتسىز. چۈنكى بۇ قېتىملىق ئىزدەشنى ئىجرا قىلغاندا "
+"خاتالىق كۆرۈلدى."
 
 #: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
@@ -2669,7 +2602,9 @@ msgstr "تەپسىلاتىنى كۆرسەت(_D)"
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
-msgstr "ئىزدەش نەتىجىسىنىڭ ۋاقتى ئۆتكەن ياكى ئىناۋەتسىز. تېز ئىزدەش ئىقتىدارىنى چەكلەمسىز؟"
+msgstr ""
+"ئىزدەش نەتىجىسىنىڭ ۋاقتى ئۆتكەن ياكى ئىناۋەتسىز. تېز ئىزدەش ئىقتىدارىنى "
+"چەكلەمسىز؟"
 
 #: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
@@ -2757,7 +2692,8 @@ msgstr "ئات ئىچىدە(_N):"
 
 #: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr "ھۆججەت ئاتى ياكى قىسمەن ھۆججەت ئاتىنى كىرگۈزۈڭ ئورتاق بەلگە ئىشلىتىشكە بولىدۇ"
+msgstr ""
+"ھۆججەت ئاتى ياكى قىسمەن ھۆججەت ئاتىنى كىرگۈزۈڭ ئورتاق بەلگە ئىشلىتىشكە بولىدۇ"
 
 #: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
@@ -2887,49 +2823,65 @@ msgstr "خاتىرە ھۆججەت كۆرگۈچ"
 msgid "View or monitor system log files"
 msgstr "سىستېما خاتىرە ھۆججىتى كۆرسەت ياكى كۆزەت"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "ئاساسىي كۆزنەكنىڭ ئېگىزلىكى پىكسېل"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "ساقلانغان سۈزگۈچلەر تىزىملىكى"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "ساقلانغان ئىپادە سۈزگۈچلەر تىزىملىكى"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "قوزغالغاندا ئاچقان خاتىرە ھۆججەت"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "قوزغالغاندا ئاچقان خاتىرە ھۆججەت"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "خاتىرە كۆرسىتىشكە ئىشلىتىلىدىغان خەت نۇسخا چوڭلۇقى"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
-msgstr "پروگرامما قوزغالغاندا ئاچىدىغان خاتىرە ھۆججەت. كۆڭۈلدىكى تىزىملىكى /etc/syslog.conf نى ئوقۇپ قۇرۇلىدۇ."
+msgstr ""
+"پروگرامما قوزغالغاندا ئاچىدىغان خاتىرە ھۆججەت. كۆڭۈلدىكى تىزىملىكى /etc/"
+"syslog.conf نى ئوقۇپ قۇرۇلىدۇ."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr "خاتىرە كۆرگۈچ ئاساسىي كۆزنىكىنىڭ ئېگىزلىكى بەلگىلىنىدۇ بىرلىكى پىكسېل."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
-msgstr "پروگرامما قوزغالغاندا كۆرسىتىدىغان خاتىرە ھۆججەت بەلگىلىنىدۇ. مەشغۇلات سىستېمىڭىزنىڭ ئوخشاش بولماسلىقىغا ئاساسەن، كۆڭۈلدىكى /var/adm/messages ياكى /var/log/messages"
+msgstr ""
+"پروگرامما قوزغالغاندا كۆرسىتىدىغان خاتىرە ھۆججەت بەلگىلىنىدۇ. مەشغۇلات "
+"سىستېمىڭىزنىڭ ئوخشاش بولماسلىقىغا ئاساسەن، كۆڭۈلدىكى /var/adm/messages ياكى /"
+"var/log/messages"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
-msgstr "ئاساسىي دەرەخسىمان كۆرۈنۈشتە خاتىرە كۆرسىتىدىغان تەڭ كەڭلىكتىكى خەت نۇسخا چوڭلۇقى بەلگىلىنىدۇ. كۆڭۈلدىكى قىممەت كۆڭۈلدىكى تېرمىنال خەت نۇسخا چوڭلۇقىدىن كېلىدۇ."
+msgstr ""
+"ئاساسىي دەرەخسىمان كۆرۈنۈشتە خاتىرە كۆرسىتىدىغان تەڭ كەڭلىكتىكى خەت نۇسخا "
+"چوڭلۇقى بەلگىلىنىدۇ. كۆڭۈلدىكى قىممەت كۆڭۈلدىكى تېرمىنال خەت نۇسخا "
+"چوڭلۇقىدىن كېلىدۇ."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr "خاتىرە كۆرگۈچ ئاساسىي كۆزنىكىنىڭ كەڭلىكى بەلگىلىنىدۇ بىرلىكى پىكسېل."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "ئاساسىي كۆزنەكنىڭ كەڭلىكى پىكسېل."
 
@@ -2957,7 +2909,7 @@ msgstr "يورۇت"
 msgid "_Regular Expression:"
 msgstr "مۇنتىزىم ئىپادە(_R)"
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "%s ھۆججەتنى ئاچالمايدۇ"
@@ -3021,7 +2973,9 @@ msgstr "ئىزدەش ھەرپ تىزمىسىنى تازىلا"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr "GZipped خاتىرىنى پرېستىن يېشىشتە خاتالىق كۆرۈلدى. ئۇ ھۆججەت بۇزۇلغان بولۇشى مۇمكىن."
+msgstr ""
+"GZipped خاتىرىنى پرېستىن يېشىشتە خاتالىق كۆرۈلدى. ئۇ ھۆججەت بۇزۇلغان بولۇشى "
+"مۇمكىن."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
@@ -3220,7 +3174,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "خەت نۇسخا-ھۆججەت چىقار-ھۆججەت"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "ئاتى:"
 
@@ -3229,17 +3182,14 @@ msgid "Style:"
 msgstr "ئۇسلۇب:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "تىپى:"
 
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "چوڭلۇقى:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "نەشرى:"
 
@@ -3248,7 +3198,6 @@ msgid "Copyright:"
 msgstr "نەشر ھوقۇقى:"
 
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "چۈشەندۈرۈش:"
 
@@ -3263,87 +3212,245 @@ msgstr "ئورنىتىش مەغلۇپ بولدى."
 #: ../font-viewer/font-view.c:502
 #, c-format
 msgid "Usage: %s fontfile\n"
-msgstr ""
+msgstr "ئۇسۇلى：%s خەت نۇسخا ھۆججىتى\n"
 
 #: ../font-viewer/font-view.c:572
 msgid "I_nstall Font"
 msgstr "خەت نۇسخا ئورنات(_N)"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "خەت نۇسخا كۆرگۈچ"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "خەت نۇسخىنى ئالدىن كۆزەت"
 
-#: ../font-viewer/fontilus.schemas.in.h:1
-msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr "ئەگەر true قىلىپ تەڭشەلسە، OpenType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "لۇغەت مۇلازىمېتىرى(ئىشلىتىلمىگەن)"
 
-#: ../font-viewer/fontilus.schemas.in.h:2
-msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr "ئەگەر true قىلىپ تەڭشەلسە، PCF خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "مۇلازىمېتىرغا ئۇلىنىشتا ئىشلىتىدىغان ئېغىز (ئىشلىتىلمىگەن)"
 
-#: ../font-viewer/fontilus.schemas.in.h:3
-msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr "ئەگەر true قىلىپ تەڭشەلسە، TrueType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "ئىدراكلىق ئىزدەشنى بەلگىلەمدۇ يوق. بۇ ھالقىلىق سۆز لۇغەت مۇلازىمېتىرى بۇ "
+#~ "تاللانمىنى قوللاش قوللىماسلىققا تايىنىدۇ. كۆڭۈلدىكى ئەھۋالدا TRUE "
+#~ "(قوللايدۇ). بۇ كۇنۇپكا ئىشلىتىلمىدى."
 
-#: ../font-viewer/fontilus.schemas.in.h:4
-msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr "ئەگەر true قىلىپ تەڭشەلسە، Type1 خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+#~ msgid "The default height of the application window"
+#~ msgstr "پروگراممىنىڭ كۆڭۈلدىكى ئېگىزلىكى"
 
-#: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "بۇ قىممەت تەڭشىكى OpenType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+#~ msgid "The default width of the application window"
+#~ msgstr "پروگراممىنىڭ كۆڭۈلدىكى كەڭلىكى"
 
-#: ../font-viewer/fontilus.schemas.in.h:6
-msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "بۇ قىممەت تەڭشىكى PCF خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "ئۇلىنىدىغان لۇغەت مۇلازىمېتىرى. كۆڭۈلدىكى مۇلازىمېتىر dict.org. باشقا "
+#~ "مۇلازىمېتىرلارغا مۇناسىۋەتلىك تەپسىلاتنى http://www.dict.org دىن كۆرۈڭ. "
+#~ "بۇ كۇنۇپكا ئىشلىتىلمىدى."
 
-#: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "بۇ قىممەت تەڭشىكى TrueType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "يان بالداقتا كۆرسىتىدىغان بەت"
 
-#: ../font-viewer/fontilus.schemas.in.h:8
-msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "بۇ قىممەت تەڭشىكى Type1 خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا ئىشلىتىلىدۇ."
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "ئۇلىنىدىغان ئېغىز نومۇرى. كۆڭۈلدىكى ئېغىز نومۇرى 2628. بۇ كۇنۇپكا "
+#~ "ئىشلىتىلمىگەن."
 
-#: ../font-viewer/fontilus.schemas.in.h:9
-msgid "Thumbnail command for OpenType fonts"
-msgstr "OpenType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+#~ msgid "The width of the sidebar"
+#~ msgstr "يان بالداق كەڭلىكى"
 
-#: ../font-viewer/fontilus.schemas.in.h:10
-msgid "Thumbnail command for PCF fonts"
-msgstr "PCF خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا يان بالداقنىڭ كەڭلىكىگە ئېنىقلىما بېرىدۇ، ھەمدە ئوخشاش "
+#~ "بولمىغان ئەڭگىمە ئارىسىدا يان بالداق تەڭشىكىنى ئەستە تۇتىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:11
-msgid "Thumbnail command for TrueType fonts"
-msgstr "TrueType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
+#~ "لۇغەت كۆزنىكىنىڭ چوڭلۇقىنى ئەستە تۇتىدۇ. ئۇ -1 غا تەڭشەلسە لۇغەت كۆزنىكى "
+#~ "خەت نۇسخا چوڭلۇقىنىڭ ئېگىزلىكىنى ئىشلىتىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:12
-msgid "Thumbnail command for Type1 fonts"
-msgstr "Type1 خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
+#~ "لۇغەت كۆزنىكىنىڭ چوڭلۇقىنى ئەستە تۇتىدۇ. ئۇ -1 غا تەڭشەلسە لۇغەت كۆزنىكى "
+#~ "خەت نۇسخا چوڭلۇقىنىڭ كەڭلىكىنى ئىشلىتىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:13
-msgid "Whether to thumbnail OpenType fonts"
-msgstr "OpenType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا يان بالداقنىڭ كۆرۈنۈش كۆرۈنمەسلىكنى ھەمدە ئوخشاش بولمىغان "
+#~ "ئەڭگىمە ئارىسىدا يان بالداقنىڭ ھالىتىنى ئەستە تۇتۇشنى بەلگىلەيدۇ. ئەگەر "
+#~ "ئۇ TRUE قىلىپ تەڭشەلسە يان بالداق ھەمىشە كۆرۈنىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:14
-msgid "Whether to thumbnail PCF fonts"
-msgstr "PCF خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا ھالەت بالداقنىڭ كۆرۈنۈش كۆرۈنمەسلىكى ھەمدە ئوخشاش بولمىغان "
+#~ "ئەڭگىمە ئارىسىدا ھالەت بالداق ھالىتىنى ئەستە تۇتۇش تۇتماسلىقنى "
+#~ "بەلگىلەيدۇ. ئەگەر ئۇ TRUE قىلىپ تەڭشەلسە ھالەت بالداق ھەمىشە كۆرۈنىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:15
-msgid "Whether to thumbnail TrueType fonts"
-msgstr "TrueType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا كۆزنەكنىڭ ئەڭ چوڭ قىلىشنى بەلگىلەپ، ئوخشاش بولمىغان ئەڭگىمە "
+#~ "ئارىسىدا لۇغەت كۆزنىكىنىڭ ھالىتىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئەگەر ئۇ "
+#~ "TRUE قىلىپ تەڭشەلسە كۆزنەك ئەڭ چوڭ كۆرۈنىدۇ."
 
-#: ../font-viewer/fontilus.schemas.in.h:16
-msgid "Whether to thumbnail Type1 fonts"
-msgstr "Type1 خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "بۇ كۇنۇپكا قايسى بەتنى يان بالداقتا كۆرسىتىشنى بەلگىلەيدۇ ھەمدە ئوخشاش "
+#~ "بولمىغان ئەڭگىمە ئارىسىدا يان بالداق تەڭشىكىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. "
+#~ "بۇ قىممەت \"speller\" ياكى \"databases\" بولىدۇ."
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "ئىدراكلىق ئىزدەشنى ئىشلەت (ئىشلىتىلمىگەن)"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "پروگرامما كۆزنىكى چوڭايتىلامدۇ يوق"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "يان بالداق كۆرسىتىلەمدۇ يوق"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "ھالەت بالداق كۆرسىتىلەمدۇ يوق"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "'%s' نىڭ ئېنىقلىمىسى\n"
+#~ "ئورنى %s:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "خاتالىق: %s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "gnome-dictionary --help نىڭ ئىشلىتىش ئۇسۇلىنى كۆرۈڭ\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "مۇۋاپىق لۇغەت مەنبەسى تېپىلمىدى"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\"%s\" نىڭ ئېنىقلىمىسىنى ئىزدىگەندە خاتالىق كۆرۈلدى:\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "سۆز"
+
+#~ msgid "source"
+#~ msgstr "مەنبە"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "ئىشلەتكىلى بولىدىغان لۇغەت مەنبەسىنى كۆرسەت"
+
+#~ msgid "Print result to the console"
+#~ msgstr "نەتىجىنى كونترول سۇپىسىدا كۆرسەت"
+
+#~ msgid "db"
+#~ msgstr "db"
+
+#~ msgid "strat"
+#~ msgstr "strat"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "'%s' ھۆججەت ئاتىنى '%s' غا ئۆزگەرتەلمەيدۇ: %s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "سانلىق-مەلۇمات مۇندەرىجىسى '%s' نى قۇرالمايدۇ: %s"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، OpenType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، PCF خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، TrueType خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "ئەگەر true قىلىپ تەڭشەلسە، Type1 خەت نۇسخا كىچىك سۈرەت ياسايدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى OpenType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى PCF خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى TrueType خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "بۇ قىممەت تەڭشىكى Type1 خەت نۇسخا كىچىك سۈرەت ياسايدىغان بۇيرۇققا "
+#~ "ئىشلىتىلىدۇ."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "OpenType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "PCF خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "TrueType خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Type1 خەت نۇسخىسىنىڭ كىچىك سۈرەت بۇيرۇقى"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "OpenType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "PCF خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "TrueType خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Type1 خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "دىسكا ئىشلىتىش تەھلىلچى مايىللىقى"
