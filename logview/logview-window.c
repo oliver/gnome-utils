@@ -70,6 +70,7 @@ struct _LogviewWindowPrivate {
   guint filter_merge_id;
   GList *active_filters;
   gboolean matches_only;
+  gboolean auto_scroll;
 };
 
 #define GET_PRIVATE(o) \
@@ -799,6 +800,12 @@ logview_toggle_match_filters (GtkToggleAction *action, LogviewWindow *logview)
   filter_buffer (logview, 0);
 }
 
+static void
+logview_toggle_autoscroll (GtkToggleAction *action, LogviewWindow *logview)
+{
+  logview->priv->auto_scroll = gtk_toggle_action_get_active (action);
+}
+
 /* GObject functions */
 
 /* Menus */
@@ -846,7 +853,9 @@ static GtkToggleActionEntry toggle_entries[] = {
     { "ShowSidebar", NULL, N_("Side _Pane"), "F9", N_("Show Side Pane"), 
       G_CALLBACK (logview_toggle_sidebar), TRUE }, 
     { "FilterMatchOnly", NULL, N_("Show matches only"), NULL, N_("Only show lines that match one of the given filters"),
-      G_CALLBACK (logview_toggle_match_filters), FALSE}
+      G_CALLBACK (logview_toggle_match_filters), FALSE },
+    { "AutoScroll", NULL, N_("_Auto Scroll"), "F8", N_("Automatically scroll down when new lines appear"),
+      G_CALLBACK (logview_toggle_autoscroll), TRUE }
 };
 
 static gboolean 
@@ -1008,8 +1017,10 @@ read_new_lines_cb (LogviewLog *log,
   }
   filter_buffer (window, filter_start_line);
 
-  gtk_text_view_scroll_to_iter (GTK_TEXT_VIEW (window->priv->text_view),
-                                &iter, 0.0, FALSE, 0.0, 0.0);
+  if (window->priv->auto_scroll) {
+    gtk_text_view_scroll_to_iter (GTK_TEXT_VIEW (window->priv->text_view),
+                                  &iter, 0.0, FALSE, 0.0, 0.0);
+  }
 
   paint_timestamps (buffer, old_line_count, new_days);
 
@@ -1271,6 +1282,7 @@ logview_window_init (LogviewWindow *logview)
   gtk_action_group_add_actions (action_group, entries, G_N_ELEMENTS (entries), logview);
   gtk_action_group_add_toggle_actions (action_group, toggle_entries, G_N_ELEMENTS (toggle_entries), logview);
   priv->action_group = action_group;
+  priv->auto_scroll = TRUE;
 
   priv->ui_manager = gtk_ui_manager_new ();
 

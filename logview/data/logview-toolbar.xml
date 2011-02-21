@@ -18,6 +18,8 @@
       <menuitem action="ViewZoomIn"/>
       <menuitem action="ViewZoomOut"/>
       <menuitem action="ViewZoom100"/>
+      <separator/>
+      <menuitem action="AutoScroll"/>
     </menu>
     <menu action="FilterMenu">
       <placeholder name="PlaceholderFilters"/>
