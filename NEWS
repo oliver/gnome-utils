@@ -1,4 +1,37 @@
 ====================================================================
+GNOME Utilities 2.91.5 (21th February 2011) - "Magnet Pulls Through"
+
+Two little UI tweaks, and translation updates.
+
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Cosimo Cecchi (1):
+      logview: add a menu item to disable autoscrolling
+
+Daniel Nylander (1):
+      Updated Swedish translation
+
+Dirgita (1):
+      Updated Indonesian translation
+
+Jorge González (1):
+      Updated Spanish translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation.
+
+Pavol Klačanský (1):
+      Updated Slovak translation
+
+William Jon McCann (1):
+      screenshot: remove help button and place copy botton at left
+
+Wouter Bolsterlee (1):
+      Updated Dutch translation by Wouter Bolsterlee
+
+
+====================================================================
 GNOME Utilities 2.91.4 (4th February 2011) - "Repeater"
 
 Bugfix release, that fixes the gnome-screenshot tool for being used
