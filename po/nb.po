@@ -1,16 +1,16 @@
 # Norwegian translation of gnome-utils (bokmål dialect).
 # Copyright (C) 1999-2005 Free Software Foundation, Inc.
 #
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2009.
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2011.
 # Terance Edward Sola <terance@lyse.net>, 2005.
 # Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 2.91.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-06 14:00+0100\n"
-"PO-Revision-Date: 2011-02-06 14:00+0100\n"
-"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"POT-Creation-Date: 2011-03-02 20:47+0100\n"
+"PO-Revision-Date: 2011-03-02 20:48+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -142,12 +142,12 @@ msgstr "S_lå sammen alle"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Innhold"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "R_ediger"
 
@@ -157,7 +157,7 @@ msgstr "_Utvid alle"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Hjelp"
 
@@ -166,7 +166,7 @@ msgid "_Toolbar"
 msgstr "Verk_tøylinje"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Vis"
 
@@ -581,7 +581,7 @@ msgid "Cl_ear"
 msgstr "_Tøm"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "_Om"
 
@@ -876,7 +876,7 @@ msgstr "Feil med treff"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Ikke funnet"
 
@@ -1311,7 +1311,7 @@ msgstr[1] "%d definisjoner ble funnet"
 msgid "%s - Dictionary"
 msgstr "%s - Ordbok"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Fil"
 
@@ -1348,7 +1348,7 @@ msgstr "S_kriv ut …"
 msgid "Print this document"
 msgstr "Skriv ut dette dokumentet"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Velg _alt"
 
@@ -1593,7 +1593,7 @@ msgstr "Skjermdump-%s-%d.png"
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: ../gnome-screenshot/gnome-screenshot.c:905
-#: ../gnome-screenshot/screenshot-dialog.c:346
+#: ../gnome-screenshot/screenshot-dialog.c:331
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Skjermdump.png"
@@ -1730,7 +1730,7 @@ msgstr "Antall sekunder pause før skjermdumpet tas."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Vindusspesifikt skjermdump (utgått)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:229
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1738,7 +1738,7 @@ msgstr ""
 "Fil med definisjon av brukergrensesnitt for skjermdumpprogrammet mangler.\n"
 "Vennligst sjekk gnome-utils-installasjonen."
 
-#: ../gnome-screenshot/screenshot-dialog.c:250
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Velg en mappe"
 
@@ -3008,147 +3008,155 @@ msgstr " - Bla gjennom og overvåk logger"
 msgid "Log Viewer"
 msgstr "Loggvisning"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Visning av systemlogg"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "siste oppdatering: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d linjer (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Åpne logg"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Det oppsto en feil under visning av hjelp: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Brutt"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "Visningsprogramm for systemlogger for GNOME."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Filtre"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "_Åpne …"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Åpne en loggfil"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "L_ukk"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Lukk denne loggen"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "A_vslutt"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Avslutt loggvisning"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Kopier"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Kopier utvalget"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Velg hele loggen"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "_Finn …"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Finn et ord eller en frase i loggen"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Større tekst"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Mindre tekst"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Normal tekst"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Håndter filtre"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Håndter filtre"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Åpne hjelp for loggvisning"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Vis dialogen «Om loggvisning»"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "_Statuslinje"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "Vis statuslinje"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "Side_område"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Vis hele området"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Vis kun treff"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "Vis kun linjer som har treff i et av de oppgitte filtrene"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "_Automatisk rulling"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Rull ned automatisk når nye linjer kommer til syne"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Kan ikke lese fra «%s»"
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Versjon: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Kunne ikke åpne følgende filer:"
 
@@ -3224,168 +3232,3 @@ msgstr "Skriftvisning"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Forhåndsvis skrifter"
-
-#~ msgid "Dictionary server (Deprecated)"
-#~ msgstr "Ordboktjener (Fases ut)"
-
-#~ msgid "Port used to connect to server (Deprecated)"
-#~ msgstr "Port som brukes for å koble til tjener (Fases ut)"
-
-#~ msgid ""
-#~ "Specify whether to use smart lookup. This key is dependant on whether the "
-#~ "dictionary server supports this option. The default is TRUE. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Oppgi om smarte oppslag skal brukes. Denne nøkkelen er avhengig av om "
-#~ "ordboktjeneren støtter valget. Forvalg er TRUE. Denne nøkkelen er "
-#~ "foreldet og er ikke lenger i bruk."
-
-#~ msgid "The default height of the application window"
-#~ msgstr "Forvalgt høyde på programvinduet"
-
-#~ msgid "The default width of the application window"
-#~ msgstr "Forvalgt bredde på programvinduet"
-
-#~ msgid ""
-#~ "The dictionary server to connect to. The default server is dict.org. See "
-#~ "http://www.dict.org for details on other servers. This key is deprecated "
-#~ "and no longer in use."
-#~ msgstr ""
-#~ "Ordboktjener som skal brukes. Forvalgt tjener er dict.org. Se http://www."
-#~ "dict.org for detaljer om andre tjenere. Denne nøkkelen er foreldet og er "
-#~ "ikke lenger i bruk."
-
-#~ msgid "The page of the sidebar to show"
-#~ msgstr "Siden som skal vises på sidelinjen"
-
-#~ msgid ""
-#~ "The port number to connect to. The default port is 2628. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Portnummer for tilkoblingen. Forvalgt port er 2628. Denne innstillingen "
-#~ "er ikke lenger i bruk."
-
-#~ msgid "The width of the sidebar"
-#~ msgstr "Bredden på sidelinjen"
-
-#~ msgid ""
-#~ "This key defines the width of the sidebar and it's used to remember the "
-#~ "setting across sessions."
-#~ msgstr "Denne nøkkelen definerer bredden på sidelinjen."
-
-#~ msgid ""
-#~ "This key defines the window height and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a height based on the font size."
-#~ msgstr ""
-#~ "Denne nøkkelen definerer høyden på vinduet, og er brukt til å huske "
-#~ "størrelsen på ordboksvinduet over flere økter. Ved å sette denne til -1, "
-#~ "vil vinduet bruke en høyde basert på skriftstørrelsen."
-
-#~ msgid ""
-#~ "This key defines the window width and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a width based on the font size."
-#~ msgstr ""
-#~ "Denne nøkkelen definerer bredden på vinduet, og den er brukt til å huske "
-#~ "størrelsen på ordboksvindiet over flere økter. Ved å sette denne til -1, "
-#~ "vil bredden på vinduet bli basert på skriftstørrelsen."
-
-#~ msgid ""
-#~ "This key defines whether the sidebar should be visible and it's used to "
-#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
-#~ "will make the sidebar always be displayed."
-#~ msgstr ""
-#~ "Denne nøkkelen bestemmer om sidepanelet skal være synlig, og den brukes "
-#~ "til å huske sidepanelets tilstand på tvers av økter. Settes den til \"TRUE"
-#~ "\", vil sidepanelet alltid bli vist."
-
-#~ msgid ""
-#~ "This key defines whether the statusbar should be visible and it's used to "
-#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
-#~ "will make the statusbar always be displayed."
-#~ msgstr ""
-#~ "Denne nøkkelen bestemmer om statuslinje skal være synlig, og den brukes "
-#~ "til å huske statuslinjens tilstand på tvers av økter. Settes den til "
-#~ "\"TRUE\", vil statuslinjen alltid bli vist."
-
-#~ msgid ""
-#~ "This key defines whether the window should be maximized and it's used to "
-#~ "remember the state of the dictionary window across sessions. Setting it "
-#~ "to TRUE will make the window always appear as maximized."
-#~ msgstr ""
-#~ "Denne nøkkelen bestemmer om vinduet skal være maksimert, og den brukes "
-#~ "til å huske ordbokvinduets tilstand på tvers av økter. Settes den til "
-#~ "\"TRUE\", vil vinduet alltid være maksimert fra start."
-
-#~ msgid ""
-#~ "This key defines which page of the sidebar should be displayed and it's "
-#~ "used to remember the setting across sessions.. It can be \"speller\" or "
-#~ "\"databases\"."
-#~ msgstr ""
-#~ "Denne nøkkelen bestemmer hvilken side som skal vises i sidepanelet, og "
-#~ "den brukes til å huske innstillingen på tvers av økter. Den kan være "
-#~ "enten \"speller\" eller \"databases\"."
-
-#~ msgid "Use smart lookup (Deprecated)"
-#~ msgstr "Bruk smart oppslag (utdatert)"
-
-#~ msgid "Whether the application window should be maximized"
-#~ msgstr "Hvorvidt programmet skal være maksimert"
-
-#~ msgid "Whether the sidebar should be visible"
-#~ msgstr "Hvorvidt sidelinjen skal være synlig"
-
-#~ msgid "Whether the statusbar should be visible"
-#~ msgstr "Hvorvidt statuslinjen skal være synlig"
-
-#~ msgid ""
-#~ "Definition for '%s'\n"
-#~ "  From '%s':\n"
-#~ "\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "Definisjon av \"%s\"\n"
-#~ " Fra \"%s\":\n"
-#~ "\n"
-#~ "%s\n"
-
-#~ msgid "Error: %s\n"
-#~ msgstr "Feil: %s\n"
-
-#~ msgid "See gnome-dictionary --help for usage\n"
-#~ msgstr "Se gnome-dictionary --help for bruk\n"
-
-#~ msgid "Unable to find a suitable dictionary source"
-#~ msgstr "Kan ikke finne en passende ordbokkilde"
-
-#~ msgid ""
-#~ "Error while looking up the definition of \"%s\":\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Feil under oppslag av definisjon for «%s»:\n"
-#~ "%s"
-
-#~ msgid "word"
-#~ msgstr "ord"
-
-#~ msgid "source"
-#~ msgstr "kilde"
-
-#~ msgid "Show available dictionary sources"
-#~ msgstr "Vis tilgjengelige ordbokkilder"
-
-#~ msgid "Print result to the console"
-#~ msgstr "Skriv ut resultat på konsollet"
-
-#~ msgid "db"
-#~ msgstr "db"
-
-#~ msgid "strat"
-#~ msgstr "strategi"
-
-#~ msgid "Unable to rename file '%s' to '%s': %s"
-#~ msgstr "Kan ikke endre navn på fil «%s» til «%s»: %s"
-
-#~ msgid "Unable to create the data directory '%s': %s"
-#~ msgstr "Kan ikke opprette datamappen \"%s\": %s"
