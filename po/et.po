@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils MASTER\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&component=general\n"
-"POT-Creation-Date: 2011-01-29 19:22+0000\n"
-"PO-Revision-Date: 2011-01-30 12:32+0200\n"
+"POT-Creation-Date: 2011-02-21 22:03+0000\n"
+"PO-Revision-Date: 2011-02-28 06:56+0200\n"
 "Last-Translator: Ivar Smolin <okul@linux.ee>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
 "MIME-Version: 1.0\n"
@@ -2414,6 +2414,12 @@ msgstr "Näita ainult vastavusi"
 msgid "Only show lines that match one of the given filters"
 msgstr "Näidatakse ainult ridu, mis vastavad ühele valitud filtritest"
 
+msgid "_Auto Scroll"
+msgstr "_Automaatkerimine"
+
+msgid "Automatically scroll down when new lines appear"
+msgstr "Uute logiridade korral automaatne kerimine"
+
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Allikast \"%s\" pole võimalik lugeda"
@@ -2645,65 +2651,6 @@ msgstr "Kirjatüüpide vaatlemine"
 
 #~ msgid "Unable to create the data directory '%s': %s"
 #~ msgstr "Andmekataloogi '%s' pole võimalik luua: %s"
-
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr "Kui märgitud, siis tehakse OpenType kirjatüüpidest pisipildid."
-
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr "Kui märgitud, siis tehakse PCF-kirjatüüpidest pisipildid."
-
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr "Kui märgitud, siis tehakse TrueType kirjatüüpidest pisipildid."
-
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr "Kui märgitud, siis tehakse Type1 kirjatüüpidest pisipildid."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr ""
-#~ "Selle võtmega määratakse käsk, mida kasutatakse OpenType kirjatüüpidest "
-#~ "pisipiltide tegemisel."
-
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr ""
-#~ "Selle võtmega määratakse käsk, mida kasutatakse PCF-kirjatüüpidest "
-#~ "pisipiltide tegemisel."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr ""
-#~ "Selle võtmega määratakse käsk, mida kasutatakse TrueType kirjatüüpidest "
-#~ "pisipiltide tegemisel."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr ""
-#~ "Selle võtmega määratakse käsk, mida kasutatakse Type1 kirjatüüpidest "
-#~ "pisipiltide tegemisel."
-
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "OpenType kirjatüüpidest pisipiltide tegemise käsk"
-
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "PCF-kirjatüüpidest pisipiltide tegemise käsk"
-
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "TrueType kirjatüüpidest pisipiltide tegemise käsk"
-
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "Type1 kirjatüüpidest pisipiltide tegemise käsk"
-
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "Kas OpenType kirjatüüpidest tehakse pisipilte või mitte"
-
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "Kas PCF-kirjatüüpidest tehakse pisipilte või mitte"
-
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "Kas TrueType kirjatüüpidest tehakse pisipilte või mitte"
-
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "Kas Type1 kirjatüüpidest tehakse pisipilte või mitte"
 
 #~ msgid "Disk Usage Analyzer Preferences"
 #~ msgstr "Kettakasutuse analüsaatori eelistused"
