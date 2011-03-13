@@ -139,7 +139,7 @@ msgid "Scanning..."
 msgstr "Läbivaatus..."
 
 msgid "Total filesystem capacity:"
-msgstr "Failisüsteemi kogumahtuvus:"
+msgstr "Kõigi failisüsteemide mahtuvus:"
 
 msgid "used:"
 msgstr "kasutusel:"
