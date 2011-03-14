@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils 2.91.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-02 20:47+0100\n"
-"PO-Revision-Date: 2011-03-02 20:48+0100\n"
+"POT-Creation-Date: 2011-03-14 18:31+0100\n"
+"PO-Revision-Date: 2011-03-14 18:32+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: \n"
@@ -27,6 +27,18 @@ msgstr "Sjekk mappestørrelser og tilgjengelig diskplass"
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Analyse av diskplass"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Brukervalg for analyse av diskplass"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Velg _enheter som skal tas med i gjennomsøking av filsystem:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "Overvåk endringer i din hje_mmemappe"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
