@@ -376,6 +376,7 @@ AC_CONFIG_FILES([
 
         logview/Makefile
         logview/data/Makefile
+        logview/data/icons/Makefile
         logview/tests/Makefile
         logview/help/Makefile
 
