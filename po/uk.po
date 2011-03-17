@@ -2,24 +2,24 @@
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Yuri Syrota <rasta@renome.rovno.ua>, 1999.
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2002-2010
-#
 # wanderlust <wanderlust@ukr.net>, 2009.
 # int_ua <xintx.ua@gmail.com>, 2010.
-#
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-18 15:01+0200\n"
-"PO-Revision-Date: 2010-11-16 00:38+0200\n"
-"Last-Translator: Maxim Dziumanenko <dziumanenko@gmail.com>\n"
-"Language-Team: Ukrainian <Ukrainian <uk@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2011-03-17 23:15+0200\n"
+"PO-Revision-Date: 2011-03-17 23:22+0300\n"
+"Last-Translator: Korostil Daniel <ted.korostiled@gmail.com>\n"
+"Language-Team: translation@linux.org.ua\n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.6.1\n"
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
@@ -29,6 +29,18 @@ msgstr "Перевірте розміри тек та дисковий прос�
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Аналізатор використання диску"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Налаштування аналізатора використання диска"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Вибрати _пристрій, щоб внести його в сканування файлової системи:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "_Спостерігати за змінами в домашній теці"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -48,7 +60,7 @@ msgstr "_Слідкувати за змінами у домашній теці"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
-msgstr "Рядок стану видимий"
+msgstr "Панель стану видимий̆"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
@@ -144,12 +156,12 @@ msgstr "З_горнути все"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Зміст"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Правка"
 
@@ -159,7 +171,7 @@ msgstr "_Розгорнути все"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Довідка"
 
@@ -168,7 +180,7 @@ msgid "_Toolbar"
 msgstr "_Панель інструментів"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Вигляд"
 
@@ -557,7 +569,8 @@ msgstr "Графічна утиліта для аналізу використа
 msgid "translator-credits"
 msgstr ""
 "Юрій Сирота <yuriy@beer.com>\n"
-"Максим Дзюманенко <dziumanenko@gmail.com>"
+"Максим Дзюманенко <dziumanenko@gmail.com>\n"
+"Daniel Korostil <ted.korostiled@gmail.com>"
 
 #: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
 #: ../gsearchtool/gsearchtool-callbacks.c:811
@@ -585,7 +598,7 @@ msgid "Cl_ear"
 msgstr "О_чистити"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "_Про програму"
 
@@ -594,7 +607,7 @@ msgid "_Look Up Selected Text"
 msgstr "_Шукати виділений текст"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "_Параметри"
 
@@ -611,66 +624,30 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Пошук слів та їх написання у інтерактивному словнику"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1946
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "Словник"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "Словниковий сервер (застаріло)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "Порт для з'єднання з словниковим сервером (застаріло)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Визначає чи використовувати розумний пошук. Цей ключ залежить від того, чи "
-"підтримує сервер цю можливість. Типове значення TRUE. Цей ключ застарів та "
-"більше не використовується."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Типова база даних"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "Типова висота вікна програми"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "Типова стратегія пошуку"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "Типова ширина вікна програми"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"З яким словниковим сервером з'єднуватись. Типово це сервер на dict.org. "
-"Докладніше про інші сервери дивіться на http://www.dict.org. Ключ застарів "
-"та більше не використовується."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "Шрифт, що використовується при друкуванні"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "Шрифт, що використовується при друкуванні."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -680,7 +657,7 @@ msgstr ""
 "сервері. Знак оклику (\"!\") вказує, що пошук має відбуватись в усіх базах "
 "даних сервера"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -688,115 +665,15 @@ msgstr ""
 "Назва типової стратегії пошуку для сервера словника, якщо доступно. Типова "
 "стратегія 'exact', тобто точна відповідність словам."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "Назва сервера словника"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr ""
 "Назва словникового сервера, що використовується для отримання визначень слів."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "Сторінка бічної панелі, що показується"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"До якого порту з'єднуватись. Типовий порт 2628. Цей ключ застарілий та "
-"більше не використовується."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "Ширина бічної панелі"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr ""
-"Цей ключ визначає ширину бічної панелі та використовується для запису її "
-"параметрів між сеансами."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"Ключ визначає висоту вікна та використовується, щоб запам'ятати розмір вікна "
-"словника між сеансами. При встановленні -1 висота вікна словника буде "
-"залежати від розміру шрифту."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"Ключ визначає ширину вікна та використовується, щоб запам'ятати розмір вікна "
-"словника між сеансами. При встановленні -1 висота ширина словника буде "
-"залежати від розміру шрифту."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"Ключ визначає чи слід показувати бічну панель та використовується, щоб "
-"запам'ятати розмір бічної панелі між сеансами. При встановленні TRUE бічна "
-"панель буде завжди розгорнуте."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"Ключ визначає чи слід виводити рядок стану та використовується, щоб "
-"запам'ятати розмір рядка стану між сеансами. При встановленні TRUE рядок "
-"стану  буде завжди розгорнуте."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"Ключ визначає чи слід виводити вікно розгорнутим та використовується, щоб "
-"запам'ятати розмір вікна словника між сеансами. При встановленні TRUE вікно "
-"програми буде завжди розгорнуте."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"Ключ визначає чи слід виводити вікно розгорнутим та використовується, щоб "
-"запам'ятати розмір вікна словника між сеансами. При встановленні TRUE вікно "
-"програми буде завжди розгорнуте."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "Використовувати розумний пошук (застаріло)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "Показувати вікно програми згорнутим"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "Показувати бічну панель"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "Показувати рядок стану"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -873,7 +750,7 @@ msgstr "Порт словникового сервера"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:327
 msgid "Status"
-msgstr "Статус"
+msgstr "Стан"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:328
 msgid "The status code as returned by the dictionary server"
@@ -1012,12 +889,12 @@ msgstr "Очистити список доступних баз даних"
 #: ../gnome-dictionary/libgdict/gdict-speller.c:778
 #: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
-msgstr "Помилка при співставленні"
+msgstr "Помилка при збіганні"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Не знайдено"
 
@@ -1215,109 +1092,59 @@ msgstr "Показувати параметри GDict"
 msgid "Look up words in dictionaries"
 msgstr "Пошук слів у словниках"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"Визначення для '%s'\n"
-"  Від '%s':\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "Помилка: %s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "Для перегляду довідки з використання вкажіть --help\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "Не вдається знайти відповідне джерело словників"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"Помилка при пошуку визначення \"%s\":\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Слова для пошуку"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
-msgstr "Слово"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
+msgstr "СЛОВО"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "Слова для пошуку"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "Джерело словників"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "джерело"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "НАЗВА"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "Показувати доступні джерела словників"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "Виводити результат на консоль"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "База даних"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "БД"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "Стратегія пошуку"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "стратегія"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "СЛОВА"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " - Пошук слів у словниках"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:834
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "Зберегти копію"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "Документ без заголовка"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:865
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Помилка при запису у '%s'"
@@ -1379,102 +1206,93 @@ msgid "Dictionary entry"
 msgstr "Запис словника"
 
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:998
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "Параметри словника"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1140
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Помилка при показі довідки"
 
 #: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:514
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Відсутнє джерело з назвою '%s'"
 
 #: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:518
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "Не вдається знайти джерело словника"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:534
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Недоступний контекст для джерела '%s'"
 
 #: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:538
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "Не вдається створити контекст"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "Не вдається з'єднатись з GConf"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "Не вдається отримати сповіщення про параметри"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "Не вдається отримати сповіщення про шрифт документу"
 
-#: ../gnome-dictionary/src/gdict-common.c:80
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "Не вдається перейменувати файл '%s' у '%s': %s"
-
-#: ../gnome-dictionary/src/gdict-common.c:104
-#: ../gnome-dictionary/src/gdict-common.c:127
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "Не вдається створити каталог з даними '%s': %s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "Зміна джерела словника"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "Додати слово у словник"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Видалити \"%s\"?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Це призведе до остаточного видалення джерела словників зі списку."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Не дається видалити джерело '%s'"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Додати нове джерело словників"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "Видалити виділене джерело словників"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+msgid "Edit the currently selected dictionary source"
+msgstr "Редагувати поточно вибране джерело словників"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "Встановити шрифт для друку визначення"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Не вдається показати попередній перегляд: %s"
@@ -1489,17 +1307,17 @@ msgstr "Не вдається створити файл джерела"
 msgid "Unable to save source file"
 msgstr "Не вдається створити файл джерела"
 
-#: ../gnome-dictionary/src/gdict-window.c:315
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Пошук '%s'..."
 
-#: ../gnome-dictionary/src/gdict-window.c:347
-#: ../gnome-dictionary/src/gdict-window.c:404
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "Не знайдено визначень"
 
-#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
@@ -1507,180 +1325,180 @@ msgstr[0] "знайдено %d визначення"
 msgstr[1] "знайдено %d визначення"
 msgstr[2] "знайдено %d визначень"
 
-#: ../gnome-dictionary/src/gdict-window.c:603
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Словник"
 
-#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Файл"
 
-#: ../gnome-dictionary/src/gdict-window.c:1178
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "Пере_йти"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1182
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "_Створити"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "Новий пошук"
 
-#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "З_берегти копію..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "_Попередній перегляд..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "Попередній перегляд документу"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "Д_рук..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "Друкувати документ"
 
-#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Виді_лити все"
 
-#: ../gnome-dictionary/src/gdict-window.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "Знайти слово чи фразу у документі"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "Зна_йти далі"
 
-#: ../gnome-dictionary/src/gdict-window.c:1203
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "Знайти _попереднє"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1209
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "_Попереднє визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "Перейти до попереднього визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1211
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "_Наступне визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1212
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "Перейти до наступного визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1213
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "П_ерше визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "Перейти до першого визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "_Останнє визначення"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "Перейти до останнього визначення"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "Подібні _слова"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "Додати джерела"
 
-#: ../gnome-dictionary/src/gdict-window.c:1223
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "Доступні _бази даних"
 
-#: ../gnome-dictionary/src/gdict-window.c:1225
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "Доступні с_тратегії"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1242
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "_Бічна панель"
 
-#: ../gnome-dictionary/src/gdict-window.c:1244
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "_Рядок стану"
 
-#: ../gnome-dictionary/src/gdict-window.c:1365
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Виділено джерело словників `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1386
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Обрана стратегія \"%s\""
 
-#: ../gnome-dictionary/src/gdict-window.c:1406
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Виділена база даних `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1426
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Виділено слово `%s'"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1448
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "Двічі клацніть на слові для пошуку"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1454
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "Двічі клацніть на відповідній стратегії її використання"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "Двічі клацніть на джерелі для його вибору"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1468
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "Двічі клацніть на базі даних для її вибору"
 
-#: ../gnome-dictionary/src/gdict-window.c:1755
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "З_найти"
 
-#: ../gnome-dictionary/src/gdict-window.c:1829
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "Подібні слова"
 
-#: ../gnome-dictionary/src/gdict-window.c:1842
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "Доступні словники"
 
-#: ../gnome-dictionary/src/gdict-window.c:1855
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "Доступні стратегії"
 
-#: ../gnome-dictionary/src/gdict-window.c:1866
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "Джерела словників"
 
@@ -1737,7 +1555,7 @@ msgstr "Захопити після _затримки"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "seconds"
 msgstr "секунд"
 
@@ -1778,7 +1596,7 @@ msgstr "Знімок отримано"
 msgid "Unable to take a screenshot of the current window"
 msgstr "Не вдається зробити знімок поточного вікна"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:891
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Екран-%s.png"
@@ -1786,15 +1604,15 @@ msgstr "Екран-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:898
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Екран-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
-#: ../gnome-screenshot/screenshot-dialog.c:346
+#: ../gnome-screenshot/gnome-screenshot.c:908
+#: ../gnome-screenshot/screenshot-dialog.c:331
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
 msgstr "Екран.png"
@@ -1802,48 +1620,48 @@ msgstr "Екран.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:915
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Екран-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab a window instead of the entire screen"
 msgstr "Зробити знімок вікна, а не всього екрану"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Захопити лише частину екрану"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Include the window border with the screenshot"
 msgstr "Включити рамку вікна у список"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Remove the window border from the screenshot"
 msgstr "Видалити рамку вікна із знімку"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Зробити знімок через вказаний час [у секундах]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Ефект, що додається до рамки вікна (тінь, рамка або ніякого)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "effect"
 msgstr "ефекти рамки"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1262
 msgid "Interactively set options"
 msgstr "Встановити параметри інтерактивно"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1273
 msgid "Take a picture of the screen"
 msgstr "Зробити знімок екрану"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1934,7 +1752,7 @@ msgstr ""
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Знімок спеціального вікна (заборонено)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:229
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1942,7 +1760,7 @@ msgstr ""
 "Відсутній файл Glade для програми знімків екрану.\n"
 "Перевірте встановлення gnome-utils"
 
-#: ../gnome-screenshot/screenshot-dialog.c:250
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Виберіть теку"
 
@@ -1968,7 +1786,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Невідома помилка при збереженні знімку екрана на диск"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:884
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Вікно без заголовка"
 
@@ -2529,17 +2347,17 @@ msgstr " (друга копія)"
 #: ../gsearchtool/gsearchtool-support.c:1499
 #: ../gsearchtool/gsearchtool-support.c:1509
 msgid "th copy)"
-msgstr "-я копія)"
+msgstr "-а копія)"
 
 #. localizers: tag used to detect the x1st copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1502
 msgid "st copy)"
-msgstr "-я копія)"
+msgstr "-а копія)"
 
 #. localizers: tag used to detect the x2nd copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1504
 msgid "nd copy)"
-msgstr "-я копія)"
+msgstr "-а копія)"
 
 #. localizers: tag used to detect the x3rd copy of a file
 #: ../gsearchtool/gsearchtool-support.c:1506
@@ -2568,19 +2386,19 @@ msgstr "%s (інша копія)%s"
 #: ../gsearchtool/gsearchtool-support.c:1541
 #, c-format
 msgid "%s (%dth copy)%s"
-msgstr "%s (%d-я копія)%s"
+msgstr "%s (%d-а копія)%s"
 
 #. localizers: appended to x1st file copy
 #: ../gsearchtool/gsearchtool-support.c:1535
 #, c-format
 msgid "%s (%dst copy)%s"
-msgstr "%s (%d-я копія)%s"
+msgstr "%s (%d-а копія)%s"
 
 #. localizers: appended to x2nd file copy
 #: ../gsearchtool/gsearchtool-support.c:1537
 #, c-format
 msgid "%s (%dnd copy)%s"
-msgstr "%s (%d-я копія)%s"
+msgstr "%s (%d-а копія)%s"
 
 #. localizers: appended to x3rd file copy
 #: ../gsearchtool/gsearchtool-support.c:1539
@@ -2590,7 +2408,7 @@ msgstr "%s (%d-я копія)%s"
 
 #: ../gsearchtool/gsearchtool-support.c:1586
 msgid " (invalid Unicode)"
-msgstr " (неправильний Юнікод)"
+msgstr " (неправильний Унікод)"
 
 #. localizers: opening parentheses to match the "th copy)" string
 #: ../gsearchtool/gsearchtool-support.c:1675
@@ -3081,9 +2899,9 @@ msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
 msgstr ""
-"Визначає розмір моноширинного шрифту, що використовується для показу "
-"журналу у  головному ієрархічному дереві. Типовий шрифт береться з параметру "
-"шрифту терміналу."
+"Визначає розмір моноширинного шрифту, що використовується для показу журналу "
+"у  головному ієрархічному дереві. Типовий шрифт береться з параметру шрифту "
+"терміналу."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
@@ -3182,7 +3000,7 @@ msgstr "Очистити рядок пошуку"
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
 msgstr ""
-"Помилка при розпакуванні журналу, стиснутого GZip. Можливо файл пошкоджено."
+"Помилка при розпакуванні журналу, стиснутого GZip. Можливо файл пошкоджено."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
@@ -3216,147 +3034,155 @@ msgstr " - Перегляд та контроль журналів"
 msgid "Log Viewer"
 msgstr "Перегляд журналів"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Переглядач системних журналів"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "останнє оновлення : %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d рядків (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Відкрити журнал"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Помилка при показі довідки: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Згорнуто"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "Перегляд системних журналів для GNOME."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Фільтри"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "_Відкрити..."
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Відкрити новий файл журналу"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "_Закрити"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Закрити цей журнал"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "Ви_йти"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Вийти з програми перегляду журналів"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Копіювати"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Копіювати виділене"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Виділити весь журнал"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "З_найти..."
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Знайти слово чи фразу у журналі"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Більший розмір тексту"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Менший розмір тексту"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Звичайний розмір тексту"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Керування фільтрами"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Керувати фільтрами"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Відкрити зміст довідки переглядача журналу"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Відкрити вікно \"Про програму\" програми перегляду журналу"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "Панель с_тану"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "Показати панель стану"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "_Бічна панель"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Показувати бічну панель"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Показувати лише відповідні"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "Показувати рядки, які відповідають одному з заданих фільтрів"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "_Автоматична прокрутка"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Автоматичне прокручування вниз, коли з'являються нові рядки"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Не вдається прочитати з \"%s\""
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Версія: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Не вдається відкрити наступні файли:"
 
@@ -3433,4 +3259,169 @@ msgstr "Перегляд шрифтів"
 msgid "Preview fonts"
 msgstr "Попередній перегляд шрифтів"
 
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "Словниковий сервер (застаріло)"
 
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "Порт для з'єднання з словниковим сервером (застаріло)"
+
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "Визначає чи використовувати розумний пошук. Цей ключ залежить від того, "
+#~ "чи підтримує сервер цю можливість. Типове значення TRUE. Цей ключ "
+#~ "застарів та більше не використовується."
+
+#~ msgid "The default height of the application window"
+#~ msgstr "Типова висота вікна програми"
+
+#~ msgid "The default width of the application window"
+#~ msgstr "Типова ширина вікна програми"
+
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "З яким словниковим сервером з'єднуватись. Типово це сервер на dict.org. "
+#~ "Докладніше про інші сервери дивіться на http://www.dict.org. Ключ "
+#~ "застарів та більше не використовується."
+
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "Сторінка бічної панелі, що показується"
+
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "До якого порту з'єднуватись. Типовий порт 2628. Цей ключ застарілий та "
+#~ "більше не використовується."
+
+#~ msgid "The width of the sidebar"
+#~ msgstr "Ширина бічної панелі"
+
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "Цей ключ визначає ширину бічної панелі та використовується для запису її "
+#~ "параметрів між сеансами."
+
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "Ключ визначає висоту вікна та використовується, щоб запам'ятати розмір "
+#~ "вікна словника між сеансами. При встановленні -1 висота вікна словника "
+#~ "буде залежати від розміру шрифту."
+
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "Ключ визначає ширину вікна та використовується, щоб запам'ятати розмір "
+#~ "вікна словника між сеансами. При встановленні -1 висота ширина словника "
+#~ "буде залежати від розміру шрифту."
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "Ключ визначає чи слід показувати бічну панель та використовується, щоб "
+#~ "запам'ятати розмір бічної панелі між сеансами. При встановленні TRUE "
+#~ "бічна панель буде завжди розгорнуте."
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "Ключ визначає чи слід виводити рядок стану та використовується, щоб "
+#~ "запам'ятати розмір рядка стану між сеансами. При встановленні TRUE рядок "
+#~ "стану  буде завжди розгорнуте."
+
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "Ключ визначає чи слід виводити вікно розгорнутим та використовується, щоб "
+#~ "запам'ятати розмір вікна словника між сеансами. При встановленні TRUE "
+#~ "вікно програми буде завжди розгорнуте."
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "Ключ визначає чи слід виводити вікно розгорнутим та використовується, щоб "
+#~ "запам'ятати розмір вікна словника між сеансами. При встановленні TRUE "
+#~ "вікно програми буде завжди розгорнуте."
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "Використовувати розумний пошук (застаріло)"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "Показувати вікно програми згорнутим"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "Показувати бічну панель"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "Показувати рядок стану"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Визначення для '%s'\n"
+#~ "  Від '%s':\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "Помилка: %s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "Для перегляду довідки з використання вкажіть --help\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "Не вдається знайти відповідне джерело словників"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Помилка при пошуку визначення \"%s\":\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "Слово"
+
+#~ msgid "source"
+#~ msgstr "джерело"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "Показувати доступні джерела словників"
+
+#~ msgid "Print result to the console"
+#~ msgstr "Виводити результат на консоль"
+
+#~ msgid "db"
+#~ msgstr "БД"
+
+#~ msgid "strat"
+#~ msgstr "стратегія"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "Не вдається перейменувати файл '%s' у '%s': %s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "Не вдається створити каталог з даними '%s': %s"
