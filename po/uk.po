@@ -163,7 +163,7 @@ msgstr "_Зміст"
 #: ../baobab/data/baobab-main-window.ui.h:21
 #: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
-msgstr "_Правка"
+msgstr "З_міни"
 
 #: ../baobab/data/baobab-main-window.ui.h:22
 msgid "_Expand All"
@@ -182,11 +182,11 @@ msgstr "_Панель інструментів"
 #: ../baobab/data/baobab-main-window.ui.h:25
 #: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
-msgstr "_Вигляд"
+msgstr "П_ерегляд"
 
 #: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
 msgid "Scanning..."
-msgstr "Триває сканування..."
+msgstr "Триває сканування…"
 
 #: ../baobab/src/baobab.c:182
 msgid "Total filesystem capacity:"
@@ -1238,15 +1238,15 @@ msgstr "Недоступний контекст для джерела '%s'"
 #: ../gnome-dictionary/src/gdict-applet.c:920
 #: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
-msgstr "Не вдається створити контекст"
+msgstr "Не вдалось створити контекст"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
 msgid "Unable to connect to GConf"
-msgstr "Не вдається з'єднатись з GConf"
+msgstr "Не вдалось з'єднатись з GConf"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
 msgid "Unable to get notification for preferences"
-msgstr "Не вдається отримати сповіщення про параметри"
+msgstr "Не вдалось отримати сповіщення про параметри"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
 msgid "Unable to get notification for the document font"
@@ -1264,16 +1264,16 @@ msgstr "Додати слово у словник"
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
-msgstr "Видалити \"%s\"?"
+msgstr "Вилучити «%s»?"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
-msgstr "Це призведе до остаточного видалення джерела словників зі списку."
+msgstr "Це призведе до остаточного вилучення джерела словників зі списку."
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
-msgstr "Не дається видалити джерело '%s'"
+msgstr "Не вдалось вилучити джерело «%s»"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -1281,7 +1281,7 @@ msgstr "Додати нове джерело словників"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
-msgstr "Видалити виділене джерело словників"
+msgstr "Вилучити виділене джерело словників"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
 msgid "Edit the currently selected dictionary source"
@@ -1639,7 +1639,7 @@ msgstr "Включити рамку вікна у список"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Remove the window border from the screenshot"
-msgstr "Видалити рамку вікна із знімку"
+msgstr "Вилучити рамку вікна із знімку"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Take screenshot after specified delay [in seconds]"
@@ -2200,22 +2200,22 @@ msgstr "Не вдається перемістити документ \"%s\" у 
 #: ../gsearchtool/gsearchtool-callbacks.c:702
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
-msgstr "Бажаєте остаточно видалити \"%s\"?"
+msgstr "Остаточно вилучити \"%s\"?"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
-msgstr "Смітник відсутній. Не вдається перемістити \"%s\" у смітник."
+msgstr "Смітника нема. Не вдалось перемістити \"%s\" у смітник."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:740
 #, c-format
 msgid "Could not delete \"%s\"."
-msgstr "Не вдається видалити \"%s\"."
+msgstr "Не вдалось вилучити \"%s\"."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:847
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
-msgstr "Помилка видалення \"%s\": %s."
+msgstr "Помилка вилучення «%s»: %s."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:859
 #, c-format
@@ -2671,12 +2671,12 @@ msgstr "Введіть значення у %s для параметра пошу
 #: ../gsearchtool/gsearchtool.c:2035
 #, c-format
 msgid "Remove \"%s\""
-msgstr "Видалити \"%s\""
+msgstr "Вилучити «%s»"
 
 #: ../gsearchtool/gsearchtool.c:2036
 #, c-format
 msgid "Click to remove the \"%s\" search option."
-msgstr "Натисніть, щоб видалити параметр пошуку \"%s\"."
+msgstr "Натисніть, щоб вилучити параметр пошуку \"%s\"."
 
 #: ../gsearchtool/gsearchtool.c:2129
 msgid "A_vailable options:"
