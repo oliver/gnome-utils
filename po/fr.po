@@ -15,15 +15,16 @@
 # Antoine Cailliau <a.cailliau@ac-graphic.net>, 2007.
 # Claude Paroz <claude@2xlibre.net>, 2008-2010.
 # Laurent Coudeur <laurentc@iol.ie>, 2009.
+# Bruno Brouard <annoa.b@gmail.com>, 2011
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2011-02-21 22:03+0000\n"
-"PO-Revision-Date: 2010-03-03 20:25+0100\n"
-"Last-Translator: Claude Paroz <claude@2xlibre.net>\n"
+"utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-14 17:34+0000\n"
+"PO-Revision-Date: 2011-03-17 20:39+0100\n"
+"Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +39,19 @@ msgstr "Vérifier la taille des dossiers et l'espace disque disponible"
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Analyseur d'utilisation des disques"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Préférences de l'analyseur d'utilisation des disques"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr ""
+"Sélectionner les _périphériques à inclure dans l'analyse du système de fichiers :"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "_Surveiller les modifications de votre dossier personnel"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -797,8 +811,8 @@ msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
 msgstr ""
-"Impossible de se connecter au serveur de dictionnaires « %s:%d'. Le serveur "
-"a retourné le code %d (serveur en panne)"
+"Impossible de se connecter au serveur de dictionnaires « %s:%d'. Le serveur a "
+"retourné le code %d (serveur en panne)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -1576,7 +1590,7 @@ msgstr "Capturer _après un délai de"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "seconds"
 msgstr "secondes"
 
@@ -1617,7 +1631,7 @@ msgstr "Capture d'écran effectuée"
 msgid "Unable to take a screenshot of the current window"
 msgstr "Impossible de prendre une capture d'écran de la fenêtre actuelle"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:891
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Capture-%s.png"
@@ -1625,14 +1639,14 @@ msgstr "Capture-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:898
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Capture-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:908
 #: ../gnome-screenshot/screenshot-dialog.c:331
 #: ../gnome-screenshot/screenshot-save.c:196
 msgid "Screenshot.png"
@@ -1641,48 +1655,48 @@ msgstr "Capture.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:915
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Capture-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 msgid "Grab a window instead of the entire screen"
 msgstr "Capturer une fenêtre plutôt que l'écran complet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Capturer une zone de l'écran plutôt que l'écran complet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Include the window border with the screenshot"
 msgstr "Inclure la bordure de la fenêtre dans la capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Remove the window border from the screenshot"
 msgstr "Enlever la bordure de la fenêtre dans la capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Effectue une capture d'écran après le délai indiqué [en secondes]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effet à appliquer à la bordure (ombre, bordure ou aucun)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "effect"
 msgstr "effet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1262
 msgid "Interactively set options"
 msgstr "Options définies de manière interactive"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1273
 msgid "Take a picture of the screen"
 msgstr "Effectue une capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1809,7 +1823,7 @@ msgstr ""
 "Erreur inconnue lors de l'enregistrement de la capture d'écran sur le disque"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Fenêtre sans nom"
 
@@ -1906,8 +1920,7 @@ msgstr ""
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:21
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr ""
-"Sélectionner l'option de recherche « Exclure les autres systèmes de "
-"fichiers »"
+"Sélectionner l'option de recherche « Exclure les autres systèmes de fichiers »"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2058,8 +2071,8 @@ msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"Cette clé définit si l'option de recherche « Date de modification "
-"postérieure à » est sélectionnée quand l'outil de recherche est démarré."
+"Cette clé définit si l'option de recherche « Date de modification postérieure "
+"à » est sélectionnée quand l'outil de recherche est démarré."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
 msgid ""
@@ -2098,9 +2111,8 @@ msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"Cette clé définit si l'option de recherche « le nom correspond à "
-"l'expression régulière » est sélectionnée quand l'outil de recherche est "
-"démarré."
+"Cette clé définit si l'option de recherche « le nom correspond à l'expression "
+"régulière » est sélectionnée quand l'outil de recherche est démarré."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:67
 msgid ""
@@ -2115,8 +2127,8 @@ msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Cette clé définit si l'option de recherche « Appartient à l'utilisateur » "
-"est sélectionnée quand l'outil de recherche est démarré."
+"Cette clé définit si l'option de recherche « Appartient à l'utilisateur » est "
+"sélectionnée quand l'outil de recherche est démarré."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
 msgid ""
