@@ -1,4 +1,4 @@
-# Translation of gnome-utils into Indonesian
+# Indonesian translation of gnome-utils.
 # Copyright (C) 2003 THE gnome-utils'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-utils package.
 #
@@ -7,21 +7,21 @@
 # Dirgita <dirgitadevina@yahoo.co.id>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2011-02-09 18:25+0000\n"
-"PO-Revision-Date: 2011-02-01 22:25+0700\n"
-"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
-"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Project-Id-Version: gnome-utils.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
+"PO-Revision-Date: 2011-03-19 19:10+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Indonesian\n"
 "X-Poedit-Country: Indonesia\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
@@ -31,6 +31,21 @@ msgstr "Periksa ukuran folder dan ruang disk yang tersedia"
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Penganalisa Penggunaan Disk"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+#| msgid "Disk Usage Analyzer"
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Preferensi Penganalisa Penggunaan Disk"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+#| msgid "Select the search option \"Exclude other filesystems\""
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Pilih perangkat yang akan _disertakan pada pemindaian sistem berkas:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+#| msgid "Rescan your home folder?"
+msgid "_Monitor changes to your home folder"
+msgstr "Pantau perubahan pada folder ru_mah Anda"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -146,12 +161,14 @@ msgstr "_Lipat Semua"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329
+#: ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "Daftar _Isi"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276
+#: ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Sunting"
 
@@ -161,7 +178,8 @@ msgstr "K_embangkan Semua"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279
+#: ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "Ba_ntuan"
 
@@ -170,11 +188,13 @@ msgid "_Toolbar"
 msgstr "_Panel"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277
+#: ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Tampilan"
 
-#: ../baobab/src/baobab.c:136 ../baobab/src/baobab.c:388
+#: ../baobab/src/baobab.c:136
+#: ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "Memindai..."
 
@@ -191,12 +211,14 @@ msgid "available:"
 msgstr "tersedia:"
 
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:273 ../baobab/src/baobab.c:330
+#: ../baobab/src/baobab.c:273
+#: ../baobab/src/baobab.c:330
 #: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Menghitung batang persentasi..."
 
-#: ../baobab/src/baobab.c:284 ../baobab/src/baobab.c:1325
+#: ../baobab/src/baobab.c:284
+#: ../baobab/src/baobab.c:1325
 #: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Siap"
@@ -367,8 +389,7 @@ msgstr "WebDAV Aman (HTTPS)"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:249
 msgid "Cannot Connect to Server. You must enter a name for the server."
-msgstr ""
-"Tak Bisa Menyambung ke Server. Anda mesti memasukkan sebuah nama bagi server."
+msgstr "Tak Bisa Menyambung ke Server. Anda mesti memasukkan sebuah nama bagi server."
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:252
 msgid "Please enter a name and try again."
@@ -424,18 +445,15 @@ msgid "Rescan your home folder?"
 msgstr "Pindai ulang folder rumah Anda?"
 
 #: ../baobab/src/baobab-treeview.c:83
-msgid ""
-"The content of your home folder has changed. Select rescan to update the "
-"disk usage details."
-msgstr ""
-"Isi dari folder rumah Anda telah berubah. Pilih pindai ulang untuk "
-"memperbarui rincian pemakaian disk."
+msgid "The content of your home folder has changed. Select rescan to update the disk usage details."
+msgstr "Isi dari folder rumah Anda telah berubah. Pilih pindai ulang untuk memperbarui rincian pemakaian disk."
 
 #: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
 msgstr "_Pindai ulang"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2389
+#: ../baobab/src/baobab-treeview.c:222
+#: ../gsearchtool/gsearchtool.c:2389
 msgid "Folder"
 msgstr "Folder"
 
@@ -443,7 +461,8 @@ msgstr "Folder"
 msgid "Usage"
 msgstr "Cara pakai"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2402
+#: ../baobab/src/baobab-treeview.c:258
+#: ../gsearchtool/gsearchtool.c:2402
 msgid "Size"
 msgstr "Ukuran"
 
@@ -509,39 +528,20 @@ msgstr "Rincian: %s"
 msgid "There was an error displaying help."
 msgstr "Ada kesalahan saat menampilkan bantuan."
 
-#: ../baobab/src/callbacks.c:76 ../logview/logview-about.h:49
-msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"Program ini adalah perangkat lunak bebas: Anda dapat menyebarluaskannya dan/"
-"atau mengubahnya di bawah syarat dari GNU General Public License sebagaimana "
-"dipublikasikan oleh Free Software Foundation, bisa Lisensi versi 2, atau "
-"(sesuai pilihan Anda) sebarang versi setelahnya."
+#: ../baobab/src/callbacks.c:76
+#: ../logview/logview-about.h:49
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Program ini adalah perangkat lunak bebas: Anda dapat menyebarluaskannya dan/atau mengubahnya di bawah syarat dari GNU General Public License sebagaimana dipublikasikan oleh Free Software Foundation, bisa Lisensi versi 2, atau (sesuai pilihan Anda) sebarang versi setelahnya."
 
-#: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"Program ini disebarluaskan dengan harapan akan berguna, tapi TANPA JAMINAN "
-"APAPUN; bahkan tanpa jaminan tersirat atas KELAYAKAN JUAL atau KECOCOKAN "
-"BAGI KEPERLUAN TERTENTU. Lihat GNU General Public License untuk rincian "
-"lebih jauh."
+#: ../baobab/src/callbacks.c:81
+#: ../logview/logview-about.h:53
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Program ini disebarluaskan dengan harapan akan berguna, tapi TANPA JAMINAN APAPUN; bahkan tanpa jaminan tersirat atas KELAYAKAN JUAL atau KECOCOKAN BAGI KEPERLUAN TERTENTU. Lihat GNU General Public License untuk rincian lebih jauh."
 
-#: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
-msgstr ""
-"Anda seharusnya menerima salinan dari GNU General Public License bersama "
-"dengan program ini; jika tidak, tulis ke Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
+#: ../baobab/src/callbacks.c:86
+#: ../logview/logview-about.h:57
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
+msgstr "Anda seharusnya menerima salinan dari GNU General Public License bersama dengan program ini; jika tidak, tulis ke Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA"
 
 #: ../baobab/src/callbacks.c:101
 msgid "Baobab"
@@ -552,7 +552,8 @@ msgid "A graphical tool to analyze disk usage."
 msgstr "Alat grafis untuk menganalisa penggunaan disk."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:110
+#: ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -560,7 +561,8 @@ msgstr ""
 "Mohammad DAMT <mdamt@bisnisweb.com>\n"
 "http://id.gnome.org/"
 
-#: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
+#: ../baobab/src/callbacks.c:208
+#: ../gsearchtool/gsearchtool-callbacks.c:488
 #: ../gsearchtool/gsearchtool-callbacks.c:811
 msgid "The document does not exist."
 msgstr "Dokumen tidak ada."
@@ -586,7 +588,8 @@ msgid "Cl_ear"
 msgstr "Ber_sih"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331
+#: ../logview/logview-window.c:846
 msgid "_About"
 msgstr "_Keterangan Program"
 
@@ -636,30 +639,19 @@ msgid "The font to be used when printing a definition."
 msgstr "Jenis huruf yang dipergunakan ketika mencetak definisi."
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Nama basis data tunggal atau meta-basis data yang digunakan pada sumber "
-"kamus. Tanda eksklamasi (\"!\") berarti seluruh basis data yang ada dalam "
-"sumber kamus harus dicari."
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "Nama basis data tunggal atau meta-basis data yang digunakan pada sumber kamus. Tanda eksklamasi (\"!\") berarti seluruh basis data yang ada dalam sumber kamus harus dicari."
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Nama dari strategi pencarian untuk dipergunakan pada sumber kamus, jika "
-"tersedia. Strategi defaultnya adalah 'pasti', yaitu pasti cocok katanya."
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "Nama dari strategi pencarian untuk dipergunakan pada sumber kamus, jika tersedia. Strategi defaultnya adalah 'pasti', yaitu pasti cocok katanya."
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "Nama sumber kamus yang digunakan"
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
+msgid "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "Nama sumber kamus yang dipergunakan untuk menerima definisi kata."
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
@@ -751,8 +743,7 @@ msgstr "Tiada sambungan ke server kamus pada '%s:%d'"
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1060
 #, c-format
 msgid "Lookup failed for hostname '%s': no suitable resources found"
-msgstr ""
-"Pencarian gagal untuk nama host '%s'. Tidak menemukan sumber yang benar"
+msgstr "Pencarian gagal untuk nama host '%s'. Tidak menemukan sumber yang benar"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1091
 #, c-format
@@ -766,12 +757,8 @@ msgstr "Pencarian gagal untuk host '%s': tidak ditemukan"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1177
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Tidak bisa tersambung ke server kamus pada '%s:%d'. Server menjawab dengan "
-"kode %d (server mati)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "Tidak bisa tersambung ke server kamus pada '%s:%d'. Server menjawab dengan kode %d (server mati)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -882,7 +869,7 @@ msgstr "Error saat mencocokkan"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Tidak ketemu"
 
@@ -996,8 +983,7 @@ msgstr "Gagal mendapatkan kunci '%s' dalam penjelasan sumber kamus: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "Gagal mendapatkan kunci '%s' dalam berkas penjelasan sumber kamus: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:741
@@ -1187,7 +1173,7 @@ msgstr "Tampil atau sembunyikan jendela definisi"
 
 #: ../gnome-dictionary/src/gdict-applet.c:588
 msgid "Type the word you want to look up"
-msgstr "Tuliskan kata yang ingin anda cari"
+msgstr "Tuliskan kata yang ingin Anda cari"
 
 #: ../gnome-dictionary/src/gdict-applet.c:590
 msgid "Dictionary entry"
@@ -1273,7 +1259,7 @@ msgstr "Buang sumber kamus yang sedang terpilih"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
 msgid "Edit the currently selected dictionary source"
-msgstr "Menyunting sumber kamus yang sedang dipilih"
+msgstr "Sunting sumber kamus yang sedang terpilih"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
@@ -1316,7 +1302,8 @@ msgstr[0] "%d definisi ditemukan"
 msgid "%s - Dictionary"
 msgstr "%s - Kamus"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275
+#: ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Berkas"
 
@@ -1353,7 +1340,8 @@ msgstr "_Cetak..."
 msgid "Print this document"
 msgstr "Cetak dokumen ini"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296
+#: ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Pilih Semu_a"
 
@@ -1488,82 +1476,82 @@ msgstr "Strategi tersedia"
 msgid "Dictionary sources"
 msgstr "Sumber kamus"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Error saat membuka layar bantuan"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Tak Ada"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Bayangan jatuh"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Batas"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Sertakan _penunjuk"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Sertakan _bingkai jendela"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Terapkan _efek:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Ambil seluruh _desktop"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Ambil _jendela kini"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Pilih wil_ayah untuk diambil"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Ambil setel_ah tundaan"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "detik"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Ambil Cuplikan"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Efek"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "Ambil _Cuplikan Layar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Galat saat menyimpan cuplikan layar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1574,15 +1562,15 @@ msgstr ""
 " Galatnya %s.\n"
 " Silakan pilih lokasi lain dan coba lagi."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Cuplikan layar telah diambil"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Tak bisa mengambil cuplikan layar dari jendela kini"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Gambar-Layar-%s.png"
@@ -1590,73 +1578,71 @@ msgstr "Gambar-Layar-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Gambar-Layar-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Gambar-Layar.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Gambar-Layar-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Ambil gambar pada jendela saja (jangan keseluruhan layar)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Tentukan wilayah layar, bukan seluruh layar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Ambil juga gambar bingkai jendelanya"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Buang bingkai dari cuplikan layar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Mulai ambil gambar setelah jeda waktu (dalam detik)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Efek yang ditambahkan pada batas (bayangan, batas, atau tak ada)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "Efek"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Menata opsi secara interaktif"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Ambil gambar layar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
-msgid ""
-"Conflicting options: --window and --area should not be used at the same "
-"time.\n"
+msgid "Conflicting options: --window and --area should not be used at the same time.\n"
 msgstr "Opsi bertentangan: --window dan --area tak boleh dipakai bersama.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
-msgstr "Simpan gambar dari desktop atau suatu jendela anda"
+msgstr "Simpan gambar dari desktop atau suatu jendela Anda"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1684,53 +1670,56 @@ msgid "Border Effect"
 msgstr "Efek Bingkai"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
-msgid ""
-"Effect to add to the outside of a border. Possible values are \"shadow\", "
-"\"none\", and \"border\"."
-msgstr ""
-"Efek yang ditambahkan diluar batas tepi. Nilai yang mungkin adalah \"shadow"
-"\", \"none\", dan \"border\"."
+msgid "Effect to add to the outside of a border. Possible values are \"shadow\", \"none\", and \"border\"."
+msgstr "Efek yang ditambahkan diluar batas tepi. Nilai yang mungkin adalah \"shadow\", \"none\", dan \"border\"."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
-msgid ""
-"Grab just the current window, rather than the whole desktop. This key has "
-"been deprecated and it is no longer in use."
-msgstr ""
-"Ambil hanya jendela kini, bukan seluruh desktop. Kunci ini tak dipakai lagi."
+msgid "Grab just the current window, rather than the whole desktop. This key has been deprecated and it is no longer in use."
+msgstr "Ambil hanya jendela kini, bukan seluruh desktop. Kunci ini tak dipakai lagi."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "Tampilkan Bingkai"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
+msgstr "Sertakan Profil ICC"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Sertakan Penunjuk"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Sertakan profil ICC dari target pada berkas cuplikan layar"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Sertakan penunjuk pada cuplikan layar"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Tampilkan bingkai jendela pada gambar layar"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Tundaan cuplikan layar"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Direktori cuplikan layar"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Direktori dimana cuplikan layar terakhir disimpan."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Berapa detik mesti menunggu sebelum mengambil cuplikan layar."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Cuplikan layar spesifik jendela (tak dipakai lagi)"
 
@@ -1746,7 +1735,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Pilih direktori"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1755,18 +1744,16 @@ msgstr ""
 "Tidak dapat membersihkan folder sementara:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
-msgid ""
-"The child save process unexpectedly exited.  We are unable to write the "
-"screenshot to disk."
+#: ../gnome-screenshot/screenshot-save.c:104
+msgid "The child save process unexpectedly exited.  We are unable to write the screenshot to disk."
 msgstr "Proses penyimpanan tiba-tiba mati. Gambar layar gagal disimpan."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Ada error yang tidak diketahui terjadi saat menyimpan gambar layar"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Jendela Tak Berjudul"
 
@@ -1794,9 +1781,7 @@ msgstr "Tak bisa mengakses berkas sumber"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
-msgstr ""
-"Tentukan lokasi dokumen atau folder pada komputer ini sesuai nama ataupun "
-"isinya"
+msgstr "Mencari dokumen atau folder yang terdapat di komputer ini berdasarkan nama atau isinya"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
@@ -1931,201 +1916,98 @@ msgid "This key defines the default value of the \"Look in Folder\" widget."
 msgstr "Kunci ini menentukan nilai bawaan bagi widget \"Cari di Folder\"."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
-msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
-msgstr ""
-"Kunci ini menjelaskan urutan kolom dalam hasil pencarian. Kunci ini harus "
-"tidak diubah oleh pengguna."
+msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
+msgstr "Kunci ini menjelaskan urutan kolom dalam hasil pencarian. Kunci ini harus tidak diubah oleh pengguna."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:55
-msgid ""
-"This key defines the paths the search tool will exclude from a quick search. "
-"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr ""
-"Kunci ini berisi path yang tidak akan dicari pada model pencarian cepat. "
-"Kode '*' dan '?' dapat dipergunakan disini. Nilai awalnya adalah /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, dan /var/*."
+msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr "Kunci ini berisi path yang tidak akan dicari pada model pencarian cepat. Kode '*' dan '?' dapat dipergunakan disini. Nilai awalnya adalah /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, dan /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
-msgid ""
-"This key defines the paths the search tool will exclude from a second scan "
-"when performing a quick search. The second scan uses the find command to "
-"search for files. The purpose of the second scan is to find files that have "
-"not been indexed. The wildcards '*' and '?' are supported. The default value "
-"is /."
-msgstr ""
-"Kunci ini berisi path yang tidak akan dicari pada model pencarian cepat "
-"tahap kedua. Pencarian tahap dua ini menggunakan perintah 'find' untuk "
-"melakukan proses pencarian. Gunanya adalah untuk mencari berkas yang belum "
-"diindeks. Kode '*' dan '?' diperbolehkan untuk digunakan. Nilai awalnya "
-"adalah /."
+msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
+msgstr "Kunci ini berisi path yang tidak akan dicari pada model pencarian cepat tahap kedua. Pencarian tahap dua ini menggunakan perintah 'find' untuk melakukan proses pencarian. Gunanya adalah untuk mencari berkas yang belum diindeks. Kode '*' dan '?' diperbolehkan untuk digunakan. Nilai awalnya adalah /."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Kunci ini menjelaskan tinggi jendela, dan dipergunakan untuk mengingat "
-"ukuran alat pencarian diantara sesi. Buat menjadi -1 akan menjadikan alat "
-"pencarian menggunakan tinggi default."
+msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr "Kunci ini menjelaskan tinggi jendela, dan dipergunakan untuk mengingat ukuran alat pencarian diantara sesi. Buat menjadi -1 akan menjadikan alat pencarian menggunakan tinggi default."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
-msgid ""
-"This key defines the window width, and it's used to remember the size of the "
-"search tool between sessions. Setting it to -1 will make the search tool use "
-"the default width."
-msgstr ""
-"Kunci ini menjelaskan lebar jendela, dan dipergunakan untuk mengingat ukuran "
-"alat pencarian diantara sesi. Buat menjadi -1 akan menjadikan alat pencarian "
-"menggunakan lebar default."
+msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
+msgstr "Kunci ini menjelaskan lebar jendela, dan dipergunakan untuk mengingat ukuran alat pencarian diantara sesi. Buat menjadi -1 akan menjadikan alat pencarian menggunakan lebar default."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Berisi teks\" dipilih saat program "
-"pencari mulai dijalankan."
+msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Berisi teks\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Tanggal lebih muda dari\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Tanggal lebih muda dari\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Tanggal lebih tua dari\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Tanggal lebih tua dari\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Tanpa sistem berkas lain\" dipilih "
-"saat program pencari mulai dijalankan."
+msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Tanpa sistem berkas lain\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:63
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Berkas kosong\" dipilih saat program "
-"pencari mulai dijalankan."
+msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Berkas kosong\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Ikuti taut simbolik\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Ikuti taut simbolik\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Nama tidak berisi\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Nama tidak berisi\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Nama cocok dengan ekspresi reguler\" "
-"dipilih saat program pencari mulai dijalankan."
+msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Nama cocok dengan ekspresi reguler\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Dimiliki kelompok\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Dimiliki kelompok\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Dimiliki pengguna\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Dimiliki pengguna\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Pemilik tidak diketahui\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Pemilik tidak diketahui\" dipilih saat program pencari mulai dijalankan."
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Tampilkan pilihan lainnya\" dibuka "
-"saat program pencari mulai dijalankan."
+msgid "This key determines if the \"Select more options\" section is expanded when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Tampilkan pilihan lainnya\" dibuka saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Tampilkan berkas dan folder tersembunyi"
-"\" dipilih saat program pencari mulai dijalankan."
+msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Tampilkan berkas dan folder tersembunyi\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Ukuran paling tidak\" dipilih saat "
-"program pencari mulai dijalankan."
+msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Ukuran paling tidak\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Kunci ini menentukan apakah pilihan \"Ukuran terbesar\" dipilih saat program "
-"pencari mulai dijalankan."
+msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
+msgstr "Kunci ini menentukan apakah pilihan \"Ukuran terbesar\" dipilih saat program pencari mulai dijalankan."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
-msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Kunci ini menentukan apakah program pencari mematikan fungsi perintah 'find' "
-"setelah melakukan pencarian cepat."
+msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
+msgstr "Kunci ini menentukan apakah program pencari mematikan fungsi perintah 'find' setelah melakukan pencarian cepat."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Kunci ini menentukan apakah program pencari mematikan fungsi perintah "
-"'locate' setelah melakukan pencarian cepat."
+msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
+msgstr "Kunci ini menentukan apakah program pencari mematikan fungsi perintah 'locate' setelah melakukan pencarian cepat."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
-msgstr ""
-"Kunci ini menentukan apakah jendela alat pencari akan dimulai dalam keadaan "
-"besar."
+msgid "This key determines if the search tool window starts in a maximized state."
+msgstr "Kunci ini menentukan apakah jendela alat pencari akan dimulai dalam keadaan besar."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -2405,7 +2287,8 @@ msgstr "Berisi _teks"
 msgid "_Date modified less than"
 msgstr "Tanggal modifikasi lebih mu_da dari"
 
-#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:84
 msgid "days"
 msgstr "hari"
 
@@ -2417,9 +2300,10 @@ msgstr "Tanggal modifikasi lebih tua dari"
 msgid "S_ize at least"
 msgstr "Ukuran pal_ing tidak"
 
-#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:87
 msgid "kilobytes"
-msgstr "kilobyte"
+msgstr "kilobita"
 
 #: ../gsearchtool/gsearchtool.c:87
 msgid "Si_ze at most"
@@ -2465,7 +2349,8 @@ msgstr "Tanpa sistem berkas lain"
 msgid "Show version of the application"
 msgstr "Tampilkan versi aplikasi"
 
-#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:158
+#: ../gsearchtool/gsearchtool.c:163
 #: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
 msgstr "STRING"
@@ -2478,13 +2363,15 @@ msgstr "PATH"
 msgid "VALUE"
 msgstr "VALUE"
 
-#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+#: ../gsearchtool/gsearchtool.c:164
+#: ../gsearchtool/gsearchtool.c:165
 msgid "DAYS"
 msgstr "DAYS"
 
-#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+#: ../gsearchtool/gsearchtool.c:166
+#: ../gsearchtool/gsearchtool.c:167
 msgid "KILOBYTES"
-msgstr "KILOBYTES"
+msgstr "KILOBITA"
 
 #: ../gsearchtool/gsearchtool.c:169
 msgid "USER"
@@ -2511,12 +2398,14 @@ msgstr "Konversi gugus karakter gagal dilakukan untuk \"%s\""
 msgid "Searching..."
 msgstr "Pencarian sedang dilakukan..."
 
-#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
+#: ../gsearchtool/gsearchtool.c:506
+#: ../gsearchtool/gsearchtool.c:1012
 #: ../gsearchtool/gsearchtool.c:2972
 msgid "Search for Files"
 msgstr "Cari Berkas"
 
-#: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
+#: ../gsearchtool/gsearchtool.c:958
+#: ../gsearchtool/gsearchtool.c:987
 msgid "No files found"
 msgstr "Tidak ada berkas yang ditemukan"
 
@@ -2534,7 +2423,8 @@ msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "%'d Berkas Ditemukan"
 
-#: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
+#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:1033
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -2554,9 +2444,7 @@ msgstr "Isi teks pada 'Cari dalam folder'"
 
 #: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"Urutkan berkas berdasarkan salah satu dari: nama, folder, ukuran, tipe, "
-"tanggal"
+msgstr "Urutkan berkas berdasarkan salah satu dari: nama, folder, ukuran, tipe, tanggal"
 
 #: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
@@ -2589,22 +2477,17 @@ msgstr ""
 "... pesan error terlampau banyak ..."
 
 #: ../gsearchtool/gsearchtool.c:1712
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
+msgid "The search results may be invalid.  There were errors while performing this search."
 msgstr "Hasil pencarian mungkin keliru. Ada error saat melakukan pencarian."
 
-#: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
+#: ../gsearchtool/gsearchtool.c:1721
+#: ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
 msgstr "Tampilkan _rinciannya"
 
 #: ../gsearchtool/gsearchtool.c:1751
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Hasil pencarian mungkin keliru atau kadaluwarsa. Matikan fasilitas pencarian "
-"cepat?"
+msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
+msgstr "Hasil pencarian mungkin keliru atau kadaluwarsa. Matikan fasilitas pencarian cepat?"
 
 #: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
@@ -2690,10 +2573,10 @@ msgstr "Tanggal Modifikasi"
 msgid "_Name contains:"
 msgstr "_Nama berisi:"
 
-#: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
+#: ../gsearchtool/gsearchtool.c:2756
+#: ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"Masukkan nama berkas atau potongan nama berkas dengan atau kode wildcard."
+msgstr "Masukkan nama berkas atau potongan nama berkas dengan atau kode wildcard."
 
 #: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
@@ -2789,7 +2672,7 @@ msgstr "Bukan butir yang dapat diluncurkan"
 
 #: ../libeggsmclient/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr "Matikan sambungan ke manajer sesi"
+msgstr "Menonaktifkan koneksi ke manajer sesi"
 
 #: ../libeggsmclient/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
@@ -2848,32 +2731,20 @@ msgid "Size of the font used to display the log"
 msgstr "Ukuran huruf yang digunakan untuk menampilkan log"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
-msgid ""
-"Specifies a list of log files to open up at startup. A default list is "
-"created by reading /etc/syslog.conf."
-msgstr ""
-"Tentukan berkas log yang akan dibuka saat program dijalankan. Daftar default "
-"dibuat dengan membaca /etc/syslog.conf."
+msgid "Specifies a list of log files to open up at startup. A default list is created by reading /etc/syslog.conf."
+msgstr "Tentukan berkas log yang akan dibuka saat program dijalankan. Daftar default dibuat dengan membaca /etc/syslog.conf."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr "Tentukan tinggi jendela utama penampil log dalam piksel."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
-msgid ""
-"Specifies the log file displayed at startup. The default is either /var/adm/"
-"messages or /var/log/messages, depending on your operating system."
-msgstr ""
-"Tentukan berkas log yang dibuka saat program dijalankan. Biasanya bernilai/"
-"var/adm/messages atau /var/log/messages bergantung pada sistem operasi."
+msgid "Specifies the log file displayed at startup. The default is either /var/adm/messages or /var/log/messages, depending on your operating system."
+msgstr "Tentukan berkas log yang dibuka saat program dijalankan. Biasanya bernilai/var/adm/messages atau /var/log/messages bergantung pada sistem operasi."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
-msgid ""
-"Specifies the size of the fixed-width font used to display the log in the "
-"main tree view. The default is taken from the default terminal font size."
-msgstr ""
-"Tentukan ukuran dari huruf lebar-tetap yang digunakan menampilkan log pada "
-"tampilan pohon utama. Defaultnya diambil dari ukuran huruf default terminal."
+msgid "Specifies the size of the fixed-width font used to display the log in the main tree view. The default is taken from the default terminal font size."
+msgstr "Tentukan ukuran dari huruf lebar-tetap yang digunakan menampilkan log pada tampilan pohon utama. Defaultnya diambil dari ukuran huruf default terminal."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
@@ -3005,147 +2876,156 @@ msgstr " - Cari dan pantau log"
 msgid "Log Viewer"
 msgstr "Penampil Log"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38
+#: ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Penampil Log Sistem"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "pembaruan terakhir: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d baris (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Buka Log"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Ada galat saat menampilkan bantuan: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Dilipat"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "Penampil log untuk GNOME."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Tapis"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "B_uka..."
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Buka log dari sebuah berkas"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "_Tutup"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Tutup log ini"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "_Keluar"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Keluar dari penampil log ini"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Salin"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Salin teks pilihan"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Tampilkan seluruh isi log"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "_Temukan..."
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Cari kata atau frasa dalam log"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Ukuran teks lebih besar"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Ukuran teks lebih kecil"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Ukuran teks normal"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Kelola Tapis"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Kelola tapis"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Buka daftar isi bantuan"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Tampilkan dialog tentang aplikasi penampil log"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "_Status panel"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "Tampilkan Panel Status"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "_Panel Samping"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Tampilkan Panel Samping"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Hanya tampilkan yang cocok"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "Hanya tampilkan baris-baris yang cocok dengan penyaring yang diberikan"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "Gulung Otom_atis"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Menggulung otomatis ketika muncul baris baru"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Tak bisa membaca dari \"%s\""
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Versi: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Tak dapat membuka berkas berikut:"
 
@@ -3185,11 +3065,13 @@ msgstr "Jenis:"
 msgid "Size:"
 msgstr "Ukuran:"
 
-#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+#: ../font-viewer/font-view.c:352
+#: ../font-viewer/font-view.c:365
 msgid "Version:"
 msgstr "Versi: "
 
-#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+#: ../font-viewer/font-view.c:356
+#: ../font-viewer/font-view.c:367
 msgid "Copyright:"
 msgstr "Hak Cipta:"
 
@@ -3221,5 +3103,4 @@ msgstr "Penampil Fonta"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Pratilik fonta"
-
 
