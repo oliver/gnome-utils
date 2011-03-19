@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-14 17:34+0000\n"
-"PO-Revision-Date: 2011-03-17 20:39+0100\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
+"PO-Revision-Date: 2011-03-19 15:22+0100\n"
 "Last-Translator: Bruno Brouard <annoa.b@gmail.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,8 @@ msgstr "Préférences de l'analyseur d'utilisation des disques"
 #: ../baobab/data/baobab-preferences-dialog.ui.h:2
 msgid "Select _devices to include in filesystem scan:"
 msgstr ""
-"Sélectionner les _périphériques à inclure dans l'analyse du système de fichiers :"
+"Sélectionner les _périphériques à inclure dans l'analyse du système de "
+"fichiers :"
 
 #: ../baobab/data/baobab-preferences-dialog.ui.h:3
 msgid "_Monitor changes to your home folder"
@@ -1537,82 +1538,82 @@ msgstr "Stratégies disponibles"
 msgid "Dictionary sources"
 msgstr "Sources de dictionnaires"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Erreur lors du chargement de la page d'aide"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Aucun"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Ombre portée"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Bordure"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Inclure le _pointeur"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "_Inclure la bordure de la fenêtre"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Appliquer l'_effet :"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Capturer l'ensemble du _bureau"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Capturer la _fenêtre actuelle"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Sélectionner la _zone à capturer"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Capturer _après un délai de"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "secondes"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Effets"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "Prendre une _capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Erreur lors de l'enregistrement de la capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1623,15 +1624,15 @@ msgstr ""
 " L'erreur est %s.\n"
 " Veuillez choisir un autre emplacement et réessayez."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Capture d'écran effectuée"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Impossible de prendre une capture d'écran de la fenêtre actuelle"
 
-#: ../gnome-screenshot/gnome-screenshot.c:891
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Capture-%s.png"
@@ -1639,64 +1640,64 @@ msgstr "Capture-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:898
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Capture-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:908
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Capture.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:915
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Capture-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Capturer une fenêtre plutôt que l'écran complet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Capturer une zone de l'écran plutôt que l'écran complet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Inclure la bordure de la fenêtre dans la capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Enlever la bordure de la fenêtre dans la capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Effectue une capture d'écran après le délai indiqué [en secondes]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effet à appliquer à la bordure (ombre, bordure ou aucun)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "effet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1262
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Options définies de manière interactive"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1273
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Effectue une capture d'écran"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1756,34 +1757,43 @@ msgid "Include Border"
 msgstr "Inclure la bordure"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+msgid "Include ICC Profile"
+msgstr "Inclure le profil ICC"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Inclure le pointeur"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Inclure le profil ICC de la cible dans le fichier de la "
+"capture d'écran"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Inclure le pointeur dans la capture d'écran"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Inclure la bordure du gestionnaire de fenêtre dans la capture d'écran"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Délai avant la capture d'écran"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Dossier des captures d'écran"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Dossier dans lequel a été enregistré la dernière capture d'écran."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "L'attente en secondes avant de réaliser la capture d'écran."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Capture d'écran spécifique à une fenêtre (obsolète)"
 
@@ -1800,7 +1810,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Sélectionner un dossier"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1809,7 +1819,7 @@ msgstr ""
 "Impossible de vider le répertoire temporaire :\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
@@ -1817,7 +1827,7 @@ msgstr ""
 "Le processus fils d'enregistrement a quitté inopinément. Impossible d'écrire "
 "la capture d'écran sur le disque."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr ""
 "Erreur inconnue lors de l'enregistrement de la capture d'écran sur le disque"
