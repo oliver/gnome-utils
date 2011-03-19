@@ -14,16 +14,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils trunk\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-25 13:16+0200\n"
-"PO-Revision-Date: 2010-02-16 23:51+0300\n"
-"Last-Translator: Alexander Saprykin <xelfium@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
+"PO-Revision-Date: 2011-03-20 00:10+0400\n"
+"Last-Translator: Yuri Myaseodov <omerta13@yandex.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "10<=4 && (n%100<10 || n%100>=20) ? 1: 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -36,18 +35,59 @@ msgstr "Изучение размера папок и свободного ме�
 msgid "Disk Usage Analyzer"
 msgstr "Анализатор использования дисков"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:1
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
 msgid "Disk Usage Analyzer Preferences"
 msgstr "Параметры анализатора использования дисков"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:2
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
 msgid "Select _devices to include in filesystem scan:"
-msgstr ""
-"Выберите _устройства, которые надо включить в сканирование файловой системы:"
+msgstr "Выберите _устройства, которые надо включить в сканирование файловой системы:"
 
-#: ../baobab/data/baobab-dialog-scan-props.ui.h:3
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
 msgid "_Monitor changes to your home folder"
 msgstr "Следить за _изменениями в домашней папке"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
+msgid "A list of URIs for partitions to be excluded from scanning."
+msgstr "Список разделов, которые не будут сканироваться."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
+msgid "Active Chart"
+msgstr "Текущая диаграмма"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
+msgid "Excluded partitions URIs"
+msgstr "Исключённые разделы"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
+msgid "Monitor Home"
+msgstr "Следить за домашней папкой"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
+#| msgid "Status Bar is Visible"
+msgid "Statusbar is Visible"
+msgstr "Показывать строку состояния"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
+msgid "Toolbar is Visible"
+msgstr "Панель инструментов видима"
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Наблюдать ли за изменениями в домашнем каталоге."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "Должна ли быть видима строка состояния внизу главного окна."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Должна ли быть видима панель инструментов в главном окне."
+
+#: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
+#| msgid "Whether the sidebar should be visible"
+msgid "Which type of chart should be displayed."
+msgstr "Какой тип диаграммы показывать."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -135,12 +175,14 @@ msgstr "Св_ернуть всё"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1234 ../logview/logview-window.c:866
+#: ../gnome-dictionary/src/gdict-window.c:1329
+#: ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Содержание"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1181 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1276
+#: ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Правка"
 
@@ -150,7 +192,8 @@ msgstr "_Развернуть всё"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1184 ../logview/logview-window.c:840
+#: ../gnome-dictionary/src/gdict-window.c:1279
+#: ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Справка"
 
@@ -159,80 +202,54 @@ msgid "_Toolbar"
 msgstr "_Панель инструментов"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1182 ../logview/logview-window.c:838
+#: ../gnome-dictionary/src/gdict-window.c:1277
+#: ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Вид"
 
-#: ../baobab/data/baobab.schemas.in.h:1
-msgid "A list of URIs for partitions to be excluded from scanning."
-msgstr "Список разделов, которые не будут сканироваться."
-
-#: ../baobab/data/baobab.schemas.in.h:2
-msgid "Enable monitoring of home directory"
-msgstr "Включить наблюдение за домашним каталогом"
-
-#: ../baobab/data/baobab.schemas.in.h:3
-msgid "Excluded partitions URIs"
-msgstr "Исключённые разделы"
-
-#: ../baobab/data/baobab.schemas.in.h:4
-msgid "Status Bar is Visible"
-msgstr "Строка состояния видима"
-
-#: ../baobab/data/baobab.schemas.in.h:5
-msgid "Subfolders tooltips visible"
-msgstr "Отображать подкаталоги в подсказках"
-
-#: ../baobab/data/baobab.schemas.in.h:6
-msgid "Toolbar is Visible"
-msgstr "Панель инструментов видима"
-
-#: ../baobab/data/baobab.schemas.in.h:7
-msgid "Whether any change to the home directory should be monitored."
-msgstr "Наблюдать ли за изменениями в домашнем каталоге."
-
-#: ../baobab/data/baobab.schemas.in.h:8
-msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "Должна ли быть видима строка состояния внизу главного окна."
-
-#: ../baobab/data/baobab.schemas.in.h:9
-msgid "Whether the subfolder tooltips of the selected folder are drawn."
-msgstr ""
-"Будут ли видны всплывающие подсказки с названиями папок, вложенных в данную "
-"папку."
-
-#: ../baobab/data/baobab.schemas.in.h:10
-msgid "Whether the toolbar should be visible in main window."
-msgstr "Должна ли быть видима панель инструментов в главном окне."
-
-#: ../baobab/src/baobab.c:139 ../baobab/src/baobab.c:326
+#: ../baobab/src/baobab.c:136
+#: ../baobab/src/baobab.c:388
 msgid "Scanning..."
 msgstr "Идёт сканирование..."
 
+#: ../baobab/src/baobab.c:182
+msgid "Total filesystem capacity:"
+msgstr "Общая ёмкость файловой системы:"
+
+#: ../baobab/src/baobab.c:183
+msgid "used:"
+msgstr "использовано:"
+
+#: ../baobab/src/baobab.c:184
+msgid "available:"
+msgstr "доступно:"
+
 #. set statusbar, percentage and allocated/normal size
-#: ../baobab/src/baobab.c:209 ../baobab/src/baobab.c:268
-#: ../baobab/src/callbacks.c:264
+#: ../baobab/src/baobab.c:273
+#: ../baobab/src/baobab.c:330
+#: ../baobab/src/callbacks.c:265
 msgid "Calculating percentage bars..."
 msgstr "Вычисляется процентное соотношение..."
 
-#: ../baobab/src/baobab.c:220 ../baobab/src/baobab.c:1169
-#: ../baobab/src/callbacks.c:268
+#: ../baobab/src/baobab.c:284
+#: ../baobab/src/baobab.c:1325
+#: ../baobab/src/callbacks.c:269
 msgid "Ready"
 msgstr "Готово"
 
-#: ../baobab/src/baobab.c:362
+#: ../baobab/src/baobab.c:421
 msgid "Total filesystem capacity"
 msgstr "Общая ёмкость файловой системы"
 
-#: ../baobab/src/baobab.c:384
+#: ../baobab/src/baobab.c:443
 msgid "Total filesystem usage"
 msgstr "Общее использование ФС"
 
-#: ../baobab/src/baobab.c:425
+#: ../baobab/src/baobab.c:484
 msgid "contains hardlinks for:"
 msgstr "содержит «жёсткие» ссылки для:"
 
-#: ../baobab/src/baobab.c:434
+#: ../baobab/src/baobab.c:493
 #, c-format
 msgid "%5d item"
 msgid_plural "%5d items"
@@ -240,117 +257,116 @@ msgstr[0] "%5d объект"
 msgstr[1] "%5d объекта"
 msgstr[2] "%5d объектов"
 
-#: ../baobab/src/baobab.c:785
+#: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
 msgstr "Не удалось начать наблюдение за файлами"
 
-#: ../baobab/src/baobab.c:786
+#: ../baobab/src/baobab.c:621
 msgid "Changes to your home folder will not be monitored."
 msgstr "Изменения в вашей домашней папке не будут отслеживаться."
 
-#: ../baobab/src/baobab.c:893
+#: ../baobab/src/baobab.c:945
 msgid "Move to parent folder"
 msgstr "Перейти к папке более высокого уровня"
 
-#: ../baobab/src/baobab.c:897
+#: ../baobab/src/baobab.c:949
 msgid "Zoom in"
 msgstr "Увеличить"
 
-#: ../baobab/src/baobab.c:901
+#: ../baobab/src/baobab.c:953
 msgid "Zoom out"
 msgstr "Уменьшить"
 
-#: ../baobab/src/baobab.c:905
+#: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
 msgstr "Сохранить снимок экрана"
 
-#: ../baobab/src/baobab.c:991
+#: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
 msgstr "Отобразить в виде круговой диаграммы"
 
-#: ../baobab/src/baobab.c:993
+#: ../baobab/src/baobab.c:1145
 msgid "View as Treemap Chart"
 msgstr "Отобразить в виде древовидной карты"
 
-#: ../baobab/src/baobab.c:1092
+#: ../baobab/src/baobab.c:1250
 msgid "Show version"
 msgstr "Показать версию"
 
-#: ../baobab/src/baobab.c:1093
+#: ../baobab/src/baobab.c:1251
 msgid "[DIRECTORY]"
 msgstr "[КАТАЛОГ]"
 
-#: ../baobab/src/baobab.c:1123
+#: ../baobab/src/baobab.c:1281
 msgid "Too many arguments. Only one directory can be specified."
 msgstr "Слишком много параметров. Можно указать только один каталог."
 
-#: ../baobab/src/baobab.c:1141
+#: ../baobab/src/baobab.c:1298
 msgid "Could not detect any mount point."
 msgstr "Не удалось определить точку монтирования."
 
-#: ../baobab/src/baobab.c:1144
+#: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
-msgstr ""
-"Невозможно проанализировать использование диска без точки монтирования."
+msgstr "Невозможно проанализировать использование диска без точки монтирования."
 
-#: ../baobab/src/baobab-chart.c:206
+#: ../baobab/src/baobab-chart.c:205
 msgid "Maximum depth"
 msgstr "Максимальная глубина"
 
-#: ../baobab/src/baobab-chart.c:207
+#: ../baobab/src/baobab-chart.c:206
 msgid "The maximum depth drawn in the chart from the root"
 msgstr "Максимальная глубина колец, показываемых в диаграмме от корня"
 
-#: ../baobab/src/baobab-chart.c:216
+#: ../baobab/src/baobab-chart.c:215
 msgid "Chart model"
 msgstr "Модель диаграммы"
 
-#: ../baobab/src/baobab-chart.c:217
+#: ../baobab/src/baobab-chart.c:216
 msgid "Set the model of the chart"
 msgstr "Указать модель диаграммы"
 
-#: ../baobab/src/baobab-chart.c:224
+#: ../baobab/src/baobab-chart.c:223
 msgid "Chart root node"
 msgstr "Корневой узел диаграммы"
 
-#: ../baobab/src/baobab-chart.c:225
+#: ../baobab/src/baobab-chart.c:224
 msgid "Set the root node from the model"
 msgstr "Выбрать корневой узел диаграммы"
 
-#: ../baobab/src/baobab-chart.c:1695
+#: ../baobab/src/baobab-chart.c:1690
 msgid "Cannot create pixbuf image!"
 msgstr "Не удалось создать изображение pixbuf!"
 
 #. Popup the File chooser dialog
-#: ../baobab/src/baobab-chart.c:1705
+#: ../baobab/src/baobab-chart.c:1700
 msgid "Save Snapshot"
 msgstr "Сохранить снимок"
 
-#: ../baobab/src/baobab-chart.c:1734
+#: ../baobab/src/baobab-chart.c:1727
 msgid "_Image type:"
 msgstr "Тип _изображения:"
 
-#: ../baobab/src/baobab-prefs.c:181
+#: ../baobab/src/baobab-prefs.c:172
 msgid "Scan"
 msgstr "Сканировать"
 
-#: ../baobab/src/baobab-prefs.c:188
+#: ../baobab/src/baobab-prefs.c:179
 msgid "Device"
 msgstr "Устройство"
 
-#: ../baobab/src/baobab-prefs.c:196
+#: ../baobab/src/baobab-prefs.c:187
 msgid "Mount Point"
 msgstr "Точка монтирования"
 
-#: ../baobab/src/baobab-prefs.c:204
+#: ../baobab/src/baobab-prefs.c:195
 msgid "Filesystem Type"
 msgstr "Тип файловой системы"
 
-#: ../baobab/src/baobab-prefs.c:212
+#: ../baobab/src/baobab-prefs.c:203
 msgid "Total Size"
 msgstr "Общий размер"
 
-#: ../baobab/src/baobab-prefs.c:221
+#: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
 msgstr "Доступно"
 
@@ -395,68 +411,65 @@ msgstr "Не удалось подключиться к серверу. Необ
 msgid "Please enter a name and try again."
 msgstr "Введите имя и попробуйте снова."
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:443
+#: ../baobab/src/baobab-remote-connect-dialog.c:441
 msgid "_Location (URI):"
 msgstr "_Адрес (URI):"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:465
+#: ../baobab/src/baobab-remote-connect-dialog.c:463
 msgid "_Server:"
 msgstr "С_ервер:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:484
+#: ../baobab/src/baobab-remote-connect-dialog.c:482
 msgid "Optional information:"
 msgstr "Необязательные сведения:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:496
+#: ../baobab/src/baobab-remote-connect-dialog.c:494
 msgid "_Share:"
 msgstr "Рес_урс:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:517
+#: ../baobab/src/baobab-remote-connect-dialog.c:515
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:7
 msgid "_Port:"
 msgstr "По_рт:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:537
+#: ../baobab/src/baobab-remote-connect-dialog.c:535
 msgid "_Folder:"
 msgstr "_Папка:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:557
+#: ../baobab/src/baobab-remote-connect-dialog.c:555
 msgid "_User Name:"
 msgstr "_Имя пользователя:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:578
+#: ../baobab/src/baobab-remote-connect-dialog.c:576
 msgid "_Domain Name:"
 msgstr "_Доменное имя:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:645
+#: ../baobab/src/baobab-remote-connect-dialog.c:643
 msgid "Connect to Server"
 msgstr "Соединиться с сервером"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:662
+#: ../baobab/src/baobab-remote-connect-dialog.c:659
 msgid "Service _type:"
 msgstr "_Тип службы:"
 
-#: ../baobab/src/baobab-remote-connect-dialog.c:781
+#: ../baobab/src/baobab-remote-connect-dialog.c:778
 msgid "_Scan"
 msgstr "_Сканировать"
 
-#: ../baobab/src/baobab-treeview.c:86
+#: ../baobab/src/baobab-treeview.c:82
 msgid "Rescan your home folder?"
 msgstr "Пересканировать домашнюю папку?"
 
-#: ../baobab/src/baobab-treeview.c:87
-msgid ""
-"The content of your home folder has changed. Select rescan to update the "
-"disk usage details."
-msgstr ""
-"Содержимое вашей домашней папки изменилось. Чтобы обновить сведения об "
-"использовании диска, её надо пересканировать."
+#: ../baobab/src/baobab-treeview.c:83
+msgid "The content of your home folder has changed. Select rescan to update the disk usage details."
+msgstr "Содержимое вашей домашней папки изменилось. Чтобы обновить сведения об использовании диска, её надо пересканировать."
 
-#: ../baobab/src/baobab-treeview.c:88
+#: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
 msgstr "Пе_ресканировать"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2406
+#: ../baobab/src/baobab-treeview.c:222
+#: ../gsearchtool/gsearchtool.c:2389
 msgid "Folder"
 msgstr "Папка"
 
@@ -464,7 +477,8 @@ msgstr "Папка"
 msgid "Usage"
 msgstr "Использование"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2419
+#: ../baobab/src/baobab-treeview.c:258
+#: ../gsearchtool/gsearchtool.c:2402
 msgid "Size"
 msgstr "Размер"
 
@@ -472,110 +486,78 @@ msgstr "Размер"
 msgid "Contents"
 msgstr "Содержимое"
 
-#: ../baobab/src/baobab-utils.c:110
+#: ../baobab/src/baobab-utils.c:72
 msgid "Select Folder"
 msgstr "Выберите папку"
 
 #. add extra widget
-#: ../baobab/src/baobab-utils.c:122
+#: ../baobab/src/baobab-utils.c:84
 msgid "_Show hidden folders"
 msgstr "Показывать _скрытые папки"
 
-#: ../baobab/src/baobab-utils.c:301
+#: ../baobab/src/baobab-utils.c:263
 msgid "Cannot check an excluded folder!"
 msgstr "Не удалось проверить исключённую папку!"
 
-#: ../baobab/src/baobab-utils.c:325
+#: ../baobab/src/baobab-utils.c:287
 #, c-format
 msgid "\"%s\" is not a valid folder"
 msgstr "«%s» — недопустимая папка"
 
-#: ../baobab/src/baobab-utils.c:328
+#: ../baobab/src/baobab-utils.c:290
 msgid "Could not analyze disk usage."
 msgstr "Не удалось проанализировать использование дисков."
 
-#: ../baobab/src/baobab-utils.c:369
+#: ../baobab/src/baobab-utils.c:326
 msgid "_Open Folder"
 msgstr "_Открыть папку"
 
-#: ../baobab/src/baobab-utils.c:375
-#: ../gsearchtool/gsearchtool-callbacks.c:1203
+#: ../baobab/src/baobab-utils.c:332
+#: ../gsearchtool/gsearchtool-callbacks.c:1173
 msgid "Mo_ve to Trash"
 msgstr "У_далить в корзину"
 
-#: ../baobab/src/baobab-utils.c:401
-msgid "Total filesystem capacity:"
-msgstr "Общая ёмкость файловой системы:"
-
-#: ../baobab/src/baobab-utils.c:402
-msgid "used:"
-msgstr "использовано:"
-
-#: ../baobab/src/baobab-utils.c:403
-msgid "available:"
-msgstr "доступно:"
-
-#: ../baobab/src/baobab-utils.c:447
+#: ../baobab/src/baobab-utils.c:362
 #, c-format
 msgid "Could not open folder \"%s\""
 msgstr "Не удалось открыть папку «%s»"
 
-#: ../baobab/src/baobab-utils.c:450
+#: ../baobab/src/baobab-utils.c:365
 msgid "There is no installed viewer capable of displaying the folder."
 msgstr "Нет программы, способной показать эту папку."
 
-#: ../baobab/src/baobab-utils.c:519
+#: ../baobab/src/baobab-utils.c:433
 #, c-format
 msgid "Could not move \"%s\" to the Trash"
 msgstr "Не удалось поместить «%s» в корзину"
 
-#: ../baobab/src/baobab-utils.c:527
+#: ../baobab/src/baobab-utils.c:441
 msgid "Could not move file to the Trash"
 msgstr "Не удалось поместить файл в корзину"
 
-#: ../baobab/src/baobab-utils.c:529
+#: ../baobab/src/baobab-utils.c:443
 #, c-format
 msgid "Details: %s"
 msgstr "Подробности: %s"
 
-#: ../baobab/src/baobab-utils.c:576
+#: ../baobab/src/baobab-utils.c:479
 msgid "There was an error displaying help."
 msgstr "При отображении справки произошла ошибка."
 
-#: ../baobab/src/callbacks.c:78 ../logview/logview-about.h:49
-msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"Программа является свободным программным обеспечением. Вы можете "
-"распространять и/или изменять его на условиях GNU General Public License, "
-"опубликованной Free Software Foundation; либо версии 2 лицензии, либо (на "
-"ваше усмотрение) любой более поздней версии."
+#: ../baobab/src/callbacks.c:76
+#: ../logview/logview-about.h:49
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Программа является свободным программным обеспечением. Вы можете распространять и/или изменять его на условиях GNU General Public License, опубликованной Free Software Foundation; либо версии 2 лицензии, либо (на ваше усмотрение) любой более поздней версии."
 
-#: ../baobab/src/callbacks.c:83 ../logview/logview-about.h:53
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"Данная программа распространяется в надежде на то, что приложение будет "
-"полезно, но БЕЗ ВСЯКИХ ГАРАНТИЙ; не гарантируется даже ПРИГОДНОСТЬ или "
-"СООТВЕТСТВИЕ КАКИМ-ЛИБО ТРЕБОВАНИЯМ. Для получения дополнительной информации "
-"ознакомьтесь с GNU General Public License."
+#: ../baobab/src/callbacks.c:81
+#: ../logview/logview-about.h:53
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Данная программа распространяется в надежде на то, что приложение будет полезно, но БЕЗ ВСЯКИХ ГАРАНТИЙ; не гарантируется даже ПРИГОДНОСТЬ или СООТВЕТСТВИЕ КАКИМ-ЛИБО ТРЕБОВАНИЯМ. Для получения дополнительной информации ознакомьтесь с GNU General Public License."
 
-#: ../baobab/src/callbacks.c:88 ../logview/logview-about.h:57
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
-msgstr ""
-"Вы должны получить копию GNU General Public License вместе с программой "
-"просмотра журналов. Если этого не произошло, напишите в Free Software "
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
-"USA"
+#: ../baobab/src/callbacks.c:86
+#: ../logview/logview-about.h:57
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
+msgstr "Вы должны получить копию GNU General Public License вместе с программой просмотра журналов. Если этого не произошло, напишите в Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 
 #: ../baobab/src/callbacks.c:101
 msgid "Baobab"
@@ -586,7 +568,8 @@ msgid "A graphical tool to analyze disk usage."
 msgstr "Графическое средство для анализа использования дисков."
 
 #. translator credits
-#: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
+#: ../baobab/src/callbacks.c:110
+#: ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
 msgstr ""
@@ -597,12 +580,13 @@ msgstr ""
 "Леонид Кантер\n"
 "Василий Фаронов <qvvx@yandex.ru>"
 
-#: ../baobab/src/callbacks.c:207 ../gsearchtool/gsearchtool-callbacks.c:504
-#: ../gsearchtool/gsearchtool-callbacks.c:843
+#: ../baobab/src/callbacks.c:208
+#: ../gsearchtool/gsearchtool-callbacks.c:488
+#: ../gsearchtool/gsearchtool-callbacks.c:811
 msgid "The document does not exist."
 msgstr "Документ не существует."
 
-#: ../baobab/src/callbacks.c:318
+#: ../baobab/src/callbacks.c:289
 msgid "The folder does not exist."
 msgstr "Папка не существует."
 
@@ -623,7 +607,8 @@ msgid "Cl_ear"
 msgstr "Оч_истить"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1236 ../logview/logview-window.c:868
+#: ../gnome-dictionary/src/gdict-window.c:1331
+#: ../logview/logview-window.c:846
 msgid "_About"
 msgstr "_О программе..."
 
@@ -632,7 +617,7 @@ msgid "_Look Up Selected Text"
 msgstr "Искать в_ыделенный текст"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "П_араметры"
 
@@ -649,193 +634,44 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Проверить определение и правописание слова в онлайн-словаре"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:608
-#: ../gnome-dictionary/src/gdict-window.c:1953
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "Словарь"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "Сервер словаря (устарело)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "Порт, используемый для соединения с сервером (устарело)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Указывает, используется ли «умный» поиск. Ключ зависит от того, поддерживает "
-"ли сервер этот параметр. По умолчанию ключ установлен. Этот ключ устарел и "
-"больше не используется."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "Используемая по умолчанию база данных"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "Высота окна приложения по умолчанию"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "Используемая стратегия поиска по умолчанию"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "Ширина окна приложения по умолчанию"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"Сервер словаря, с которым следует соединяться. Сервер по умолчанию — dict."
-"org. Подробные сведения о других серверах можно найти на http://www.dict."
-"org. Этот ключ устарел и больше не используется."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "Шрифт, используемый для печати"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "Шрифт, который используется при печати определения."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
-msgid ""
-"The name of the default individual database or meta-database to use on a "
-"dictionary source. An exclamation mark (\"!\") means that all the databases "
-"present in a dictionary source should be searched"
-msgstr ""
-"Название индивидуальной или мета-базы данных по умолчанию, которую следует "
-"использовать в источнике словарей. Восклицательный знак («!») означает, что "
-"надо искать во всех базах данных, представленных в источнике словарей."
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "Название индивидуальной или мета-базы данных по умолчанию, которую следует использовать в источнике словарей. Восклицательный знак («!») означает, что надо искать во всех базах данных, представленных в источнике словарей."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
-msgid ""
-"The name of the default search strategy to use on a dictionary source, if "
-"available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"Название стратегии поиска, используемой по умолчанию в источнике словарей, "
-"если она доступна. Стратегия по умолчанию — «exact», что означает поиск в "
-"точности совпадающих слов."
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "Название стратегии поиска, используемой по умолчанию в источнике словарей, если она доступна. Стратегия по умолчанию — «exact», что означает поиск в точности совпадающих слов."
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "Название используемого источника словарей"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr ""
-"Название источника словарей, используемого для получения определений слов."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "Показываемая страница боковой панели"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"Номер порта, с которым следует соединяться. Порт по умолчанию — 2628. Этот "
-"ключ устарел и больше не используется."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "Ширина боковой панели"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr ""
-"Этот ключ определяет ширину боковой панели и используется для запоминания "
-"значения между сеансами."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"Этот ключ определяет высоту окна словаря и используется для сохранения "
-"размера окна между сеансами. Если установить этот ключ в -1, то будет "
-"использоваться высота, основанная на размере шрифта."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"Этот ключ определяет ширину окна словаря и используется для сохранения "
-"размера окна между сеансами. Если установить этот ключ в -1, то будет "
-"использоваться ширина, основанная на размере шрифта."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"Этот ключ определяет, должна ли боковая панель быть видимой, и используется "
-"для запоминания состояния боковой панели между сеансами. Если этот ключ "
-"установлен, то боковая панель видима."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"Этот ключ определяет, должна ли строка состояния быть видимой, и "
-"используется для запоминания её состояния между сеансами. Если этот ключ "
-"установлен, то строка состояния видима."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"Этот ключ определяет, должно ли окно словаря быть развёрнутым, и "
-"используется для сохранения состояния окна между сеансами. Если этот ключ "
-"установлен, то окно развёрнуто."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"Этот ключ определяет, какая страница боковой панели должна показываться, и "
-"используется для запоминания этого состояния между сеансами. Возможные "
-"значения — «speller» и «databases»."
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "Использовать «умный» поиск (устарело)"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "Должно ли окно приложения быть развёрнуто"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "Должна ли боковая панель быть видимой"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "Должна ли строка состояния быть видимой"
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Название источника словарей, используемого для получения определений слов."
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -940,12 +776,8 @@ msgstr "Не удалось найти узел «%s»: узел не найде
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1177
 #, c-format
-msgid ""
-"Unable to connect to the dictionary server at '%s:%d'. The server replied "
-"with code %d (server down)"
-msgstr ""
-"Не удалось соединиться с сервером словарей «%s:%d». Сервер ответил кодом %d "
-"(сервер недоступен)"
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "Не удалось соединиться с сервером словарей «%s:%d». Сервер ответил кодом %d (сервер недоступен)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -1039,54 +871,54 @@ msgstr "Только на локальных"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "Использовать контекст только на локальных словарях или нет"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "Перезагрузить список доступных баз данных"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "Очистить список доступных баз данных"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
-#: ../gnome-dictionary/libgdict/gdict-speller.c:779
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:837
+#: ../gnome-dictionary/libgdict/gdict-speller.c:778
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "Произошла ошибка при поиске совпадений"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
-#: ../logview/logview-window.c:513
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Совпадений не найдено"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
 msgstr "_Найти:"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
 msgid "_Previous"
 msgstr "_Предыдущее"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
 msgstr "_Следующее"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
 msgstr "Произошла ошибка при поиске определения"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
-#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Сейчас идёт другой поиск"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
-#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Подождите, пока закончится текущий поиск."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
 msgid "Error while retrieving the definition"
 msgstr "Произошла ошибка при получении определения"
 
@@ -1099,7 +931,7 @@ msgid "The filename used by this dictionary source"
 msgstr "Имя файла, используемое этим источником словарей"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2382
+#: ../gsearchtool/gsearchtool.c:2365
 msgid "Name"
 msgstr "Имя"
 
@@ -1116,7 +948,7 @@ msgid "The description of this dictionary source"
 msgstr "Описание этого источника словарей"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:274
-#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+#: ../gnome-dictionary/libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "База данных"
 
@@ -1125,7 +957,7 @@ msgid "The default database of this dictonary source"
 msgstr "База данных этого источника словарей по умолчанию"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
-#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+#: ../gnome-dictionary/libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "Стратегия"
 
@@ -1142,7 +974,7 @@ msgid "The transport mechanism used by this dictionary source"
 msgstr "Механизм транспорта, используемый этим источником словарей"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
-#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+#: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "Контекст"
 
@@ -1170,10 +1002,8 @@ msgstr "Не удалось получить ключ «%s» внутри опр
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
-msgstr ""
-"Не удалось получить ключ «%s» внутри файла определения источника словарей: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "Не удалось получить ключ «%s» внутри файла определения источника словарей: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:741
 #, c-format
@@ -1185,7 +1015,7 @@ msgstr "У источника словарей отсутствует имя"
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "Источник словарей «%s» имеет недопустимый транспорт «%s»"
 
-#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
 msgstr "Перезагрузить список доступных источников"
 
@@ -1205,27 +1035,27 @@ msgstr "Источники"
 msgid "Dictionary sources found"
 msgstr "Найденные источники словарей"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+#: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
 msgstr "Очистить список похожих слов"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
 msgstr "Объект GdictContext, используемый для получения определения слова"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
 msgid "The database used to query the GdictContext"
 msgstr "База данных, используемая для запросов GdictContext"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
 msgid "The strategy used to query the GdictContext"
 msgstr "Стратегия, используемая для запросов GdictContext"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "Перезагрузить список доступных стратегий"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "Очистить список доступных стратегий"
 
@@ -1255,146 +1085,96 @@ msgstr "Показать параметры GDict"
 msgid "Look up words in dictionaries"
 msgstr "Искать слова в словарях"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"Определение для «%s»\n"
-"  Из «%s»:\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "Ошибка: %s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "Сведения об использовании смотрите в «gnome-dictionary --help»\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "Не удалось найти подходящий источник словарей"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"Произошла ошибка при поиске определения «%s»:\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "Слова для поиска"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
-msgstr "cлово"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
+msgstr "СЛОВО"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "Слова для поиска"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "Используемый источник словарей"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "источник"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "НАЗВАНИЕ"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "Показать доступные источники словарей"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "Вывести результат на консоль"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "Используемая база данных"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "бд"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "Используемая стратегия поиска"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "страт"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "СЛОВА"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " — искать слова в словарях"
 
-#: ../gnome-dictionary/src/gdict-applet.c:205
-#: ../gnome-dictionary/src/gdict-window.c:837
+#: ../gnome-dictionary/src/gdict-applet.c:206
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "Сохранить копию"
 
-#: ../gnome-dictionary/src/gdict-applet.c:215
-#: ../gnome-dictionary/src/gdict-window.c:847
+#: ../gnome-dictionary/src/gdict-applet.c:216
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "Безымянный документ"
 
-#: ../gnome-dictionary/src/gdict-applet.c:236
-#: ../gnome-dictionary/src/gdict-window.c:868
+#: ../gnome-dictionary/src/gdict-applet.c:237
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Произошла ошибка при записи в «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:361
+#: ../gnome-dictionary/src/gdict-applet.c:362
 msgid "Clear the definitions found"
 msgstr "Очистить найденные определения"
 
-#: ../gnome-dictionary/src/gdict-applet.c:363
+#: ../gnome-dictionary/src/gdict-applet.c:364
 msgid "Clear definition"
 msgstr "Очистить определение"
 
-#: ../gnome-dictionary/src/gdict-applet.c:364
+#: ../gnome-dictionary/src/gdict-applet.c:365
 msgid "Clear the text of the definition"
 msgstr "Очистить текст определения"
 
-#: ../gnome-dictionary/src/gdict-applet.c:371
+#: ../gnome-dictionary/src/gdict-applet.c:372
 msgid "Print the definitions found"
 msgstr "Распечатать найденные определения"
 
-#: ../gnome-dictionary/src/gdict-applet.c:373
+#: ../gnome-dictionary/src/gdict-applet.c:374
 msgid "Print definition"
 msgstr "Распечатать определение"
 
-#: ../gnome-dictionary/src/gdict-applet.c:374
+#: ../gnome-dictionary/src/gdict-applet.c:375
 msgid "Print the text of the definition"
 msgstr "Распечатать текст определения"
 
-#: ../gnome-dictionary/src/gdict-applet.c:381
+#: ../gnome-dictionary/src/gdict-applet.c:382
 msgid "Save the definitions found"
 msgstr "Сохранить найденные определения"
 
-#: ../gnome-dictionary/src/gdict-applet.c:383
+#: ../gnome-dictionary/src/gdict-applet.c:384
 msgid "Save definition"
 msgstr "Сохранить определение"
 
-#: ../gnome-dictionary/src/gdict-applet.c:384
+#: ../gnome-dictionary/src/gdict-applet.c:385
 msgid "Save the text of the definition to a file"
 msgstr "Сохранить текст определения в файл"
 
@@ -1418,128 +1198,120 @@ msgstr "Введите слово, которое хотите найти"
 msgid "Dictionary entry"
 msgstr "Словарная запись"
 
-#: ../gnome-dictionary/src/gdict-applet.c:724
-#: ../gnome-dictionary/src/gdict-window.c:1001
+#: ../gnome-dictionary/src/gdict-applet.c:716
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "Параметры словаря"
 
-#: ../gnome-dictionary/src/gdict-applet.c:750
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:504
-#: ../gnome-dictionary/src/gdict-source-dialog.c:494
-#: ../gnome-dictionary/src/gdict-window.c:1145
+#: ../gnome-dictionary/src/gdict-applet.c:742
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Произошла ошибка при показе справки"
 
-#: ../gnome-dictionary/src/gdict-applet.c:902
-#: ../gnome-dictionary/src/gdict-window.c:517
+#: ../gnome-dictionary/src/gdict-applet.c:896
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Нет доступных источников словарей с именем «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:906
-#: ../gnome-dictionary/src/gdict-window.c:521
+#: ../gnome-dictionary/src/gdict-applet.c:900
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "Не удалось найти источник словарей"
 
-#: ../gnome-dictionary/src/gdict-applet.c:922
-#: ../gnome-dictionary/src/gdict-window.c:537
+#: ../gnome-dictionary/src/gdict-applet.c:916
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Нет доступного контекста для источника «%s»"
 
-#: ../gnome-dictionary/src/gdict-applet.c:926
-#: ../gnome-dictionary/src/gdict-window.c:541
+#: ../gnome-dictionary/src/gdict-applet.c:920
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "Не удалось создать контекст"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1191
-#: ../gnome-dictionary/src/gdict-window.c:2084
+#: ../gnome-dictionary/src/gdict-applet.c:1172
 msgid "Unable to connect to GConf"
 msgstr "Не удалось соединиться с GConf"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1204
-#: ../gnome-dictionary/src/gdict-window.c:2097
+#: ../gnome-dictionary/src/gdict-applet.c:1185
 msgid "Unable to get notification for preferences"
 msgstr "Не удалось получить уведомление для параметров"
 
-#: ../gnome-dictionary/src/gdict-applet.c:1218
-#: ../gnome-dictionary/src/gdict-window.c:2110
+#: ../gnome-dictionary/src/gdict-applet.c:1199
 msgid "Unable to get notification for the document font"
 msgstr "Не удалось получить уведомление для шрифта документа"
 
-#: ../gnome-dictionary/src/gdict-common.c:79
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "Не удалось переименовать файл «%s» в «%s»: %s"
-
-#: ../gnome-dictionary/src/gdict-common.c:103
-#: ../gnome-dictionary/src/gdict-common.c:126
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "Не удалось создать каталог с данными «%s»: %s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "Изменить источник словарей"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "Добавить источник словарей"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:354
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "Удалить «%s»?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "Источник словарей будет навсегда удалён из списка."
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:386
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Не удалось удалить источник «%s»"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Добавить новый источник словарей"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "Удалить выделенный источник словарей"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+#| msgid "Remove the currently selected dictionary source"
+msgid "Edit the currently selected dictionary source"
+msgstr "Изменить выбранный источник словарей"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "Установить шрифт для печати определений"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "Не удалось задействовать предварительный просмотр: %s"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:356
-#: ../gnome-dictionary/src/gdict-source-dialog.c:449
+#: ../gnome-dictionary/src/gdict-source-dialog.c:341
+#: ../gnome-dictionary/src/gdict-source-dialog.c:434
 msgid "Unable to create a source file"
 msgstr "Не удалось создать файл источника"
 
-#: ../gnome-dictionary/src/gdict-source-dialog.c:374
-#: ../gnome-dictionary/src/gdict-source-dialog.c:467
+#: ../gnome-dictionary/src/gdict-source-dialog.c:359
+#: ../gnome-dictionary/src/gdict-source-dialog.c:452
 msgid "Unable to save source file"
 msgstr "Не удалось сохранить файл источника"
 
-#: ../gnome-dictionary/src/gdict-window.c:316
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Идёт поиск «%s»..."
 
-#: ../gnome-dictionary/src/gdict-window.c:348
-#: ../gnome-dictionary/src/gdict-window.c:407
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "Определения не найдены"
 
-#: ../gnome-dictionary/src/gdict-window.c:350
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
@@ -1547,247 +1319,249 @@ msgstr[0] "Найдено %d определение"
 msgstr[1] "Найдено %d определения"
 msgstr[2] "Найдено %d определений"
 
-#: ../gnome-dictionary/src/gdict-window.c:606
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s — словарь"
 
-#: ../gnome-dictionary/src/gdict-window.c:1180 ../logview/logview-window.c:836
+#: ../gnome-dictionary/src/gdict-window.c:1275
+#: ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Файл"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "_Переход"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "_Создать"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "Создать новый поиск"
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "_Сохранить копию..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "Прос_мотреть вид на печати..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1192
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "Посмотреть, как документ будет выглядеть на печати"
 
-#: ../gnome-dictionary/src/gdict-window.c:1193
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "На_печатать..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1194
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "Напечатать этот документ"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201 ../logview/logview-window.c:851
+#: ../gnome-dictionary/src/gdict-window.c:1296
+#: ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Выделить _всё"
 
-#: ../gnome-dictionary/src/gdict-window.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "Найти слово или фразу в документе"
 
-#: ../gnome-dictionary/src/gdict-window.c:1206
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "Найти сле_дующее"
 
-#: ../gnome-dictionary/src/gdict-window.c:1208
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "_Найти предыдущее"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "П_редыдущее определение"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "Перейти к предыдущему определению"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "_Следующее определение"
 
-#: ../gnome-dictionary/src/gdict-window.c:1217
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "Перейти к следующему определению"
 
-#: ../gnome-dictionary/src/gdict-window.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "П_ервое определение"
 
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "Перейти к первому определению "
 
-#: ../gnome-dictionary/src/gdict-window.c:1220
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "_Последнее определение"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "Перейти к последнему определению"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1224
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "По_хожие слова"
 
-#: ../gnome-dictionary/src/gdict-window.c:1226
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "Источники словарей"
 
-#: ../gnome-dictionary/src/gdict-window.c:1228
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "_Доступные базы данных"
 
-#: ../gnome-dictionary/src/gdict-window.c:1230
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "Доступные с_тратегии"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1247
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "_Боковая панель"
 
-#: ../gnome-dictionary/src/gdict-window.c:1249
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "Строка _состояния"
 
-#: ../gnome-dictionary/src/gdict-window.c:1370
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Выбран источник словарей «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1391
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Выбрана стратегия «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1411
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Выбрана база данных «%s»"
 
-#: ../gnome-dictionary/src/gdict-window.c:1431
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Выделено слово «%s»"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1453
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "Дважды щёлкните по слову, которое хотите найти"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "Дважды щёлкните по стратегии, которую хотите использовать"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1464
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "Дважды щёлкните по источнику, который хотите использовать"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1473
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "Дважды щёлкните по базе данных, которую хотите использовать"
 
-#: ../gnome-dictionary/src/gdict-window.c:1761
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "_Искать:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1835
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "Похожие слова"
 
-#: ../gnome-dictionary/src/gdict-window.c:1848
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "Доступные словари"
 
-#: ../gnome-dictionary/src/gdict-window.c:1861
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "Доступные стратегии"
 
-#: ../gnome-dictionary/src/gdict-window.c:1872
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "Источники словарей"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Произошла ошибка при загрузке страницы справки"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Нет"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Отбрасывать тень"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Рамка"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Включить _указатель"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Включить ра_мку окна"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Применить _эффект:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Захватить весь _рабочий стол"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Захватить текущее _окно"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Выбрать _область захвата"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Захватить после _задержки"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "секунд"
 
-#: ../gnome-screenshot/gnome-screenshot.c:514
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Сделать снимок экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Эффекты"
 
@@ -1795,11 +1569,11 @@ msgstr "Эффекты"
 msgid "Take _Screenshot"
 msgstr "Сделать _снимок экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.c:657
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Произошла ошибка при сохранении снимка экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.c:661
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1810,15 +1584,15 @@ msgstr ""
 " Произошла ошибка %s.\n"
 " Выберите другое местоназначение и попытайтесь снова."
 
-#: ../gnome-screenshot/gnome-screenshot.c:793
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Cнимок экрана сделан"
 
-#: ../gnome-screenshot/gnome-screenshot.c:847
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Не удалось сделать снимок текущего окна"
 
-#: ../gnome-screenshot/gnome-screenshot.c:897
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Снимок-%s.png"
@@ -1826,71 +1600,67 @@ msgstr "Снимок-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:904
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Снимок-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:914
-#: ../gnome-screenshot/screenshot-dialog.c:356
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/gnome-screenshot.c:1003
+#: ../gnome-screenshot/screenshot-dialog.c:331
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Снимок.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:921
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Снимок-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Захватить снимок окна, а не всего экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Захватить область экрана, а не весь экран"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Включить рамку окна в снимок"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Исключить рамку окна из снимка"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Сделать снимок через указанное время [в секундах]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Эффект, добавляемый к рамке окна (тень, рамка или никакого)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1292
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "эффект"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1293
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Установить параметры интерактивно"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1304
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Сделать снимок экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1322
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
-msgid ""
-"Conflicting options: --window and --area should not be used at the same "
-"time.\n"
-msgstr ""
-"Несовместимые параметры: --window и --area не могут быть использованы "
-"одновременно.\n"
+msgid "Conflicting options: --window and --area should not be used at the same time.\n"
+msgstr "Несовместимые параметры: --window и --area не могут быть использованы одновременно.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
@@ -1917,65 +1687,65 @@ msgstr "Сохранить в _папке:"
 msgid "_Name:"
 msgstr "_Имя:"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "Эффект рамки"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
-msgid ""
-"Effect to add to the outside of a border. Possible values are \"shadow\", "
-"\"none\", and \"border\"."
-msgstr ""
-"Эффект, добавляемый вокруг рамки. Возможные варианты: «shadow», «none» и "
-"«border»."
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
+msgid "Effect to add to the outside of a border. Possible values are \"shadow\", \"none\", and \"border\"."
+msgstr "Эффект, добавляемый вокруг рамки. Возможные варианты: «shadow», «none» и «border»."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
-msgid ""
-"Grab just the current window, rather than the whole desktop. This key has "
-"been deprecated and it is no longer in use."
-msgstr ""
-"Снимать только текущее окно, а не весь рабочий стол. Этот ключ устарел и "
-"больше не используется."
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
+msgid "Grab just the current window, rather than the whole desktop. This key has been deprecated and it is no longer in use."
+msgstr "Снимать только текущее окно, а не весь рабочий стол. Этот ключ устарел и больше не используется."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "Включить рамку"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
+msgstr "Включать профиль ICC"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Включить указатель"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Включать целевой профиль ICC в файл снимка рабочего стола"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Включает указатель мыши в снимок экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Включить рамку оконного менеджера в снимок окна."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Задержка снимка экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Каталог для снимков экрана"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Каталог, в который последний раз был сохранён снимок."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
-msgstr ""
-"Число секунд, которое будет ожидаться до того, как будет сделан снимок "
-"экрана."
+msgstr "Число секунд, которое будет ожидаться до того, как будет сделан снимок экрана."
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Делать снимок текущего окна (устарел)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:239
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1983,11 +1753,11 @@ msgstr ""
 "Файл Glade для программы снимков экрана отсутствует.\n"
 "Проверьте, правильно ли установлен gnome-utils"
 
-#: ../gnome-screenshot/screenshot-dialog.c:260
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Выберите папку"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1996,42 +1766,38 @@ msgstr ""
 "Не удалось очистить временную папку:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
-msgid ""
-"The child save process unexpectedly exited.  We are unable to write the "
-"screenshot to disk."
-msgstr ""
-"Работа дочернего процесса сохранения неожиданно завершилась. Не удалось "
-"сохранить снимок экрана на диск."
+#: ../gnome-screenshot/screenshot-save.c:104
+msgid "The child save process unexpectedly exited.  We are unable to write the screenshot to disk."
+msgstr "Работа дочернего процесса сохранения неожиданно завершилась. Не удалось сохранить снимок экрана на диск."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Произошла неизвестная ошибка при сохранении снимка экрана на диск"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:828
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Безымянное окно"
 
-#: ../gnome-screenshot/screenshot-xfer.c:74
+#: ../gnome-screenshot/screenshot-xfer.c:72
 msgid "File already exists"
 msgstr "Файл уже существует"
 
-#: ../gnome-screenshot/screenshot-xfer.c:77
+#: ../gnome-screenshot/screenshot-xfer.c:75
 #, c-format
 msgid "The file \"%s\" already exists. Would you like to replace it?"
 msgstr "Файл «%s» уже существует. Заменить его?"
 
-#: ../gnome-screenshot/screenshot-xfer.c:84
-#: ../gsearchtool/gsearchtool-callbacks.c:1722
+#: ../gnome-screenshot/screenshot-xfer.c:82
+#: ../gsearchtool/gsearchtool-callbacks.c:1680
 msgid "_Replace"
 msgstr "_Заменить"
 
-#: ../gnome-screenshot/screenshot-xfer.c:122
+#: ../gnome-screenshot/screenshot-xfer.c:120
 msgid "Saving file..."
 msgstr "Сохранение файла..."
 
-#: ../gnome-screenshot/screenshot-xfer.c:294
+#: ../gnome-screenshot/screenshot-xfer.c:290
 msgid "Can't access source file"
 msgstr "Не удалось получить доступ к файлу источника"
 
@@ -2169,210 +1935,107 @@ msgstr "Показывать дополнительные параметры"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
-"Этот ключ определяет значение по умолчанию для элемента «Искать в папке»."
+msgstr "Этот ключ определяет значение по умолчанию для элемента «Искать в папке»."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
-msgid ""
-"This key defines the order of the columns in the search results. This key "
-"should not be modified by the user."
-msgstr ""
-"Этот ключ определяет порядок столбцов в результатах поиска. Это ключ не "
-"должен изменяться пользователем."
+msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
+msgstr "Этот ключ определяет порядок столбцов в результатах поиска. Это ключ не должен изменяться пользователем."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:55
-msgid ""
-"This key defines the paths the search tool will exclude from a quick search. "
-"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr ""
-"Этот ключ определяет пути, которые будут исключены из быстрого поиска. "
-"Поддерживаются шаблоны «*» и «?». Значения по умолчанию /mnt/*, /media/*, /dev/"
-"*, /tmp/*, /proc/* и /var/*."
+msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr "Этот ключ определяет пути, которые будут исключены из быстрого поиска. Поддерживаются шаблоны «*» и «?». Значения по умолчанию /mnt/*, /media/*, /dev/*, /tmp/*, /proc/* и /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
-msgid ""
-"This key defines the paths the search tool will exclude from a second scan "
-"when performing a quick search. The second scan uses the find command to "
-"search for files. The purpose of the second scan is to find files that have "
-"not been indexed. The wildcards '*' and '?' are supported. The default value "
-"is /."
-msgstr ""
-"Этот ключ определяет пути, которые средство поиска будет исключать при "
-"втором проходе быстрого поиска. Второй проход использует команду «find» для "
-"поиска файлов. Цель второго прохода — найти файлы, которые не были "
-"проиндексированы. Поддерживаются шаблоны «*» и «?». Значение по умолчанию — /."
+msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
+msgstr "Этот ключ определяет пути, которые средство поиска будет исключать при втором проходе быстрого поиска. Второй проход использует команду «find» для поиска файлов. Цель второго прохода — найти файлы, которые не были проиндексированы. Поддерживаются шаблоны «*» и «?». Значение по умолчанию — /."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
-msgid ""
-"This key defines the window height, and it's used to remember the size of "
-"the search tool between sessions. Setting it to -1 will make the search tool "
-"use the default height."
-msgstr ""
-"Этот ключ определяет высоту окна и используется для сохранения размера "
-"средства поиска между сеансами. Если установить в значение -1, то будет "
-"использоваться высота по умолчанию."
+msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr "Этот ключ определяет высоту окна и используется для сохранения размера средства поиска между сеансами. Если установить в значение -1, то будет использоваться высота по умолчанию."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
-msgid ""
-"This key defines the window width, and it's used to remember the size of the "
-"search tool between sessions. Setting it to -1 will make the search tool use "
-"the default width."
-msgstr ""
-"Этот ключ определяет ширину окна и используется для сохранения размера "
-"средства поиска между сеансами. Если установить в значение -1, то будет "
-"использоваться ширина по умолчанию."
+msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
+msgstr "Этот ключ определяет ширину окна и используется для сохранения размера средства поиска между сеансами. Если установить в значение -1, то будет использоваться ширина по умолчанию."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
-msgid ""
-"This key determines if the \"Contains the text\" search option is selected "
-"when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли выбран параметр «Содержит текст» при запуске "
-"средства поиска."
+msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли выбран параметр «Содержит текст» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
-msgid ""
-"This key determines if the \"Date modified less than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли выбран параметр «Дата изменения меньше, чем» "
-"при запуске средства поиска."
+msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли выбран параметр «Дата изменения меньше, чем» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
-msgid ""
-"This key determines if the \"Date modified more than\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли выбран параметр «Дата изменения больше, чем» "
-"при запуске средства поиска."
+msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли выбран параметр «Дата изменения больше, чем» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
-msgid ""
-"This key determines if the \"Exclude other filesystems\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Исключить другие файловые "
-"системы» при запуске средства поиска."
+msgid "This key determines if the \"Exclude other filesystems\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Исключить другие файловые системы» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:63
-msgid ""
-"This key determines if the \"File is empty\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли выбран параметр «Файл пуст» при запуске "
-"средства поиска."
+msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли выбран параметр «Файл пуст» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
-msgid ""
-"This key determines if the \"Follow symbolic links\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли выбран параметр «Следовать по символьным "
-"ссылкам» при запуске средства поиска."
+msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли выбран параметр «Следовать по символьным ссылкам» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
-msgid ""
-"This key determines if the \"Name does not contain\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Имя не содержит» при "
-"запуске средства поиска."
+msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Имя не содержит» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:66
-msgid ""
-"This key determines if the \"Name matches regular expression\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Имя совпадает с "
-"регулярным выражением» при запуске средства поиска."
+msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Имя совпадает с регулярным выражением» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:67
-msgid ""
-"This key determines if the \"Owned by group\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Принадлежит группе» при "
-"запуске средства поиска."
+msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Принадлежит группе» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:68
-msgid ""
-"This key determines if the \"Owned by user\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Принадлежит пользователю» "
-"при запуске средства поиска."
+msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Принадлежит пользователю» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
-msgid ""
-"This key determines if the \"Owner is unrecognized\" search option is "
-"selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Владелец не определён» "
-"при запуске средства поиска."
+msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Владелец не определён» при запуске средства поиска."
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:72
-msgid ""
-"This key determines if the \"Select more options\" section is expanded when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, разворачивать ли раздел дополнительных параметров при "
-"запуске средства поиска."
+msgid "This key determines if the \"Select more options\" section is expanded when the search tool is started."
+msgstr "Этот ключ определяет, разворачивать ли раздел дополнительных параметров при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:73
-msgid ""
-"This key determines if the \"Show hidden files and folders\" search option "
-"is selected when the search tool is started."
-msgstr ""
-"Этот ключ определяет, должен ли быть установлен параметр «Показывать скрытые "
-"файлы и папки» при запуске средства поиска."
+msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, должен ли быть установлен параметр «Показывать скрытые файлы и папки» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
-msgid ""
-"This key determines if the \"Size at least\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Размер не менее» при "
-"запуске средства поиска."
+msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Размер не менее» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
-msgid ""
-"This key determines if the \"Size at most\" search option is selected when "
-"the search tool is started."
-msgstr ""
-"Этот ключ определяет, будет ли установлен параметр «Размер не более» при "
-"запуске средства поиска."
+msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
+msgstr "Этот ключ определяет, будет ли установлен параметр «Размер не более» при запуске средства поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
-msgid ""
-"This key determines if the search tool disables the use of the find command "
-"after performing a quick search."
-msgstr ""
-"Этот ключ определяет, отключено ли использование команды find после быстрого "
-"поиска."
+msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
+msgstr "Этот ключ определяет, отключено ли использование команды find после быстрого поиска."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
-msgid ""
-"This key determines if the search tool disables the use of the locate "
-"command when performing simple file name searches."
-msgstr ""
-"Этот ключ определяет, отключено ли использование команды locate для "
-"выполнения простых поисков имён файлов."
+msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
+msgstr "Этот ключ определяет, отключено ли использование команды locate для выполнения простых поисков имён файлов."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
-msgstr ""
-"Этот ключ определяет, должно ли окно средства поиска появляться в "
-"развёрнутом виде."
+msgid "This key determines if the search tool window starts in a maximized state."
+msgstr "Этот ключ определяет, должно ли окно средства поиска появляться в развёрнутом виде."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
 msgstr "Не удалось открыть документ справки."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:345
+#: ../gsearchtool/gsearchtool-callbacks.c:341
 #, c-format
 msgid "Are you sure you want to open %d document?"
 msgid_plural "Are you sure you want to open %d documents?"
@@ -2380,8 +2043,8 @@ msgstr[0] "Действительно хотите открыть %d докум�
 msgstr[1] "Действительно хотите открыть %d документа?"
 msgstr[2] "Действительно хотите открыть %d документов?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:350
-#: ../gsearchtool/gsearchtool-callbacks.c:547
+#: ../gsearchtool/gsearchtool-callbacks.c:346
+#: ../gsearchtool/gsearchtool-callbacks.c:531
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
@@ -2389,25 +2052,25 @@ msgstr[0] "Будет открыто %d отдельное окно."
 msgstr[1] "Будет открыто %d отдельных окна."
 msgstr[2] "Будет открыто %d отдельных окон."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:390
+#: ../gsearchtool/gsearchtool-callbacks.c:382
 #, c-format
 msgid "Could not open document \"%s\"."
 msgstr "Не удалось открыть документ «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:419
+#: ../gsearchtool/gsearchtool-callbacks.c:407
 #, c-format
 msgid "Could not open folder \"%s\"."
 msgstr "Не удалось открыть папку «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:427
+#: ../gsearchtool/gsearchtool-callbacks.c:415
 msgid "The nautilus file manager is not running."
 msgstr "Файловый менеджер Nautilus не запущен."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:519
+#: ../gsearchtool/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
 msgstr "Отсутствует программа просмотра, способная показать документ."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:542
+#: ../gsearchtool/gsearchtool-callbacks.c:526
 #, c-format
 msgid "Are you sure you want to open %d folder?"
 msgid_plural "Are you sure you want to open %d folders?"
@@ -2415,98 +2078,99 @@ msgstr[0] "Действительно хотите открыть %d папку?
 msgstr[1] "Действительно хотите открыть %d папки?"
 msgstr[2] "Действительно хотите открыть %d папок?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:695
+#: ../gsearchtool/gsearchtool-callbacks.c:675
 #, c-format
 msgid "Could not move \"%s\" to trash."
 msgstr "Не удалось поместить «%s» в корзину."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:726
+#: ../gsearchtool/gsearchtool-callbacks.c:702
 #, c-format
 msgid "Do you want to delete \"%s\" permanently?"
 msgstr "Хотите безвозвратно удалить «%s»?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:729
+#: ../gsearchtool/gsearchtool-callbacks.c:705
 #, c-format
 msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
 msgstr "Корзина недоступна. Не удалось поместить «%s» в корзину."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:768
+#: ../gsearchtool/gsearchtool-callbacks.c:740
 #, c-format
 msgid "Could not delete \"%s\"."
 msgstr "Не удалось удалить «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:879
+#: ../gsearchtool/gsearchtool-callbacks.c:847
 #, c-format
 msgid "Deleting \"%s\" failed: %s."
 msgstr "Произошла ошибка при удалении «%s»: %s."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:891
+#: ../gsearchtool/gsearchtool-callbacks.c:859
 #, c-format
 msgid "Moving \"%s\" failed: %s."
 msgstr "Не удалось переместить «%s»: %s."
 
 #. Popup menu item: Open
-#: ../gsearchtool/gsearchtool-callbacks.c:1019
-#: ../gsearchtool/gsearchtool-callbacks.c:1049
+#: ../gsearchtool/gsearchtool-callbacks.c:987
+#: ../gsearchtool/gsearchtool-callbacks.c:1017
 msgid "_Open"
 msgstr "_Открыть"
 
 #. Popup menu item: Open with (default)
-#: ../gsearchtool/gsearchtool-callbacks.c:1074
+#: ../gsearchtool/gsearchtool-callbacks.c:1042
 #, c-format
 msgid "_Open with %s"
 msgstr "Открыть с помо_щью %s"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1108
+#: ../gsearchtool/gsearchtool-callbacks.c:1077
 #, c-format
 msgid "Open with %s"
 msgstr "Открыть с помощью %s"
 
 #. Popup menu item: Open With
-#: ../gsearchtool/gsearchtool-callbacks.c:1140
+#: ../gsearchtool/gsearchtool-callbacks.c:1110
 msgid "Open Wit_h"
 msgstr "Открыть с _помощью"
 
-#. Popup menu item: Open Folder
-#: ../gsearchtool/gsearchtool-callbacks.c:1185
-msgid "Open _Folder"
+#. Popup menu item: Open Containing Folder
+#: ../gsearchtool/gsearchtool-callbacks.c:1155
+#| msgid "Open _Folder"
+msgid "Open Containing _Folder"
 msgstr "Открыть _папку"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1225
+#: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
 msgstr "Сохранить результаты _как..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1607
+#: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
 msgstr "Сохранить результаты поиска как..."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1638
+#: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
 msgstr "Не удалось сохранить документ."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1639
+#: ../gsearchtool/gsearchtool-callbacks.c:1609
 msgid "You did not select a document name."
 msgstr "Не выбрано имя документа."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1669
+#: ../gsearchtool/gsearchtool-callbacks.c:1635
 #, c-format
 msgid "Could not save \"%s\" document to \"%s\"."
 msgstr "Не удалось сохранить документ «%s» в «%s»."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1703
+#: ../gsearchtool/gsearchtool-callbacks.c:1665
 #, c-format
 msgid "The document \"%s\" already exists.  Would you like to replace it?"
 msgstr "Документ «%s» уже существует. Заменить его?"
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1707
+#: ../gsearchtool/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Если заменить существующий файл, его содержимое будет перезаписано."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1772
+#: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "Указанное имя документа соответствует папке."
 
-#: ../gsearchtool/gsearchtool-callbacks.c:1810
+#: ../gsearchtool/gsearchtool-callbacks.c:1768
 msgid "You may not have write permissions to the document."
 msgstr "Возможно, вам запрещено записывать в этот документ."
 
@@ -2652,7 +2316,8 @@ msgstr "Содержит _текст"
 msgid "_Date modified less than"
 msgstr "Дата из_менения меньше, чем"
 
-#: ../gsearchtool/gsearchtool.c:83 ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:83
+#: ../gsearchtool/gsearchtool.c:84
 msgid "days"
 msgstr "дней"
 
@@ -2664,7 +2329,8 @@ msgstr "Дата изменения б_ольше, чем"
 msgid "S_ize at least"
 msgstr "_Размер не меньше"
 
-#: ../gsearchtool/gsearchtool.c:86 ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:86
+#: ../gsearchtool/gsearchtool.c:87
 msgid "kilobytes"
 msgstr "килобайт"
 
@@ -2712,7 +2378,8 @@ msgstr "Исключить другие файловые системы"
 msgid "Show version of the application"
 msgstr "Показать версию программы"
 
-#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:158
+#: ../gsearchtool/gsearchtool.c:163
 #: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
 msgstr "СТРОКА"
@@ -2725,11 +2392,13 @@ msgstr "ПУТЬ"
 msgid "VALUE"
 msgstr "ЗНАЧЕНИЕ"
 
-#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+#: ../gsearchtool/gsearchtool.c:164
+#: ../gsearchtool/gsearchtool.c:165
 msgid "DAYS"
 msgstr "ДНЕЙ"
 
-#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+#: ../gsearchtool/gsearchtool.c:166
+#: ../gsearchtool/gsearchtool.c:167
 msgid "KILOBYTES"
 msgstr "КИЛОБАЙТ"
 
@@ -2754,28 +2423,30 @@ msgstr "Похоже, база данных locate не была создана.
 msgid "Character set conversion failed for \"%s\""
 msgstr "Не удалось преобразовать набор символов для «%s»"
 
-#: ../gsearchtool/gsearchtool.c:510
+#: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
 msgstr "Идёт поиск..."
 
-#: ../gsearchtool/gsearchtool.c:510 ../gsearchtool/gsearchtool.c:1016
-#: ../gsearchtool/gsearchtool.c:2988
+#: ../gsearchtool/gsearchtool.c:506
+#: ../gsearchtool/gsearchtool.c:1012
+#: ../gsearchtool/gsearchtool.c:2972
 msgid "Search for Files"
 msgstr "Поиск файлов"
 
-#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:958
+#: ../gsearchtool/gsearchtool.c:987
 msgid "No files found"
 msgstr "Файлы не найдены"
 
-#: ../gsearchtool/gsearchtool.c:984
+#: ../gsearchtool/gsearchtool.c:980
 msgid "(stopped)"
 msgstr "(остановлен)"
 
-#: ../gsearchtool/gsearchtool.c:990
+#: ../gsearchtool/gsearchtool.c:986
 msgid "No Files Found"
 msgstr "Файлы не найдены"
 
-#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:991
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
@@ -2783,7 +2454,8 @@ msgstr[0] "Найден %d файл"
 msgstr[1] "Найдено %d файла"
 msgstr[2] "Найдено %d файлов"
 
-#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
+#: ../gsearchtool/gsearchtool.c:995
+#: ../gsearchtool/gsearchtool.c:1033
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -2791,47 +2463,45 @@ msgstr[0] "Найден %d файл"
 msgstr[1] "Найдено %d файла"
 msgstr[2] "Найдено %d файлов"
 
-#: ../gsearchtool/gsearchtool.c:1128
+#: ../gsearchtool/gsearchtool.c:1124
 msgid "Entry changed called for a non entry option!"
 msgstr "Вызвано изменение записи для параметра, не являющегося записью!"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1284
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Установить текст параметра поиска «Имя содержит»"
 
-#: ../gsearchtool/gsearchtool.c:1289
+#: ../gsearchtool/gsearchtool.c:1285
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Установить текст параметра поиска «Искать в папке»"
 
-#: ../gsearchtool/gsearchtool.c:1290
+#: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"Упорядочивать файлы по одному из критериев: «name», «folder», «size», «type» или "
-"«date»"
+msgstr "Упорядочивать файлы по одному из критериев: «name», «folder», «size», «type» или «date»"
 
-#: ../gsearchtool/gsearchtool.c:1291
+#: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Сменить порядок сортировки на убывающий (по умолчанию он возрастающий)"
 
-#: ../gsearchtool/gsearchtool.c:1292
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
 msgstr "Автоматически начинать поиск"
 
-#: ../gsearchtool/gsearchtool.c:1298
+#: ../gsearchtool/gsearchtool.c:1294
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Выбрать параметр поиска «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1301
+#: ../gsearchtool/gsearchtool.c:1297
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Выбрать и установить параметр поиска «%s»"
 
-#: ../gsearchtool/gsearchtool.c:1408
+#: ../gsearchtool/gsearchtool.c:1404
 msgid "Invalid option passed to sortby command line argument."
 msgstr "В аргументе «sortby» передан недопустимый параметр."
 
-#: ../gsearchtool/gsearchtool.c:1702
+#: ../gsearchtool/gsearchtool.c:1698
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2839,166 +2509,161 @@ msgstr ""
 "\n"
 "... Слишком много ошибок ..."
 
-#: ../gsearchtool/gsearchtool.c:1716
-msgid ""
-"The search results may be invalid.  There were errors while performing this "
-"search."
-msgstr ""
-"Результаты поиска могут быть неверными. В процессе поиска возникли ошибки."
+#: ../gsearchtool/gsearchtool.c:1712
+msgid "The search results may be invalid.  There were errors while performing this search."
+msgstr "Результаты поиска могут быть неверными. В процессе поиска возникли ошибки."
 
-#: ../gsearchtool/gsearchtool.c:1728 ../gsearchtool/gsearchtool.c:1772
+#: ../gsearchtool/gsearchtool.c:1721
+#: ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
 msgstr "_Дополнительные параметры"
 
-#: ../gsearchtool/gsearchtool.c:1758
-msgid ""
-"The search results may be out of date or invalid.  Do you want to disable "
-"the quick search feature?"
-msgstr ""
-"Результат поиска может быть устаревшим или неверным. Отключить быстрый поиск?"
+#: ../gsearchtool/gsearchtool.c:1751
+msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
+msgstr "Результат поиска может быть устаревшим или неверным. Отключить быстрый поиск?"
 
-#: ../gsearchtool/gsearchtool.c:1783
+#: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
 msgstr "Отключить _быстрый поиск"
 
-#: ../gsearchtool/gsearchtool.c:1810
+#: ../gsearchtool/gsearchtool.c:1800
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr ""
-"Не удалось установить идентификатор группы дочернего процесса %d: %s.\n"
+msgstr "Не удалось установить идентификатор группы дочернего процесса %d: %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1835
+#: ../gsearchtool/gsearchtool.c:1825
 msgid "Error parsing the search command."
 msgstr "Произошла ошибка при разборе команды поиска."
 
-#: ../gsearchtool/gsearchtool.c:1868
+#: ../gsearchtool/gsearchtool.c:1854
 msgid "Error running the search command."
 msgstr "Произошла ошибка при выполнении команды поиска."
 
-#: ../gsearchtool/gsearchtool.c:1988
+#: ../gsearchtool/gsearchtool.c:1970
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Введите текстовое значение для параметра поиска «%s»."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1993
+#: ../gsearchtool/gsearchtool.c:1975
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "«%s» в %s"
 
-#: ../gsearchtool/gsearchtool.c:1995
+#: ../gsearchtool/gsearchtool.c:1977
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Введите значение в %s для параметра поиска «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2053
+#: ../gsearchtool/gsearchtool.c:2035
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Удалить «%s»"
 
-#: ../gsearchtool/gsearchtool.c:2054
+#: ../gsearchtool/gsearchtool.c:2036
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Нажмите, чтобы удалить параметр поиска «%s»."
 
-#: ../gsearchtool/gsearchtool.c:2147
+#: ../gsearchtool/gsearchtool.c:2129
 msgid "A_vailable options:"
 msgstr "_Доступные параметры:"
 
-#: ../gsearchtool/gsearchtool.c:2176
+#: ../gsearchtool/gsearchtool.c:2158
 msgid "Available options"
 msgstr "Доступные параметры"
 
-#: ../gsearchtool/gsearchtool.c:2177
+#: ../gsearchtool/gsearchtool.c:2159
 msgid "Select a search option from the drop-down list."
 msgstr "Выберите параметр поиска из выпадающего списка."
 
-#: ../gsearchtool/gsearchtool.c:2189
+#: ../gsearchtool/gsearchtool.c:2171
 msgid "Add search option"
 msgstr "Добавить параметр поиска"
 
-#: ../gsearchtool/gsearchtool.c:2190
+#: ../gsearchtool/gsearchtool.c:2172
 msgid "Click to add the selected available search option."
 msgstr "Нажмите, чтобы добавить выбранный параметр поиска."
 
-#: ../gsearchtool/gsearchtool.c:2279
+#: ../gsearchtool/gsearchtool.c:2261
 msgid "S_earch results:"
 msgstr "_Результаты поиска:"
 
-#: ../gsearchtool/gsearchtool.c:2322
+#: ../gsearchtool/gsearchtool.c:2305
 msgid "List View"
 msgstr "В виде списка"
 
-#: ../gsearchtool/gsearchtool.c:2431
+#: ../gsearchtool/gsearchtool.c:2414
 msgid "Type"
 msgstr "Тип"
 
-#: ../gsearchtool/gsearchtool.c:2443
+#: ../gsearchtool/gsearchtool.c:2426
 msgid "Date Modified"
 msgstr "Дата изменения"
 
-#: ../gsearchtool/gsearchtool.c:2759
+#: ../gsearchtool/gsearchtool.c:2742
 msgid "_Name contains:"
 msgstr "_Имя содержит:"
 
-#: ../gsearchtool/gsearchtool.c:2773 ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2756
+#: ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "Введите имя файла или его часть, с шаблонами или без."
 
-#: ../gsearchtool/gsearchtool.c:2774
+#: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
 msgstr "Имя содержит"
 
-#: ../gsearchtool/gsearchtool.c:2780
+#: ../gsearchtool/gsearchtool.c:2763
 msgid "_Look in folder:"
 msgstr "Искать в _папке:"
 
-#: ../gsearchtool/gsearchtool.c:2786
+#: ../gsearchtool/gsearchtool.c:2769
 msgid "Browse"
 msgstr "Просмотреть"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Look in folder"
 msgstr "Искать в папке"
 
-#: ../gsearchtool/gsearchtool.c:2795
+#: ../gsearchtool/gsearchtool.c:2778
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Выберите папку или устройство, откуда начать поиск."
 
-#: ../gsearchtool/gsearchtool.c:2813
+#: ../gsearchtool/gsearchtool.c:2796
 msgid "Select more _options"
 msgstr "Дополнительные _параметры"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Select more options"
 msgstr "Дополнительные параметры"
 
-#: ../gsearchtool/gsearchtool.c:2822
+#: ../gsearchtool/gsearchtool.c:2805
 msgid "Click to expand or collapse the list of available options."
 msgstr "Нажмите, чтобы развернуть или свернуть список доступных параметров."
 
-#: ../gsearchtool/gsearchtool.c:2846
+#: ../gsearchtool/gsearchtool.c:2829
 msgid "Click to display the help manual."
 msgstr "Нажмите, чтобы просмотреть справочное руководство."
 
-#: ../gsearchtool/gsearchtool.c:2854
+#: ../gsearchtool/gsearchtool.c:2837
 msgid "Click to close \"Search for Files\"."
 msgstr "Нажмите, чтобы закрыть «Поиск файлов»."
 
-#: ../gsearchtool/gsearchtool.c:2880
+#: ../gsearchtool/gsearchtool.c:2863
 msgid "Click to perform a search."
 msgstr "Нажмите, чтобы выполнить поиск."
 
-#: ../gsearchtool/gsearchtool.c:2881
+#: ../gsearchtool/gsearchtool.c:2864
 msgid "Click to stop a search."
 msgstr "Нажмите, чтобы остановить поиск."
 
-#: ../gsearchtool/gsearchtool.c:2973
+#: ../gsearchtool/gsearchtool.c:2957
 msgid "- the GNOME Search Tool"
 msgstr "— средство поиска GNOME"
 
-#: ../gsearchtool/gsearchtool.c:2982
+#: ../gsearchtool/gsearchtool.c:2966
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Не удалось разобрать параметры командной строки: %s\n"
@@ -3074,58 +2739,51 @@ msgstr "Программа просмотра журналов"
 msgid "View or monitor system log files"
 msgstr "Просмотр и наблюдение за системными журналами"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "Высота главного окна в пикселах"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "Список сохранённых фильтров"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "Список сохранённых фильтров регулярных выражений"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "Журнал, открываемый при запуске"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "Журналы, открываемые при запуске"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "Размер шрифта для показа журнала"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
-msgid ""
-"Specifies a list of log files to open up at startup. A default list is "
-"created by reading /etc/syslog.conf."
-msgstr ""
-"Определяет список файлов журналов, открываемых при запуске. Список по "
-"умолчанию создаётся путём чтения /etc/syslog.conf."
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
+msgid "Specifies a list of log files to open up at startup. A default list is created by reading /etc/syslog.conf."
+msgstr "Определяет список файлов журналов, открываемых при запуске. Список по умолчанию создаётся путём чтения /etc/syslog.conf."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
-msgstr ""
-"Определяет высоту главного окна программы просмотра журналов в пикселах."
+msgstr "Определяет высоту главного окна программы просмотра журналов в пикселах."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
-msgid ""
-"Specifies the log file displayed at startup. The default is either /var/adm/"
-"messages or /var/log/messages, depending on your operating system."
-msgstr ""
-"Определяет файл журнала, показываемый при запуске. Значение по умолчанию — "
-"либо /var/adm/messages, либо /var/log/messages, в зависимости от "
-"операционной системы."
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
+msgid "Specifies the log file displayed at startup. The default is either /var/adm/messages or /var/log/messages, depending on your operating system."
+msgstr "Определяет файл журнала, показываемый при запуске. Значение по умолчанию — либо /var/adm/messages, либо /var/log/messages, в зависимости от операционной системы."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
-msgid ""
-"Specifies the size of the fixed-width font used to display the log in the "
-"main tree view. The default is taken from the default terminal font size."
-msgstr ""
-"Определяет размер моноширинного шрифта, используемого для показа журнала в "
-"главном окне. По умолчанию — размер шрифта терминала по умолчанию."
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
+msgid "Specifies the size of the fixed-width font used to display the log in the main tree view. The default is taken from the default terminal font size."
+msgstr "Определяет размер моноширинного шрифта, используемого для показа журнала в главном окне. По умолчанию — размер шрифта терминала по умолчанию."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
-msgstr ""
-"Определяет ширину главного окна программы просмотра журналов в пикселах."
+msgstr "Определяет ширину главного окна программы просмотра журналов в пикселах."
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "Ширина главного окна в пикселах"
 
@@ -3153,7 +2811,7 @@ msgstr "Подсветка"
 msgid "_Regular Expression:"
 msgstr "Рег_улярное выражение:"
 
-#: ../logview/logview-app.c:375
+#: ../logview/logview-app.c:373
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Не удалось открыть файл %s"
@@ -3179,15 +2837,15 @@ msgstr "Неправильное регулярное выражение: %s"
 msgid "Please specify either foreground or background color!"
 msgstr "Задайте либо цвет текста, либо цвет фона!"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Edit filter"
 msgstr "Редактировать фильтр"
 
-#: ../logview/logview-filter-manager.c:293
+#: ../logview/logview-filter-manager.c:292
 msgid "Add new filter"
 msgstr "Добавить новый фильтр"
 
-#: ../logview/logview-filter-manager.c:503
+#: ../logview/logview-filter-manager.c:502
 msgid "Filters"
 msgstr "Фильтры"
 
@@ -3217,9 +2875,7 @@ msgstr "Очистить строку поиска"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr ""
-"Произошла ошибка в процессе распаковки журнала, сжатого gzip. Файл может "
-"быть повреждён."
+msgstr "Произошла ошибка в процессе распаковки журнала, сжатого gzip. Файл может быть повреждён."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
@@ -3231,169 +2887,260 @@ msgstr "Файл не является обычным или текстовым 
 
 #: ../logview/logview-log.c:739
 msgid "This version of System Log does not support GZipped logs."
-msgstr ""
-"Эта версия программы просмотра журналов не поддерживает журналы, сжатые gzip."
+msgstr "Эта версия программы просмотра журналов не поддерживает журналы, сжатые gzip."
 
 #: ../logview/logview-loglist.c:311
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: ../logview/logview-main.c:62
+#: ../logview/logview-main.c:61
 msgid "Show the application's version"
 msgstr "Показать версию программы"
 
-#: ../logview/logview-main.c:64
+#: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
 msgstr "[ЖУРНАЛ...]"
 
-#: ../logview/logview-main.c:68
+#: ../logview/logview-main.c:67
 msgid " - Browse and monitor logs"
 msgstr " — просмотр и наблюдение за журналами"
 
-#: ../logview/logview-main.c:103
+#: ../logview/logview-main.c:102
 msgid "Log Viewer"
 msgstr "Программа просмотра журналов"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:788
+#: ../logview/logview-window.c:38
+#: ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Программа просмотра системных журналов"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "последнее обновление: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d строк (%s) — %s"
 
-#: ../logview/logview-window.c:343
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Открыть журнал"
 
-#: ../logview/logview-window.c:382
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "При отображении справки произошла ошибка: %s"
 
-#: ../logview/logview-window.c:498
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Произошёл переход к началу"
 
-#: ../logview/logview-window.c:793
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "Программа просмотра системных журналов для GNOME."
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Фильтры"
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "_Открыть..."
 
-#: ../logview/logview-window.c:842
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Открыть журнал из файла"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "_Закрыть"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Закрыть этот журнал"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "В_ыход"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Выйти из программы просмотра журналов"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Копировать"
 
-#: ../logview/logview-window.c:849
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Скопировать выделение"
 
-#: ../logview/logview-window.c:851
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Выделить весь журнал"
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "_Найти..."
 
-#: ../logview/logview-window.c:853
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Найти слово или фразу в журнале"
 
-#: ../logview/logview-window.c:856
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Увеличить размер шрифта"
 
-#: ../logview/logview-window.c:858
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Уменьшить размер шрифта"
 
-#: ../logview/logview-window.c:860
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Обычный размер шрифта"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Управление фильтрами"
 
-#: ../logview/logview-window.c:863
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Управление фильтрами"
 
-#: ../logview/logview-window.c:866
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Открыть содержание справки программы просмотра журналов"
 
-#: ../logview/logview-window.c:868
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Показать сведения о программе просмотра журналов"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "_Строка состояния"
 
-#: ../logview/logview-window.c:873
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "Показывать строку состояния"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "Боковая _панель"
 
-#: ../logview/logview-window.c:875
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Показывать боковую панель"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Показывать только совпавшие"
 
-#: ../logview/logview-window.c:877
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "Показывать только строки, которые подходят под заданные фильтры"
 
-#: ../logview/logview-window.c:1014
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "_Автоматическая прокрутка"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Автоматически прокручивать при появлении новых строк"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Не удалось прочитать из «%s»"
 
-#: ../logview/logview-window.c:1436
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Версия: "
 
-#: ../logview/logview-window.c:1543
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Не удалось открыть следующие файлы:"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "Текст для миниатюры (по умолчанию: Аа)"
+
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "ТЕКСТ"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "Размер шрифта (по умолчанию: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "РАЗМЕР"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "ФАЙЛ-ШРИФТА ФАЙЛ-ВЫВОДА"
+
+#: ../font-viewer/font-view.c:289
+#| msgid "_Name:"
+msgid "Name:"
+msgstr "Название:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "Стиль:"
+
+#: ../font-viewer/font-view.c:304
+#| msgid "Type"
+msgid "Type:"
+msgstr "Тип:"
+
+#: ../font-viewer/font-view.c:308
+#| msgid "Size"
+msgid "Size:"
+msgstr "Размер:"
+
+#: ../font-viewer/font-view.c:352
+#: ../font-viewer/font-view.c:365
+#| msgid "Version: "
+msgid "Version:"
+msgstr "Версия: "
+
+#: ../font-viewer/font-view.c:356
+#: ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "Авторское право:"
+
+#: ../font-viewer/font-view.c:360
+#| msgid "_Description:"
+msgid "Description:"
+msgstr "Описание:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "Установлено"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "Ошибка установки"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "Применение: %s файл-шрифта\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "_Установить шрифт"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+#| msgid "Log Viewer"
+msgid "Font Viewer"
+msgstr "Программа просмотра шрифтов"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+#| msgid "Preview this document"
+msgid "Preview fonts"
+msgstr "Предварительные просмотр шрифтов"
+
