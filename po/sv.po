@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-02-27 17:55+0100\n"
-"PO-Revision-Date: 2011-02-27 17:55+0100\n"
+"POT-Creation-Date: 2011-03-20 10:42+0100\n"
+"PO-Revision-Date: 2011-03-20 10:43+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -29,6 +29,18 @@ msgstr "Kontrollera mappstorlekar och tillgängligt diskutrymme"
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Diskanvändningsanalysator"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Inställningar för diskanvändningsanalysator"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Välj _enheter som ska inkluderas vid filsystemavsökning:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "_Övervaka ändringar i din hemmapp"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -1468,82 +1480,82 @@ msgstr "Tillgängliga strategier"
 msgid "Dictionary sources"
 msgstr "Ordbokskällor"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Fil vid inläsning av hjälpsidan"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Ingen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Skugga"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Ram"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Inkludera _pekare"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Inkludera fönster_ramen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Tillämpa _effekt:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Fånga hela s_krivbordet"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Fånga aktuellt _fönster"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Välj _område att fånga"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Fånga _efter en fördröjning på"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "sekunder"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Ta en skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Effekter"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "Ta en _skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Fel vid sparande av skärmbild"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1554,15 +1566,15 @@ msgstr ""
 " Felet var %s.\n"
 " Välj en annan plats och försök igen."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Skärmbild tagen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Kunde inte ta en skärmbild av det aktuella fönstret"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Skärmbild-%s.png"
@@ -1570,64 +1582,64 @@ msgstr "Skärmbild-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Skärmbild-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Skärmbild.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Skärmbild-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Fånga ett fönster istället för hela skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Fånga ett område av skärmen istället för hela skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Inkludera fönsterramen i skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Ta bort fönsterramen från skärmbilden"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Ta skärmbild efter angiven fördröjning [i sekunder]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effekt att lägga till i ramen (skugga, ram eller ingen)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "effekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Ställ interaktivt in alternativ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Ta en bild av skärmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid "Conflicting options: --window and --area should not be used at the same time.\n"
 msgstr "Flaggor i konflikt: --window och --area bör inte användas samtidigt.\n"
@@ -1674,34 +1686,42 @@ msgid "Include Border"
 msgstr "Inkludera ram"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+msgid "Include ICC Profile"
+msgstr "Inkludera ICC-profil"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Inkludera pekare"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Inkludera ICC-profilen för målet i skärmbildsfilen"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Inkludera muspekaren i skärmbilden"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Inkludera fönsterhanterarens ram i skärmbilden"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Fördröjning för skärmbild"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Katalog för skärmbilder"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Katalogen som den senaste skärmbilden sparades i."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Antalet sekunder att vänta innan skärmbilden tas."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Fönsterspecifik skärmbild (utfasad)"
 
@@ -1717,7 +1737,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Välj en mapp"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1726,16 +1746,16 @@ msgstr ""
 "Kunde inte tömma temporärmappen:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid "The child save process unexpectedly exited.  We are unable to write the screenshot to disk."
 msgstr "Barnprocessen avslutades oväntat. Vi kan inte skriva skärmbilden till hårddisken."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Okänt fel vid sparandet av skärmbilden på hårddisken"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Namnlöst fönster"
 
@@ -3280,12 +3300,6 @@ msgstr "Förhandsvisa typsnitt"
 #~ msgstr "Huruvida miniatyrbilder av TrueType-typsnitt ska skapas"
 #~ msgid "Whether to thumbnail Type1 fonts"
 #~ msgstr "Huruvida miniatyrbilder av Type1-typsnitt ska skapas"
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "Inställningar för diskanvändningsanalysator"
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "Välj _enheter som ska inkluderas vid filsystemavsökning:"
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "_Övervaka ändringar i din hemmapp"
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "Aktivera övervakning av hemkatalog"
 #~ msgid "Subfolders tooltips visible"
