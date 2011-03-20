@@ -6,21 +6,21 @@
 # sTYLEeX <styleex@inbox.lv>, 2006.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2011.
+# Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2011-01-29 19:22+0000\n"
-"PO-Revision-Date: 2011-02-07 10:49+0200\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-14 17:34+0000\n"
+"PO-Revision-Date: 2011-03-17 17:57+0200\n"
+"Last-Translator: Rudolfs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Generator: Lokalize 1.1\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
@@ -30,6 +30,19 @@ msgstr "Pārbauda mapju izmērus un pieejamo diska vietu"
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Diska izmantošanas analizators"
+
+# gtt/toolbar.c:190
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Diska izmantošanas analizatora iestatījumi"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Izvēlēties _ierīces ko aplūkot skenējot failsistēmu:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "Novērot _mājas mapes izmaiņas"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -48,7 +61,6 @@ msgid "Monitor Home"
 msgstr "Novērto mājas mapi"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
 msgstr "Statusa josla ir redzama"
 
@@ -69,7 +81,6 @@ msgid "Whether the toolbar should be visible in main window."
 msgstr "Vai rīkjoslai būtu jābūt redzamai galvenajā logā."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
 msgstr "Kāda veida diagrammu rādīt."
 
@@ -147,13 +158,13 @@ msgstr "_Sakļaut visu"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1322 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Saturs"
 
 # logview/actions.c:120
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1269 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "R_ediģēt"
 
@@ -165,7 +176,7 @@ msgstr "Izpl_est visu"
 # gstripchart/gstripchart.c:1784 gstripchart/gstripchart.c:2071
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1272 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Palīdzība"
 
@@ -174,7 +185,7 @@ msgid "_Toolbar"
 msgstr "_Rīkjosla"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1270 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Skats"
 
@@ -602,7 +613,7 @@ msgstr "No_tīrīt"
 
 # gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1324 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "P_ar"
 
@@ -614,7 +625,7 @@ msgstr "Meklēt izvē_lēto tekstu"
 # gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
 # mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1298
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "_Iestatījumi"
 
@@ -636,8 +647,8 @@ msgstr "Pārbauda vārdu skaidrojumus un rakstību interneta vārdnīcā"
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
 #: ../gnome-dictionary/src/gdict-about.c:62
 #: ../gnome-dictionary/src/gdict-app.c:233
-#: ../gnome-dictionary/src/gdict-window.c:599
-#: ../gnome-dictionary/src/gdict-window.c:1943
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "Vārdnīca"
 
@@ -683,10 +694,8 @@ msgid "The name of the dictionary source used"
 msgstr "Vārdnīcas avota nosaukums, kas tiek izmantots"
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
-msgid ""
-"The name of the dictionary source used to retrieve the definitions of words."
-msgstr ""
-"Vārdnīcas avota nosaukums, kas tiek izmantots, lai atgūt vārdu definīcijas."
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Vārdnīcas avota nosaukums, kas tiek izmantots, lai atgūt vārdu definīcijas."
 
 # gdictsrc/gdict-pref-dialog.c:161
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
@@ -915,7 +924,7 @@ msgstr "Kļūda, meklējot atbilstību"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Netika atrasts"
 
@@ -1035,8 +1044,7 @@ msgstr "Nevarēja iegūt '%s' atslēgu vārdnīcas avota definīcijā: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:555
 #, c-format
-msgid ""
-"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
 msgstr "Nevarēja iegūt '%s' atslēgu vārdnīcas avota definīcijas failā: %s"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:741
@@ -1170,17 +1178,17 @@ msgid " - Look up words in dictionaries"
 msgstr " - Uzmeklēt vārdus vārdnīcās"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:955
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "Saglabāt kopiju"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:965
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "Nenosaukts dokuments"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:986
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "Kļūda, rakstot uz '%s'"
@@ -1244,38 +1252,38 @@ msgstr "Vārdnīcas ieraksts"
 
 # gtt/toolbar.c:190
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:1091
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "Vārdnīcas iestatījumi"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1233
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "Notikusi kļūda, rādot palīdzību"
 
 #: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:514
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "Nav pieejams vārdnīcas avots ar nosaukumu '%s'"
 
 #: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:518
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "Nevarēja atrast vārdnīcas avotu"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:534
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "Nav pieejama konteksta avotam '%s'"
 
 # mini-utils/idetool/idetool.c:41
 #: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:538
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "Nevar izveidot kontekstu"
 
@@ -1327,7 +1335,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Izņemt izvēlēto vārdnīcas avotu"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
-#| msgid "Remove the currently selected dictionary source"
 msgid "Edit the currently selected dictionary source"
 msgstr "Rediģēt izvēlēto vārdnīcas avotu"
 
@@ -1355,18 +1362,18 @@ msgid "Unable to save source file"
 msgstr "Nevar saglabāt avota failu"
 
 # gsearchtool/gsearchtool.c:824
-#: ../gnome-dictionary/src/gdict-window.c:309
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "Meklē '%s'..."
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../gnome-dictionary/src/gdict-window.c:341
-#: ../gnome-dictionary/src/gdict-window.c:398
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "Neviena definīcija nav atrasta"
 
-#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
@@ -1374,192 +1381,192 @@ msgstr[0] "Atrasta %d definīcija"
 msgstr[1] "Atrastas %d definīcijas"
 msgstr[2] "Atrastas %d definīcijas"
 
-#: ../gnome-dictionary/src/gdict-window.c:597
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - vārdnīca"
 
-#: ../gnome-dictionary/src/gdict-window.c:1268 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Fails"
 
-#: ../gnome-dictionary/src/gdict-window.c:1271
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "_Iet"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1275
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "Jau_ns"
 
-#: ../gnome-dictionary/src/gdict-window.c:1276
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "Jauna uzmeklēšana"
 
-#: ../gnome-dictionary/src/gdict-window.c:1277
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "_Saglabāt kopiju..."
 
 # gdictsrc/gdict-pref-dialog.c:161
-#: ../gnome-dictionary/src/gdict-window.c:1279
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "P_riekšskatījums..."
 
 # logview/logrtns.c:202
-#: ../gnome-dictionary/src/gdict-window.c:1280
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "Priekšskatīt šo dokumentu"
 
 # gdictsrc/gdict-pref-dialog.c:161
-#: ../gnome-dictionary/src/gdict-window.c:1281
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "_Drukāt..."
 
 # logview/logrtns.c:202
-#: ../gnome-dictionary/src/gdict-window.c:1282
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "Drukāt šo dokumentu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1289 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Izvēlēties _visu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1292
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "Meklēt vārdu vai teikumu dokumentā"
 
 # gdictsrc/gdict-app.c:381
-#: ../gnome-dictionary/src/gdict-window.c:1294
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "Meklēt nā_kamo"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "Meklēt _iepriekšējo"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1302
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "Ie_priekšējā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1303
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "Iet uz iepriekšējo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1304
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "_Nākamā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1305
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "Iet uz nākamo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1306
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "Pirmā de_finīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1307
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "Iet uz pirmo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1308
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "Pē_dējā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1309
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "Iet uz pēdējo definīciju"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1312
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "Līdzīgie _vārdi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1314
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "Vārdnīcas avoti"
 
-#: ../gnome-dictionary/src/gdict-window.c:1316
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "Pieejamās _datubāzes"
 
-#: ../gnome-dictionary/src/gdict-window.c:1318
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "Pieejamās st_ratēģijas"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1335
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "_Sānu josla"
 
-#: ../gnome-dictionary/src/gdict-window.c:1337
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "S_tatusa josla"
 
-#: ../gnome-dictionary/src/gdict-window.c:1402
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Vārdnīcas avots `%s' ir izvēlēts"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../gnome-dictionary/src/gdict-window.c:1423
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Izvēlēta stratēģija `%s'"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../gnome-dictionary/src/gdict-window.c:1443
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Izvēlēta datubāze `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1463
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Izvēlēts vārds `%s'"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1488
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "Dubults klikšķis uz vārda, lai to uzmeklētu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1494
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "Dubults klikšķis uz stratēģijas, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1499
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "Dubults klikšķis uz avota, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1508
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "Dubults klikšķis uz datubāzes, lai to izmantotu"
 
 # gdictsrc/gdict-app.c:453 gdictsrc/gdict-app.c:510
 # gdictsrc/gdict-applet.c:153
-#: ../gnome-dictionary/src/gdict-window.c:1763
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "_Uzmeklēt:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1837
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "Līdzīgie vārdi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1850
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "Pieejamās vārdnīcas"
 
-#: ../gnome-dictionary/src/gdict-window.c:1868
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "Pieejamās stratēģijas"
 
-#: ../gnome-dictionary/src/gdict-window.c:1884
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "Vārdnīcu avoti"
 
@@ -1618,6 +1625,7 @@ msgstr "Uzņemt ar _aizturi"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:497
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 #: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "seconds"
 msgstr "sekundes"
@@ -1659,6 +1667,7 @@ msgstr "Ekrānattēls uzņemts"
 msgid "Unable to take a screenshot of the current window"
 msgstr "Nevar uzņemt aktīvā loga ekrānattēlu"
 
+#: ../gnome-screenshot/gnome-screenshot.c:891
 #: ../gnome-screenshot/gnome-screenshot.c:888
 #, c-format
 msgid "Screenshot-%s.png"
@@ -1667,6 +1676,7 @@ msgstr "Ekranattels-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:898
 #: ../gnome-screenshot/gnome-screenshot.c:895
 #, c-format
 msgid "Screenshot-%s-%d.png"
@@ -1674,63 +1684,71 @@ msgstr "Ekranattels-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
-#: ../gnome-screenshot/screenshot-dialog.c:346
+#: ../gnome-screenshot/gnome-screenshot.c:908
+#: ../gnome-screenshot/screenshot-dialog.c:331
 #: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/gnome-screenshot.c:905
 msgid "Screenshot.png"
 msgstr "Ekranattels.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:915
 #: ../gnome-screenshot/gnome-screenshot.c:912
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Ekranattels-%d.png"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1256
 #: ../gnome-screenshot/gnome-screenshot.c:1255
 msgid "Grab a window instead of the entire screen"
 msgstr "Uzņemt logu nevis visu ekrānu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1257
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Uzņemt daļu no loga visa ekrāna vietā"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1258
 msgid "Include the window border with the screenshot"
 msgstr "Iekļaut loga rāmi ekrānattēlā"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Remove the window border from the screenshot"
 msgstr "Aizvākt loga rāmi no ekrānattēla"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1260
 #: ../gnome-screenshot/gnome-screenshot.c:1259
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Uzņemt ekrānattēlu ar norādīto aizturi [sekundēs]"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 #: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Efekti, ko pievienot rāmim (ēna, rāmis, nekas)"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1261
 #: ../gnome-screenshot/gnome-screenshot.c:1260
 msgid "effect"
 msgstr "efekts"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1262
 #: ../gnome-screenshot/gnome-screenshot.c:1261
 msgid "Interactively set options"
 msgstr "Interaktivitātes iestatīšanas iespējas"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1273
 #: ../gnome-screenshot/gnome-screenshot.c:1272
 msgid "Take a picture of the screen"
 msgstr "Uzņemt ekrāna attēlu"
 
+#: ../gnome-screenshot/gnome-screenshot.c:1291
 #: ../gnome-screenshot/gnome-screenshot.c:1290
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
 "time.\n"
-msgstr ""
-"Konfigurācijas opcijas --window un --area nevajadzētu lietot vienlaicīgi.\n"
+msgstr "Konfigurācijas opcijas --window un --area nevajadzētu lietot vienlaicīgi.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
@@ -1767,8 +1785,8 @@ msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
 msgstr ""
-"Rāmja ārpusē pievienojamais efekts. Iespējamās vērtības ir \"shadow\", \"none"
-"\", un \"border\"."
+"Rāmja ārpusē pievienojamais efekts. Iespējamās vērtības ir \"shadow\", \"none\", "
+"un \"border\"."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
@@ -1814,7 +1832,7 @@ msgstr "Sekunžu skaits, ko nogaidīt pirms ekrānattēla uzņemšanas."
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Konkrēta loga ekrānattēls (novecojis)"
 
-#: ../gnome-screenshot/screenshot-dialog.c:229
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1822,7 +1840,7 @@ msgstr ""
 "UI definīciju fails ekrānattēlu programmai nav atrodams.\n"
 "Lūdzu, pārbaudiet gnome-utils instalāciju"
 
-#: ../gnome-screenshot/screenshot-dialog.c:250
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Izvēlieties mapi"
 
@@ -1849,7 +1867,8 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Nezināma kļūda, saglabājot ekrānattēlu diskā"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:884
+#: ../gnome-screenshot/screenshot-utils.c:873
+#: ../gnome-screenshot/screenshot-utils.c:852
 msgid "Untitled Window"
 msgstr "Nenosaukts logs"
 
@@ -1973,8 +1992,7 @@ msgstr "Izvēlieties meklēšanas iespēju \"Nosaukums nesatur\""
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
-msgstr ""
-"Izvēlieties meklēšanas iespēju \"Nosaukums atbilst regulārai izteiksmei\""
+msgstr "Izvēlieties meklēšanas iespēju \"Nosaukums atbilst regulārai izteiksmei\""
 
 # gsearchtool/gsearchtool.c:37
 #. Translators: The quoted text is the label of an available
@@ -2037,8 +2055,8 @@ msgid ""
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
 "Šī atslēga nosaka ceļus, kurus meklēšanas rīks izslēgs no ātrās meklēšanas. "
-"Aizstājējzīmes '*' un '?' ir izmantojami. Noklusētās vērtības ir /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/* un /var/*."
+"Aizstājējzīmes '*' un '?' ir izmantojami. Noklusētās vērtības ir /mnt/*, "
+"/media/*, /dev/*, /tmp/*, /proc/* un /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
 msgid ""
@@ -2174,16 +2192,16 @@ msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
 msgstr ""
-"Šī vērtība nosaka vai \"Meklēt slēptos failus un mapes\" meklēšanas iespēja "
-"ir izvēlēta, startējot meklēšanas rīku."
+"Šī vērtība nosaka vai \"Meklēt slēptos failus un mapes\" meklēšanas iespēja ir "
+"izvēlēta, startējot meklēšanas rīku."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Šī vērtība nosaka vai \"Izmērs ne mazāks par\" meklēšanas iespēja ir "
-"izvēlēta, startējot meklēšanas rīku."
+"Šī vērtība nosaka vai \"Izmērs ne mazāks par\" meklēšanas iespēja ir izvēlēta, "
+"startējot meklēšanas rīku."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
 msgid ""
@@ -2210,8 +2228,7 @@ msgstr ""
 "veic vienkāršu failu meklēšanu."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
-msgid ""
-"This key determines if the search tool window starts in a maximized state."
+msgid "This key determines if the search tool window starts in a maximized state."
 msgstr "Šī atslēga nosaka vai meklēšanas rīka logs tiek startēts maksimizēts."
 
 # logview/logrtns.c:202
@@ -2317,7 +2334,6 @@ msgstr "Atvē_rt ar"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
-#| msgid "Open _Folder"
 msgid "Open Containing _Folder"
 msgstr "_Atvērt saturošo mapi"
 
@@ -2816,8 +2832,7 @@ msgstr "_Nosaukums satur:"
 
 #: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"Ievadiet faila nosaukumu vai daļēju nosaukumu ar vai bez aizstājējzīmēm."
+msgstr "Ievadiet faila nosaukumu vai daļēju nosaukumu ar vai bez aizstājējzīmēm."
 
 #: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
@@ -2996,8 +3011,9 @@ msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
 msgstr ""
-"Norāda pēc palaišanas rādāmo žurnāla failu. Noklusētais ir vai nu /var/adm/"
-"messages vai arī /var/log/messages, atkarībā no jūsu operētājsistēmas."
+"Norāda pēc palaišanas rādāmo žurnāla failu. Noklusētais ir vai nu "
+"/var/adm/messages vai arī /var/log/messages, atkarībā no jūsu "
+"operētājsistēmas."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
@@ -3107,8 +3123,7 @@ msgstr "Attīrīt meklēšanas virkni"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr ""
-"Kļūda, atarhivējot ar GZip saarhivētu žurnālu. Iespējams fails ir bojāts."
+msgstr "Kļūda, atarhivējot ar GZip saarhivētu žurnālu. Iespējams fails ir bojāts."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
@@ -3145,159 +3160,167 @@ msgid "Log Viewer"
 msgstr "Žurnālu skatītājs"
 
 # logview/logview.c:268
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Sistēmas žurnālu skatītājs"
 
 # logview/info.c:165
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "pēdējās izmaiņas: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d rindas (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Atvērt žurnālu"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Kļūda, parādot palīdzību: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Apliekts"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "GNOME sistēmas žurnāla skatītājs."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Filtri"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "_Atvērt..."
 
 # logview/logview.c:674
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Atvērt žurnāla failu"
 
 # gcharmap/src/interface.c:190 mini-utils/gcolorsel/menus.c:93
 # mini-utils/gcolorsel/menus.c:954 mini-utils/gshutdown/gshutdown.c:153
 # mini-utils/gshutdown/gshutdown.c:594 mini-utils/gsu/gsu-gui-api.c:39
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "Aiz_vērt"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Aizvērt šo žurnālu"
 
 # logview/actions.c:120
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "_Iziet"
 
 # logview/logview.c:268
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Iziet no žurnālu skatītāja"
 
 # gcharmap/src/interface.c:71 gcharmap/src/interface.c:196
 # gdictsrc/gdict-app.c:520 gtt/toolbar.c:163
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Kopēt"
 
 # gcharmap/src/interface.c:76
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Kopēt izvēlēto"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Izvēlēties visu žurnālu"
 
 # gdictsrc/gdict-pref-dialog.c:161
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "_Meklēt..."
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Meklēt vārdu vai frāzi žurnālā"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Lielāks teksta izmērs"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Mazāks teksta izmērs"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Normāls teksta izmērs"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Pārvaldīt filtrus"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Pārvaldīt filtrus"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Atvērt palīdzības saturu žurnālu skatītājam"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Parādīt dialogu par žurnālu skatītāju"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "_Statusa josla"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "Rādīt statusa joslu"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "Sānu _rūts"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Parādīt sānu rūti"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Rādīt tikai atbilstošas"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "Rādīt tikai tās rindas, kas atbilst kādam no dotajiem filtriem"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "_Automātiskā ritināšana"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Automātiski ritināt, kad parādās jaunas rindas"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Nevar nolasīt no \"%s\""
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Versija: "
 
 # logview/logrtns.c:202
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Nevar atvērt sekojošus failus:"
 
@@ -3322,7 +3345,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FONTA-FAILS IZVADES-FAILS"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "Nosaukums:"
 
@@ -3331,18 +3353,15 @@ msgid "Style:"
 msgstr "Stils:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "Tips:"
 
 # mini-utils/guname/info.c:61
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "Izmērs:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "Versija:"
 
@@ -3352,7 +3371,6 @@ msgstr "Autortiesības:"
 
 # logview/zoom.c:183
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "Apraksts:"
 
@@ -3375,564 +3393,16 @@ msgstr "I_nstalēt fontu"
 
 # logview/logview.c:268
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "Fontu pārlūks"
 
 # logview/logrtns.c:202
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "Priekšskatīt fontus"
-
-# gtt/toolbar.c:190
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "Diska izmantošanas analizatora iestatījumi"
-
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "Izvēlēties _ierīces ko aplūkot skenējot failsistēmu:"
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "Novērot _mājas mapes izmaiņas"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "Aktivizēt mājas mapes novērošanu"
 
 #~ msgid "Subfolders tooltips visible"
 #~ msgstr "Apakšmapju paskaidres ir redzamas"
-
-#~| msgid "Whether the subfolders tooltips of the selected folder are drawn."
-#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
-#~ msgstr "Vai tiks zīmētas izvēlētās mapes apakšmapju paskaidres."
-
-#~ msgid "Dictionary server (Deprecated)"
-#~ msgstr "Vārdnīcas serveris (Vairs netiek izmantots)"
-
-# gdictsrc/dict.c:623 gdictsrc/gdict-pref-dialog.c:498
-# gdictsrc/gdict-pref-dialog.c:542 gdictsrc/gdict-speller.c:393
-#~ msgid "Port used to connect to server (Deprecated)"
-#~ msgstr ""
-#~ "Ports, ko izmantot, lai savienotos ar serveri (Vairs netiek izmantots)"
-
-#~ msgid ""
-#~ "Specify whether to use smart lookup. This key is dependant on whether the "
-#~ "dictionary server supports this option. The default is TRUE. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Norādiet, vai lietot gudro meklēšanu. Šī iespēja ir atkarīga no tā, vai "
-#~ "vārdnīcas serveris atbalsta šo iespēju. Noklusējumā ir PATIESS. Šī "
-#~ "atslēga ir novecojusi un vairs netiek izmantota."
-
-#~ msgid "The default height of the application window"
-#~ msgstr "Noklusētais lietotnes loga augstums"
-
-#~ msgid "The default width of the application window"
-#~ msgstr "Noklusētais lietotnes loga platums"
-
-#~ msgid ""
-#~ "The dictionary server to connect to. The default server is dict.org. See "
-#~ "http://www.dict.org for details on other servers. This key is deprecated "
-#~ "and no longer in use."
-#~ msgstr ""
-#~ "Vārdnīcas serveris, kuram pieslēgties. Noklusētais serveris ir dict.org. "
-#~ "Apskatieties http://www.dict.org, lai uzzinātu par citiem serveriem.  Šī "
-#~ "atslēga ir novecojusi un vairs netiek izmantota."
-
-#~ msgid "The page of the sidebar to show"
-#~ msgstr "Sānu joslā rādāmā lapa"
-
-#~ msgid ""
-#~ "The port number to connect to. The default port is 2628. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Porta numurs, kuram pieslēgties. Noklusētais ir 2628. Šī atslēga ir "
-#~ "novecojusi un vairs netiek izmantota."
-
-#~ msgid "The width of the sidebar"
-#~ msgstr "Sānu joslas platums"
-
-#~ msgid ""
-#~ "This key defines the width of the sidebar and it's used to remember the "
-#~ "setting across sessions."
-#~ msgstr ""
-#~ "Šī vērtība nosaka sānu joslas platumu, un tā tiek izmantota, lai "
-#~ "atcerētos iestatījumus starp sesijām."
-
-#~ msgid ""
-#~ "This key defines the window height and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a height based on the font size."
-#~ msgstr ""
-#~ "Šī vērtība nosaka loga augstumu, un tā tiek izmantota, lai atcerētos "
-#~ "vārdnīcas loga izmēru sesiju laikā. Iestatot to uz -1 vārdnīcas logs "
-#~ "mainīs augstumu atkarībā no burtu fonta izmēra."
-
-#~ msgid ""
-#~ "This key defines the window width and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a width based on the font size."
-#~ msgstr ""
-#~ "Šī vērtība nosaka loga platumu, un tā tiek izmantota, lai atcerētos "
-#~ "vārdnīcas loga izmēru sesiju laikā. Iestatot to uz -1 vārdnīcas logs "
-#~ "mainīs platumu atkarībā no burtu fonta izmēra."
-
-#~ msgid ""
-#~ "This key defines whether the sidebar should be visible and it's used to "
-#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
-#~ "will make the sidebar always be displayed."
-#~ msgstr ""
-#~ "Šī vērtība nosaka vai sānu josla būs redzama, un tā tiek izmantota, lai "
-#~ "atcerētos iestatījumus starp sesijām. Iestatījums PATIESS padarīs sānu "
-#~ "joslu vienmēr redzamu."
-
-#~ msgid ""
-#~ "This key defines whether the statusbar should be visible and it's used to "
-#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
-#~ "will make the statusbar always be displayed."
-#~ msgstr ""
-#~ "Šī vērtība nosaka vai statusa josla būs redzama, un tā tiek izmantota, "
-#~ "lai atcerētos iestatījumus starp sesijām. Iestatījums PATIESS padarīs "
-#~ "statusa joslu vienmēr redzamu."
-
-#~ msgid ""
-#~ "This key defines whether the window should be maximized and it's used to "
-#~ "remember the state of the dictionary window across sessions. Setting it "
-#~ "to TRUE will make the window always appear as maximized."
-#~ msgstr ""
-#~ "Šī vērtība nosaka vai logam jābūt maksimizētam, un tā tiek izmantota, lai "
-#~ "atcerēties vārdnīcas loga stāvokli sesiju laikā. Iestatot to uz PATIESS, "
-#~ "liks logam visu laiku būt maksimizētam."
-
-#~ msgid ""
-#~ "This key defines which page of the sidebar should be displayed and it's "
-#~ "used to remember the setting across sessions.. It can be \"speller\" or "
-#~ "\"databases\"."
-#~ msgstr ""
-#~ "Šī vērtība nosaka, kura lapa tiks rādīta sānu joslā. Šī lauka vērtība var "
-#~ "būt \"speller\" vai \"databases\"."
-
-# gdictsrc/gdict-pref-dialog.c:147
-#~ msgid "Use smart lookup (Deprecated)"
-#~ msgstr "Lietot gudro meklēšanu (Vairs netiek izmantots)"
-
-#~ msgid "Whether the application window should be maximized"
-#~ msgstr "Vai lietotnes logam vajadzētu būt maksimizētam"
-
-#~ msgid "Whether the statusbar should be visible"
-#~ msgstr "Vai statusa josla vajadzētu būt redzamai"
-
-#~ msgid ""
-#~ "Definition for '%s'\n"
-#~ "  From '%s':\n"
-#~ "\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "'%s' definīcija\n"
-#~ "  No '%s':\n"
-#~ "\n"
-#~ "%s\n"
-
-# logview/misc.c:78
-#~ msgid "Error: %s\n"
-#~ msgstr "Kļūda: %s\n"
-
-#~ msgid "See gnome-dictionary --help for usage\n"
-#~ msgstr "Skatiet gnome-dictionary --help par lietojumu\n"
-
-#~ msgid "Unable to find a suitable dictionary source"
-#~ msgstr "Nevarēja atrast piemērotu vārdnīcas avotu"
-
-#~ msgid ""
-#~ "Error while looking up the definition of \"%s\":\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Kļūda, meklējot \"%s\" definīciju:\n"
-#~ "%s"
-
-#~ msgid "word"
-#~ msgstr "vārds"
-
-#~ msgid "source"
-#~ msgstr "avots"
-
-#~ msgid "Show available dictionary sources"
-#~ msgstr "Parādīt pieejamos vārdnīcas avotus"
-
-#~ msgid "Print result to the console"
-#~ msgstr "Izdrukāt rezultātus konsolē"
-
-#~ msgid "db"
-#~ msgstr "db"
-
-# gdictsrc/gdict-pref-dialog.c:178
-#~ msgid "strat"
-#~ msgstr "sākt"
-
-# mini-utils/gless/gless.c:617
-#~ msgid "Unable to rename file '%s' to '%s': %s"
-#~ msgstr "Nevarēja pārsaukt failu '%s' uz '%s': %s"
-
-# mini-utils/idetool/idetool.c:41
-#~ msgid "Unable to create the data directory '%s': %s"
-#~ msgstr "Nevarēja izveidot datu mapi '%s': %s"
-
-#~| msgid "Save Snapshot"
-#~ msgid "Save snapshot"
-#~ msgstr "Saglabāt momentuzņēmumu"
-
-#~ msgid "Floppy Formatter"
-#~ msgstr "Disketes formatētājs"
-
-#~ msgid "Format floppy disks"
-#~ msgstr "Formātēt disketi"
-
-#~ msgid ""
-#~ "0 for the quick format, 1 for a standard one (adds a low-level format) "
-#~ "and finally 2 for a thorough format (adds a bad blocks scan)."
-#~ msgstr ""
-#~ "0 ātrai formatēšanai, 1 standarta (pievieno zemā-līmeņa formatēšanu) un "
-#~ "visbeidzot 2 viscaur formatēšanai (pievieno slikto sektoru skanēšanu)."
-
-#~ msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
-#~ msgstr ""
-#~ "TIKAI PIEREDZĒJUŠIEM LIETOTĀJIEM - Noklusētā aizmugure FAT formatēšanai"
-
-# mini-utils/guname/moreinfo.c:328
-#~ msgid "Default filesystem type"
-#~ msgstr "Noklusētais failsistēmas tips"
-
-# gdictsrc/gdict-pref-dialog.c:178
-#~ msgid "Default formatting mode"
-#~ msgstr "Noklusētais formatēšanas režīms"
-
-#~ msgid ""
-#~ "TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to "
-#~ "set mtools as the preferred FAT formatting backend."
-#~ msgstr ""
-#~ "TRUE, lai iestatītu mkdosfs kā vēlamo FAT formatēšanas aizmuguri, vai "
-#~ "FALSE, lai iestatītu mtools kā vēlamo FAT formatēšanas aizmuguri."
-
-#~ msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
-#~ msgstr "ext2 linux radniecīgai failsistēmai vai fat DOS failsistēmai."
-
-#~ msgid "Internal Error: Unable to seek to the correct location."
-#~ msgstr ""
-#~ "Iekšējā Kļūda: Neiespējami sameklēt līdz pareizajai atrašanās vietai."
-
-#~ msgid "Internal Error: Weird value (%ld) in do_test\n"
-#~ msgstr "Iekšējā Kļūda: Savāda vērtība (%ld) iekš do_test\n"
-
-#~ msgid "Checking for bad blocks..."
-#~ msgstr "Slikto sektoru pārbaude..."
-
-#~ msgid "Failed to open device %s for badblock checking\n"
-#~ msgstr "Nevarēja atvērt iekārtu %s, slikto sektoru pārbaudei\n"
-
-#~ msgid "Checking for bad blocks... Done"
-#~ msgstr "Slikto sektoru pārbaude... Izdarīts"
-
-#~ msgid "Formatting the disk..."
-#~ msgstr "Notiek diska formatēšana..."
-
-#~ msgid "I don't know what this is, but it's very wrong."
-#~ msgstr "Es nezinu, kas tas ir, bet tas ir ļoti nepareizi."
-
-#~ msgid "Error formatting track #%d"
-#~ msgstr "Kļūda formatējot celiņu #%d"
-
-#~ msgid "Error during completion of formatting"
-#~ msgstr "Kļūda formatēšanas pabeigšanas laikā"
-
-#~ msgid "Formatting the disk... Done"
-#~ msgstr "Notiek diska formatēšana... Izdarīts"
-
-#~ msgid "Verifying the format..."
-#~ msgstr "Notiek formāta pārbaude..."
-
-#~ msgid ""
-#~ "Unable to write to the floppy.\n"
-#~ "\n"
-#~ "Please confirm that it is not write-protected."
-#~ msgstr ""
-#~ "Nevar ierakstīt disketē.\n"
-#~ "\n"
-#~ "Lūdzu pārliecinieties, ka tā nav aizsargāta pret rakstīšanu."
-
-#~ msgid "Insufficient permissions to open floppy device %s."
-#~ msgstr "Nepietiekamas atļaujas, lai atvērtu disketes iekārtu %s."
-
-#~ msgid ""
-#~ "Unable to access the floppy disk.\n"
-#~ "\n"
-#~ "Please confirm that it is in the drive\n"
-#~ "with the drive door shut."
-#~ msgstr ""
-#~ "Nevar piekļūt disketei.\n"
-#~ "\n"
-#~ "Lūdzu pārliecinieties, ka tā ir ievietota iekārtā\n"
-#~ "ar aizvērtām iekārtas durtiņām."
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s:%d"
-#~ msgstr ""
-#~ "Parasta kļūda piekļūstot disketes iekārtai %s.\n"
-#~ "\n"
-#~ "Kļūdas kods %s:%d"
-
-#~ msgid ""
-#~ "Read Error:\n"
-#~ "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr ""
-#~ "Lasīšanas Kļūda:\n"
-#~ "Problēma lasot cilindru %d, gaidīja %d, nolasīja %d"
-
-#~ msgid "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr "Problēma lasot cilindru %d, gaidīja %d, nolasīja %d"
-
-#~ msgid "Bad data in cyl %d.  Continuing... "
-#~ msgstr "Slikti dati cilindrā %d. Turpinām... "
-
-# mini-utils/gless/gless.c:548
-#~ msgid "Error closing device %s"
-#~ msgstr "Kļūda aizverot iekārtu %s"
-
-#~ msgid "Verifying the format... Done"
-#~ msgstr "Notiek formāta pārbaude... Izdarīts"
-
-# mini-utils/gless/gless.c:617
-#~ msgid "Unable to write to device %s"
-#~ msgstr "Nevar ierakstīt iekārtā %s"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s"
-#~ msgstr ""
-#~ "Parasta kļūda piekļūstot disketes iekārtai %s.\n"
-#~ "\n"
-#~ "Kļūdas kods %s"
-
-#~ msgid "Could not determine current floppy geometry."
-#~ msgstr "Nevar noteikt pašreizējās diketes ģeometriju."
-
-#~ msgid "Error while creating a unique filename for the bad blocks list file."
-#~ msgstr ""
-#~ "Kļūda veidojot unikālu faila nosaukumu slikto sektoru saraksta failam."
-
-#~ msgid "Error while filling the bad blocks list file."
-#~ msgstr "Kļūda aizpildot slikto sektoru saraksta failu."
-
-#~ msgid "Error while spawning the (%s) command: %s."
-#~ msgstr "Kļūda pavairojot (%s) komandu: %s."
-
-#~ msgid "Unknown mke2fs starting signature, cancelling."
-#~ msgstr "Nezināms mke2fs sākuma paraksts, atsaucu."
-
-#~ msgid ""
-#~ "The filesystem creation utility (%s) reported the following errors:\n"
-#~ "\n"
-#~ "%s (%d)"
-#~ msgstr ""
-#~ "Failsistēmas izveides utilīta (%s) paziņoja par sekojošām kļūdām:\n"
-#~ "\n"
-#~ "%s (%d)"
-
-#~ msgid "Abnormal child process termination."
-#~ msgstr "Netipiska bērna procesa apturēšana."
-
-#~ msgid "Error while spawning the mbadblocks command: %s."
-#~ msgstr "Kļūda pavairojot mdbadblocks komandu: %s."
-
-#~ msgid ""
-#~ "The bad blocks checking utility (mbadblocks) reported the following "
-#~ "errors:\n"
-#~ "%s."
-#~ msgstr ""
-#~ "Slikto sektoru pārbaudes utilīta (mbadblocks) paziņoja par sekojošām "
-#~ "kļūdām:\n"
-#~ "%s."
-
-#~ msgid "Abnormal mbadblocks child process termination."
-#~ msgstr "Anormāla mdbadblocks bērna procesa apturēšana."
-
-#~ msgid "Making filesystem on disk..."
-#~ msgstr "Notiek failsistēmas veidošana uz diska..."
-
-# mini-utils/idetool/idetool.c:41
-#~ msgid "Unable to create filesystem correctly."
-#~ msgstr "Nevarēja pareizi izveidot failsistēmu."
-
-#~ msgid "Making filesystem on disk... Done"
-#~ msgstr "Notiek failsistēmas veidošana uz diska... Izdarīts"
-
-#~ msgid "Checking for bad blocks... (this might take a while)"
-#~ msgstr "Meklē sliktos sektorus... (tas var aizņemt kādu laiku)"
-
-#~ msgid "Error while checking the bad blocks."
-#~ msgstr "Kļāda pārbaudot sliktos sektorus."
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid ""
-#~ "<small><i><b>Note</b>: The mbadblocks utility isn't installed on this "
-#~ "system.  It must be installed in order to perform a thorough DOS (fat) "
-#~ "formatting.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>Piezīme</b>: Utilīta mbadblocks nav uzinstalēta šajā "
-#~ "sistēmā. Tai ir jābūt uzinstalētai, lai varētu veikt viscaur DOS (fat) "
-#~ "formatēšanu.</i></small>"
-
-#~ msgid "DOS (FAT)"
-#~ msgstr "DOS (FAT)"
-
-#~ msgid "Double Density 3.5\" (720KB)"
-#~ msgstr "Dubultblīvuma 3.5\" (720KB)"
-
-#~ msgid "Double Density 5.25\" (360KB)"
-#~ msgstr "Dubultblīvuma 5.25\" (360KB)"
-
-# mini-utils/guname/moreinfo.c:328
-#~ msgid "File system _type:"
-#~ msgstr "Failsistēmas _tips:"
-
-# mini-utils/guname/moreinfo.c:328
-#~ msgid "Filesystem Settings"
-#~ msgstr "Failsistēmas iestatījumi"
-
-#~ msgid "Floppy _density:"
-#~ msgstr "Disketes _blīvums:"
-
-#~ msgid "Floppy de_vice:"
-#~ msgstr "Disketes _iekārta:"
-
-# gdictsrc/gdict-pref-dialog.c:178
-#~ msgid "Formatting Mode"
-#~ msgstr "Formatēšanas režīms"
-
-#~ msgid "High Density 3.5\" (1.44MB)"
-#~ msgstr "Lielblīvuma 3.5\" (1.44MB)"
-
-#~ msgid "High Density 5.25\" (1.2MB)"
-#~ msgstr "Lielblīvuma 5.25\" (1.2MB)"
-
-#~ msgid "Linux Native (ext2)"
-#~ msgstr "Linux radniecīga (ext2)"
-
-#~ msgid "Physical Settings"
-#~ msgstr "Fiziskie iestatījumi"
-
-#~ msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
-#~ msgstr "_Viscaur (pievieno sliktā sektora pārbaudi standarta režīmam)"
-
-# logview/logview.c:370
-#~ msgid "Volume _name:"
-#~ msgstr "Sējuma _nosaukums:"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#~ msgid "_Format"
-#~ msgstr "_Formatēt"
-
-# mini-utils/idetool/idetool.c:41
-#~ msgid "_Quick (only creates the filesystem)"
-#~ msgstr "_Ātri (tikai izveido failsistēmu)"
-
-#~ msgid "_Standard (adds a low-level format to the quick mode)"
-#~ msgstr "_Standarta (pievieno zemā-līmeņa formatēšanu ātrajam režīmam)"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#~ msgid "Cannot Format"
-#~ msgstr "Nevar noformatēt"
-
-#~ msgid ""
-#~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
-#~ "You can't format a floppy without one of them."
-#~ msgstr ""
-#~ "Nav uzinstalētas aplikācijas mke2fs un mkdosfs/mformat. Jūs nevarat "
-#~ "formatēt disketi, ja jums nav kādas no tām."
-
-#~ msgid "Unable to open the device %s, formatting cannot continue."
-#~ msgstr "Nevar atvērt iekārtu %s, formatēšana nevar turpināties."
-
-#~ msgid ""
-#~ "The device %s is disconnected.\n"
-#~ "Please attach device to continue."
-#~ msgstr ""
-#~ "Iekārta %s ir atslēgta.\n"
-#~ "Lūdzu pievienojiet iekārtu, lai turpinātu."
-
-#~ msgid ""
-#~ "You do not have the proper permissions to write to %s, formatting will "
-#~ "not be possible.\n"
-#~ "Contact your system administrator about getting write permissions."
-#~ msgstr ""
-#~ "Jums nav atbilstošo atļauju, lai rakstītu uz %s, formatēšana nebūs "
-#~ "iespējama.\n"
-#~ "Sazinieties ar sistēmas administrātoru, lai dabūtu rakstīšanas atļaujas."
-
-#~ msgid "Cannot initialize device"
-#~ msgstr "Nevar inicializēt ierīci"
-
-#~ msgid "Unable to open any device, formatting cannot continue."
-#~ msgstr "Nevienu iekārtu nevar atvērt, formatēšana nevar turpināties."
-
-#~ msgid "/dev/floppy/0 or /dev/fd0"
-#~ msgstr "/dev/floppy/0 vai /dev/fd0"
-
-#~ msgid "Could not display help for the floppy formatter."
-#~ msgstr "Nevar parādīt palīdzību disketes formatētājam."
-
-#~ msgid "Incorrect volume name"
-#~ msgstr "Nepareizs sējuma vārds"
-
-#~ msgid "The volume name can't contain any blank space."
-#~ msgstr "Partīcijas nosaukums nevar saturēt nevienu tukšumu."
-
-#~ msgid "The device to format"
-#~ msgstr "Formatējamā iekārta"
-
-#~ msgid "DEVICE"
-#~ msgstr "IEKĀRTA"
-
-#~ msgid "- Floppy Formatter"
-#~ msgstr "- Diskešu formatētājs"
-
-#~ msgid ""
-#~ "The floppy has been formatted, but <b>%d bad block</b> (out of %d) has "
-#~ "been found and marked."
-#~ msgid_plural ""
-#~ "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
-#~ "been found and marked."
-#~ msgstr[0] ""
-#~ "Diskete tika noformatēta, bet <b>%d sliktais sektors</b> (no %d) tika "
-#~ "atrasts un marķēts."
-#~ msgstr[1] ""
-#~ "Diskete tika noformatēta, bet <b>%d sliktie sektori</b> (no %d) tika "
-#~ "atrasti un marķēti."
-#~ msgstr[2] ""
-#~ "Diskete tika noformatēta, bet <b>%d sliktie sektori</b> (no %d) tika "
-#~ "atrasti un marķēti."
-
-#~ msgid "Floppy formatted successfully."
-#~ msgstr "Diskete tika sekmīgi noformatēta."
-
-#~ msgid "Floppy formatting cancelled."
-#~ msgstr "Disketes formatēšana atsaukta."
-
-#~ msgid "Format Progress"
-#~ msgstr "Formatēšanas progress"
-
-#~ msgid "Dictionary Server"
-#~ msgstr "Vārdnīcas serveris"
-
-#~ msgid "O_pen Folder"
-#~ msgstr "_Atvērt mapi"
-
-# gcharmap/src/interface.c:190 mini-utils/gcolorsel/menus.c:93
-# mini-utils/gcolorsel/menus.c:954 mini-utils/gshutdown/gshutdown.c:153
-# mini-utils/gshutdown/gshutdown.c:594 mini-utils/gsu/gsu-gui-api.c:39
-#~| msgid "_Close"
-#~ msgid "Close"
-#~ msgstr "Aizvērt"
