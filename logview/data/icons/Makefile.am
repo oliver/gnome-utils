@@ -13,6 +13,7 @@ public_icons = \
 	$(NULL)
 
 noinst_DATA = \
+	logview.svg \
 	$(NULL)
 
 EXTRA_DIST = \
