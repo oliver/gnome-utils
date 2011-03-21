@@ -369,8 +369,6 @@ AC_CONFIG_FILES([
         baobab/Makefile
         baobab/data/Makefile
         baobab/pixmaps/Makefile
-        baobab/pixmaps/24x24/Makefile
-        baobab/pixmaps/scalable/Makefile
         baobab/src/Makefile
         baobab/help/Makefile
 
