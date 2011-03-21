@@ -1,3 +1,126 @@
+===============================================================
+GNOME Utilities 2.91.91 (21th March 2011) - "Hang Me Up to Dry"
+
+Highlights:
+  - new awesome high-res icons for Logview and Baobab
+  - gnome-screehshot's interactive mode is now fixed
+  - gnome-screenshot now exports ICC information
+
+A S Alam (1):
+      update Punjabi Translation by A S Alam
+
+Andika Triwidada (1):
+      Updated Indonesian translation
+
+Bruce Cowan (1):
+      Updated British English translation
+
+Bruno Brouard (3):
+      Updated French translation
+      Updated French translation
+      Updated French translation
+
+Changwoo Ryu (2):
+      Updated Korean translation
+      Updated Korean translation
+
+Cosimo Cecchi (5):
+      screenshot: add a workaround to avoid capturing the selection window
+      logview: add new high-res icon
+      baobab: use a new high-resolution icon for Baobab
+      baobab: use the "primary-toolbar" style class for the toolbar
+      logview: ship the SVG source for the new hires icon
+
+Daniel Korostil (3):
+      Uploaded Ukranian
+      Uploaded Ukranian
+      Uploaded Ukranian
+
+Daniel Mustieles (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Daniel Nylander (2):
+      Updated Swedish translation
+      Updated Swedish translation
+
+Duarte Loreto (2):
+      Updated Portuguese translation
+      Updated Portuguese translation
+
+Fran Diéguez (2):
+      Updated Galician translations
+      Updated Galician translations
+
+Gabor Kelemen (3):
+      Updated Hungarian translation
+      Updated Hungarian translation
+      Updated Hungarian translation
+
+Hannie Dumoleyn (1):
+      Updated Dutch translation by Hannie Dumoleyn
+
+Ivar Smolin (2):
+      [l10n] Updated Estonian translation
+      [l10n] Updated Estonian translation
+
+Joan Duran (2):
+      [l10n] Updated Catalan translation
+      [l10n]Updated Catalan translation
+
+Khaled Hosny (2):
+      Updated Arabic translation
+      Updated Arabic translation
+
+Kjartan Maraas (3):
+      Updated Norwegian bokmål translation
+      Updated Norwegian bokmål translation
+      Annotate baobab prefs window to ensure strings are extracted.
+
+Lucian Adrian Grijincu (1):
+      Updated Romanian translation
+
+Marek Černocký (2):
+      Updated Czech translation
+      Updated Czech translation
+
+Matej Urbančič (2):
+      Updated Slovenian translation
+      Updated Slovenian translation
+
+Nguyễn Thái Ngọc Duy (2):
+      po/vi.po: import from Damned Lies
+      Updated Vietnamese translation
+
+Piotr Drąg (2):
+      Updated Polish translation
+      Updated Polish translation
+
+Richard Hughes (1):
+      screenshot: Save the screen ICC profile in the screenshot file if it has been set
+
+Rudolfs Mazurs (2):
+      Updated Latvian translation.
+      Updated Latvian translation.
+
+Runa Bhattacharjee (1):
+      Updated Bengali India Translations
+
+Teliute (1):
+      Update Simplified Chinese translation.
+
+Wei Li (1):
+      [l10n]Update Simplified Chinese translation.
+
+Wouter Bolsterlee (1):
+      Updated Dutch translation by Wouter Bolsterlee
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+Yuri Myasoedov (1):
+      Updated Russian translation
+
 ====================================================================
 GNOME Utilities 2.91.5 (21th February 2011) - "Magnet Pulls Through"
 

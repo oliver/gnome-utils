@@ -1,6 +1,6 @@
 m4_define([gnome_utils_major], [2])
 m4_define([gnome_utils_minor], [91])
-m4_define([gnome_utils_micro], [5])
+m4_define([gnome_utils_micro], [91])
 
 m4_define([gnome_utils_version], [gnome_utils_major.gnome_utils_minor.gnome_utils_micro])
 
@@ -68,7 +68,7 @@ AC_SUBST(SUN_OS)
 dnl pkg-config check
 
 GLIB_REQUIRED=2.26.0
-GTK_REQUIRED=2.91.1
+GTK_REQUIRED=3.0.3
 LIBPANEL_APPLET_REQUIRED=2.13.4
 LIBGTOP_REQUIRED=2.12.0
 LIBCANBERRA_GTK_REQUIRED=0.26
