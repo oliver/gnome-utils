@@ -1,5 +1,5 @@
 <schemalist gettext-domain="gnome-utils-2.0">
-  <schema id="org.gnome.gnome-system-log" path="/apps/gnome-system-log/">
+  <schema id="org.gnome.gnome-system-log" path="/org/gnome/gnome-system-log/">
     <key name="logfile" type="s">
       <default>'/var/log/messages'</default>
       <_summary>Log file to open up on startup</_summary>
