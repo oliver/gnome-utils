@@ -1,4 +1,23 @@
 ===============================================================
+GNOME Utilities 2.91.93 (25th March 2011) - "Armstrong"
+
+Minor release, fixing some GSettings schema paths
+
+Amitakhya Phukan (1):
+      Updated Assamese translations
+
+Ivar Smolin (1):
+      [l10n] Updated Estonian translation
+
+Kjartan Maraas (1):
+      Updated Norwegian bokmål translation
+
+Luca Ferretti (3):
+      baobab: Use /org/gnome as starting path for schemas
+      logview: Use /org/gnome as starting path for schemas
+      screenshot: Use /org/gnome as starting path for schemas
+
+===============================================================
 GNOME Utilities 2.91.91 (21th March 2011) - "Hang Me Up to Dry"
 
 Highlights:
