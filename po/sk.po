@@ -1,5 +1,5 @@
 # Slovak translation for gnome-utils.
-# Copyright (C) 2000, 2001, 2002, 2003, 2005, 2008-2011 Free Software Foundation, Inc.
+# Copyright (C) 2000, 2001, 2002, 2003, 2005, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-utils package.
 # Stanislav Višňovský <visnovsky@nenya.ms.mff.cuni.cz>, 2000, 2001, 2002.
 # Stanislav Višňovský <visnovsky@kde.org>, 2003.
@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2011-02-09 18:25+0000\n"
-"PO-Revision-Date: 2011-02-11 22:39+0100\n"
+"utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
+"PO-Revision-Date: 2011-03-26 09:40+0100\n"
 "Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,12 +23,26 @@ msgstr ""
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
 msgid "Check folder sizes and available disk space"
-msgstr "Skontrolovať veľkosti priečinkov a dostupné miesto na disku"
+msgstr "Skontrolujte veľkosti priečinkov a dostupné miesto na disku"
 
 #: ../baobab/data/baobab.desktop.in.in.h:2
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "Analyzátor využitia disku"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Nastavenia analyzátora využitia disku"
+
+# Navrhujem preložiť "scan" ako "skúmať". Ale nechám to na Teba.
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr ""
+"Vyberte _zariadenia, ktoré budú zahrnuté do prehľadávania súborového systému:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "_Sledovať zmeny vo vašom domovskom priečinku"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -36,7 +50,7 @@ msgstr "Zoznam URI pre oddiely, ktoré budú vynechané z prehľadávania."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:2
 msgid "Active Chart"
-msgstr ""
+msgstr "Aktívny graf"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
 msgid "Excluded partitions URIs"
@@ -44,17 +58,15 @@ msgstr "URI vynechaných oddielov"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
 msgid "Monitor Home"
-msgstr ""
+msgstr "Sledovať domovský priečinok"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#, fuzzy
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
-msgstr "Stavový riadok je viditeľný"
+msgstr "Stavová lišta je viditeľná"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
-msgstr "Panel nástrojov je viditeľný"
+msgstr "Lišta nástrojov je viditeľná"
 
 # * https://bugzilla.gnome.org/show_bug.cgi?id=617554
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
@@ -63,17 +75,15 @@ msgstr "Či majú byť sledované akékoľvek zmeny v domovskom priečinku."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "Či má byť stavový riadok viditeľný v dolnej časti hlavného okna."
+msgstr "Či má byť stavová lišta viditeľná v dolnej časti hlavného okna."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
-msgstr "Či má byť panel nástrojov viditeľný v hlavnom okne."
+msgstr "Či má byť lišta nástrojov viditeľná v hlavnom okne."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#, fuzzy
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
-msgstr "Či má byť bočný panel viditeľný"
+msgstr "Ktorý typ grafu má byť zobrazený."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -133,7 +143,7 @@ msgstr "Prehľadať domovský priečinok"
 
 #: ../baobab/data/baobab-main-window.ui.h:16
 msgid "St_atusbar"
-msgstr "_Stavový riadok"
+msgstr "_Stavová lišta"
 
 #: ../baobab/data/baobab-main-window.ui.h:17
 msgid "Stop scanning"
@@ -149,12 +159,12 @@ msgstr "_Zabaliť všetky"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "Ob_sah"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Upraviť"
 
@@ -164,16 +174,16 @@ msgstr "_Rozbaliť všetky"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Pomocník"
 
 #: ../baobab/data/baobab-main-window.ui.h:24
 msgid "_Toolbar"
-msgstr "Panel nás_trojov"
+msgstr "Lišta nás_trojov"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Zobraziť"
 
@@ -590,7 +600,7 @@ msgid "Cl_ear"
 msgstr "Vy_mazať"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "_O programe"
 
@@ -613,7 +623,7 @@ msgstr "_Uložiť"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
-msgstr "Skontrolovať vysvetlenia alebo pravopis slov v online slovníku"
+msgstr "Skontrolujte vysvetlenia alebo pravopis slov v online slovníku"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
 #: ../gnome-dictionary/src/gdict-about.c:62
@@ -885,7 +895,7 @@ msgstr "Chyba počas porovnávania"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "Nič nenájdené"
 
@@ -1091,7 +1101,7 @@ msgstr "Slová na vyhľadávanie"
 #: ../gnome-dictionary/src/gdict-app.c:62
 #: ../gnome-dictionary/src/gdict-app.c:68
 msgid "WORD"
-msgstr ""
+msgstr "SLOVO"
 
 #: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
@@ -1105,7 +1115,7 @@ msgstr "Zdroj slovníka, ktorý použiť"
 #: ../gnome-dictionary/src/gdict-app.c:80
 #: ../gnome-dictionary/src/gdict-app.c:86
 msgid "NAME"
-msgstr ""
+msgstr "NÁZOV"
 
 #: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
@@ -1117,7 +1127,7 @@ msgstr "Postup, ktorý použiť"
 
 #: ../gnome-dictionary/src/gdict-app.c:91
 msgid "WORDS"
-msgstr ""
+msgstr "SLOVÁ"
 
 #. create the new option context
 #: ../gnome-dictionary/src/gdict-app.c:143
@@ -1275,10 +1285,8 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Odstrániť práve vybraný zdroj slovníka"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
-#, fuzzy
-#| msgid "Remove the currently selected dictionary source"
 msgid "Edit the currently selected dictionary source"
-msgstr "Odstrániť práve vybraný zdroj slovníka"
+msgstr "Upraviť práve vybraný zdroj slovníka"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
@@ -1323,7 +1331,7 @@ msgstr[2] "Nájdené %d vysvetlenia"
 msgid "%s - Dictionary"
 msgstr "%s - Slovník"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Súbor"
 
@@ -1360,7 +1368,7 @@ msgstr "_Tlačiť..."
 msgid "Print this document"
 msgstr "Tlačiť tento dokument"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Vybr_ať všetko"
 
@@ -1433,7 +1441,7 @@ msgstr "_Bočný panel"
 
 #: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
-msgstr "_Stavový riadok"
+msgstr "_Stavová lišta"
 
 #: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
@@ -1495,86 +1503,86 @@ msgstr "Dostupné postupy"
 msgid "Dictionary sources"
 msgstr "Zdroje slovníkov"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Chyba pri načítavaní pomocníka"
 
 # ide o efekt
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Žiadny"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Vrhnutý tieň"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Okraj"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Zahrnúť k_urzor"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Zahrnúť ok_raj okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Použiť _efekt:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Zachytiť celú pracovnú p_lochu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Zachytiť aktuálne o_kno"
 
 # tu je iný význam. Malo by byť niečo vo význame "označiť oblasť, ktorú potom budeme grabovať".
 # PK: nesuhlasim, je to v nastroji gnome-screenshot, * http://album.jabbim.cz/pk@jabbim.sk/#gnome-screenshot.png
 # PŠ: no a? tiež si myslím, že "Zachytiť vybranú obl_asť" nie je dobre - veď aká oblasť sa zachytí, keď som si ešte žiadnu nevybral?
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Označiť obl_asť na zachytenie"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Zachytiť s _oneskorením"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "sekúnd"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Urobiť snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Efekty"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "Urobiť _snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Chyba počas ukladania snímky obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1585,15 +1593,15 @@ msgstr ""
 " Chyba bola %s.\n"
 " Prosím, zopakujte to s iným umiestením."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Zachytená snímka obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Nepodarilo sa zachytiť snímku aktuálneho okna"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Obrazovka-%s.png"
@@ -1601,66 +1609,66 @@ msgstr "Obrazovka-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Obrazovka-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Obrazovka.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Obrazovka-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Zachytiť okno namiesto celej obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Zachytiť oblasť obrazovky namiesto celej obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Zahrnúť okraj okna do snímky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Odstrániť okraj okna zo snímky obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Zachytiť snímku obrazovky s určeným oneskorením [v sekundách]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr ""
 "Efekt, ktorý sa má pridať k okraju (shadow - tieň, border - okraj alebo none "
 "- žiadny)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "efekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Interaktívne nastaviť možnosti"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Zachytiť snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1669,7 +1677,7 @@ msgstr "Konfliktné voľby: --window a --area by nemali byť používané spolu.
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
-msgstr "Uložiť obrázky vašej pracovnej plochy alebo samostatných okien"
+msgstr "Uložte obrázky vašej pracovnej plochy alebo samostatných okien"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1717,34 +1725,46 @@ msgid "Include Border"
 msgstr "Vrátane okraja"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-msgid "Include Pointer"
+#, fuzzy
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
 msgstr "Zahrnúť kurzor"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+msgid "Include Pointer"
+msgstr "Zahrnúť kurzor"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#, fuzzy
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Zahrnúť kurzor do snímky obrazovky"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Zahrnúť kurzor do snímky obrazovky"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Zahrnúť okraj správcu okien do snímky"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Oneskorenie snímky obrazovky"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Adresár snímok obrazoviek"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Adresár naposledy použitý pri zachytávaní snímky obrazovky."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Počet sekúnd, ktoré počkať pred zosnímaním obrazovky."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Snímok obrazovky špecifický pre dané okno (zastaralé)"
 
@@ -1761,7 +1781,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Vyberte priečinok"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1770,7 +1790,7 @@ msgstr ""
 "Nepodarilo sa vymazať dočasný priečinok:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
@@ -1778,12 +1798,12 @@ msgstr ""
 "Proces na ukladanie neočakávane skončil.  Nepodarilo sa uložiť snímku "
 "obrazovky na disk."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Pri ukladaní snímky obrazovky nastala neznáma chyba"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Nepomenované okno"
 
@@ -1812,7 +1832,7 @@ msgstr "Nemožno pristúpiť k zdrojovému súboru"
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
 msgstr ""
-"Vyhľadať dokumenty a priečinky na tomto počítači podľa názvu alebo obsahu"
+"Vyhľadajte dokumenty a priečinky na tomto počítači podľa názvu alebo obsahu"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
@@ -2846,7 +2866,7 @@ msgstr "Prehliadač systémových záznamov"
 
 #: ../logview/data/gnome-system-log.desktop.in.in.h:2
 msgid "View or monitor system log files"
-msgstr "Zobraziť alebo sledovať súbory systémových záznamov"
+msgstr "Zobrazte alebo sledujte súbory systémových záznamov"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
@@ -2854,11 +2874,11 @@ msgstr "Výška hlavného okna v bodoch"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
 msgid "List of saved filters"
-msgstr ""
+msgstr "Zoznam uložených filtrov"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
 msgid "List of saved regexp filters"
-msgstr ""
+msgstr "Zoznam uložených filtrovacích regulárnych výrazov"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
@@ -3032,423 +3052,228 @@ msgstr " - Prehliadať a sledovať záznamy"
 msgid "Log Viewer"
 msgstr "Prehliadač záznamov"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "Prehliadač systémových záznamov"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "posledná aktualizácia: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d riadkov (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "Otvoriť záznam"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Nastala chyba pri zobrazovaní pomocníka: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "Zalomené"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "Prehliadač systémových záznamov pre GNOME."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "_Filtre"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "_Otvoriť..."
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "Otvoriť záznam zo súboru"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "Zav_rieť"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "Zavrieť tento záznam"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "_Ukončiť"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "Ukončiť prehliadač systémových záznamov"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "_Kopírovať"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "Kopírovať výber"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "Vybrať celý záznam"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "_Nájsť..."
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "Nájsť slovo alebo frázu v zázname"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "Väčšia veľkosť textu"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "Menšia veľkosť textu"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "Normálna veľkosť textu"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "Spravovať filtre"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "Spravovať filtre"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "Otvoriť obsah pomocníka pre prehliadač systémových záznamov"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "Zobraziť dialóg o aplikácii pre prehliadač systémových záznamov"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
-msgstr "_Stavový riadok"
+msgstr "_Stavová lišta"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
-msgstr "Zobraziť stavový riadok"
+msgstr "Zobraziť stavovú lištu"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "Bočný _panel"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "Zobraziť bočný panel"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "Zobraziť len zhody"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr ""
 "Zobraziť len také riadky, ktoré sa zhodujú s jedným zo zadaných filtrov"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "_Automaticky rolovať"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "Automaticky rolovať dole ak sa objavia nové riadky"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "Nemožno čítať z \"%s\""
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "Verzia: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "Nepodarilo sa otvoriť nasledujúce súbory:"
 
 #: ../font-viewer/font-thumbnailer.c:267
 msgid "Text to thumbnail (default: Aa)"
-msgstr ""
+msgstr "Text pre náhľad (predvolený: Aa)"
 
 #: ../font-viewer/font-thumbnailer.c:267
 msgid "TEXT"
-msgstr ""
+msgstr "TEXT"
 
 #: ../font-viewer/font-thumbnailer.c:269
 msgid "Font size (default: 64)"
-msgstr ""
+msgstr "Veľkosť písma (predvolená: 64)"
 
 #: ../font-viewer/font-thumbnailer.c:269
 msgid "SIZE"
-msgstr ""
+msgstr "VEĽKOSŤ"
 
 #: ../font-viewer/font-thumbnailer.c:271
 msgid "FONT-FILE OUTPUT-FILE"
-msgstr ""
+msgstr "SÚBOR-S-PÍSMOM VÝSTUPNÝ-SÚBOR"
 
 #: ../font-viewer/font-view.c:289
-#, fuzzy
-#| msgid "_Name:"
 msgid "Name:"
-msgstr "_Názov:"
+msgstr "Názov:"
 
 #: ../font-viewer/font-view.c:292
 msgid "Style:"
-msgstr ""
+msgstr "Štýl:"
 
 #: ../font-viewer/font-view.c:304
-#, fuzzy
-#| msgid "Type"
 msgid "Type:"
-msgstr "Typ"
+msgstr "Typ:"
 
 #: ../font-viewer/font-view.c:308
-#, fuzzy
-#| msgid "Size"
 msgid "Size:"
-msgstr "Veľkosť"
+msgstr "Veľkosť:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#, fuzzy
-#| msgid "Version: "
 msgid "Version:"
-msgstr "Verzia: "
+msgstr "Verzia:"
 
 #: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
 msgid "Copyright:"
-msgstr ""
+msgstr "Autorské právo:"
 
 #: ../font-viewer/font-view.c:360
-#, fuzzy
-#| msgid "_Description:"
 msgid "Description:"
-msgstr "P_opis:"
+msgstr "Popis:"
 
 #: ../font-viewer/font-view.c:428
 msgid "Installed"
-msgstr ""
+msgstr "Nainštalovaný"
 
 #: ../font-viewer/font-view.c:430
 msgid "Install Failed"
-msgstr ""
+msgstr "Inštalácia zlyhala"
 
 #: ../font-viewer/font-view.c:502
 #, c-format
 msgid "Usage: %s fontfile\n"
-msgstr ""
+msgstr "Použitie: %s súbor s písmom\n"
 
 #: ../font-viewer/font-view.c:572
 msgid "I_nstall Font"
-msgstr ""
+msgstr "_Nainštalovať písmo"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#, fuzzy
-#| msgid "Log Viewer"
 msgid "Font Viewer"
-msgstr "Prehliadač záznamov"
+msgstr "Prehliadač písiem"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#, fuzzy
-#| msgid "Preview this document"
 msgid "Preview fonts"
-msgstr "Náhľad tohto dokumentu"
-
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "Nastavenia analyzátora využitia disku"
-
-# Navrhujem preložiť "scan" ako "skúmať". Ale nechám to na Teba.
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr ""
-#~ "Vyberte _zariadenia, ktoré budú zahrnuté do prehľadávania súborového "
-#~ "systému:"
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "_Sledovať zmeny vo vašom domovskom priečinku"
-
-# * https://bugzilla.gnome.org/show_bug.cgi?id=617554
-#~ msgid "Enable monitoring of home directory"
-#~ msgstr "Povoliť sledovanie domovského priečinka"
-
-# PK: zatial ako fuzzy
-# * https://bugzilla.gnome.org/show_bug.cgi?id=612780
-#~ msgid "Subfolders tooltips visible"
-#~ msgstr "Bublinové popisy podpriečinkov sú viditeľné"
-
-#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
-#~ msgstr ""
-#~ "Či sú vykresľované bublinové popisy podpriečinkov z vybraného priečinka."
-
-#~ msgid "Dictionary server (Deprecated)"
-#~ msgstr "Server slovníka (Zastaralé)"
-
-#~ msgid "Port used to connect to server (Deprecated)"
-#~ msgstr "Port používaný pre pripojenie k serveru (zastaralé)"
-
-#~ msgid ""
-#~ "Specify whether to use smart lookup. This key is dependant on whether the "
-#~ "dictionary server supports this option. The default is TRUE. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Zadajte, či sa má používať inteligentné hľadanie. Tento kľúč závisí na "
-#~ "tom, či server slovníka túto voľbu podporuje. Predvolené je TRUE. Tento "
-#~ "kľúč je zastaralý a viac sa už nepoužíva."
-
-#~ msgid "The default height of the application window"
-#~ msgstr "Predvolená výška okna aplikácie"
-
-#~ msgid "The default width of the application window"
-#~ msgstr "Predvolená šírka okna aplikácie"
-
-#~ msgid ""
-#~ "The dictionary server to connect to. The default server is dict.org. See "
-#~ "http://www.dict.org for details on other servers. This key is deprecated "
-#~ "and no longer in use."
-#~ msgstr ""
-#~ "Slovníkový server na pripojenie. Predvolený server je dict.org. "
-#~ "Podrobnosti o ostatných serveroch nájdete na http://www.dict.org. Tento "
-#~ "kľúč je zastaralý a viac sa už nepoužíva."
-
-#~ msgid "The page of the sidebar to show"
-#~ msgstr "Stránka bočného panelu, ktorú zobraziť"
-
-#~ msgid ""
-#~ "The port number to connect to. The default port is 2628. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "Číslo portu, ktorý sa má použiť pre spojenie. Predvolený port je 2628. "
-#~ "Tento kľúč je zastaralý a viac sa už nepoužíva."
-
-#~ msgid "The width of the sidebar"
-#~ msgstr "Šírka bočného panelu"
-
-#~ msgid ""
-#~ "This key defines the width of the sidebar and it's used to remember the "
-#~ "setting across sessions."
-#~ msgstr ""
-#~ "Tento kľúč definuje šírku bočného panelu, a je použitý na zapamätanie "
-#~ "nastavenia medzi reláciami."
-
-#~ msgid ""
-#~ "This key defines the window height and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a height based on the font size."
-#~ msgstr ""
-#~ "Tento kľúč definuje výšku okna, a je použitý na zapamätanie veľkosti okna "
-#~ "slovníka medzi reláciami. Nastavenie na -1 spôsobí, že okno slovníka bude "
-#~ "používať výšku na základe veľkosti písma."
-
-#~ msgid ""
-#~ "This key defines the window width and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a width based on the font size."
-#~ msgstr ""
-#~ "Tento kľúč definuje šírku okna, a je použitý na zapamätanie veľkosti okna "
-#~ "slovníka medzi reláciami. Nastavenie na -1 spôsobí, že okno slovníka bude "
-#~ "používať šírku na základe veľkosti písma."
-
-#~ msgid ""
-#~ "This key defines whether the sidebar should be visible and it's used to "
-#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
-#~ "will make the sidebar always be displayed."
-#~ msgstr ""
-#~ "Tento kľúč definuje, či má byť bočný panel viditeľný, a je použitý na "
-#~ "zapamätanie stavu bočného panela medzi reláciami. Nastavenie na TRUE "
-#~ "spôsobí, že bočný panel bude vždy zobrazený."
-
-#~ msgid ""
-#~ "This key defines whether the statusbar should be visible and it's used to "
-#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
-#~ "will make the statusbar always be displayed."
-#~ msgstr ""
-#~ "Tento kľúč definuje, či má byť stavový riadok viditeľný, a je použitý na "
-#~ "zapamätanie stavu stavového riadku medzi reláciami. Nastavenie na TRUE "
-#~ "spôsobí, že stavový riadok bude vždy viditeľný."
-
-#~ msgid ""
-#~ "This key defines whether the window should be maximized and it's used to "
-#~ "remember the state of the dictionary window across sessions. Setting it "
-#~ "to TRUE will make the window always appear as maximized."
-#~ msgstr ""
-#~ "Tento kľúč definuje, či má byť okno maximalizované, a je použitý na "
-#~ "zapamätanie stavu okna slovníka medzi reláciami. Nastavenie na TRUE "
-#~ "spôsobí, že okno sa vždy zjaví ako maximalizované."
-
-#~ msgid ""
-#~ "This key defines which page of the sidebar should be displayed and it's "
-#~ "used to remember the setting across sessions.. It can be \"speller\" or "
-#~ "\"databases\"."
-#~ msgstr ""
-#~ "Tento kľúč definuje, ktorá stránka má byť zobrazená v bočnom paneli, a je "
-#~ "použitý na zapamätanie nastavenia medzi reláciami. Môže to byť \"speller"
-#~ "\" alebo \"databases\"."
-
-#~ msgid "Use smart lookup (Deprecated)"
-#~ msgstr "Použiť inteligentné hľadanie (zastaralé)"
-
-#~ msgid "Whether the application window should be maximized"
-#~ msgstr "Či má byť okno aplikácie maximalizované"
-
-#~ msgid "Whether the statusbar should be visible"
-#~ msgstr "Či má byť stavový riadok viditeľný"
-
-#~ msgid ""
-#~ "Definition for '%s'\n"
-#~ "  From '%s':\n"
-#~ "\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "Vysvetlenie pre '%s'\n"
-#~ "  Z '%s':\n"
-#~ "\n"
-#~ "%s\n"
-
-#~ msgid "Error: %s\n"
-#~ msgstr "Chyba: %s\n"
-
-#~ msgid "See gnome-dictionary --help for usage\n"
-#~ msgstr "Pre použitie pozrite gnome-dictionary --help\n"
-
-#~ msgid "Unable to find a suitable dictionary source"
-#~ msgstr "Nepodarilo sa nájsť vhodný zdroj slovníka"
-
-#~ msgid ""
-#~ "Error while looking up the definition of \"%s\":\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Chyba počas hľadania vysvetlenia \"%s\":\n"
-#~ "%s"
-
-#~ msgid "word"
-#~ msgstr "slovo"
-
-#~ msgid "source"
-#~ msgstr "zdroj"
-
-#~ msgid "Show available dictionary sources"
-#~ msgstr "Zobraziť dostupné zdroje slovníkov"
-
-#~ msgid "Print result to the console"
-#~ msgstr "Vypísať výsledky na konzolu"
-
-#~ msgid "db"
-#~ msgstr "db"
-
-#~ msgid "strat"
-#~ msgstr "postup"
-
-#~ msgid "Unable to rename file '%s' to '%s': %s"
-#~ msgstr "Nepodarilo sa premenovať súbor '%s' na '%s': %s"
-
-#~ msgid "Unable to create the data directory '%s': %s"
-#~ msgstr "Nepodarilo sa vytvoriť adresár údajov '%s': %s"
+msgstr "Náhľady písiem"
