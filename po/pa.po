@@ -10,9 +10,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-utils&component=general\n"
-"POT-Creation-Date: 2011-02-21 22:03+0000\n"
-"PO-Revision-Date: 2011-03-03 08:32+0530\n"
+"cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
+"PO-Revision-Date: 2011-03-26 23:46+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -30,6 +30,18 @@ msgstr "ਫੋਲਡਰ ਸਾਇਜ਼ ਅਤੇ ਉਪਲੱਬਧ ਡਿਸ�
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ ਪਸੰਦ"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "ਫਾਇਲ ਸਿਸਟਮ ਜਾਂਚ ਵਾਸਤੇ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਜੰਤਰ ਚੁਣੋ(_d):"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "ਆਪਣੇ ਘਰ ਫੋਲਡਰ ਲਈ ਤਬਦੀਲੀਆਂ ਦੀ ਨਿਗਰਾਨੀ(_M)"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -1278,7 +1290,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "ਮੌਜੂਦਾ ਚੁਣੇ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਨੂੰ ਹਟਾਓ"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
-#| msgid "Remove the currently selected dictionary source"
 msgid "Edit the currently selected dictionary source"
 msgstr "ਮੌਜੂਦਾ ਚੁਣੇ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਨੂੰ ਸੋਧੋ"
 
@@ -1496,82 +1507,82 @@ msgstr "ਉਪਲੱਬਧ ਨੀਤੀਆਂ"
 msgid "Dictionary sources"
 msgstr "ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "ਮੱਦਦ ਪੇਜ਼ ਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "ਸ਼ੈਡੋ ਛੱਡੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "ਬਾਰਡਰ"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "ਪੁਆਇੰਟਰ ਸਮੇਤ(_p)"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "ਵਿੰਡੋ ਬਾਰਡਰ ਸਮੇਤ(_b)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "ਪਰਭਾਵ ਲਾਗੂ ਕਰੋ(_e):"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "ਪੂਰਾ ਡਿਸਕਟਾਪ ਲਵੋ(_d)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਲਵੋ(_w)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "ਫੜਨ ਲਈ ਏਰੀਆ ਚੁਣੋ(_a)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "ਇੱਕ ਅੰਤਰਾਲ ਬਾਅਦ ਲਵੋਂ (_a)"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "ਸਕਿੰਟ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "ਪਰਭਾਵ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਸੰਭਾਲਣ ਦੌਰਾਨ ਗਲਤੀ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1582,15 +1593,15 @@ msgstr ""
 " ਗਲਤੀ %s ਹੈ।\n"
 " ਹੋਰ ਟਿਕਾਣਾ ਦੇ ਕੇ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜੀ।"
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਲਿਆ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਦਾ ਸਕਰੀਨ-ਸ਼ਾਟ ਲੈਣ ਲਈ ਅਸਮਰੱਥ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "ਤਸਵੀਰ-%s.png"
@@ -1598,64 +1609,64 @@ msgstr "ਤਸਵੀਰ-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "ਤਸਵੀਰ-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "ਤਸਵੀਰ.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "ਤਸਵੀਰ-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਦੀ ਬਜਾਏ ਇੱਕ ਵਿੰਡੋ ਹੀ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਦੀ ਬਜਾਏ ਸਕਰੀਨ ਦਾ ਇੱਕ ਖੇਤਰ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "ਵਿੰਡੋ ਬਾਰਡਰ ਸਮੇਤ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਤੋਂ ਵਿੰਡੋ ਹਾਸ਼ੀਆ (ਬਾਰਡਰ) ਹਟਾਓ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "ਖਾਸ ਅੰਤਰਾਲ ਬਾਅਦ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ (ਸਕਿੰਟ ਵਿੱਚ)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "ਬਾਰਡਰ ਵਿੱਚ ਜੋੜਨ ਲਈ ਪਰਭਾਵ (ਛਾਂ, ਹਾਸ਼ੀਆ, ਜਾਂ ਕੋਈ ਨਹੀਂ)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "ਪਰਭਾਵ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "ਦਿਲ-ਖਿੱਚਵੀਆਂ ਚੋਣਾਂ ਸੈੱਟ ਕਰੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "ਸਕਰੀਨ ਦੀ ਤਸਵੀਰ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1713,34 +1724,44 @@ msgid "Include Border"
 msgstr "ਬਾਰਡਰ ਸਮੇਤ"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
+msgstr "ICC ਪਰੋਫਾਇਲ ਸਮੇਤ"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "ਪੁਆਇੰਟਰ ਸਮੇਤ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "ਸਕਰੀਨਸ਼ਾਟ ਫਾਇਲ ਵਿੱਚ ਟਾਰਗੇਟ ਦੇ ICC ਪ੍ਰੋਫਾਇਲ ਸਮੇਤ"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "ਪੁਆਇੰਟਰ ਸਮੇਤ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "ਸਕਰੀਨ ਸ਼ਾਟ ਵਿੱਚ ਵਿੰਡੋ ਦਾ ਬਾਰਡਰ ਵੀ ਸ਼ਾਮਲ ਕਰੋ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਦੇਰੀ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਡਾਇਰੈਕਟਰੀ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "ਡਾਇਰੈਕਟਰੀ, ਜਿਸ ਵਿੱਚ ਆਖਰੀ ਸਰਕੀਨ-ਸ਼ਾਟ ਸੰਭਾਲਿਆ ਗਿਆ ਹੈ।"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "ਸਕਰੀਨਸ਼ਾਟ ਲੈਣ ਤੋਂ ਪਹਿਲਾਂ ਉਡੀਕਣ ਲਈ ਸਕਿੰਟਾਂ ਦੀ ਗਿਣਤੀ"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "ਵਿੰਡੋ ਖਾਸ ਸਕਰੀਨ-ਸ਼ਾਟ (ਬਰਤਰਫ਼)"
 
@@ -1756,7 +1777,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "ਇੱਕ ਫੋਲਡਰ ਚੁਣੋ"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1765,7 +1786,7 @@ msgstr ""
 "ਆਰਜ਼ੀ ਡਾਇਰੈਕਟਰੀ ਸਾਫ਼ ਕਰਨ ਵਿੱਚ ਅਸਫਲ:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
@@ -1773,12 +1794,12 @@ msgstr ""
 "ਅਧੀਨ ਕਾਰਜ ਅਸਧਾਰਨ ਢੰਗ ਨਾਲ ਬੰਦ ਹੋ ਗਿਆ ਹੈ। ਅਸੀ ਡਿਸਕ ਉੱਤੇ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਿਖਣ ਤੋਂ "
 "ਅਸਫਲ ਹਾਂ।"
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "ਡਿਸਕ ਉੱਤੇ ਸਕਰੀਨ-ਸ਼ਾਟ ਸੰਭਾਲਣ ਦੌਰਾਨ ਅਣਜਾਣੀ ਗਲਤੀ"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "ਬਿਨਾਂ ਨਾਂ ਵਿੰਡੋ"
 
@@ -3473,15 +3494,6 @@ msgstr "ਫੋਂਟ ਝਲਕ"
 
 #~ msgid "Whether to thumbnail Type1 fonts"
 #~ msgstr "ਕੀ ਫੋਂਟ ਟਾਈਪ1 (Type1) ਨੂੰ ਥੰਬਨੇਲ ਕਰਨਾ ਹੈ"
-
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "ਡਿਸਕ ਵਰਤੋਂ ਜਾਂਚਕਾਰ ਪਸੰਦ"
-
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "ਫਾਇਲ ਸਿਸਟਮ ਜਾਂਚ ਵਾਸਤੇ ਸ਼ਾਮਿਲ ਕਰਨ ਲਈ ਜੰਤਰ ਚੁਣੋ(_d):"
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "ਆਪਣੇ ਘਰ ਫੋਲਡਰ ਲਈ ਤਬਦੀਲੀਆਂ ਦੀ ਨਿਗਰਾਨੀ(_M)"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "ਘਰ ਡਾਇਰੈਕਟਰੀ ਦੀ ਨਿਗਰਾਨੀ ਯੋਗ"
