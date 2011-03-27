@@ -7,9 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2011-02-09 18:25+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
 "PO-Revision-Date: 2010-08-29 17:50+0000\n"
 "Last-Translator: Temkin <temkin119@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -27,6 +26,18 @@ msgstr "قىسقۇچ چوڭلۇقى ۋە ئىشلىتىشكە بولىدىغان
 msgid "Disk Usage Analyzer"
 msgstr "دىسكا ئىشلىتىش تەھلىلچىسى"
 
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "دىسكا ئىشلىتىش تەھلىلچىسى مايىللىقى"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr ""
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "ماكان قىسقۇچنىڭ ئۆزگىرىشىنى كۆزەت(_M)"
+
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "تەكشۈرگەندە سىرتتا قالدۇرۇلىدىغان دىسكا رايونىنىڭ URI سى كۆرسىتىلىدۇ."
@@ -41,7 +52,7 @@ msgstr "سىرتتا قالدۇرۇلىدىغان دىسكا رايونىنىڭ 
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:4
 msgid "Monitor Home"
-msgstr "ئېكران Home"
+msgstr "كۆزەتكۈچ ماكانى"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
 msgid "Statusbar is Visible"
@@ -65,7 +76,7 @@ msgstr "ئاساسىي كۆزنەكتىكى قورال بالداق كۆرۈنە
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
-msgstr "قايسى تىپتىكى دىئاگراممىنى كۆرسەتسۇن."
+msgstr "قايسى تىپتىكى دىئاگرامما كۆرسىتىلىدۇ."
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
@@ -141,12 +152,12 @@ msgstr "ھەممىنى قاتلا(_C)"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "مەزمۇنلار(_C)"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "تەھرىر(_E)"
 
@@ -156,7 +167,7 @@ msgstr "ھەممىنى ياي(_E)"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "ياردەم(_H)"
 
@@ -165,7 +176,7 @@ msgid "_Toolbar"
 msgstr "قورال بالداق(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "كۆرۈنۈش(_V)"
 
@@ -228,11 +239,11 @@ msgstr "ئاتا قىسقۇچقا يۆتكە"
 
 #: ../baobab/src/baobab.c:949
 msgid "Zoom in"
-msgstr "چوڭايتىش"
+msgstr "چوڭايت"
 
 #: ../baobab/src/baobab.c:953
 msgid "Zoom out"
-msgstr "كىچىكلىتىش"
+msgstr "كىچىكلەت"
 
 #: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
@@ -264,8 +275,7 @@ msgstr "ھېچقانداق ئېگەرلەش نۇقتىسى بايقالمىدى.
 
 #: ../baobab/src/baobab.c:1300
 msgid "Without mount points disk usage cannot be analyzed."
-msgstr ""
-"ئېگەرلەش نۇقتىسى بولمىسا دىسكا ئىشلىتىش ئەھۋالىنى تەھلىل قىلغىلى بولمايدۇ."
+msgstr "ئېگەرلەش نۇقتىسى بولمىسا دىسكا ئىشلىتىش ئەھۋالىنى تەھلىل قىلغىلى بولمايدۇ."
 
 #: ../baobab/src/baobab-chart.c:205
 msgid "Maximum depth"
@@ -326,7 +336,7 @@ msgstr "ئومۇمىي سىغىمى"
 
 #: ../baobab/src/baobab-prefs.c:212
 msgid "Available"
-msgstr "بار"
+msgstr "ئىشلىتىلىشچان"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:77
 #, c-format
@@ -363,8 +373,7 @@ msgstr "بىخەتەر WebDAV (HTTPS)"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:249
 msgid "Cannot Connect to Server. You must enter a name for the server."
-msgstr ""
-"مۇلازىمېتىرغا ئۇلىنالمىدى. مۇلازىمېتىرنىڭ ئاتىدىن بىرنى كىرگۈزۈشىڭىز لازىم."
+msgstr "مۇلازىمېتىرغا باغلىنالمىدى. مۇلازىمېتىرنىڭ ئاتىدىن بىرنى كىرگۈزۈشىڭىز لازىم."
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:252
 msgid "Please enter a name and try again."
@@ -405,7 +414,7 @@ msgstr "دائىرە ئاتى(_D):"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:643
 msgid "Connect to Server"
-msgstr "مۇلازىمېتىرغا ئۇلا"
+msgstr "مۇلازىمېتىرغا باغلا"
 
 #: ../baobab/src/baobab-remote-connect-dialog.c:659
 msgid "Service _type:"
@@ -423,9 +432,7 @@ msgstr "ماكان مۇندەرىجىڭىزنى قايتا تەكشۈرەمسى�
 msgid ""
 "The content of your home folder has changed. Select rescan to update the "
 "disk usage details."
-msgstr ""
-"نۆۋەتتىكى ماكان قىسقۇچىڭىز ئۆزگەرتىلدى. قايتا تەكشۈرۈش تاللانسا دىسكا "
-"ئىشلىتىش ئەھۋالىنىڭ تەپسىلاتىنى يېڭىلىغىلى بولىدۇ."
+msgstr "نۆۋەتتىكى ماكان قىسقۇچىڭىز ئۆزگەرتىلدى. قايتا تەكشۈرۈش تاللانسا دىسكا ئىشلىتىش ئەھۋالىنىڭ تەپسىلاتىنى يېڭىلىغىلى بولىدۇ."
 
 #: ../baobab/src/baobab-treeview.c:84
 msgid "_Rescan"
@@ -511,11 +518,7 @@ msgid ""
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
-msgstr ""
-"بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان "
-"GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى "
-"ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى "
-"نەشرىنى ئىشلەتسىڭىز بولىدۇ."
+msgstr "بۇ پروگرامما ئەركىن يۇمشاق دېتال؛ سىز ئەركىن يۇمشاق دېتال ۋەخپىسى تارقاتقان GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە ئۇنى قايتا تارقىتىپ ياكى ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ ئىككىنچى نەشرى ياكى يۇقىرى نەشرىنى ئىشلەتسىڭىز بولىدۇ."
 
 #: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
 msgid ""
@@ -523,20 +526,14 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
-msgstr ""
-"بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا "
-"ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU "
-"ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ."
+msgstr "بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ."
 
 #: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
-msgstr ""
-"مەزكۇر پروگرامما بىلەن بىرگە GNU General Public ئىجازەتنامىسىنى چوقۇم بىرگە "
-"بولىدۇ.ئۇنداق بولمىسا Free Software Foundation, Inc., 51 Franklin Street, "
-"Fifth Floor, Boston, MA 02110-1301, USA  بىلەن ئالاقە قىلىڭ."
+msgstr "مەزكۇر پروگرامما بىلەن بىرگە GNU General Public ئىجازەتنامىسىنى چوقۇم بىرگە بولىدۇ.ئۇنداق بولمىسا Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA  بىلەن ئالاقە قىلىڭ."
 
 #: ../baobab/src/callbacks.c:101
 msgid "Baobab"
@@ -550,10 +547,9 @@ msgstr "دىسكا ئىشلىتىش ئەھۋالى تەھلىلىگە ئىشلى
 #: ../baobab/src/callbacks.c:110 ../gnome-dictionary/src/gdict-about.c:55
 #: ../logview/logview-about.h:63
 msgid "translator-credits"
-msgstr ""
-"Gheyret Kenji <gheyret@gmail.com>\n"
-"Temkin<Temkin119@gmail.com>\n"
-"Sahran<sahran@live.com>"
+msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+"Sahran<sahran@live.com>\n"
+"Muhemmed Erdem <misran_erdem@hotmail.com>"
 
 #: ../baobab/src/callbacks.c:208 ../gsearchtool/gsearchtool-callbacks.c:488
 #: ../gsearchtool/gsearchtool-callbacks.c:811
@@ -581,7 +577,7 @@ msgid "Cl_ear"
 msgstr "تازىلا(_E)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "ھەققىدە(_A)"
 
@@ -635,18 +631,13 @@ msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
-msgstr ""
-"توردىكى مۇلازىمېتىردا ئىشلىتىدىغان مۇستەقىل ساندان ياكى مېتا ساندان ئاتى. "
-"ئۈندەش (\"!\") بەلگىسى لۇغەت پروگراممىسىنىڭ بېرىلگەن مۇلازىمېتىردىكى ھەممە "
-"سانداندىن ئىزدەشنى ئىپادىلەيدۇ"
+msgstr "توردىكى مۇلازىمېتىردا ئىشلىتىدىغان مۇستەقىل ساندان ياكى مېتا ساندان ئاتى. ئۈندەش (\"!\") بەلگىسى لۇغەت پروگراممىسىنىڭ بېرىلگەن مۇلازىمېتىردىكى ھەممە سانداندىن ئىزدەشنى ئىپادىلەيدۇ"
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
-msgstr ""
-"لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تاكتىكىسى. كۆڭۈلدىكى تاكتىكا "
-"'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
+msgstr "لۇغەت مەنبەسىدە ئىشلىتىدىغان كۆڭۈلدىكى ئىزدەش تاكتىكىسى. كۆڭۈلدىكى تاكتىكا 'exact' سۆزگە دەل ماسلاشتۇرۇشنى كۆرسىتىدۇ."
 
 #: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
@@ -659,7 +650,7 @@ msgstr "سۆز ئېنىقلىمىسىغا ئېرىشىشتە ئىشلىتىدى�
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
-msgstr "باس"
+msgstr "بېسىپ چىقار"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:2
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:3
@@ -720,7 +711,7 @@ msgstr "كومپيۇتېر ئاتى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:298
 msgid "The hostname of the dictionary server to connect to"
-msgstr "ئۇلىنىدىغان لۇغەت مۇلازىمېتىرىنىڭ كومپيۇتېر ئاتى"
+msgstr "باغلىنىدىغان لۇغەت مۇلازىمېتىرىنىڭ كومپيۇتېر ئاتى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:311
 msgid "Port"
@@ -728,11 +719,11 @@ msgstr "ئېغىز"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:312
 msgid "The port of the dictionary server to connect to"
-msgstr "ئۇلىنىدىغان لۇغەت مۇلازىمېتىرىنىڭ ئېغىزى"
+msgstr "باغلىنىدىغان لۇغەت مۇلازىمېتىرىنىڭ ئېغىزى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:327
 msgid "Status"
-msgstr "ھالىتى"
+msgstr "ھالەت"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:328
 msgid "The status code as returned by the dictionary server"
@@ -741,7 +732,7 @@ msgstr "لۇغەت مۇلازىمېتىرى قايتۇرغان ھالەت كود
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:777
 #, c-format
 msgid "No connection to the dictionary server at '%s:%d'"
-msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى"
+msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا باغلىنالمىدى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1060
 #, c-format
@@ -763,9 +754,7 @@ msgstr "'%s' كومپيۇتېرنى ئىزدىيەلمىدى: كومپيۇتېر
 msgid ""
 "Unable to connect to the dictionary server at '%s:%d'. The server replied "
 "with code %d (server down)"
-msgstr ""
-"'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى. مۇلازىمېتىر قايتۇرغان كود %d "
-"(مۇلازىمېتىر توختىغان)"
+msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا باغلىنالمىدى. مۇلازىمېتىر قايتۇرغان كود %d (مۇلازىمېتىر توختىغان)"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1196
 #, c-format
@@ -812,21 +801,20 @@ msgstr "'%s' دىكى لۇغەت مۇلازىمېتىرىدىن تاكتىكا �
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1748
 #, c-format
 msgid "Connection failed to the dictionary server at %s:%d"
-msgstr "%s:%d لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى"
+msgstr "%s:%d لۇغەت مۇلازىمېتىرىغا باغلىنالمىدى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1787
 #, c-format
 msgid ""
 "Error while reading reply from server:\n"
 "%s"
-msgstr ""
-"مۇلازىمېتىرنىڭ جاۋابىنى ئوقۇشتا خاتالىق كۆرۈلدى:\n"
+msgstr "مۇلازىمېتىرنىڭ جاۋابىنى ئوقۇشتا خاتالىق كۆرۈلدى:\n"
 "%s"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1860
 #, c-format
 msgid "Connection timeout for the dictionary server at '%s:%d'"
-msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنىش ۋاقىت ھالقىدى"
+msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا باغلىنىش ۋاقتى ئېشىپ كەتتى"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1894
 #, c-format
@@ -847,7 +835,7 @@ msgstr "قانالنى توسۇلمايدىغان قىلىپ تەڭشىيەلم�
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1986
 #, c-format
 msgid "Unable to connect to the dictionary server at '%s:%d'"
-msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا ئۇلىنالمىدى"
+msgstr "'%s:%d' لۇغەت مۇلازىمېتىرىغا باغلىنالمىدى"
 
 #: ../gnome-dictionary/libgdict/gdict-context.c:218
 msgid "Local Only"
@@ -874,7 +862,7 @@ msgstr "ماسلاشتۇرغاندا خاتالىق كۆرۈلدى"
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
-#: ../logview/logview-window.c:485
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "تېپىلمىدى"
 
@@ -888,7 +876,7 @@ msgstr "ئالدىنقىسى(_P)"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
-msgstr "كېيىنكى(_N)"
+msgstr "كېيىنكىسى(_N)"
 
 #: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
@@ -962,7 +950,7 @@ msgstr "بۇ لۇغەت مەنبەسى ئىشلەتكەن يوللاش قۇرۇ�
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
 #: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
-msgstr "تىل مۇھىتى"
+msgstr "مەزمۇن"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:318
 msgid "The GdictContext bound to this source"
@@ -1080,7 +1068,7 @@ msgstr "ئىزدەيدىغان سۆزلەر"
 #: ../gnome-dictionary/src/gdict-app.c:62
 #: ../gnome-dictionary/src/gdict-app.c:68
 msgid "WORD"
-msgstr "سۆز"
+msgstr "WORD"
 
 #: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
@@ -1094,7 +1082,7 @@ msgstr "ئىشلىتىدىغان لۇغەت مەنبەسى"
 #: ../gnome-dictionary/src/gdict-app.c:80
 #: ../gnome-dictionary/src/gdict-app.c:86
 msgid "NAME"
-msgstr "ئاتى"
+msgstr "NAME"
 
 #: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
@@ -1106,7 +1094,7 @@ msgstr "ئىشلىتىدىغان تەدبىر"
 
 #: ../gnome-dictionary/src/gdict-app.c:91
 msgid "WORDS"
-msgstr "سۆزلەر"
+msgstr "WORDS"
 
 #. create the new option context
 #: ../gnome-dictionary/src/gdict-app.c:143
@@ -1222,7 +1210,7 @@ msgstr "كونتېكىست قۇرالمايدۇ"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
 msgid "Unable to connect to GConf"
-msgstr "GConf غا ئۇلىنالمىدى"
+msgstr "GConf غا باغلىنالمىدى"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
 msgid "Unable to get notification for preferences"
@@ -1265,7 +1253,7 @@ msgstr "نۆۋەتتە تاللانغان لۇغەت مەنبەسىنى چىقى
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
 msgid "Edit the currently selected dictionary source"
-msgstr "نۆۋەتتە تاللانغان لۇغەت مەنبەسىنى چىقىرىۋەت"
+msgstr "نۆۋەتتە تاللانغان لۇغەت مەنبەسىنى تەھرىرلە"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
@@ -1308,7 +1296,7 @@ msgstr[0] "%d ئېنىقلىما تېپىلدى"
 msgid "%s - Dictionary"
 msgstr "%s - لۇغەت"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "ھۆججەت(_F)"
 
@@ -1345,7 +1333,7 @@ msgstr "باس(_P)…"
 msgid "Print this document"
 msgstr "بۇ پۈتۈكنى باس"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "ھەممىنى تاللا(_A)"
 
@@ -1480,101 +1468,100 @@ msgstr "ئىشلىتىلىشچان تەدبىرلەر"
 msgid "Dictionary sources"
 msgstr "لۇغەت مەنبەلىرى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "ياردەم بەتنى يۈكلەشتە خاتالىق كۆرۈلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "يوق"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "سايە"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "گىرۋەك"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "نۇر بەلگە بار(_P)"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "كۆزنەك گىرۋىكىنى ئۆز ئىچىگە ئالىدۇ(_B)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "ئۈنۈم قوللان(_E):"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇت(_D)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "نۆۋەتتىكى كۆزنەكنى تۇت(_W)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "تۇتىدىغان دائىرىنى تاللا(_A)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "تۇتۇشتىن ئىلگىرىكى كېچىكتۈرۈش ۋاقتى(_A)"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "سېكۇنت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "ئېكران كەسمىسى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "ئۈنۈملەر"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "ئېكران كەسمىسى تۇت(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "ئېكران كەسمىسى ساقلاۋاتقاندا خاتالىق كۆرۈلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
 " Error was %s.\n"
 " Please choose another location and retry."
-msgstr ""
-"تۇتقان ئېكران كەسمىسىنى %s غا ساقلىيالمايدۇ.\n"
+msgstr "تۇتقان ئېكران كەسمىسىنى %s غا ساقلىيالمايدۇ.\n"
 "خاتالىق %s.\n"
 "باشقا ئورۇننى تاللاپ قايتا سىناڭ."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "ئېكران كەسمىسى تۇتۇلدى"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "نۆۋەتتىكى كۆزنەكنىڭ ئېكران كەسمىسىنى تۇتالمايدۇ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "%s-ئېكران كەسمىسى.png"
@@ -1582,70 +1569,69 @@ msgstr "%s-ئېكران كەسمىسى.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "ئېكران كەسمىسى-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "%d-ئېكران كەسمىسى.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "پۈتۈن ئېكراننى ئەمەس كۆزنەكنى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "ئېكراننى ئەمەس ئېكراننىڭ مەلۇم دائىرىسىنى تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "ئېكران كەسمىسىدە كۆزنەك گىرۋىكىمۇ بار"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "ئېكران كەسمىسىدىن كۆزنەك گىرۋىكىنى چىقىرىۋەت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "بەلگىلەنگەن ۋاقىتتىن كېيىن ئېكران كەسمىسى تۇت [سېكۇنت]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "گىرۋەككە قوشىدىغان ئۈنۈم(سايە، گىرۋەك ياكى يوق)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "ئۈنۈم"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "ئۆزئارا تەسىرچان تەڭشەك تاللانما"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "ئېكراننى رەسىمگە تۇت"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
 "time.\n"
-msgstr ""
-"توقۇنۇش تاللانما: -- كۆزنەك ۋە -- دائىرە بىر ۋاقىتتا بولمىسا ئىشلىتىلىدۇ.\n"
+msgstr "توقۇنۇش تاللانما: -- كۆزنەك ۋە -- دائىرە بىر ۋاقىتتا بولمىسا ئىشلىتىلىدۇ.\n"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
@@ -1680,51 +1666,57 @@ msgstr "گىرۋەك ئۈنۈمى"
 msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
-msgstr ""
-"گىرۋەككە قوشۇلىدىغان ئۈنۈم. ئىشلەتكىلى بولىدىغان قىممىتى \"shadow\"(سايە)، "
-"\"none\"(يوق) ۋە \"border\"(گىرۋەك)"
+msgstr "گىرۋەككە قوشۇلىدىغان ئۈنۈم. ئىشلەتكىلى بولىدىغان قىممىتى \"shadow\"(سايە)، \"none\"(يوق) ۋە \"border\"(گىرۋەك)"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
-msgstr ""
-"پۈتكۈل ئۈستەلئۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن "
-"قالغان ئىشلەتكىلى بولمايدۇ."
+msgstr "پۈتكۈل ئۈستەلئۈستىنى تۇتماي نۆۋەتتىكى كۆزنەكنىلا تۇت. بۇ ھالقىلىق سۆز كۈچتىن قالغان ئىشلەتكىلى بولمايدۇ."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
 msgstr "گىرۋەك بار"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
+msgstr ""
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "نۇر بەلگە بار"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr ""
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "ئېكران كەسمىسىدە نۇر بەلگىمۇ بار"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "ئېكران كەسمىسىدە كۆزنەك باشقۇرغۇچ گىرۋىكىمۇ بار"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "ئېكران كەسمىسى كېچىكتۈر"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "ئېكران كەسمىسى مۇندەرىجىسى"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "ئاخىرقى قېتىم ئېكران كەسمىسى ساقلىغان مۇندەرىجە."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "ئېكران كەسمىسى تۇتۇشتىن ئىلگىرى كۈتىدىغان سېكۇنت سانى"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "بەلگىلەنگەن كۆزنەكنىڭ ئېكران كەسمىسى (تەۋسىيە)"
 
@@ -1732,36 +1724,33 @@ msgstr "بەلگىلەنگەن كۆزنەكنىڭ ئېكران كەسمىسى (�
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
-msgstr ""
-"ئېكران كەسمە پروگراممىسىنىڭ كۆرۈنۈش ئېنىقلىما ھۆججىتى يوقالغان.\n"
+msgstr "ئېكران كەسمە پروگراممىسىنىڭ كۆرۈنۈش ئېنىقلىما ھۆججىتى يوقالغان.\n"
 "gnome-utils ئورنىتىلىشىنى تەكشۈرۈڭ"
 
 #: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "قىسقۇچ تاللاڭ"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
 "%s"
-msgstr ""
-"ۋاقىتلىق قىسقۇچنى تازىلىيالمايدۇ:\n"
+msgstr "ۋاقىتلىق قىسقۇچنى تازىلىيالمايدۇ:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
-msgstr ""
-"بالا جەريان ساقلاش تاسادىپىي چېكىندى. ئېكران كەسمىسىنى دىسكىغا ساقلىيالمايدۇ."
+msgstr "بالا ئىجرا ساقلاش تاسادىپىي چېكىندى. ئېكران كەسمىسىنى دىسكىغا ساقلىيالمايدۇ."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "ئېكران كەسمىسىنى دىسكىغا ساقلاشتا نامەلۇم خاتالىق كۆرۈلدى"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "ماۋزۇسىز كۆزنەك"
 
@@ -1789,8 +1778,7 @@ msgstr "مەنبە ھۆججەتنى زىيارەت قىلالمىدى"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
-msgstr ""
-"بۇ كومپيۇتېردىكى پۈتۈك ۋە قىسقۇچلارنى ئاتى ياكى مەزمۇنى بويىچە ئورۇن بېكىتىدۇ"
+msgstr "بۇ كومپيۇتېردىكى پۈتۈك ۋە قىسقۇچلارنى ئاتى ياكى مەزمۇنى بويىچە ئورۇن بېكىتىدۇ"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
@@ -1922,26 +1910,20 @@ msgstr "قوشۇمچە تاللانما كۆرسەت"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:53
 msgid "This key defines the default value of the \"Look in Folder\" widget."
-msgstr ""
-"بۇ ھالقىلىق كود widget نىڭ «قىسقۇچ ئىزدە»نىڭ كۆڭۈلدىكى قىممىتىنى ئېنىقلايدۇ."
+msgstr "بۇ ھالقىلىق كود widget نىڭ «قىسقۇچ ئىزدە»نىڭ كۆڭۈلدىكى قىممىتىنى ئېنىقلايدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:54
 msgid ""
 "This key defines the order of the columns in the search results. This key "
 "should not be modified by the user."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش نەتىجىسىدىكى ھەر قايسى ئىستونلارنىڭ تەرتىپى ئېنىقلىنىدۇ. "
-"بۇ كۇنۇپكىنى ئىشلەتكۈچى ئۆزگەرتەلمەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش نەتىجىسىدىكى ھەر قايسى ئىستونلارنىڭ تەرتىپى ئېنىقلىنىدۇ. بۇ كۇنۇپكىنى ئىشلەتكۈچى ئۆزگەرتەلمەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:55
 msgid ""
 "This key defines the paths the search tool will exclude from a quick search. "
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
-msgstr ""
-"بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا سىرتتا قالدۇرۇلىدىغان يولنى "
-"ئېنىقلايدۇ. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'. كۆڭۈلدىكى قىممىتى /mnt/*, /"
-"media/*, /dev/*, /tmp/*, /proc/*, /var/*."
+msgstr "بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا سىرتتا قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'. كۆڭۈلدىكى قىممىتى /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, /var/*."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:56
 msgid ""
@@ -1950,119 +1932,87 @@ msgid ""
 "search for files. The purpose of the second scan is to find files that have "
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
-msgstr ""
-"بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا ئىككىنچى قېتىم تەكشۈرگەندە سىرتتا "
-"قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. ئىككىنچى قېتىم تەكشۈرگەندە find بۇيرۇقىنى "
-"ئىشلىتىپ ھۆججەت ئىزدەيدۇ. ئىككىنچى قېتىم تەكشۈرۈشنىڭ مەقسىتى ئىندېكسقا "
-"كىرگۈزۈلمىگەن ھۆججەتنى ئىزدەش. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'."
+msgstr "بۇ كۇنۇپكا تېز ئىزدەشنى ئىجرا قىلغاندا ئىككىنچى قېتىم تەكشۈرگەندە سىرتتا قالدۇرۇلىدىغان يولنى ئېنىقلايدۇ. ئىككىنچى قېتىم تەكشۈرگەندە find بۇيرۇقىنى ئىشلىتىپ ھۆججەت ئىزدەيدۇ. ئىككىنچى قېتىم تەكشۈرۈشنىڭ مەقسىتى ئىندېكسقا كىرگۈزۈلمىگەن ھۆججەتنى ئىزدەش. قوللايدىغان ئورتاق بەلگە '*' ۋە '?'."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:57
 msgid ""
 "This key defines the window height, and it's used to remember the size of "
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
-msgstr ""
-"بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
-"ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
-"ئىزدەش قورالى كۆڭۈلدىكى ئېگىزلىكنى ئىشلىتىدۇ."
+msgstr "بۇ كۇنۇپكا كۆزنەك ئېگىزلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە ئىزدەش قورالى كۆڭۈلدىكى ئېگىزلىكنى ئىشلىتىدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
 msgid ""
 "This key defines the window width, and it's used to remember the size of the "
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
-msgstr ""
-"بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا "
-"ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە "
-"ئىزدەش قورالى كۆڭۈلدىكى كەڭلىكنى ئىشلىتىدۇ."
+msgstr "بۇ كۇنۇپكا كۆزنەك كەڭلىكىنى ئېنىقلاپ، ئوخشاش بولمىغان ئەڭگىمە ئارىسىدا ئىزدەش قورالىنىڭ چوڭلۇقىنى ئەستە تۇتۇشقا ئىشلىتىلىدۇ. ئۇ -1 قىلىپ تەڭشەلسە ئىزدەش قورالى كۆڭۈلدىكى كەڭلىكنى ئىشلىتىدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
 msgid ""
 "This key determines if the \"Contains the text\" search option is selected "
 "when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆز ئىچىگە ئالغان تېكىست»نى تاللىغان "
-"ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆز ئىچىگە ئالغان تېكىست»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:60
 msgid ""
 "This key determines if the \"Date modified less than\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن ئىلگىرى»نى تاللىغان "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن ئىلگىرى»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:61
 msgid ""
 "This key determines if the \"Date modified more than\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن كېيىن»نى تاللىغان "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئۆزگەرتكەن چېسلادىن كېيىن»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە "
-"ئالمايدۇ»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «باشقا ھۆججەت سىستېمىسىنى ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:63
 msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ھۆججەت بوش»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ھۆججەت بوش»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
 msgid ""
 "This key determines if the \"Follow symbolic links\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «بەلگە ئۇلانمىغا ئەگەش»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «بەلگە ئۇلانمىغا ئەگەش»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:65
 msgid ""
 "This key determines if the \"Name does not contain\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ئۆز ئىچىگە ئالمايدۇ»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:66
 msgid ""
 "This key determines if the \"Name matches regular expression\" search option "
 "is selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ماسلاشقان مۇنتىزىم ئىپادە»نى "
-"تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئات ماسلاشقان مۇنتىزىم ئىپادە»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:67
 msgid ""
 "This key determines if the \"Owned by group\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «گۇرۇپپىغا تەۋە»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «گۇرۇپپىغا تەۋە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:68
 msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىشلەتكۈچىگە تەۋە»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىشلەتكۈچىگە تەۋە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:69
 msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىگىسى نامەلۇم»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «ئىگىسى نامەلۇم»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #. Translators: The quoted text is the label of the additional
 #. options expander that is translated elsewhere.
@@ -2070,56 +2020,42 @@ msgstr ""
 msgid ""
 "This key determines if the \"Select more options\" section is expanded when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «تېخىمۇ كۆپ تاللانما تاللا»نى تاللىغان "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «تېخىمۇ كۆپ تاللانما تاللا»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:73
 msgid ""
 "This key determines if the \"Show hidden files and folders\" search option "
 "is selected when the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت»نى "
-"تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «يوشۇرۇن ھۆججەت ۋە قىسقۇچنى كۆرسەت»نى تاللىغان تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:74
 msgid ""
 "This key determines if the \"Size at least\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى ئاز دېگەندە»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى ئاز دېگەندە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:75
 msgid ""
 "This key determines if the \"Size at most\" search option is selected when "
 "the search tool is started."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى كۆپ دېگەندە»نى تاللىغان ياكى "
-"تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى قوزغالغاندا «چوڭلۇقى كۆپ دېگەندە»نى تاللىغان ياكى تاللىمىغانلىق ئىزدەش تاللانمىسىنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:76
 msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى تېز ئىزدەشنى ئىجرا قىلغاندىن كېيىن find بۇيرۇقى "
-"ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى تېز ئىزدەشنى ئىجرا قىلغاندىن كېيىن find بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
 msgid ""
 "This key determines if the search tool disables the use of the locate "
 "command when performing simple file name searches."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى ئادەتتىكى ھۆججەت ئات  ئىزدەشنى ئىجرا قىلغاندىن "
-"كېيىن locate بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى ئادەتتىكى ھۆججەت ئات  ئىزدەشنى ئىجرا قىلغاندىن كېيىن locate بۇيرۇقى ئىشلىتىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:78
 msgid ""
 "This key determines if the search tool window starts in a maximized state."
-msgstr ""
-"بۇ كۇنۇپكا ئىزدەش قورالى ئەڭ چوڭ ھالەتتە قوزغىلىشنى چەكلەش چەكلىمەسلىكنى "
-"بەلگىلەيدۇ."
+msgstr "بۇ كۇنۇپكا ئىزدەش قورالى ئەڭ چوڭ ھالەتتە قوزغىلىشنى چەكلەش چەكلىمەسلىكنى بەلگىلەيدۇ."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:194
 msgid "Could not open help document."
@@ -2247,9 +2183,7 @@ msgstr "\"%s\" پۈتۈك مەۋجۇت. ئۇنى ئالماشتۇرۇۋېتەم�
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1669
 msgid "If you replace an existing file, its contents will be overwritten."
-msgstr ""
-"ئەگەر مەۋجۇت ھۆججەتنى ئالماشتۇرۇۋەتسىڭىز، ئۇ ھۆججەتنىڭ ھەممە مەزمۇنى "
-"قاپلىنىدۇ."
+msgstr "ئەگەر مەۋجۇت ھۆججەتنى ئالماشتۇرۇۋەتسىڭىز، ئۇ ھۆججەتنىڭ ھەممە مەزمۇنى قاپلىنىدۇ."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
@@ -2264,8 +2198,7 @@ msgstr "سىزنىڭ پۈتۈككە يېزىش ھوقۇقىڭىز يوق ئوخ�
 msgid ""
 "GConf error:\n"
 "  %s"
-msgstr ""
-"GConf خاتالىقى:\n"
+msgstr "GConf خاتالىقى:\n"
 "  %s"
 
 #. Translators:  Below are the strings displayed in the 'Date Modified'
@@ -2284,7 +2217,7 @@ msgstr "تۈنۈگۈن %-I:%M %p"
 #: ../gsearchtool/gsearchtool-support.c:700
 #: ../gsearchtool/gsearchtool-support.c:702
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%A، %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A، %Y-يىل %Bنىڭ %-d-كۈنى، %-I:%M:%S "
 
 #: ../gsearchtool/gsearchtool-support.c:889
 msgid "link (broken)"
@@ -2451,7 +2384,7 @@ msgstr "يوشۇرۇن ۋە زاپاس ھۆججەتنى كۆرسەت"
 
 #: ../gsearchtool/gsearchtool.c:98
 msgid "Follow symbolic links"
-msgstr "بەلگە ئۇلىنىشىغا ئەگەش"
+msgstr "بەلگە ئۇلانمىسىغا ئەگەش"
 
 #: ../gsearchtool/gsearchtool.c:99
 msgid "Exclude other filesystems"
@@ -2464,7 +2397,7 @@ msgstr "پروگراممىنىڭ نەشرىنى كۆرسەت."
 #: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
 #: ../gsearchtool/gsearchtool.c:172
 msgid "STRING"
-msgstr "ھەرپ تىزمىسى"
+msgstr "STRING"
 
 #: ../gsearchtool/gsearchtool.c:159
 msgid "PATH"
@@ -2488,7 +2421,7 @@ msgstr "USER"
 
 #: ../gsearchtool/gsearchtool.c:170
 msgid "GROUP"
-msgstr "گۇرۇپپا"
+msgstr "GROUP"
 
 #: ../gsearchtool/gsearchtool.c:173
 msgid "PATTERN"
@@ -2550,15 +2483,11 @@ msgstr "«قىسقۇچتىن ئىزدە» ئىزدەش تاللانما تېكى
 
 #: ../gsearchtool/gsearchtool.c:1286
 msgid "Sort files by one of the following: name, folder, size, type, or date"
-msgstr ""
-"تۆۋەندىكىلەردىن بىرى بويىچە ھۆججەت تەرتىپلە: ئاتى، قىسقۇچ، چوڭلۇقى، تىپى "
-"ياكى چېسلا"
+msgstr "تۆۋەندىكىلەردىن بىرى بويىچە ھۆججەت تەرتىپلە: ئاتى، قىسقۇچ، چوڭلۇقى، تىپى ياكى چېسلا"
 
 #: ../gsearchtool/gsearchtool.c:1287
 msgid "Set sort order to descending, the default is ascending"
-msgstr ""
-"تەرتىپلەش تەرتىپىنى كېمەيگۈچى قىلىپ تەڭشە، كۆڭۈلدىكى ئەھۋالدا ئاشقۇچى "
-"تەرتىپتە تەرتىپلىنىدۇ"
+msgstr "تەرتىپلەش تەرتىپىنى كېمەيگۈچى قىلىپ تەڭشە، كۆڭۈلدىكى ئەھۋالدا ئاشقۇچى تەرتىپتە تەرتىپلىنىدۇ"
 
 #: ../gsearchtool/gsearchtool.c:1288
 msgid "Automatically start a search"
@@ -2582,17 +2511,14 @@ msgstr "بۇيرۇق قۇرى پارامېتىرى sortby نىڭ تاللانم�
 msgid ""
 "\n"
 "... Too many errors to display ..."
-msgstr ""
-"\n"
+msgstr "\n"
 "… خاتالىق بەك كۆپ تولۇق كۆرسىتەلمەيدۇ …"
 
 #: ../gsearchtool/gsearchtool.c:1712
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
-msgstr ""
-"ئىزدەش نەتىجىسى بەلكىم ئىناۋەتسىز. چۈنكى بۇ قېتىملىق ئىزدەشنى ئىجرا قىلغاندا "
-"خاتالىق كۆرۈلدى."
+msgstr "ئىزدەش نەتىجىسى بەلكىم ئىناۋەتسىز. چۈنكى بۇ قېتىملىق ئىزدەشنى ئىجرا قىلغاندا خاتالىق كۆرۈلدى."
 
 #: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
 msgid "Show more _details"
@@ -2602,9 +2528,7 @@ msgstr "تەپسىلاتىنى كۆرسەت(_D)"
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
-msgstr ""
-"ئىزدەش نەتىجىسىنىڭ ۋاقتى ئۆتكەن ياكى ئىناۋەتسىز. تېز ئىزدەش ئىقتىدارىنى "
-"چەكلەمسىز؟"
+msgstr "ئىزدەش نەتىجىسىنىڭ ۋاقتى ئۆتكەن ياكى ئىناۋەتسىز. تېز ئىزدەش ئىقتىدارىنى چەكلەمسىز؟"
 
 #: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
@@ -2613,7 +2537,7 @@ msgstr "تېز ئىزدەشنى چەكلە(_Q)"
 #: ../gsearchtool/gsearchtool.c:1800
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
-msgstr "تارماق %d نىڭ كىملىكىنى تەڭشىيەلمىدى: %s.\n"
+msgstr "بالا %d نىڭ ئىجرا گۇرۇپپا ID سىنى تەڭشەش مەغلۇپ بولدى: %s.\n"
 
 #: ../gsearchtool/gsearchtool.c:1825
 msgid "Error parsing the search command."
@@ -2692,8 +2616,7 @@ msgstr "ئات ئىچىدە(_N):"
 
 #: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
 msgid "Enter a filename or partial filename with or without wildcards."
-msgstr ""
-"ھۆججەت ئاتى ياكى قىسمەن ھۆججەت ئاتىنى كىرگۈزۈڭ ئورتاق بەلگە ئىشلىتىشكە بولىدۇ"
+msgstr "ھۆججەت ئاتى ياكى قىسمەن ھۆججەت ئاتىنى كىرگۈزۈڭ ئورتاق بەلگە ئىشلىتىشكە بولىدۇ"
 
 #: ../gsearchtool/gsearchtool.c:2757
 msgid "Name contains"
@@ -2829,11 +2752,11 @@ msgstr "ئاساسىي كۆزنەكنىڭ ئېگىزلىكى پىكسېل"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
 msgid "List of saved filters"
-msgstr "ساقلانغان سۈزگۈچلەر تىزىملىكى"
+msgstr "ساقلانغان سۈزگۈچلەرنىڭ تىزىمى"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
 msgid "List of saved regexp filters"
-msgstr "ساقلانغان ئىپادە سۈزگۈچلەر تىزىملىكى"
+msgstr "ساقلانغان regexp سۈزگۈچلىرىنىڭ تىزىمى"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
@@ -2851,9 +2774,7 @@ msgstr "خاتىرە كۆرسىتىشكە ئىشلىتىلىدىغان خەت ن
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
-msgstr ""
-"پروگرامما قوزغالغاندا ئاچىدىغان خاتىرە ھۆججەت. كۆڭۈلدىكى تىزىملىكى /etc/"
-"syslog.conf نى ئوقۇپ قۇرۇلىدۇ."
+msgstr "پروگرامما قوزغالغاندا ئاچىدىغان خاتىرە ھۆججەت. كۆڭۈلدىكى تىزىملىكى /etc/syslog.conf نى ئوقۇپ قۇرۇلىدۇ."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
@@ -2863,19 +2784,13 @@ msgstr "خاتىرە كۆرگۈچ ئاساسىي كۆزنىكىنىڭ ئېگىز
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
-msgstr ""
-"پروگرامما قوزغالغاندا كۆرسىتىدىغان خاتىرە ھۆججەت بەلگىلىنىدۇ. مەشغۇلات "
-"سىستېمىڭىزنىڭ ئوخشاش بولماسلىقىغا ئاساسەن، كۆڭۈلدىكى /var/adm/messages ياكى /"
-"var/log/messages"
+msgstr "پروگرامما قوزغالغاندا كۆرسىتىدىغان خاتىرە ھۆججەت بەلگىلىنىدۇ. مەشغۇلات سىستېمىڭىزنىڭ ئوخشاش بولماسلىقىغا ئاساسەن، كۆڭۈلدىكى /var/adm/messages ياكى /var/log/messages"
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
-msgstr ""
-"ئاساسىي دەرەخسىمان كۆرۈنۈشتە خاتىرە كۆرسىتىدىغان تەڭ كەڭلىكتىكى خەت نۇسخا "
-"چوڭلۇقى بەلگىلىنىدۇ. كۆڭۈلدىكى قىممەت كۆڭۈلدىكى تېرمىنال خەت نۇسخا "
-"چوڭلۇقىدىن كېلىدۇ."
+msgstr "ئاساسىي دەرەخسىمان كۆرۈنۈشتە خاتىرە كۆرسىتىدىغان تەڭ كەڭلىكتىكى خەت نۇسخا چوڭلۇقى بەلگىلىنىدۇ. كۆڭۈلدىكى قىممەت كۆڭۈلدىكى تېرمىنال خەت نۇسخا چوڭلۇقىدىن كېلىدۇ."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
@@ -2973,9 +2888,7 @@ msgstr "ئىزدەش ھەرپ تىزمىسىنى تازىلا"
 
 #: ../logview/logview-log.c:595
 msgid "Error while uncompressing the GZipped log. The file might be corrupt."
-msgstr ""
-"GZipped خاتىرىنى پرېستىن يېشىشتە خاتالىق كۆرۈلدى. ئۇ ھۆججەت بۇزۇلغان بولۇشى "
-"مۇمكىن."
+msgstr "GZipped خاتىرىنى پرېستىن يېشىشتە خاتالىق كۆرۈلدى. ئۇ ھۆججەت بۇزۇلغان بولۇشى مۇمكىن."
 
 #: ../logview/logview-log.c:642
 msgid "You don't have enough permissions to read the file."
@@ -3009,147 +2922,155 @@ msgstr " - كۆز يۈگۈرت ۋە كۆزەت خاتىرىسى"
 msgid "Log Viewer"
 msgstr "خاتىرە كۆرگۈچ"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "سىستېما خاتىرىسى كۆرگۈچ"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "ئاخىرقى يېڭىلانغان ۋاقىت: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d قۇر (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "خاتىرە ئاچ"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "ياردەم كۆرسىتىشتە خاتالىق كۆرۈلدى: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "قاتلانغان قۇرنىمۇ ئىزدە"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "GNOME سىستېما خاتىرىسى كۆرگۈچ."
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "سۈزگۈچ(_F)"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "ئاچ(_O)…"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "ھۆججەتتىن كۈندىلىك خاتىرە ئاچ"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "ياپ(_C)"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "بۇ خاتىرىنى ياپ"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "چېكىن(_Q)"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
 msgstr "خاتىرە كۆرگۈچتىن چېكىن"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "كۆچۈر(_C)"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
-msgstr "تاللىغاننى كۆچۈر"
+msgstr "تاللىغاننى كۆچۈرىدۇ"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "پۈتكۈل خاتىرىنى تاللا"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "ئىزدە(_F)…"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "خاتىرىدىكى سۆز ياكى سۆز بىرىكمىسىنى ئىزدە"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "چوڭراق تېكىست"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "كىچىكرەك تېكىست"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "ئادەتتىكى تېكىست"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "سۈزگۈچ باشقۇرۇش"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "سۈزگۈچ باشقۇرۇش"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "خاتىرە كۆرگۈچنىڭ ياردەم مۇندەرىجىسىنى ئاچ"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "خاتىرە كۆرگۈچنىڭ ھەققىدە سۆزلەشكۈسىنى كۆرسەت"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "ھالەت بالداق(_S)"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "ھالەت بالداق كۆرسەت"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "يان كۆزنەكچە(_P)"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "يان كۆزنەكچە كۆرسەت"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "ماس كەلگەننىلا كۆرسەت"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "بېرىلگەن سۈزگۈچ بىلەن ماس كەلگەن قۇرنىلا كۆرسەت"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "ئاپتوماتىك سىيرىل(_A)"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "يېڭى قۇر قوشۇلسا ئاپتوماتىك ئاستىغا سىيرىلىدۇ"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr "\"%s\" دىن ئوقۇيالمىدى"
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "نەشرى: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "تۆۋەندىكى ھۆججەتنى ئاچالمايدۇ:"
 
@@ -3212,7 +3133,7 @@ msgstr "ئورنىتىش مەغلۇپ بولدى."
 #: ../font-viewer/font-view.c:502
 #, c-format
 msgid "Usage: %s fontfile\n"
-msgstr "ئۇسۇلى：%s خەت نۇسخا ھۆججىتى\n"
+msgstr "ئىشلىتىش ئۇسۇلى: %s خەت نۇسخا ھۆججىتى\n"
 
 #: ../font-viewer/font-view.c:572
 msgid "I_nstall Font"
@@ -3451,15 +3372,6 @@ msgstr "خەت نۇسخىنى ئالدىن كۆزەت"
 
 #~ msgid "Whether to thumbnail Type1 fonts"
 #~ msgstr "Type1 خەت نۇسخىسىغا كىچىك سۈرەت ياسامدۇ يوق"
-
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "دىسكا ئىشلىتىش تەھلىلچى مايىللىقى"
-
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "ھۆججەت سىستېما تەكشۈرۈشنى ئوز ئىچىگە ئالغان ئۈسكۈنىنى تاللاڭ(_D):"
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "ماكان قىسقۇچنىڭ ئۆزگىرىشىنى كۆزەت(_M)"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "ماكان مۇندەرىجە نازارەت قىلىشنى قوزغات"
