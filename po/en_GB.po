@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-16 17:21+0000\n"
-"PO-Revision-Date: 2011-03-16 17:23+0100\n"
+"POT-Creation-Date: 2011-03-30 15:33+0100\n"
+"PO-Revision-Date: 2011-03-30 15:34+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
@@ -1501,82 +1501,82 @@ msgstr "Available strategies"
 msgid "Dictionary sources"
 msgstr "Dictionary sources"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Error loading the help page"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "None"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Drop shadow"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Border"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Include _pointer"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Include the window _border"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Apply _effect:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Grab the whole _desktop"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Grab the current _window"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Select _area to grab"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Grab _after a delay of"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "seconds"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Take Screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Effects"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "Take _Screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Error while saving screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1587,15 +1587,15 @@ msgstr ""
 " Error was %s.\n"
 " Please choose another location and retry."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Screenshot taken"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Unable to take a screenshot of the current window"
 
-#: ../gnome-screenshot/gnome-screenshot.c:891
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Screenshot-%s.png"
@@ -1603,64 +1603,64 @@ msgstr "Screenshot-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:898
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Screenshot-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:908
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:915
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Screenshot-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Grab a window instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Grab an area of the screen instead of the entire screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Include the window border with the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Remove the window border from the screenshot"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Take screenshot after specified delay [in seconds]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Effect to add to the border (shadow, border or none)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "effect"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1262
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Interactively set options"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1273
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Take a picture of the screen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1291
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1719,34 +1719,42 @@ msgid "Include Border"
 msgstr "Include Border"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+msgid "Include ICC Profile"
+msgstr "Include ICC Profile"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Include Pointer"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Include the ICC profile of the target in the screenshot file"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Include the pointer in the screenshot"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Include the window manager border along with the screenshot"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Screenshot delay"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Screenshot directory"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "The directory the last screenshot was saved in."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "The number of seconds to wait before taking the screenshot."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Window-specific screenshot (deprecated)"
 
@@ -1762,7 +1770,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Select a folder"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1771,7 +1779,7 @@ msgstr ""
 "Unable to clear the temporary folder:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
@@ -1779,7 +1787,7 @@ msgstr ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Unknown error saving screenshot to disk"
 
@@ -2926,65 +2934,65 @@ msgstr "Highlight"
 msgid "_Regular Expression:"
 msgstr "_Regular Expression:"
 
-#: ../logview/logview-app.c:373
+#: ../logview/logview-app.c:377
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Impossible to open the file %s"
 
-#: ../logview/logview-filter-manager.c:90
+#: ../logview/logview-filter-manager.c:94
 msgid "Filter name is empty!"
 msgstr "Filter name is empty!"
 
-#: ../logview/logview-filter-manager.c:103
+#: ../logview/logview-filter-manager.c:107
 msgid "Filter name may not contain the ':' character"
 msgstr "Filter name may not contain the ':' character"
 
-#: ../logview/logview-filter-manager.c:126
+#: ../logview/logview-filter-manager.c:130
 msgid "Regular expression is empty!"
 msgstr "Regular expression is empty!"
 
-#: ../logview/logview-filter-manager.c:142
+#: ../logview/logview-filter-manager.c:146
 #, c-format
 msgid "Regular expression is invalid: %s"
 msgstr "Regular expression is invalid: %s"
 
-#: ../logview/logview-filter-manager.c:238
+#: ../logview/logview-filter-manager.c:242
 msgid "Please specify either foreground or background color!"
 msgstr "Please specify either foreground or background colour!"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Edit filter"
 msgstr "Edit filter"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Add new filter"
 msgstr "Add new filter"
 
-#: ../logview/logview-filter-manager.c:502
+#: ../logview/logview-filter-manager.c:506
 msgid "Filters"
 msgstr "Filters"
 
-#: ../logview/logview-findbar.c:169
+#: ../logview/logview-findbar.c:173
 msgid "_Find:"
 msgstr "_Find:"
 
-#: ../logview/logview-findbar.c:184
+#: ../logview/logview-findbar.c:188
 msgid "Find Previous"
 msgstr "Find Previous"
 
-#: ../logview/logview-findbar.c:187
+#: ../logview/logview-findbar.c:191
 msgid "Find previous occurrence of the search string"
 msgstr "Find previous occurrence of the search string"
 
-#: ../logview/logview-findbar.c:192
+#: ../logview/logview-findbar.c:196
 msgid "Find Next"
 msgstr "Find Next"
 
-#: ../logview/logview-findbar.c:195
+#: ../logview/logview-findbar.c:199
 msgid "Find next occurrence of the search string"
 msgstr "Find next occurrence of the search string"
 
-#: ../logview/logview-findbar.c:202
+#: ../logview/logview-findbar.c:206
 msgid "Clear the search string"
 msgstr "Clear the search string"
 
@@ -3004,7 +3012,7 @@ msgstr "The file is not a regular file or is not a text file."
 msgid "This version of System Log does not support GZipped logs."
 msgstr "This version of System Log does not support GZipped logs."
 
-#: ../logview/logview-loglist.c:311
+#: ../logview/logview-loglist.c:315
 msgid "Loading..."
 msgstr "Loading…"
 
