@@ -2268,7 +2268,7 @@ msgstr "Otevřít _s"
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
 msgid "Open Containing _Folder"
-msgstr "Otevřít _složku s obsahem"
+msgstr "Otevřít rodičovskou _složku"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
