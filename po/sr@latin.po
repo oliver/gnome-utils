@@ -224,6 +224,7 @@ msgid_plural "%5d items"
 msgstr[0] "% 5d stavka"
 msgstr[1] "% 5d stavke"
 msgstr[2] "% 5d stavki"
+msgstr[3] "% 5d stavka"
 
 #: ../baobab/src/baobab.c:620
 msgid "Could not initialize monitoring"
@@ -1321,6 +1322,7 @@ msgid_plural "%d definitions found"
 msgstr[0] "Pronađena je %d definicija"
 msgstr[1] "Pronađeno je %d definicije"
 msgstr[2] "Pronađeno je %d definicija"
+msgstr[3] "Pronađena je %d definicija"
 
 #: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
@@ -2162,6 +2164,7 @@ msgid_plural "Are you sure you want to open %d documents?"
 msgstr[0] "Da li ste sigurni da želite da otvorite %d dokument?"
 msgstr[1] "Da li ste sigurni da želite da otvorite %d dokumenta?"
 msgstr[2] "Da li ste sigurni da želite da otvorite %d dokumenata?"
+msgstr[3] "Da li ste sigurni da želite da otvorite dokument?"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:346
 #: ../gsearchtool/gsearchtool-callbacks.c:531
@@ -2171,6 +2174,7 @@ msgid_plural "This will open %d separate windows."
 msgstr[0] "Ovo će otvoriti %d odvojeni prozor."
 msgstr[1] "Ovo će otvoriti %d odvojena prozora."
 msgstr[2] "Ovo će otvoriti %d odvojenih prozora."
+msgstr[3] "Ovo će otvoriti odvojeni prozor."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:382
 #, c-format
@@ -2197,6 +2201,7 @@ msgid_plural "Are you sure you want to open %d folders?"
 msgstr[0] "Sigurno želite da otvorite %d fasciklu?"
 msgstr[1] "Sigurno želite da otvorite %d fascikle?"
 msgstr[2] "Sigurno želite da otvorite %d fascikli?"
+msgstr[3] "Sigurno želite da otvorite fasciklu?"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:675
 #, c-format
@@ -2566,6 +2571,7 @@ msgid_plural "%'d Files Found"
 msgstr[0] "Nađena je %'d datoteka"
 msgstr[1] "Nađene su %'d datoteke"
 msgstr[2] "Nađeno je %'d datoteka"
+msgstr[3] "Nađena je %'d datoteka"
 
 #: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
 #, c-format
@@ -2574,6 +2580,7 @@ msgid_plural "%'d files found"
 msgstr[0] "Nađena je %'d datoteka"
 msgstr[1] "Nađene su %'d datoteke"
 msgstr[2] "Nađeno je %'d datoteka"
+msgstr[3] "Nađena je %'d datoteka"
 
 #: ../gsearchtool/gsearchtool.c:1124
 msgid "Entry changed called for a non entry option!"
