@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-19 02:23+0100\n"
-"PO-Revision-Date: 2011-03-19 02:24+0100\n"
+"PO-Revision-Date: 2011-04-01 21:44+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "Language: \n"
@@ -1372,7 +1372,7 @@ msgstr "A jelenlegi dokumentum nyomtatása"
 
 #: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
-msgstr "_Mindent kijelöl"
+msgstr "Ö_sszes kijelölése"
 
 #: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
