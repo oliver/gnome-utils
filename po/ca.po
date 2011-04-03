@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-20 21:30+0100\n"
-"PO-Revision-Date: 2011-03-18 23:33+0100\n"
+"PO-Revision-Date: 2011-04-04 00:31+0200\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -659,7 +659,7 @@ msgid ""
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
 "present in a dictionary source should be searched"
 msgstr ""
-"El nom de la base de dades individual o meta-base de dades a utilitzar en el "
+"El nom de la base de dades individual o metabase de dades a utilitzar en el "
 "servidor de diccionari. Un signe d'exclamació («!») indica que s'hauria de "
 "cercar totes en les bases de dades presents"
 
@@ -1034,7 +1034,7 @@ msgstr "El diccionari font no té nom"
 #: ../gnome-dictionary/libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "El diccionari font «%s» utilitza un transport invàlid «%s»"
+msgstr "El diccionari font «%s» utilitza un transport no vàlid «%s»"
 
 #: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
@@ -2642,7 +2642,7 @@ msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr ""
-"El resultat de la cerca pot ser invàlid. S'han produït errors en fer la "
+"El resultat de la cerca pot ser no vàlid. S'han produït errors en fer la "
 "cerca."
 
 #: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
@@ -3973,7 +3973,7 @@ msgstr "Previsualitza els tipus de lletra"
 #~ msgstr "Directoris _totals:"
 
 #~ msgid "Invalid UTF-8 characters"
-#~ msgstr "Caràcters UTF-8 invàlids"
+#~ msgstr "Caràcters UTF-8 no vàlids"
 
 #~ msgid "Unlimited"
 #~ msgstr "Il·limitat"
