@@ -143,28 +143,6 @@ AS_IF([test "x$GCONFTOOL" = "xno"],
       [AC_MSG_ERROR([gconftool-2 executable not found in your path - should be installed with GConf])]
 )
 
-AC_ARG_ENABLE([gdict-applet],
-               [AS_HELP_STRING([--enable-gdict-applet=@<:@yes/no@:>@],
-                               [Whether to build the Dictionary gnome-panel applet])],
-               [],
-               [enable_gdict_applet=no])
-
-AS_CASE([$enable_gdict_applet],
-        [yes],
-        [
-          # Gdict applet checks
-          PKG_CHECK_MODULES(APPLET, libpanelapplet-2.0 >= $LIBPANEL_APPLET_REQUIRED)
-          AC_SUBST(APPLET_LIBS)
-          AC_SUBST(APPLET_CFLAGS)
-        ],
-
-        [no], [],
-
-        [*], [AC_MSG_ERROR([Invalid value for --enable-gdict-applet])]
-)
-
-AM_CONDITIONAL([BUILD_GDICT_APPLET], [test "x$enable_gdict_applet" = "xyes"])
-
 # Baobab checks
 PKG_CHECK_MODULES([LIBGTOP], [libgtop-2.0 >= $LIBGTOP_REQUIRED])
 AC_SUBST(LIBGTOP_CFLAGS)
@@ -422,5 +400,4 @@ gnome-utils $VERSION configuration summary:
         Debug messages (libgdict) : $enable_debug
          API Reference (libgdict) : $enable_gtk_doc
   Logview built with ZLib support : $msg_zlib
-    Dictionary gnome-panel applet : $enable_gdict_applet
 "
