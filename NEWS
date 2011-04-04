@@ -1,4 +1,85 @@
 ===============================================================
+GNOME Utilities 3.0.0 (4th April 2011) - "Of the Girl"
+
+This is our first stable release in the 3.0 cycle. No news on the code
+side since 2.91.93, but lots of new translations.
+
+A S Alam (1):
+      update tranlation for Punjabi by A S Alam
+
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Andrea Zagli (1):
+      [l10n] Updated Italian translation
+
+Aron Xu (1):
+      Update Simplified Chinese translation.
+
+Ask H. Larsen (1):
+      Updated Danish translation
+
+Bruce Cowan (1):
+      Updated British English translation
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Daniel Korostil (1):
+      Uploaded Ukranian
+
+Dr.T.Vasudevan (1):
+      Updated Tamil translation
+
+Gabor Kelemen (1):
+      Updated Hungarian translation
+
+Inaki Larranaga Murgoitio (1):
+      Updated Basque language
+
+Jordi Serratosa (1):
+      [l10n]Fixes on Catalan translation
+
+Kjartan Maraas (1):
+      Add missing #include <config.h> to make translations work
+
+Krasimir Chonov (1):
+      Updated Bulgarian translation
+
+Marek Černocký (2):
+      Updated Czech translation
+      Updated Czech translation
+
+Mario Blättermann (1):
+      Updated German translation
+
+Pavol Klačanský (1):
+      Updated Slovak translation
+
+Rajesh Ranjan (1):
+      hindi updated
+
+Reinout van Schouwen (1):
+      Updated translation by Reinout van Schouwen <reinouts@gnome.org>     Fixes bug 640458
+
+Rodrigo Padula de Oliveira (1):
+      Updated Brazilian Portuguese translation. Reviewed by Antonio Fernandes C. Neto..
+
+Rudolfs Mazurs (1):
+      Updated Latvian translation.
+
+Takayuki KUSANO (1):
+      Updated Japanese translation
+
+Yaron Shahrabani (1):
+      Updated Hebrew translation.
+
+Милош Поповић (2):
+      Updated Serbian translation
+      Fixed some plurals in Serbian translation
+
+
+===============================================================
 GNOME Utilities 2.91.93 (25th March 2011) - "Armstrong"
 
 Minor release, fixing some GSettings schema paths
