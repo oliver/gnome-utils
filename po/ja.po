@@ -1,25 +1,27 @@
 # gnome-utils ja.po.
-# Copyright (C) 1998-2010 Free Software Foundation, Inc.
+# Copyright (C) 1998-2011 gnome-util's COPYRIGHT HOLDER
 # Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1998.
 # Yuusuke Tahara <tahara@gnome.gr.jp>, 2000.
 # Yukihiro Nakai <nakai@gnome.gr.jp>, 2000.
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000-2002, 2009.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000-2002, 2009, 2011.
 # Sun G11n <gnome_int_l10n@ireland.sun.com>, 2002.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
 # Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009, 2010.
 # Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010.
+# Takayoshi OKANO <kano@na.rim.or.jp>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2010-11-07 11:50+0000\n"
-"PO-Revision-Date: 2010-11-13 21:53+0900\n"
-"Last-Translator: Yasumichi Akahoshi <yasumichi@vinelinux.org>\n"
+"utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-04-03 22:33+0000\n"
+"PO-Revision-Date: 2011-04-04 17:41+0900\n"
+"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,6 +35,18 @@ msgstr "フォルダと利用可能なディスク容量をチェックします
 #: ../baobab/data/baobab-main-window.ui.h:2
 msgid "Disk Usage Analyzer"
 msgstr "ディスク使用量の解析"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "解析ツールの設定"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "ファイルシステムを解析する際のデバイスの選択(_D):"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "ホーム・フォルダに対する変更を監視する(_M)"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
 msgid "A list of URIs for partitions to be excluded from scanning."
@@ -148,12 +162,12 @@ msgstr "すべて畳む(_C)"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1229 ../logview/logview-window.c:837
+#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "目次(_C)"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1176 ../logview/logview-window.c:808
+#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "編集(_E)"
 
@@ -163,7 +177,7 @@ msgstr "すべて展開する(_E)"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1179 ../logview/logview-window.c:811
+#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "ヘルプ(_H)"
 
@@ -172,7 +186,7 @@ msgid "_Toolbar"
 msgstr "ツールバー(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1177 ../logview/logview-window.c:809
+#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "表示(_V)"
 
@@ -591,7 +605,7 @@ msgid "Cl_ear"
 msgstr "クリア(_E)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1231 ../logview/logview-window.c:839
+#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
 msgid "_About"
 msgstr "情報(_A)"
 
@@ -600,7 +614,7 @@ msgid "_Look Up Selected Text"
 msgstr "選択した文字列の検索(_L)"
 
 #: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../gnome-dictionary/src/gdict-window.c:1305
 msgid "_Preferences"
 msgstr "設定(_P)"
 
@@ -617,66 +631,30 @@ msgid "Check word definitions and spellings in an online dictionary"
 msgstr "オンライン辞書を使って単語の意味や綴りを調べます"
 
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
-#: ../gnome-dictionary/src/gdict-about.c:78
-#: ../gnome-dictionary/src/gdict-app.c:385
-#: ../gnome-dictionary/src/gdict-window.c:605
-#: ../gnome-dictionary/src/gdict-window.c:1946
+#: ../gnome-dictionary/src/gdict-about.c:62
+#: ../gnome-dictionary/src/gdict-app.c:233
+#: ../gnome-dictionary/src/gdict-window.c:601
+#: ../gnome-dictionary/src/gdict-window.c:1889
 msgid "Dictionary"
 msgstr "辞書"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
-msgid "Dictionary server (Deprecated)"
-msgstr "辞書サーバ 【廃止】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
-msgid "Port used to connect to server (Deprecated)"
-msgstr "サーバに接続するボート番号 【廃止】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
-msgid ""
-"Specify whether to use smart lookup. This key is dependant on whether the "
-"dictionary server supports this option. The default is TRUE. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"スマート検索を行うかどうか指定します。このキーは辞書サーバがこのオプションを"
-"サポートしているかどうかに依存します。デフォルトは TRUE です。【このキーは廃"
-"止になったので、もう使用しません】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:1
 msgid "The default database to use"
 msgstr "デフォルトで使用するデータベース"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
-msgid "The default height of the application window"
-msgstr "ウィンドウのデフォルトの高さ"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:2
 msgid "The default search strategy to use"
 msgstr "デフォルトで使用する検索ルール"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
-msgid "The default width of the application window"
-msgstr "ウィンドウのデフォルトの幅"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
-msgid ""
-"The dictionary server to connect to. The default server is dict.org. See "
-"http://www.dict.org for details on other servers. This key is deprecated and "
-"no longer in use."
-msgstr ""
-"接続する辞書サーバです。デフォルトのサーバは dict.org です。他のサーバについ"
-"て詳細は http://www.dict.org/ を参照してください。【このキーは廃止になったの"
-"で、もう使用できません】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:3
 msgid "The font to be used when printing"
 msgstr "印刷時に使用するフォント"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:4
 msgid "The font to be used when printing a definition."
 msgstr "印刷時に使用するフォントの定義です。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:5
 msgid ""
 "The name of the default individual database or meta-database to use on a "
 "dictionary source. An exclamation mark (\"!\") means that all the databases "
@@ -686,7 +664,7 @@ msgstr ""
 "名前です。感嘆符 (\"!\") にすると、辞書にあるすべてのデータベースを検索対象に"
 "します。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:6
 msgid ""
 "The name of the default search strategy to use on a dictionary source, if "
 "available. The default strategy is 'exact', that is match exact words."
@@ -694,113 +672,14 @@ msgstr ""
 "辞書サーバで使用するデフォルトの検索ルールです。デフォルトのルールは 'exact' "
 "で、単語全体にマッチするものを検索します。"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:7
 msgid "The name of the dictionary source used"
 msgstr "使用する辞書サーバの名前"
 
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+#: ../gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in.h:8
 msgid ""
 "The name of the dictionary source used to retrieve the definitions of words."
 msgstr "単語の意味を取得する際に使用する辞書サーバの名前です。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
-msgid "The page of the sidebar to show"
-msgstr "表示するサイドバーのページ"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
-msgid ""
-"The port number to connect to. The default port is 2628. This key is "
-"deprecated and no longer in use."
-msgstr ""
-"接続するポート番号です。デフォルトのポート番号は 2628 です。【このキーは廃止"
-"になったので、もう使用しません】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
-msgid "The width of the sidebar"
-msgstr "サイドバーの幅"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
-msgid ""
-"This key defines the width of the sidebar and it's used to remember the "
-"setting across sessions."
-msgstr ""
-"このキーはサイドバーの幅を定義し、複数のセッションで保存しておく際に使用しま"
-"す。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
-msgid ""
-"This key defines the window height and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a height based on the font size."
-msgstr ""
-"このキーはウィンドウの高さを定義し、複数のセッションで辞書ウィンドウの大きさ"
-"を保存しておく際に使用します。-1 にすると、フォントの大きさに合せて高さを調節"
-"します。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
-msgid ""
-"This key defines the window width and it's used to remember the size of the "
-"dictionary window across sessions. Setting it to -1 will make the dictionary "
-"window use a width based on the font size."
-msgstr ""
-"このキーはウィンドウの幅を定義し、複数のセッションで辞書ウィンドウの大きさを"
-"保存しておく際に使用します。-1 にすると、フォントの大きさに合せて幅を調節しま"
-"す。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
-msgid ""
-"This key defines whether the sidebar should be visible and it's used to "
-"remember the state of the sidebar across sessions. Setting it to TRUE will "
-"make the sidebar always be displayed."
-msgstr ""
-"このキーはサイドバーを表示可能にするかどうかを定義し、複数のセッションでサイ"
-"ドバーの状態を保存しておく際に使用します。TRUE にすると、常にサイドバーが表示"
-"されます。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
-msgid ""
-"This key defines whether the statusbar should be visible and it's used to "
-"remember the state of the statusbar across sessions. Setting it to TRUE will "
-"make the statusbar always be displayed."
-msgstr ""
-"このキーはステータスバーを表示可能にするかどうかを定義し、複数のセッションで"
-"ステータスバーの状態を保存しておく際に使用します。TRUE にすると、常にステータ"
-"スバーが表示されます。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
-msgid ""
-"This key defines whether the window should be maximized and it's used to "
-"remember the state of the dictionary window across sessions. Setting it to "
-"TRUE will make the window always appear as maximized."
-msgstr ""
-"このキーは、起動時にウィンドウを最大化するかどうかを定義し、複数のセッション"
-"で辞書ウィンドウの状態を保存しておく際に使用します。TRUE にすると、起動時の"
-"ウィンドウは常に最大化された状態で表示します。"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
-msgid ""
-"This key defines which page of the sidebar should be displayed and it's used "
-"to remember the setting across sessions.. It can be \"speller\" or "
-"\"databases\"."
-msgstr ""
-"このキーはサイドバーのページを表示するかどうかを定義し、複数のセッションで設"
-"定を保存しておく際に使用します。指定可能な値: \"speller\" または \"database\""
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
-msgid "Use smart lookup (Deprecated)"
-msgstr "スマート検索を有効にする【廃止】"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
-msgid "Whether the application window should be maximized"
-msgstr "アプリケーションのウィンドウを最大化して起動するかどうか"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
-msgid "Whether the sidebar should be visible"
-msgstr "サイドバーの表示可否"
-
-#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
-msgid "Whether the statusbar should be visible"
-msgstr "ステータスバーの表示可否"
 
 #: ../gnome-dictionary/data/gnome-dictionary-preferences.ui.h:1
 msgid "Print"
@@ -950,7 +829,7 @@ msgstr "コマンド '%s' の引数が間違っています"
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1300
 #, c-format
 msgid "No databases found on dictionary server at '%s'"
-msgstr "'%s' にある辞書サーバーにデータベースがありませんでした"
+msgstr "'%s' にある辞書サーバにデータベースがありませんでした"
 
 #: ../gnome-dictionary/libgdict/gdict-client-context.c:1315
 #, c-format
@@ -1005,54 +884,54 @@ msgstr "ローカルだけ"
 msgid "Whether the context uses only local dictionaries or not"
 msgstr "コンテキストをローカルの辞書でのみ使用するかどうかです"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:378
 msgid "Reload the list of available databases"
 msgstr "利用可能なデータベースの一覧を更新します"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:390
 msgid "Clear the list of available databases"
 msgstr "利用可能なデータベースの一覧をクリアします"
 
-#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
-#: ../gnome-dictionary/libgdict/gdict-speller.c:779
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:837
+#: ../gnome-dictionary/libgdict/gdict-speller.c:778
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:785
 msgid "Error while matching"
 msgstr "検索中にエラーが発生しました"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
-#: ../logview/logview-window.c:485
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "見つかりませんでした"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
 msgid "F_ind:"
 msgstr "検索(_I):"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
 msgid "_Previous"
 msgstr "前へ(_P)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
 msgid "_Next"
 msgstr "次へ(_N)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
 msgid "Error while looking up definition"
 msgstr "意味を検索する際にエラーが発生しました"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
-#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "他の検索処理が進行中です"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
-#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "現在の検索処理が終了するまで、しばらくお待ちください。"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
 msgid "Error while retrieving the definition"
 msgstr "意味を取得する際にエラーが発生しました"
 
@@ -1082,7 +961,7 @@ msgid "The description of this dictionary source"
 msgstr "辞書の説明です"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:274
-#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+#: ../gnome-dictionary/libgdict/gdict-speller.c:383
 msgid "Database"
 msgstr "データベース"
 
@@ -1091,7 +970,7 @@ msgid "The default database of this dictonary source"
 msgstr "この辞書のデフォルトのデータベースです"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
-#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+#: ../gnome-dictionary/libgdict/gdict-speller.c:390
 msgid "Strategy"
 msgstr "検索ルール"
 
@@ -1108,7 +987,7 @@ msgid "The transport mechanism used by this dictionary source"
 msgstr "この辞書が使用する変換メカニズムです"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
-#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+#: ../gnome-dictionary/libgdict/gdict-speller.c:376
 msgid "Context"
 msgstr "コンテキスト"
 
@@ -1150,7 +1029,7 @@ msgstr "辞書に名前がありません"
 msgid "Dictionary source '%s' has invalid transport '%s'"
 msgstr "辞書 '%s' の変換方法 '%s' が間違っています"
 
-#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
 msgstr "利用可能な辞書の一覧を更新します"
 
@@ -1170,27 +1049,27 @@ msgstr "辞書"
 msgid "Dictionary sources found"
 msgstr "見つかった辞書です"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+#: ../gnome-dictionary/libgdict/gdict-speller.c:353
 msgid "Clear the list of similar words"
 msgstr "類似語の一覧をクリアします"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
 msgid "The GdictContext object used to get the word definition"
-msgstr "単語の意味を取得する際に使用する GdictConetext オブジェクトです"
+msgstr "単語の意味を取得する際に使用する GdictContext オブジェクトです"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
 msgid "The database used to query the GdictContext"
 msgstr "GdictContext に問い合わせる際に使用するデータベースです"
 
-#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
 msgid "The strategy used to query the GdictContext"
 msgstr "GdictContext に問い合わせる際に使用する検索ルールです"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:361
 msgid "Reload the list of available strategies"
 msgstr "利用可能な検索ルールの一覧を更新します"
 
-#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:373
 msgid "Clear the list of available strategies"
 msgstr "利用可能な検索ルールの一覧をクリアします"
 
@@ -1220,109 +1099,59 @@ msgstr "辞書のオプションを表示する"
 msgid "Look up words in dictionaries"
 msgstr "辞書から単語を検索します。"
 
-#. Translators: the first is the word found, the second is the
-#. * database name and the last is the definition's text; please
-#. * keep the new lines.
-#: ../gnome-dictionary/src/gdict-app.c:217
-#, c-format
-msgid ""
-"Definition for '%s'\n"
-"  From '%s':\n"
-"\n"
-"%s\n"
-msgstr ""
-"'%s' の意味\n"
-"  (辞書 '%s')\n"
-"\n"
-"%s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:231
-#, c-format
-msgid "Error: %s\n"
-msgstr "エラー: %s\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:257
-#, c-format
-msgid "See gnome-dictionary --help for usage\n"
-msgstr "用法は `gnome-dictionary --help` でご覧ください\n"
-
-#: ../gnome-dictionary/src/gdict-app.c:270
-msgid "Unable to find a suitable dictionary source"
-msgstr "妥当な辞書が見つかりません"
-
-#: ../gnome-dictionary/src/gdict-app.c:304
-#, c-format
-msgid ""
-"Error while looking up the definition of \"%s\":\n"
-"%s"
-msgstr ""
-"\"%s\" の意味を検索する際にエラーが発生しました:\n"
-"%s"
-
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:351
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:91
 msgid "Words to look up"
 msgstr "検索する単語を指定する"
 
-#: ../gnome-dictionary/src/gdict-app.c:337
-#: ../gnome-dictionary/src/gdict-app.c:339
-#: ../gnome-dictionary/src/gdict-app.c:351
-msgid "word"
+#: ../gnome-dictionary/src/gdict-app.c:62
+#: ../gnome-dictionary/src/gdict-app.c:68
+msgid "WORD"
 msgstr "WORD"
 
-#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:68
 msgid "Words to match"
 msgstr "単語そのものを検索する"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
+#: ../gnome-dictionary/src/gdict-app.c:74
 msgid "Dictionary source to use"
 msgstr "使用する辞書を指定する"
 
-#: ../gnome-dictionary/src/gdict-app.c:341
-msgid "source"
-msgstr "source"
+#: ../gnome-dictionary/src/gdict-app.c:74
+#: ../gnome-dictionary/src/gdict-app.c:80
+#: ../gnome-dictionary/src/gdict-app.c:86
+msgid "NAME"
+msgstr "NAME"
 
-#: ../gnome-dictionary/src/gdict-app.c:343
-msgid "Show available dictionary sources"
-msgstr "利用可能な辞書を表示する"
-
-#: ../gnome-dictionary/src/gdict-app.c:345
-msgid "Print result to the console"
-msgstr "検索結果を端末に出力する"
-
-#: ../gnome-dictionary/src/gdict-app.c:347
+#: ../gnome-dictionary/src/gdict-app.c:80
 msgid "Database to use"
 msgstr "使用するデータベースを指定する"
 
-#: ../gnome-dictionary/src/gdict-app.c:347
-msgid "db"
-msgstr "DB"
-
-#: ../gnome-dictionary/src/gdict-app.c:349
+#: ../gnome-dictionary/src/gdict-app.c:86
 msgid "Strategy to use"
 msgstr "使用する検索ルールを指定する"
 
-#: ../gnome-dictionary/src/gdict-app.c:349
-msgid "strat"
-msgstr "strat"
+#: ../gnome-dictionary/src/gdict-app.c:91
+msgid "WORDS"
+msgstr "WORDS"
 
 #. create the new option context
-#: ../gnome-dictionary/src/gdict-app.c:367
+#: ../gnome-dictionary/src/gdict-app.c:143
 msgid " - Look up words in dictionaries"
 msgstr " - 辞書からいろいろな単語を検索する"
 
 #: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:834
+#: ../gnome-dictionary/src/gdict-window.c:957
 msgid "Save a Copy"
 msgstr "検索結果の保存"
 
 #: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:967
 msgid "Untitled document"
 msgstr "編集中のドキュメント"
 
 #: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:865
+#: ../gnome-dictionary/src/gdict-window.c:988
 #, c-format
 msgid "Error while writing to '%s'"
 msgstr "'%s' へ書き込む際にエラーが発生しました"
@@ -1384,102 +1213,93 @@ msgid "Dictionary entry"
 msgstr "辞書のエントリ"
 
 #: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:998
+#: ../gnome-dictionary/src/gdict-window.c:1093
 msgid "Dictionary Preferences"
 msgstr "辞書の設定"
 
 #: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:503
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
 #: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1140
+#: ../gnome-dictionary/src/gdict-window.c:1240
 #, c-format
 msgid "There was an error while displaying help"
 msgstr "ヘルプを表示する際にエラーが発生しました"
 
 #: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:514
+#: ../gnome-dictionary/src/gdict-window.c:516
 #, c-format
 msgid "No dictionary source available with name '%s'"
 msgstr "'%s' という名前で利用できる辞書はありません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:518
+#: ../gnome-dictionary/src/gdict-window.c:520
 msgid "Unable to find dictionary source"
 msgstr "辞書が見つかりません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:534
+#: ../gnome-dictionary/src/gdict-window.c:536
 #, c-format
 msgid "No context available for source '%s'"
 msgstr "'%s' というソースで利用できるコンテキストはありません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:538
+#: ../gnome-dictionary/src/gdict-window.c:540
 msgid "Unable to create a context"
 msgstr "コンテキストを生成できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1172
-#: ../gnome-dictionary/src/gdict-window.c:2077
 msgid "Unable to connect to GConf"
 msgstr "GConf に接続できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1185
-#: ../gnome-dictionary/src/gdict-window.c:2090
 msgid "Unable to get notification for preferences"
 msgstr "設定変更の通知を取得できません"
 
 #: ../gnome-dictionary/src/gdict-applet.c:1199
-#: ../gnome-dictionary/src/gdict-window.c:2103
 msgid "Unable to get notification for the document font"
 msgstr "ドキュメントのフォント変更の通知を取得できません"
 
-#: ../gnome-dictionary/src/gdict-common.c:80
-#, c-format
-msgid "Unable to rename file '%s' to '%s': %s"
-msgstr "'%s' から '%s' へ名前を変更できません: %s"
-
-#: ../gnome-dictionary/src/gdict-common.c:104
-#: ../gnome-dictionary/src/gdict-common.c:127
-#, c-format
-msgid "Unable to create the data directory '%s': %s"
-msgstr "データ・フォルダ '%s' を生成できません: %s"
-
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:244
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:241
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
 msgstr "辞書の編集"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:308
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:305
 msgid "Add Dictionary Source"
 msgstr "辞書の追加"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:353
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:350
 #, c-format
 msgid "Remove \"%s\"?"
 msgstr "\"%s\" を削除しますか?"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:352
 msgid "This will permanently remove the dictionary source from the list."
 msgstr "一覧から辞書を完全に削除します。"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:385
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:382
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "辞書 '%s' を削除できません"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:665
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "新しい辞書を追加します"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:671
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:649
 msgid "Remove the currently selected dictionary source"
 msgstr "現在選択している辞書を削除します"
 
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:684
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:655
+msgid "Edit the currently selected dictionary source"
+msgstr "現在選択している辞書を編集します"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
 msgid "Set the font used for printing the definitions"
 msgstr "印刷時に使用するフォントの設定"
 
-#: ../gnome-dictionary/src/gdict-print.c:249
-#: ../gnome-dictionary/src/gdict-print.c:313
+#: ../gnome-dictionary/src/gdict-print.c:241
+#: ../gnome-dictionary/src/gdict-print.c:305
 #, c-format
 msgid "Unable to display the preview: %s"
 msgstr "プレビューを表示できません: %s"
@@ -1494,275 +1314,275 @@ msgstr "ソース・ファイルを生成できません"
 msgid "Unable to save source file"
 msgstr "ソース・ファイルを保存できません"
 
-#: ../gnome-dictionary/src/gdict-window.c:315
+#: ../gnome-dictionary/src/gdict-window.c:311
 #, c-format
 msgid "Searching for '%s'..."
 msgstr "'%s' の検索中..."
 
-#: ../gnome-dictionary/src/gdict-window.c:347
-#: ../gnome-dictionary/src/gdict-window.c:404
+#: ../gnome-dictionary/src/gdict-window.c:343
+#: ../gnome-dictionary/src/gdict-window.c:400
 msgid "No definitions found"
 msgstr "意味が見つかりませんでした"
 
-#: ../gnome-dictionary/src/gdict-window.c:349
+#: ../gnome-dictionary/src/gdict-window.c:345
 #, c-format
 msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] " %d個の意味が見つかりました"
 
-#: ../gnome-dictionary/src/gdict-window.c:603
+#: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - 辞書"
 
-#: ../gnome-dictionary/src/gdict-window.c:1175 ../logview/logview-window.c:807
+#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "ファイル(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1178
+#: ../gnome-dictionary/src/gdict-window.c:1278
 msgid "_Go"
 msgstr "ジャンプ(_G)"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1182
+#: ../gnome-dictionary/src/gdict-window.c:1282
 msgid "_New"
 msgstr "新規(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1183
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "New look up"
 msgstr "新しい検索"
 
-#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../gnome-dictionary/src/gdict-window.c:1284
 msgid "_Save a Copy..."
 msgstr "検索結果の保存(_S)..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../gnome-dictionary/src/gdict-window.c:1286
 msgid "P_review..."
 msgstr "印刷プレビュー(_R)..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1187
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "Preview this document"
 msgstr "このドキュメントをプレビュー表示します"
 
-#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "_Print..."
 msgstr "印刷(_P)..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1189
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "Print this document"
 msgstr "このドキュメントを印刷します"
 
-#: ../gnome-dictionary/src/gdict-window.c:1196 ../logview/logview-window.c:822
+#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "すべて選択(_A)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1199
+#: ../gnome-dictionary/src/gdict-window.c:1299
 msgid "Find a word or phrase in the document"
 msgstr "ドキュメントから単語または語句を検索します"
 
-#: ../gnome-dictionary/src/gdict-window.c:1201
+#: ../gnome-dictionary/src/gdict-window.c:1301
 msgid "Find Ne_xt"
 msgstr "後方検索(_X)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1203
+#: ../gnome-dictionary/src/gdict-window.c:1303
 msgid "Find Pre_vious"
 msgstr "前方検索(_V)"
 
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1209
+#: ../gnome-dictionary/src/gdict-window.c:1309
 msgid "_Previous Definition"
 msgstr "前の意味へ(_P)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1210
+#: ../gnome-dictionary/src/gdict-window.c:1310
 msgid "Go to the previous definition"
 msgstr "前の意味にジャンプします"
 
-#: ../gnome-dictionary/src/gdict-window.c:1211
+#: ../gnome-dictionary/src/gdict-window.c:1311
 msgid "_Next Definition"
 msgstr "次の意味へ(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1212
+#: ../gnome-dictionary/src/gdict-window.c:1312
 msgid "Go to the next definition"
 msgstr "次の意味へジャンプします"
 
-#: ../gnome-dictionary/src/gdict-window.c:1213
+#: ../gnome-dictionary/src/gdict-window.c:1313
 msgid "_First Definition"
 msgstr "先頭の意味へ(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1214
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "Go to the first definition"
 msgstr "先頭の意味へジャンプします"
 
-#: ../gnome-dictionary/src/gdict-window.c:1215
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "_Last Definition"
 msgstr "最後の意味へ(_L)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1216
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "Go to the last definition"
 msgstr "最後の意味へジャンプします"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1219
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Similar _Words"
 msgstr "類似語(_W)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1221
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Dictionary Sources"
 msgstr "辞書ソース"
 
-#: ../gnome-dictionary/src/gdict-window.c:1223
+#: ../gnome-dictionary/src/gdict-window.c:1323
 msgid "Available _Databases"
 msgstr "利用可能な辞書の一覧(_D)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1225
+#: ../gnome-dictionary/src/gdict-window.c:1325
 msgid "Available St_rategies"
 msgstr "利用可能な検索ルールの一覧(_R)"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1242
+#: ../gnome-dictionary/src/gdict-window.c:1342
 msgid "_Sidebar"
 msgstr "サイドバー(_S)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1244
+#: ../gnome-dictionary/src/gdict-window.c:1344
 msgid "S_tatusbar"
 msgstr "ステータスバー(_T)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1365
+#: ../gnome-dictionary/src/gdict-window.c:1409
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "'%s' という辞書を選択しました"
 
-#: ../gnome-dictionary/src/gdict-window.c:1386
+#: ../gnome-dictionary/src/gdict-window.c:1430
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "'%s' という検索ルールを選択しました"
 
-#: ../gnome-dictionary/src/gdict-window.c:1406
+#: ../gnome-dictionary/src/gdict-window.c:1450
 #, c-format
 msgid "Database `%s' selected"
 msgstr "'%s' というデータベースを選択しました"
 
-#: ../gnome-dictionary/src/gdict-window.c:1426
+#: ../gnome-dictionary/src/gdict-window.c:1470
 #, c-format
 msgid "Word `%s' selected"
 msgstr "'%s' という単語を選択しました"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1448
+#: ../gnome-dictionary/src/gdict-window.c:1495
 msgid "Double-click on the word to look up"
 msgstr "単語をダブル・クリックすると検索します"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1454
+#: ../gnome-dictionary/src/gdict-window.c:1501
 msgid "Double-click on the matching strategy to use"
 msgstr "使用する検索ルールをダブル・クリックしてください"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1459
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the source to use"
 msgstr "使用する辞書をダブル・クリックしてください"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1468
+#: ../gnome-dictionary/src/gdict-window.c:1515
 msgid "Double-click on the database to use"
 msgstr "使用する辞書をダブル・クリックしてください"
 
-#: ../gnome-dictionary/src/gdict-window.c:1755
+#: ../gnome-dictionary/src/gdict-window.c:1695
 msgid "Look _up:"
 msgstr "検索(_U):"
 
-#: ../gnome-dictionary/src/gdict-window.c:1829
+#: ../gnome-dictionary/src/gdict-window.c:1770
 msgid "Similar words"
 msgstr "類似語"
 
-#: ../gnome-dictionary/src/gdict-window.c:1842
+#: ../gnome-dictionary/src/gdict-window.c:1783
 msgid "Available dictionaries"
 msgstr "利用可能な辞書の一覧"
 
-#: ../gnome-dictionary/src/gdict-window.c:1855
+#: ../gnome-dictionary/src/gdict-window.c:1801
 msgid "Available strategies"
 msgstr "利用可能な検索ルール"
 
-#: ../gnome-dictionary/src/gdict-window.c:1866
+#: ../gnome-dictionary/src/gdict-window.c:1817
 msgid "Dictionary sources"
 msgstr "辞書のソース"
 
-#: ../gnome-screenshot/gnome-screenshot.c:133
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "ヘルプを読み込む際にエラー"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "なし"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "影を付ける"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "境界線を付ける"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:351
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "マウスのポインタを含める(_P)"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:360
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "ウィンドウの境界線を含める(_B)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:375
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "適用する効果(_E):"
 
-#: ../gnome-screenshot/gnome-screenshot.c:437
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "デスクトップ全体(_D)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:449
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "現在のウィンドウ(_W)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:461
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "取得する領域の選択(_A)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:478
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "取得するまでの待ち時間(_A): "
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:498
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "秒"
 
-#: ../gnome-screenshot/gnome-screenshot.c:516
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "スクリーンショットの取得"
 
-#: ../gnome-screenshot/gnome-screenshot.c:525
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "画像効果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:530
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "スクリーンショットの取得(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:656
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "スクリーンショットを保存する際にエラーが発生しました"
 
-#: ../gnome-screenshot/gnome-screenshot.c:659
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1773,15 +1593,15 @@ msgstr ""
 " エラー: %s\n"
 "別の場所を選択してもう一度実行してみてください。"
 
-#: ../gnome-screenshot/gnome-screenshot.c:791
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "スクリーンショットを撮影しました"
 
-#: ../gnome-screenshot/gnome-screenshot.c:845
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "ウィンドウのスクリーンショットを撮れません"
 
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Screenshot-%s.png"
@@ -1789,64 +1609,64 @@ msgstr "Screenshot-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:902
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Screenshot-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
-#: ../gnome-screenshot/screenshot-dialog.c:346
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/gnome-screenshot.c:1003
+#: ../gnome-screenshot/screenshot-dialog.c:331
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:919
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Screenshot-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1284
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "画面全体ではなくウィンドウ単体を取得する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1285
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "画面全体ではなく一部を取得する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1286
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "スクリーンショットにウィンドウの境界線を含める"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1287
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "スクリーンショットからウィンドウの境界を取り除く"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1288
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "指定した時間を経過してからスクリーンショットを撮る [秒単位]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "境界線に適用する画像効果を指定する (shadow, border, none)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1289
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "画像効果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "設定ダイアログを表示する"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1301
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "画面全体のスクリーンショットを撮る"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1319
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1878,19 +1698,19 @@ msgstr "保存するフォルダ(_F):"
 msgid "_Name:"
 msgstr "名前(_N):"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Border Effect"
 msgstr "追加する画像効果"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:2
 msgid ""
 "Effect to add to the outside of a border. Possible values are \"shadow\", "
 "\"none\", and \"border\"."
 msgstr ""
-"画像の境界の外側に適用する効果です。選択可能な値: \"shadow\"、\"none\"、"
-"\"border\""
+"画像の境界の外側に適用する効果です。選択可能な値: \"shadow\"、\"none"
+"\"、\"border\""
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:3
 msgid ""
 "Grab just the current window, rather than the whole desktop. This key has "
 "been deprecated and it is no longer in use."
@@ -1899,44 +1719,51 @@ msgstr ""
 "はなく、現在フォーカスが当たっているウィンドウのスクリーンショットを撮りま"
 "す。"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:4
 msgid "Include Border"
-msgstr "ウィンドウの境界線を含めるかどうか"
+msgstr "ウィンドウの境界線を含める"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
+msgid "Include ICC Profile"
+msgstr "ICC プロファイルを含める"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
-msgstr "マウスのポインタを含めるかどうか"
+msgstr "マウスのポインタを含める"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "スクリーンショットにターゲットの ICC プロファイルを含める"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
-msgstr "スクリーンショットにマウスのポインタを含めるかどうかです。"
+msgstr "スクリーンショットにマウスのポインタを含める"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
-msgstr ""
-"スクリーンショットにウィンドウ・マネージャの境界線を含めるかどうかです。"
+msgstr "スクリーンショットにウィンドウ・マネージャの境界線を含める"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "撮影までの待機時間"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "スクリーンショットのフォルダ"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "最後にスクリーンショットを保存したフォルダです。"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "スクリーンショットを撮るまでに待機する時間 (単位は秒) です。"
 
-#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "【廃止】ウィンドウだけスクリーンショットを撮るかどうか"
 
-#: ../gnome-screenshot/screenshot-dialog.c:229
+#: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
@@ -1944,11 +1771,11 @@ msgstr ""
 "スクリーンショット取得プログラムの UI 定義ファイルが見つかりません。\n"
 "'gnome-utils' というパッケージのインストールを確認してください。"
 
-#: ../gnome-screenshot/screenshot-dialog.c:250
+#: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "フォルダの選択"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1957,7 +1784,7 @@ msgstr ""
 "作業用フォルダを削除できません:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
@@ -1965,12 +1792,12 @@ msgstr ""
 "保存用プロセスが突然終了したため、スクリーンショットを保存することができませ"
 "んでした。"
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "スクリーンショットを保存する際に不明なエラー"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:884
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "名前なしのウィンドウ"
 
@@ -2031,11 +1858,11 @@ msgstr "対象となるフォルダ"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:7
 msgid "Quick Search Excluded Paths"
-msgstr "クィック検索で除外するパス"
+msgstr "クイック検索で除外するパス"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:8
 msgid "Quick Search Second Scan Excluded Paths"
-msgstr "クィック検索の二回目のスキャンで除外するパス"
+msgstr "クイック検索の二回目のスキャンで除外するパス"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:9
 msgid "Search Result Columns Order"
@@ -2148,7 +1975,7 @@ msgid ""
 "The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
 "media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
 msgstr ""
-"クィック検索で対象外とするパスを指定します。サポートしているワイルドカードは "
+"クイック検索で対象外とするパスを指定します。サポートしているワイルドカードは "
 "'*' と '?' です。デフォルト値: /mnt/*、/media/*、/dev/*、/tmp/*、/proc/*、/"
 "var/*"
 
@@ -2160,7 +1987,7 @@ msgid ""
 "not been indexed. The wildcards '*' and '?' are supported. The default value "
 "is /."
 msgstr ""
-"クィック検索を実施する際に二度目のスキャンで対象外にするパスを指定します。二"
+"クイック検索を実施する際に二度目のスキャンで対象外にするパスを指定します。二"
 "度目のスキャンはコマンド `find` を使ってファイルを検索するために実施します。"
 "スキャンを二回実施する目的は、未だインデックス化されていないファイルを検索す"
 "るためです。サポートしているワイルドカードは '*' と '?' です。デフォルト値: /"
@@ -2310,7 +2137,7 @@ msgid ""
 "This key determines if the search tool disables the use of the find command "
 "after performing a quick search."
 msgstr ""
-"クィック検索を実施した後に、コマンド `find` を利用した二度目のスキャンを実施"
+"クイック検索を実施した後に、コマンド `find` を利用した二度目のスキャンを実施"
 "しないかどうかを選択します。"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:77
@@ -2359,7 +2186,7 @@ msgstr "Nautilus ファイル・マネージャが実行されていません。
 
 #: ../gsearchtool/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
-msgstr "ドキュメントを表示するビュワーがインストールされていません。"
+msgstr "ドキュメントを表示するビューアがインストールされていません。"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:526
 #, c-format
@@ -2786,7 +2613,7 @@ msgid ""
 "... Too many errors to display ..."
 msgstr ""
 "\n"
-"...エラーが多すぎて表示でません..."
+"...エラーが多すぎて表示できません..."
 
 #: ../gsearchtool/gsearchtool.c:1712
 msgid ""
@@ -2805,8 +2632,8 @@ msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
 msgstr ""
-"検索結果の期限が切れているか、または検索結果が間違っているかもしれません。"
-"クィック検索を無効にしてみますか?"
+"検索結果の期限が切れているか、または検索結果が間違っているかもしれません。ク"
+"イック検索を無効にしてみますか?"
 
 #: ../gsearchtool/gsearchtool.c:1773
 msgid "Disable _Quick Search"
@@ -2982,7 +2809,7 @@ msgstr "認識できない起動オプション: %d"
 #: ../libeggsmclient/eggdesktopfile.c:1373
 #, c-format
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "'Type=Link' の desktop エントリに、文書をURIを渡すことができません"
+msgstr "'Type=Link' の desktop エントリに、文書のURIを渡すことができません"
 
 #: ../libeggsmclient/eggdesktopfile.c:1392
 #, c-format
@@ -3025,36 +2852,44 @@ msgstr "ログ・ビューア"
 msgid "View or monitor system log files"
 msgstr "システム・ログを表示したり監視します"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:1
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:1
 msgid "Height of the main window in pixels"
 msgstr "メイン・ウィンドウの高さ (ピクセル単位)"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:2
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:2
+msgid "List of saved filters"
+msgstr "保存したフィルタの一覧"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:3
+msgid "List of saved regexp filters"
+msgstr "保存した正規表現フィルタの一覧"
+
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:4
 msgid "Log file to open up on startup"
 msgstr "起動時に開くログ・ファイル"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:3
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:5
 msgid "Log files to open up on startup"
 msgstr "起動時に開くログ・ファイル"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:4
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:6
 msgid "Size of the font used to display the log"
 msgstr "ログを表示する際に使用するフォントのサイズ"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:5
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:7
 msgid ""
 "Specifies a list of log files to open up at startup. A default list is "
 "created by reading /etc/syslog.conf."
 msgstr ""
-"起動時に開くロ・グファイルの並びを指定してください。デフォルト値は /etc/"
+"起動時に開くログ・ファイルの並びを指定してください。デフォルト値は /etc/"
 "syslog.conf の内容から作成します。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:6
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:8
 msgid "Specifies the height of the log viewer main window in pixels."
 msgstr ""
 "ログ・ビューアのメイン・ウィンドウの高さをピクセル単位で指定してください。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:7
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:9
 msgid ""
 "Specifies the log file displayed at startup. The default is either /var/adm/"
 "messages or /var/log/messages, depending on your operating system."
@@ -3063,7 +2898,7 @@ msgstr ""
 "message または /var/log/message のどちらかで、ご利用のオペレーティング・シス"
 "テムに依存します。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:8
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
 "Specifies the size of the fixed-width font used to display the log in the "
 "main tree view. The default is taken from the default terminal font size."
@@ -3072,12 +2907,12 @@ msgstr ""
 "ズを指定してください。デフォルト値は GNOME 端末で設定したフォント・サイズで"
 "す。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:9
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:11
 msgid "Specifies the width of the log viewer main window in pixels."
 msgstr ""
 "ログ・ビューアのメイン・ウィンドウの幅をピクセル単位で指定してください。"
 
-#: ../logview/data/gnome-system-log.schemas.in.h:10
+#: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:12
 msgid "Width of the main window in pixels"
 msgstr "メイン・ウィンドウの幅 (ピクセル単位)"
 
@@ -3105,65 +2940,65 @@ msgstr "強調"
 msgid "_Regular Expression:"
 msgstr "正規表現(_R):"
 
-#: ../logview/logview-app.c:374
+#: ../logview/logview-app.c:377
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "ファイルを開けません: %s"
 
-#: ../logview/logview-filter-manager.c:90
+#: ../logview/logview-filter-manager.c:94
 msgid "Filter name is empty!"
 msgstr "ファイルが空です!"
 
-#: ../logview/logview-filter-manager.c:103
+#: ../logview/logview-filter-manager.c:107
 msgid "Filter name may not contain the ':' character"
 msgstr "フィルタ名には ':' という文字を含めません"
 
-#: ../logview/logview-filter-manager.c:126
+#: ../logview/logview-filter-manager.c:130
 msgid "Regular expression is empty!"
 msgstr "正規表現が空です!"
 
-#: ../logview/logview-filter-manager.c:142
+#: ../logview/logview-filter-manager.c:146
 #, c-format
 msgid "Regular expression is invalid: %s"
 msgstr "正規表現が正しくありません: %s"
 
-#: ../logview/logview-filter-manager.c:238
+#: ../logview/logview-filter-manager.c:242
 msgid "Please specify either foreground or background color!"
 msgstr "文字の色あるいは背景色を指定してください!"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Edit filter"
 msgstr "フィルタを編集"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Add new filter"
 msgstr "新しいフィルタを追加"
 
-#: ../logview/logview-filter-manager.c:502
+#: ../logview/logview-filter-manager.c:506
 msgid "Filters"
 msgstr "フィルタ"
 
-#: ../logview/logview-findbar.c:169
+#: ../logview/logview-findbar.c:173
 msgid "_Find:"
 msgstr "検索(_F):"
 
-#: ../logview/logview-findbar.c:184
+#: ../logview/logview-findbar.c:188
 msgid "Find Previous"
 msgstr "前を検索"
 
-#: ../logview/logview-findbar.c:187
+#: ../logview/logview-findbar.c:191
 msgid "Find previous occurrence of the search string"
 msgstr "指定した単語をログの先頭に向かって検索します"
 
-#: ../logview/logview-findbar.c:192
+#: ../logview/logview-findbar.c:196
 msgid "Find Next"
 msgstr "次を検索"
 
-#: ../logview/logview-findbar.c:195
+#: ../logview/logview-findbar.c:199
 msgid "Find next occurrence of the search string"
 msgstr "指定した単語をログの最後に向かって検索します"
 
-#: ../logview/logview-findbar.c:202
+#: ../logview/logview-findbar.c:206
 msgid "Clear the search string"
 msgstr "検索する単語をクリアします"
 
@@ -3187,7 +3022,7 @@ msgstr ""
 "このバージョンのログ・ビューアは gzip で圧縮したログの閲覧をサポートしていま"
 "せん。"
 
-#: ../logview/logview-loglist.c:311
+#: ../logview/logview-loglist.c:315
 msgid "Loading..."
 msgstr "読み込み中..."
 
@@ -3207,158 +3042,397 @@ msgstr " - ログの閲覧と監視"
 msgid "Log Viewer"
 msgstr "ログ・ビューア"
 
-#: ../logview/logview-window.c:38 ../logview/logview-window.c:759
+#: ../logview/logview-window.c:38 ../logview/logview-window.c:760
 msgid "System Log Viewer"
 msgstr "システム・ログ・ビューア"
 
-#: ../logview/logview-window.c:210
+#: ../logview/logview-window.c:211
 #, c-format
 msgid "last update: %s"
 msgstr "最終更新日時: %s"
 
-#: ../logview/logview-window.c:213
+#: ../logview/logview-window.c:214
 #, c-format
 msgid "%d lines (%s) - %s"
 msgstr "%d行 (%s) - %s"
 
-#: ../logview/logview-window.c:317
+#: ../logview/logview-window.c:318
 msgid "Open Log"
 msgstr "ファイルの選択"
 
-#: ../logview/logview-window.c:356
+#: ../logview/logview-window.c:357
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "ヘルプを表示する際にエラーが発生しました: %s"
 
-#: ../logview/logview-window.c:470
+#: ../logview/logview-window.c:471
 msgid "Wrapped"
 msgstr "ラップ済"
 
-#: ../logview/logview-window.c:764
+#: ../logview/logview-window.c:765
 msgid "A system log viewer for GNOME."
 msgstr "GNOME 向けのシステム・ログビューアです。"
 
-#: ../logview/logview-window.c:810
+#: ../logview/logview-window.c:817
 msgid "_Filters"
 msgstr "フィルタ(_F)"
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "_Open..."
 msgstr "開く(_O).."
 
-#: ../logview/logview-window.c:813
+#: ../logview/logview-window.c:820
 msgid "Open a log from file"
 msgstr "ファイルからログを開きます"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "_Close"
 msgstr "閉じる(_C)"
 
-#: ../logview/logview-window.c:815
+#: ../logview/logview-window.c:822
 msgid "Close this log"
 msgstr "このログを閉じます"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "_Quit"
 msgstr "終了(_Q)"
 
-#: ../logview/logview-window.c:817
+#: ../logview/logview-window.c:824
 msgid "Quit the log viewer"
-msgstr "ログビューアを終了します"
+msgstr "ログ・ビューアを終了します"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "_Copy"
 msgstr "コピー(_C)"
 
-#: ../logview/logview-window.c:820
+#: ../logview/logview-window.c:827
 msgid "Copy the selection"
 msgstr "選択範囲をコピーします"
 
-#: ../logview/logview-window.c:822
+#: ../logview/logview-window.c:829
 msgid "Select the entire log"
 msgstr "ログ全体を選択します"
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "_Find..."
 msgstr "検索(_F)..."
 
-#: ../logview/logview-window.c:824
+#: ../logview/logview-window.c:831
 msgid "Find a word or phrase in the log"
 msgstr "ログから単語または語句を検索します"
 
-#: ../logview/logview-window.c:827
+#: ../logview/logview-window.c:834
 msgid "Bigger text size"
 msgstr "文字のサイズを大きくします"
 
-#: ../logview/logview-window.c:829
+#: ../logview/logview-window.c:836
 msgid "Smaller text size"
 msgstr "文字のサイズを小さくします"
 
-#: ../logview/logview-window.c:831
+#: ../logview/logview-window.c:838
 msgid "Normal text size"
 msgstr "標準の文字サイズにします"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage Filters"
 msgstr "フィルタを管理"
 
-#: ../logview/logview-window.c:834
+#: ../logview/logview-window.c:841
 msgid "Manage filters"
 msgstr "フィルタを管理"
 
-#: ../logview/logview-window.c:837
+#: ../logview/logview-window.c:844
 msgid "Open the help contents for the log viewer"
 msgstr "ログ・ビューアのヘルプの目次を開きます"
 
-#: ../logview/logview-window.c:839
+#: ../logview/logview-window.c:846
 msgid "Show the about dialog for the log viewer"
 msgstr "ログ・ビューアの情報ダイアログを表示します"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "_Statusbar"
 msgstr "ステータスバー(_S)"
 
-#: ../logview/logview-window.c:844
+#: ../logview/logview-window.c:851
 msgid "Show Status Bar"
 msgstr "ステータスバーを表示します"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Side _Pane"
 msgstr "サイドバー(_P)"
 
-#: ../logview/logview-window.c:846
+#: ../logview/logview-window.c:853
 msgid "Show Side Pane"
 msgstr "サイドバーを表示します"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Show matches only"
 msgstr "マッチしたもののみ表示"
 
-#: ../logview/logview-window.c:848
+#: ../logview/logview-window.c:855
 msgid "Only show lines that match one of the given filters"
 msgstr "指定したフィルタの一つにマッチした行だけを表示します"
 
-#: ../logview/logview-window.c:962
+#: ../logview/logview-window.c:857
+msgid "_Auto Scroll"
+msgstr "自動スクロール(_A)"
+
+#: ../logview/logview-window.c:857
+msgid "Automatically scroll down when new lines appear"
+msgstr "新しい行が現れたら自動的に下にスクロール"
+
+#: ../logview/logview-window.c:971
 #, c-format
 msgid "Can't read from \"%s\""
 msgstr " \"%s\" から読み取りができません"
 
-#: ../logview/logview-window.c:1381
+#: ../logview/logview-window.c:1393
 msgid "Version: "
 msgstr "バージョン: "
 
-#: ../logview/logview-window.c:1488
+#: ../logview/logview-window.c:1500
 msgid "Could not open the following files:"
 msgstr "次のファイルを開けませんでした:"
 
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "解析ツールの設定"
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "Text to thumbnail (default: Aa)"
+msgstr "サムネイルの文字 (デフォルトは Aa)"
 
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "ファイルシステムを解析する際のデバイスの選択(_D):"
+#: ../font-viewer/font-thumbnailer.c:267
+msgid "TEXT"
+msgstr "TEXT"
 
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "ホーム・フォルダに対する変更を監視する(_M)"
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "Font size (default: 64)"
+msgstr "フォントの大きさ (デフォルトは 64)"
+
+#: ../font-viewer/font-thumbnailer.c:269
+msgid "SIZE"
+msgstr "SIZE"
+
+#: ../font-viewer/font-thumbnailer.c:271
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "FONT-FILE OUTPUT-FILE"
+
+#: ../font-viewer/font-view.c:289
+msgid "Name:"
+msgstr "名前:"
+
+#: ../font-viewer/font-view.c:292
+msgid "Style:"
+msgstr "スタイル:"
+
+#: ../font-viewer/font-view.c:304
+msgid "Type:"
+msgstr "種類"
+
+#: ../font-viewer/font-view.c:308
+msgid "Size:"
+msgstr "サイズ"
+
+#: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
+msgid "Version:"
+msgstr "バージョン: "
+
+#: ../font-viewer/font-view.c:356 ../font-viewer/font-view.c:367
+msgid "Copyright:"
+msgstr "著作権:"
+
+#: ../font-viewer/font-view.c:360
+msgid "Description:"
+msgstr "説明:"
+
+#: ../font-viewer/font-view.c:428
+msgid "Installed"
+msgstr "インストールされました"
+
+#: ../font-viewer/font-view.c:430
+msgid "Install Failed"
+msgstr "インストールに失敗しました"
+
+#: ../font-viewer/font-view.c:502
+#, c-format
+msgid "Usage: %s fontfile\n"
+msgstr "使い方: %s フォントファイル\n"
+
+#: ../font-viewer/font-view.c:572
+msgid "I_nstall Font"
+msgstr "フォントをインストール(_N)"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "フォント・ビューア"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "フォントのプレビュー"
+
+#~ msgid "Dictionary server (Deprecated)"
+#~ msgstr "辞書サーバ 【廃止】"
+
+#~ msgid "Port used to connect to server (Deprecated)"
+#~ msgstr "サーバに接続するポート番号 【廃止】"
+
+#~ msgid ""
+#~ "Specify whether to use smart lookup. This key is dependant on whether the "
+#~ "dictionary server supports this option. The default is TRUE. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "スマート検索を行うかどうか指定します。このキーは辞書サーバがこのオプション"
+#~ "をサポートしているかどうかに依存します。デフォルトは TRUE です。【このキー"
+#~ "は廃止になったので、もう使用しません】"
+
+#~ msgid "The default height of the application window"
+#~ msgstr "ウィンドウのデフォルトの高さ"
+
+#~ msgid "The default width of the application window"
+#~ msgstr "ウィンドウのデフォルトの幅"
+
+#~ msgid ""
+#~ "The dictionary server to connect to. The default server is dict.org. See "
+#~ "http://www.dict.org for details on other servers. This key is deprecated "
+#~ "and no longer in use."
+#~ msgstr ""
+#~ "接続する辞書サーバです。デフォルトのサーバは dict.org です。他のサーバにつ"
+#~ "いて詳細は http://www.dict.org/ を参照してください。【このキーは廃止になっ"
+#~ "たので、もう使用できません】"
+
+#~ msgid "The page of the sidebar to show"
+#~ msgstr "表示するサイドバーのページ"
+
+#~ msgid ""
+#~ "The port number to connect to. The default port is 2628. This key is "
+#~ "deprecated and no longer in use."
+#~ msgstr ""
+#~ "接続するポート番号です。デフォルトのポート番号は 2628 です。【このキーは廃"
+#~ "止になったので、もう使用しません】"
+
+#~ msgid "The width of the sidebar"
+#~ msgstr "サイドバーの幅"
+
+#~ msgid ""
+#~ "This key defines the width of the sidebar and it's used to remember the "
+#~ "setting across sessions."
+#~ msgstr ""
+#~ "このキーはサイドバーの幅を定義し、複数のセッションで保存しておく際に使用し"
+#~ "ます。"
+
+#~ msgid ""
+#~ "This key defines the window height and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a height based on the font size."
+#~ msgstr ""
+#~ "このキーはウィンドウの高さを定義し、複数のセッションで辞書ウィンドウの大き"
+#~ "さを保存しておく際に使用します。-1 にすると、フォントの大きさに合せて高さ"
+#~ "を調節します。"
+
+#~ msgid ""
+#~ "This key defines the window width and it's used to remember the size of "
+#~ "the dictionary window across sessions. Setting it to -1 will make the "
+#~ "dictionary window use a width based on the font size."
+#~ msgstr ""
+#~ "このキーはウィンドウの幅を定義し、複数のセッションで辞書ウィンドウの大きさ"
+#~ "を保存しておく際に使用します。-1 にすると、フォントの大きさに合せて幅を調"
+#~ "節します。"
+
+#~ msgid ""
+#~ "This key defines whether the sidebar should be visible and it's used to "
+#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
+#~ "will make the sidebar always be displayed."
+#~ msgstr ""
+#~ "このキーはサイドバーを表示可能にするかどうかを定義し、複数のセッションでサ"
+#~ "イドバーの状態を保存しておく際に使用します。TRUE にすると、常にサイドバー"
+#~ "が表示されます。"
+
+#~ msgid ""
+#~ "This key defines whether the statusbar should be visible and it's used to "
+#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
+#~ "will make the statusbar always be displayed."
+#~ msgstr ""
+#~ "このキーはステータスバーを表示可能にするかどうかを定義し、複数のセッション"
+#~ "でステータスバーの状態を保存しておく際に使用します。TRUE にすると、常にス"
+#~ "テータスバーが表示されます。"
+
+#~ msgid ""
+#~ "This key defines whether the window should be maximized and it's used to "
+#~ "remember the state of the dictionary window across sessions. Setting it "
+#~ "to TRUE will make the window always appear as maximized."
+#~ msgstr ""
+#~ "このキーは、起動時にウィンドウを最大化するかどうかを定義し、複数のセッショ"
+#~ "ンで辞書ウィンドウの状態を保存しておく際に使用します。TRUE にすると、起動"
+#~ "時のウィンドウは常に最大化された状態で表示します。"
+
+#~ msgid ""
+#~ "This key defines which page of the sidebar should be displayed and it's "
+#~ "used to remember the setting across sessions.. It can be \"speller\" or "
+#~ "\"databases\"."
+#~ msgstr ""
+#~ "このキーはサイドバーのページを表示するかどうかを定義し、複数のセッションで"
+#~ "設定を保存しておく際に使用します。指定可能な値: \"speller\" または "
+#~ "\"database\""
+
+#~ msgid "Use smart lookup (Deprecated)"
+#~ msgstr "スマート検索を有効にする【廃止】"
+
+#~ msgid "Whether the application window should be maximized"
+#~ msgstr "アプリケーションのウィンドウを最大化して起動するかどうか"
+
+#~ msgid "Whether the sidebar should be visible"
+#~ msgstr "サイドバーの表示可否"
+
+#~ msgid "Whether the statusbar should be visible"
+#~ msgstr "ステータスバーの表示可否"
+
+#~ msgid ""
+#~ "Definition for '%s'\n"
+#~ "  From '%s':\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "'%s' の意味\n"
+#~ "  (辞書 '%s')\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Error: %s\n"
+#~ msgstr "エラー: %s\n"
+
+#~ msgid "See gnome-dictionary --help for usage\n"
+#~ msgstr "用法は `gnome-dictionary --help` でご覧ください\n"
+
+#~ msgid "Unable to find a suitable dictionary source"
+#~ msgstr "妥当な辞書が見つかりません"
+
+#~ msgid ""
+#~ "Error while looking up the definition of \"%s\":\n"
+#~ "%s"
+#~ msgstr ""
+#~ "\"%s\" の意味を検索する際にエラーが発生しました:\n"
+#~ "%s"
+
+#~ msgid "word"
+#~ msgstr "WORD"
+
+#~ msgid "source"
+#~ msgstr "source"
+
+#~ msgid "Show available dictionary sources"
+#~ msgstr "利用可能な辞書を表示する"
+
+#~ msgid "Print result to the console"
+#~ msgstr "検索結果を端末に出力する"
+
+#~ msgid "db"
+#~ msgstr "DB"
+
+#~ msgid "strat"
+#~ msgstr "strat"
+
+#~ msgid "Unable to rename file '%s' to '%s': %s"
+#~ msgstr "'%s' から '%s' へ名前を変更できません: %s"
+
+#~ msgid "Unable to create the data directory '%s': %s"
+#~ msgstr "データ・フォルダ '%s' を生成できません: %s"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "ホーム・フォルダを監視する"
