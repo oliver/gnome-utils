@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils GNOME TRUNK\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"utils&component=general\n"
-"POT-Creation-Date: 2011-02-21 22:03+0000\n"
+"utils&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-17 22:02+0000\n"
 "PO-Revision-Date: 2011-03-06 15:27+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
@@ -27,8 +27,19 @@ msgstr "Kiểm tra kích cỡ thư mục và chỗ rảnh trên đĩa"
 msgid "Disk Usage Analyzer"
 msgstr "Bộ phân tích cách sử dụng đĩa"
 
+#: ../baobab/data/baobab-preferences-dialog.ui.h:1
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Tùy thích bộ phân tích cách sử dụng đĩa"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:2
+msgid "Select _devices to include in filesystem scan:"
+msgstr "Chọn các thiết _bị cần xem xét khi quét hệ thống:"
+
+#: ../baobab/data/baobab-preferences-dialog.ui.h:3
+msgid "_Monitor changes to your home folder"
+msgstr "Theo dõi thay đổi trong thư _mục cá nhân của bạn"
+
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
-#| msgid "A list of uri for partitions to be excluded from scanning."
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr ""
 "Danh sách các địa chỉ URI của phân vùng cần loại trừ khỏi tiến trình quét."
@@ -38,7 +49,6 @@ msgid "Active Chart"
 msgstr "Biểu đồ hoạt động"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
-#| msgid "Exluded partitions uris"
 msgid "Excluded partitions URIs"
 msgstr "URI phân vùng bị loại trừ"
 
@@ -47,7 +57,6 @@ msgid "Monitor Home"
 msgstr "Theo dõi thư mục cá nhân"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
 msgstr "Hiện thanh trạng thái"
 
@@ -68,7 +77,6 @@ msgid "Whether the toolbar should be visible in main window."
 msgstr "Hiện/Ẩn thanh công cụ trong cửa sổ chính."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
 msgstr "Hiện loại biểu đồ nào."
 
@@ -202,12 +210,10 @@ msgid "Ready"
 msgstr "Sẵn sàng"
 
 #: ../baobab/src/baobab.c:421
-#| msgid "Total filesystem capacity:"
 msgid "Total filesystem capacity"
 msgstr "Sức chứa của hệ thống tập tin"
 
 #: ../baobab/src/baobab.c:443
-#| msgid "Total filesystem usage:"
 msgid "Total filesystem usage"
 msgstr "Cách sử dụng toàn hệ thống tập tin"
 
@@ -217,8 +223,6 @@ msgstr "chứa liên kết cứng cho:"
 
 #: ../baobab/src/baobab.c:493
 #, c-format
-#| msgid "% 5d item"
-#| msgid_plural "% 5d items"
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d mục"
@@ -244,7 +248,6 @@ msgid "Zoom out"
 msgstr "Thu nhỏ"
 
 #: ../baobab/src/baobab.c:957
-#| msgid "Save Screenshot"
 msgid "Save screenshot"
 msgstr "Chụp màn hình"
 
@@ -515,11 +518,6 @@ msgid "There was an error displaying help."
 msgstr "Gặp lỗi khi hiển thị trợ giúp."
 
 #: ../baobab/src/callbacks.c:76 ../logview/logview-about.h:49
-#| msgid ""
-#| "Log Viewer is free software; you can redistribute it and/or modify it "
-#| "under the terms of the GNU General Public License as published by the "
-#| "Free Software Foundation; either version 2 of the License, or (at your "
-#| "option) any later version."
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -532,11 +530,6 @@ msgstr ""
 "kỳ phiên bản sau nào."
 
 #: ../baobab/src/callbacks.c:81 ../logview/logview-about.h:53
-#| msgid ""
-#| "Log Viewer is distributed in the hope that it will be useful, but WITHOUT "
-#| "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-#| "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-#| "more details."
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
@@ -548,10 +541,6 @@ msgstr ""
 "LÀM ĐƯỢC VIỆC DỨT KHOÁT. Xem Giấy Phép Công Cộng GNU để biết thêm chi tiết."
 
 #: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with the Log Viewer; if not, write to the Free Software Foundation, Inc., "
-#| "51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
@@ -1290,7 +1279,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Gỡ bỏ nguồn từ điển đã chọn hiện thời"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
-#| msgid "Remove the currently selected dictionary source"
 msgid "Edit the currently selected dictionary source"
 msgstr "Sửa nguồn từ điển được chọn"
 
@@ -1507,83 +1495,82 @@ msgstr "Chiến lược hiện có"
 msgid "Dictionary sources"
 msgstr "Nguồn từ điển"
 
-#: ../gnome-screenshot/gnome-screenshot.c:132
+#: ../gnome-screenshot/gnome-screenshot.c:134
 msgid "Error loading the help page"
 msgstr "Gặp lỗi khi tải trợ giúp"
 
-#: ../gnome-screenshot/gnome-screenshot.c:244
+#: ../gnome-screenshot/gnome-screenshot.c:246
 msgid "None"
 msgstr "Không"
 
-#: ../gnome-screenshot/gnome-screenshot.c:245
+#: ../gnome-screenshot/gnome-screenshot.c:247
 msgid "Drop shadow"
 msgstr "Bỏ bóng"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "Border"
 msgstr "Đường viền"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:350
+#: ../gnome-screenshot/gnome-screenshot.c:352
 msgid "Include _pointer"
 msgstr "Gồm có con t_rỏ"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:359
+#: ../gnome-screenshot/gnome-screenshot.c:361
 msgid "Include the window _border"
 msgstr "Gồm _viền cửa sổ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:374
+#: ../gnome-screenshot/gnome-screenshot.c:376
 msgid "Apply _effect:"
 msgstr "Áp dụng _hiệu ứng:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:436
+#: ../gnome-screenshot/gnome-screenshot.c:438
 msgid "Grab the whole _desktop"
 msgstr "Chụp _toàn bộ màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:448
+#: ../gnome-screenshot/gnome-screenshot.c:450
 msgid "Grab the current _window"
 msgstr "Chụp cửa sổ _hiện thời"
 
-#: ../gnome-screenshot/gnome-screenshot.c:460
-#| msgid "Select a folder"
+#: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
 msgstr "Chọn _vùng cần chụp"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:477
+#: ../gnome-screenshot/gnome-screenshot.c:479
 msgid "Grab _after a delay of"
 msgstr "Chụp _sau khi chờ"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:497
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:499
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "seconds"
 msgstr "giây"
 
-#: ../gnome-screenshot/gnome-screenshot.c:515
-#: ../gnome-screenshot/gnome-screenshot.c:523
+#: ../gnome-screenshot/gnome-screenshot.c:517
+#: ../gnome-screenshot/gnome-screenshot.c:525
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Chụp màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:524
+#: ../gnome-screenshot/gnome-screenshot.c:526
 msgid "Effects"
 msgstr "Hiệu ứng"
 
-#: ../gnome-screenshot/gnome-screenshot.c:529
+#: ../gnome-screenshot/gnome-screenshot.c:531
 msgid "Take _Screenshot"
 msgstr "_Chụp màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:649
+#: ../gnome-screenshot/gnome-screenshot.c:651
 msgid "Error while saving screenshot"
 msgstr "Gặp lỗi khi lưu hình chụp"
 
-#: ../gnome-screenshot/gnome-screenshot.c:652
+#: ../gnome-screenshot/gnome-screenshot.c:654
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1594,16 +1581,15 @@ msgstr ""
 "Lỗi: %s\n"
 "Hãy chọn một vị trí khác và thử lại."
 
-#: ../gnome-screenshot/gnome-screenshot.c:784
-#| msgid "Screenshot delay"
+#: ../gnome-screenshot/gnome-screenshot.c:786
 msgid "Screenshot taken"
 msgstr "Đã chụp"
 
-#: ../gnome-screenshot/gnome-screenshot.c:838
+#: ../gnome-screenshot/gnome-screenshot.c:903
 msgid "Unable to take a screenshot of the current window"
 msgstr "Không thể chụp hình cửa sổ hiện thời"
 
-#: ../gnome-screenshot/gnome-screenshot.c:888
+#: ../gnome-screenshot/gnome-screenshot.c:986
 #, c-format
 msgid "Screenshot-%s.png"
 msgstr "Hình-chụp-%s.png"
@@ -1611,65 +1597,64 @@ msgstr "Hình-chụp-%s.png"
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if a specific window is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:895
+#: ../gnome-screenshot/gnome-screenshot.c:993
 #, c-format
 msgid "Screenshot-%s-%d.png"
 msgstr "Hình-chụp-%s-%d.png"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:1003
 #: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:196
+#: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Hình-chụp.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:912
+#: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
 msgid "Screenshot-%d.png"
 msgstr "Hình-chụp-%d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1255
+#: ../gnome-screenshot/gnome-screenshot.c:1356
 msgid "Grab a window instead of the entire screen"
 msgstr "Lấy một cửa sổ riêng thay vì toàn bộ màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1256
-#| msgid "Grab a window instead of the entire screen"
+#: ../gnome-screenshot/gnome-screenshot.c:1357
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Lấy một vùng màn hình thay vì toàn bộ màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1257
+#: ../gnome-screenshot/gnome-screenshot.c:1358
 msgid "Include the window border with the screenshot"
 msgstr "Gồm viền cửa sổ khi chụp màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1258
+#: ../gnome-screenshot/gnome-screenshot.c:1359
 msgid "Remove the window border from the screenshot"
 msgstr "Gỡ bỏ viền cửa sổ khỏi ảnh chụp màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1259
+#: ../gnome-screenshot/gnome-screenshot.c:1360
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Chụp màn hình sau thời gian đã ghi rõ [theo giây]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Hiệu ứng cần thêm vào viền (bóng, viền hoặc không)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1260
+#: ../gnome-screenshot/gnome-screenshot.c:1361
 msgid "effect"
 msgstr "hiệu ứng"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1261
+#: ../gnome-screenshot/gnome-screenshot.c:1362
 msgid "Interactively set options"
 msgstr "Đặt tuỳ chọn tương tác"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1272
+#: ../gnome-screenshot/gnome-screenshot.c:1373
 msgid "Take a picture of the screen"
 msgstr "Chụp ảnh màn hình"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1290
+#: ../gnome-screenshot/gnome-screenshot.c:1391
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1727,34 +1712,46 @@ msgid "Include Border"
 msgstr "Gồm viền"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-msgid "Include Pointer"
+#, fuzzy
+#| msgid "Include Pointer"
+msgid "Include ICC Profile"
 msgstr "Gồm có con trỏ"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
+msgid "Include Pointer"
+msgstr "Gồm có con trỏ"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#, fuzzy
+#| msgid "Include the pointer in the screenshot"
+msgid "Include the ICC profile of the target in the screenshot file"
+msgstr "Bao gồm con trỏ khi chụp màn hình"
+
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
 msgstr "Bao gồm con trỏ khi chụp màn hình"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
 msgstr "Bao gồm viền của trình quản lý cửa sổ, trong chụp màn hình"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
 msgstr "Khoảng chờ chụp hình"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
 msgstr "Thư mục hình chụp"
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
 msgstr "Thư mục nơi trình chụp màn hình vừa đã lưu."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
 msgstr "Số giây cần chờ trước khi chụp hình."
 
-#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
+#: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
 msgstr "Ảnh chụp màn hình đặc trưng cho cửa sổ (bị phản đối)"
 
@@ -1770,7 +1767,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Chọn thư mục"
 
-#: ../gnome-screenshot/screenshot-save.c:57
+#: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
 "Unable to clear the temporary folder:\n"
@@ -1779,18 +1776,20 @@ msgstr ""
 "Không thể xóa thư mục tạm:\n"
 "%s"
 
-#: ../gnome-screenshot/screenshot-save.c:95
+#: ../gnome-screenshot/screenshot-save.c:104
 msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
-msgstr "Tiến trình con lưu đã thoát bất ngờ. Như thế thì không ghi được chụp màn hình vào đĩa."
+msgstr ""
+"Tiến trình con lưu đã thoát bất ngờ. Như thế thì không ghi được chụp màn "
+"hình vào đĩa."
 
-#: ../gnome-screenshot/screenshot-save.c:223
+#: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
 msgstr "Gặp lỗi lạ khi lưu chụp màn hình vào đĩa"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:852
+#: ../gnome-screenshot/screenshot-utils.c:873
 msgid "Untitled Window"
 msgstr "Cửa sổ không tên"
 
@@ -1845,7 +1844,6 @@ msgid "Disable Quick Search Second Scan"
 msgstr "Tắt Việc Ra Quét Thứ hai Tìm Nhanh"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:6
-#| msgid "Look in folder"
 msgid "Look in Folder"
 msgstr "Tìm trong thư mục"
 
@@ -1882,7 +1880,6 @@ msgstr "Dùng tùy chọn tìm kiếm « Có ngày sửa đổi sau »"
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:21
-#| msgid "Select the search option \"Include other filesystems\""
 msgid "Select the search option \"Exclude other filesystems\""
 msgstr "Dùng tùy chọn tìm kiếm \"Loại hệ thống tập tin khác\""
 
@@ -2032,9 +2029,6 @@ msgstr ""
 "kiếm « Có ngày sửa đổi sau » được chọn chưa."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:62
-#| msgid ""
-#| "This key determines if the \"Include other filesystems\" search option is "
-#| "selected when the search tool is started."
 msgid ""
 "This key determines if the \"Exclude other filesystems\" search option is "
 "selected when the search tool is started."
@@ -2250,7 +2244,6 @@ msgstr "Mở _bằng"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
-#| msgid "_Open Folder"
 msgid "Open Containing _Folder"
 msgstr "_Mở thư mục bên ngoài"
 
@@ -2487,12 +2480,10 @@ msgid "Follow symbolic links"
 msgstr "Theo liên kết biểu tượng"
 
 #: ../gsearchtool/gsearchtool.c:99
-#| msgid "Include other filesystems"
 msgid "Exclude other filesystems"
 msgstr "Loại hệ thống tập tin khác"
 
 #: ../gsearchtool/gsearchtool.c:157
-#| msgid "Show the application's version"
 msgid "Show version of the application"
 msgstr "Hiển thị phiên bản của ứng dụng"
 
@@ -2561,16 +2552,12 @@ msgstr "Không tìm thấy tập tin nào"
 
 #: ../gsearchtool/gsearchtool.c:991
 #, c-format
-#| msgid "%d File Found"
-#| msgid_plural "%d Files Found"
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "Tìm thấy %'d tập tin"
 
 #: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
 #, c-format
-#| msgid "%d file found"
-#| msgid_plural "%d files found"
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "Tìm thấy %'d tập tin"
@@ -2786,13 +2773,11 @@ msgstr "— Công cụ Tìm kiếm GNOME"
 
 #: ../gsearchtool/gsearchtool.c:2966
 #, c-format
-#| msgid "Invalid option passed to sortby command line argument."
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Không phân tích được đối số dòng lệnh: %s\n"
 
 #: ../libeggsmclient/eggdesktopfile.c:165
 #, c-format
-#| msgid "\"%s\" is not a valid folder"
 msgid "File is not a valid .desktop file"
 msgstr "Tập tn không phải là tập tin .desktop hợp lệ"
 
@@ -2929,7 +2914,6 @@ msgid "Background:"
 msgstr "Nền:"
 
 #: ../logview/data/logview-filter.ui.h:2
-#| msgid "Effects"
 msgid "Effect:"
 msgstr "Hiệu ứng:"
 
@@ -2946,7 +2930,6 @@ msgid "Highlight"
 msgstr "Tô sáng"
 
 #: ../logview/data/logview-filter.ui.h:7
-#| msgid "Name matches regular e_xpression"
 msgid "_Regular Expression:"
 msgstr "_Biểu thức chính quy:"
 
@@ -2956,7 +2939,6 @@ msgid "Impossible to open the file %s"
 msgstr "Không thể mở được tập tin %s"
 
 #: ../logview/logview-filter-manager.c:90
-#| msgid "File is empty"
 msgid "Filter name is empty!"
 msgstr "Bộ lọc tên rỗng!"
 
@@ -2986,7 +2968,6 @@ msgid "Add new filter"
 msgstr "Thêm bộ lọc mới"
 
 #: ../logview/logview-filter-manager.c:502
-#| msgid "_File"
 msgid "Filters"
 msgstr "Bộ lọc"
 
@@ -3087,7 +3068,6 @@ msgid "A system log viewer for GNOME."
 msgstr "Bộ xem bản ghi hệ thống của GNOME."
 
 #: ../logview/logview-window.c:817
-#| msgid "_File"
 msgid "_Filters"
 msgstr "_Bộ lọc"
 
@@ -3229,7 +3209,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "TẬP-TIN-PHÔNG KẾT-XUẤT"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "Tên:"
 
@@ -3238,17 +3217,14 @@ msgid "Style:"
 msgstr "Kiểu:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "Kiểu:"
 
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "Kích thước:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "Phiên bản:"
 
@@ -3257,7 +3233,6 @@ msgid "Copyright:"
 msgstr "Bản quyền:"
 
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "Mô tả:"
 
@@ -3279,23 +3254,12 @@ msgid "I_nstall Font"
 msgstr "_Cài đặt phông"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "Trình xem phông"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "Xem thử phông chữ"
-
-#~ msgid "Disk Usage Analyzer Preferences"
-#~ msgstr "Tùy thích bộ phân tích cách sử dụng đĩa"
-
-#~ msgid "Select _devices to include in filesystem scan:"
-#~ msgstr "Chọn các thiết _bị cần xem xét khi quét hệ thống:"
-
-#~ msgid "_Monitor changes to your home folder"
-#~ msgstr "Theo dõi thay đổi trong thư _mục cá nhân của bạn"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "Bật khả năng theo dõi thư mục chính"
@@ -3738,8 +3702,8 @@ msgstr "Xem thử phông chữ"
 #~ "\"databases\"."
 #~ msgstr ""
 #~ "Khóa này định nghĩa trang nào của ô bên nên được hiển thị; nó được dùng "
-#~ "để nhớ giá trị này giữa hai phiên chạy. Nó có thể là « speller » (bộ "
-#~ "chính tả) hay « databases » (các cơ sở dữ liệu)."
+#~ "để nhớ giá trị này giữa hai phiên chạy. Nó có thể là « speller » (bộ chính "
+#~ "tả) hay « databases » (các cơ sở dữ liệu)."
 
 #~ msgid "Use smart lookup (Deprecated)"
 #~ msgstr "Dùng Tra tìm thông minh (bị phản đối)"
@@ -3768,8 +3732,7 @@ msgstr "Xem thử phông chữ"
 #~ msgstr "Lỗi: %s\n"
 
 #~ msgid "See gnome-dictionary --help for usage\n"
-#~ msgstr ""
-#~ "Hãy chạy lệnh « -- help » của gnome-dictionary để xem cách sử dụng\n"
+#~ msgstr "Hãy chạy lệnh « -- help » của gnome-dictionary để xem cách sử dụng\n"
 
 #~ msgid "Unable to find a suitable dictionary source"
 #~ msgstr "Không tìm thấy nguồn từ điển thích hợp"
