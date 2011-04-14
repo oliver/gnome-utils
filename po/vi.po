@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2011-03-17 22:02+0000\n"
-"PO-Revision-Date: 2011-03-06 15:27+0700\n"
+"PO-Revision-Date: 2011-04-14 18:42+0700\n"
 "Last-Translator: Nguyễn Thái Ngọc Duy <pclouds@gmail.com>\n"
 "Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -1712,20 +1712,18 @@ msgid "Include Border"
 msgstr "Gồm viền"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-#, fuzzy
 #| msgid "Include Pointer"
 msgid "Include ICC Profile"
-msgstr "Gồm có con trỏ"
+msgstr "Bao gồm hồ sơ ICC"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:6
 msgid "Include Pointer"
 msgstr "Gồm có con trỏ"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
-#, fuzzy
 #| msgid "Include the pointer in the screenshot"
 msgid "Include the ICC profile of the target in the screenshot file"
-msgstr "Bao gồm con trỏ khi chụp màn hình"
+msgstr "Bao gồm hồ sơ ICC của đích trong tập tin chụp màn hình"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
