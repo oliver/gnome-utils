@@ -36,6 +36,7 @@
 #include "baobab-prefs.h"
 #include "baobab-remote-connect-dialog.h"
 #include "baobab-chart.h"
+#include "baobab-export.h"
 
 void
 on_quit_activate (GtkMenuItem *menuitem, gpointer user_data)
@@ -59,6 +60,20 @@ void
 on_menuscandir_activate (GtkMenuItem *menuitem, gpointer user_data)
 {
 	dir_select (FALSE, baobab.window);
+}
+
+void
+on_menu_import_activate (GtkMenuItem *menuitem, gpointer user_data)
+{
+	GFile* infile = g_file_new_for_path("dump.xml");
+	baobab_import(infile);
+}
+
+void
+on_menu_export_activate (GtkMenuItem *menuitem, gpointer user_data)
+{
+	GFile* outfile = g_file_new_for_path("dump.xml");
+	baobab_export(outfile);
 }
 
 void

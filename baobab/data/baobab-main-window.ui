@@ -46,6 +46,22 @@
           </object>
         </child>
         <child>
+          <object class="GtkAction" id="menu_import">
+            <property name="stock_id">gtk-open</property>
+            <property name="name">menu_import</property>
+            <property name="label" translatable="yes">Open Snapshot...</property>
+            <signal handler="on_menu_import_activate" name="activate"/>
+          </object>
+        </child>
+        <child>
+          <object class="GtkAction" id="menu_export">
+            <property name="stock_id">gtk-save</property>
+            <property name="name">menu_export</property>
+            <property name="label" translatable="yes">Save Snapshot...</property>
+            <signal handler="on_menu_export_activate" name="activate"/>
+          </object>
+        </child>
+        <child>
           <object class="GtkAction" id="menustop">
             <property name="stock_id">gtk-stop</property>
             <property name="name">menustop</property>
@@ -154,6 +170,9 @@
           <menuitem action="menuallfs"/>
           <menuitem action="menuscandir"/>
           <menuitem action="menu_scan_rem"/>
+          <separator/>
+          <menuitem action="menu_import"/>
+          <menuitem action="menu_export"/>
           <separator/>
           <menuitem action="menustop"/>
           <menuitem action="menurescan"/>

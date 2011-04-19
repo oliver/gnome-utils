@@ -21,6 +21,8 @@ baobab_SOURCES = \
 	baobab-ringschart.h \
 	baobab-scan.c \
 	baobab-scan.h \
+	baobab-export.c \
+	baobab-export.h \
 	baobab-treeview.c \
 	baobab-treeview.h \
 	baobab-utils.c \
