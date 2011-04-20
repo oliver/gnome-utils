@@ -113,6 +113,30 @@ baobab_import (GFile *infileName)
 		return;
 	}
 
+	/* retrieve base path */
+	GFile* targetPath = NULL;
+	xmlChar* baseUri = xmlGetProp(cur, "baseuri");
+	if (baseUri)
+	{
+		targetPath = g_file_new_for_uri(baseUri);
+		xmlFree(baseUri);
+	}
+	else
+	{
+		xmlChar* basePath = xmlGetProp(cur, "basepath");
+		if (basePath)
+		{
+			targetPath = g_file_new_for_path(basePath);
+			xmlFree(basePath);
+		}
+		else
+		{
+			printf("base path/URI not specified\n");
+			xmlFreeDoc(doc);
+			return;
+		}
+	}
+
 	/* find root <dir> node */
 	for (cur = cur->xmlChildrenNode; cur; cur = cur->next)
 	{
@@ -129,7 +153,6 @@ baobab_import (GFile *infileName)
 		return;
 	}
 
-	GFile* targetPath = g_file_new_for_path("/tmp/abc");
 	baobab_scan_prepare(targetPath);
 
 	int max_depth = 0;
@@ -216,7 +239,20 @@ baobab_export (GFile *outfileName)
 	GString* s = g_string_new("");
 	g_string_append(s, "<?xml version=\"1.0\" ?>\n");
 	g_string_append(s, "<!-- Baobab directory structure dump -->\n");
-	g_string_append(s, "<dump>\n");
+	g_string_append(s, "<dump");
+
+	if (g_file_is_native(baobab.current_location))
+	{
+		g_string_append_printf(s, " basepath=\"%s\"",
+			g_file_get_path(baobab.current_location));
+	}
+	else
+	{
+		g_string_append_printf(s, " baseuri=\"%s\"",
+			g_file_get_uri(baobab.current_location));
+	}
+	g_string_append(s, ">\n");
+
 	g_output_stream_write_all(outFile, s->str, s->len, NULL, NULL, NULL);
 
 	GtkTreeModel* model = GTK_TREE_MODEL(baobab.model);
