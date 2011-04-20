@@ -233,12 +233,9 @@ baobab_update_filesystem (void)
 }
 
 void
-baobab_scan_location (GFile *file)
+baobab_scan_prepare (GFile *file)
 {
 	GtkToggleAction *ck_allocated;
-
-	if (!baobab_check_dir (file))
-		return;
 
 	if (iterstack !=NULL)
 		return;
@@ -266,9 +263,22 @@ baobab_scan_location (GFile *file)
 	else {
 		gtk_action_set_sensitive (GTK_ACTION (ck_allocated), TRUE);
 	}
+}
 
+void
+baobab_scan_location (GFile *file)
+{
+    if (!baobab_check_dir (file))
+        return;
+
+    baobab_scan_prepare (file);
 	baobab_scan_execute (file);
+    baobab_scan_finish ();
+}
 
+void
+baobab_scan_finish ()
+{
 	/* set statusbar, percentage and allocated/normal size */
 	baobab_set_statusbar (_("Calculating percentage bars..."));
 	gtk_tree_model_foreach (GTK_TREE_MODEL (baobab.model),

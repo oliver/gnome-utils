@@ -106,6 +106,8 @@ struct chan_data {
 
 void baobab_set_busy (gboolean busy);
 void baobab_update_filesystem (void);
+void baobab_scan_prepare (GFile *);
+void baobab_scan_finish ();
 void baobab_scan_location (GFile *);
 void baobab_scan_home (void);
 void baobab_scan_root (void);

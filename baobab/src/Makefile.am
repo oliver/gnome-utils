@@ -43,6 +43,7 @@ baobab_CFLAGS = 			\
 	$(GIO_CFLAGS)			\
 	$(GTK_CFLAGS)			\
 	$(LIBGTOP_CFLAGS)		\
+	$(LIBXML_CFLAGS)		\
 	$(NULL)
 
 baobab_LDFLAGS = -export-dynamic
@@ -52,5 +53,6 @@ baobab_LDADD = 				\
 	$(GIO_LIBS)			\
 	$(GTK_LIBS)			\
 	$(LIBGTOP_LIBS)			\
+	$(LIBXML_LIBS)			\
 	$(NULL)
 

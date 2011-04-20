@@ -23,15 +23,123 @@
 
 #include <config.h>
 
+#include <libxml/parser.h>
+
 #include "baobab-export.h"
 #include "baobab.h"
 #include "baobab-treeview.h"
 
 
+static void
+load_node (xmlNodePtr cur, int depth, int* max_depth)
+{
+	if (depth > *max_depth)
+		*max_depth = depth;
+	depth++;
+
+	if (xmlStrcmp(cur->name, "dir") == 0)
+	{
+		struct chan_data entry;
+		entry.size = 0;
+		entry.alloc_size = 0;
+		entry.depth = depth -1;
+		entry.elements = -1;
+		entry.display_name = NULL;
+		entry.parse_name = NULL;
+		entry.tempHLsize = 0;
+
+		/* parse attributes from XML */
+		xmlChar* value;
+		value = xmlGetProp(cur, "name");
+		printf("dir name: %s\n", value);
+		entry.parse_name = g_strdup(value);
+		entry.display_name = entry.parse_name;
+		xmlFree(value);
+
+		value = xmlGetProp(cur, "size");
+		entry.size = g_ascii_strtoull(value, NULL, 10);
+		xmlFree(value);
+
+		value = xmlGetProp(cur, "allocated");
+		entry.alloc_size = g_ascii_strtoull(value, NULL, 10);
+		xmlFree(value);
+
+		/* prefill the model */
+		baobab_fill_model(&entry);
+
+		/* load children */
+		xmlNodePtr child = cur->xmlChildrenNode;
+		while (child)
+		{
+			load_node(child, depth, max_depth);
+			child = child->next;
+		}
+
+		/* set final values for this directory */
+		value = xmlGetProp(cur, "elements");
+		entry.elements = atoi(value);
+		xmlFree(value);
+
+		baobab_fill_model(&entry);
+
+		g_free(entry.parse_name);
+	}
+}
+
+
 void
 baobab_import (GFile *infileName)
 {
-	
+	printf("loading snapshot...\n");
+	xmlDocPtr doc = xmlParseFile(g_file_get_path(infileName));
+	if (!doc)
+	{
+		printf("error loading dump file\n");
+		return;
+	}
+
+	xmlNodePtr cur = xmlDocGetRootElement(doc);
+	if (!cur)
+	{
+		printf("empty dump file\n");
+		xmlFreeDoc(doc);
+		return;
+	}
+
+	if (xmlStrcmp(cur->name, "dump") != 0)
+	{
+		printf("no valid root node\n");
+		xmlFreeDoc(doc);
+		return;
+	}
+
+	/* find root <dir> node */
+	for (cur = cur->xmlChildrenNode; cur; cur = cur->next)
+	{
+		if (xmlStrcmp(cur->name, "dir") == 0)
+		{
+			break;
+		}
+	}
+
+	if (!cur)
+	{
+		printf("no root dir node\n");
+		xmlFreeDoc(doc);
+		return;
+	}
+
+	GFile* targetPath = g_file_new_for_path("/tmp/abc");
+	baobab_scan_prepare(targetPath);
+
+	int max_depth = 0;
+	load_node(cur, 0, &max_depth);
+
+	baobab.model_max_depth = max_depth;
+	baobab_scan_finish();
+
+	xmlFreeDoc(doc);
+	printf("done.\n");
 }
 
 

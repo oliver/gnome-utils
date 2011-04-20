@@ -151,6 +151,10 @@ PKG_CHECK_MODULES([LIBCANBERRA_GTK], [libcanberra-gtk3 >= $LIBCANBERRA_GTK_REQUI
 AC_SUBST(LIBCANBERRA_GTK_CFLAGS)
 AC_SUBST(LIBCANBERRA_GTK_LIBS)
 
+PKG_CHECK_MODULES(LIBXML, libxml-2.0)
+AC_SUBST(LIBXML_CFLAGS)
+AC_SUBST(LIBXML_LIBS)
+
 dnl ***************************************************************
 dnl Other miscellaneous checks 
 dnl ***************************************************************
