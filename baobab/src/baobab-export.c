@@ -60,6 +60,11 @@ export_iter (GtkTreeModel* model, GtkTreeIter* it, GOutputStream* outFile)
 		g_string_append_printf(s, " allocated=\"%" G_GUINT64_FORMAT "\"", g_value_get_uint64(&value) );
 		g_value_unset(&value);
 
+		gtk_tree_model_get_value(model, it, COL_H_ELEMENTS, &value);
+		g_assert( G_VALUE_HOLDS_INT(&value) );
+		g_string_append_printf(s, " elements=\"%d\"", g_value_get_int(&value) );
+		g_value_unset(&value);
+
 		if (gtk_tree_model_iter_has_child(model, it))
 			g_string_append(s, ">\n");
 		else
