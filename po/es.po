@@ -9,17 +9,17 @@
 # Miguel de Icaza <miguel@metropolis.nuclecu.unam.mx> 1998.
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999.
 # Manuel de Vega Barreiro <barreiro@arrakis.es> 2000-2001.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-17 22:02+0000\n"
-"PO-Revision-Date: 2011-03-18 11:57+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"POT-Creation-Date: 2011-03-19 11:20+0000\n"
+"PO-Revision-Date: 2011-04-24 10:15+0200\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -565,8 +565,8 @@ msgid ""
 msgstr ""
 "Debería haber recibido una copia de la Licencia Pública General GNU junto "
 "con el Visor de sucesos de GNOME; de lo contrario, escriba a la Free "
-"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-"
-"1301 EE. UU."
+"Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301 EE. UU."
 
 #: ../baobab/src/callbacks.c:101
 msgid "Baobab"
@@ -1571,7 +1571,7 @@ msgstr "Capturar la _ventana actual"
 
 #: ../gnome-screenshot/gnome-screenshot.c:462
 msgid "Select _area to grab"
-msgstr "Seleccionar _área que capturar"
+msgstr "Seleccionar áre_a que capturar"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
@@ -1748,7 +1748,6 @@ msgid "Include Border"
 msgstr "Incluir borde"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-#| msgid "Include Pointer"
 msgid "Include ICC Profile"
 msgstr "Incluir perfil ICC"
 
@@ -1757,7 +1756,6 @@ msgid "Include Pointer"
 msgstr "Incluir puntero"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
-#| msgid "Include the pointer in the screenshot"
 msgid "Include the ICC profile of the target in the screenshot file"
 msgstr ""
 "Incluir el perfil ICC del objetivo en el archivo de captura de pantalla"
@@ -1944,7 +1942,8 @@ msgstr "Seleccione la opción de búsqueda «El nombre no contiene»"
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:33
 msgid "Select the search option \"Name matches regular expression\""
 msgstr ""
-"Seleccione la opción de búsqueda «El nombre coincide con la expresión regular»"
+"Seleccione la opción de búsqueda «El nombre coincide con la expresión "
+"regular»"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -2080,8 +2079,8 @@ msgid ""
 "This key determines if the \"File is empty\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando se "
-"inicia la herramienta de búsqueda."
+"Esta clave determina si la opción «Archivo vacío» está seleccionada cuando "
+"se inicia la herramienta de búsqueda."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:64
 msgid ""
@@ -2936,7 +2935,8 @@ msgid ""
 "messages or /var/log/messages, depending on your operating system."
 msgstr ""
 "Especifica el archivo de sucesos mostrado al inicio. Los predeterminados son "
-"«/var/adm/messages» o «/var/log/messages», dependiendo de su sistema operativo."
+"«/var/adm/messages» o «/var/log/messages», dependiendo de su sistema "
+"operativo."
 
 #: ../logview/data/org.gnome.gnome-system-log.gschema.xml.in.h:10
 msgid ""
@@ -3833,8 +3833,8 @@ msgstr "Vista previa de las tipografías"
 #~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
 #~ "You can't format a floppy without one of them."
 #~ msgstr ""
-#~ "No se encuentran instaladas la utilidades «mke2fs» ni «mkdosfs/mformat». No "
-#~ "se puede dar formato a un disquete sin una de ellas."
+#~ "No se encuentran instaladas la utilidades «mke2fs» ni «mkdosfs/mformat». "
+#~ "No se puede dar formato a un disquete sin una de ellas."
 
 #~ msgid "Unable to open the device %s, formatting cannot continue."
 #~ msgstr ""
