@@ -17,8 +17,6 @@ baobab/src/callbacks.c
 # gnome-dictionary
 #
 gnome-dictionary/data/default.desktop.in
-gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in
-gnome-dictionary/data/GNOME_DictionaryApplet.xml
 gnome-dictionary/data/gnome-dictionary.desktop.in.in
 gnome-dictionary/data/org.gnome.dictionary.gschema.xml.in.in
 [type: gettext/glade]gnome-dictionary/data/gnome-dictionary-preferences.ui
@@ -36,9 +34,7 @@ gnome-dictionary/libgdict/gdict-speller.c
 gnome-dictionary/libgdict/gdict-strategy-chooser.c
 gnome-dictionary/libgdict/gdict-utils.c
 gnome-dictionary/src/gdict-about.c
-gnome-dictionary/src/gdict-aligned-window.c
 gnome-dictionary/src/gdict-app.c
-gnome-dictionary/src/gdict-applet.c
 gnome-dictionary/src/gdict-common.c
 gnome-dictionary/src/gdict-pref-dialog.c
 gnome-dictionary/src/gdict-print.c
