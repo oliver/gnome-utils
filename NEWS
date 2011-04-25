@@ -1,4 +1,38 @@
 ===============================================================
+GNOME Utilities 3.0.1 (25th April 2011) - "Fischia il Vento"
+
+This is our second stable release in the 3.0 cycle.
+News include some gnome-dictionary fixes, the complete removal of the
+old dictionary applet, which wasn't even building, and some translation
+updates.
+
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Ask H. Larsen (1):
+      Updated Danish translation
+
+Cosimo Cecchi (1):
+      gnome-dictionary: remove the dictionary panel applet
+
+Emmanuele Bassi (2):
+      gdict: Remove assertion in sidebar code
+      gdict: Be more resilient when loading/saving state
+
+Jorge González (1):
+      Updated Spanish translation
+
+Mario Blättermann (1):
+      [l10n] Updated German doc translation
+
+Muhammet Kara (1):
+      Updated Turkish translation
+
+Nguyễn Thái Ngọc Duy (2):
+      po/vi.po: import from Damned Lies
+      Updated Vietnamese translation
+
+===============================================================
 GNOME Utilities 3.0.0 (4th April 2011) - "Of the Girl"
 
 This is our first stable release in the 3.0 cycle. No news on the code
