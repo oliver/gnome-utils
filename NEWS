@@ -1,4 +1,58 @@
 ===============================================================
+GNOME Utilities 3.1.2 (14th June 2011) - "Yes, yes, yes, YES!"
+
+This is our first unstable release in the 3.2 cycle.
+News include some nice enhancements for the Screenshot tool, courtesy
+of Jon McCann, a fix for a crasher in gnome-search-tool and many
+translation updates.
+
+Bruno Brouard (1):
+      Updated French doc translation
+
+Carles Ferrando (1):
+      [l10n]Updated Catalan (Valencian) translation
+
+Cosimo Cecchi (6):
+      man: fix a typo
+      man: remove a leftover line
+      screenshot: don't segfault when taking a window picture with no delay
+      screenshot: refactor window rect code
+      screenshot: make the flash duration a bit shorter
+      release: prepare for 3.1.2
+
+Daniel Nylander (1):
+      Updated Swedish translation
+
+Dennis Cranston (1):
+      Bugs 649016 & 647072
+
+Emmanuele Bassi (1):
+      Remove G_CONST_RETURN usage
+
+Kristjan SCHMIDT (1):
+      Updated Esperanto translation
+
+Marek Černocký (1):
+      Updated Czech translation
+
+Mario Kemper (1):
+      screenshot: don't ignore typed-in location
+
+Sebastien Bacher (1):
+      Requires the right gtk version (#650860)
+
+Tommi Vainikainen (1):
+      Updated Finnish translation
+
+William Jon McCann (6):
+      Add a timestamp to screenshot filenames by default
+      Don't use window title in default filenames
+      Increase the size of the filename entry
+      Use XDG Pictures directory by default
+      Change name to Screenshot
+      Flash the area of the screen that is captured
+
+===============================================================
 GNOME Utilities 3.0.1 (25th April 2011) - "Fischia il Vento"
 
 This is our second stable release in the 3.0 cycle.
