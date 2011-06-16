@@ -14,13 +14,13 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-17 22:02+0000\n"
-"PO-Revision-Date: 2011-04-25 00:20+0300\n"
+"POT-Creation-Date: 2011-06-13 18:53+0000\n"
+"PO-Revision-Date: 2011-06-17 02:21+0300\n"
 "Last-Translator: Muhammet Kara <muhammet.k@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../baobab/data/baobab.desktop.in.in.h:1
@@ -45,7 +45,6 @@ msgid "_Monitor changes to your home folder"
 msgstr "Başlangıç _klasörünüzdeki değişiklikleri izle"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:1
-#| msgid "A list of uri for partitions to be excluded from scanning."
 msgid "A list of URIs for partitions to be excluded from scanning."
 msgstr "Tarama işleminden hariç tutulacak bölümlerin adres listesi."
 
@@ -54,7 +53,6 @@ msgid "Active Chart"
 msgstr "Etkin Grafik"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:3
-#| msgid "Exluded partitions uris"
 msgid "Excluded partitions URIs"
 msgstr "Hariç tutulan bölüm adresleri"
 
@@ -63,7 +61,6 @@ msgid "Monitor Home"
 msgstr "Evi İzle"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:5
-#| msgid "Status Bar is Visible"
 msgid "Statusbar is Visible"
 msgstr "Durum Çubuğu Görünür"
 
@@ -84,7 +81,6 @@ msgid "Whether the toolbar should be visible in main window."
 msgstr "Ana pencere içindeki araç çubuğunun görünür olup olmayacağı."
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
-#| msgid "Whether the sidebar should be visible"
 msgid "Which type of chart should be displayed."
 msgstr "Hangi tür grafik görüntüleneceği."
 
@@ -162,12 +158,12 @@ msgstr "Hepsini _Katla"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:1334 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_İçindekiler"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
+#: ../gnome-dictionary/src/gdict-window.c:1281 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Düzenle"
 
@@ -176,8 +172,7 @@ msgid "_Expand All"
 msgstr "_Hepsini Genişlet"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
+#: ../gnome-dictionary/src/gdict-window.c:1284 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Yardım"
 
@@ -186,7 +181,7 @@ msgid "_Toolbar"
 msgstr "_Araç çubuğu"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
+#: ../gnome-dictionary/src/gdict-window.c:1282 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Görüntüle"
 
@@ -231,8 +226,6 @@ msgstr "sabit bağlantılar içerir:"
 
 #: ../baobab/src/baobab.c:493
 #, c-format
-#| msgid "% 5d item"
-#| msgid_plural "% 5d items"
 msgid "%5d item"
 msgid_plural "%5d items"
 msgstr[0] "%5d öğe"
@@ -258,7 +251,6 @@ msgid "Zoom out"
 msgstr "Uzaklaştır"
 
 #: ../baobab/src/baobab.c:957
-#| msgid "Save Screenshot"
 msgid "Save screenshot"
 msgstr "Ekran görüntüsünü kaydet"
 
@@ -586,40 +578,6 @@ msgstr "Dizin mevcut değil."
 msgid "Default Dictionary Server"
 msgstr "Öntanımlı Sözlük Sunucusu"
 
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
-msgid "Dictionary Look up"
-msgstr "Sözlükte Arama"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
-msgid "Look up words in a dictionary"
-msgstr "Kelimeleri bir sözlükte ara"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
-msgid "Cl_ear"
-msgstr "T_emizle"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
-msgid "_About"
-msgstr "_Hakkında"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
-msgid "_Look Up Selected Text"
-msgstr "Seçi_li Metni Ara"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1305
-msgid "_Preferences"
-msgstr "_Tercihler"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
-msgid "_Print"
-msgstr "_Yazdır"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
-msgid "_Save"
-msgstr "_Kaydet"
-
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Sözcük tanımlarını ve yazımlarını çevrimiçi bir sözlükte denetle"
@@ -628,7 +586,7 @@ msgstr "Sözcük tanımlarını ve yazımlarını çevrimiçi bir sözlükte den
 #: ../gnome-dictionary/src/gdict-about.c:62
 #: ../gnome-dictionary/src/gdict-app.c:233
 #: ../gnome-dictionary/src/gdict-window.c:601
-#: ../gnome-dictionary/src/gdict-window.c:1889
+#: ../gnome-dictionary/src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Sözlük"
 
@@ -1088,7 +1046,6 @@ msgid "Show GDict Options"
 msgstr "GDict Seçeneklerini Göster"
 
 #: ../gnome-dictionary/src/gdict-about.c:57
-#: ../gnome-dictionary/src/gdict-applet.c:591
 msgid "Look up words in dictionaries"
 msgstr "Kelimeleri sözlüklerde ara"
 
@@ -1133,125 +1090,6 @@ msgstr "KELİMELER"
 msgid " - Look up words in dictionaries"
 msgstr " - Kelimeleri sözlüklerde ara"
 
-#: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:957
-msgid "Save a Copy"
-msgstr "Bir Kopya Kaydet"
-
-#: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:967
-msgid "Untitled document"
-msgstr "İsimsiz döküman"
-
-#: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:988
-#, c-format
-msgid "Error while writing to '%s'"
-msgstr "'%s' dosyasına yazılırken hata"
-
-#: ../gnome-dictionary/src/gdict-applet.c:362
-msgid "Clear the definitions found"
-msgstr "Bulunan tanımları temizle"
-
-#: ../gnome-dictionary/src/gdict-applet.c:364
-msgid "Clear definition"
-msgstr "Tanımı temizle"
-
-#: ../gnome-dictionary/src/gdict-applet.c:365
-msgid "Clear the text of the definition"
-msgstr "Tanımın metnini temizle"
-
-#: ../gnome-dictionary/src/gdict-applet.c:372
-msgid "Print the definitions found"
-msgstr "Bulunan tanımları yazdır"
-
-#: ../gnome-dictionary/src/gdict-applet.c:374
-msgid "Print definition"
-msgstr "Tanımı yazdır"
-
-#: ../gnome-dictionary/src/gdict-applet.c:375
-msgid "Print the text of the definition"
-msgstr "Tanımın metnini yazdır"
-
-#: ../gnome-dictionary/src/gdict-applet.c:382
-msgid "Save the definitions found"
-msgstr "Bulunan tanımları kaydet"
-
-#: ../gnome-dictionary/src/gdict-applet.c:384
-msgid "Save definition"
-msgstr "Tanımı kaydet"
-
-#: ../gnome-dictionary/src/gdict-applet.c:385
-msgid "Save the text of the definition to a file"
-msgstr "Tanım metnini bir dosyaya kaydet"
-
-#: ../gnome-dictionary/src/gdict-applet.c:533
-msgid "Click to view the dictionary window"
-msgstr "Sözlük penceresini görmek için tıklayın"
-
-#: ../gnome-dictionary/src/gdict-applet.c:535
-msgid "Toggle dictionary window"
-msgstr "Sözlük penceresi seç"
-
-#: ../gnome-dictionary/src/gdict-applet.c:536
-msgid "Show or hide the definition window"
-msgstr "Tanım penceresini göster ya da gizle"
-
-#: ../gnome-dictionary/src/gdict-applet.c:588
-msgid "Type the word you want to look up"
-msgstr "Aramak istediğiniz kelimeyi yazın"
-
-#: ../gnome-dictionary/src/gdict-applet.c:590
-msgid "Dictionary entry"
-msgstr "Sözlük girişi"
-
-#: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:1093
-msgid "Dictionary Preferences"
-msgstr "Sözlük Tercihleri"
-
-#: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
-#: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1240
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Yardım gösterilirken bir hata oluştu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:516
-#, c-format
-msgid "No dictionary source available with name '%s'"
-msgstr "'%s' isminde ulaşılabilir sözlük kaynağı yok"
-
-#: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:520
-msgid "Unable to find dictionary source"
-msgstr "Sözlük kaynağı bulunamadı"
-
-#: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:536
-#, c-format
-msgid "No context available for source '%s'"
-msgstr "'%s' kaynağı için ulaşılabilir bağlam yok"
-
-#: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:540
-msgid "Unable to create a context"
-msgstr "Bir bağlam oluşturulamadı"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1172
-msgid "Unable to connect to GConf"
-msgstr "GConf 'a bağlanılamadı"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1185
-msgid "Unable to get notification for preferences"
-msgstr "Tercihler için uyarı alınamadı"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1199
-msgid "Unable to get notification for the document font"
-msgstr "Belge yazıtipi için uyarı alınamadı"
-
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:241
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
@@ -1275,6 +1113,13 @@ msgstr "Bu, sözlük kaynağını kalıcı olarak listeden kaldıracaktır."
 msgid "Unable to remove source '%s'"
 msgstr "'%s' kaynağı kaldırılamıyor"
 
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Yardım gösterilirken bir hata oluştu"
+
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
 msgstr "Yeni bir sözlük kaynağı ekle"
@@ -1284,7 +1129,6 @@ msgid "Remove the currently selected dictionary source"
 msgstr "Geçerli olarak seçili sözlük kaynağını kaldır"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:655
-#| msgid "Remove the currently selected dictionary source"
 msgid "Edit the currently selected dictionary source"
 msgstr "Şu anda seçili olan sözlük kaynağını düzenle"
 
@@ -1324,180 +1168,223 @@ msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "%d tanım bulundu"
 
+#: ../gnome-dictionary/src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "'%s' isminde ulaşılabilir sözlük kaynağı yok"
+
+#: ../gnome-dictionary/src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "Sözlük kaynağı bulunamadı"
+
+#: ../gnome-dictionary/src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "'%s' kaynağı için ulaşılabilir bağlam yok"
+
+#: ../gnome-dictionary/src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "Bir bağlam oluşturulamadı"
+
 #: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Sözlük"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
+#: ../gnome-dictionary/src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "Bir Kopya Kaydet"
+
+#: ../gnome-dictionary/src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "İsimsiz döküman"
+
+#: ../gnome-dictionary/src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "'%s' dosyasına yazılırken hata"
+
+#: ../gnome-dictionary/src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "Sözlük Tercihleri"
+
+#: ../gnome-dictionary/src/gdict-window.c:1280 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Dosya"
 
-#: ../gnome-dictionary/src/gdict-window.c:1278
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "_Go"
 msgstr "_Git"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1282
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "_New"
 msgstr "_Yeni"
 
-#: ../gnome-dictionary/src/gdict-window.c:1283
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "New look up"
 msgstr "Yeni arama"
 
-#: ../gnome-dictionary/src/gdict-window.c:1284
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "_Save a Copy..."
 msgstr "_Bir Kopya Kaydet..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1286
+#: ../gnome-dictionary/src/gdict-window.c:1291
 msgid "P_review..."
 msgstr "Ö_nizleme..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1287
+#: ../gnome-dictionary/src/gdict-window.c:1292
 msgid "Preview this document"
 msgstr "Bu belgeyi önizle"
 
-#: ../gnome-dictionary/src/gdict-window.c:1288
+#: ../gnome-dictionary/src/gdict-window.c:1293
 msgid "_Print..."
 msgstr "_Yazdır..."
 
-#: ../gnome-dictionary/src/gdict-window.c:1289
+#: ../gnome-dictionary/src/gdict-window.c:1294
 msgid "Print this document"
 msgstr "Bu belgeyi yazdır"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
+#: ../gnome-dictionary/src/gdict-window.c:1301 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "_Tümünü Seç"
 
-#: ../gnome-dictionary/src/gdict-window.c:1299
+#: ../gnome-dictionary/src/gdict-window.c:1304
 msgid "Find a word or phrase in the document"
 msgstr "Döküman içinde kelime ya da deyim ara"
 
-#: ../gnome-dictionary/src/gdict-window.c:1301
+#: ../gnome-dictionary/src/gdict-window.c:1306
 msgid "Find Ne_xt"
 msgstr "_Sonrakini Bul"
 
-#: ../gnome-dictionary/src/gdict-window.c:1303
+#: ../gnome-dictionary/src/gdict-window.c:1308
 msgid "Find Pre_vious"
 msgstr "Ö_ncekini Bul"
 
+#: ../gnome-dictionary/src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "_Tercihler"
+
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1309
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "_Previous Definition"
 msgstr "Ön_ceki Tanım"
 
-#: ../gnome-dictionary/src/gdict-window.c:1310
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "Go to the previous definition"
 msgstr "Önceki tanıma git"
 
-#: ../gnome-dictionary/src/gdict-window.c:1311
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "_Next Definition"
 msgstr "_Sonraki Tanım"
 
-#: ../gnome-dictionary/src/gdict-window.c:1312
+#: ../gnome-dictionary/src/gdict-window.c:1317
 msgid "Go to the next definition"
 msgstr "Sonraki tanıma git"
 
-#: ../gnome-dictionary/src/gdict-window.c:1313
+#: ../gnome-dictionary/src/gdict-window.c:1318
 msgid "_First Definition"
 msgstr "İ_lk tanım"
 
-#: ../gnome-dictionary/src/gdict-window.c:1314
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Go to the first definition"
 msgstr "İlk tanıma git"
 
-#: ../gnome-dictionary/src/gdict-window.c:1315
+#: ../gnome-dictionary/src/gdict-window.c:1320
 msgid "_Last Definition"
 msgstr "S_on Tanım"
 
-#: ../gnome-dictionary/src/gdict-window.c:1316
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Go to the last definition"
 msgstr "Son tanıma git"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1319
+#: ../gnome-dictionary/src/gdict-window.c:1324
 msgid "Similar _Words"
 msgstr "Benzer _Kelimeler"
 
-#: ../gnome-dictionary/src/gdict-window.c:1321
+#: ../gnome-dictionary/src/gdict-window.c:1326
 msgid "Dictionary Sources"
 msgstr "Sözlük Kaynakları"
 
-#: ../gnome-dictionary/src/gdict-window.c:1323
+#: ../gnome-dictionary/src/gdict-window.c:1328
 msgid "Available _Databases"
 msgstr "Ulaşılabilir _Veri tabanları"
 
-#: ../gnome-dictionary/src/gdict-window.c:1325
+#: ../gnome-dictionary/src/gdict-window.c:1330
 msgid "Available St_rategies"
 msgstr "Ulaşılaiblir _Stratejiler"
 
+#: ../gnome-dictionary/src/gdict-window.c:1336 ../logview/logview-window.c:846
+msgid "_About"
+msgstr "_Hakkında"
+
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1342
+#: ../gnome-dictionary/src/gdict-window.c:1347
 msgid "_Sidebar"
 msgstr "_Kenar çubuğu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1344
+#: ../gnome-dictionary/src/gdict-window.c:1349
 msgid "S_tatusbar"
 msgstr "_Durum çubuğu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1409
+#: ../gnome-dictionary/src/gdict-window.c:1414
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Sözlük kaynağı `%s' seçildi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1430
+#: ../gnome-dictionary/src/gdict-window.c:1435
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strateji `%s' seçildi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1450
+#: ../gnome-dictionary/src/gdict-window.c:1455
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Veritabanı `%s' seçildi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1470
+#: ../gnome-dictionary/src/gdict-window.c:1475
 #, c-format
 msgid "Word `%s' selected"
 msgstr "`%s' kelimesi seçildi"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1495
+#: ../gnome-dictionary/src/gdict-window.c:1500
 msgid "Double-click on the word to look up"
 msgstr "Aranacak kelimenin üzerine çift tıklayın"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1501
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the matching strategy to use"
 msgstr "Kullanılacak eşleşen stratejinin üstüne çift tıklayın"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1506
+#: ../gnome-dictionary/src/gdict-window.c:1511
 msgid "Double-click on the source to use"
 msgstr "Kullanmak için kaynağın üzerine çift tıklayın"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1515
+#: ../gnome-dictionary/src/gdict-window.c:1520
 msgid "Double-click on the database to use"
 msgstr "Kullanılacak veri tabanının üstüne çift tıklayın"
 
-#: ../gnome-dictionary/src/gdict-window.c:1695
+#: ../gnome-dictionary/src/gdict-window.c:1700
 msgid "Look _up:"
 msgstr "A_ra:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1770
+#: ../gnome-dictionary/src/gdict-window.c:1775
 msgid "Similar words"
 msgstr "Benzer kelimeler"
 
-#: ../gnome-dictionary/src/gdict-window.c:1783
+#: ../gnome-dictionary/src/gdict-window.c:1788
 msgid "Available dictionaries"
 msgstr "Ulaşılabilir sözlükler"
 
-#: ../gnome-dictionary/src/gdict-window.c:1801
+#: ../gnome-dictionary/src/gdict-window.c:1806
 msgid "Available strategies"
 msgstr "Ulaşılabilir stratejiler"
 
-#: ../gnome-dictionary/src/gdict-window.c:1817
+#: ../gnome-dictionary/src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "Sözlük kaynakları"
 
@@ -1554,13 +1441,12 @@ msgstr "Yakalamadan ö_nce beklenecek süre"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:499
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:1340
 msgid "seconds"
 msgstr "saniye"
 
 #: ../gnome-screenshot/gnome-screenshot.c:517
 #: ../gnome-screenshot/gnome-screenshot.c:525
-#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
 msgid "Take Screenshot"
 msgstr "Ekran Görüntüsü Al"
 
@@ -1595,72 +1481,67 @@ msgstr "Ekran görüntüsü alındı"
 msgid "Unable to take a screenshot of the current window"
 msgstr "Mevcut pencerenin ekran görüntüsü alınamadı"
 
+#. Translators: This is a strftime format string.
+#. * It is used to display the time in 24-hours format (eg, like
+#. * in France: 20:10).
 #: ../gnome-screenshot/gnome-screenshot.c:986
-#, c-format
-msgid "Screenshot-%s.png"
-msgstr "EkranGoruntusu-%s.png"
-
-#. translators: this is the name of the file that gets
-#. * made up with the screenshot if a specific window is
-#. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:993
-#, c-format
-msgid "Screenshot-%s-%d.png"
-msgstr "EkranGoruntusu-%s-%d.png"
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%Y-%m-%d %H:%M:%S"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:1003
-#: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:206
-msgid "Screenshot.png"
-msgstr "EkranGoruntusu.png"
+#: ../gnome-screenshot/gnome-screenshot.c:993
+#, c-format
+#| msgid "Screenshot-%s.png"
+msgid "Screenshot at %s.png"
+msgstr "EkranGoruntusu - %s.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:1010
+#: ../gnome-screenshot/gnome-screenshot.c:1000
 #, c-format
-msgid "Screenshot-%d.png"
-msgstr "EkrenGoruntusu-%d.png"
+#| msgid "Screenshot-%s-%d.png"
+msgid "Screenshot at %s - %d.png"
+msgstr "EkranGoruntusu - %s - %d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1356
+#: ../gnome-screenshot/gnome-screenshot.c:1336
 msgid "Grab a window instead of the entire screen"
 msgstr "Tüm ekran yerine bir pencere yakala"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1357
+#: ../gnome-screenshot/gnome-screenshot.c:1337
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Tüm ekran yerine ekranın bir alanını yakala"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1358
+#: ../gnome-screenshot/gnome-screenshot.c:1338
 msgid "Include the window border with the screenshot"
 msgstr "Ekran görüntüsüyle birlikte pencere kenarlıklarını da kapsa"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1359
+#: ../gnome-screenshot/gnome-screenshot.c:1339
 msgid "Remove the window border from the screenshot"
 msgstr "Ekran görüntüsünden pencere kenarlıklarını çıkar"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:1340
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Belirtilen süreden sonra [saniye olarak] ekran görüntüsü al"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1341
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Çerçeveye eklenecek efekt (gölge, kenarlık ya da hiçbiri)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1341
 msgid "effect"
 msgstr "Efekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1362
+#: ../gnome-screenshot/gnome-screenshot.c:1342
 msgid "Interactively set options"
 msgstr "Seçenekleri etkileşimli olarak ata"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1373
+#: ../gnome-screenshot/gnome-screenshot.c:1353
 msgid "Take a picture of the screen"
 msgstr "Ekranın resmini çek"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1391
+#: ../gnome-screenshot/gnome-screenshot.c:1371
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1670,6 +1551,11 @@ msgstr "Çakışan seçenekler: --window ve --area aynı anda kullanılmamalıd�
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
 msgstr "Masaüstünüze ya da ayrı ayrı pencerelerinize ait görüntüleri kaydet"
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+#| msgid "Screenshot.png"
+msgid "Screenshot"
+msgstr "Ekran Görüntüsü"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1717,7 +1603,6 @@ msgid "Include Border"
 msgstr "Kenarlıkları Kapsa"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-#| msgid "Include Pointer"
 msgid "Include ICC Profile"
 msgstr "ICC Profilini İçer"
 
@@ -1726,7 +1611,6 @@ msgid "Include Pointer"
 msgstr "Belirteç İçer"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
-#| msgid "Include the pointer in the screenshot"
 msgid "Include the ICC profile of the target in the screenshot file"
 msgstr "Hedefin ICC profilini ekran görüntüsü dosyasına dahil et"
 
@@ -1769,6 +1653,11 @@ msgstr ""
 #: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Bir dizin seçin"
+
+#: ../gnome-screenshot/screenshot-dialog.c:331
+#: ../gnome-screenshot/screenshot-save.c:206
+msgid "Screenshot.png"
+msgstr "EkranGoruntusu.png"
 
 #: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
@@ -2244,7 +2133,6 @@ msgstr "_Birlikte Aç"
 
 #. Popup menu item: Open Containing Folder
 #: ../gsearchtool/gsearchtool-callbacks.c:1155
-#| msgid "Open _Folder"
 msgid "Open Containing _Folder"
 msgstr "Bulunduğu _Klasörü Aç"
 
@@ -2329,12 +2217,12 @@ msgstr "%s bağlantısı"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1490
+#: ../gsearchtool/gsearchtool-support.c:1489
 msgid " (copy)"
 msgstr " (kopya)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1492
+#: ../gsearchtool/gsearchtool-support.c:1491
 msgid " (another copy)"
 msgstr " (diğer kopya)"
 
@@ -2342,36 +2230,36 @@ msgstr " (diğer kopya)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1495
-#: ../gsearchtool/gsearchtool-support.c:1497
-#: ../gsearchtool/gsearchtool-support.c:1499
-#: ../gsearchtool/gsearchtool-support.c:1509
+#: ../gsearchtool/gsearchtool-support.c:1494
+#: ../gsearchtool/gsearchtool-support.c:1496
+#: ../gsearchtool/gsearchtool-support.c:1498
+#: ../gsearchtool/gsearchtool-support.c:1508
 msgid "th copy)"
 msgstr ". kopya)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1501
 msgid "st copy)"
 msgstr ". kopya)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1503
 msgid "nd copy)"
 msgstr ". kopya)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1505
 msgid "rd copy)"
 msgstr ". kopya)"
 
 #. localizers: appended to first file copy
-#: ../gsearchtool/gsearchtool-support.c:1523
+#: ../gsearchtool/gsearchtool-support.c:1522
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (kopya)%s"
 
 #. localizers: appended to second file copy
-#: ../gsearchtool/gsearchtool-support.c:1525
+#: ../gsearchtool/gsearchtool-support.c:1524
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (diğer kopya)%s"
@@ -2380,43 +2268,43 @@ msgstr "%s (diğer kopya)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../gsearchtool/gsearchtool-support.c:1528
-#: ../gsearchtool/gsearchtool-support.c:1530
-#: ../gsearchtool/gsearchtool-support.c:1532
-#: ../gsearchtool/gsearchtool-support.c:1541
+#: ../gsearchtool/gsearchtool-support.c:1527
+#: ../gsearchtool/gsearchtool-support.c:1529
+#: ../gsearchtool/gsearchtool-support.c:1531
+#: ../gsearchtool/gsearchtool-support.c:1540
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. kopya)%s"
 
 #. localizers: appended to x1st file copy
-#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1534
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d. kopya)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1536
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d. kopya)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1538
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d. kopya)%s"
 
-#: ../gsearchtool/gsearchtool-support.c:1586
+#: ../gsearchtool/gsearchtool-support.c:1585
 msgid " (invalid Unicode)"
 msgstr " (geçersiz Unikod)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1675
+#: ../gsearchtool/gsearchtool-support.c:1674
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1683
+#: ../gsearchtool/gsearchtool-support.c:1682
 #, c-format
 msgid " (%d"
 msgstr " (%d"
@@ -2486,7 +2374,6 @@ msgid "Exclude other filesystems"
 msgstr "Diğer dosya sistemleri hariç"
 
 #: ../gsearchtool/gsearchtool.c:157
-#| msgid "Show the application's version"
 msgid "Show version of the application"
 msgstr "Uygulamanın sürümünü göster"
 
@@ -2776,7 +2663,6 @@ msgstr "- GNOME Arama Aracı"
 
 #: ../gsearchtool/gsearchtool.c:2966
 #, c-format
-#| msgid "Invalid option passed to sortby command line argument."
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Komut satırı argümanları ayrıştırılamadı: %s\n"
 
@@ -2919,7 +2805,6 @@ msgid "Background:"
 msgstr "Arkaplan:"
 
 #: ../logview/data/logview-filter.ui.h:2
-#| msgid "Effects"
 msgid "Effect:"
 msgstr "Etki:"
 
@@ -2936,69 +2821,68 @@ msgid "Highlight"
 msgstr "Vurgula"
 
 #: ../logview/data/logview-filter.ui.h:7
-#| msgid "Regular expression is empty!"
 msgid "_Regular Expression:"
 msgstr "_Düzenli İfade:"
 
-#: ../logview/logview-app.c:373
+#: ../logview/logview-app.c:377
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "%s dosyasını açmak imkansız"
 
-#: ../logview/logview-filter-manager.c:90
+#: ../logview/logview-filter-manager.c:94
 msgid "Filter name is empty!"
 msgstr "Filtre ismi boş!"
 
-#: ../logview/logview-filter-manager.c:103
+#: ../logview/logview-filter-manager.c:107
 msgid "Filter name may not contain the ':' character"
 msgstr "Filtre ismi ':' karakteri içeremez"
 
-#: ../logview/logview-filter-manager.c:126
+#: ../logview/logview-filter-manager.c:130
 msgid "Regular expression is empty!"
 msgstr "Düzenli ifade boş!"
 
-#: ../logview/logview-filter-manager.c:142
+#: ../logview/logview-filter-manager.c:146
 #, c-format
 msgid "Regular expression is invalid: %s"
 msgstr "Düzenli ifade geçersiz: %s"
 
-#: ../logview/logview-filter-manager.c:238
+#: ../logview/logview-filter-manager.c:242
 msgid "Please specify either foreground or background color!"
 msgstr "Lütfen ya ön ya da arka plan rengini belirtin!"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Edit filter"
 msgstr "Filtre düzenle"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Add new filter"
 msgstr "Yeni filtre ekle"
 
-#: ../logview/logview-filter-manager.c:502
+#: ../logview/logview-filter-manager.c:506
 msgid "Filters"
 msgstr "Filtreler"
 
-#: ../logview/logview-findbar.c:169
+#: ../logview/logview-findbar.c:173
 msgid "_Find:"
 msgstr "_Bul:"
 
-#: ../logview/logview-findbar.c:184
+#: ../logview/logview-findbar.c:188
 msgid "Find Previous"
 msgstr "Öncekini Bul"
 
-#: ../logview/logview-findbar.c:187
+#: ../logview/logview-findbar.c:191
 msgid "Find previous occurrence of the search string"
 msgstr "Arama dizgisinin önceki yerini bul"
 
-#: ../logview/logview-findbar.c:192
+#: ../logview/logview-findbar.c:196
 msgid "Find Next"
 msgstr "Sonrakini Bul"
 
-#: ../logview/logview-findbar.c:195
+#: ../logview/logview-findbar.c:199
 msgid "Find next occurrence of the search string"
 msgstr "Arama dizgisinin bir sonraki yerini bul"
 
-#: ../logview/logview-findbar.c:202
+#: ../logview/logview-findbar.c:206
 msgid "Clear the search string"
 msgstr "Arama dizgisini temizle"
 
@@ -3019,7 +2903,7 @@ msgid "This version of System Log does not support GZipped logs."
 msgstr ""
 "Sistem Günlüğü'nü bu sürümü GZip ile sıkıştırılmış günlükleri desteklemez."
 
-#: ../logview/logview-loglist.c:311
+#: ../logview/logview-loglist.c:315
 msgid "Loading..."
 msgstr "Yükleniyor..."
 
@@ -3213,7 +3097,6 @@ msgid "FONT-FILE OUTPUT-FILE"
 msgstr "YAZITİPİ-DOSYASI ÇIKTI-DOSYASI"
 
 #: ../font-viewer/font-view.c:289
-#| msgid "_Name:"
 msgid "Name:"
 msgstr "Ad:"
 
@@ -3222,17 +3105,14 @@ msgid "Style:"
 msgstr "Biçim:"
 
 #: ../font-viewer/font-view.c:304
-#| msgid "Type"
 msgid "Type:"
 msgstr "Tür:"
 
 #: ../font-viewer/font-view.c:308
-#| msgid "Size"
 msgid "Size:"
 msgstr "Boyut:"
 
 #: ../font-viewer/font-view.c:352 ../font-viewer/font-view.c:365
-#| msgid "Version: "
 msgid "Version:"
 msgstr "Sürüm:"
 
@@ -3241,7 +3121,6 @@ msgid "Copyright:"
 msgstr "Telif Hakkı:"
 
 #: ../font-viewer/font-view.c:360
-#| msgid "_Description:"
 msgid "Description:"
 msgstr "Açıklama:"
 
@@ -3263,14 +3142,84 @@ msgid "I_nstall Font"
 msgstr "Yazıtipi Y_ükle"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-#| msgid "Log Viewer"
 msgid "Font Viewer"
 msgstr "Yazıtipi Görüntüleyici"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-#| msgid "Preview this document"
 msgid "Preview fonts"
 msgstr "Yazıtipleri önizlemesi"
+
+#~ msgid "Dictionary Look up"
+#~ msgstr "Sözlükte Arama"
+
+#~ msgid "Look up words in a dictionary"
+#~ msgstr "Kelimeleri bir sözlükte ara"
+
+#~ msgid "Cl_ear"
+#~ msgstr "T_emizle"
+
+#~ msgid "_Look Up Selected Text"
+#~ msgstr "Seçi_li Metni Ara"
+
+#~ msgid "_Print"
+#~ msgstr "_Yazdır"
+
+#~ msgid "_Save"
+#~ msgstr "_Kaydet"
+
+#~ msgid "Clear the definitions found"
+#~ msgstr "Bulunan tanımları temizle"
+
+#~ msgid "Clear definition"
+#~ msgstr "Tanımı temizle"
+
+#~ msgid "Clear the text of the definition"
+#~ msgstr "Tanımın metnini temizle"
+
+#~ msgid "Print the definitions found"
+#~ msgstr "Bulunan tanımları yazdır"
+
+#~ msgid "Print definition"
+#~ msgstr "Tanımı yazdır"
+
+#~ msgid "Print the text of the definition"
+#~ msgstr "Tanımın metnini yazdır"
+
+#~ msgid "Save the definitions found"
+#~ msgstr "Bulunan tanımları kaydet"
+
+#~ msgid "Save definition"
+#~ msgstr "Tanımı kaydet"
+
+#~ msgid "Save the text of the definition to a file"
+#~ msgstr "Tanım metnini bir dosyaya kaydet"
+
+#~ msgid "Click to view the dictionary window"
+#~ msgstr "Sözlük penceresini görmek için tıklayın"
+
+#~ msgid "Toggle dictionary window"
+#~ msgstr "Sözlük penceresi seç"
+
+#~ msgid "Show or hide the definition window"
+#~ msgstr "Tanım penceresini göster ya da gizle"
+
+#~ msgid "Type the word you want to look up"
+#~ msgstr "Aramak istediğiniz kelimeyi yazın"
+
+#~ msgid "Dictionary entry"
+#~ msgstr "Sözlük girişi"
+
+#~ msgid "Unable to connect to GConf"
+#~ msgstr "GConf 'a bağlanılamadı"
+
+#~ msgid "Unable to get notification for preferences"
+#~ msgstr "Tercihler için uyarı alınamadı"
+
+#~ msgid "Unable to get notification for the document font"
+#~ msgstr "Belge yazıtipi için uyarı alınamadı"
+
+#~ msgid "Screenshot-%d.png"
+#~ msgstr "EkrenGoruntusu-%d.png"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "Başlangıç dizininin izlenmesini etkinleştir"
