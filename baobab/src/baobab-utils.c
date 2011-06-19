@@ -159,6 +159,12 @@ import_export_file_select (GtkWidget *parent, gboolean do_export)
 
 	if (do_export)
 	{
+		GDateTime *now_time = g_date_time_new_now_local ();
+		gchar *time_str = g_date_time_format (now_time, "baobab-export-%Y%m%d-%H%M.xml");
+		g_date_time_unref(now_time);
+		gtk_file_chooser_set_current_name(GTK_FILE_CHOOSER (file_chooser), time_str);
+		g_free(time_str);
+
 		gtk_file_chooser_set_do_overwrite_confirmation (GTK_FILE_CHOOSER (file_chooser), TRUE);
 	}
 
