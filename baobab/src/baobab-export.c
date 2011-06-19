@@ -24,6 +24,7 @@
 #include <config.h>
 
 #include <libxml/parser.h>
+#include <libxml/xmlwriter.h>
 
 #include "baobab-export.h"
 #include "baobab.h"
@@ -167,51 +168,42 @@ baobab_import (GFile *infileName)
 
 
 static void
-export_iter (GtkTreeModel* model, GtkTreeIter* it, GOutputStream* outFile)
+export_iter (GtkTreeModel* model, GtkTreeIter* it, xmlTextWriterPtr writer)
 {
 	gboolean valid = TRUE;
 	while (valid)
 	{
-		GString* s = g_string_new("<dir");
+		xmlTextWriterStartElement(writer, "dir");
 		GValue value = {0};
 
 		gtk_tree_model_get_value(model, it, COL_H_PARSENAME, &value);
 		g_assert( G_VALUE_HOLDS_STRING(&value) );
 		GFile* path = g_file_new_for_path(g_value_get_string(&value));
-		g_string_append_printf(s, " name=\"%s\"", g_file_get_basename(path));
+		xmlTextWriterWriteAttribute(writer, "name", g_file_get_basename(path));
 		g_value_unset(&value);
 
 		gtk_tree_model_get_value(model, it, COL_H_SIZE, &value);
 		g_assert( G_VALUE_HOLDS_UINT64(&value) );
-		g_string_append_printf(s, " size=\"%" G_GUINT64_FORMAT "\"", g_value_get_uint64(&value) );
+		xmlTextWriterWriteFormatAttribute(writer, "size", "%" G_GUINT64_FORMAT, g_value_get_uint64(&value));
 		g_value_unset(&value);
 
 		gtk_tree_model_get_value(model, it, COL_H_ALLOCSIZE, &value);
 		g_assert( G_VALUE_HOLDS_UINT64(&value) );
-		g_string_append_printf(s, " allocated=\"%" G_GUINT64_FORMAT "\"", g_value_get_uint64(&value) );
+		xmlTextWriterWriteFormatAttribute(writer, "allocated", "%" G_GUINT64_FORMAT, g_value_get_uint64(&value));
 		g_value_unset(&value);
 
 		gtk_tree_model_get_value(model, it, COL_H_ELEMENTS, &value);
 		g_assert( G_VALUE_HOLDS_INT(&value) );
-		g_string_append_printf(s, " elements=\"%d\"", g_value_get_int(&value) );
+		xmlTextWriterWriteFormatAttribute(writer, "elements", "%d", g_value_get_int(&value));
 		g_value_unset(&value);
-
-		if (gtk_tree_model_iter_has_child(model, it))
-			g_string_append(s, ">\n");
-		else
-			g_string_append(s, "/>\n");
-		g_output_stream_write_all(outFile, s->str, s->len, NULL, NULL, NULL);
-		g_string_free(s, TRUE);
 
 		if (gtk_tree_model_iter_has_child(model, it))
 		{
 			GtkTreeIter childIt;
 			gtk_tree_model_iter_children(model, &childIt, it);
-			export_iter(model, &childIt, outFile);
-
-			static const char DIR_END_TAG[] = "</dir>\n";
-			g_output_stream_write_all(outFile, DIR_END_TAG, sizeof(DIR_END_TAG)-1, NULL, NULL, NULL);
+			export_iter(model, &childIt, writer);
 		}
+		xmlTextWriterEndElement(writer);
 
 		valid = gtk_tree_model_iter_next(model, it);
 	}
@@ -225,35 +217,27 @@ baobab_export (GFile *outfileName)
 	// preemptively delete file first:
 	g_file_delete(outfileName, NULL, NULL);
 
-	GError* error = NULL;
-	GOutputStream* outFile = G_OUTPUT_STREAM(g_file_create(outfileName,
-		G_FILE_CREATE_REPLACE_DESTINATION,
-		NULL, &error));
-	if (!outFile)
+	xmlTextWriterPtr writer = xmlNewTextWriterFilename(g_file_get_path(outfileName), 0);
+	if (!writer)
 	{
-		printf("error opening output file (%s)\n", error->message);
-		g_error_free(error);
+		printf("error opening output file\n");
 		return;
 	}
 
-	GString* s = g_string_new("");
-	g_string_append(s, "<?xml version=\"1.0\" ?>\n");
-	g_string_append(s, "<!-- Baobab directory structure dump -->\n");
-	g_string_append(s, "<dump");
+	xmlTextWriterSetIndent(writer, 2);
+	xmlTextWriterStartDocument(writer, NULL, "UTF-8", NULL);
+	xmlTextWriterStartElement(writer, "dump");
 
 	if (g_file_is_native(baobab.current_location))
 	{
-		g_string_append_printf(s, " basepath=\"%s\"",
-			g_file_get_path(baobab.current_location));
+		xmlTextWriterWriteAttribute(writer, "basepath", g_file_get_path(baobab.current_location));
 	}
 	else
 	{
-		g_string_append_printf(s, " baseuri=\"%s\"",
-			g_file_get_uri(baobab.current_location));
+		xmlTextWriterWriteAttribute(writer, "baseuri", g_file_get_uri(baobab.current_location));
 	}
-	g_string_append(s, ">\n");
 
-	g_output_stream_write_all(outFile, s->str, s->len, NULL, NULL, NULL);
+	xmlTextWriterWriteComment(writer, " Baobab directory structure dump ");
 
 	GtkTreeModel* model = GTK_TREE_MODEL(baobab.model);
 	GtkTreeIter it;
@@ -261,13 +245,10 @@ baobab_export (GFile *outfileName)
 
 	if (valid)
 	{
-		export_iter(model, &it, G_OUTPUT_STREAM(outFile));
+		export_iter(model, &it, writer);
 	}
 
-	g_string_assign(s, "</dump>\n");
-	g_output_stream_write_all(outFile, s->str, s->len, NULL, NULL, NULL);
-	g_string_free(s, TRUE);
-
-	g_output_stream_close(outFile, NULL, NULL);
+	xmlTextWriterEndDocument(writer);
+	xmlFreeTextWriter(writer);
 	printf("done\n");
 }
