@@ -111,6 +111,68 @@ on_toggled (GtkToggleButton *togglebutton, gpointer dialog)
 					  (GTK_FILE_CHOOSER (dialog)));
 }
 
+
+void
+filechooser_import_export_cb (GtkWidget *chooser,
+                              gint response,
+                              gpointer data)
+{
+	if (response == GTK_RESPONSE_OK) {
+		gchar *uri;
+		GFile *file;
+
+		uri = gtk_file_chooser_get_uri (GTK_FILE_CHOOSER (chooser));
+		gtk_widget_destroy (chooser);
+
+		file = g_file_new_for_uri (uri);
+		g_free (uri);
+		if (GPOINTER_TO_INT(data) == TRUE)
+		{
+			baobab_export(file);
+		}
+		else
+		{
+			baobab_import(file);
+		}
+		g_object_unref (file);
+	}
+	else {
+		gtk_widget_destroy (chooser);
+	}
+}
+
+/*
+ * GtkFileChooser to select a file to import or export
+ */
+void
+import_export_file_select (GtkWidget *parent, gboolean do_export)
+{
+	GtkWidget *file_chooser = NULL;
+
+	file_chooser = gtk_file_chooser_dialog_new (_("Select File"),
+				      GTK_WINDOW (parent),
+				      do_export ? GTK_FILE_CHOOSER_ACTION_SAVE : GTK_FILE_CHOOSER_ACTION_OPEN,
+				      GTK_STOCK_CANCEL,
+				      GTK_RESPONSE_CANCEL,
+				      do_export ? GTK_STOCK_SAVE : GTK_STOCK_OPEN,
+				      GTK_RESPONSE_OK, NULL);
+
+	if (do_export)
+	{
+		gtk_file_chooser_set_do_overwrite_confirmation (GTK_FILE_CHOOSER (file_chooser), TRUE);
+	}
+
+	g_signal_connect (file_chooser, "response",
+			  G_CALLBACK (filechooser_import_export_cb), GINT_TO_POINTER (do_export));
+	g_signal_connect (file_chooser, "destroy",
+			  G_CALLBACK (gtk_widget_destroyed), &file_chooser);
+
+	gtk_window_set_modal (GTK_WINDOW (file_chooser), TRUE);
+	gtk_window_set_position (GTK_WINDOW (file_chooser), GTK_WIN_POS_CENTER_ON_PARENT);
+	gtk_widget_show (GTK_WIDGET (file_chooser));
+}
+
+
 void
 set_ui_action_sens (const gchar *name, gboolean sens)
 {

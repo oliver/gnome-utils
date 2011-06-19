@@ -27,6 +27,7 @@
 
 gchar* dir_select (gboolean, GtkWidget *);
 void on_toggled (GtkToggleButton *, gpointer);
+void import_export_file_select (GtkWidget *, gboolean);
 void stop_scan (void);
 gboolean show_bars (GtkTreeModel *model,
 		    GtkTreePath *path,

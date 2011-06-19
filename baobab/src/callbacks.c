@@ -65,15 +65,13 @@ on_menuscandir_activate (GtkMenuItem *menuitem, gpointer user_data)
 void
 on_menu_import_activate (GtkMenuItem *menuitem, gpointer user_data)
 {
-	GFile* infile = g_file_new_for_path("dump.xml");
-	baobab_import(infile);
+	import_export_file_select(baobab.window, FALSE);
 }
 
 void
 on_menu_export_activate (GtkMenuItem *menuitem, gpointer user_data)
 {
-	GFile* outfile = g_file_new_for_path("dump.xml");
-	baobab_export(outfile);
+	import_export_file_select(baobab.window, TRUE);
 }
 
 void
