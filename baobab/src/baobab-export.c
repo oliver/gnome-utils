@@ -178,7 +178,7 @@ export_iter (GtkTreeModel* model, GtkTreeIter* it, xmlTextWriterPtr writer)
 
 		gtk_tree_model_get_value(model, it, COL_H_PARSENAME, &value);
 		g_assert( G_VALUE_HOLDS_STRING(&value) );
-		GFile* path = g_file_new_for_path(g_value_get_string(&value));
+		GFile* path = g_file_parse_name(g_value_get_string(&value));
 		xmlTextWriterWriteAttribute(writer, "name", g_file_get_basename(path));
 		g_value_unset(&value);
 
