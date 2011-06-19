@@ -145,6 +145,8 @@ check_menu_sens (gboolean scanning)
 	set_ui_action_sens ("menuscandir", !scanning);
 	set_ui_action_sens ("menustop", scanning);
 	set_ui_action_sens ("menurescan", !scanning && has_current_location);
+	set_ui_action_sens ("menu_import", !scanning);
+	set_ui_action_sens ("menu_export", !scanning && has_current_location);
 	set_ui_action_sens ("preferenze1", !scanning);
 	set_ui_action_sens ("menu_scan_rem", !scanning);
 	set_ui_action_sens ("ck_allocated", !scanning && baobab.is_local);
@@ -1323,6 +1325,7 @@ main (int argc, char *argv[])
 	baobab.tree_view = create_directory_treeview ();
 
 	set_ui_action_sens ("menurescan", FALSE);
+	set_ui_action_sens ("menu_export", FALSE);
 
 	/* set allocated space checkbox */
 	gtk_toggle_action_set_active (GTK_TOGGLE_ACTION (gtk_builder_get_object (baobab.main_ui,
