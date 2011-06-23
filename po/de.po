@@ -13,19 +13,19 @@
 # Hendrik Richter <hendrikr@gnome.org>, 2004, 2005, 2006, 2007, 2008, 2009.
 # Nathan-J. Hirschauer <nathanhirschauer@verfriemelt.org>, 2009.
 # Mario Blättermann <mariobl@gnome.org>, 2009, 2011.
-# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2011.
 # Paul Seyfert <pseyfert@mathphys.fsk.uni-heidelberg.de>, 2011.
 # Wolfgang Stöggl <c72578@yahoo.de>, 2011.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-28 10:56+0000\n"
-"PO-Revision-Date: 2011-03-28 21:54+0200\n"
-"Last-Translator: Wolfgang Stoeggl <c72578@yahoo.de>\n"
-"Language-Team: German <gnome-de@gnome.org>\n"
+"POT-Creation-Date: 2011-06-14 16:24+0000\n"
+"PO-Revision-Date: 2011-06-23 22:50+0200\n"
+"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -173,12 +173,12 @@ msgstr "Alle ein_klappen"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:1334 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Inhalt"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
+#: ../gnome-dictionary/src/gdict-window.c:1281 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "_Bearbeiten"
 
@@ -187,8 +187,7 @@ msgid "_Expand All"
 msgstr "Alles aus_klappen"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
+#: ../gnome-dictionary/src/gdict-window.c:1284 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Hilfe"
 
@@ -197,7 +196,7 @@ msgid "_Toolbar"
 msgstr "_Werkzeugleiste"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
+#: ../gnome-dictionary/src/gdict-window.c:1282 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Ansicht"
 
@@ -619,40 +618,6 @@ msgstr "Der Ordner existiert nicht."
 msgid "Default Dictionary Server"
 msgstr "Vorgegebene Wörterbuch-Server"
 
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
-msgid "Dictionary Look up"
-msgstr "Wörterbuchsuche"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
-msgid "Look up words in a dictionary"
-msgstr "Wörter im Wörterbuch nachschlagen"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
-msgid "Cl_ear"
-msgstr "_Leeren"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
-msgid "_About"
-msgstr "_Info"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
-msgid "_Look Up Selected Text"
-msgstr "Markierten Text _nachschlagen …"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1305
-msgid "_Preferences"
-msgstr "_Einstellungen"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
-msgid "_Print"
-msgstr "_Drucken"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
-msgid "_Save"
-msgstr "_Speichern"
-
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Definitionen und Schreibweisen im Online-Wörterbuch nachschlagen"
@@ -661,7 +626,7 @@ msgstr "Definitionen und Schreibweisen im Online-Wörterbuch nachschlagen"
 #: ../gnome-dictionary/src/gdict-about.c:62
 #: ../gnome-dictionary/src/gdict-app.c:233
 #: ../gnome-dictionary/src/gdict-window.c:601
-#: ../gnome-dictionary/src/gdict-window.c:1889
+#: ../gnome-dictionary/src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Wörterbuch"
 
@@ -1136,7 +1101,6 @@ msgid "Show GDict Options"
 msgstr "GDict-Optionen anzeigen"
 
 #: ../gnome-dictionary/src/gdict-about.c:57
-#: ../gnome-dictionary/src/gdict-applet.c:591
 msgid "Look up words in dictionaries"
 msgstr "Wörter in Wörterbüchern nachschlagen"
 
@@ -1182,125 +1146,6 @@ msgstr "WÖRTER"
 msgid " - Look up words in dictionaries"
 msgstr " - Wörter in Wörterbüchern nachschlagen"
 
-#: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:957
-msgid "Save a Copy"
-msgstr "Eine Kopie speichern"
-
-#: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:967
-msgid "Untitled document"
-msgstr "Namenloses Dokument"
-
-#: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:988
-#, c-format
-msgid "Error while writing to '%s'"
-msgstr "Beim Schreiben von »%s« ist ein Fehler aufgetreten"
-
-#: ../gnome-dictionary/src/gdict-applet.c:362
-msgid "Clear the definitions found"
-msgstr "Gefundene Definitionen verwerfen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:364
-msgid "Clear definition"
-msgstr "Die aktuelle Definition verwerfen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:365
-msgid "Clear the text of the definition"
-msgstr "Den Text der Definition verwerfen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:372
-msgid "Print the definitions found"
-msgstr "Die gefundenen Definitionen drucken"
-
-#: ../gnome-dictionary/src/gdict-applet.c:374
-msgid "Print definition"
-msgstr "Definition drucken"
-
-#: ../gnome-dictionary/src/gdict-applet.c:375
-msgid "Print the text of the definition"
-msgstr "Die aktuelle Definition drucken"
-
-#: ../gnome-dictionary/src/gdict-applet.c:382
-msgid "Save the definitions found"
-msgstr "Gefundene Definitionen speichern"
-
-#: ../gnome-dictionary/src/gdict-applet.c:384
-msgid "Save definition"
-msgstr "Definition speichern"
-
-#: ../gnome-dictionary/src/gdict-applet.c:385
-msgid "Save the text of the definition to a file"
-msgstr "Die aktuelle Definition in eine Datei speichern"
-
-#: ../gnome-dictionary/src/gdict-applet.c:533
-msgid "Click to view the dictionary window"
-msgstr "Hier klicken, um das Wörterbuchfenster anzuzeigen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:535
-msgid "Toggle dictionary window"
-msgstr "Sichtbarkeit umschalten"
-
-#: ../gnome-dictionary/src/gdict-applet.c:536
-msgid "Show or hide the definition window"
-msgstr "Das Definitionsfenster anzeigen oder verbergen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:588
-msgid "Type the word you want to look up"
-msgstr "Geben Sie das Wort ein, das Sie nachschlagen möchten"
-
-#: ../gnome-dictionary/src/gdict-applet.c:590
-msgid "Dictionary entry"
-msgstr "Wörterbucheintrag"
-
-#: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:1093
-msgid "Dictionary Preferences"
-msgstr "Wörterbucheinstellungen"
-
-#: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
-#: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1240
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Beim Anzeigen der Hilfe ist ein Fehler aufgetreten"
-
-#: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:516
-#, c-format
-msgid "No dictionary source available with name '%s'"
-msgstr "Es ist keine Wörterbuchquelle mit dem Namen »%s« verfügbar"
-
-#: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:520
-msgid "Unable to find dictionary source"
-msgstr "Die Wörterbuchquelle konnte nicht gefunden werden"
-
-#: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:536
-#, c-format
-msgid "No context available for source '%s'"
-msgstr "Für die Quelle »%s« ist kein Kontext verfügbar"
-
-#: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:540
-msgid "Unable to create a context"
-msgstr "Es konnte kein Kontext erstellt werden"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1172
-msgid "Unable to connect to GConf"
-msgstr "Es konnte nicht zu GConf verbunden werden"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1185
-msgid "Unable to get notification for preferences"
-msgstr "Benachrichtigungen für Einstellungen können nicht erhalten werden"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1199
-msgid "Unable to get notification for the document font"
-msgstr "Benachrichtigung für Dokumentenschriftart kann nicht erhalten werden"
-
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:241
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
@@ -1323,6 +1168,13 @@ msgstr "Dies wird die Wörterbuchquelle dauerhaft aus dieser Liste löschen."
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Quelle »%s« konnte nicht entfernt werden"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Beim Anzeigen der Hilfe ist ein Fehler aufgetreten"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -1373,259 +1225,301 @@ msgid_plural "%d definitions found"
 msgstr[0] "Eine Definition gefunden"
 msgstr[1] "%d Definitionen gefunden"
 
+#: ../gnome-dictionary/src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "Es ist keine Wörterbuchquelle mit dem Namen »%s« verfügbar"
+
+#: ../gnome-dictionary/src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "Die Wörterbuchquelle konnte nicht gefunden werden"
+
+#: ../gnome-dictionary/src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "Für die Quelle »%s« ist kein Kontext verfügbar"
+
+#: ../gnome-dictionary/src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "Es konnte kein Kontext erstellt werden"
+
 #: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - Wörterbuch"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
+#: ../gnome-dictionary/src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "Eine Kopie speichern"
+
+#: ../gnome-dictionary/src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "Namenloses Dokument"
+
+#: ../gnome-dictionary/src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "Beim Schreiben von »%s« ist ein Fehler aufgetreten"
+
+#: ../gnome-dictionary/src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "Wörterbucheinstellungen"
+
+#: ../gnome-dictionary/src/gdict-window.c:1280 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Datei"
 
-#: ../gnome-dictionary/src/gdict-window.c:1278
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "_Go"
 msgstr "_Gehe zu"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1282
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "_New"
 msgstr "_Neu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1283
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "New look up"
 msgstr "Neue Wörterbuchsuche"
 
-#: ../gnome-dictionary/src/gdict-window.c:1284
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "_Save a Copy..."
 msgstr "_Eine Kopie speichern …"
 
-#: ../gnome-dictionary/src/gdict-window.c:1286
+#: ../gnome-dictionary/src/gdict-window.c:1291
 msgid "P_review..."
 msgstr "_Vorschau …"
 
-#: ../gnome-dictionary/src/gdict-window.c:1287
+#: ../gnome-dictionary/src/gdict-window.c:1292
 msgid "Preview this document"
 msgstr "Von diesem Dokument die Vorschau anzeigen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1288
+#: ../gnome-dictionary/src/gdict-window.c:1293
 msgid "_Print..."
 msgstr "_Drucken …"
 
-#: ../gnome-dictionary/src/gdict-window.c:1289
+#: ../gnome-dictionary/src/gdict-window.c:1294
 msgid "Print this document"
 msgstr "Dieses Dokument ausdrucken"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
+#: ../gnome-dictionary/src/gdict-window.c:1301 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "_Alles auswählen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1299
+#: ../gnome-dictionary/src/gdict-window.c:1304
 msgid "Find a word or phrase in the document"
 msgstr "Ein Wort oder einen Satz im Text suchen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1301
+#: ../gnome-dictionary/src/gdict-window.c:1306
 msgid "Find Ne_xt"
 msgstr "_Weitersuchen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1303
+#: ../gnome-dictionary/src/gdict-window.c:1308
 msgid "Find Pre_vious"
 msgstr "_Rückwärts suchen"
 
+#: ../gnome-dictionary/src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1309
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "_Previous Definition"
 msgstr "_Vorherige Definition"
 
-#: ../gnome-dictionary/src/gdict-window.c:1310
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "Go to the previous definition"
 msgstr "Zur vorherigen Definition gehen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1311
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "_Next Definition"
 msgstr "_Nächste Definition"
 
-#: ../gnome-dictionary/src/gdict-window.c:1312
+#: ../gnome-dictionary/src/gdict-window.c:1317
 msgid "Go to the next definition"
 msgstr "Zur nächsten Definition gehen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1313
+#: ../gnome-dictionary/src/gdict-window.c:1318
 msgid "_First Definition"
 msgstr "_Erste Definition"
 
-#: ../gnome-dictionary/src/gdict-window.c:1314
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Go to the first definition"
 msgstr "Zur ersten Definition gehen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1315
+#: ../gnome-dictionary/src/gdict-window.c:1320
 msgid "_Last Definition"
 msgstr "_Letzte Definition"
 
-#: ../gnome-dictionary/src/gdict-window.c:1316
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Go to the last definition"
 msgstr "Zur letzten Definition gehen"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1319
+#: ../gnome-dictionary/src/gdict-window.c:1324
 msgid "Similar _Words"
 msgstr "Ähnliche _Wörter"
 
-#: ../gnome-dictionary/src/gdict-window.c:1321
+#: ../gnome-dictionary/src/gdict-window.c:1326
 msgid "Dictionary Sources"
 msgstr "Wörterbuchquellen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1323
+#: ../gnome-dictionary/src/gdict-window.c:1328
 msgid "Available _Databases"
 msgstr "Verfügbare _Datenbanken"
 
-#: ../gnome-dictionary/src/gdict-window.c:1325
+#: ../gnome-dictionary/src/gdict-window.c:1330
 msgid "Available St_rategies"
 msgstr "Verfügbare _Methoden"
 
+#: ../gnome-dictionary/src/gdict-window.c:1336 ../logview/logview-window.c:846
+msgid "_About"
+msgstr "_Info"
+
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1342
+#: ../gnome-dictionary/src/gdict-window.c:1347
 msgid "_Sidebar"
 msgstr "_Seitenleiste"
 
-#: ../gnome-dictionary/src/gdict-window.c:1344
+#: ../gnome-dictionary/src/gdict-window.c:1349
 msgid "S_tatusbar"
 msgstr "S_tatusleiste"
 
-#: ../gnome-dictionary/src/gdict-window.c:1409
+#: ../gnome-dictionary/src/gdict-window.c:1414
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Wörterbuchquelle »%s« ausgewählt"
 
-#: ../gnome-dictionary/src/gdict-window.c:1430
+#: ../gnome-dictionary/src/gdict-window.c:1435
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Strategie »%s« gewählt"
 
-#: ../gnome-dictionary/src/gdict-window.c:1450
+#: ../gnome-dictionary/src/gdict-window.c:1455
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Datenbank »%s« gewählt"
 
-#: ../gnome-dictionary/src/gdict-window.c:1470
+#: ../gnome-dictionary/src/gdict-window.c:1475
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Wort »%s« gewählt"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1495
+#: ../gnome-dictionary/src/gdict-window.c:1500
 msgid "Double-click on the word to look up"
 msgstr "Wort per Doppelklick nachschlagen"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1501
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the matching strategy to use"
 msgstr "Methode per Doppelklick auswählen"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1506
+#: ../gnome-dictionary/src/gdict-window.c:1511
 msgid "Double-click on the source to use"
 msgstr "Doppelklicken Sie auf die zu verwendende Quelle"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1515
+#: ../gnome-dictionary/src/gdict-window.c:1520
 msgid "Double-click on the database to use"
 msgstr "Datenbank per Doppelklick auswählen"
 
-#: ../gnome-dictionary/src/gdict-window.c:1695
+#: ../gnome-dictionary/src/gdict-window.c:1700
 msgid "Look _up:"
 msgstr "_Nachschlagen:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1770
+#: ../gnome-dictionary/src/gdict-window.c:1775
 msgid "Similar words"
 msgstr "Ähnliche Wörter"
 
-#: ../gnome-dictionary/src/gdict-window.c:1783
+#: ../gnome-dictionary/src/gdict-window.c:1788
 msgid "Available dictionaries"
 msgstr "Verfügbare Wörterbücher"
 
-#: ../gnome-dictionary/src/gdict-window.c:1801
+#: ../gnome-dictionary/src/gdict-window.c:1806
 msgid "Available strategies"
 msgstr "Verfügbare Methoden"
 
-#: ../gnome-dictionary/src/gdict-window.c:1817
+#: ../gnome-dictionary/src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "Wörterbuchquellen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:134
+#: ../gnome-screenshot/gnome-screenshot.c:136
 msgid "Error loading the help page"
 msgstr "Fehler beim Laden der Hilfe"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:248
 msgid "None"
 msgstr "Keiner"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:249
 msgid "Drop shadow"
 msgstr "Schlagschatten"
 
-#: ../gnome-screenshot/gnome-screenshot.c:248
+#: ../gnome-screenshot/gnome-screenshot.c:250
 msgid "Border"
 msgstr "Rahmen"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:352
+#: ../gnome-screenshot/gnome-screenshot.c:354
 msgid "Include _pointer"
 msgstr "_Zeiger einbeziehen"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:361
+#: ../gnome-screenshot/gnome-screenshot.c:363
 msgid "Include the window _border"
 msgstr "Den Fenster_rahmen mit aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:376
+#: ../gnome-screenshot/gnome-screenshot.c:378
 msgid "Apply _effect:"
 msgstr "Effekt an_wenden:"
 
-#: ../gnome-screenshot/gnome-screenshot.c:438
+#: ../gnome-screenshot/gnome-screenshot.c:440
 msgid "Grab the whole _desktop"
 msgstr "Den gesamten _Bildschirm aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:450
+#: ../gnome-screenshot/gnome-screenshot.c:452
 msgid "Grab the current _window"
 msgstr "Das aktuelle _Fenster aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:462
+#: ../gnome-screenshot/gnome-screenshot.c:464
 msgid "Select _area to grab"
 msgstr "Aufnahmebereich _auswählen"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:479
+#: ../gnome-screenshot/gnome-screenshot.c:481
 msgid "Grab _after a delay of"
 msgstr "Bildschirmfoto aufnehmen _nach"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:499
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:501
+#: ../gnome-screenshot/gnome-screenshot.c:1350
 msgid "seconds"
 msgstr "Sekunden"
 
-#: ../gnome-screenshot/gnome-screenshot.c:517
-#: ../gnome-screenshot/gnome-screenshot.c:525
-#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+#: ../gnome-screenshot/gnome-screenshot.c:519
+#: ../gnome-screenshot/gnome-screenshot.c:527
 msgid "Take Screenshot"
 msgstr "Bildschirmfoto aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:526
+#: ../gnome-screenshot/gnome-screenshot.c:528
 msgid "Effects"
 msgstr "Effekte"
 
-#: ../gnome-screenshot/gnome-screenshot.c:531
+#: ../gnome-screenshot/gnome-screenshot.c:533
 msgid "Take _Screenshot"
 msgstr "Bildschirmfoto _aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:651
+#: ../gnome-screenshot/gnome-screenshot.c:653
 msgid "Error while saving screenshot"
 msgstr "Fehler beim Speichern des Bildschirmfotos"
 
-#: ../gnome-screenshot/gnome-screenshot.c:654
+#: ../gnome-screenshot/gnome-screenshot.c:656
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1636,83 +1530,78 @@ msgstr ""
 "Fehler: %s.\n"
 " Bitte wählen Sie einen anderen Ort und versuchen Sie es erneut."
 
-#: ../gnome-screenshot/gnome-screenshot.c:786
+#: ../gnome-screenshot/gnome-screenshot.c:788
 msgid "Screenshot taken"
 msgstr "Aufgenommenes Bildschirmfoto"
 
-#: ../gnome-screenshot/gnome-screenshot.c:903
+#: ../gnome-screenshot/gnome-screenshot.c:905
 msgid "Unable to take a screenshot of the current window"
 msgstr "Es war nicht möglich ein Foto des aktuellen Fensters zu erstellen."
 
-#: ../gnome-screenshot/gnome-screenshot.c:986
-#, c-format
-msgid "Screenshot-%s.png"
-msgstr "Bildschirmfoto-%s.png"
+#. Translators: This is a strftime format string.
+#. * It is used to display the time in 24-hours format (eg, like
+#. * in France: 20:10).
+#: ../gnome-screenshot/gnome-screenshot.c:996
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%d.%m.%Y, %H:%M:%S"
 
-#. translators: this is the name of the file that gets
-#. * made up with the screenshot if a specific window is
-#. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:993
-#, c-format
-msgid "Screenshot-%s-%d.png"
-msgstr "Bildschirmfoto-%s-%d.png"
-
+# gemeint ist mit %s das Datum
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
 #: ../gnome-screenshot/gnome-screenshot.c:1003
-#: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:206
-msgid "Screenshot.png"
-msgstr "Bildschirmfoto.png"
+#, c-format
+msgid "Screenshot at %s.png"
+msgstr "Bildschirmfoto am %s.png"
 
+# gemeint ist mit %s das Datum 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
 #: ../gnome-screenshot/gnome-screenshot.c:1010
 #, c-format
-msgid "Screenshot-%d.png"
-msgstr "Bildschirmfoto-%d.png"
+msgid "Screenshot at %s - %d.png"
+msgstr "Bildschirmfoto am %s - %d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1356
+#: ../gnome-screenshot/gnome-screenshot.c:1346
 msgid "Grab a window instead of the entire screen"
 msgstr "Nur ein Fenster anstatt des gesamten Bildschirms aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1357
+#: ../gnome-screenshot/gnome-screenshot.c:1347
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Nur einen Bereich anstatt des gesamten Bildschirms aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1358
+#: ../gnome-screenshot/gnome-screenshot.c:1348
 msgid "Include the window border with the screenshot"
 msgstr "Den Fensterrahmen mit in das Bildschirmfoto aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1359
+#: ../gnome-screenshot/gnome-screenshot.c:1349
 msgid "Remove the window border from the screenshot"
 msgstr "Den Fensterrahmen aus Bildschirmfoto entfernen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:1350
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr ""
 "Ein Bildschirmfoto erst nach der angegebenen zeit aufnehmen [in Sekunden]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1351
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr ""
 "Der Effekt (Schatten, Rahmen oder keiner), der auf den Fensterrahmen "
 "angewendet werden soll"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1351
 msgid "effect"
 msgstr "Effekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1362
+#: ../gnome-screenshot/gnome-screenshot.c:1352
 msgid "Interactively set options"
 msgstr "Optionen interaktiv festlegen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1373
+#: ../gnome-screenshot/gnome-screenshot.c:1363
 msgid "Take a picture of the screen"
 msgstr "Ein Foto des Bildschirms aufnehmen"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1391
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1724,6 +1613,10 @@ msgstr ""
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
 msgstr "Bildschirmfotos Ihrer Arbeitsumgebung oder einzelner Fenster speichern"
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+msgid "Screenshot"
+msgstr "Bildschirmfoto"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1826,6 +1719,11 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Ordner auswählen"
 
+#: ../gnome-screenshot/screenshot-dialog.c:331
+#: ../gnome-screenshot/screenshot-save.c:206
+msgid "Screenshot.png"
+msgstr "Bildschirmfoto.png"
+
 #: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
@@ -1848,7 +1746,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Unbekannter Fehler beim Abspeichern des Bildschirmfotos"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:873
+#: ../gnome-screenshot/screenshot-utils.c:919
 msgid "Untitled Window"
 msgstr "Namenloses Fenster"
 
@@ -2389,12 +2287,12 @@ msgstr "Verknüpfung mit %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1490
+#: ../gsearchtool/gsearchtool-support.c:1489
 msgid " (copy)"
 msgstr " (Kopie)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1492
+#: ../gsearchtool/gsearchtool-support.c:1491
 msgid " (another copy)"
 msgstr " (noch eine Kopie)"
 
@@ -2402,36 +2300,36 @@ msgstr " (noch eine Kopie)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1495
-#: ../gsearchtool/gsearchtool-support.c:1497
-#: ../gsearchtool/gsearchtool-support.c:1499
-#: ../gsearchtool/gsearchtool-support.c:1509
+#: ../gsearchtool/gsearchtool-support.c:1494
+#: ../gsearchtool/gsearchtool-support.c:1496
+#: ../gsearchtool/gsearchtool-support.c:1498
+#: ../gsearchtool/gsearchtool-support.c:1508
 msgid "th copy)"
 msgstr ". Kopie)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1501
 msgid "st copy)"
 msgstr ". Kopie)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1503
 msgid "nd copy)"
 msgstr ". Kopie)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1505
 msgid "rd copy)"
 msgstr ". Kopie)"
 
 #. localizers: appended to first file copy
-#: ../gsearchtool/gsearchtool-support.c:1523
+#: ../gsearchtool/gsearchtool-support.c:1522
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (Kopie)%s"
 
 #. localizers: appended to second file copy
-#: ../gsearchtool/gsearchtool-support.c:1525
+#: ../gsearchtool/gsearchtool-support.c:1524
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (noch eine Kopie)%s"
@@ -2440,43 +2338,43 @@ msgstr "%s (noch eine Kopie)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../gsearchtool/gsearchtool-support.c:1528
-#: ../gsearchtool/gsearchtool-support.c:1530
-#: ../gsearchtool/gsearchtool-support.c:1532
-#: ../gsearchtool/gsearchtool-support.c:1541
+#: ../gsearchtool/gsearchtool-support.c:1527
+#: ../gsearchtool/gsearchtool-support.c:1529
+#: ../gsearchtool/gsearchtool-support.c:1531
+#: ../gsearchtool/gsearchtool-support.c:1540
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. Kopie)%s"
 
 #. localizers: appended to x1st file copy
-#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1534
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d. Kopie)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1536
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d. Kopie)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1538
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d. Kopie)%s"
 
-#: ../gsearchtool/gsearchtool-support.c:1586
+#: ../gsearchtool/gsearchtool-support.c:1585
 msgid " (invalid Unicode)"
 msgstr " (Unicode ungültig)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1675
+#: ../gsearchtool/gsearchtool-support.c:1674
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1683
+#: ../gsearchtool/gsearchtool-support.c:1682
 #, c-format
 msgid " (%d"
 msgstr " (%d"
@@ -3006,66 +2904,66 @@ msgstr "Hervorheben"
 msgid "_Regular Expression:"
 msgstr "_Regulärer Ausdruck:"
 
-#: ../logview/logview-app.c:373
+#: ../logview/logview-app.c:377
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Die Datei »%s« kann nicht geöffnet werden"
 
-#: ../logview/logview-filter-manager.c:90
+#: ../logview/logview-filter-manager.c:94
 msgid "Filter name is empty!"
 msgstr "Filtername ist leer."
 
-#: ../logview/logview-filter-manager.c:103
+#: ../logview/logview-filter-manager.c:107
 msgid "Filter name may not contain the ':' character"
 msgstr "Dateiname darf nicht das Zeichen »:« enthalten"
 
-#: ../logview/logview-filter-manager.c:126
+#: ../logview/logview-filter-manager.c:130
 msgid "Regular expression is empty!"
 msgstr "Regulärer Ausdruck ist leer."
 
-#: ../logview/logview-filter-manager.c:142
+#: ../logview/logview-filter-manager.c:146
 #, c-format
 msgid "Regular expression is invalid: %s"
 msgstr "Regulärer Ausdruck ist ungültig: %s"
 
-#: ../logview/logview-filter-manager.c:238
+#: ../logview/logview-filter-manager.c:242
 msgid "Please specify either foreground or background color!"
 msgstr ""
 "Bitte geben Sie entweder die Vordergrund- oder die Hintergrundfarbe an."
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Edit filter"
 msgstr "Filter bearbeiten"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Add new filter"
 msgstr "Neuen Filter hinzufügen"
 
-#: ../logview/logview-filter-manager.c:502
+#: ../logview/logview-filter-manager.c:506
 msgid "Filters"
 msgstr "Filter"
 
-#: ../logview/logview-findbar.c:169
+#: ../logview/logview-findbar.c:173
 msgid "_Find:"
 msgstr "_Suchen:"
 
-#: ../logview/logview-findbar.c:184
+#: ../logview/logview-findbar.c:188
 msgid "Find Previous"
 msgstr "Rückwärts suchen"
 
-#: ../logview/logview-findbar.c:187
+#: ../logview/logview-findbar.c:191
 msgid "Find previous occurrence of the search string"
 msgstr "Vorhergehende Übereinstimmungen mit dem Suchtext finden"
 
-#: ../logview/logview-findbar.c:192
+#: ../logview/logview-findbar.c:196
 msgid "Find Next"
 msgstr "Weitersuchen"
 
-#: ../logview/logview-findbar.c:195
+#: ../logview/logview-findbar.c:199
 msgid "Find next occurrence of the search string"
 msgstr "Nächste Übereinstimmung mit dem Suchtext finden"
 
-#: ../logview/logview-findbar.c:202
+#: ../logview/logview-findbar.c:206
 msgid "Clear the search string"
 msgstr "Den Suchtext löschen"
 
@@ -3089,7 +2987,7 @@ msgstr ""
 "Diese Version von Systemprotokoll unterstützt keine mit GZip komprimierten "
 "Protokolle."
 
-#: ../logview/logview-loglist.c:311
+#: ../logview/logview-loglist.c:315
 msgid "Loading..."
 msgstr "Einlesen …"
 
@@ -3333,3 +3231,76 @@ msgstr "Schriftartenbetrachter"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Vorschau von Schriften anzeigen"
+
+#~ msgid "Dictionary Look up"
+#~ msgstr "Wörterbuchsuche"
+
+#~ msgid "Look up words in a dictionary"
+#~ msgstr "Wörter im Wörterbuch nachschlagen"
+
+#~ msgid "Cl_ear"
+#~ msgstr "_Leeren"
+
+#~ msgid "_Look Up Selected Text"
+#~ msgstr "Markierten Text _nachschlagen …"
+
+#~ msgid "_Print"
+#~ msgstr "_Drucken"
+
+#~ msgid "_Save"
+#~ msgstr "_Speichern"
+
+#~ msgid "Clear the definitions found"
+#~ msgstr "Gefundene Definitionen verwerfen"
+
+#~ msgid "Clear definition"
+#~ msgstr "Die aktuelle Definition verwerfen"
+
+#~ msgid "Clear the text of the definition"
+#~ msgstr "Den Text der Definition verwerfen"
+
+#~ msgid "Print the definitions found"
+#~ msgstr "Die gefundenen Definitionen drucken"
+
+#~ msgid "Print definition"
+#~ msgstr "Definition drucken"
+
+#~ msgid "Print the text of the definition"
+#~ msgstr "Die aktuelle Definition drucken"
+
+#~ msgid "Save the definitions found"
+#~ msgstr "Gefundene Definitionen speichern"
+
+#~ msgid "Save definition"
+#~ msgstr "Definition speichern"
+
+#~ msgid "Save the text of the definition to a file"
+#~ msgstr "Die aktuelle Definition in eine Datei speichern"
+
+#~ msgid "Click to view the dictionary window"
+#~ msgstr "Hier klicken, um das Wörterbuchfenster anzuzeigen"
+
+#~ msgid "Toggle dictionary window"
+#~ msgstr "Sichtbarkeit umschalten"
+
+#~ msgid "Show or hide the definition window"
+#~ msgstr "Das Definitionsfenster anzeigen oder verbergen"
+
+#~ msgid "Type the word you want to look up"
+#~ msgstr "Geben Sie das Wort ein, das Sie nachschlagen möchten"
+
+#~ msgid "Dictionary entry"
+#~ msgstr "Wörterbucheintrag"
+
+#~ msgid "Unable to connect to GConf"
+#~ msgstr "Es konnte nicht zu GConf verbunden werden"
+
+#~ msgid "Unable to get notification for preferences"
+#~ msgstr "Benachrichtigungen für Einstellungen können nicht erhalten werden"
+
+#~ msgid "Unable to get notification for the document font"
+#~ msgstr ""
+#~ "Benachrichtigung für Dokumentenschriftart kann nicht erhalten werden"
+
+#~ msgid "Screenshot-%d.png"
+#~ msgstr "Bildschirmfoto-%d.png"
