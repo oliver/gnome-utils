@@ -170,8 +170,6 @@ import_export_file_select (GtkWidget *parent, gboolean do_export)
 
 	g_signal_connect (file_chooser, "response",
 			  G_CALLBACK (filechooser_import_export_cb), GINT_TO_POINTER (do_export));
-	g_signal_connect (file_chooser, "destroy",
-			  G_CALLBACK (gtk_widget_destroyed), &file_chooser);
 
 	gtk_window_set_modal (GTK_WINDOW (file_chooser), TRUE);
 	gtk_window_set_position (GTK_WINDOW (file_chooser), GTK_WIN_POS_CENTER_ON_PARENT);
