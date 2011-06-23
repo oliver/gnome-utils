@@ -52,8 +52,9 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		/* parse attributes from XML */
 		xmlChar* value;
 		value = xmlGetProp(cur, "name");
-		printf("dir name: %s\n", value);
-		entry.parse_name = g_strdup(value);
+		char* name = g_uri_unescape_string(value, NULL);
+		printf("dir name: %s\n", name);
+		entry.parse_name = name;
 		entry.display_name = entry.parse_name;
 		xmlFree(value);
 
@@ -179,7 +180,9 @@ export_iter (GtkTreeModel* model, GtkTreeIter* it, xmlTextWriterPtr writer)
 		gtk_tree_model_get_value(model, it, COL_H_PARSENAME, &value);
 		g_assert( G_VALUE_HOLDS_STRING(&value) );
 		GFile* path = g_file_parse_name(g_value_get_string(&value));
-		xmlTextWriterWriteAttribute(writer, "name", g_file_get_basename(path));
+		char* escapedName = g_uri_escape_string(g_file_get_basename(path), NULL, TRUE);
+		xmlTextWriterWriteAttribute(writer, "name", escapedName);
+		g_free(escapedName);
 		g_value_unset(&value);
 
 		gtk_tree_model_get_value(model, it, COL_H_SIZE, &value);
