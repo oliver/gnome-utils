@@ -82,7 +82,10 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		entry.elements = atoi(value);
 		xmlFree(value);
 
-		baobab_fill_model(&entry);
+		if (entry.elements >= 0)
+		{
+			baobab_fill_model(&entry);
+		}
 
 		g_free(entry.display_name);
 		g_free(entry.parse_name);
