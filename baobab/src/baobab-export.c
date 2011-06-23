@@ -55,7 +55,7 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		char* name = g_uri_unescape_string(value, NULL);
 		printf("dir name: %s\n", name);
 		entry.parse_name = name;
-		entry.display_name = entry.parse_name;
+		entry.display_name = g_filename_display_name(entry.parse_name);
 		xmlFree(value);
 
 		value = xmlGetProp(cur, "size");
@@ -84,6 +84,7 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 
 		baobab_fill_model(&entry);
 
+		g_free(entry.display_name);
 		g_free(entry.parse_name);
 	}
 }
