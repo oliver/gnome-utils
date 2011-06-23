@@ -183,8 +183,23 @@ export_iter (GtkTreeModel* model, GtkTreeIter* it, xmlTextWriterPtr writer)
 
 		gtk_tree_model_get_value(model, it, COL_H_PARSENAME, &value);
 		g_assert( G_VALUE_HOLDS_STRING(&value) );
-		GFile* path = g_file_parse_name(g_value_get_string(&value));
-		char* escapedName = g_uri_escape_string(g_file_get_basename(path), NULL, TRUE);
+		char* escapedName;
+		const char* parsedName = g_value_get_string(&value);
+		if (parsedName[0] == '\0')
+		{
+			// if scan is stopped, it can happen that some top elements have no parse_name set;
+			// fall back to display_name in that case:
+			g_value_unset(&value);
+			gtk_tree_model_get_value(model, it, COL_DIR_NAME, &value);
+			g_assert( G_VALUE_HOLDS_STRING(&value) );
+			const char* displayName = g_value_get_string(&value);
+			escapedName = g_uri_escape_string(displayName, NULL, TRUE);
+		}
+		else
+		{
+			GFile* path = g_file_parse_name(parsedName);
+			escapedName = g_uri_escape_string(g_file_get_basename(path), NULL, TRUE);
+		}
 		xmlTextWriterWriteAttribute(writer, "name", escapedName);
 		g_free(escapedName);
 		g_value_unset(&value);
