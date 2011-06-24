@@ -66,6 +66,10 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		entry.alloc_size = g_ascii_strtoull(value, NULL, 10);
 		xmlFree(value);
 
+		value = xmlGetProp(cur, "hardlinksize");
+		entry.tempHLsize = g_ascii_strtoull(value, NULL, 10);
+		xmlFree(value);
+
 		/* prefill the model */
 		baobab_fill_model(&entry);
 
@@ -217,6 +221,11 @@ export_iter (GtkTreeModel* model, GtkTreeIter* it, xmlTextWriterPtr writer)
 		gtk_tree_model_get_value(model, it, COL_H_ELEMENTS, &value);
 		g_assert( G_VALUE_HOLDS_INT(&value) );
 		xmlTextWriterWriteFormatAttribute(writer, "elements", "%d", g_value_get_int(&value));
+		g_value_unset(&value);
+
+		gtk_tree_model_get_value(model, it, COL_H_HARDLINK, &value);
+		g_assert( G_VALUE_HOLDS_UINT64(&value) );
+		xmlTextWriterWriteFormatAttribute(writer, "hardlinksize", "%" G_GUINT64_FORMAT, g_value_get_uint64(&value));
 		g_value_unset(&value);
 
 		if (gtk_tree_model_iter_has_child(model, it))
