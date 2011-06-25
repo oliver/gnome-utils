@@ -31,6 +31,13 @@
 #include "baobab-treeview.h"
 
 
+GQuark
+baobab_import_error_quark (void)
+{
+	return g_quark_from_static_string ("baobab-import-error-quark");
+}
+
+
 static void
 load_node (xmlNodePtr cur, int depth, int* max_depth)
 {
@@ -98,27 +105,27 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 
 
 void
-baobab_import (GFile *infileName)
+baobab_import (GFile *infileName, GError **error)
 {
 	printf("loading snapshot...\n");
 	xmlDocPtr doc = xmlParseFile(g_file_get_path(infileName));
 	if (!doc)
 	{
-		printf("error loading dump file\n");
+		g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file could not be read");
 		return;
 	}
 
 	xmlNodePtr cur = xmlDocGetRootElement(doc);
 	if (!cur)
 	{
-		printf("empty dump file\n");
+		g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file is empty");
 		xmlFreeDoc(doc);
 		return;
 	}
 
 	if (xmlStrcmp(cur->name, "dump") != 0)
 	{
-		printf("no valid root node\n");
+		g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file is invalid (missing root node)");
 		xmlFreeDoc(doc);
 		return;
 	}
@@ -141,7 +148,7 @@ baobab_import (GFile *infileName)
 		}
 		else
 		{
-			printf("base path/URI not specified\n");
+			g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file is invalid (missing base path/URI)");
 			xmlFreeDoc(doc);
 			return;
 		}
@@ -158,7 +165,7 @@ baobab_import (GFile *infileName)
 
 	if (!cur)
 	{
-		printf("no root dir node\n");
+		g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file is invalid (missing root directory node)");
 		xmlFreeDoc(doc);
 		return;
 	}

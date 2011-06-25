@@ -125,15 +125,32 @@ filechooser_import_export_cb (GtkWidget *chooser,
 		gtk_widget_destroy (chooser);
 
 		file = g_file_new_for_uri (uri);
-		g_free (uri);
 		if (GPOINTER_TO_INT(data) == TRUE)
 		{
 			baobab_export(file);
 		}
 		else
 		{
-			baobab_import(file);
+			GError *err = NULL;
+			baobab_import(file, &err);
+			if (err != NULL)
+			{
+				printf("error loading file: %s\n", err->message);
+
+				GtkWidget *dialog = gtk_message_dialog_new(GTK_WINDOW(baobab.window),
+					GTK_DIALOG_DESTROY_WITH_PARENT,
+					GTK_MESSAGE_ERROR,
+					GTK_BUTTONS_CLOSE,
+					"Error loading file");
+				gtk_message_dialog_format_secondary_text(GTK_MESSAGE_DIALOG(dialog),
+					"The file \"%s\" could not be loaded (%s)", uri, err->message);
+				gtk_dialog_run(GTK_DIALOG(dialog));
+				gtk_widget_destroy(dialog);
+
+				g_error_free(err);
+			}
 		}
+		g_free (uri);
 		g_object_unref (file);
 	}
 	else {

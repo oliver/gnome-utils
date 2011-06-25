@@ -25,7 +25,11 @@
 
 #include <gio/gio.h>
 
-void baobab_import (GFile* infileName);
+
+#define BAOBAB_IMPORT_ERROR baobab_import_error_quark ()
+GQuark baobab_import_error_quark (void);
+
+void baobab_import (GFile* infileName, GError **error);
 void baobab_export (GFile* outfileName);
 
 #endif /* __BAOBAB_EXPORT_H_ */
