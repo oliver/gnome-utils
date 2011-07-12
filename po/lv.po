@@ -7,14 +7,15 @@
 # Raivis Dejus <orvils@gmail.com>, 2006, 2007, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2011.
 # Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: lv\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
 "cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-03-20 13:32+0000\n"
-"PO-Revision-Date: 2011-03-26 13:57+0200\n"
-"Last-Translator: Rudolfs <rudolfs.mazurs@gmail.com>\n"
+"POT-Creation-Date: 2011-07-01 22:21+0000\n"
+"PO-Revision-Date: 2011-07-09 21:34+0300\n"
+"Last-Translator: Rūdofls Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -159,13 +160,13 @@ msgstr "_Sakļaut visu"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:1334 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "_Saturs"
 
 # logview/actions.c:120
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
+#: ../gnome-dictionary/src/gdict-window.c:1281 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "R_ediģēt"
 
@@ -176,8 +177,7 @@ msgstr "Izpl_est visu"
 # gcharmap/src/interface.c:208 gnome-find/gnome-find.c:89
 # gstripchart/gstripchart.c:1784 gstripchart/gstripchart.c:2071
 #: ../baobab/data/baobab-main-window.ui.h:23
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
+#: ../gnome-dictionary/src/gdict-window.c:1284 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "_Palīdzība"
 
@@ -186,7 +186,7 @@ msgid "_Toolbar"
 msgstr "_Rīkjosla"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
+#: ../gnome-dictionary/src/gdict-window.c:1282 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "_Skats"
 
@@ -263,7 +263,7 @@ msgstr "Tālināt"
 
 #: ../baobab/src/baobab.c:957
 msgid "Save screenshot"
-msgstr "Saglabāt ekrānattēlu"
+msgstr "Saglabāt ekrānuzņēmumu"
 
 #: ../baobab/src/baobab.c:1143
 msgid "View as Rings Chart"
@@ -460,7 +460,7 @@ msgstr ""
 msgid "_Rescan"
 msgstr "Pā_rskenēt"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2389
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2393
 msgid "Folder"
 msgstr "Mape"
 
@@ -469,7 +469,7 @@ msgid "Usage"
 msgstr "Izmantojums"
 
 # mini-utils/guname/info.c:61
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2402
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2406
 msgid "Size"
 msgstr "Izmērs"
 
@@ -598,48 +598,6 @@ msgstr "Mape neeksistē."
 msgid "Default Dictionary Server"
 msgstr "Noklusētais vārdnīcas serveris"
 
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
-msgid "Dictionary Look up"
-msgstr "Meklēšana vārdnīcā"
-
-# gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
-msgid "Look up words in a dictionary"
-msgstr "Meklē vārdus vārdnīcā"
-
-# logview/calendar.c:118
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
-msgid "Cl_ear"
-msgstr "No_tīrīt"
-
-# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
-msgid "_About"
-msgstr "P_ar"
-
-# gtt/toolbar.c:164
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
-msgid "_Look Up Selected Text"
-msgstr "Meklēt izvē_lēto tekstu"
-
-# gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
-# mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1305
-msgid "_Preferences"
-msgstr "_Iestatījumi"
-
-# gdictsrc/gdict-pref-dialog.c:161
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
-msgid "_Print"
-msgstr "_Drukāt"
-
-# gdictsrc/gdict-pref-dialog.c:156
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
-msgid "_Save"
-msgstr "_Saglabāt"
-
 # gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -649,7 +607,7 @@ msgstr "Pārbauda vārdu skaidrojumus un rakstību interneta vārdnīcā"
 #: ../gnome-dictionary/src/gdict-about.c:62
 #: ../gnome-dictionary/src/gdict-app.c:233
 #: ../gnome-dictionary/src/gdict-window.c:601
-#: ../gnome-dictionary/src/gdict-window.c:1889
+#: ../gnome-dictionary/src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "Vārdnīca"
 
@@ -972,7 +930,7 @@ msgid "The filename used by this dictionary source"
 msgstr "Faila nosaukums, kuru izmanto dotais vārdnīcas avots"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2365
+#: ../gsearchtool/gsearchtool.c:2369
 msgid "Name"
 msgstr "Nosaukums"
 
@@ -1131,7 +1089,6 @@ msgstr "Rādīt GDict opcijas"
 
 # gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
 #: ../gnome-dictionary/src/gdict-about.c:57
-#: ../gnome-dictionary/src/gdict-applet.c:591
 msgid "Look up words in dictionaries"
 msgstr "Uzmeklēt vārdus vārdnīcās"
 
@@ -1181,129 +1138,6 @@ msgstr "VĀRDI"
 msgid " - Look up words in dictionaries"
 msgstr " - Uzmeklēt vārdus vārdnīcās"
 
-#: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:957
-msgid "Save a Copy"
-msgstr "Saglabāt kopiju"
-
-#: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:967
-msgid "Untitled document"
-msgstr "Nenosaukts dokuments"
-
-#: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:988
-#, c-format
-msgid "Error while writing to '%s'"
-msgstr "Kļūda, rakstot uz '%s'"
-
-#: ../gnome-dictionary/src/gdict-applet.c:362
-msgid "Clear the definitions found"
-msgstr "Notīrīt atrastās definīcijas"
-
-#: ../gnome-dictionary/src/gdict-applet.c:364
-msgid "Clear definition"
-msgstr "Notīrīt definīcijas"
-
-#: ../gnome-dictionary/src/gdict-applet.c:365
-msgid "Clear the text of the definition"
-msgstr "Notīrīt definīcijas tekstu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:372
-msgid "Print the definitions found"
-msgstr "Izdrukāt atrastās definīcijas"
-
-# gdictsrc/gdict-pref-dialog.c:39
-#: ../gnome-dictionary/src/gdict-applet.c:374
-msgid "Print definition"
-msgstr "Izdrukāt definīcijas"
-
-#: ../gnome-dictionary/src/gdict-applet.c:375
-msgid "Print the text of the definition"
-msgstr "Izdrukāt definīcijas tekstu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:382
-msgid "Save the definitions found"
-msgstr "Saglabāt atrastās definīcijas"
-
-#: ../gnome-dictionary/src/gdict-applet.c:384
-msgid "Save definition"
-msgstr "Saglabāt definīciju"
-
-#: ../gnome-dictionary/src/gdict-applet.c:385
-msgid "Save the text of the definition to a file"
-msgstr "Saglabāt definīcijas tekstu failā"
-
-#: ../gnome-dictionary/src/gdict-applet.c:533
-msgid "Click to view the dictionary window"
-msgstr "Spiediet, lai parādīt definīcijas logu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:535
-msgid "Toggle dictionary window"
-msgstr "Pārslēgt vārdnīcas logu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:536
-msgid "Show or hide the definition window"
-msgstr "Rādīt vai slēpt definīcijas logu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:588
-msgid "Type the word you want to look up"
-msgstr "Ievadiet vārdu, ko jūs vēlaties uzmeklēt"
-
-#: ../gnome-dictionary/src/gdict-applet.c:590
-msgid "Dictionary entry"
-msgstr "Vārdnīcas ieraksts"
-
-# gtt/toolbar.c:190
-#: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:1093
-msgid "Dictionary Preferences"
-msgstr "Vārdnīcas iestatījumi"
-
-#: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
-#: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1240
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "Notikusi kļūda, rādot palīdzību"
-
-#: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:516
-#, c-format
-msgid "No dictionary source available with name '%s'"
-msgstr "Nav pieejams vārdnīcas avots ar nosaukumu '%s'"
-
-#: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:520
-msgid "Unable to find dictionary source"
-msgstr "Nevarēja atrast vārdnīcas avotu"
-
-#: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:536
-#, c-format
-msgid "No context available for source '%s'"
-msgstr "Nav pieejama konteksta avotam '%s'"
-
-# mini-utils/idetool/idetool.c:41
-#: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:540
-msgid "Unable to create a context"
-msgstr "Nevar izveidot kontekstu"
-
-# logview/logrtns.c:129
-#: ../gnome-dictionary/src/gdict-applet.c:1172
-msgid "Unable to connect to GConf"
-msgstr "Nevar savienoties ar GConf"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1185
-msgid "Unable to get notification for preferences"
-msgstr "Nevar saņemt paziņojumu par iestatījumiem"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1199
-msgid "Unable to get notification for the document font"
-msgstr "Nevar saņemt paziņojumu par dokumenta fontu"
-
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:241
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
@@ -1329,6 +1163,13 @@ msgstr "Vārdnīcas avots tiks izņemts no saraksta pavisam."
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "Nevar izņemt avotu '%s'"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Notikusi kļūda, rādot palīdzību"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -1385,357 +1226,404 @@ msgstr[0] "Atrasta %d definīcija"
 msgstr[1] "Atrastas %d definīcijas"
 msgstr[2] "Atrastas %d definīcijas"
 
+#: ../gnome-dictionary/src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "Nav pieejams vārdnīcas avots ar nosaukumu '%s'"
+
+#: ../gnome-dictionary/src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "Nevarēja atrast vārdnīcas avotu"
+
+#: ../gnome-dictionary/src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "Nav pieejama konteksta avotam '%s'"
+
+# mini-utils/idetool/idetool.c:41
+#: ../gnome-dictionary/src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "Nevar izveidot kontekstu"
+
 #: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - vārdnīca"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
+#: ../gnome-dictionary/src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "Saglabāt kopiju"
+
+#: ../gnome-dictionary/src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "Nenosaukts dokuments"
+
+#: ../gnome-dictionary/src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "Kļūda, rakstot uz '%s'"
+
+# gtt/toolbar.c:190
+#: ../gnome-dictionary/src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "Vārdnīcas iestatījumi"
+
+#: ../gnome-dictionary/src/gdict-window.c:1280 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "_Fails"
 
-#: ../gnome-dictionary/src/gdict-window.c:1278
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "_Go"
 msgstr "_Iet"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1282
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "_New"
 msgstr "Jau_ns"
 
-#: ../gnome-dictionary/src/gdict-window.c:1283
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "New look up"
 msgstr "Jauna uzmeklēšana"
 
-#: ../gnome-dictionary/src/gdict-window.c:1284
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "_Save a Copy..."
 msgstr "_Saglabāt kopiju..."
 
 # gdictsrc/gdict-pref-dialog.c:161
-#: ../gnome-dictionary/src/gdict-window.c:1286
+#: ../gnome-dictionary/src/gdict-window.c:1291
 msgid "P_review..."
 msgstr "P_riekšskatījums..."
 
 # logview/logrtns.c:202
-#: ../gnome-dictionary/src/gdict-window.c:1287
+#: ../gnome-dictionary/src/gdict-window.c:1292
 msgid "Preview this document"
 msgstr "Priekšskatīt šo dokumentu"
 
 # gdictsrc/gdict-pref-dialog.c:161
-#: ../gnome-dictionary/src/gdict-window.c:1288
+#: ../gnome-dictionary/src/gdict-window.c:1293
 msgid "_Print..."
 msgstr "_Drukāt..."
 
 # logview/logrtns.c:202
-#: ../gnome-dictionary/src/gdict-window.c:1289
+#: ../gnome-dictionary/src/gdict-window.c:1294
 msgid "Print this document"
 msgstr "Drukāt šo dokumentu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
+#: ../gnome-dictionary/src/gdict-window.c:1301 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "Izvēlēties _visu"
 
-#: ../gnome-dictionary/src/gdict-window.c:1299
+#: ../gnome-dictionary/src/gdict-window.c:1304
 msgid "Find a word or phrase in the document"
 msgstr "Meklēt vārdu vai teikumu dokumentā"
 
 # gdictsrc/gdict-app.c:381
-#: ../gnome-dictionary/src/gdict-window.c:1301
+#: ../gnome-dictionary/src/gdict-window.c:1306
 msgid "Find Ne_xt"
 msgstr "Meklēt nā_kamo"
 
-#: ../gnome-dictionary/src/gdict-window.c:1303
+#: ../gnome-dictionary/src/gdict-window.c:1308
 msgid "Find Pre_vious"
 msgstr "Meklēt _iepriekšējo"
 
+# gdictsrc/gdict-pref-dialog.c:129 gtt/options.c:518
+# mini-utils/gcolorsel/menus.c:1109 mini-utils/gshutdown/gshutdown.c:314
+#: ../gnome-dictionary/src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "_Iestatījumi"
+
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1309
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "_Previous Definition"
 msgstr "Ie_priekšējā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1310
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "Go to the previous definition"
 msgstr "Iet uz iepriekšējo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1311
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "_Next Definition"
 msgstr "_Nākamā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1312
+#: ../gnome-dictionary/src/gdict-window.c:1317
 msgid "Go to the next definition"
 msgstr "Iet uz nākamo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1313
+#: ../gnome-dictionary/src/gdict-window.c:1318
 msgid "_First Definition"
 msgstr "Pirmā de_finīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1314
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Go to the first definition"
 msgstr "Iet uz pirmo definīciju"
 
-#: ../gnome-dictionary/src/gdict-window.c:1315
+#: ../gnome-dictionary/src/gdict-window.c:1320
 msgid "_Last Definition"
 msgstr "Pē_dējā definīcija"
 
-#: ../gnome-dictionary/src/gdict-window.c:1316
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Go to the last definition"
 msgstr "Iet uz pēdējo definīciju"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1319
+#: ../gnome-dictionary/src/gdict-window.c:1324
 msgid "Similar _Words"
 msgstr "Līdzīgie _vārdi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1321
+#: ../gnome-dictionary/src/gdict-window.c:1326
 msgid "Dictionary Sources"
 msgstr "Vārdnīcas avoti"
 
-#: ../gnome-dictionary/src/gdict-window.c:1323
+#: ../gnome-dictionary/src/gdict-window.c:1328
 msgid "Available _Databases"
 msgstr "Pieejamās _datubāzes"
 
-#: ../gnome-dictionary/src/gdict-window.c:1325
+#: ../gnome-dictionary/src/gdict-window.c:1330
 msgid "Available St_rategies"
 msgstr "Pieejamās st_ratēģijas"
 
+# gdictsrc/gdict-applet.c:130 mini-utils/gcolorsel/menus.c:1098
+#: ../gnome-dictionary/src/gdict-window.c:1336 ../logview/logview-window.c:846
+msgid "_About"
+msgstr "P_ar"
+
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1342
+#: ../gnome-dictionary/src/gdict-window.c:1347
 msgid "_Sidebar"
 msgstr "_Sānu josla"
 
-#: ../gnome-dictionary/src/gdict-window.c:1344
+#: ../gnome-dictionary/src/gdict-window.c:1349
 msgid "S_tatusbar"
 msgstr "S_tatusa josla"
 
-#: ../gnome-dictionary/src/gdict-window.c:1409
+#: ../gnome-dictionary/src/gdict-window.c:1414
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "Vārdnīcas avots `%s' ir izvēlēts"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../gnome-dictionary/src/gdict-window.c:1430
+#: ../gnome-dictionary/src/gdict-window.c:1435
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "Izvēlēta stratēģija `%s'"
 
 # gdictsrc/gdict-pref-dialog.c:171
-#: ../gnome-dictionary/src/gdict-window.c:1450
+#: ../gnome-dictionary/src/gdict-window.c:1455
 #, c-format
 msgid "Database `%s' selected"
 msgstr "Izvēlēta datubāze `%s'"
 
-#: ../gnome-dictionary/src/gdict-window.c:1470
+#: ../gnome-dictionary/src/gdict-window.c:1475
 #, c-format
 msgid "Word `%s' selected"
 msgstr "Izvēlēts vārds `%s'"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1495
+#: ../gnome-dictionary/src/gdict-window.c:1500
 msgid "Double-click on the word to look up"
 msgstr "Dubults klikšķis uz vārda, lai to uzmeklētu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1501
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the matching strategy to use"
 msgstr "Dubults klikšķis uz stratēģijas, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1506
+#: ../gnome-dictionary/src/gdict-window.c:1511
 msgid "Double-click on the source to use"
 msgstr "Dubults klikšķis uz avota, lai to izmantotu"
 
 # gdictsrc/gdict-pref-dialog.c:178
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1515
+#: ../gnome-dictionary/src/gdict-window.c:1520
 msgid "Double-click on the database to use"
 msgstr "Dubults klikšķis uz datubāzes, lai to izmantotu"
 
 # gdictsrc/gdict-app.c:453 gdictsrc/gdict-app.c:510
 # gdictsrc/gdict-applet.c:153
-#: ../gnome-dictionary/src/gdict-window.c:1695
+#: ../gnome-dictionary/src/gdict-window.c:1700
 msgid "Look _up:"
 msgstr "_Uzmeklēt:"
 
-#: ../gnome-dictionary/src/gdict-window.c:1770
+#: ../gnome-dictionary/src/gdict-window.c:1775
 msgid "Similar words"
 msgstr "Līdzīgie vārdi"
 
-#: ../gnome-dictionary/src/gdict-window.c:1783
+#: ../gnome-dictionary/src/gdict-window.c:1788
 msgid "Available dictionaries"
 msgstr "Pieejamās vārdnīcas"
 
-#: ../gnome-dictionary/src/gdict-window.c:1801
+#: ../gnome-dictionary/src/gdict-window.c:1806
 msgid "Available strategies"
 msgstr "Pieejamās stratēģijas"
 
-#: ../gnome-dictionary/src/gdict-window.c:1817
+#: ../gnome-dictionary/src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "Vārdnīcu avoti"
 
 # mini-utils/gless/gless.c:548
-#: ../gnome-screenshot/gnome-screenshot.c:134
+#: ../gnome-screenshot/gnome-screenshot.c:137
 msgid "Error loading the help page"
 msgstr "Kļūda, ielādējot palīdzības lapu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:249
 msgid "None"
 msgstr "Neviena"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:250
 msgid "Drop shadow"
 msgstr "Pievienot ēnu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:248
+#: ../gnome-screenshot/gnome-screenshot.c:251
 msgid "Border"
 msgstr "Mala"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:352
+#: ../gnome-screenshot/gnome-screenshot.c:355
 msgid "Include _pointer"
 msgstr "Iekļaut _kursoru"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:361
+#: ../gnome-screenshot/gnome-screenshot.c:364
 msgid "Include the window _border"
 msgstr "Iekļaut loga _rāmi"
 
-#: ../gnome-screenshot/gnome-screenshot.c:376
+#: ../gnome-screenshot/gnome-screenshot.c:379
 msgid "Apply _effect:"
 msgstr "Pielietot _efektu:"
 
 # mini-utils/idetool/idetool.c:41
-#: ../gnome-screenshot/gnome-screenshot.c:438
+#: ../gnome-screenshot/gnome-screenshot.c:441
 msgid "Grab the whole _desktop"
 msgstr "Uzņemt visu _darbvirsmu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:450
+#: ../gnome-screenshot/gnome-screenshot.c:453
 msgid "Grab the current _window"
 msgstr "Uzņemt aktīvo _logu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:462
+#: ../gnome-screenshot/gnome-screenshot.c:465
 msgid "Select _area to grab"
 msgstr "Izvēlieties _apgabalu, ko uzņemt"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:479
+#: ../gnome-screenshot/gnome-screenshot.c:482
 msgid "Grab _after a delay of"
 msgstr "Uzņemt ar _aizturi"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:499
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:502
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "seconds"
 msgstr "sekundes"
 
-#: ../gnome-screenshot/gnome-screenshot.c:517
-#: ../gnome-screenshot/gnome-screenshot.c:525
-#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+#: ../gnome-screenshot/gnome-screenshot.c:520
+#: ../gnome-screenshot/gnome-screenshot.c:528
 msgid "Take Screenshot"
-msgstr "Uzņemt ekrānattēlu"
+msgstr "Uzņemt ekrānuzņēmumu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:526
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Effects"
 msgstr "Efekti"
 
-#: ../gnome-screenshot/gnome-screenshot.c:531
+#: ../gnome-screenshot/gnome-screenshot.c:534
 msgid "Take _Screenshot"
-msgstr "Uzņemt _ekrānattēlu"
+msgstr "Uzņemt _ekrānuzņēmumu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:651
+#: ../gnome-screenshot/gnome-screenshot.c:640
 msgid "Error while saving screenshot"
-msgstr "Kļūda, saglabājot ekrānattēlu"
+msgstr "Kļūda, saglabājot ekrānuzņēmumu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:654
+#: ../gnome-screenshot/gnome-screenshot.c:644
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
 " Error was %s.\n"
 " Please choose another location and retry."
 msgstr ""
-"Nevar saglabāt ekrānattēlu %s.\n"
+"Nevar saglabāt ekrānuzņēmumu %s.\n"
 " Kļūda %s.\n"
 " Lūdzu, izvēlieties citu vietu un mēģiniet vēlreiz."
 
-#: ../gnome-screenshot/gnome-screenshot.c:786
+#: ../gnome-screenshot/gnome-screenshot.c:798
 msgid "Screenshot taken"
-msgstr "Ekrānattēls uzņemts"
+msgstr "Ekrānuzņēmums uzņemts"
 
-#: ../gnome-screenshot/gnome-screenshot.c:903
+#: ../gnome-screenshot/gnome-screenshot.c:905
 msgid "Unable to take a screenshot of the current window"
-msgstr "Nevar uzņemt aktīvā loga ekrānattēlu"
+msgstr "Nevar uzņemt aktīvā loga ekrānuzņēmumu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:986
-#, c-format
-msgid "Screenshot-%s.png"
-msgstr "Ekranattels-%s.png"
-
-#. translators: this is the name of the file that gets
-#. * made up with the screenshot if a specific window is
-#. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:993
-#, c-format
-msgid "Screenshot-%s-%d.png"
-msgstr "Ekranattels-%s-%d.png"
+#. Translators: This is a strftime format string.
+#. * It is used to display the time in 24-hours format (eg, like
+#. * in France: 20:10).
+#: ../gnome-screenshot/gnome-screenshot.c:1008
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%d.%m.%Y %H:%M:%S"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:1003
-#: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:206
-msgid "Screenshot.png"
-msgstr "Ekranattels.png"
+#: ../gnome-screenshot/gnome-screenshot.c:1015
+#, c-format
+#| msgid "Screenshot-%s.png"
+msgid "Screenshot at %s.png"
+msgstr "Ekrānuzņēmums %s.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:1010
+#: ../gnome-screenshot/gnome-screenshot.c:1022
 #, c-format
-msgid "Screenshot-%d.png"
-msgstr "Ekranattels-%d.png"
+#| msgid "Screenshot-%s-%d.png"
+msgid "Screenshot at %s - %d.png"
+msgstr "Ekrānuzņēmums %s – %d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1356
+#: ../gnome-screenshot/gnome-screenshot.c:1376
+#| msgid "Set the model of the chart"
+msgid "Send the grab directly to the clipboard"
+msgstr "Sūtīt notverto tieši uz starpliktuvi"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1377
 msgid "Grab a window instead of the entire screen"
 msgstr "Uzņemt logu nevis visu ekrānu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1357
+#: ../gnome-screenshot/gnome-screenshot.c:1378
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Uzņemt daļu no loga visa ekrāna vietā"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1358
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "Include the window border with the screenshot"
-msgstr "Iekļaut loga rāmi ekrānattēlā"
+msgstr "Iekļaut loga rāmi ekrānuzņēmumā"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1359
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "Remove the window border from the screenshot"
-msgstr "Aizvākt loga rāmi no ekrānattēla"
+msgstr "Aizvākt loga rāmi no ekrānuzņēmuma"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "Take screenshot after specified delay [in seconds]"
-msgstr "Uzņemt ekrānattēlu ar norādīto aizturi [sekundēs]"
+msgstr "Uzņemt ekrānuzņēmumu ar norādīto aizturi [sekundēs]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1382
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "Efekti, ko pievienot rāmim (ēna, rāmis, nekas)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1382
 msgid "effect"
 msgstr "efekts"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1362
+#: ../gnome-screenshot/gnome-screenshot.c:1383
 msgid "Interactively set options"
 msgstr "Interaktivitātes iestatīšanas iespējas"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1373
+#: ../gnome-screenshot/gnome-screenshot.c:1394
 msgid "Take a picture of the screen"
 msgstr "Uzņemt ekrāna attēlu"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1391
+#: ../gnome-screenshot/gnome-screenshot.c:1412
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1747,6 +1635,11 @@ msgstr ""
 msgid "Save images of your desktop or individual windows"
 msgstr "Saglabā jūsu darbvirsmas vai logu attēlus"
 
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+#| msgid "Screenshot.png"
+msgid "Screenshot"
+msgstr "Ekrānuzņēmums"
+
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
 msgstr "*"
@@ -1757,7 +1650,7 @@ msgstr "K_opēt uz starpliktuvi"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:3
 msgid "Save Screenshot"
-msgstr "Saglabā ekrānattēlu"
+msgstr "Saglabāt ekrānuzņēmumu"
 
 # gdictsrc/gdict-app.c:278
 #: ../gnome-screenshot/gnome-screenshot.ui.h:4
@@ -1794,7 +1687,6 @@ msgid "Include Border"
 msgstr "Iekļaut rāmi"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:5
-#| msgid "Include Pointer"
 msgid "Include ICC Profile"
 msgstr "Iekļaut ICC profilu"
 
@@ -1803,49 +1695,53 @@ msgid "Include Pointer"
 msgstr "Iekļaut kursoru"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:7
-#| msgid "Include the pointer in the screenshot"
 msgid "Include the ICC profile of the target in the screenshot file"
 msgstr "Iekļaut mērķa ICC profilu ekrānuzņēmuma failā"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:8
 msgid "Include the pointer in the screenshot"
-msgstr "Iekļaut kursoru ekrānattēlā"
+msgstr "Iekļaut kursoru ekrānuzņēmumā"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:9
 msgid "Include the window manager border along with the screenshot"
-msgstr "Iekļaut logu pārvaldītāja rāmi ekrānattēlā"
+msgstr "Iekļaut logu pārvaldītāja rāmi ekrānuzņēmumā"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:10
 msgid "Screenshot delay"
-msgstr "Ekrānattēla aizture"
+msgstr "Ekrānuzņēmuma aizture"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:11
 msgid "Screenshot directory"
-msgstr "Ekrānattēla mape"
+msgstr "Ekrānuzņēmuma mape"
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:12
 msgid "The directory the last screenshot was saved in."
-msgstr "Mape, kurā tika saglabāts pēdējais ekrānattēls."
+msgstr "Mape, kurā tika saglabāts pēdējais ekrānuzņēmums."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:13
 msgid "The number of seconds to wait before taking the screenshot."
-msgstr "Sekunžu skaits, ko nogaidīt pirms ekrānattēla uzņemšanas."
+msgstr "Sekunžu skaits, ko nogaidīt pirms ekrānuzņēmuma uzņemšanas."
 
 #: ../gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in.h:14
 msgid "Window-specific screenshot (deprecated)"
-msgstr "Konkrēta loga ekrānattēls (novecojis)"
+msgstr "Konkrēta loga ekrānuzņēmums (novecojis)"
 
 #: ../gnome-screenshot/screenshot-dialog.c:215
 msgid ""
 "UI definition file for the screenshot program is missing.\n"
 "Please check your installation of gnome-utils"
 msgstr ""
-"UI definīciju fails ekrānattēlu programmai nav atrodams.\n"
+"UI definīciju fails ekrānuzņēmumu programmai nav atrodams.\n"
 "Lūdzu, pārbaudiet gnome-utils instalāciju"
 
 #: ../gnome-screenshot/screenshot-dialog.c:236
 msgid "Select a folder"
 msgstr "Izvēlieties mapi"
+
+#: ../gnome-screenshot/screenshot-dialog.c:351
+#: ../gnome-screenshot/screenshot-save.c:206
+msgid "Screenshot.png"
+msgstr "Ekrānuzņēmums.png"
 
 # mini-utils/idetool/idetool.c:41
 #: ../gnome-screenshot/screenshot-save.c:65
@@ -1862,41 +1758,16 @@ msgid ""
 "The child save process unexpectedly exited.  We are unable to write the "
 "screenshot to disk."
 msgstr ""
-"Saglabāšanas process beidzās negaidīti. Ekrānattēlu nav iespējams ierakstīt "
-"diskā."
+"Saglabāšanas process beidzās negaidīti. Ekrānuzņēmumu nevar ierakstīt diskā."
 
 #: ../gnome-screenshot/screenshot-save.c:246
 msgid "Unknown error saving screenshot to disk"
-msgstr "Nezināma kļūda, saglabājot ekrānattēlu diskā"
+msgstr "Nezināma kļūda, saglabājot ekrānuzņēmumu diskā"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:873
+#: ../gnome-screenshot/screenshot-utils.c:919
 msgid "Untitled Window"
 msgstr "Nenosaukts logs"
-
-#: ../gnome-screenshot/screenshot-xfer.c:72
-msgid "File already exists"
-msgstr "Fails jau eksistē"
-
-#: ../gnome-screenshot/screenshot-xfer.c:75
-#, c-format
-msgid "The file \"%s\" already exists. Would you like to replace it?"
-msgstr "Fails \"%s\" jau eksistē. Vai vēlaties to aizvietot?"
-
-#: ../gnome-screenshot/screenshot-xfer.c:82
-#: ../gsearchtool/gsearchtool-callbacks.c:1680
-msgid "_Replace"
-msgstr "_Aizvietot"
-
-# gdictsrc/gdict-app.c:117
-#: ../gnome-screenshot/screenshot-xfer.c:120
-msgid "Saving file..."
-msgstr "Saglabā failu..."
-
-# logview/logrtns.c:129
-#: ../gnome-screenshot/screenshot-xfer.c:290
-msgid "Can't access source file"
-msgstr "Nevar piekļūt avota failam"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
@@ -2374,6 +2245,10 @@ msgstr "Dokuments \"%s\" jau eksistē. Vai vēlaties to aizvietot?"
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "Ja aizvietojat jau eksistējošu failu, tā saturs tiks pārrakstīts."
 
+#: ../gsearchtool/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "_Aizvietot"
+
 #: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "Izvēlētais dokumenta nosaukums ir mape."
@@ -2424,12 +2299,12 @@ msgstr "saite uz %s"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1490
+#: ../gsearchtool/gsearchtool-support.c:1497
 msgid " (copy)"
 msgstr " (kopija)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1492
+#: ../gsearchtool/gsearchtool-support.c:1499
 msgid " (another copy)"
 msgstr " (vēl viena kopija)"
 
@@ -2437,36 +2312,36 @@ msgstr " (vēl viena kopija)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1495
-#: ../gsearchtool/gsearchtool-support.c:1497
-#: ../gsearchtool/gsearchtool-support.c:1499
-#: ../gsearchtool/gsearchtool-support.c:1509
+#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1516
 msgid "th copy)"
 msgstr ". kopija)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1509
 msgid "st copy)"
 msgstr ". kopija)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1511
 msgid "nd copy)"
 msgstr ". kopija)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1513
 msgid "rd copy)"
 msgstr ". kopija)"
 
 #. localizers: appended to first file copy
-#: ../gsearchtool/gsearchtool-support.c:1523
+#: ../gsearchtool/gsearchtool-support.c:1530
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (kopija)%s"
 
 #. localizers: appended to second file copy
-#: ../gsearchtool/gsearchtool-support.c:1525
+#: ../gsearchtool/gsearchtool-support.c:1532
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (cita kopija)%s"
@@ -2475,43 +2350,43 @@ msgstr "%s (cita kopija)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../gsearchtool/gsearchtool-support.c:1528
-#: ../gsearchtool/gsearchtool-support.c:1530
-#: ../gsearchtool/gsearchtool-support.c:1532
-#: ../gsearchtool/gsearchtool-support.c:1541
+#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1548
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s (%d. kopija)%s"
 
 #. localizers: appended to x1st file copy
-#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1542
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s (%d. kopija)%s"
 
 #. localizers: appended to x2nd file copy
-#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1544
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s (%d. kopija)%s"
 
 #. localizers: appended to x3rd file copy
-#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1546
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s (%d. kopija)%s"
 
-#: ../gsearchtool/gsearchtool-support.c:1586
+#: ../gsearchtool/gsearchtool-support.c:1593
 msgid " (invalid Unicode)"
 msgstr " (nederīgs Unikods)"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1675
+#: ../gsearchtool/gsearchtool-support.c:1682
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1683
+#: ../gsearchtool/gsearchtool-support.c:1690
 #, c-format
 msgid " (%d"
 msgstr " (%d"
@@ -2636,27 +2511,27 @@ msgid "Searching..."
 msgstr "Meklē..."
 
 # gsearchtool/gsearchtool.c:824
-#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
-#: ../gsearchtool/gsearchtool.c:2972
+#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:2976
 msgid "Search for Files"
 msgstr "Meklēt failus"
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
+#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
 msgid "No files found"
 msgstr "Neviens fails nav atrasts"
 
-#: ../gsearchtool/gsearchtool.c:980
+#: ../gsearchtool/gsearchtool.c:984
 msgid "(stopped)"
 msgstr "(apturēts)"
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../gsearchtool/gsearchtool.c:986
+#: ../gsearchtool/gsearchtool.c:990
 msgid "No Files Found"
 msgstr "Neviens fails nav atrasts"
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:995
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
@@ -2665,7 +2540,7 @@ msgstr[1] "Atrasti %d faili"
 msgstr[2] "Atrasti %d faili"
 
 # gdictsrc/gdict-app.c:133 gdictsrc/gdict-app.c:266
-#: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
+#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
@@ -2674,48 +2549,48 @@ msgstr[1] "atrasti %d faili"
 msgstr[2] "atrasti %d faili"
 
 # gsearchtool/gsearchtool.c:471
-#: ../gsearchtool/gsearchtool.c:1124
+#: ../gsearchtool/gsearchtool.c:1128
 msgid "Entry changed called for a non entry option!"
 msgstr "Ieraksta maiņu izsauca ne-ieraksta parametram!"
 
-#: ../gsearchtool/gsearchtool.c:1284
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Set the text of \"Name contains\" search option"
 msgstr "Iestatiet meklēšanas parametra \"Nosaukums satur\" tekstu"
 
-#: ../gsearchtool/gsearchtool.c:1285
+#: ../gsearchtool/gsearchtool.c:1289
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "Iestatiet meklēšanas parametra \"Meklēt mapē\" tekstu"
 
-#: ../gsearchtool/gsearchtool.c:1286
+#: ../gsearchtool/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr ""
 "Kārtot failus pēc viena no sekojošajiem: nosaukums, mape, izmērs, tips, vai "
 "datums"
 
-#: ../gsearchtool/gsearchtool.c:1287
+#: ../gsearchtool/gsearchtool.c:1291
 msgid "Set sort order to descending, the default is ascending"
 msgstr "Iestatīt kārtošanas secību uz dilstošu, noklusētā ir augoša"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1292
 msgid "Automatically start a search"
 msgstr "Automātiski sākt meklēšanu"
 
-#: ../gsearchtool/gsearchtool.c:1294
+#: ../gsearchtool/gsearchtool.c:1298
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "Izvēlieties \"%s\" meklēšanas iespēju"
 
 # gsearchtool/gsearchtool.c:49
-#: ../gsearchtool/gsearchtool.c:1297
+#: ../gsearchtool/gsearchtool.c:1301
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "Izvēlieties un iestaties \"%s\" meklēšanas iespēju"
 
-#: ../gsearchtool/gsearchtool.c:1404
+#: ../gsearchtool/gsearchtool.c:1408
 msgid "Invalid option passed to sortby command line argument."
 msgstr "Nederīga iespēja piespēlēta sortby komandrindas argumentam."
 
-#: ../gsearchtool/gsearchtool.c:1698
+#: ../gsearchtool/gsearchtool.c:1702
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2723,18 +2598,18 @@ msgstr ""
 "\n"
 "... Pārāk daudz rādāmo kļūdu ..."
 
-#: ../gsearchtool/gsearchtool.c:1712
+#: ../gsearchtool/gsearchtool.c:1716
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr "Meklēšanas rezultāti var būt nederīgi. Meklēšana noritēja ar kļūdām."
 
 # logview/logview.c:113
-#: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
+#: ../gsearchtool/gsearchtool.c:1725 ../gsearchtool/gsearchtool.c:1766
 msgid "Show more _details"
 msgstr "Rādīt sīkāku _informāciju"
 
-#: ../gsearchtool/gsearchtool.c:1751
+#: ../gsearchtool/gsearchtool.c:1755
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
@@ -2742,162 +2617,162 @@ msgstr ""
 "Meklēšanas rezultāti var būt veci vai nederīgi. Vai vēlaties atslēgt ātrās "
 "meklēšanas iespēju?"
 
-#: ../gsearchtool/gsearchtool.c:1773
+#: ../gsearchtool/gsearchtool.c:1777
 msgid "Disable _Quick Search"
 msgstr "Atslē_gt ātro meklēšanu"
 
-#: ../gsearchtool/gsearchtool.c:1800
+#: ../gsearchtool/gsearchtool.c:1804
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "Neizdevās iestatīt procesu grupas identifikatoru bērnam %d: %s.\n"
 
-#: ../gsearchtool/gsearchtool.c:1825
+#: ../gsearchtool/gsearchtool.c:1829
 msgid "Error parsing the search command."
 msgstr "Kļūda, apstrādājot meklēšanas komandu."
 
-#: ../gsearchtool/gsearchtool.c:1854
+#: ../gsearchtool/gsearchtool.c:1858
 msgid "Error running the search command."
 msgstr "Kļūda, izpildot meklēšanas komandu."
 
 # gsearchtool/gsearchtool.c:49
-#: ../gsearchtool/gsearchtool.c:1970
+#: ../gsearchtool/gsearchtool.c:1974
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "Ievadiet teksta vērtību \"%s\" meklēšanas parametram."
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1975
+#: ../gsearchtool/gsearchtool.c:1979
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "\"%s\" %s"
 
 # gsearchtool/gsearchtool.c:49
-#: ../gsearchtool/gsearchtool.c:1977
+#: ../gsearchtool/gsearchtool.c:1981
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "Ievadiet vērtību %s meklēšanas parametram \"%s\"."
 
 # gnome-find/gnome-find.c:102 gsearchtool/gsearchtool.c:545
 # logview/actions.c:127
-#: ../gsearchtool/gsearchtool.c:2035
+#: ../gsearchtool/gsearchtool.c:2039
 #, c-format
 msgid "Remove \"%s\""
 msgstr "Izņemt \"%s\""
 
-#: ../gsearchtool/gsearchtool.c:2036
+#: ../gsearchtool/gsearchtool.c:2040
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "Spiediet, lai noņemtu \"%s\" meklēšanas parametru."
 
-#: ../gsearchtool/gsearchtool.c:2129
+#: ../gsearchtool/gsearchtool.c:2133
 msgid "A_vailable options:"
 msgstr "P_ieejamie parametri:"
 
-#: ../gsearchtool/gsearchtool.c:2158
+#: ../gsearchtool/gsearchtool.c:2162
 msgid "Available options"
 msgstr "Pieejamie parametri"
 
 # mini-utils/gcolorsel/menus.c:60
-#: ../gsearchtool/gsearchtool.c:2159
+#: ../gsearchtool/gsearchtool.c:2163
 msgid "Select a search option from the drop-down list."
 msgstr "Izvēlies meklēšanas nosacījumu no saraksta."
 
 # mini-utils/gcolorsel/glade/dialog-prefs.glade.h:31
-#: ../gsearchtool/gsearchtool.c:2171
+#: ../gsearchtool/gsearchtool.c:2175
 msgid "Add search option"
 msgstr "Pievienot meklēšanas parametru"
 
-#: ../gsearchtool/gsearchtool.c:2172
+#: ../gsearchtool/gsearchtool.c:2176
 msgid "Click to add the selected available search option."
 msgstr "Spiediet, lai pievienotu izvēlēto pieejamo meklēšanas iespēju."
 
 # gsearchtool/gsearchtool.c:211
-#: ../gsearchtool/gsearchtool.c:2261
+#: ../gsearchtool/gsearchtool.c:2265
 msgid "S_earch results:"
 msgstr "M_eklēšanas rezultāti:"
 
-#: ../gsearchtool/gsearchtool.c:2305
+#: ../gsearchtool/gsearchtool.c:2309
 msgid "List View"
 msgstr "Saraksta skats"
 
-#: ../gsearchtool/gsearchtool.c:2414
+#: ../gsearchtool/gsearchtool.c:2418
 msgid "Type"
 msgstr "Tips"
 
 # logview/info.c:161
-#: ../gsearchtool/gsearchtool.c:2426
+#: ../gsearchtool/gsearchtool.c:2430
 msgid "Date Modified"
 msgstr "Izmaiņu datums"
 
-#: ../gsearchtool/gsearchtool.c:2742
+#: ../gsearchtool/gsearchtool.c:2746
 msgid "_Name contains:"
 msgstr "_Nosaukums satur:"
 
-#: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
+#: ../gsearchtool/gsearchtool.c:2760 ../gsearchtool/gsearchtool.c:2761
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr ""
 "Ievadiet faila nosaukumu vai daļēju nosaukumu ar vai bez aizstājējzīmēm."
 
-#: ../gsearchtool/gsearchtool.c:2757
+#: ../gsearchtool/gsearchtool.c:2761
 msgid "Name contains"
 msgstr "Nosaukums satur"
 
 # gdictsrc/gdict-app.c:278
-#: ../gsearchtool/gsearchtool.c:2763
+#: ../gsearchtool/gsearchtool.c:2767
 msgid "_Look in folder:"
 msgstr "_Meklēt mapē:"
 
 # gsearchtool/gsearchtool.c:599
-#: ../gsearchtool/gsearchtool.c:2769
+#: ../gsearchtool/gsearchtool.c:2773
 msgid "Browse"
 msgstr "Pārlūkot"
 
 # gdictsrc/gdict-app.c:278
-#: ../gsearchtool/gsearchtool.c:2778
+#: ../gsearchtool/gsearchtool.c:2782
 msgid "Look in folder"
 msgstr "Meklēt mapē"
 
-#: ../gsearchtool/gsearchtool.c:2778
+#: ../gsearchtool/gsearchtool.c:2782
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "Ievadiet mapes nosaukumu vai ierīci, kurā vēlies sākt meklēšanu."
 
 # logview/logview.c:113
-#: ../gsearchtool/gsearchtool.c:2796
+#: ../gsearchtool/gsearchtool.c:2800
 msgid "Select more _options"
 msgstr "Izvēlēties vairāk _iespēju"
 
 # logview/logview.c:113
-#: ../gsearchtool/gsearchtool.c:2805
+#: ../gsearchtool/gsearchtool.c:2809
 msgid "Select more options"
 msgstr "Izvēlēties vairāk iespēju"
 
-#: ../gsearchtool/gsearchtool.c:2805
+#: ../gsearchtool/gsearchtool.c:2809
 msgid "Click to expand or collapse the list of available options."
 msgstr "Spiediet, lai atvērtu vai aizvērtu sarakstu ar pieejamajām iespējām."
 
-#: ../gsearchtool/gsearchtool.c:2829
+#: ../gsearchtool/gsearchtool.c:2833
 msgid "Click to display the help manual."
 msgstr "Spiediet, lai parādītu rokasgrāmatu."
 
 # gsearchtool/gsearchtool.c:824
-#: ../gsearchtool/gsearchtool.c:2837
+#: ../gsearchtool/gsearchtool.c:2841
 msgid "Click to close \"Search for Files\"."
 msgstr "Spiediet, lai aizvērtu \"Meklēt failus\"."
 
-#: ../gsearchtool/gsearchtool.c:2863
+#: ../gsearchtool/gsearchtool.c:2867
 msgid "Click to perform a search."
 msgstr "Spiediet, lai veiktu meklēšanu."
 
-#: ../gsearchtool/gsearchtool.c:2864
+#: ../gsearchtool/gsearchtool.c:2868
 msgid "Click to stop a search."
 msgstr "Spiediet, lai pārtrauktu meklēšanu."
 
-#: ../gsearchtool/gsearchtool.c:2957
+#: ../gsearchtool/gsearchtool.c:2961
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME meklēšanas rīks"
 
-#: ../gsearchtool/gsearchtool.c:2966
+#: ../gsearchtool/gsearchtool.c:2970
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "Neizdevās apstrādāt komandrindas argumentus: %s\n"
@@ -3061,67 +2936,67 @@ msgstr "Izcelt"
 msgid "_Regular Expression:"
 msgstr "_Regulāra izteiksme:"
 
-#: ../logview/logview-app.c:373
+#: ../logview/logview-app.c:377
 #, c-format
 msgid "Impossible to open the file %s"
 msgstr "Nevar atvērt failu %s"
 
-#: ../logview/logview-filter-manager.c:90
+#: ../logview/logview-filter-manager.c:94
 msgid "Filter name is empty!"
 msgstr "Filtra nosaukums ir tukšs!"
 
-#: ../logview/logview-filter-manager.c:103
+#: ../logview/logview-filter-manager.c:107
 msgid "Filter name may not contain the ':' character"
 msgstr "Filtra nosaukums nevar saturēt ':' rakstzīmi"
 
-#: ../logview/logview-filter-manager.c:126
+#: ../logview/logview-filter-manager.c:130
 msgid "Regular expression is empty!"
 msgstr "Regulārā izteiksme ir tukša!"
 
-#: ../logview/logview-filter-manager.c:142
+#: ../logview/logview-filter-manager.c:146
 #, c-format
 msgid "Regular expression is invalid: %s"
 msgstr "Regulārā izteiksme ir nederīga: %s"
 
-#: ../logview/logview-filter-manager.c:238
+#: ../logview/logview-filter-manager.c:242
 msgid "Please specify either foreground or background color!"
 msgstr "Lūdzu, norādiet priekšplāna vai fona krāsu!"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Edit filter"
 msgstr "Rediģēt filtru"
 
-#: ../logview/logview-filter-manager.c:292
+#: ../logview/logview-filter-manager.c:296
 msgid "Add new filter"
 msgstr "Pievienot jaunu filtru"
 
-#: ../logview/logview-filter-manager.c:502
+#: ../logview/logview-filter-manager.c:506
 msgid "Filters"
 msgstr "Filtri"
 
 # gdictsrc/gdict-app.c:381
-#: ../logview/logview-findbar.c:169
+#: ../logview/logview-findbar.c:173
 msgid "_Find:"
 msgstr "_Meklēt:"
 
-#: ../logview/logview-findbar.c:184
+#: ../logview/logview-findbar.c:188
 msgid "Find Previous"
 msgstr "Meklēt iepriekšējo"
 
-#: ../logview/logview-findbar.c:187
+#: ../logview/logview-findbar.c:191
 msgid "Find previous occurrence of the search string"
 msgstr "Meklēt iepriekšējo virknes parādīšanos"
 
 # gdictsrc/gdict-app.c:381
-#: ../logview/logview-findbar.c:192
+#: ../logview/logview-findbar.c:196
 msgid "Find Next"
 msgstr "Meklēt nākamo"
 
-#: ../logview/logview-findbar.c:195
+#: ../logview/logview-findbar.c:199
 msgid "Find next occurrence of the search string"
 msgstr "Meklēt nākamo virknes parādīšanos"
 
-#: ../logview/logview-findbar.c:202
+#: ../logview/logview-findbar.c:206
 msgid "Clear the search string"
 msgstr "Attīrīt meklēšanas virkni"
 
@@ -3143,7 +3018,7 @@ msgid "This version of System Log does not support GZipped logs."
 msgstr "Šī sistēmas žurnālu versija neatbalsta ar GZip arhivētus žurnālus."
 
 # gdictsrc/gdict-app.c:117
-#: ../logview/logview-loglist.c:311
+#: ../logview/logview-loglist.c:315
 msgid "Loading..."
 msgstr "Ielādē..."
 
@@ -3405,6 +3280,99 @@ msgstr "Fontu pārlūks"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Priekšskatīt fontus"
+
+#~ msgid "Dictionary Look up"
+#~ msgstr "Meklēšana vārdnīcā"
+
+# gdictsrc/gdict-app.c:454 gdictsrc/gdict-app.c:511
+#~ msgid "Look up words in a dictionary"
+#~ msgstr "Meklē vārdus vārdnīcā"
+
+# logview/calendar.c:118
+#~ msgid "Cl_ear"
+#~ msgstr "No_tīrīt"
+
+# gtt/toolbar.c:164
+#~ msgid "_Look Up Selected Text"
+#~ msgstr "Meklēt izvē_lēto tekstu"
+
+# gdictsrc/gdict-pref-dialog.c:161
+#~ msgid "_Print"
+#~ msgstr "_Drukāt"
+
+# gdictsrc/gdict-pref-dialog.c:156
+#~ msgid "_Save"
+#~ msgstr "_Saglabāt"
+
+#~ msgid "Clear the definitions found"
+#~ msgstr "Notīrīt atrastās definīcijas"
+
+#~ msgid "Clear definition"
+#~ msgstr "Notīrīt definīcijas"
+
+#~ msgid "Clear the text of the definition"
+#~ msgstr "Notīrīt definīcijas tekstu"
+
+#~ msgid "Print the definitions found"
+#~ msgstr "Izdrukāt atrastās definīcijas"
+
+# gdictsrc/gdict-pref-dialog.c:39
+#~ msgid "Print definition"
+#~ msgstr "Izdrukāt definīcijas"
+
+#~ msgid "Print the text of the definition"
+#~ msgstr "Izdrukāt definīcijas tekstu"
+
+#~ msgid "Save the definitions found"
+#~ msgstr "Saglabāt atrastās definīcijas"
+
+#~ msgid "Save definition"
+#~ msgstr "Saglabāt definīciju"
+
+#~ msgid "Save the text of the definition to a file"
+#~ msgstr "Saglabāt definīcijas tekstu failā"
+
+#~ msgid "Click to view the dictionary window"
+#~ msgstr "Spiediet, lai parādīt definīcijas logu"
+
+#~ msgid "Toggle dictionary window"
+#~ msgstr "Pārslēgt vārdnīcas logu"
+
+#~ msgid "Show or hide the definition window"
+#~ msgstr "Rādīt vai slēpt definīcijas logu"
+
+#~ msgid "Type the word you want to look up"
+#~ msgstr "Ievadiet vārdu, ko jūs vēlaties uzmeklēt"
+
+#~ msgid "Dictionary entry"
+#~ msgstr "Vārdnīcas ieraksts"
+
+# logview/logrtns.c:129
+#~ msgid "Unable to connect to GConf"
+#~ msgstr "Nevar savienoties ar GConf"
+
+#~ msgid "Unable to get notification for preferences"
+#~ msgstr "Nevar saņemt paziņojumu par iestatījumiem"
+
+#~ msgid "Unable to get notification for the document font"
+#~ msgstr "Nevar saņemt paziņojumu par dokumenta fontu"
+
+#~ msgid "Screenshot-%d.png"
+#~ msgstr "Ekranattels-%d.png"
+
+#~ msgid "File already exists"
+#~ msgstr "Fails jau eksistē"
+
+#~ msgid "The file \"%s\" already exists. Would you like to replace it?"
+#~ msgstr "Fails \"%s\" jau eksistē. Vai vēlaties to aizvietot?"
+
+# gdictsrc/gdict-app.c:117
+#~ msgid "Saving file..."
+#~ msgstr "Saglabā failu..."
+
+# logview/logrtns.c:129
+#~ msgid "Can't access source file"
+#~ msgstr "Nevar piekļūt avota failam"
 
 #~ msgid "Enable monitoring of home directory"
 #~ msgstr "Aktivizēt mājas mapes novērošanu"
