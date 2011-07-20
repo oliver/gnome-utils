@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-12 15:52+0000\n"
-"PO-Revision-Date: 2011-07-15 17:10+0200\n"
+"POT-Creation-Date: 2011-07-19 20:02+0000\n"
+"PO-Revision-Date: 2011-07-20 20:29+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -695,7 +695,7 @@ msgstr "_Popis:"
 
 #: ../gnome-dictionary/data/gnome-dictionary-source.ui.h:8
 msgid "_Transport:"
-msgstr "_Transport:"
+msgstr "_Přenos:"
 
 #: ../gnome-dictionary/data/spanish.desktop.in.h:1
 msgid "Spanish Dictionaries"
@@ -923,7 +923,8 @@ msgid "Name"
 msgstr "Název"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-msgid "The display name of this dictonary source"
+#| msgid "The display name of this dictonary source"
+msgid "The display name of this dictionary source"
 msgstr "Zobrazovaný název tohoto zdroje slovníku"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:260
@@ -940,7 +941,8 @@ msgid "Database"
 msgstr "Databáze"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-msgid "The default database of this dictonary source"
+#| msgid "The default database of this dictonary source"
+msgid "The default database of this dictionary source"
 msgstr "Výchozí databáze tohoto zdroje slovníku"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
@@ -949,16 +951,17 @@ msgid "Strategy"
 msgstr "Metoda"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-msgid "The default strategy of this dictonary source"
+#| msgid "The default strategy of this dictonary source"
+msgid "The default strategy of this dictionary source"
 msgstr "Výchozí metoda tohoto zdroje slovníku"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
-msgstr "Transport"
+msgstr "Přenos"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:303
 msgid "The transport mechanism used by this dictionary source"
-msgstr "Mechanismus transportu používaný tímto zdrojem slovníku"
+msgstr "Mechanismus přenosu používaný tímto zdrojem slovníku"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:317
 #: ../gnome-dictionary/libgdict/gdict-speller.c:376
@@ -972,7 +975,7 @@ msgstr "GdictContext svázaný s tímto zdrojem"
 #: ../gnome-dictionary/libgdict/gdict-source.c:413
 #, c-format
 msgid "Invalid transport type '%d'"
-msgstr "Neplatný typ transportu „%d“"
+msgstr "Neplatný typ přenosu „%d“"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:441
 #, c-format
@@ -1001,7 +1004,7 @@ msgstr "Zdroj slovníku nemá název"
 #: ../gnome-dictionary/libgdict/gdict-source.c:750
 #, c-format
 msgid "Dictionary source '%s' has invalid transport '%s'"
-msgstr "Zdroj slovníku „%s“ má neplatný transport „%s“"
+msgstr "Zdroj slovníku „%s“ má neplatný typ přenosu „%s“"
 
 #: ../gnome-dictionary/libgdict/gdict-source-chooser.c:295
 msgid "Reload the list of available sources"
@@ -1529,7 +1532,6 @@ msgid "Screenshot at %s - %d.png"
 msgstr "Snímek obrazovky (%s) - %d.png"
 
 #: ../gnome-screenshot/gnome-screenshot.c:1376
-#| msgid "Set the model of the chart"
 msgid "Send the grab directly to the clipboard"
 msgstr "Poslat zachycený snímek přímo do schránky"
 
@@ -3166,4 +3168,3 @@ msgstr "Prohlížeč písem"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Náhled písem"
-
