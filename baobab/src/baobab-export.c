@@ -147,7 +147,16 @@ void
 baobab_import (GFile *infileName, GError **error)
 {
 	printf("loading snapshot...\n");
-	xmlDocPtr doc = xmlParseFile(g_file_get_path(infileName));
+
+	char* fileContents;
+	gsize contentLength;
+	if (!g_file_load_contents(infileName, NULL, &fileContents, &contentLength, NULL, error))
+	{
+		return;
+	}
+
+	xmlDocPtr doc = xmlParseMemory(fileContents, contentLength);
+	g_free(fileContents);
 	if (!doc)
 	{
 		g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "file could not be read");
@@ -291,15 +300,8 @@ baobab_export (GFile *outfileName)
 {
 	printf("saving snapshot...\n");
 
-	// preemptively delete file first:
-	g_file_delete(outfileName, NULL, NULL);
-
-	xmlTextWriterPtr writer = xmlNewTextWriterFilename(g_file_get_path(outfileName), 0);
-	if (!writer)
-	{
-		printf("error opening output file\n");
-		return;
-	}
+	xmlBufferPtr xmlOutBuffer = xmlBufferCreate();
+	xmlTextWriterPtr writer = xmlNewTextWriterMemory(xmlOutBuffer, 0);
 
 	xmlTextWriterSetIndent(writer, 2);
 	xmlTextWriterStartDocument(writer, NULL, "UTF-8", NULL);
@@ -327,5 +329,18 @@ baobab_export (GFile *outfileName)
 
 	xmlTextWriterEndDocument(writer);
 	xmlFreeTextWriter(writer);
+
+	gboolean success = g_file_replace_contents(outfileName,
+		xmlOutBuffer->content, xmlBufferLength(xmlOutBuffer),
+		NULL, FALSE,
+		G_FILE_CREATE_REPLACE_DESTINATION,
+		NULL, NULL, NULL);
+	if (!success)
+	{
+		printf("error saving snapshot file\n");
+	}
+
+	xmlBufferFree(xmlOutBuffer);
+
 	printf("done\n");
 }
