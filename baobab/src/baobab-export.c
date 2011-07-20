@@ -23,6 +23,7 @@
 
 #include <config.h>
 
+#include <errno.h>
 #include <libxml/parser.h>
 #include <libxml/xmlwriter.h>
 
@@ -38,9 +39,11 @@ baobab_import_error_quark (void)
 }
 
 
-static void
-load_node (xmlNodePtr cur, int depth, int* max_depth)
+static gboolean
+load_node (xmlNodePtr cur, int depth, int* max_depth, GError **error)
 {
+	gboolean errorFound = FALSE;
+
 	if (depth > *max_depth)
 		*max_depth = depth;
 	depth++;
@@ -65,17 +68,44 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		entry.display_name = g_filename_display_name(entry.parse_name);
 		xmlFree(value);
 
+		gchar* endPtr;
+		gboolean allParsed;
+
 		value = xmlGetProp(cur, "size");
-		entry.size = g_ascii_strtoull(value, NULL, 10);
+		errno = 0;
+		entry.size = g_ascii_strtoull(value, &endPtr, 10);
+		allParsed = (*endPtr == '\0');
 		xmlFree(value);
+		if (!allParsed || errno != 0)
+		{
+			g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "invalid size value");
+			errorFound = TRUE;
+			goto end;
+		}
 
 		value = xmlGetProp(cur, "allocated");
-		entry.alloc_size = g_ascii_strtoull(value, NULL, 10);
+		errno = 0;
+		entry.alloc_size = g_ascii_strtoull(value, &endPtr, 10);
+		allParsed = (*endPtr == '\0');
 		xmlFree(value);
+		if (!allParsed || errno != 0)
+		{
+			g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "invalid alloc_size value");
+			errorFound = TRUE;
+			goto end;
+		}
 
 		value = xmlGetProp(cur, "hardlinksize");
-		entry.tempHLsize = g_ascii_strtoull(value, NULL, 10);
+		errno = 0;
+		entry.tempHLsize = g_ascii_strtoull(value, &endPtr, 10);
+		allParsed = (*endPtr == '\0');
 		xmlFree(value);
+		if (!allParsed || errno != 0)
+		{
+			g_set_error(error, BAOBAB_IMPORT_ERROR, 0, "invalid tempHLsize value");
+			errorFound = TRUE;
+			goto end;
+		}
 
 		/* prefill the model */
 		baobab_fill_model(&entry);
@@ -84,7 +114,13 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 		xmlNodePtr child = cur->xmlChildrenNode;
 		while (child)
 		{
-			load_node(child, depth, max_depth);
+			const gboolean success = load_node(child, depth, max_depth, error);
+			if (!success)
+			{
+				errorFound = TRUE;
+				goto end;
+			}
+
 			child = child->next;
 		}
 
@@ -98,9 +134,12 @@ load_node (xmlNodePtr cur, int depth, int* max_depth)
 			baobab_fill_model(&entry);
 		}
 
+	end:
 		g_free(entry.display_name);
 		g_free(entry.parse_name);
 	}
+
+	return (!errorFound);
 }
 
 
@@ -173,7 +212,7 @@ baobab_import (GFile *infileName, GError **error)
 	baobab_scan_prepare(targetPath);
 
 	int max_depth = 0;
-	load_node(cur, 0, &max_depth);
+	load_node(cur, 0, &max_depth, error);
 
 	baobab.model_max_depth = max_depth;
 	baobab_scan_finish();
