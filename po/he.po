@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-02 10:33+0300\n"
-"PO-Revision-Date: 2011-07-02 10:35+0200\n"
+"POT-Creation-Date: 2011-08-06 14:54+0300\n"
+"PO-Revision-Date: 2011-08-06 14:55+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "Language: he\n"
@@ -867,40 +867,40 @@ msgstr "ניקוי רשימת מסדי הנתונים הזמינים"
 msgid "Error while matching"
 msgstr "שגיאה בזמן ההתאמה."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1127
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1221
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1255
 #: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "לא נמצא"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1316
 msgid "F_ind:"
 msgstr "_חיפוש:"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1329
 msgid "_Previous"
 msgstr "ה_קודם"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1337
 msgid "_Next"
 msgstr "ה_בא"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2512
 msgid "Error while looking up definition"
 msgstr "שגיאה בזמן חיפוש הגדרה"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2554
 #: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "קיים חיפוש פעיל אחר"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2555
 #: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "נא להמתין עד לסיום החיפוש הנוכחי."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2594
 msgid "Error while retrieving the definition"
 msgstr "שגיאה בקבלת ההגדרה"
 
@@ -918,7 +918,7 @@ msgid "Name"
 msgstr "שם"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-msgid "The display name of this dictonary source"
+msgid "The display name of this dictionary source"
 msgstr "שם התצוגה של מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:260
@@ -935,7 +935,7 @@ msgid "Database"
 msgstr "מסד נתונים"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-msgid "The default database of this dictonary source"
+msgid "The default database of this dictionary source"
 msgstr "מסד נתונים כבררת המחדל של מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
@@ -944,8 +944,8 @@ msgid "Strategy"
 msgstr "אסטרטגיה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-msgid "The default strategy of this dictonary source"
-msgstr "אסטרטגית בררת המחדל עבור מקור מילון זה"
+msgid "The default strategy of this dictionary source"
+msgstr "אסטרטגיית בררת המחדל עבור מקור מילון זה"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
