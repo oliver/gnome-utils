@@ -1,4 +1,103 @@
 ===============================================================
+GNOME Utilities 3.1.5 (17th June 2011) - "Old child"
+
+This is the second unstble release in the 3.2 cycle; it mostly features better
+integration with Nautilus, build fixes (wrt to deprecated functions), and many
+translation updates.
+
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Alexander Shopov (1):
+      Updated Bulgarian translation
+
+Andre Klapper (1):
+      Fix typo. Fixes bug #654533
+
+Arash Mousavi (1):
+      Updated Persian Translations
+
+Cosimo Cecchi (1):
+      screenshot: use Nautilus DBus methods instead of our own transfer dialog
+
+Daniel Mustieles (1):
+      Updated Spanish translation
+
+Daniel Nylander (2):
+      Updated Swedish translation
+      Updated Swedish translation
+
+Dennis Cranston (2):
+      Allow nautilus to highlight the file when using 'Open Containing Folder'
+      Temporary patch to get thumbnails working
+
+Fran Dieguez (2):
+      Updated Galician translations
+      Updated Galician translations
+
+Fran Diéguez (1):
+      Updated Galician translations
+
+Frederic Peters (1):
+      release: prepare for 3.1.5
+
+Jasper Lievisse Adriaanse (1):
+      Remove LIBPANEL_APPLET_REQUIRED from configure.ac
+
+Jorge González (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Kjartan Maraas (3):
+      Updated Norwegian bokmål translation
+      Remove non-existing file
+      Updated Norwegian bokmål translation
+
+Marek Kasik (1):
+      font-viewer: Add missing check
+
+Marek Černocký (2):
+      Updated Czech translation
+      Updated Czech translation
+
+Matej Urbančič (2):
+      Updated Slovenian translation
+      Updated Slovenian translation
+
+Matthias Clasen (1):
+      Fix the build with GLib >= 2.29.14
+
+Muhammet Kara (3):
+      Updated Turkish translation
+      Updated Turkish translation file header
+      Updated Turkish translation
+
+Paul Seyfert (1):
+      [l10n] Updated German translation
+
+Pavol Klačanský (1):
+      Updated Slovak translation
+
+Pavol Šimo (1):
+      Removed mistakenly added file
+
+Piotr Drąg (1):
+      Updated Polish translation
+
+Rudolfs Mazurs (1):
+      Updated Latvian translation.
+
+Vincent Untz (1):
+      gsearchtool: Do not use deprecated g_format_size_for_display()
+
+William Jon McCann (1):
+      Add an option to send snap to clipboard directly
+
+Yaron Shahrabani (2):
+      Updated Hebrew translation.
+      Updated Hebrew translation.
+
+===============================================================
 GNOME Utilities 3.1.2 (14th June 2011) - "Yes, yes, yes, YES!"
 
 This is our first unstable release in the 3.2 cycle.
