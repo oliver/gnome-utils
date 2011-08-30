@@ -1,3 +1,21 @@
+====================================================
+GNOME Utilities 3.1.90 (29th August 2011) - "Frames"
+
+This is the third unstable release in the 3.2 cycle; a bug fixed in
+gnome-screenshot and some translation updates.
+
+Abduxukur Abdurixit (1):
+      Added UG translation
+
+Andika Triwidada (1):
+      Updated Indonesian translation
+
+Aron Xu (1):
+      Update Simplified Chinese translation.
+
+Matthias Clasen (1):
+      Don't save uri-escaped filenames
+
 ===============================================================
 GNOME Utilities 3.1.5 (17th June 2011) - "Old child"
 
