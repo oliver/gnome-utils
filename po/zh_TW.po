@@ -11,10 +11,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-utils 2.91.93\n"
+"Project-Id-Version: gnome-utils 3.1.90\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-30 21:23+0800\n"
-"PO-Revision-Date: 2011-03-30 13:56+0800\n"
+"POT-Creation-Date: 2011-09-06 19:36+0800\n"
+"PO-Revision-Date: 2011-09-05 19:15+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (traditional)\n"
 "Language: zh_TW\n"
@@ -158,12 +158,12 @@ msgstr "全部收起(_C)"
 
 #. Help menu
 #: ../baobab/data/baobab-main-window.ui.h:20
-#: ../gnome-dictionary/src/gdict-window.c:1329 ../logview/logview-window.c:844
+#: ../gnome-dictionary/src/gdict-window.c:1334 ../logview/logview-window.c:844
 msgid "_Contents"
 msgstr "內容(_C)"
 
 #: ../baobab/data/baobab-main-window.ui.h:21
-#: ../gnome-dictionary/src/gdict-window.c:1276 ../logview/logview-window.c:815
+#: ../gnome-dictionary/src/gdict-window.c:1281 ../logview/logview-window.c:815
 msgid "_Edit"
 msgstr "編輯(_E)"
 
@@ -172,8 +172,7 @@ msgid "_Expand All"
 msgstr "全部展開(_E)"
 
 #: ../baobab/data/baobab-main-window.ui.h:23
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
-#: ../gnome-dictionary/src/gdict-window.c:1279 ../logview/logview-window.c:818
+#: ../gnome-dictionary/src/gdict-window.c:1284 ../logview/logview-window.c:818
 msgid "_Help"
 msgstr "求助(_H)"
 
@@ -182,7 +181,7 @@ msgid "_Toolbar"
 msgstr "工具列(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
-#: ../gnome-dictionary/src/gdict-window.c:1277 ../logview/logview-window.c:816
+#: ../gnome-dictionary/src/gdict-window.c:1282 ../logview/logview-window.c:816
 msgid "_View"
 msgstr "檢視(_V)"
 
@@ -446,7 +445,7 @@ msgstr "您的個人資料夾的內容已經改變。選擇重新掃描來更新
 msgid "_Rescan"
 msgstr "重新掃描(_R)"
 
-#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2389
+#: ../baobab/src/baobab-treeview.c:222 ../gsearchtool/gsearchtool.c:2393
 msgid "Folder"
 msgstr "資料夾"
 
@@ -454,7 +453,7 @@ msgstr "資料夾"
 msgid "Usage"
 msgstr "用量"
 
-#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2402
+#: ../baobab/src/baobab-treeview.c:258 ../gsearchtool/gsearchtool.c:2406
 msgid "Size"
 msgstr "大小"
 
@@ -588,40 +587,6 @@ msgstr "資料夾不存在。"
 msgid "Default Dictionary Server"
 msgstr "預設字典伺服器"
 
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
-msgid "Dictionary Look up"
-msgstr "查字典"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
-msgid "Look up words in a dictionary"
-msgstr "在字典中查字詞"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
-msgid "Cl_ear"
-msgstr "清除(_E)"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
-#: ../gnome-dictionary/src/gdict-window.c:1331 ../logview/logview-window.c:846
-msgid "_About"
-msgstr "關於(_A)"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
-msgid "_Look Up Selected Text"
-msgstr "查詢已選字詞(_L)"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
-#: ../gnome-dictionary/src/gdict-window.c:1305
-msgid "_Preferences"
-msgstr "偏好設定(_P)"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
-msgid "_Print"
-msgstr "列印(_P)"
-
-#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
-msgid "_Save"
-msgstr "儲存(_S)"
-
 # zh_HK: msgstr "在網上字典中查詢字詞的解譯及拼法"
 #: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
 msgid "Check word definitions and spellings in an online dictionary"
@@ -631,7 +596,7 @@ msgstr "在線上字典中查詢字詞的解譯及拼法"
 #: ../gnome-dictionary/src/gdict-about.c:62
 #: ../gnome-dictionary/src/gdict-app.c:233
 #: ../gnome-dictionary/src/gdict-window.c:601
-#: ../gnome-dictionary/src/gdict-window.c:1889
+#: ../gnome-dictionary/src/gdict-window.c:1894
 msgid "Dictionary"
 msgstr "字典"
 
@@ -893,40 +858,40 @@ msgstr "消除現存資料庫清單"
 msgid "Error while matching"
 msgstr "比對時發生錯誤"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1127
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1221
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1255
 #: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "找不到"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1316
 msgid "F_ind:"
 msgstr "尋找(_I):"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1329
 msgid "_Previous"
 msgstr "上一個(_P)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1337
 msgid "_Next"
 msgstr "下一個(_N)"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2512
 msgid "Error while looking up definition"
 msgstr "查詢字詞解釋時發生錯誤"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2554
 #: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "正在進行其它的搜尋"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2555
 #: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "請等待現正進行的搜尋結束。"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2594
 msgid "Error while retrieving the definition"
 msgstr "擷取字詞解釋時發生錯誤"
 
@@ -939,12 +904,12 @@ msgid "The filename used by this dictionary source"
 msgstr "此字典來源所使用的檔案名稱"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:246
-#: ../gsearchtool/gsearchtool.c:2365
+#: ../gsearchtool/gsearchtool.c:2369
 msgid "Name"
 msgstr "名稱"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-msgid "The display name of this dictonary source"
+msgid "The display name of this dictionary source"
 msgstr "此字典來源的顯示名稱"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:260
@@ -961,7 +926,7 @@ msgid "Database"
 msgstr "資料庫"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-msgid "The default database of this dictonary source"
+msgid "The default database of this dictionary source"
 msgstr "此字典來源預設的資料庫。"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
@@ -970,7 +935,7 @@ msgid "Strategy"
 msgstr "搜尋方法"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-msgid "The default strategy of this dictonary source"
+msgid "The default strategy of this dictionary source"
 msgstr "此字典來源預設的搜尋方式"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
@@ -1090,7 +1055,6 @@ msgid "Show GDict Options"
 msgstr "顯示 GDict 選項"
 
 #: ../gnome-dictionary/src/gdict-about.c:57
-#: ../gnome-dictionary/src/gdict-applet.c:591
 msgid "Look up words in dictionaries"
 msgstr "在字典中查詢字詞"
 
@@ -1135,128 +1099,6 @@ msgstr "WORDS"
 msgid " - Look up words in dictionaries"
 msgstr " - 在字典中查字詞"
 
-#: ../gnome-dictionary/src/gdict-applet.c:206
-#: ../gnome-dictionary/src/gdict-window.c:957
-msgid "Save a Copy"
-msgstr "儲存副本"
-
-#: ../gnome-dictionary/src/gdict-applet.c:216
-#: ../gnome-dictionary/src/gdict-window.c:967
-msgid "Untitled document"
-msgstr "未命名的文件"
-
-#: ../gnome-dictionary/src/gdict-applet.c:237
-#: ../gnome-dictionary/src/gdict-window.c:988
-#, c-format
-msgid "Error while writing to '%s'"
-msgstr "寫入‘%s’時發生錯誤"
-
-#: ../gnome-dictionary/src/gdict-applet.c:362
-msgid "Clear the definitions found"
-msgstr "清除找到的字詞解釋"
-
-#: ../gnome-dictionary/src/gdict-applet.c:364
-msgid "Clear definition"
-msgstr "清除字詞解釋"
-
-#: ../gnome-dictionary/src/gdict-applet.c:365
-msgid "Clear the text of the definition"
-msgstr "清除字詞解釋的文字"
-
-# zh_HK: msgstr "打印找到的字詞解釋"
-#: ../gnome-dictionary/src/gdict-applet.c:372
-msgid "Print the definitions found"
-msgstr "列印找到的字詞解釋"
-
-# zh_HK: msgstr "打印字詞解釋"
-#: ../gnome-dictionary/src/gdict-applet.c:374
-msgid "Print definition"
-msgstr "列印字詞解釋"
-
-# zh_HK: msgstr "打印字詞解釋的文字"
-#: ../gnome-dictionary/src/gdict-applet.c:375
-msgid "Print the text of the definition"
-msgstr "列印字詞解釋的文字"
-
-#: ../gnome-dictionary/src/gdict-applet.c:382
-msgid "Save the definitions found"
-msgstr "儲存找到的解釋"
-
-#: ../gnome-dictionary/src/gdict-applet.c:384
-msgid "Save definition"
-msgstr "儲存字詞解釋"
-
-#: ../gnome-dictionary/src/gdict-applet.c:385
-msgid "Save the text of the definition to a file"
-msgstr "儲存解釋的文字到檔案中"
-
-#: ../gnome-dictionary/src/gdict-applet.c:533
-msgid "Click to view the dictionary window"
-msgstr "點擊一下來檢視字典視窗"
-
-#: ../gnome-dictionary/src/gdict-applet.c:535
-msgid "Toggle dictionary window"
-msgstr "打開字典視窗"
-
-#: ../gnome-dictionary/src/gdict-applet.c:536
-msgid "Show or hide the definition window"
-msgstr "顯示或隱藏解釋視窗"
-
-#: ../gnome-dictionary/src/gdict-applet.c:588
-msgid "Type the word you want to look up"
-msgstr "請輸入您想查詢的字詞"
-
-#: ../gnome-dictionary/src/gdict-applet.c:590
-msgid "Dictionary entry"
-msgstr "字典輸入欄位"
-
-#: ../gnome-dictionary/src/gdict-applet.c:716
-#: ../gnome-dictionary/src/gdict-window.c:1093
-msgid "Dictionary Preferences"
-msgstr "字典偏好設定"
-
-#: ../gnome-dictionary/src/gdict-applet.c:742
-#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
-#: ../gnome-dictionary/src/gdict-source-dialog.c:479
-#: ../gnome-dictionary/src/gdict-window.c:1240
-#, c-format
-msgid "There was an error while displaying help"
-msgstr "顯示說明文件時發生錯誤"
-
-#: ../gnome-dictionary/src/gdict-applet.c:896
-#: ../gnome-dictionary/src/gdict-window.c:516
-#, c-format
-msgid "No dictionary source available with name '%s'"
-msgstr "沒有現存字典來源的名稱為‘%s’"
-
-#: ../gnome-dictionary/src/gdict-applet.c:900
-#: ../gnome-dictionary/src/gdict-window.c:520
-msgid "Unable to find dictionary source"
-msgstr "無法找到字典來源"
-
-#: ../gnome-dictionary/src/gdict-applet.c:916
-#: ../gnome-dictionary/src/gdict-window.c:536
-#, c-format
-msgid "No context available for source '%s'"
-msgstr "來源‘%s’沒有內容存在"
-
-#: ../gnome-dictionary/src/gdict-applet.c:920
-#: ../gnome-dictionary/src/gdict-window.c:540
-msgid "Unable to create a context"
-msgstr "無法建構內容"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1172
-msgid "Unable to connect to GConf"
-msgstr "無法連接到 GConf"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1185
-msgid "Unable to get notification for preferences"
-msgstr "無法為偏好設定取得通知"
-
-#: ../gnome-dictionary/src/gdict-applet.c:1199
-msgid "Unable to get notification for the document font"
-msgstr "無法為文件字型取得通知"
-
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:241
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:430
 msgid "Edit Dictionary Source"
@@ -1279,6 +1121,13 @@ msgstr "這會從清單中將字典來源永久刪除。"
 #, c-format
 msgid "Unable to remove source '%s'"
 msgstr "無法移除來源‘%s’"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:496
+#: ../gnome-dictionary/src/gdict-source-dialog.c:479
+#: ../gnome-dictionary/src/gdict-window.c:1245
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "顯示說明文件時發生錯誤"
 
 #: ../gnome-dictionary/src/gdict-pref-dialog.c:643
 msgid "Add a new dictionary source"
@@ -1329,260 +1178,302 @@ msgid "A definition found"
 msgid_plural "%d definitions found"
 msgstr[0] "找到%d 字詞解釋"
 
+#: ../gnome-dictionary/src/gdict-window.c:516
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "沒有現存字典來源的名稱為‘%s’"
+
+#: ../gnome-dictionary/src/gdict-window.c:520
+msgid "Unable to find dictionary source"
+msgstr "無法找到字典來源"
+
+#: ../gnome-dictionary/src/gdict-window.c:536
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "來源‘%s’沒有內容存在"
+
+#: ../gnome-dictionary/src/gdict-window.c:540
+msgid "Unable to create a context"
+msgstr "無法建構內容"
+
 #: ../gnome-dictionary/src/gdict-window.c:599
 #, c-format
 msgid "%s - Dictionary"
 msgstr "%s - 字典"
 
-#: ../gnome-dictionary/src/gdict-window.c:1275 ../logview/logview-window.c:814
+#: ../gnome-dictionary/src/gdict-window.c:962
+msgid "Save a Copy"
+msgstr "儲存副本"
+
+#: ../gnome-dictionary/src/gdict-window.c:972
+msgid "Untitled document"
+msgstr "未命名的文件"
+
+#: ../gnome-dictionary/src/gdict-window.c:993
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "寫入‘%s’時發生錯誤"
+
+#: ../gnome-dictionary/src/gdict-window.c:1098
+msgid "Dictionary Preferences"
+msgstr "字典偏好設定"
+
+#: ../gnome-dictionary/src/gdict-window.c:1280 ../logview/logview-window.c:814
 msgid "_File"
 msgstr "檔案(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1278
+#: ../gnome-dictionary/src/gdict-window.c:1283
 msgid "_Go"
 msgstr "前往(_G)"
 
 #. File menu
-#: ../gnome-dictionary/src/gdict-window.c:1282
+#: ../gnome-dictionary/src/gdict-window.c:1287
 msgid "_New"
 msgstr "新增(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1283
+#: ../gnome-dictionary/src/gdict-window.c:1288
 msgid "New look up"
 msgstr "新增查詢"
 
-#: ../gnome-dictionary/src/gdict-window.c:1284
+#: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "_Save a Copy..."
 msgstr "儲存副本(_S)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1286
+#: ../gnome-dictionary/src/gdict-window.c:1291
 msgid "P_review..."
 msgstr "預覽(_R)…"
 
-#: ../gnome-dictionary/src/gdict-window.c:1287
+#: ../gnome-dictionary/src/gdict-window.c:1292
 msgid "Preview this document"
 msgstr "預覽這份文件"
 
-#: ../gnome-dictionary/src/gdict-window.c:1288
+#: ../gnome-dictionary/src/gdict-window.c:1293
 msgid "_Print..."
 msgstr "列印(_P)…"
 
 # zh_HK: msgstr "打印這份文件"
-#: ../gnome-dictionary/src/gdict-window.c:1289
+#: ../gnome-dictionary/src/gdict-window.c:1294
 msgid "Print this document"
 msgstr "列印這份文件"
 
-#: ../gnome-dictionary/src/gdict-window.c:1296 ../logview/logview-window.c:829
+#: ../gnome-dictionary/src/gdict-window.c:1301 ../logview/logview-window.c:829
 msgid "Select _All"
 msgstr "全部選取(_A)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1299
+#: ../gnome-dictionary/src/gdict-window.c:1304
 msgid "Find a word or phrase in the document"
 msgstr "在文件中尋找字詞"
 
-#: ../gnome-dictionary/src/gdict-window.c:1301
+#: ../gnome-dictionary/src/gdict-window.c:1306
 msgid "Find Ne_xt"
 msgstr "找下一個(_X)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1303
+#: ../gnome-dictionary/src/gdict-window.c:1308
 msgid "Find Pre_vious"
 msgstr "找上一個(_V)"
 
+#: ../gnome-dictionary/src/gdict-window.c:1310
+msgid "_Preferences"
+msgstr "偏好設定(_P)"
+
 #. Go menu
-#: ../gnome-dictionary/src/gdict-window.c:1309
+#: ../gnome-dictionary/src/gdict-window.c:1314
 msgid "_Previous Definition"
 msgstr "上一個字詞解釋(_P)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1310
+#: ../gnome-dictionary/src/gdict-window.c:1315
 msgid "Go to the previous definition"
 msgstr "前往上一個字詞的解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1311
+#: ../gnome-dictionary/src/gdict-window.c:1316
 msgid "_Next Definition"
 msgstr "下一個字詞解釋(_N)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1312
+#: ../gnome-dictionary/src/gdict-window.c:1317
 msgid "Go to the next definition"
 msgstr "前往下一個字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1313
+#: ../gnome-dictionary/src/gdict-window.c:1318
 msgid "_First Definition"
 msgstr "第一個字詞解釋(_F)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1314
+#: ../gnome-dictionary/src/gdict-window.c:1319
 msgid "Go to the first definition"
 msgstr "前往第一個字詞解釋"
 
-#: ../gnome-dictionary/src/gdict-window.c:1315
+#: ../gnome-dictionary/src/gdict-window.c:1320
 msgid "_Last Definition"
 msgstr "最後一個字詞解釋(_L)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1316
+#: ../gnome-dictionary/src/gdict-window.c:1321
 msgid "Go to the last definition"
 msgstr "前往最後一個字詞解釋"
 
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1319
+#: ../gnome-dictionary/src/gdict-window.c:1324
 msgid "Similar _Words"
 msgstr "近似字詞(_W)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1321
+#: ../gnome-dictionary/src/gdict-window.c:1326
 msgid "Dictionary Sources"
 msgstr "字典來源"
 
-#: ../gnome-dictionary/src/gdict-window.c:1323
+#: ../gnome-dictionary/src/gdict-window.c:1328
 msgid "Available _Databases"
 msgstr "現存資料庫(_D)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1325
+#: ../gnome-dictionary/src/gdict-window.c:1330
 msgid "Available St_rategies"
 msgstr "現有搜尋方法(_R)"
 
+#: ../gnome-dictionary/src/gdict-window.c:1336 ../logview/logview-window.c:846
+msgid "_About"
+msgstr "關於(_A)"
+
 #. View menu
-#: ../gnome-dictionary/src/gdict-window.c:1342
+#: ../gnome-dictionary/src/gdict-window.c:1347
 msgid "_Sidebar"
 msgstr "側面窗格(_S)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1344
+#: ../gnome-dictionary/src/gdict-window.c:1349
 msgid "S_tatusbar"
 msgstr "狀態列(_T)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1409
+#: ../gnome-dictionary/src/gdict-window.c:1414
 #, c-format
 msgid "Dictionary source `%s' selected"
 msgstr "已選定字典來源「%s」"
 
-#: ../gnome-dictionary/src/gdict-window.c:1430
+#: ../gnome-dictionary/src/gdict-window.c:1435
 #, c-format
 msgid "Strategy `%s' selected"
 msgstr "已選取搜尋方法‘%s’"
 
-#: ../gnome-dictionary/src/gdict-window.c:1450
+#: ../gnome-dictionary/src/gdict-window.c:1455
 #, c-format
 msgid "Database `%s' selected"
 msgstr "已選取資料庫‘%s’"
 
-#: ../gnome-dictionary/src/gdict-window.c:1470
+#: ../gnome-dictionary/src/gdict-window.c:1475
 #, c-format
 msgid "Word `%s' selected"
 msgstr "已選取字詞‘%s’"
 
 #. speller
-#: ../gnome-dictionary/src/gdict-window.c:1495
+#: ../gnome-dictionary/src/gdict-window.c:1500
 msgid "Double-click on the word to look up"
 msgstr "在要查詢的字詞上按兩下滑鼠鍵"
 
 #. strat-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1501
+#: ../gnome-dictionary/src/gdict-window.c:1506
 msgid "Double-click on the matching strategy to use"
 msgstr "在要使用的搜尋方法上按兩下滑鼠鍵"
 
 #. source-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1506
+#: ../gnome-dictionary/src/gdict-window.c:1511
 msgid "Double-click on the source to use"
 msgstr "在要使用的來源按兩下滑鼠鍵"
 
 #. db-chooser
-#: ../gnome-dictionary/src/gdict-window.c:1515
+#: ../gnome-dictionary/src/gdict-window.c:1520
 msgid "Double-click on the database to use"
 msgstr "在要使用的資料庫上按兩下滑鼠鍵"
 
-#: ../gnome-dictionary/src/gdict-window.c:1695
+#: ../gnome-dictionary/src/gdict-window.c:1700
 msgid "Look _up:"
 msgstr "查詢(_U)"
 
-#: ../gnome-dictionary/src/gdict-window.c:1770
+#: ../gnome-dictionary/src/gdict-window.c:1775
 msgid "Similar words"
 msgstr "近似字詞"
 
-#: ../gnome-dictionary/src/gdict-window.c:1783
+#: ../gnome-dictionary/src/gdict-window.c:1788
 msgid "Available dictionaries"
 msgstr "現存字典"
 
-#: ../gnome-dictionary/src/gdict-window.c:1801
+#: ../gnome-dictionary/src/gdict-window.c:1806
 msgid "Available strategies"
 msgstr "現有搜尋方法"
 
-#: ../gnome-dictionary/src/gdict-window.c:1817
+#: ../gnome-dictionary/src/gdict-window.c:1822
 msgid "Dictionary sources"
 msgstr "字典來源"
 
-#: ../gnome-screenshot/gnome-screenshot.c:134
+#: ../gnome-screenshot/gnome-screenshot.c:137
 msgid "Error loading the help page"
 msgstr "載入說明文件時發生錯誤"
 
-#: ../gnome-screenshot/gnome-screenshot.c:246
+#: ../gnome-screenshot/gnome-screenshot.c:249
 msgid "None"
 msgstr "沒有"
 
-#: ../gnome-screenshot/gnome-screenshot.c:247
+#: ../gnome-screenshot/gnome-screenshot.c:250
 msgid "Drop shadow"
 msgstr "陰影"
 
-#: ../gnome-screenshot/gnome-screenshot.c:248
+#: ../gnome-screenshot/gnome-screenshot.c:251
 msgid "Border"
 msgstr "邊框"
 
 #. * Include pointer *
-#: ../gnome-screenshot/gnome-screenshot.c:352
+#: ../gnome-screenshot/gnome-screenshot.c:355
 msgid "Include _pointer"
 msgstr "包含滑鼠指標(_P)"
 
 #. * Include window border *
-#: ../gnome-screenshot/gnome-screenshot.c:361
+#: ../gnome-screenshot/gnome-screenshot.c:364
 msgid "Include the window _border"
 msgstr "包括視窗邊框(_B)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:376
+#: ../gnome-screenshot/gnome-screenshot.c:379
 msgid "Apply _effect:"
 msgstr "套用效果(_E)："
 
-#: ../gnome-screenshot/gnome-screenshot.c:438
+#: ../gnome-screenshot/gnome-screenshot.c:441
 msgid "Grab the whole _desktop"
 msgstr "拍下整個桌面(_D)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:450
+#: ../gnome-screenshot/gnome-screenshot.c:453
 msgid "Grab the current _window"
 msgstr "拍下目前的視窗(_W)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:462
+#: ../gnome-screenshot/gnome-screenshot.c:465
 msgid "Select _area to grab"
 msgstr "選擇要抓取的區域(_A)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:479
+#: ../gnome-screenshot/gnome-screenshot.c:482
 msgid "Grab _after a delay of"
 msgstr "在(_A)"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
-#: ../gnome-screenshot/gnome-screenshot.c:499
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:502
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "seconds"
 msgstr "秒後拍下螢幕截圖"
 
-#: ../gnome-screenshot/gnome-screenshot.c:517
-#: ../gnome-screenshot/gnome-screenshot.c:525
-#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+#: ../gnome-screenshot/gnome-screenshot.c:520
+#: ../gnome-screenshot/gnome-screenshot.c:528
 msgid "Take Screenshot"
 msgstr "拍下螢幕截圖"
 
-#: ../gnome-screenshot/gnome-screenshot.c:526
+#: ../gnome-screenshot/gnome-screenshot.c:529
 msgid "Effects"
 msgstr "效果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:531
+#: ../gnome-screenshot/gnome-screenshot.c:534
 msgid "Take _Screenshot"
 msgstr "拍下螢幕截圖(_S)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:651
+#: ../gnome-screenshot/gnome-screenshot.c:640
 msgid "Error while saving screenshot"
 msgstr "儲存螢幕截圖時發生錯誤"
 
-#: ../gnome-screenshot/gnome-screenshot.c:654
+#: ../gnome-screenshot/gnome-screenshot.c:644
 #, c-format
 msgid ""
 "Impossible to save the screenshot to %s.\n"
@@ -1593,80 +1484,77 @@ msgstr ""
 " 錯誤為 %s\n"
 "。請選擇另一個位置並再試一次。"
 
-#: ../gnome-screenshot/gnome-screenshot.c:786
+#: ../gnome-screenshot/gnome-screenshot.c:798
 msgid "Screenshot taken"
 msgstr "螢幕截圖拍攝"
 
-#: ../gnome-screenshot/gnome-screenshot.c:903
+#: ../gnome-screenshot/gnome-screenshot.c:905
 msgid "Unable to take a screenshot of the current window"
 msgstr "無法拍下目前視窗的螢幕截圖"
 
-#: ../gnome-screenshot/gnome-screenshot.c:986
-#, c-format
-msgid "Screenshot-%s.png"
-msgstr "Screenshot-%s.png"
-
-#. translators: this is the name of the file that gets
-#. * made up with the screenshot if a specific window is
-#. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:993
-#, c-format
-msgid "Screenshot-%s-%d.png"
-msgstr "Screenshot-%s-%d.png"
+#. Translators: This is a strftime format string.
+#. * It is used to display the time in 24-hours format (eg, like
+#. * in France: 20:10).
+#: ../gnome-screenshot/gnome-screenshot.c:1008
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%Y-%m-%d %H:%M:%S"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:1003
-#: ../gnome-screenshot/screenshot-dialog.c:331
-#: ../gnome-screenshot/screenshot-save.c:206
-msgid "Screenshot.png"
-msgstr "Screenshot.png"
+#: ../gnome-screenshot/gnome-screenshot.c:1015
+#, c-format
+msgid "Screenshot at %s.png"
+msgstr "螢幕截圖存為 %s.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:1010
+#: ../gnome-screenshot/gnome-screenshot.c:1022
 #, c-format
-msgid "Screenshot-%d.png"
-msgstr "Screenshot-%d.png"
+msgid "Screenshot at %s - %d.png"
+msgstr "螢幕截圖存為 %s - %d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1356
+#: ../gnome-screenshot/gnome-screenshot.c:1376
+msgid "Send the grab directly to the clipboard"
+msgstr "將抓圖直接傳送至剪貼簿"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1377
 msgid "Grab a window instead of the entire screen"
 msgstr "擷取單一視窗而不是整個畫面"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1357
+#: ../gnome-screenshot/gnome-screenshot.c:1378
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "擷取畫面的一個區域而不是整個畫面"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1358
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "Include the window border with the screenshot"
 msgstr "螢幕截圖包含視窗邊框"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1359
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "Remove the window border from the screenshot"
 msgstr "自螢幕截圖移除視窗邊框"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1360
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "在指定的時間後（秒）拍攝螢幕截圖"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1382
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "加到視窗邊框的效果（陰影、邊框或沒有）"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1361
+#: ../gnome-screenshot/gnome-screenshot.c:1382
 msgid "effect"
 msgstr "效果"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1362
+#: ../gnome-screenshot/gnome-screenshot.c:1383
 msgid "Interactively set options"
 msgstr "互動設定選項"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1373
+#: ../gnome-screenshot/gnome-screenshot.c:1394
 msgid "Take a picture of the screen"
 msgstr "拍下整個螢幕"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1391
+#: ../gnome-screenshot/gnome-screenshot.c:1412
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1676,6 +1564,10 @@ msgstr "衝突的選項：--window 和 --area 不應同時使用。\n"
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
 msgstr "將整個桌面或獨立的視窗儲存為圖片"
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+msgid "Screenshot"
+msgstr "螢幕截圖"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1770,6 +1662,11 @@ msgstr ""
 msgid "Select a folder"
 msgstr "選擇資料夾"
 
+#: ../gnome-screenshot/screenshot-dialog.c:354
+#: ../gnome-screenshot/screenshot-save.c:206
+msgid "Screenshot.png"
+msgstr "Screenshot.png"
+
 #: ../gnome-screenshot/screenshot-save.c:65
 #, c-format
 msgid ""
@@ -1790,31 +1687,9 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "儲存螢幕截圖到磁碟時發生不明的錯誤"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:873
+#: ../gnome-screenshot/screenshot-utils.c:919
 msgid "Untitled Window"
 msgstr "未命名視窗"
-
-#: ../gnome-screenshot/screenshot-xfer.c:72
-msgid "File already exists"
-msgstr "檔案已經存在"
-
-#: ../gnome-screenshot/screenshot-xfer.c:75
-#, c-format
-msgid "The file \"%s\" already exists. Would you like to replace it?"
-msgstr "檔案“%s”已存在。您要覆寫這個檔案嗎？"
-
-#: ../gnome-screenshot/screenshot-xfer.c:82
-#: ../gsearchtool/gsearchtool-callbacks.c:1680
-msgid "_Replace"
-msgstr "取代(_R)"
-
-#: ../gnome-screenshot/screenshot-xfer.c:120
-msgid "Saving file..."
-msgstr "正在儲存檔案…"
-
-#: ../gnome-screenshot/screenshot-xfer.c:290
-msgid "Can't access source file"
-msgstr "無法存取來源檔案"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
@@ -2234,6 +2109,10 @@ msgstr "文件“%s”已存在，是否確定覆寫這個檔案？"
 msgid "If you replace an existing file, its contents will be overwritten."
 msgstr "如果您取代一個現有的檔案，該檔案的原有內容將會消失。"
 
+#: ../gsearchtool/gsearchtool-callbacks.c:1680
+msgid "_Replace"
+msgstr "取代(_R)"
+
 #: ../gsearchtool/gsearchtool-callbacks.c:1730
 msgid "The document name you selected is a folder."
 msgstr "您所選的文件名稱是一個資料夾。"
@@ -2284,12 +2163,12 @@ msgstr "%s 的連結"
 #. * make some or all of them match.
 #.
 #. localizers: tag used to detect the first copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1490
+#: ../gsearchtool/gsearchtool-support.c:1497
 msgid " (copy)"
 msgstr " (副本)"
 
 #. localizers: tag used to detect the second copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1492
+#: ../gsearchtool/gsearchtool-support.c:1499
 msgid " (another copy)"
 msgstr " (另一個副本)"
 
@@ -2297,36 +2176,36 @@ msgstr " (另一個副本)"
 #. localizers: tag used to detect the x12th copy of a file
 #. localizers: tag used to detect the x13th copy of a file
 #. localizers: tag used to detect the xxth copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1495
-#: ../gsearchtool/gsearchtool-support.c:1497
-#: ../gsearchtool/gsearchtool-support.c:1499
-#: ../gsearchtool/gsearchtool-support.c:1509
+#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1516
 msgid "th copy)"
 msgstr "個副本)"
 
 #. localizers: tag used to detect the x1st copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1502
+#: ../gsearchtool/gsearchtool-support.c:1509
 msgid "st copy)"
 msgstr "個副本)"
 
 #. localizers: tag used to detect the x2nd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1504
+#: ../gsearchtool/gsearchtool-support.c:1511
 msgid "nd copy)"
 msgstr "個副本)"
 
 #. localizers: tag used to detect the x3rd copy of a file
-#: ../gsearchtool/gsearchtool-support.c:1506
+#: ../gsearchtool/gsearchtool-support.c:1513
 msgid "rd copy)"
 msgstr "個副本)"
 
 #. localizers: appended to first file copy
-#: ../gsearchtool/gsearchtool-support.c:1523
+#: ../gsearchtool/gsearchtool-support.c:1530
 #, c-format
 msgid "%s (copy)%s"
 msgstr "%s (副本)%s"
 
 #. localizers: appended to second file copy
-#: ../gsearchtool/gsearchtool-support.c:1525
+#: ../gsearchtool/gsearchtool-support.c:1532
 #, c-format
 msgid "%s (another copy)%s"
 msgstr "%s (另一個副本)%s"
@@ -2335,43 +2214,43 @@ msgstr "%s (另一個副本)%s"
 #. localizers: appended to x12th file copy
 #. localizers: appended to x13th file copy
 #. localizers: appended to xxth file copy
-#: ../gsearchtool/gsearchtool-support.c:1528
-#: ../gsearchtool/gsearchtool-support.c:1530
-#: ../gsearchtool/gsearchtool-support.c:1532
-#: ../gsearchtool/gsearchtool-support.c:1541
+#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1548
 #, c-format
 msgid "%s (%dth copy)%s"
 msgstr "%s（第 %d 個副本）%s"
 
 #. localizers: appended to x1st file copy
-#: ../gsearchtool/gsearchtool-support.c:1535
+#: ../gsearchtool/gsearchtool-support.c:1542
 #, c-format
 msgid "%s (%dst copy)%s"
 msgstr "%s（第 %d 個副本）%s"
 
 #. localizers: appended to x2nd file copy
-#: ../gsearchtool/gsearchtool-support.c:1537
+#: ../gsearchtool/gsearchtool-support.c:1544
 #, c-format
 msgid "%s (%dnd copy)%s"
 msgstr "%s（第 %d 個副本）%s"
 
 #. localizers: appended to x3rd file copy
-#: ../gsearchtool/gsearchtool-support.c:1539
+#: ../gsearchtool/gsearchtool-support.c:1546
 #, c-format
 msgid "%s (%drd copy)%s"
 msgstr "%s（第 %d 個副本）%s"
 
-#: ../gsearchtool/gsearchtool-support.c:1586
+#: ../gsearchtool/gsearchtool-support.c:1593
 msgid " (invalid Unicode)"
 msgstr "（無效的萬國碼）"
 
 #. localizers: opening parentheses to match the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1675
+#: ../gsearchtool/gsearchtool-support.c:1682
 msgid " ("
 msgstr " ("
 
 #. localizers: opening parentheses of the "th copy)" string
-#: ../gsearchtool/gsearchtool-support.c:1683
+#: ../gsearchtool/gsearchtool-support.c:1690
 #, c-format
 msgid " (%d"
 msgstr " (第 %d"
@@ -2490,74 +2369,74 @@ msgstr "“%s”的字元轉換失敗"
 msgid "Searching..."
 msgstr "搜尋中…"
 
-#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1012
-#: ../gsearchtool/gsearchtool.c:2972
+#: ../gsearchtool/gsearchtool.c:506 ../gsearchtool/gsearchtool.c:1016
+#: ../gsearchtool/gsearchtool.c:2976
 msgid "Search for Files"
 msgstr "搜尋檔案"
 
-#: ../gsearchtool/gsearchtool.c:958 ../gsearchtool/gsearchtool.c:987
+#: ../gsearchtool/gsearchtool.c:962 ../gsearchtool/gsearchtool.c:991
 msgid "No files found"
 msgstr "找不到符合條件的檔案"
 
-#: ../gsearchtool/gsearchtool.c:980
+#: ../gsearchtool/gsearchtool.c:984
 msgid "(stopped)"
 msgstr "（已停止）"
 
-#: ../gsearchtool/gsearchtool.c:986
+#: ../gsearchtool/gsearchtool.c:990
 msgid "No Files Found"
 msgstr "找不到任何檔案"
 
-#: ../gsearchtool/gsearchtool.c:991
+#: ../gsearchtool/gsearchtool.c:995
 #, c-format
 msgid "%'d File Found"
 msgid_plural "%'d Files Found"
 msgstr[0] "找到 %'d 個檔案"
 
-#: ../gsearchtool/gsearchtool.c:995 ../gsearchtool/gsearchtool.c:1033
+#: ../gsearchtool/gsearchtool.c:999 ../gsearchtool/gsearchtool.c:1037
 #, c-format
 msgid "%'d file found"
 msgid_plural "%'d files found"
 msgstr[0] "找到 %'d 個檔案"
 
-#: ../gsearchtool/gsearchtool.c:1124
+#: ../gsearchtool/gsearchtool.c:1128
 msgid "Entry changed called for a non entry option!"
 msgstr "已變更的欄位使用了無效的欄位選項！"
 
-#: ../gsearchtool/gsearchtool.c:1284
+#: ../gsearchtool/gsearchtool.c:1288
 msgid "Set the text of \"Name contains\" search option"
 msgstr "預先填上在「檔名中含有」搜尋選項中的文字"
 
-#: ../gsearchtool/gsearchtool.c:1285
+#: ../gsearchtool/gsearchtool.c:1289
 msgid "Set the text of \"Look in folder\" search option"
 msgstr "預先填上在「在資料夾中搜尋」搜尋選項中的文字"
 
-#: ../gsearchtool/gsearchtool.c:1286
+#: ../gsearchtool/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
 msgstr "根據以下其中一種屬性排列檔案：名稱、資料夾、大小、類型或日期"
 
-#: ../gsearchtool/gsearchtool.c:1287
+#: ../gsearchtool/gsearchtool.c:1291
 msgid "Set sort order to descending, the default is ascending"
 msgstr "設定為相反次序排列（預設為順序排列）"
 
-#: ../gsearchtool/gsearchtool.c:1288
+#: ../gsearchtool/gsearchtool.c:1292
 msgid "Automatically start a search"
 msgstr "自動開始搜尋"
 
-#: ../gsearchtool/gsearchtool.c:1294
+#: ../gsearchtool/gsearchtool.c:1298
 #, c-format
 msgid "Select the \"%s\" search option"
 msgstr "選擇搜尋選項“%s”"
 
-#: ../gsearchtool/gsearchtool.c:1297
+#: ../gsearchtool/gsearchtool.c:1301
 #, c-format
 msgid "Select and set the \"%s\" search option"
 msgstr "選擇及設定搜尋選項“%s”"
 
-#: ../gsearchtool/gsearchtool.c:1404
+#: ../gsearchtool/gsearchtool.c:1408
 msgid "Invalid option passed to sortby command line argument."
 msgstr "sortby 參數中的選項無效。"
 
-#: ../gsearchtool/gsearchtool.c:1698
+#: ../gsearchtool/gsearchtool.c:1702
 msgid ""
 "\n"
 "... Too many errors to display ..."
@@ -2565,163 +2444,163 @@ msgstr ""
 "\n"
 "... 錯誤過多，無法顯示 ..."
 
-#: ../gsearchtool/gsearchtool.c:1712
+#: ../gsearchtool/gsearchtool.c:1716
 msgid ""
 "The search results may be invalid.  There were errors while performing this "
 "search."
 msgstr "搜尋結果可能無效。進行搜尋時發生錯誤。"
 
-#: ../gsearchtool/gsearchtool.c:1721 ../gsearchtool/gsearchtool.c:1762
+#: ../gsearchtool/gsearchtool.c:1725 ../gsearchtool/gsearchtool.c:1766
 msgid "Show more _details"
 msgstr "顯示更多訊息(_D)"
 
-#: ../gsearchtool/gsearchtool.c:1751
+#: ../gsearchtool/gsearchtool.c:1755
 msgid ""
 "The search results may be out of date or invalid.  Do you want to disable "
 "the quick search feature?"
 msgstr "搜尋結果可能過時或者無效。您想要停止使用快速搜尋功能？"
 
-#: ../gsearchtool/gsearchtool.c:1773
+#: ../gsearchtool/gsearchtool.c:1777
 msgid "Disable _Quick Search"
 msgstr "停止使用快速搜尋功能(_Q)"
 
-#: ../gsearchtool/gsearchtool.c:1800
+#: ../gsearchtool/gsearchtool.c:1804
 #, c-format
 msgid "Failed to set process group id of child %d: %s.\n"
 msgstr "設定子程序 %d 的群組 id 失敗：%s。\n"
 
-#: ../gsearchtool/gsearchtool.c:1825
+#: ../gsearchtool/gsearchtool.c:1829
 msgid "Error parsing the search command."
 msgstr "分析搜尋指令時發生錯誤"
 
-#: ../gsearchtool/gsearchtool.c:1854
+#: ../gsearchtool/gsearchtool.c:1858
 msgid "Error running the search command."
 msgstr "執行搜尋指令時發生錯誤"
 
-#: ../gsearchtool/gsearchtool.c:1970
+#: ../gsearchtool/gsearchtool.c:1974
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
 msgstr "輸入搜尋選項“%s”搜尋用的文字。"
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
-#: ../gsearchtool/gsearchtool.c:1975
+#: ../gsearchtool/gsearchtool.c:1979
 #, c-format
 msgid "\"%s\" in %s"
 msgstr "“%s”%s"
 
-#: ../gsearchtool/gsearchtool.c:1977
+#: ../gsearchtool/gsearchtool.c:1981
 #, c-format
 msgid "Enter a value in %s for the \"%s\" search option."
 msgstr "在 %s 輸入搜尋選項“%s”的數值。"
 
-#: ../gsearchtool/gsearchtool.c:2035
+#: ../gsearchtool/gsearchtool.c:2039
 #, c-format
 msgid "Remove \"%s\""
 msgstr "移除“%s”"
 
-#: ../gsearchtool/gsearchtool.c:2036
+#: ../gsearchtool/gsearchtool.c:2040
 #, c-format
 msgid "Click to remove the \"%s\" search option."
 msgstr "按這裡移除搜尋選項“%s”。"
 
-#: ../gsearchtool/gsearchtool.c:2129
+#: ../gsearchtool/gsearchtool.c:2133
 msgid "A_vailable options:"
 msgstr "目前提供的選項(_V):"
 
-#: ../gsearchtool/gsearchtool.c:2158
+#: ../gsearchtool/gsearchtool.c:2162
 msgid "Available options"
 msgstr "可用選項"
 
-#: ../gsearchtool/gsearchtool.c:2159
+#: ../gsearchtool/gsearchtool.c:2163
 msgid "Select a search option from the drop-down list."
 msgstr "在下拉式選單中選擇搜尋選項。"
 
-#: ../gsearchtool/gsearchtool.c:2171
+#: ../gsearchtool/gsearchtool.c:2175
 msgid "Add search option"
 msgstr "加入搜尋選項"
 
-#: ../gsearchtool/gsearchtool.c:2172
+#: ../gsearchtool/gsearchtool.c:2176
 msgid "Click to add the selected available search option."
 msgstr "按這裡加入搜尋選項。"
 
-#: ../gsearchtool/gsearchtool.c:2261
+#: ../gsearchtool/gsearchtool.c:2265
 msgid "S_earch results:"
 msgstr "搜尋結果(_E):"
 
-#: ../gsearchtool/gsearchtool.c:2305
+#: ../gsearchtool/gsearchtool.c:2309
 msgid "List View"
 msgstr "清單顯示"
 
-#: ../gsearchtool/gsearchtool.c:2414
+#: ../gsearchtool/gsearchtool.c:2418
 msgid "Type"
 msgstr "類型"
 
-#: ../gsearchtool/gsearchtool.c:2426
+#: ../gsearchtool/gsearchtool.c:2430
 msgid "Date Modified"
 msgstr "修改日期"
 
-#: ../gsearchtool/gsearchtool.c:2742
+#: ../gsearchtool/gsearchtool.c:2746
 msgid "_Name contains:"
 msgstr "名稱包含(_N):"
 
-#: ../gsearchtool/gsearchtool.c:2756 ../gsearchtool/gsearchtool.c:2757
+#: ../gsearchtool/gsearchtool.c:2760 ../gsearchtool/gsearchtool.c:2761
 msgid "Enter a filename or partial filename with or without wildcards."
 msgstr "輸入檔案的名稱或檔案部份的名稱（名稱中可配合萬用字元）。"
 
-#: ../gsearchtool/gsearchtool.c:2757
+#: ../gsearchtool/gsearchtool.c:2761
 msgid "Name contains"
 msgstr "名稱包含"
 
-#: ../gsearchtool/gsearchtool.c:2763
+#: ../gsearchtool/gsearchtool.c:2767
 msgid "_Look in folder:"
 msgstr "在資料夾中搜尋(_L):"
 
-#: ../gsearchtool/gsearchtool.c:2769
+#: ../gsearchtool/gsearchtool.c:2773
 msgid "Browse"
 msgstr "瀏覽"
 
-#: ../gsearchtool/gsearchtool.c:2778
+#: ../gsearchtool/gsearchtool.c:2782
 msgid "Look in folder"
 msgstr "在資料夾中搜尋"
 
-#: ../gsearchtool/gsearchtool.c:2778
+#: ../gsearchtool/gsearchtool.c:2782
 msgid "Select the folder or device from which you want to begin the search."
 msgstr "選擇準備搜尋的資料夾或裝置。"
 
-#: ../gsearchtool/gsearchtool.c:2796
+#: ../gsearchtool/gsearchtool.c:2800
 msgid "Select more _options"
 msgstr "選擇更多選項(_O)"
 
-#: ../gsearchtool/gsearchtool.c:2805
+#: ../gsearchtool/gsearchtool.c:2809
 msgid "Select more options"
 msgstr "選擇更多選項"
 
-#: ../gsearchtool/gsearchtool.c:2805
+#: ../gsearchtool/gsearchtool.c:2809
 msgid "Click to expand or collapse the list of available options."
 msgstr "按這裡展開或收起一系列搜尋選項。"
 
-#: ../gsearchtool/gsearchtool.c:2829
+#: ../gsearchtool/gsearchtool.c:2833
 msgid "Click to display the help manual."
 msgstr "按下本按鈕來顯示說明文件。"
 
-#: ../gsearchtool/gsearchtool.c:2837
+#: ../gsearchtool/gsearchtool.c:2841
 msgid "Click to close \"Search for Files\"."
 msgstr "按下本按鈕來關閉「搜尋檔案」。"
 
-#: ../gsearchtool/gsearchtool.c:2863
+#: ../gsearchtool/gsearchtool.c:2867
 msgid "Click to perform a search."
 msgstr "按下本按鈕來進行搜尋"
 
-#: ../gsearchtool/gsearchtool.c:2864
+#: ../gsearchtool/gsearchtool.c:2868
 msgid "Click to stop a search."
 msgstr "按下本按鈕來停止搜尋。"
 
-#: ../gsearchtool/gsearchtool.c:2957
+#: ../gsearchtool/gsearchtool.c:2961
 msgid "- the GNOME Search Tool"
 msgstr "- GNOME 搜尋工具"
 
-#: ../gsearchtool/gsearchtool.c:2966
+#: ../gsearchtool/gsearchtool.c:2970
 #, c-format
 msgid "Failed to parse command line arguments: %s\n"
 msgstr "無法解析命令列引數：%s\n"
@@ -3201,975 +3080,29 @@ msgstr "字型檢視程式"
 msgid "Preview fonts"
 msgstr "預覽字型"
 
-#~ msgid "Dictionary server (Deprecated)"
-#~ msgstr "字典伺服器（不建議再使用）"
+#~ msgid "Dictionary Look up"
+#~ msgstr "查字典"
 
-#~ msgid "Port used to connect to server (Deprecated)"
-#~ msgstr "連接至伺服器所用的連接埠（不建議再使用）"
+#~ msgid "Look up words in a dictionary"
+#~ msgstr "在字典中查字詞"
 
-#~ msgid ""
-#~ "Specify whether to use smart lookup. This key is dependant on whether the "
-#~ "dictionary server supports this option. The default is TRUE. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "是否使用智慧型檢索。本設定鍵會否生效取決於字典伺服器是否支援這個選項。預設"
-#~ "為 TRUE。本設定鍵被認定為過時而且不再被使用。"
+#~ msgid "Cl_ear"
+#~ msgstr "清除(_E)"
 
-#~ msgid "The default height of the application window"
-#~ msgstr "應用程式視窗預設高度"
+#~ msgid "_Look Up Selected Text"
+#~ msgstr "查詢已選字詞(_L)"
 
-#~ msgid "The default width of the application window"
-#~ msgstr "應用程式視窗的預設寬度"
+#~ msgid "_Print"
+#~ msgstr "列印(_P)"
 
-#~ msgid ""
-#~ "The dictionary server to connect to. The default server is dict.org. See "
-#~ "http://www.dict.org for details on other servers. This key is deprecated "
-#~ "and no longer in use."
-#~ msgstr ""
-#~ "要連接的字典伺服器。預設的伺服器為 dict.org。請瀏覽 http://www.dict.org 獲"
-#~ "取有關其它伺服器的詳情。本設定鍵被認定為過時而且不再被使用。"
+#~ msgid "_Save"
+#~ msgstr "儲存(_S)"
 
-#~ msgid "The page of the sidebar to show"
-#~ msgstr "側面窗格顯示的頁次"
+#~ msgid "Clear the definitions found"
+#~ msgstr "清除找到的字詞解釋"
 
-#~ msgid ""
-#~ "The port number to connect to. The default port is 2628. This key is "
-#~ "deprecated and no longer in use."
-#~ msgstr ""
-#~ "連線至指定的連接埠。預設連接埠為 2628。本設定鍵被認定為過時而且不再被使"
-#~ "用。"
+#~ msgid "Clear definition"
+#~ msgstr "清除字詞解釋"
 
-#~ msgid "The width of the sidebar"
-#~ msgstr "側面窗格的寬度"
-
-#~ msgid ""
-#~ "This key defines the width of the sidebar and it's used to remember the "
-#~ "setting across sessions."
-#~ msgstr "本設定鍵定義側面窗格的寬度，及記錄其在其它作業階段的設定"
-
-#~ msgid ""
-#~ "This key defines the window height and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a height based on the font size."
-#~ msgstr ""
-#~ "本設定鍵定義視窗的高度，及記錄其在其它作業階段中字典視窗的大小。如果將其值"
-#~ "設為 -1，則會使視窗根據字型大小來決定高度。"
-
-#~ msgid ""
-#~ "This key defines the window width and it's used to remember the size of "
-#~ "the dictionary window across sessions. Setting it to -1 will make the "
-#~ "dictionary window use a width based on the font size."
-#~ msgstr ""
-#~ "這個關鍵字解釋視窗的寬度，而且在不同的執行階段間記住字典典視窗的大小。如果"
-#~ "將它的值設為 -1 則會使視窗根據字型大小來決定寬度。"
-
-#~ msgid ""
-#~ "This key defines whether the sidebar should be visible and it's used to "
-#~ "remember the state of the sidebar across sessions. Setting it to TRUE "
-#~ "will make the sidebar always be displayed."
-#~ msgstr ""
-#~ "本設定鍵決定是否顯示側面窗格，及記錄其在其它作業階段的狀態。如設定為 TRUE "
-#~ "則總會顯示側面窗格。"
-
-#~ msgid ""
-#~ "This key defines whether the statusbar should be visible and it's used to "
-#~ "remember the state of the statusbar across sessions. Setting it to TRUE "
-#~ "will make the statusbar always be displayed."
-#~ msgstr ""
-#~ "本設定鍵決定是否顯示狀態列，及記錄其在其它作業階段的狀態。如設定為 TRUE 則"
-#~ "總會顯示狀態列。"
-
-#~ msgid ""
-#~ "This key defines whether the window should be maximized and it's used to "
-#~ "remember the state of the dictionary window across sessions. Setting it "
-#~ "to TRUE will make the window always appear as maximized."
-#~ msgstr ""
-#~ "本設定鍵定義視窗是否最大化，及記錄其在其它作業階段中字典視窗的狀態。如設定"
-#~ "為 TRUE 則會使視窗總是會以保持最大化形式顯示。"
-
-#~ msgid ""
-#~ "This key defines which page of the sidebar should be displayed and it's "
-#~ "used to remember the setting across sessions.. It can be \"speller\" or "
-#~ "\"databases\"."
-#~ msgstr ""
-#~ "本設定鍵決定側面窗格會顯示那一頁次，及記錄其在其它作業階段中的設定。可用的"
-#~ "數值為“speller”或“databases”。"
-
-#~ msgid "Use smart lookup (Deprecated)"
-#~ msgstr "使用智慧型檢索（不建議再使用）"
-
-#~ msgid "Whether the application window should be maximized"
-#~ msgstr "應用程式視窗是否該被最大化"
-
-#~ msgid "Whether the sidebar should be visible"
-#~ msgstr "應否顯示側面窗格"
-
-#~ msgid "Whether the statusbar should be visible"
-#~ msgstr "應否顯示狀態列"
-
-#~ msgid ""
-#~ "Definition for '%s'\n"
-#~ "  From '%s':\n"
-#~ "\n"
-#~ "%s\n"
-#~ msgstr ""
-#~ "‘%s’的解釋\n"
-#~ " 來自‘%s’：\n"
-#~ "\n"
-#~ "%s\n"
-
-#~ msgid "Error: %s\n"
-#~ msgstr "錯誤：%s\n"
-
-#~ msgid "See gnome-dictionary --help for usage\n"
-#~ msgstr "執行 gnome-dictionary --help 來查詢使用方法\n"
-
-#~ msgid "Unable to find a suitable dictionary source"
-#~ msgstr "無法找到合適的字典來源"
-
-#~ msgid ""
-#~ "Error while looking up the definition of \"%s\":\n"
-#~ "%s"
-#~ msgstr ""
-#~ "查詢“%s”解釋時發生錯誤：\n"
-#~ "%s"
-
-#~ msgid "word"
-#~ msgstr "字詞"
-
-#~ msgid "source"
-#~ msgstr "來源"
-
-#~ msgid "Show available dictionary sources"
-#~ msgstr "顯示現存的字典來源"
-
-#~ msgid "Print result to the console"
-#~ msgstr "將結果輸出至終端機"
-
-#~ msgid "db"
-#~ msgstr "db"
-
-#~ msgid "strat"
-#~ msgstr "strat"
-
-#~ msgid "Unable to rename file '%s' to '%s': %s"
-#~ msgstr "無法將檔案‘%s’更名為‘%s’：%s"
-
-#~ msgid "Unable to create the data directory '%s': %s"
-#~ msgstr "無法建構資料目錄‘%s’：%s"
-
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr "如設定為「true」，則會顯示 OpenType 字型的縮圖。"
-
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr "如設定為「true」，則會顯示 PCF 字型的縮圖。"
-
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr "如設定為「true」，則會顯示 TrueType 字型的縮圖。"
-
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr "如設定為「true」，則會顯示 Type1 字型的縮圖。"
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr "本設定鍵指定了用來製作 OpenType 字型縮圖的指令。"
-
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr "本設定鍵指定了用來製作 PCF 字型縮圖的指令。"
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr "本設定鍵指定了用來製作 TrueType 字型縮圖的指令。"
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr "本設定鍵指定了用來製作 Type1 字型縮圖的指令。"
-
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "製作 OpenType 字型縮圖的指令"
-
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "製作 PCF 字型縮圖的指令"
-
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "製作 TrueType 字型縮圖的指令"
-
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "製作 Type1 字型縮圖的指令"
-
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "是否為 OpenType 字型製作縮圖"
-
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "是否為 PCF 字型製作縮圖"
-
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "是否為 TrueType 字型製作縮圖"
-
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "是否為 Type1 字型製作縮圖"
-
-#~ msgid "Enable monitoring of home directory"
-#~ msgstr "啟用個人資料夾監察"
-
-#~ msgid "Subfolders tooltips visible"
-#~ msgstr "子資料夾工具提示可見性"
-
-#~ msgid "Whether the subfolder tooltips of the selected folder are drawn."
-#~ msgstr "是否顯示選取的資料夾之子資料夾工具提示。"
-
-#~ msgid "Save snapshot"
-#~ msgstr "儲存螢幕截圖"
-
-#~ msgid "Floppy Formatter"
-#~ msgstr "軟碟格式化程式"
-
-#~ msgid "Format floppy disks"
-#~ msgstr "軟碟格式化"
-
-#~ msgid ""
-#~ "0 for the quick format, 1 for a standard one (adds a low-level format) "
-#~ "and finally 2 for a thorough format (adds a bad blocks scan)."
-#~ msgstr ""
-#~ "0 表示快速格式化，1 表示標準格式化（加上低階格式化），而 2 表示較徹底的格"
-#~ "式化（加上壞磁區掃描）。"
-
-#~ msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
-#~ msgstr "※只適合進階使用者※ ─ 格式化 FAT 所使用的預設後端程序"
-
-#~ msgid "Default filesystem type"
-#~ msgstr "預設檔案系統類型"
-
-#~ msgid "Default formatting mode"
-#~ msgstr "預設格式化方式"
-
-#~ msgid ""
-#~ "TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to "
-#~ "set mtools as the preferred FAT formatting backend."
-#~ msgstr ""
-#~ "如選用本選項，表示優先選用 mkdosfs 作為格式化 FAT 檔案系統的後端程序，否則"
-#~ "表示優先選用 mtools。"
-
-#~ msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
-#~ msgstr ""
-#~ "ext2 表示 linux 沿用的檔案系統，或是 fat 表示 DOS/Windows 的檔案系統。"
-
-#~ msgid "Internal Error: Unable to seek to the correct location."
-#~ msgstr "內部錯誤：無法搜尋正確的位置。"
-
-#~ msgid "Internal Error: Weird value (%ld) in do_test\n"
-#~ msgstr "內部錯誤：do_test 中的值 (%ld) 有誤\n"
-
-#~ msgid "Checking for bad blocks..."
-#~ msgstr "檢查壞磁區…"
-
-#~ msgid "Failed to open device %s for badblock checking\n"
-#~ msgstr "開啟裝置 %s 失敗，無法檢查壞磁區\n"
-
-#~ msgid "Checking for bad blocks... Done"
-#~ msgstr "檢查壞磁區…完成"
-
-#~ msgid "Formatting the disk..."
-#~ msgstr "格式化碟片…"
-
-#~ msgid "I don't know what this is, but it's very wrong."
-#~ msgstr "仍未清楚實際情況，不過肯定是出了問題。"
-
-#~ msgid "Error formatting track #%d"
-#~ msgstr "格式化第 %d 個磁軌時發生錯誤"
-
-#~ msgid "Error during completion of formatting"
-#~ msgstr "進行格式化最後程序時發生錯誤"
-
-#~ msgid "Formatting the disk... Done"
-#~ msgstr "格式化碟片…完成"
-
-#~ msgid "Verifying the format..."
-#~ msgstr "正在檢驗格式…"
-
-#~ msgid ""
-#~ "Unable to write to the floppy.\n"
-#~ "\n"
-#~ "Please confirm that it is not write-protected."
-#~ msgstr ""
-#~ "無法寫入軟碟。\n"
-#~ "\n"
-#~ "請確保軟碟沒有加上防寫保護。"
-
-#~ msgid "Insufficient permissions to open floppy device %s."
-#~ msgstr "沒有足夠權限開啟軟碟裝置 %s。"
-
-#~ msgid ""
-#~ "Unable to access the floppy disk.\n"
-#~ "\n"
-#~ "Please confirm that it is in the drive\n"
-#~ "with the drive door shut."
-#~ msgstr ""
-#~ "無法存取磁軟碟。\n"
-#~ "\n"
-#~ "請確保軟碟已放進軟碟機中\n"
-#~ "而且活門已經關閉。"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s:%d"
-#~ msgstr ""
-#~ "在存取軟碟裝置 %s 時發生一般性錯誤。\n"
-#~ "\n"
-#~ "錯誤碼為 %s:%d"
-
-#~ msgid ""
-#~ "Read Error:\n"
-#~ "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr ""
-#~ "讀取資料時發生錯誤：\n"
-#~ "問題發生在第 %d 個磁區，預計資料為 %d，實際讀取資料為 %d"
-
-#~ msgid "Problem reading cylinder %d, expected %d, read %d"
-#~ msgstr "問題發生在第 %d 個磁區，預計資料為 %d，實際讀取資料為 %d"
-
-#~ msgid "Bad data in cyl %d.  Continuing... "
-#~ msgstr "第 %d 個磁區有壞磁軌。繼續格式化…"
-
-#~ msgid "Error closing device %s"
-#~ msgstr "關閉裝置 %s 時發生錯誤"
-
-#~ msgid "Verifying the format... Done"
-#~ msgstr "檢驗格式…完成"
-
-#~ msgid "Unable to write to device %s"
-#~ msgstr "無法寫入裝置 %s"
-
-#~ msgid ""
-#~ "Generic error accessing floppy device %s.\n"
-#~ "\n"
-#~ "Error code %s"
-#~ msgstr ""
-#~ "存取軟碟裝置 %s 時發生一般性錯誤。\n"
-#~ "\n"
-#~ "錯誤代碼 %s"
-
-#~ msgid "Could not determine current floppy geometry."
-#~ msgstr "無法決定目前軟碟片的大小。"
-
-#~ msgid "Error while creating a unique filename for the bad blocks list file."
-#~ msgstr "當為壞磁區清單檔命名時發生錯誤。"
-
-#~ msgid "Error while filling the bad blocks list file."
-#~ msgstr "當填上壞磁區清單檔案時發生錯誤。"
-
-#~ msgid "Error while spawning the (%s) command: %s."
-#~ msgstr "執行 (%s) 指令時發生錯誤：%s。"
-
-#~ msgid "Unknown mke2fs starting signature, cancelling."
-#~ msgstr "不明的 mke2fs 輸出結果，取消操作程序。"
-
-#~ msgid ""
-#~ "The filesystem creation utility (%s) reported the following errors:\n"
-#~ "\n"
-#~ "%s (%d)"
-#~ msgstr ""
-#~ "檔案系統製作程式 (%s) 回報了以下的錯誤：\n"
-#~ "\n"
-#~ "%s (%d)"
-
-#~ msgid "Abnormal child process termination."
-#~ msgstr "副進程不正常地中止了。"
-
-#~ msgid "Error while spawning the mbadblocks command: %s."
-#~ msgstr "當啟動 mbadblocks 指令時出錯：%s。"
-
-#~ msgid ""
-#~ "The bad blocks checking utility (mbadblocks) reported the following "
-#~ "errors:\n"
-#~ "%s."
-#~ msgstr ""
-#~ "壞磁區檢查公用程式 (mbadblocks) 回報了以下的錯誤：\n"
-#~ "%s。"
-
-#~ msgid "Abnormal mbadblocks child process termination."
-#~ msgstr "mbadblocks 副進程不正常地中止了。"
-
-#~ msgid "Making filesystem on disk..."
-#~ msgstr "在碟片中建構檔案系統…"
-
-#~ msgid "Unable to create filesystem correctly."
-#~ msgstr "無法正確地建構檔案系統。"
-
-#~ msgid "Making filesystem on disk... Done"
-#~ msgstr "在碟片中建構檔案系統…完成"
-
-#~ msgid "Checking for bad blocks... (this might take a while)"
-#~ msgstr "正在檢查壞磁區…（可能需要一段時間）"
-
-#~ msgid "Error while checking the bad blocks."
-#~ msgstr "檢查壞磁區時出現錯誤。"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid ""
-#~ "<small><i><b>Note</b>: The mbadblocks utility isn't installed on this "
-#~ "system.  It must be installed in order to perform a thorough DOS (fat) "
-#~ "formatting.</i></small>"
-#~ msgstr ""
-#~ "<small><i><b>注意</b>：系統中沒有安裝 mbadblocks 公用程式。如果要進行徹底"
-#~ "的 DOS (fat) 格式化，就必須安裝該程式。</i></small>"
-
-#~ msgid "DOS (FAT)"
-#~ msgstr "DOS (FAT)"
-
-#~ msgid "Double Density 3.5\" (720KB)"
-#~ msgstr "倍密度 3.5\" (720 KB)"
-
-#~ msgid "Double Density 5.25\" (360KB)"
-#~ msgstr "倍密度 5.25\" (360 KB)"
-
-#~ msgid "File system _type:"
-#~ msgstr "檔案系統類型(_T):"
-
-#~ msgid "Filesystem Settings"
-#~ msgstr "檔案系統設定"
-
-#~ msgid "Floppy _density:"
-#~ msgstr "軟碟密度(_D):"
-
-#~ msgid "Floppy de_vice:"
-#~ msgstr "軟碟裝置(_V):"
-
-#~ msgid "Formatting Mode"
-#~ msgstr "格式化方式"
-
-#~ msgid "High Density 3.5\" (1.44MB)"
-#~ msgstr "高密度 3.5\" (1.44 MB)"
-
-#~ msgid "High Density 5.25\" (1.2MB)"
-#~ msgstr "高密度 5.25\" (1.2 MB)"
-
-#~ msgid "Linux Native (ext2)"
-#~ msgstr "Linux Native (ext2)"
-
-#~ msgid "Physical Settings"
-#~ msgstr "物理設定"
-
-#~ msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
-#~ msgstr "徹底[在標準模式上加上壞磁區檢查](_G)"
-
-#~ msgid "Volume _name:"
-#~ msgstr "檔案系統標記名稱(_N):"
-
-#~ msgid "_Format"
-#~ msgstr "格式化(_F)"
-
-#~ msgid "_Quick (only creates the filesystem)"
-#~ msgstr "快速[只建構檔案系統](_Q)"
-
-#~ msgid "_Standard (adds a low-level format to the quick mode)"
-#~ msgstr "標準[在快速模式上加上低階格式化](_S)"
-
-#~ msgid "Cannot Format"
-#~ msgstr "無法格式化"
-
-#~ msgid ""
-#~ "Neither the mke2fs nor the mkdosfs/mformat applications are installed. "
-#~ "You can't format a floppy without one of them."
-#~ msgstr ""
-#~ "mke2fs 及 mkdosfs/mformat 程式都沒有安裝。將磁片格式化至少需要其中一個程"
-#~ "式。"
-
-#~ msgid "Unable to open the device %s, formatting cannot continue."
-#~ msgstr "無法開啟 %s 裝置，不能繼續格式化。"
-
-#~ msgid ""
-#~ "The device %s is disconnected.\n"
-#~ "Please attach device to continue."
-#~ msgstr ""
-#~ "%s 裝置並未連接至電腦。\n"
-#~ "請接上裝置後再繼續。"
-
-#~ msgid ""
-#~ "You do not have the proper permissions to write to %s, formatting will "
-#~ "not be possible.\n"
-#~ "Contact your system administrator about getting write permissions."
-#~ msgstr ""
-#~ "沒有足夠的權限寫入 %s，不可能格式化。\n"
-#~ "若要獲得寫入的權限，請連絡系統管理員。"
-
-#~ msgid "Cannot initialize device"
-#~ msgstr "裝置無法起動"
-
-#~ msgid "Unable to open any device, formatting cannot continue."
-#~ msgstr "無法開啟任何裝置，不能繼續格式化。"
-
-#~ msgid "/dev/floppy/0 or /dev/fd0"
-#~ msgstr "/dev/floppy/0 或 /dev/fd0"
-
-#~ msgid "Could not display help for the floppy formatter."
-#~ msgstr "無法顯示軟碟格式化程式的說明文件。"
-
-#~ msgid "Incorrect volume name"
-#~ msgstr "不正確的檔案系統名稱"
-
-#~ msgid "The volume name can't contain any blank space."
-#~ msgstr "檔案系統標記名稱內不可含有任何空格。"
-
-#~ msgid "The device to format"
-#~ msgstr "準備格式化的裝置"
-
-#~ msgid "DEVICE"
-#~ msgstr "裝置"
-
-#~ msgid "- Floppy Formatter"
-#~ msgstr "- 軟碟格式化程式"
-
-#~ msgid ""
-#~ "The floppy has been formatted, but <b>%d bad block</b> (out of %d) has "
-#~ "been found and marked."
-#~ msgid_plural ""
-#~ "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
-#~ "been found and marked."
-#~ msgstr[0] ""
-#~ "軟碟片已經成功格式化，但在 %2$d 個磁區中找到 <b>%1$d 個壞磁區</b>，全部都"
-#~ "已加上標記。"
-
-#~ msgid "Floppy formatted successfully."
-#~ msgstr "軟碟格式化成功。"
-
-#~ msgid "Floppy formatting cancelled."
-#~ msgstr "取消格式化軟碟的動作。"
-
-#~ msgid "Format Progress"
-#~ msgstr "格式化進度"
-
-#~ msgid "Dictionary Server"
-#~ msgstr "字典伺服器"
-
-#~ msgid "Grab a selected _area"
-#~ msgstr "擷取已選取的區域(_A)"
-
-#~ msgid "O_pen Folder"
-#~ msgstr "開啟資料夾(_P)"
-
-#~ msgid "Close"
-#~ msgstr "關閉"
-
-#~ msgid "Enter Password"
-#~ msgstr "輸入密碼"
-
-#~ msgid "Dictionary and spelling tool"
-#~ msgstr "字典及拼字檢查工具"
-
-#~ msgid "System Log"
-#~ msgstr "系統日誌"
-
-#~ msgid "Current"
-#~ msgstr "目前"
-
-#~ msgid "One file or more could not be opened"
-#~ msgstr "一個或更多的檔案無法開啟"
-
-#~ msgid ""
-#~ "%s is not user readable. Either run the program as root or ask the "
-#~ "sysadmin to change the permissions on the file.\n"
-#~ msgstr ""
-#~ "%s 並非使用者能讀取的。您以 root 來執行程式，或是要求系統管理員變更檔案的"
-#~ "權限。\n"
-
-#~ msgid "%s is too big."
-#~ msgstr "%s 太大。"
-
-#~ msgid "%s could not be opened."
-#~ msgstr "無法開啟 %s。"
-
-#~ msgid "%s is not a log file."
-#~ msgstr "%s 不是日誌檔案。"
-
-#~ msgid "Not enough memory."
-#~ msgstr "記憶體不足。"
-
-#~ msgid "%s cannot be opened."
-#~ msgstr "無法開啟 %s。"
-
-#~ msgid "_Clear"
-#~ msgstr "清除(_C)"
-
-#~ msgid "_Filter..."
-#~ msgstr "篩選(_F)…"
-
-#~ msgid "Filter log"
-#~ msgstr "篩選日誌檔"
-
-#~ msgid "Collapse _All"
-#~ msgstr "全部收起(_A)"
-
-#~ msgid "Collapse all the rows"
-#~ msgstr "將展開的紀錄內容全部摺疊"
-
-#~ msgid "Monitor Current Log"
-#~ msgstr "監視目前的日誌"
-
-#~ msgid "Ca_lendar"
-#~ msgstr "日曆(_L)"
-
-#~ msgid "Show Calendar Log"
-#~ msgstr "顯示日曆日誌"
-
-#~ msgid "%s (monitored) - %s"
-#~ msgstr "%s（監視中）- %s"
-
-#~ msgid "Days"
-#~ msgstr "天"
-
-#~ msgid "Pointer towards a GSList of days for the current log."
-#~ msgstr "為目前的日誌指到幾天的 GSList"
-
-#~ msgid "Show System Log Viewer options"
-#~ msgstr "顯示系統日誌檢視程式選項"
-
-#~ msgid "Unable to create user interface."
-#~ msgstr "無法建構使用者介面"
-
-#~ msgid "January"
-#~ msgstr "一月"
-
-#~ msgid "February"
-#~ msgstr "二月"
-
-#~ msgid "March"
-#~ msgstr "三月"
-
-#~ msgid "April"
-#~ msgstr "四月"
-
-#~ msgid "May"
-#~ msgstr "五月"
-
-#~ msgid "June"
-#~ msgstr "六月"
-
-#~ msgid "July"
-#~ msgstr "七月"
-
-#~ msgid "August"
-#~ msgstr "八月"
-
-#~ msgid "September"
-#~ msgstr "九月"
-
-#~ msgid "October"
-#~ msgstr "十月"
-
-#~ msgid "November"
-#~ msgstr "十一月"
-
-#~ msgid "December"
-#~ msgstr "十二月"
-
-#~ msgid "Invalid date"
-#~ msgstr "無效的日期"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "This file cannot be monitored."
-#~ msgstr "無法監察此檔案。"
-
-#~ msgid "File monitoring is not supported on this file system.\n"
-#~ msgstr "檔案監察功能不支援此檔案系統。\n"
-
-#~ msgid "Gnome-VFS Error.\n"
-#~ msgstr "Gnome-VFS 錯誤。\n"
-
-#~ msgid "Refresh graph"
-#~ msgstr "重整圖表"
-
-#~ msgid "Take a snapshot"
-#~ msgstr "拍下螢幕截圖"
-
-#~ msgid "Zoom 100%"
-#~ msgstr "原來大小"
-
-#~ msgid "_Depth level:"
-#~ msgstr "深度層級(_D)："
-
-#~ msgid "_Graphical Usage Map"
-#~ msgstr "使用率對映圖(_G)"
-
-#~ msgid "_Total folders:"
-#~ msgstr "資料夾總數(_T)："
-
-#~ msgid "Invalid UTF-8 characters"
-#~ msgstr "無效的 UTF-8 字元"
-
-#~ msgid "Unlimited"
-#~ msgstr "無限制"
-
-#~ msgid "Cannot allocate memory for graphical window!"
-#~ msgstr "無法為圖形化視窗配置記憶體！"
-
-#~ msgid "Graphical Usage Map"
-#~ msgstr "使用率對映圖"
-
-#~ msgid "\"%s\" is not a valid location"
-#~ msgstr "“%s”不是有效的位置"
-
-#~ msgid "Please check the spelling and try again."
-#~ msgstr "請檢查拼字是否正確並再試一次。"
-
-#~ msgid "%s on %s"
-#~ msgstr "%s 於 %s"
-
-#~ msgid "_Remove from Trash"
-#~ msgstr "從回收筒中移除(_R)"
-
-#~ msgid "The folder \"%s\" was not moved to the trash."
-#~ msgstr "無法將資料夾“%s”移至回收筒。"
-
-#~ msgid "Could not find a Trash folder on this system"
-#~ msgstr "找不到本系統的回收筒資料夾"
-
-#~ msgid "Delete the folder \"%s\" permanently?"
-#~ msgstr "永久刪除資料夾“%s”？"
-
-#~ msgid "Could not move the folder to the trash."
-#~ msgstr "無法將資料夾丟進回收筒。"
-
-#~ msgid "_Delete Folder"
-#~ msgstr "刪除資料夾(_D)"
-
-#~ msgid "Could not delete the folder \"%s\""
-#~ msgstr "無法刪除資料夾“%s”"
-
-#~ msgid "(%d:%02d:%d Remaining)"
-#~ msgstr "（剩餘 %d:%02d:%d）"
-
-#~ msgid "(%d:%02d Remaining)"
-#~ msgstr "（剩餘 %d:%02d）"
-
-#~ msgid "%ld of %ld"
-#~ msgstr "%ld 之 %ld"
-
-#~ msgid "Options for Screenshot"
-#~ msgstr "螢幕截圖的選項"
-
-#~ msgid "Preparing to copy"
-#~ msgstr "正在準備複製"
-
-#~ msgid "Unknown GnomeVFSXferProgressStatus %d"
-#~ msgstr "不明的 GnomeVFSXferProgressStatus %d"
-
-#~ msgid "Analyze disk usage"
-#~ msgstr "分析磁碟使用率"
-
-#~ msgid "The GdictContext object bound to this entry"
-#~ msgstr "連結這個進入點的 GdictContext"
-
-#~ msgid "The database to be used to generate the completion list"
-#~ msgstr "用來產生完整列表的資料庫"
-
-#~ msgid "The matching strategy to be used to generate the completion list"
-#~ msgstr "用來產生完整列表的比對方法"
-
-#~ msgid "%s (page %d)"
-#~ msgstr "%s(第 %d 頁)"
-
-#~ msgid "Print Preview"
-#~ msgstr "預覽列印"
-
-#~ msgid "<b>File Size</b>"
-#~ msgstr "<b>檔案大小</b>"
-
-#~ msgid "<b>Modification Date</b>"
-#~ msgstr "<b>最後修改時間</b>"
-
-#~ msgid "<b>Search Options</b>"
-#~ msgstr "<b>搜尋選項</b>"
-
-#~ msgid "A_dvanced Options"
-#~ msgstr "進階選項(_D)"
-
-#~ msgid "A_ny"
-#~ msgstr "任何(_N)"
-
-#~ msgid "An_y"
-#~ msgstr "任何(_Y)"
-
-#~ msgid "Directory Tree"
-#~ msgstr "目錄樹"
-
-#~ msgid "Exact _match"
-#~ msgstr "完整比對(_M)"
-
-#~ msgid "File Search"
-#~ msgstr "檔案搜尋"
-
-#~ msgid "Filesystem"
-#~ msgstr "檔案系統"
-
-#~ msgid "Last m_onth"
-#~ msgstr "上月(_O)"
-
-#~ msgid "Last wee_k"
-#~ msgstr "上週(_K)"
-
-#~ msgid "Medi_um (< 1 MB)"
-#~ msgstr "中等(_U) (< 1 MB)"
-
-#~ msgid "Scan Selected F_older..."
-#~ msgstr "掃描已選資料夾(_O)…"
-
-#~ msgid "Se_arch in selected folder:"
-#~ msgstr "在已選資料夾中尋找(_A)："
-
-#~ msgid "Search"
-#~ msgstr "搜尋"
-
-#~ msgid "Search for File"
-#~ msgstr "搜尋檔案"
-
-#~ msgid "Search for a file"
-#~ msgstr "搜尋檔案"
-
-#~ msgid "Search the _whole filesystem"
-#~ msgstr "搜尋整個檔案系統(_W)"
-
-#~ msgid "Show allocated disk usage instead of apparent size"
-#~ msgstr "顯示已配置的磁碟使用率，而非表面上的大小"
-
-#~ msgid "Sma_ll (< 100 kB)"
-#~ msgstr "細小 (< 100 kB)"
-
-#~ msgid "Sort"
-#~ msgstr "排序"
-
-#~ msgid "Sort by name"
-#~ msgstr "以名稱排列"
-
-#~ msgid "Sort by size"
-#~ msgstr "以大小排列"
-
-#~ msgid "Stop"
-#~ msgstr "停止"
-
-#~ msgid "_Browse..."
-#~ msgstr "瀏覽(_B)…"
-
-#~ msgid "_Date"
-#~ msgstr "日期(_D)"
-
-#~ msgid "_Enable auto-detect monitoring of home directory"
-#~ msgstr "啟用個人資料夾的自動監察(_E)"
-
-#~ msgid "_Extended search"
-#~ msgstr "伸延搜尋(_E)"
-
-#~ msgid "_Name"
-#~ msgstr "名稱(_N)"
-
-#~ msgid "_Search for file:"
-#~ msgstr "搜尋檔案(_S)："
-
-#~ msgid "_Size"
-#~ msgstr "大小(_S)"
-
-#~ msgid "_Sort By"
-#~ msgstr "排序方式(_S)"
-
-#~ msgid "_Type"
-#~ msgstr "類型(_T)"
-
-#~ msgid "Unknown"
-#~ msgstr "不明"
-
-#~ msgid "Full path:"
-#~ msgstr "完整路徑："
-
-#~ msgid "Last Modification:"
-#~ msgstr "最後修改日期："
-
-#~ msgid "Owner:"
-#~ msgstr "擁有者："
-
-#~ msgid "Allocated bytes:"
-#~ msgstr "已配置位元組："
-
-#~ msgid "scanning..."
-#~ msgstr "掃描中…"
-
-#~ msgid "% 5d object"
-#~ msgid_plural "% 5d objects"
-#~ msgstr[0] "% 5d 個物件"
-
-#~ msgid ""
-#~ "Cannot initialize GNOME VFS monitoring\n"
-#~ "Some real-time auto-detect function will not be available!"
-#~ msgstr ""
-#~ "GNOME VFS 監察無法起動\n"
-#~ "一些即時自動偵測功能將無法使用！"
-
-#~ msgid "Save the screenshot"
-#~ msgstr "儲存螢幕截圖"
-
-#~ msgid "Graphical map for folder:"
-#~ msgstr "資料夾對映圖："
-
-#~ msgid "C_onnect"
-#~ msgstr "連線(_O)"
-
-#~ msgid "Use the Edit->Find menu item or the search toolbar button."
-#~ msgstr "使用「編輯→尋找」選單項目或搜尋工具列按鈕。"
-
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "找不到 pixmap 檔：%s"
-
-#~ msgid "Move to Trash"
-#~ msgstr "移至回收筒"
-
-#~ msgid "Folder graphical map"
-#~ msgstr "資料夾對映圖"
-
-#~ msgid "List all files in folder"
-#~ msgstr "列出資料夾中所有的檔案"
-
-#~ msgid "Please provide a file name to search for!"
-#~ msgstr "請輸入要搜尋的檔案名稱！"
-
-#~ msgid "file"
-#~ msgstr "檔案"
-
-#~ msgid "files"
-#~ msgstr "檔案"
-
-#~ msgid "for total:"
-#~ msgstr "總共："
-
-#~ msgid "Moving <b>%s</b> to trash failed: %s."
-#~ msgstr "移動 <b>%s</b> 至回收筒失敗：%s。"
-
-#~ msgid "Do you want to delete <b>%s</b> permanently?"
-#~ msgstr "是否確定永久刪除 <b>%s</b>？"
-
-#~ msgid "Deleting <b>%s</b> failed: %s."
-#~ msgstr "刪除 <b>%s</b> 失敗：%s。"
-
-#~ msgid "A graphical tool to analyse disk usage."
-#~ msgstr "分析磁碟使用率的圖形化工具"
-
-#~ msgid "Data_base:"
-#~ msgstr "資料庫(_B)："
-
-#~ msgid "_Advanced settings"
-#~ msgstr "進階設定(_A)"
-
-#~ msgid "_Strategy:"
-#~ msgstr "搜尋方法(_S)："
-
-#~ msgid "There was an error displaying the help pages for this dialog:"
-#~ msgstr "顯示這對話視窗的說明文件時發生錯誤："
-
-#~ msgid "<b>Options</b>"
-#~ msgstr "<b>選項</b>"
-
-#~ msgid "<b>Preview</b>"
-#~ msgstr "<b>預覽</b>"
+#~ msgid "Clear the text of the definition"
+#~ msgstr "清除字詞解釋的文字"
