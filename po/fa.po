@@ -13,14 +13,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-utils HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-15 15:12+0000\n"
-"PO-Revision-Date: 2011-07-18 02:16+0330\n"
+"POT-Creation-Date: 2011-08-30 00:05+0000\n"
+"PO-Revision-Date: 2011-09-06 23:19+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian <translate@ifsug.org>\n"
-"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Persian\n"
 "X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
@@ -833,40 +833,40 @@ msgstr "پاک کردن فهرست پایگاه‌های داده‌ی موجو�
 msgid "Error while matching"
 msgstr "خطا هنگام تطبیق دادن"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1127
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1221
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1255
 #: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "پیدا نشد"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1316
 msgid "F_ind:"
 msgstr "_پیدا کردن:"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1329
 msgid "_Previous"
 msgstr "_قبلی"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1337
 msgid "_Next"
 msgstr "_بعدی"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2512
 msgid "Error while looking up definition"
 msgstr "خطا هنگام جستجوی معنی کلمه"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2554
 #: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "جستجوی دیگری در حال اجرا است"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2555
 #: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "لطفاً تا پایان جستجوی فعلی صبر کنید."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2594
 msgid "Error while retrieving the definition"
 msgstr "خطا هنگام دریافت معنی کلمه "
 
@@ -884,7 +884,8 @@ msgid "Name"
 msgstr "نام"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-msgid "The display name of this dictonary source"
+#| msgid "The display name of this dictonary source"
+msgid "The display name of this dictionary source"
 msgstr "نام نمایشی این منبع لغت‌نامه"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:260
@@ -901,8 +902,9 @@ msgid "Database"
 msgstr "پایگاه‌داده"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-msgid "The default database of this dictonary source"
-msgstr "پایگاه‌داده‌ی پیش‌فرض این لغت‌نامه"
+#| msgid "The default database of this dictonary source"
+msgid "The default database of this dictionary source"
+msgstr "پایگاه‌داده‌ی پیش‌فرض این منبع لغت‌نامه"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:288
 #: ../gnome-dictionary/libgdict/gdict-speller.c:390
@@ -910,8 +912,9 @@ msgid "Strategy"
 msgstr "را_ه‌کار"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-msgid "The default strategy of this dictonary source"
-msgstr "راهکار پیش‌فرض این لغت‌نامه"
+#| msgid "The default strategy of this dictonary source"
+msgid "The default strategy of this dictionary source"
+msgstr "راهکار پیش‌فرض این منبع لغت‌نامه"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
@@ -1631,7 +1634,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "یک پوشه انتخاب کنید"
 
-#: ../gnome-screenshot/screenshot-dialog.c:351
+#: ../gnome-screenshot/screenshot-dialog.c:354
 #: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Screenshot.png"
