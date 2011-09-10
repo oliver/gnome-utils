@@ -7,4 +7,4 @@ DOC_INCLUDES =
 DOC_FIGURES = \
 	figures/syslog_window.png
 
-DOC_LINGUAS = ca cs de el en_GB es eu fi fr it ko oc ru sl sv uk zh_CN
+DOC_LINGUAS = ca cs de el en_GB es eu fi fr it ja ko oc ru sl sv uk zh_CN

@@ -1,0 +1,584 @@
+# Japanese translation for gnome-utils.
+# Copyright (C) 2010 gnome-utils's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-utils package.
+# Masatoshi KAMAGASAKO <emerald@gnome.gr.jp>, 2003.
+# Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010-2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils gnome-2-32\n"
+"POT-Creation-Date: 2011-09-06 18:50+0000\n"
+"PO-Revision-Date: 2011-09-08 00:04+0900\n"
+"Last-Translator: Yasumichi Akahoshi <yasumichi@vinelinux.org>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnome-system-log.xml:251(None)
+msgid ""
+"@@image: 'figures/syslog_window.png'; md5=7cb5e186fe792ed85e408ff33f21eced"
+msgstr ""
+"@@image: 'figures/syslog_window.png'; md5=69c49ecd6949f232e5e0ee74d7a610f1"
+
+#: C/gnome-system-log.xml:23(title)
+msgid "System Log Viewer Manual"
+msgstr "システムログビューアマニュアル"
+
+#: C/gnome-system-log.xml:26(para)
+msgid ""
+"System Log Viewer is a graphical user interface to view and monitor system "
+"log files."
+msgstr ""
+"システムログビューアは、システムログファイルを閲覧および監視するためのグラ"
+"フィカルユーザインターフェースです。"
+
+#: C/gnome-system-log.xml:31(year)
+msgid "2003"
+msgstr "2003"
+
+#: C/gnome-system-log.xml:32(holder) C/gnome-system-log.xml:57(orgname)
+msgid "Sun Microsystems"
+msgstr "サン・マイクロシステムズ"
+
+#: C/gnome-system-log.xml:35(year) C/gnome-system-log.xml:165(date)
+msgid "2000"
+msgstr "2000"
+
+#: C/gnome-system-log.xml:36(holder)
+msgid "Judith Samson"
+msgstr "Judith Samson"
+
+#: C/gnome-system-log.xml:47(publishername) C/gnome-system-log.xml:66(orgname)
+#: C/gnome-system-log.xml:110(para) C/gnome-system-log.xml:120(para)
+#: C/gnome-system-log.xml:130(para) C/gnome-system-log.xml:140(para)
+#: C/gnome-system-log.xml:150(para) C/gnome-system-log.xml:160(para)
+#: C/gnome-system-log.xml:170(para)
+msgid "GNOME Documentation Project"
+msgstr "GNOME ドキュメンテーションプロジェクト"
+
+#: C/gnome-system-log.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"このドキュメントをフリーソフトウェア財団発行の GNU フリー文書利用許諾契約書 "
+"(バージョン 1.1 かそれ以降から一つを選択) が定める条件の下で複製、頒布、ある"
+"いは改変することを許可する。変更不可部分、表カバーテキスト、裏カバーテキスト"
+"は存在しない。この利用許諾契約書の複製物は<ulink type=\"help\" url=\"ghelp:"
+"fdl\">このリンク</ulink>、またはこの文書と共に配布されている COPYING-DOCS と"
+"いうファイルに記載されている。"
+
+#: C/gnome-system-log.xml:12(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"本ドキュメントは GFDL の下で配布されているその他の GNOME マニュアル集の一部で"
+"ある。これらのマニュアルとは別に本ドキュメントを別個に配布する場合は、GFDL の"
+"セクション6で説明しているように、そのマニュアル集に対するライセンスの複製を添"
+"付することで実現できる。"
+
+#: C/gnome-system-log.xml:19(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"製品やサービスを区別するために企業によって利用されている名称の多くは商標で"
+"す。これらの名称がGNOMEドキュメンテーションに現れた場合で、GNOMEドキュメン"
+"テーションプロジェクトのメンバーが商標と認識している場合、これらの名前は大文"
+"字あるいは頭文字を大文字で記述しています。"
+
+#: C/gnome-system-log.xml:35(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+
+#: C/gnome-system-log.xml:55(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+
+#: C/gnome-system-log.xml:28(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+
+#: C/gnome-system-log.xml:54(firstname)
+msgid "Sun"
+msgstr "Sun"
+
+#: C/gnome-system-log.xml:55(surname) C/gnome-system-log.xml:75(orgname)
+msgid "GNOME Documentation Team"
+msgstr "GNOME ドキュメンテーションチーム"
+
+#: C/gnome-system-log.xml:58(email)
+msgid "gdocteam@sun.com"
+msgstr "gdocteam@sun.com"
+
+#: C/gnome-system-log.xml:63(firstname)
+msgid "Judith"
+msgstr "Judith"
+
+#: C/gnome-system-log.xml:64(surname)
+msgid "Samson"
+msgstr "Samson"
+
+#: C/gnome-system-log.xml:67(email)
+msgid "judith@samsonsource.com"
+msgstr "judith@samsonsource.com"
+
+#: C/gnome-system-log.xml:72(firstname)
+msgid "Paul"
+msgstr "Paul"
+
+#: C/gnome-system-log.xml:73(surname)
+msgid "Cutler"
+msgstr "Cutler"
+
+#: C/gnome-system-log.xml:76(email)
+msgid "pcutler@gnome.org"
+msgstr "pcutler@gnome.org"
+
+#: C/gnome-system-log.xml:81(firstname)
+msgid "Vincent"
+msgstr "Vincent"
+
+#: C/gnome-system-log.xml:82(surname)
+msgid "Noel"
+msgstr "Noel"
+
+#: C/gnome-system-log.xml:84(email)
+msgid "vincent.noel@gmail.com"
+msgstr "vincent.noel@gmail.com"
+
+#: C/gnome-system-log.xml:104(revnumber)
+msgid "System Log Viewer Manual V2.5"
+msgstr "システムログビューアマニュアル V2.5"
+
+#: C/gnome-system-log.xml:105(date)
+msgid "October 2009"
+msgstr "2009年10月"
+
+#: C/gnome-system-log.xml:107(para)
+msgid "Paul Cutler <email>pcutler@gnome.org</email>"
+msgstr "Paul Cutler <email>pcutler@gnome.org</email>"
+
+#: C/gnome-system-log.xml:114(revnumber)
+msgid "System Log Viewer Manual V2.4"
+msgstr "システムログビューアマニュアル V2.4"
+
+#: C/gnome-system-log.xml:115(date)
+msgid "October 2005"
+msgstr "2005年10月"
+
+#: C/gnome-system-log.xml:117(para)
+msgid "Vincent Noel <email>vincent.noel@gmail.com</email>"
+msgstr "Vincent Noel <email>vincent.noel@gmail.com</email>"
+
+#: C/gnome-system-log.xml:124(revnumber)
+msgid "System Log Viewer Manual V2.3"
+msgstr "システムログビューアマニュアル V2.3"
+
+#: C/gnome-system-log.xml:125(date)
+msgid "October 2002"
+msgstr "2002年10月"
+
+#: C/gnome-system-log.xml:127(para) C/gnome-system-log.xml:137(para)
+#: C/gnome-system-log.xml:147(para) C/gnome-system-log.xml:157(para)
+msgid "Sun GNOME Documentation Team <email>gdocteam@sun.com</email>"
+msgstr "Sun GNOME ドキュメンテーションチーム <email>gdocteam@sun.com</email>"
+
+#: C/gnome-system-log.xml:134(revnumber)
+msgid "System Log Viewer Manual V2.2"
+msgstr "システムログビューアマニュアル V2.2"
+
+#: C/gnome-system-log.xml:135(date)
+msgid "August 2002"
+msgstr "2002年8月"
+
+#: C/gnome-system-log.xml:144(revnumber)
+msgid "System Log Viewer Manual V2.1"
+msgstr "システムログビューアマニュアル V2.1"
+
+#: C/gnome-system-log.xml:145(date)
+msgid "July 2002"
+msgstr "2002年7月"
+
+#: C/gnome-system-log.xml:154(revnumber)
+msgid "System Log Viewer Manual V2.0"
+msgstr "システムログビューアマニュアル V2.0"
+
+#: C/gnome-system-log.xml:155(date)
+msgid "May 2002"
+msgstr "2002年5月"
+
+#: C/gnome-system-log.xml:164(revnumber)
+msgid "Logview Manual"
+msgstr "ログビューマニュアル"
+
+#: C/gnome-system-log.xml:167(para)
+msgid "Judith Samson <email>judith@samsonsource.com</email>"
+msgstr "Judith Samson <email>judith@samsonsource.com</email>"
+
+#: C/gnome-system-log.xml:175(releaseinfo)
+msgid "This manual describes version 2.12 of System Log Viewer."
+msgstr ""
+"このマニュアルでは、システムログビューアのバージョン 2.12 について説明しま"
+"す。"
+
+#: C/gnome-system-log.xml:178(title)
+msgid "Feedback"
+msgstr "フィードバック"
+
+#: C/gnome-system-log.xml:179(para)
+msgid ""
+"To report a bug or make a suggestion regarding the System Log Viewer "
+"application or this manual, follow the directions in the <ulink url=\"ghelp:"
+"gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+msgstr ""
+"システムログビューアのアプリケーションやこのマニュアルに対してバグの報告や提"
+"案を行うには、<ulink url=\"ghelp:gnome-feedback\" type=\"help\">GNOME フィー"
+"ドバックページ</ulink>の指示に従ってください。"
+
+#: C/gnome-system-log.xml:189(primary)
+msgid "System Log Viewer"
+msgstr "システムログビューア"
+
+#: C/gnome-system-log.xml:196(title)
+msgid "Introduction"
+msgstr "はじめに"
+
+#: C/gnome-system-log.xml:198(para)
+msgid ""
+"<application>System Log Viewer</application> is a graphical, menu-driven "
+"viewer that you can use to view and monitor your system logs. "
+"<application>System Log Viewer</application> comes with a few functions that "
+"can help you manage your logs, including a log monitor and log statistics "
+"display."
+msgstr ""
+"<application>システムログビューア</application>は、お使いのシステムのログを閲"
+"覧および監視できるグラフィカルでメニュー駆動のビューアです。<application>シス"
+"テムログビューア</application>には、ログモニタやログの統計情報の表示を含ん"
+"だ、ログの管理を助けるいくつかの機能が付属しています。"
+
+#: C/gnome-system-log.xml:206(para)
+msgid ""
+"<application>System Log Viewer</application> is useful if you are new to "
+"system administration because it provides an easier, more user-friendly "
+"display of your logs than a text display of the log file. It is also useful "
+"for more experienced administrators, as it contains a monitor to enable you "
+"to continuously monitor crucial logs."
+msgstr ""
+"<application>システムログビューア</application>は、ログファイルのテキスト表示"
+"よりも簡単でユーザーフレンドリな表示を提供しているため、システム管理に慣れて"
+"いない場合に役立ちます。継続的に重大なログを監視できるモニタを含んでいるた"
+"め、より経験を積んだ管理者にとっても有用です。"
+
+#: C/gnome-system-log.xml:215(para)
+msgid ""
+"<application>System Log Viewer</application> is useful only to those who "
+"have access to the system log files, which generally requires root access."
+msgstr ""
+"<application>システムログビューア</application>は、システムのログファイルにア"
+"クセスできる人にのみ有用で、大抵はルート権限を必要とします。"
+
+#: C/gnome-system-log.xml:222(title)
+msgid "Getting Started"
+msgstr "起動する"
+
+#: C/gnome-system-log.xml:224(para)
+msgid ""
+"You can start <application>System Log Viewer</application> in the following "
+"ways:"
+msgstr ""
+"次の方法で<application>システムログビューア</application> を起動できます:"
+
+#: C/gnome-system-log.xml:228(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "<guimenu>アプリケーション</guimenu>メニュー"
+
+#: C/gnome-system-log.xml:230(para)
+msgid ""
+"Choose <menuchoice><guisubmenu>System Tools</guisubmenu><guimenuitem>Log "
+"File Viewer</guimenuitem></menuchoice>."
+msgstr ""
+"<menuchoice><guisubmenu>システムツール</guisubmenu><guimenuitem>ログ・ビュー"
+"ア</guimenuitem></menuchoice>を選択してください。"
+
+#: C/gnome-system-log.xml:234(term)
+msgid "Command line"
+msgstr "コマンドライン"
+
+#: C/gnome-system-log.xml:236(para)
+msgid ""
+"Type <command>gnome-system-log</command>, then press <keycap>Return</keycap>."
+msgstr ""
+"<command>gnome-system-log</command> と入力して、<keycap>Return</keycap> を押"
+"してください。"
+
+#: C/gnome-system-log.xml:243(para)
+msgid ""
+"When you start <application>System Log Viewer</application>, the following "
+"window is displayed."
+msgstr ""
+"<application>システムログビューア</application>を起動すると、次のウィンドウが"
+"表示されます。"
+
+#: C/gnome-system-log.xml:247(title)
+msgid "System Log Viewer Window"
+msgstr "システムログビューアのウィンドウ"
+
+#: C/gnome-system-log.xml:254(phrase)
+msgid ""
+"Shows System Log Viewer main window. Contains menubar, display area, "
+"scrollbars, and statusbar."
+msgstr ""
+"システムログビューアのメインウィンドウの表示。メニューバー、表示領域、スク"
+"ロールバーおよびステータスバーで構成されている。"
+
+#. ==== End of Figure ====
+#: C/gnome-system-log.xml:260(para)
+msgid ""
+"The first time you start <application>System Log Viewer</application>, the "
+"application displays several log files by default (such as <filename>/var/"
+"log/messages</filename>). Opened logs are listed on the left side of the "
+"application window. The log selected in this list is displayed in the main "
+"area of the application window."
+msgstr ""
+"初めて<application>システムログビューア</application>を起動すると、デフォルト"
+"でいくつかのログファイルが表示されます(<filename>/var/log/messages</"
+"filename> など)。開かれたログは、アプリケーションウィンドウの左側に一覧表示さ"
+"れます。この一覧で選択されたログが、アプリケーションの主要な領域に表示されま"
+"す。"
+
+#: C/gnome-system-log.xml:268(para)
+msgid ""
+"By default, <application>System Log Viewer</application> monitors every "
+"opened log, and any change appears automatically in the main window. See "
+"<xref linkend=\"syslog-monitor\"/> for more information."
+msgstr ""
+"デフォルトでは、<application>システムログビューア</application>は開いているす"
+"べてのログを監視し、変更があれば、自動的にメインウィンドウに表示します。詳細"
+"は、<xref linkend=\"syslog-monitor\"/>をご覧ください。"
+
+#: C/gnome-system-log.xml:277(title)
+msgid "Usage"
+msgstr "使い方"
+
+#: C/gnome-system-log.xml:280(title)
+msgid "To View a Log"
+msgstr "ログを閲覧するには"
+
+#: C/gnome-system-log.xml:281(para)
+msgid ""
+"To view a log, choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</"
+"guimenuitem></menuchoice>. In the <guilabel>Open Log</guilabel> dialog, "
+"select the log that you want to open, then click <guibutton>Open</"
+"guibutton>. Use the scrollbars to scroll through the log."
+msgstr ""
+"ログを閲覧するには、<menuchoice><guimenu>ファイル</guimenu><guimenuitem>開く"
+"</guimenuitem></menuchoice>を選択してください。そして、<guilabel>ファイルの選"
+"択</guilabel>というダイアログで開きたいログを選択し、<guibutton>開く</"
+"guibutton>をクリックしてください。ログをスクロールするには、スクロールバーを"
+"利用してください。"
+
+#: C/gnome-system-log.xml:287(para)
+msgid ""
+"You can open as many logs as you want. <application>System Log Viewer</"
+"application> displays one log at a time in the <guilabel>System Log Viewer</"
+"guilabel> window. Opened logs are listed on the left side of the application "
+"window. The log selected in this list is displayed in the main area of the "
+"application window. To display another log already opened in "
+"<application>System Log Viewer</application>, select it in the log list."
+msgstr ""
+"好きなだけ多くのログを開くことができます。<application>システムログビューア</"
+"application>は、そのウィンドウ内に一度に一つのログを表示します。開いているロ"
+"グは、アプリケーションウィンドウの左側に一覧表示されます。この一覧で選択され"
+"たログがアプリケーションウィンドウの主要な領域に表示されます。<application>シ"
+"ステムログビューア</application>で既に開かれている他のログを表示するには、こ"
+"のログの一覧から表示したいログを選択してください。"
+
+#: C/gnome-system-log.xml:295(para)
+msgid ""
+"Note that <application>System Log Viewer</application> also lets you open "
+"zipped logs (whole filenames end in \".gz\")."
+msgstr ""
+"<application>システムログビューア</application>は、圧縮されたログを開くことも"
+"できます(ファイル名の最後に \".gz\" が付いています)。"
+
+#: C/gnome-system-log.xml:300(title)
+msgid "To Copy Log Lines to the Clipboard"
+msgstr "ログの行をクリップボードにコピーするには"
+
+#: C/gnome-system-log.xml:301(para)
+msgid ""
+"To copy one or more log lines to the clipboard, just select the lines in the "
+"main area and choose the <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Copy</guimenuitem></menuchoice> menu option. If you "
+"want to copy the entire log to the clipboard, select it entirely using the "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem></"
+"menuchoice> menu option, then choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Copy</guimenuitem></menuchoice>."
+msgstr ""
+"1行以上のログをクリップボードにコピーするには、主要な領域でコピーしたい行を選"
+"択し、<menuchoice><guimenu>編集</guimenu><guimenuitem>コピー</guimenuitem></"
+"menuchoice>というメニュー項目を選択してください。ログ全体をクリップボードにコ"
+"ピーしたい場合は、<menuchoice><guimenu>編集</guimenu><guimenuitem>すべて選択"
+"</guimenuitem></menuchoice>というメニュー項目を利用してログ全体を選択し、"
+"<menuchoice><guimenu>編集</guimenu><guimenuitem>コピー</guimenuitem></"
+"menuchoice>を選択してください。"
+
+#: C/gnome-system-log.xml:313(title)
+msgid "To Hide the Sidebar"
+msgstr "サイドバーを隠すには"
+
+#: C/gnome-system-log.xml:314(para)
+msgid ""
+"To hide the left sidebar, which contains the log list and calendar, just "
+"select the <menuchoice><guimenu>View</guimenu><guimenuitem>Side pane</"
+"guimenuitem></menuchoice> menu option."
+msgstr ""
+"ログの一覧とカレンダーを含んだ左側のサイドバーを隠すには、"
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>サイドバー</guimenuitem></"
+"menuchoice>というメニュー項目を選択してください。"
+
+#: C/gnome-system-log.xml:321(title)
+msgid "To Monitor Logs"
+msgstr "ログを監視するには"
+
+#: C/gnome-system-log.xml:322(para)
+msgid ""
+"You can use <application>System Log Viewer</application> to monitor logs. By "
+"default, all logs opened in <application>System Log Viewer</application> are "
+"monitored for changes. If new lines are added to a log monitored by "
+"<application>System Log Viewer</application>, the log name will appear in "
+"bold in the log list. If the log is currently displayed in the main area, "
+"the new lines will appear automatically at the end of the log and, after "
+"five seconds, the log name will turn back to normal in the list."
+msgstr ""
+"<application>システムログビューア</application>を利用して、ログを監視できま"
+"す。デフォルトでは、<application>システムログビューア</application>は開かれて"
+"いるすべてのログの変更を監視しています。<application>システムログビューア</"
+"application>によって監視されているログに新たな行が追加された場合、ログの一覧"
+"にそのログ名が太字で表示されます。もし、そのログが主要な領域に表示されている"
+"場合は、新たな行が自動的にログの最後に表示され、5秒後にログの一覧でログ名が通"
+"常の表示に戻ります。"
+
+#: C/gnome-system-log.xml:333(title)
+msgid "To View Log Information"
+msgstr "ログの情報を閲覧するには"
+
+#: C/gnome-system-log.xml:334(para)
+msgid "Log information are generally displayed in the status bar, including :"
+msgstr "ログの情報は通常、ステータスバーに表示され、以下の情報を含んでいます:"
+
+#: C/gnome-system-log.xml:337(para)
+msgid "Number of lines in the log."
+msgstr "ログの行数"
+
+#: C/gnome-system-log.xml:339(para)
+msgid "Size of the log in bytes."
+msgstr "ログの大きさ(バイト)"
+
+#: C/gnome-system-log.xml:341(para)
+msgid "Date the log was last modified."
+msgstr "ログの最終更新日時"
+
+#: C/gnome-system-log.xml:344(para)
+msgid ""
+"The status bar can be displayed or hidden using the "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Statusbar</guimenuitem></"
+"menuchoice> option."
+msgstr ""
+"<menuchoice><guimenu>表示</guimenu><guimenuitem>ステータスバー</"
+"guimenuitem></menuchoice>というオプションを利用してステータスバーを表示あるい"
+"は非表示にできます。"
+
+#: C/gnome-system-log.xml:350(title)
+msgid "To Close a Log"
+msgstr "ログを閉じるには"
+
+#: C/gnome-system-log.xml:351(para)
+msgid ""
+"To close a log, choose <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Close</guimenuitem></menuchoice>."
+msgstr ""
+"ログを閉じるには、<menuchoice><guimenu>ファイル</guimenu><guimenuitem>閉じる"
+"</guimenuitem></menuchoice>を選択してください。"
+
+#: C/gnome-system-log.xml:357(title)
+msgid "To Exit System Log Viewer"
+msgstr "システムログビューアを終了するには"
+
+#: C/gnome-system-log.xml:358(para)
+msgid ""
+"To exit <application>System Log Viewer</application>, choose "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"<application>システムログビューア</application>を終了するには、"
+"<menuchoice><guimenu>ファイル</guimenu><guimenuitem>終了</guimenuitem></"
+"menuchoice>を選択してください。"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/gnome-system-log.xml:0(None)
+msgid "translator-credits"
+msgstr "赤星 柔充 <yasumichi@vinelinux.org>, 2010-2011"
