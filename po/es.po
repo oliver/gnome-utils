@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-19 20:02+0000\n"
-"PO-Revision-Date: 2011-09-04 18:52+0200\n"
+"POT-Creation-Date: 2011-09-04 16:53+0000\n"
+"PO-Revision-Date: 2011-09-11 10:52+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -880,40 +880,40 @@ msgstr "Limpia la lista de bases de datos disponibles"
 msgid "Error while matching"
 msgstr "Ocurrió un error al coincidir"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1120
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1214
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1248
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1127
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1221
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1255
 #: ../logview/logview-window.c:486
 msgid "Not found"
 msgstr "No encontrado"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1309
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1316
 msgid "F_ind:"
 msgstr "_Buscar:"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1322
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1329
 msgid "_Previous"
 msgstr "_Anterior"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:1330
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1337
 msgid "_Next"
 msgstr "_Siguiente"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2505
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2512
 msgid "Error while looking up definition"
 msgstr "Error al buscar la definición"
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2547
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2554
 #: ../gnome-dictionary/libgdict/gdict-speller.c:736
 msgid "Another search is in progress"
 msgstr "Ya se está haciendo otra búsqueda "
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2548
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2555
 #: ../gnome-dictionary/libgdict/gdict-speller.c:737
 msgid "Please wait until the current search ends."
 msgstr "Por favor, espere a que la búsqueda actual termine."
 
-#: ../gnome-dictionary/libgdict/gdict-defbox.c:2587
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2594
 msgid "Error while retrieving the definition"
 msgstr "Error al obtener la definición"
 
@@ -931,7 +931,6 @@ msgid "Name"
 msgstr "Nombre"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-#| msgid "The display name of this dictonary source"
 msgid "The display name of this dictionary source"
 msgstr "El nombre para mostrar de esta fuente de diccionarios"
 
@@ -949,7 +948,6 @@ msgid "Database"
 msgstr "Base de datos"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-#| msgid "The default database of this dictonary source"
 msgid "The default database of this dictionary source"
 msgstr "La base de datos predeterminada de esta fuente de diccionarios"
 
@@ -959,7 +957,6 @@ msgid "Strategy"
 msgstr "Estrategia"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-#| msgid "The default strategy of this dictonary source"
 msgid "The default strategy of this dictionary source"
 msgstr "La estrategia predeterminada de esta fuente de diccionario"
 
@@ -1700,7 +1697,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Selecciona una carpeta"
 
-#: ../gnome-screenshot/screenshot-dialog.c:351
+#: ../gnome-screenshot/screenshot-dialog.c:354
 #: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Pantallazo.png"
@@ -3131,7 +3128,7 @@ msgstr "TEXTO"
 
 #: ../font-viewer/font-thumbnailer.c:269
 msgid "Font size (default: 64)"
-msgstr "Tamaño de la tipografía (predeterminado: 64)"
+msgstr "Tamaño de la tipografía (predeterminado: 64)"
 
 #: ../font-viewer/font-thumbnailer.c:269
 msgid "SIZE"
@@ -3139,7 +3136,7 @@ msgstr "TAMAÑO"
 
 #: ../font-viewer/font-thumbnailer.c:271
 msgid "FONT-FILE OUTPUT-FILE"
-msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
+msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
 
 #: ../font-viewer/font-view.c:289
 msgid "Name:"
@@ -3184,15 +3181,15 @@ msgstr "Uso: %s archivo de tipografía\n"
 
 #: ../font-viewer/font-view.c:572
 msgid "I_nstall Font"
-msgstr "I_nstalar tipografía"
+msgstr "I_nstalar tipografía"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
 msgid "Font Viewer"
-msgstr "Visor de tipografías"
+msgstr "Visor de tipografías"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
-msgstr "Vista previa de las tipografías"
+msgstr "Vista previa de las tipografías"
 
 #~ msgid "File already exists"
 #~ msgstr "El archivo ya existe"
@@ -3446,73 +3443,6 @@ msgstr "Vista previa de las tipografías"
 
 #~ msgid "Unable to create the data directory '%s': %s"
 #~ msgstr "Imposible crear el directorio de datos «%s»: %s"
-
-#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Si está establecido a «true», entonces las tipografías OpenType se "
-#~ "miniaturizarán."
-
-#~ msgid "If set to true, then PCF fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Si está establecido a «true», entonces las tipografías PFC se "
-#~ "miniaturizarán."
-
-#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Si está establecido a «true», entonces las tipografías TrueType se "
-#~ "miniaturizarán."
-
-#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
-#~ msgstr ""
-#~ "Si está establecido a «true», entonces las tipografías Type1 se "
-#~ "miniaturizarán."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for OpenType fonts."
-#~ msgstr ""
-#~ "Establezca en esta clave el comando que se debe usar para crear "
-#~ "miniaturas de las tipografías OpenType."
-
-#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
-#~ msgstr ""
-#~ "Establezca en esta clave el comando que se debe usar para crear "
-#~ "miniaturas de las tipografías PCF."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for TrueType fonts."
-#~ msgstr ""
-#~ "Establezca en esta clave el comando que se debe usar para crear "
-#~ "miniaturas de las tipografías TrueType."
-
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for Type1 fonts."
-#~ msgstr ""
-#~ "Establezca en esta clave el comando que se debe usar para crear "
-#~ "miniaturas de las tipografías Type1."
-
-#~ msgid "Thumbnail command for OpenType fonts"
-#~ msgstr "Comando para miniaturizar las tipografías OpenType"
-
-#~ msgid "Thumbnail command for PCF fonts"
-#~ msgstr "Comando para miniaturizar las tipografías PCF"
-
-#~ msgid "Thumbnail command for TrueType fonts"
-#~ msgstr "Comando para miniaturizar las tipografías TrueType"
-
-#~ msgid "Thumbnail command for Type1 fonts"
-#~ msgstr "Comando para miniaturizar las tipografías Type1"
-
-#~ msgid "Whether to thumbnail OpenType fonts"
-#~ msgstr "Indica si debe miniaturizar las tipografías OpenType"
-
-#~ msgid "Whether to thumbnail PCF fonts"
-#~ msgstr "Indica si debe miniaturizar las tipografías PCF"
-
-#~ msgid "Whether to thumbnail TrueType fonts"
-#~ msgstr "Indica si debe miniaturizar las tipografías TrueType"
-
-#~ msgid "Whether to thumbnail Type1 fonts"
-#~ msgstr "Indica si debe miniaturizar las tipografías Type1"
 
 #~ msgid "Chart currently active"
 #~ msgstr "Gráfico actualmente activo"
