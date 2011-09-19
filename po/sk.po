@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-07-24 02:55+0000\n"
-"PO-Revision-Date: 2011-07-31 16:52+0200\n"
+"POT-Creation-Date: 2011-09-17 03:52+0000\n"
+"PO-Revision-Date: 2011-09-19 12:26+0200\n"
 "Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -907,10 +907,8 @@ msgid "Name"
 msgstr "Názov"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-#, fuzzy
-#| msgid "The display name of this dictonary source"
 msgid "The display name of this dictionary source"
-msgstr "Zobrazovaný názov tohto zdroja slovníka"
+msgstr "Zobrazený názov tohto zdroja slovníka"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:260
 msgid "Description"
@@ -926,8 +924,6 @@ msgid "Database"
 msgstr "Databáza"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-#, fuzzy
-#| msgid "The default database of this dictonary source"
 msgid "The default database of this dictionary source"
 msgstr "Predvolená databáza tohto zdroja slovníka"
 
@@ -937,10 +933,8 @@ msgid "Strategy"
 msgstr "Postup"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-#, fuzzy
-#| msgid "The default strategy of this dictonary source"
 msgid "The default strategy of this dictionary source"
-msgstr "Predvolený postup tohto servera slovníka"
+msgstr "Predvolený postup tohto zdroja slovníka"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:302
 msgid "Transport"
@@ -1442,9 +1436,6 @@ msgstr "Zachytiť celú pracovnú p_lochu"
 msgid "Grab the current _window"
 msgstr "Zachytiť aktuálne o_kno"
 
-# tu je iný význam. Malo by byť niečo vo význame "označiť oblasť, ktorú potom budeme grabovať".
-# PK: nesuhlasim, je to v nastroji gnome-screenshot, * http://album.jabbim.cz/pk@jabbim.sk/#gnome-screenshot.png
-# PŠ: no a? tiež si myslím, že "Zachytiť vybranú obl_asť" nie je dobre - veď aká oblasť sa zachytí, keď som si ešte žiadnu nevybral?
 #: ../gnome-screenshot/gnome-screenshot.c:465
 msgid "Select _area to grab"
 msgstr "Označiť obl_asť na zachytenie"
@@ -1460,7 +1451,7 @@ msgstr "Zachytiť s _oneskorením"
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:502
-#: ../gnome-screenshot/gnome-screenshot.c:1381
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "seconds"
 msgstr "sekúnd"
 
@@ -1496,79 +1487,68 @@ msgstr ""
 msgid "Screenshot taken"
 msgstr "Zachytená snímka obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:906
 msgid "Unable to take a screenshot of the current window"
 msgstr "Nepodarilo sa zachytiť snímku aktuálneho okna"
 
-#. Translators: This is a strftime format string.
-#. * It is used to display the time in 24-hours format (eg, like
-#. * in France: 20:10).
-#: ../gnome-screenshot/gnome-screenshot.c:1008
-msgid "%Y-%m-%d %H:%M:%S"
-msgstr ""
-
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:1015
-#, fuzzy, c-format
-#| msgid "Screenshot-%s.png"
+#: ../gnome-screenshot/gnome-screenshot.c:1013
+#, c-format
 msgid "Screenshot at %s.png"
-msgstr "Obrazovka-%s.png"
+msgstr "Obrazovka z %s.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:1022
-#, fuzzy, c-format
-#| msgid "Screenshot-%s-%d.png"
+#: ../gnome-screenshot/gnome-screenshot.c:1020
+#, c-format
 msgid "Screenshot at %s - %d.png"
-msgstr "Obrazovka-%s-%d.png"
+msgstr "Obrazovka z %s - %d.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1376
-#, fuzzy
-#| msgid "Set the model of the chart"
+#: ../gnome-screenshot/gnome-screenshot.c:1374
 msgid "Send the grab directly to the clipboard"
-msgstr "Nastaviť model grafu"
+msgstr "Odoslať zachytenie priamo do schránky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1377
+#: ../gnome-screenshot/gnome-screenshot.c:1375
 msgid "Grab a window instead of the entire screen"
 msgstr "Zachytiť okno namiesto celej obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1378
+#: ../gnome-screenshot/gnome-screenshot.c:1376
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "Zachytiť oblasť obrazovky namiesto celej obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1379
+#: ../gnome-screenshot/gnome-screenshot.c:1377
 msgid "Include the window border with the screenshot"
 msgstr "Zahrnúť okraj okna do snímky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1380
+#: ../gnome-screenshot/gnome-screenshot.c:1378
 msgid "Remove the window border from the screenshot"
 msgstr "Odstrániť okraj okna zo snímky obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1381
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "Zachytiť snímku obrazovky s určeným oneskorením [v sekundách]"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1382
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr ""
 "Efekt, ktorý sa má pridať k okraju (shadow - tieň, border - okraj alebo none "
 "- žiadny)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1382
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "effect"
 msgstr "efekt"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1383
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "Interactively set options"
 msgstr "Interaktívne nastaviť možnosti"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1394
+#: ../gnome-screenshot/gnome-screenshot.c:1392
 msgid "Take a picture of the screen"
 msgstr "Zachytiť snímku obrazovky"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1412
+#: ../gnome-screenshot/gnome-screenshot.c:1410
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1580,10 +1560,8 @@ msgid "Save images of your desktop or individual windows"
 msgstr "Uložte obrázky vašej pracovnej plochy alebo samostatných okien"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
-#, fuzzy
-#| msgid "Screenshot.png"
 msgid "Screenshot"
-msgstr "Obrazovka.png"
+msgstr "Snímka obrazovky"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:1
 msgid "*"
@@ -1683,7 +1661,7 @@ msgstr ""
 msgid "Select a folder"
 msgstr "Vyberte priečinok"
 
-#: ../gnome-screenshot/screenshot-dialog.c:351
+#: ../gnome-screenshot/screenshot-dialog.c:354
 #: ../gnome-screenshot/screenshot-save.c:206
 msgid "Screenshot.png"
 msgstr "Obrazovka.png"
@@ -1710,7 +1688,7 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "Pri ukladaní snímky obrazovky nastala neznáma chyba"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:919
+#: ../gnome-screenshot/screenshot-utils.c:921
 msgid "Untitled Window"
 msgstr "Nepomenované okno"
 
@@ -3166,6 +3144,9 @@ msgstr "Prehliadač písiem"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "Náhľady písiem"
+
+#~ msgid "%Y-%m-%d %H:%M:%S"
+#~ msgstr "%H:%M:%S, %d. %m. %Y"
 
 #~ msgid "Dictionary Look up"
 #~ msgstr "Vyhľadávanie v slovníku"
