@@ -1,3 +1,92 @@
+=============================================================
+GNOME Utilities 3.1.92 (19th September 2011) - "Regular John"
+
+This is the release candidate for the final 3.2 release. Some fixes
+needed to make gnome-screenshot work correctly with newer Mutter, and
+some long-standing multihead issues should be fixed as well.
+As always, as we approach the end of the 3.2 development cycle, there's
+also a huge number of translation updates.
+
+A S Alam (1):
+      update PunjabiTranslation
+
+André Gondim (1):
+      Updated Brazilian Portuguese translation, reviewed by Antonio Fernandes C. Neto <fernandesn@gnome.org>.
+
+Arash Mousavi (1):
+      Updated Persian translation
+
+Aurimas Černius (1):
+      Updated Lithuanian translation
+
+Bruce Cowan (1):
+      Updated British English translation
+
+Bruno Brouard (1):
+      Updated French translation
+
+Chao-Hsiung Liao (1):
+      Updated Traditional Chinese translation(Hong Kong and Taiwan)
+
+Cosimo Cecchi (2):
+      flash: remove unused code
+      flash: don't use a solid color for the max flash window opacity
+
+Dr.T.Vasudevan (1):
+      updated Tamil translation
+
+Duarte Loreto (1):
+      Updated Portuguese translation
+
+Ian Westcott (1):
+      Disable masking for area or window screenshots.
+
+Ihar Hrachyshka (1):
+      Updated Belarusian translation.
+
+Javier Jardón (1):
+      baobab: Do not use deprecated g_format_size_for_display()
+
+Joan Duran (1):
+      [l10n]Updated Catalan translation
+
+Joe Hansen (1):
+      Updated Danish translation
+
+Jorge González (2):
+      Updated Spanish translation
+      Updated Spanish translation
+
+Mario Blättermann (1):
+      [l10n] Updated German translation
+
+Matej Urbančič (1):
+      Updated Slovenian translation
+
+Matthias Clasen (1):
+      gnome-screenshot: Don't translate the timestamp in the filename
+
+Pavol Klačanský (1):
+      Updated Slovak translation
+
+Rudolfs Mazurs (1):
+      Updated Latvian translation.
+
+Theppitak Karoonboonyanan (1):
+      Updated Thai translation.
+
+Xandru Armesto (1):
+      Updated asturian translation
+
+Yasumichi Akahoshi (1):
+      Add new Japanese translation
+
+Yuri Myasoedov (1):
+      Updated Russian translation
+
+dmustieles (1):
+      Updated Spanish translation
+
 ====================================================
 GNOME Utilities 3.1.90 (29th August 2011) - "Frames"
 
