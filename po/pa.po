@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-utils.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "utils&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-08-30 00:05+0000\n"
-"PO-Revision-Date: 2011-09-10 15:14+0530\n"
+"POT-Creation-Date: 2011-09-21 01:19+0000\n"
+"PO-Revision-Date: 2011-09-23 06:52+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "ਹਾਲਤ-ਪੱਟੀ ਵੇਖਾਈ ਦਿੰਦੀ ਹੈ"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:6
 msgid "Toolbar is Visible"
-msgstr "ਸੰਦ-ਪੱਟੀ ਉਪਲੱਬਧ ਹੈ"
+msgstr "ਟੂਲ-ਪੱਟੀ ਉਪਲੱਬਧ ਹੈ"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:7
 msgid "Whether any change to the home directory should be monitored."
@@ -73,11 +73,11 @@ msgstr "ਕੀ ਘਰ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਕੀਤੀ ਕ�
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:8
 msgid "Whether the status bar at the bottom of main window should be visible."
-msgstr "ਕੀ ਮੁੱਖ ਝਰੋਖੇ ਦੇ ਹੇਠਾਂ ਹਾਲਤ ਪੱਟੀ ਵੇਖਾਈ ਦੇਵੇ।"
+msgstr "ਕੀ ਮੁੱਖ ਵਿੰਡੋ ਦੇ ਹੇਠਾਂ ਹਾਲਤ ਪੱਟੀ ਵੇਖਾਈ ਦੇਵੇ।"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:9
 msgid "Whether the toolbar should be visible in main window."
-msgstr "ਕੀ ਮੁੱਖ ਝਰੋਖੇ ਵਿੱਚ ਸੰਦ-ਪੱਟੀ ਵੇਖਾਈ ਜਾਵੇ।"
+msgstr "ਕੀ ਮੁੱਖ ਵਿੰਡੋ ਵਿੱਚ ਟੂਲਬਾਰ ਵੇਖਾਈ ਜਾਵੇ।"
 
 #: ../baobab/data/org.gnome.baobab.gschema.xml.in.h:10
 msgid "Which type of chart should be displayed."
@@ -85,7 +85,7 @@ msgstr "ਕਿਸ ਕਿਸਮ ਦੇ ਚਾਰਟ ਵੇਖਾਈ ਦੇਣੇ 
 
 #: ../baobab/data/baobab-main-window.ui.h:1
 msgid "All_ocated Space"
-msgstr "ਜਾਰੀ ਥਾਂ(_o)"
+msgstr "ਜਾਰੀ ਕੀਤੀ ਥਾਂ(_o)"
 
 #: ../baobab/data/baobab-main-window.ui.h:3
 msgid "Refresh"
@@ -125,7 +125,7 @@ msgstr "ਘਰ ਫੋਲਡਰ ਜਾਂਚ(_H)"
 
 #: ../baobab/data/baobab-main-window.ui.h:12
 msgid "Scan a folder"
-msgstr "ਇੱਕ ਫੋਲਡਰ ਜਾਂਚ"
+msgstr "ਇੱਕ ਫੋਲਡਰ ਜਾਂਚੋ"
 
 #: ../baobab/data/baobab-main-window.ui.h:13
 msgid "Scan a remote folder"
@@ -177,7 +177,7 @@ msgstr "ਮੱਦਦ(_H)"
 
 #: ../baobab/data/baobab-main-window.ui.h:24
 msgid "_Toolbar"
-msgstr "ਸੰਦ-ਪੱਟੀ(_T)"
+msgstr "ਟੂਲਬਾਰ(_T)"
 
 #: ../baobab/data/baobab-main-window.ui.h:25
 #: ../gnome-dictionary/src/gdict-window.c:1282 ../logview/logview-window.c:816
@@ -313,7 +313,7 @@ msgstr "ਪਿਕਸਬਫ਼ ਚਿੱਤਰ ਬਣਾਇਆ ਨਹੀਂ ਜ�
 #. Popup the File chooser dialog
 #: ../baobab/src/baobab-chart.c:1700
 msgid "Save Snapshot"
-msgstr "ਸਨੈਪਸ਼ਾਂਟ ਸੰਭਾਲੋ"
+msgstr "ਸਨੈਪਸ਼ਾਟ ਸੰਭਾਲੋ"
 
 #: ../baobab/src/baobab-chart.c:1727
 msgid "_Image type:"
@@ -529,7 +529,7 @@ msgid ""
 msgstr ""
 "ਇਹ ਪਰੋਗਰਾਮ ਇੱਕ ਮੁਫਤ ਸਾਫਟਵੇਅਰ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਗਨੂ ਜਰਨਲ ਪਬਲਿਕ ਲਾਈਸੈਂਸ,ਜਿਸ ਨੂੰ "
 "ਫਰੀ ਸਾਫਟਵੇਅਰ "
-"ਫਾਊਨਡੇਸ਼ਨ ਨੇ ਤਿਆਰ ਕੀਤਾ ਹੈ, ਦੇ ਵਰਜਨ ੨ ਜਾਂ ਨਵੇਂ ਦੀਆਂਸ਼ਰਤਾਂ (ਉਹ ਤੁਹਾਡੀ ਆਪਣੀ "
+"ਫਾਊਨਡੇਸ਼ਨ ਨੇ ਤਿਆਰ ਕੀਤਾ ਹੈ, ਦੇ ਵਰਜਨ ੨ ਜਾਂ ਨਵੇਂ ਦੀਆਂ ਸ਼ਰਤਾਂ (ਉਹ ਤੁਹਾਡੀ ਆਪਣੀ "
 "ਮਰਜ਼ੀ ਹੈ) ਅਧੀਨ ਵੰਡ "
 "ਅਤੇ/ਜਾਂ ਸੋਧ ਸਕਦੇ ਹੋ।"
 
@@ -542,9 +542,9 @@ msgid ""
 msgstr ""
 "ਇਹ ਪਰੋਗਰਾਮ ਨੂੰ ਇਹ ਮੰਨ ਕੇ ਵੰਡਿਆ ਜਾ ਰਿਹਾ ਹੈ ਕਿ ਇਹ ਫਾਇਦੇਮੰਦ ਰਹੇਗਾ,ਪਰ ਇਸ ਦੀ ਕੋਈ "
 "ਵਾਰੰਟੀ ਨਹੀਂ "
-"ਲਈ ਜਾ ਰਹੀ ਹੈ, ਕਿਸੇ ਖਾਸ ਕੰਮ ਲਈ ਅਨੁਕੂਲ ਹੋਣ ਜਾਂਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਦੀ ਵੀ ਕੋਈ "
+"ਲਈ ਜਾ ਰਹੀ ਹੈ, ਕਿਸੇ ਖਾਸ ਕੰਮ ਲਈ ਅਨੁਕੂਲ ਹੋਣ ਜਾਂ ਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਦੀ ਵੀ ਕੋਈ "
 "ਗਾਰੰਟੀ ਨਹੀਂ ਹੈ। "
-"ਹੋਰ ਵੇਰਵੇ ਲਈ ਗਨੂ ਜਰਨਲਪਬਲਿਕ ਲਾਇਸੈਂਸ ਨੂੰ ਪੜ੍ਹੋ।"
+"ਹੋਰ ਵੇਰਵੇ ਲਈ ਗਨੂ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਨੂੰ ਪੜ੍ਹੋ।"
 
 #: ../baobab/src/callbacks.c:86 ../logview/logview-about.h:57
 msgid ""
@@ -552,8 +552,8 @@ msgid ""
 "this program; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
 msgstr ""
-"ਇਸ ਪਰੋਗਰਾਮ ਨਾਲ ਤੁਸੀਂ ਗਨੂ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਦੀ ਨਕਲ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੇਕਰ "
-"ਤੁਹਾਨੂੰਨਹੀਂ ਮਿਲੀ ਹੈ "
+"ਇਸ ਪਰੋਗਰਾਮ ਨਾਲ ਤੁਸੀਂ ਗਨੂ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਦੀ ਨਕਲ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੇਕਰ ਤੁਹਾਨੂੰ "
+"ਨਹੀਂ ਮਿਲੀ ਹੈ "
 "ਤਾਂ ਫਰੀ ਸਾਫਟਵੇਅਰ ਫਾਊਨਡੇਸ਼ਨ, ੫੧ ਫਰਾਕਲਿੰਨ ਸਟਰੀਟ, ਪੰਜਵੀਂ ਮੰਜ਼ਲ,ਬੋਸਟਨ, ਐਮ ਏ "
 "੦੨੧੧੨-੧੩੦੧, "
 "ਅਮਰੀਕਾ ਨੂੰ ਲਿਖੋ।"
@@ -913,7 +913,6 @@ msgid "Name"
 msgstr "ਨਾਂ"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:247
-#| msgid "The display name of this dictonary source"
 msgid "The display name of this dictionary source"
 msgstr "ਇਹ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦਾ ਨਾਂ ਵੇਖਾਉ"
 
@@ -931,7 +930,6 @@ msgid "Database"
 msgstr "ਡਾਟਾਬੇਸ"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:275
-#| msgid "The default database of this dictonary source"
 msgid "The default database of this dictionary source"
 msgstr "ਇਹ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਦਾ ਮੂਲ ਡਾਟਾਬੇਸ"
 
@@ -941,7 +939,6 @@ msgid "Strategy"
 msgstr "ਨੀਤੀ"
 
 #: ../gnome-dictionary/libgdict/gdict-source.c:289
-#| msgid "The default strategy of this dictonary source"
 msgid "The default strategy of this dictionary source"
 msgstr "ਇਹ ਡਿਕਸ਼ਨਰੀ ਸਰੋਤ ਲਈ ਮੂਲ ਨੀਤੀ"
 
@@ -1244,7 +1241,7 @@ msgstr "ਨਵੀਂ ਖੋਜ"
 
 #: ../gnome-dictionary/src/gdict-window.c:1289
 msgid "_Save a Copy..."
-msgstr "ਇੱਕ ਨਕਲ ਸੰਭਾਲੋ(_S)..."
+msgstr "ਇੱਕ ਕਾਪੀ ਸੰਭਾਲੋ(_S)..."
 
 #: ../gnome-dictionary/src/gdict-window.c:1291
 msgid "P_review..."
@@ -1445,20 +1442,20 @@ msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਲਵੋ(_w)"
 
 #: ../gnome-screenshot/gnome-screenshot.c:465
 msgid "Select _area to grab"
-msgstr "ਫੜਨ ਲਈ ਏਰੀਆ ਚੁਣੋ(_a)"
+msgstr "ਤਸਵੀਰ ਲੈਣ ਲਈ ਏਰੀਆ ਚੁਣੋ(_a)"
 
 #. translators: this is the first part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:482
 msgid "Grab _after a delay of"
-msgstr "ਇੱਕ ਅੰਤਰਾਲ ਬਾਅਦ ਲਵੋਂ (_a)"
+msgstr "ਇੱਕ ਅੰਤਰਾਲ ਬਾਅਦ ਲਵੋ (_a)"
 
 #. translators: this is the last part of the "grab after a
 #. * delay of <spin button> seconds".
 #.
 #: ../gnome-screenshot/gnome-screenshot.c:502
-#: ../gnome-screenshot/gnome-screenshot.c:1381
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "seconds"
 msgstr "ਸਕਿੰਟ"
 
@@ -1494,76 +1491,66 @@ msgstr ""
 msgid "Screenshot taken"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਲਿਆ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:905
+#: ../gnome-screenshot/gnome-screenshot.c:906
 msgid "Unable to take a screenshot of the current window"
 msgstr "ਮੌਜੂਦਾ ਵਿੰਡੋ ਦਾ ਸਕਰੀਨ-ਸ਼ਾਟ ਲੈਣ ਲਈ ਅਸਮਰੱਥ"
 
-#. Translators: This is a strftime format string.
-#. * It is used to display the time in 24-hours format (eg, like
-#. * in France: 20:10).
-#: ../gnome-screenshot/gnome-screenshot.c:1008
-msgid "%Y-%m-%d %H:%M:%S"
-msgstr "%d-%m-%Y %H:%M:%S"
-
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot if the entire screen is taken
-#: ../gnome-screenshot/gnome-screenshot.c:1015
+#: ../gnome-screenshot/gnome-screenshot.c:1013
 #, c-format
-#| msgid "Screenshot-%s.png"
 msgid "Screenshot at %s.png"
-msgstr "%s.png ਵਜੋਂ ਸਕਰੀਨਸ਼ਾਟ"
+msgstr "ਤਸਵੀਰ %s ਵਜੇ.png"
 
 #. translators: this is the name of the file that gets
 #. * made up with the screenshot if the entire screen is
 #. * taken
-#: ../gnome-screenshot/gnome-screenshot.c:1022
+#: ../gnome-screenshot/gnome-screenshot.c:1020
 #, c-format
-#| msgid "Screenshot-%s-%d.png"
 msgid "Screenshot at %s - %d.png"
-msgstr "%s - %d.png ਵਜੋਂ ਸਕਰੀਨਸ਼ਾਟ"
+msgstr "ਤਸਵੀਰ %s - %d ਵਜੇ.png"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1376
-#| msgid "Set the model of the chart"
+#: ../gnome-screenshot/gnome-screenshot.c:1374
 msgid "Send the grab directly to the clipboard"
 msgstr "ਪ੍ਰਾਪਤ ਕੀਤੇ ਨੂੰ ਸਿੱਧਾ ਕਲਿੱਪਬੋਰਡ ਵਿੱਚ ਭੇਜੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1377
+#: ../gnome-screenshot/gnome-screenshot.c:1375
 msgid "Grab a window instead of the entire screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਦੀ ਬਜਾਏ ਇੱਕ ਵਿੰਡੋ ਹੀ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1378
+#: ../gnome-screenshot/gnome-screenshot.c:1376
 msgid "Grab an area of the screen instead of the entire screen"
 msgstr "ਪੂਰੀ ਸਕਰੀਨ ਦੀ ਬਜਾਏ ਸਕਰੀਨ ਦਾ ਇੱਕ ਖੇਤਰ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1379
+#: ../gnome-screenshot/gnome-screenshot.c:1377
 msgid "Include the window border with the screenshot"
 msgstr "ਵਿੰਡੋ ਬਾਰਡਰ ਸਮੇਤ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1380
+#: ../gnome-screenshot/gnome-screenshot.c:1378
 msgid "Remove the window border from the screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਤੋਂ ਵਿੰਡੋ ਹਾਸ਼ੀਆ (ਬਾਰਡਰ) ਹਟਾਓ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1381
+#: ../gnome-screenshot/gnome-screenshot.c:1379
 msgid "Take screenshot after specified delay [in seconds]"
 msgstr "ਖਾਸ ਅੰਤਰਾਲ ਬਾਅਦ ਸਕਰੀਨ-ਸ਼ਾਟ ਲਵੋ (ਸਕਿੰਟ ਵਿੱਚ)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1382
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "Effect to add to the border (shadow, border or none)"
 msgstr "ਬਾਰਡਰ ਵਿੱਚ ਜੋੜਨ ਲਈ ਪਰਭਾਵ (ਛਾਂ, ਹਾਸ਼ੀਆ, ਜਾਂ ਕੋਈ ਨਹੀਂ)"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1382
+#: ../gnome-screenshot/gnome-screenshot.c:1380
 msgid "effect"
 msgstr "ਪਰਭਾਵ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1383
+#: ../gnome-screenshot/gnome-screenshot.c:1381
 msgid "Interactively set options"
 msgstr "ਦਿਲ-ਖਿੱਚਵੀਆਂ ਚੋਣਾਂ ਸੈੱਟ ਕਰੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1394
+#: ../gnome-screenshot/gnome-screenshot.c:1392
 msgid "Take a picture of the screen"
-msgstr "ਸਕਰੀਨ ਦੀ ਤਸਵੀਰ ਲਵੋ"
+msgstr "ਸਕਰੀਨ ਦੀ ਇੱਕ ਤਸਵੀਰ ਲਵੋ"
 
-#: ../gnome-screenshot/gnome-screenshot.c:1412
+#: ../gnome-screenshot/gnome-screenshot.c:1410
 #, c-format
 msgid ""
 "Conflicting options: --window and --area should not be used at the same "
@@ -1572,10 +1559,9 @@ msgstr "ਚੋਣ ਅਪਵਾਦ: --window ਅਤੇ --area ਦੀ ਵਰਤੋ
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
 msgid "Save images of your desktop or individual windows"
-msgstr "ਆਪਣੇ ਡੈਸਕਟਾ ਜਾਂ ਅੱਡ-ਅੱਡ ਵਿੰਡੋਜ਼ ਲਈ ਸੰਭਾਲੋ"
+msgstr "ਆਪਣੇ ਡੈਸਕਟਾਪ ਜਾਂ ਅੱਡ-ਅੱਡ ਵਿੰਡੋਜ਼ ਲਈ ਸੰਭਾਲੋ"
 
 #: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
-#| msgid "Screenshot.png"
 msgid "Screenshot"
 msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ"
 
@@ -1589,7 +1575,7 @@ msgstr "ਕਲਿੱਪਬੋਰਡ 'ਚ ਕਾਪੀ ਕਰੋ(_o)"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:3
 msgid "Save Screenshot"
-msgstr "ਸਕਰੀਨ-ਸ਼ਾਂਟ ਸੰਭਾਲੋ"
+msgstr "ਸਕਰੀਨ-ਸ਼ਾਟ ਸੰਭਾਲੋ"
 
 #: ../gnome-screenshot/gnome-screenshot.ui.h:4
 msgid "Save in _folder:"
@@ -1704,13 +1690,13 @@ msgid "Unknown error saving screenshot to disk"
 msgstr "ਡਿਸਕ ਉੱਤੇ ਸਕਰੀਨ-ਸ਼ਾਟ ਸੰਭਾਲਣ ਦੌਰਾਨ ਅਣਜਾਣੀ ਗਲਤੀ"
 
 #. TODO: maybe we should also look at WM_NAME and WM_CLASS?
-#: ../gnome-screenshot/screenshot-utils.c:919
+#: ../gnome-screenshot/screenshot-utils.c:921
 msgid "Untitled Window"
 msgstr "ਬਿਨਾਂ ਨਾਂ ਵਿੰਡੋ"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:1
 msgid "Locate documents and folders on this computer by name or content"
-msgstr "ਇਹ ਕੰਪਿਊਟਰ ਉੱਤੇ ਦਸਤਾਵੇਜ਼ ਅਤੇ ਫੋਲਡਰਾਂ ਨੂੰ ਨਾਂ ਜਾਂ ਪਰਸੰਗ ਮੁਤਾਬਕ ਲੱਭੋ"
+msgstr "ਇਹ ਕੰਪਿਊਟਰ ਉੱਤੇ ਡੌਕੂਮੈਂਟਾਂ ਅਤੇ ਫੋਲਡਰਾਂ ਨੂੰ ਨਾਂ ਜਾਂ ਪਰਸੰਗ ਮੁਤਾਬਕ ਲੱਭੋ"
 
 #: ../gsearchtool/gnome-search-tool.desktop.in.h:2
 msgid "Search for Files..."
@@ -1718,15 +1704,15 @@ msgstr "ਫਾਇਲਾਂ ਦੀ ਖੋਜ..."
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:1
 msgid "Default Window Height"
-msgstr "ਮੂਲ ਝਰੋਖਾ ਉਚਾਈ"
+msgstr "ਡਿਫਾਲਟ ਵਿੰਡੋ ਉਚਾਈ"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:2
 msgid "Default Window Maximized"
-msgstr "ਮੂਲ ਝਰੋਖਾ ਵੱਧ ਤੋਂ ਵੱਧ"
+msgstr "ਡਿਫਾਲਟ ਵਿੰਡੋ ਵੱਧ ਤੋਂ ਵੱਧ"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:3
 msgid "Default Window Width"
-msgstr "ਮੂਲ ਝਰੋਖਾ ਚੌੜਾਈ"
+msgstr "ਡਿਫਾਲਟ ਵਿੰਡੋ ਚੌੜਾਈ"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:4
 msgid "Disable Quick Search"
@@ -1756,7 +1742,7 @@ msgstr "ਖੋਜ ਨਤੀਜਾ ਕਾਲਮ ਕਰਮ"
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:12
 msgid "Select the search option \"Contains the text\""
-msgstr " \"ਪਾਠ ਰੱਖਦਾ ਹੈ \" ਖੋਜ ਚੋਣ ਚੁਣੋ"
+msgstr "\"ਟੈਕਸਟ ਰੱਖਦਾ ਹੈ \" ਖੋਜ ਚੋਣ ਚੁਣੋ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -1810,7 +1796,7 @@ msgstr "\"ਸਮੂਹ ਰੱਖਦਾ ਹੈ\" ਖੋਜ ਚੋਣ ਚੁਣੋ
 #. search option that is translated elsewhere.
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:39
 msgid "Select the search option \"Owned by user\""
-msgstr "\"ਉਪਭੋਗੀ ਰੱਖਦਾ ਹੈ\" ਖੋਜ ਚੋਣ ਚੁਣੋ"
+msgstr "\"ਯੂਜ਼ਰ ਮਾਲਕ ਹੈ\" ਖੋਜ ਚੋਣ ਚੁਣੋ"
 
 #. Translators: The quoted text is the label of an available
 #. search option that is translated elsewhere.
@@ -1884,9 +1870,9 @@ msgid ""
 "the search tool between sessions. Setting it to -1 will make the search tool "
 "use the default height."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਝਰੋਖੇ ਦੀ ਉਚਾਈ ਦੱਸਦੀ ਹੈ ਅਤੇ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਖੋਜ ਸੰਦ ਦਾ ਅਕਾਰ ਯਾਦ ਰੱਖਦੀ "
+"ਇਹ ਕੁੰਜੀ ਵਿੰਡੋ ਦੀ ਉਚਾਈ ਦੱਸਦੀ ਹੈ ਅਤੇ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਖੋਜ ਟੂਲ ਦਾ ਅਕਾਰ ਯਾਦ ਰੱਖਦੀ "
 "ਹੈ। ਇਸ ਨੂੰ -1 ਰੱਖਣ "
-"ਨਾਲ ਖੋਜ ਸੰਦ ਮੂਲ ਉਚਾਈ ਵਰਤੇਗਾ।"
+"ਨਾਲ ਖੋਜ ਟੂਲ ਡਿਫਾਲਟ ਉਚਾਈ ਵਰਤੇਗਾ।"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:58
 msgid ""
@@ -1894,9 +1880,9 @@ msgid ""
 "search tool between sessions. Setting it to -1 will make the search tool use "
 "the default width."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਝਰੋਖੇ ਦੀ ਚੌੜਾਈ ਦੱਸਦੀ ਹੈ ਅਤੇ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਖੋਜ ਸੰਦ ਦਾ ਅਕਾਰ ਯਾਦ ਰੱਖਦੀ "
+"ਇਹ ਕੁੰਜੀ ਵਿੰਡੋ ਦੀ ਚੌੜਾਈ ਦੱਸਦੀ ਹੈ ਅਤੇ ਸ਼ੈਸ਼ਨਾਂ ਵਿੱਚ ਖੋਜ ਟੂਲ ਦਾ ਅਕਾਰ ਯਾਦ ਰੱਖਦੀ "
 "ਹੈ। ਇਸ ਨੂੰ -1 ਰੱਖਣ "
-"ਨਾਲ ਖੋਜ ਸੰਦ ਮੂਲ ਚੌੜਾਈ ਵਰਤੇਗਾ।"
+"ਨਾਲ ਖੋਜ ਟੂਲ ਡਿਫਾਲਟ ਚੌੜਾਈ ਵਰਤੇਗਾ।"
 
 #: ../gsearchtool/gnome-search-tool.schemas.in.h:59
 msgid ""
@@ -1982,7 +1968,7 @@ msgid ""
 "This key determines if the \"Owned by user\" search option is selected when "
 "the search tool is started."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਇਹ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਖੋਜ ਸੰਦ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ \"ਉਪਭੋਗੀ ਮਲਕੀਅਤ\" ਖੋਜ "
+"ਇਹ ਕੁੰਜੀ ਇਹ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਖੋਜ ਸੰਦ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ \"ਯੂਜ਼ਰ ਮਾਲਕ ਹੈ\" ਖੋਜ "
 "ਚੋਣ ਚੁਣੀ ਹੋਵੇ ਜਾਂ "
 "ਨਾ।"
 
@@ -1991,7 +1977,7 @@ msgid ""
 "This key determines if the \"Owner is unrecognized\" search option is "
 "selected when the search tool is started."
 msgstr ""
-"ਇਹ ਕੁੰਜੀ ਇਹ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਖੋਜ ਸੰਦ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ \"ਉਪਭੋਗੀ ਅਣਜਾਣ ਹੈ\" ਖੋਜ "
+"ਇਹ ਕੁੰਜੀ ਇਹ ਨਿਰਧਾਰਤ ਕਰਦੀ ਹੈ ਕਿ ਖੋਜ ਸੰਦ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ \"ਯੂਜ਼ਰ ਅਣਜਾਣ ਹੈ\" ਖੋਜ "
 "ਚੋਣ ਚੁਣੀ ਹੋਵੇ ਜਾਂ "
 "ਨਾ।"
 
@@ -2072,22 +2058,22 @@ msgstr[1] "ਕੀ ਤੁਸੀ ਯਕਨੀਨ ਹੀ %d ਡੌਕੂਮੈਂ�
 #, c-format
 msgid "This will open %d separate window."
 msgid_plural "This will open %d separate windows."
-msgstr[0] "ਇਹ ਵੱਖਰਾ %d ਝਰੋਖਾ ਖੋਲੋਗਾ।"
-msgstr[1] "ਇਹ ਵੱਖਰੇ %d ਝਰੋਖੇ ਖੋਲੋਗਾ।"
+msgstr[0] "ਇਹ ਵੱਖਰੀ %d ਵਿੰਡੋ ਖੋਲ੍ਹੇਗਾ।"
+msgstr[1] "ਇਹ ਵੱਖਰੀਆਂ %d ਵਿੰਡੋਜ਼ ਖੋਲ੍ਹੇਗਾ।"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:382
 #, c-format
 msgid "Could not open document \"%s\"."
-msgstr "ਡੌਕੂਮੈਂਟ \"%s\" ਨੂੰ ਖੋਲਿਆ ਨਹੀ ਜਾ ਸਕਦਾ ਹੈ।"
+msgstr "ਡੌਕੂਮੈਂਟ \"%s\" ਨੂੰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:407
 #, c-format
 msgid "Could not open folder \"%s\"."
-msgstr "ਫੋਲਡਰ \"%s\" ਨੂੰ ਖੋਲਿਆ ਨਹੀ ਜਾ ਸਕਿਆ ਹੈ।"
+msgstr "ਫੋਲਡਰ \"%s\" ਨੂੰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ ਹੈ।"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:415
 msgid "The nautilus file manager is not running."
-msgstr "ਨਟੀਲਸ ਫਾਇਲ ਪਰਸ਼ਾਸਕ ਨੂੰ ਖੋਲਿਆ ਨਹੀ ਜਾ ਸਕਿਆ ਹੈ।"
+msgstr "ਨਟੀਲਸ ਫਾਇਲ ਮੈਨੇਜਰ ਨੂੰ ਖੋਲ੍ਹਿਆ ਨਹੀ ਜਾ ਸਕਿਆ ਹੈ।"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:503
 msgid "There is no installed viewer capable of displaying the document."
@@ -2159,11 +2145,11 @@ msgstr "ਰੱਖਣ ਵਾਲਾ ਫੋਲਡਰ ਖੋਲ੍ਹੋ(_F)"
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1195
 msgid "_Save Results As..."
-msgstr "ਨਤੀਜਾ ਇੰਞ ਸੰਭਾਲੋ(_S)..."
+msgstr "ਨਤੀਜੇ ਇੰਞ ਸੰਭਾਲੋ(_S)..."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1577
 msgid "Save Search Results As..."
-msgstr "ਖੋਜ ਨਤੀਜੇ ਨੂੰ ਇੰਞ ਸੰਭਾਲੋ..."
+msgstr "ਖੋਜ ਨਤੀਜਿਆਂ ਨੂੰ ਇੰਞ ਸੰਭਾਲੋ..."
 
 #: ../gsearchtool/gsearchtool-callbacks.c:1608
 msgid "Could not save document."
@@ -2228,7 +2214,7 @@ msgstr "ਕੱਲ੍ਹ %-I:%M %p ਵਜੇ"
 #: ../gsearchtool/gsearchtool-support.c:700
 #: ../gsearchtool/gsearchtool-support.c:702
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
-msgstr "%A, %B %-d %Y ਉੱਤੇ %-I:%M:%S %p"
+msgstr "%A, %-d %B %Y ਉੱਤੇ %-I:%M:%S %p"
 
 #: ../gsearchtool/gsearchtool-support.c:889
 msgid "link (broken)"
@@ -2339,7 +2325,7 @@ msgstr " (%d"
 
 #: ../gsearchtool/gsearchtool.c:81
 msgid "Contains the _text"
-msgstr "ਪਾਠ ਰੱਖਦਾ ਹੈ(_t)"
+msgstr "ਟੈਕਸਟ ਰੱਖਦਾ ਹੈ(_t)"
 
 #: ../gsearchtool/gsearchtool.c:83
 msgid "_Date modified less than"
@@ -2403,7 +2389,7 @@ msgstr "ਹੋਰ ਫਾਇਲ-ਸਿਸਟਮ ਅੱਡ ਰੱਖੋ"
 
 #: ../gsearchtool/gsearchtool.c:157
 msgid "Show version of the application"
-msgstr "ਕਾਰਜ ਦਾ ਵਰਜਨ ਵੇਖੋ"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜਨ ਵੇਖੋ"
 
 #: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
 #: ../gsearchtool/gsearchtool.c:172
@@ -2445,7 +2431,7 @@ msgstr "ਟਿਕਾਣਾ ਡਾਟਾਬੇਸ ਠੀਕ ਤਰਾਂ ਬਣ�
 #: ../gsearchtool/gsearchtool.c:486
 #, c-format
 msgid "Character set conversion failed for \"%s\""
-msgstr "\"%s\" ਲਈ ਅੱਖਰ ਸਮੂਹ ਸੰਚਾਰ ਅਸਫਲ"
+msgstr "\"%s\" ਲਈ ਅੱਖਰ ਸਮੂਹ ਬਦਲਣ ਲਈ ਫੇਲ੍ਹ"
 
 #: ../gsearchtool/gsearchtool.c:506
 msgid "Searching..."
@@ -2484,15 +2470,15 @@ msgstr[1] "%'d ਫਾਇਲਾਂ ਲੱਭੀਆਂ"
 
 #: ../gsearchtool/gsearchtool.c:1128
 msgid "Entry changed called for a non entry option!"
-msgstr "ਨਾ -ਇੰਦਰਾਜ਼ ਚੋਣ ਲਈ ਇੰਦਰਾਜ਼ ਤਬਦੀਲੀ ਕਰੋ!"
+msgstr "ਗ਼ੈਰ-ਇੰਦਰਾਜ਼ ਚੋਣ ਲਈ ਇੰਦਰਾਜ਼ ਤਬਦੀਲੀ ਕਰੋ!"
 
 #: ../gsearchtool/gsearchtool.c:1288
 msgid "Set the text of \"Name contains\" search option"
-msgstr "\"ਨਾਂ ਰੱਖਦਾ ਹੈ\" ਖੋਜ ਚੋਣ ਲਈ ਪਾਠ ਨਿਰਧਾਰਨ"
+msgstr "\"ਨਾਂ ਰੱਖਦਾ ਹੈ\" ਖੋਜ ਚੋਣ ਲਈ ਟੈਕਸਟ ਸੈੱਟ ਕਰੋ"
 
 #: ../gsearchtool/gsearchtool.c:1289
 msgid "Set the text of \"Look in folder\" search option"
-msgstr "\"ਫੋਲਡਰ ਵਿੱਚ ਵੇਖੋ\" ਖੋਜ ਚੋਣ ਲਈ ਪਾਠ ਨਿਰਧਾਰਨ"
+msgstr "\"ਫੋਲਡਰ ਵਿੱਚ ਵੇਖੋ\" ਖੋਜ ਚੋਣ ਲਈ ਟੈਕਸਟ ਸੈੱਟ"
 
 #: ../gsearchtool/gsearchtool.c:1290
 msgid "Sort files by one of the following: name, folder, size, type, or date"
@@ -2566,7 +2552,7 @@ msgstr "ਗਲਤੀ ਖੋਜ ਕਮਾਂਡ ਨੂੰ ਚਲਾਉਣ ਦੌ�
 #: ../gsearchtool/gsearchtool.c:1974
 #, c-format
 msgid "Enter a text value for the \"%s\" search option."
-msgstr "\"%s\" ਖੋਜ ਚੋਣ ਲਈ ਪਾਠ ਮੁੱਲ਼ ਦਿਓ।"
+msgstr "\"%s\" ਖੋਜ ਚੋਣ ਲਈ ਪਾਠ ਮੁੱਲ ਦਿਓ।"
 
 #. Translators:  Below is a string displaying the search options name
 #. and unit value.  For example, "\"Date modified less than\" in days".
@@ -2676,7 +2662,7 @@ msgstr "\"ਫਾਇਲਾਂ ਦੀ ਖੋਜ\" ਨੂੰ ਬੰਦ ਕਰਨ �
 
 #: ../gsearchtool/gsearchtool.c:2867
 msgid "Click to perform a search."
-msgstr "ਖੋਜ ਕਰਨ ਲ਼ਈ ਦਬਾਓ।"
+msgstr "ਖੋਜ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।"
 
 #: ../gsearchtool/gsearchtool.c:2868
 msgid "Click to stop a search."
@@ -2728,7 +2714,7 @@ msgstr "ਕੋਈ ਚਲਾਉਣਯੋਗ ਇਕਾਈ ਨਹੀਂ"
 
 #: ../libeggsmclient/eggsmclient.c:225
 msgid "Disable connection to session manager"
-msgstr "ਸ਼ੈਸ਼ਨ ਪਰਬੰਧਕ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਆਯੋਗ"
+msgstr "ਸ਼ੈਸ਼ਨ ਮੈਨੇਜਰ ਨਾਲ ਕੁਨੈਕਸ਼ਨ ਆਯੋਗ"
 
 #: ../libeggsmclient/eggsmclient.c:228
 msgid "Specify file containing saved configuration"
@@ -2933,7 +2919,7 @@ msgstr "ਲੋਡ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ..."
 
 #: ../logview/logview-main.c:61
 msgid "Show the application's version"
-msgstr "ਕਾਰਜ ਦਾ ਵਰਜਨ ਵੇਖੋ"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜਨ ਵੇਖੋ"
 
 #: ../logview/logview-main.c:63
 msgid "[LOGFILE...]"
@@ -3171,6 +3157,9 @@ msgstr "ਫੋਂਟ ਦਰਸ਼ਕ"
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
 msgid "Preview fonts"
 msgstr "ਫੋਂਟ ਝਲਕ"
+
+#~ msgid "%Y-%m-%d %H:%M:%S"
+#~ msgstr "%d-%m-%Y %H:%M:%S"
 
 #~ msgid "Dictionary Look up"
 #~ msgstr "ਡਿਕਸ਼ਨਰੀ ਖੋਜ"
