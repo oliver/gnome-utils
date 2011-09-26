@@ -1,3 +1,41 @@
+==========================================================================
+GNOME Utilities 3.2.0 (26th September 2011) - "And now, a moment of peace"
+
+This is the stable release for GNOME 3.2. Includes a fix for gnome-screenshot
+to work correctly with Mutter invisible borders and some translation updates.
+
+A S Alam (1):
+      update Punjabi Translation
+
+Andrea Zagli (1):
+      [l10n] Updated Italian translation
+
+Carles Ferrando (1):
+      [l10n]Updated Catalan (Valencian) translation
+
+Changwoo Ryu (1):
+      Updated Korean translation
+
+Cosimo Cecchi (1):
+      screenshot: compensate invisible window borders using frame extents
+
+Gabor Kelemen (1):
+      Updated Hungarian translation
+
+Inaki Larranaga Murgoitio (1):
+      Updated Basque language
+
+Wouter Bolsterlee (1):
+      Updated Dutch translation by Wouter Bolsterlee
+
+Yasumichi Akahoshi (3):
+      Updated Japanese translation
+      Added new Japanese translation for gsearchtool
+      Updated Japanese translation
+
+Мирослав Николић (1):
+      Updated Serbian translation
+
 =============================================================
 GNOME Utilities 3.1.92 (19th September 2011) - "Regular John"
 
