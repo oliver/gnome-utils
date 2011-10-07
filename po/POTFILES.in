@@ -49,8 +49,10 @@ gnome-screenshot/gnome-screenshot.c
 gnome-screenshot/gnome-screenshot.desktop.in
 [type: gettext/glade]gnome-screenshot/gnome-screenshot.ui
 gnome-screenshot/org.gnome.gnome-screenshot.gschema.xml.in
+gnome-screenshot/screenshot-config.c
 gnome-screenshot/screenshot-dialog.c
-gnome-screenshot/screenshot-save.c
+gnome-screenshot/screenshot-filename-builder.c
+gnome-screenshot/screenshot-interactive-dialog.c
 gnome-screenshot/screenshot-shadow.c
 gnome-screenshot/screenshot-utils.c
 #
