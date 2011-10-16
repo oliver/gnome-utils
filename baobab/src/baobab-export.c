@@ -42,6 +42,11 @@ baobab_import_error_quark (void)
 static gboolean
 load_node (xmlNodePtr cur, int depth, int* max_depth, GError **error)
 {
+	if (baobab.STOP_SCANNING)
+	{
+		return TRUE;
+	}
+
 	gboolean errorFound = FALSE;
 
 	if (depth > *max_depth)
