@@ -225,6 +225,10 @@ baobab_import (GFile *infileName, GError **error)
 
 	baobab_scan_prepare(targetPath);
 
+	/* for simplicity, completely disable "Rescan" if data was loaded from file */
+	g_object_unref(baobab.current_location);
+	baobab.current_location = NULL;
+
 	int max_depth = 0;
 	load_node(cur, 0, &max_depth, error);
 
