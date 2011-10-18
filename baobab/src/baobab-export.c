@@ -325,6 +325,14 @@ baobab_export (GFile *outfileName)
 		xmlTextWriterWriteAttribute(writer, "baseuri", g_file_get_uri(baobab.current_location));
 	}
 
+	{
+		GDateTime *now_time = g_date_time_new_now_utc ();
+		gchar *time_str = g_date_time_format (now_time, "%Y-%m-%dT%H:%M:%SZ");
+		g_date_time_unref(now_time);
+		xmlTextWriterWriteAttribute(writer, "created", time_str);
+		g_free(time_str);
+	}
+
 	xmlTextWriterWriteComment(writer, " Baobab directory structure dump ");
 
 	GtkTreeModel* model = GTK_TREE_MODEL(baobab.model);
